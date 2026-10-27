@@ -27,3 +27,26 @@
   const normalize=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
   document.querySelector('#entry-search')?.addEventListener('input',e=>{const query=normalize(e.target.value);let count=0;document.querySelectorAll('[data-search]').forEach(row=>{row.hidden=!normalize(row.dataset.search).includes(query);if(!row.hidden)count++});document.querySelector('#result-count').textContent=count?`${count} ${count===1?'entrada':'entradas'}`:'No hay entradas que coincidan con tu búsqueda.'});
 })();
+
+/* Notas accesibles y compatibilidad con enlaces de capítulos tradicionales */
+(()=>{
+ const dialog=document.querySelector('#note-dialog');let origin;
+ document.addEventListener('click',e=>{
+  const trigger=e.target.closest('a[data-note]');if(!trigger||!dialog||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;
+  const note=document.getElementById('fn-'+trigger.dataset.note);if(!note)return;e.preventDefault();origin=trigger;
+  document.getElementById('note-dialog-title').textContent='Nota '+trigger.dataset.note;
+  const area=document.getElementById('note-dialog-content');area.replaceChildren();area.append(note.querySelector('div').cloneNode(true));
+  dialog.showModal();dialog.querySelector('.close').focus();
+ });
+ dialog?.querySelector('.close')?.addEventListener('click',()=>dialog.close());
+ dialog?.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
+ dialog?.addEventListener('close',()=>origin?.focus());
+ document.addEventListener('click',e=>{
+  const a=e.target.closest('a[href]');if(!a||a.dataset.note)return;
+  const m=a.getAttribute('href')?.match(/^(.*?)genesis\/([123])\/index\.html#v(\d+)$/);
+  if(!m)return;
+  const c=Number(m[2]),v=Number(m[3]),unit=c===1||(c===2&&v<=3)?1:2;
+  a.setAttribute('href',m[1]+'genesis/'+unit+'/index.html#gn-'+c+'-'+v);
+ },true);
+ if(location.pathname.match(/\/genesis\/2\/index\.html$/)&&/^#v[123]$/.test(location.hash))location.replace('../1/index.html#gn-2-'+location.hash.slice(2));
+})();
