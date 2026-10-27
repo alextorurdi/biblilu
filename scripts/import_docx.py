@@ -33,6 +33,11 @@ for cat,file in [('onomastico','PERSONAJES'),('materiales','MATERIALES'),('anima
 save('entries.json',entries)
 save('bibliography.json',[t.strip() for t in paragraphs('Genesis - BIBLIOGRAFÍA.docx') if t.strip() and t.strip()!='BIBLIOGRAFÍA'])
 with ZipFile(SRC/'Genesis.docx') as z:
- for a,b in [('image5.jpeg','creacion.jpg'),('image6.jpeg','eden.jpg'),('image7.webp','tentacion.webp'),('image8.jpeg','espada.jpg')]:
+ for a,b in [('image5.jpeg','creacion.jpg'),('image6.jpeg','eden.jpg'),('image8.jpeg','espada.jpg')]:
   (ROOT/'assets'/b).write_bytes(z.read('word/media/'+a))
+# La ilustración aprobada de La Caída se conserva como PNG independiente.
+# No sobrescribirla con la imagen WebP incrustada en el Word.
+fall_image=ROOT/'assets'/'tentación.png'
+if not fall_image.is_file():
+ raise FileNotFoundError(f'Falta la ilustración aprobada: {fall_image}')
 print(f'{len(verses)} versículos, {len(entries)} fichas importadas; imágenes sin el marco independiente.')
