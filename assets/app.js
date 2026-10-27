@@ -50,3 +50,40 @@
  },true);
  if(location.pathname.match(/\/genesis\/2\/index\.html$/)&&/^#v[123]$/.test(location.hash))location.replace('../1/index.html#gn-2-'+location.hash.slice(2));
 })();
+
+/* Imagen lateral sincronizada con los capítulos bíblicos de la escena Paraíso */
+(()=>{
+ const gallery=document.querySelector('[data-scene-illustrations]');
+ if(!gallery)return;
+ const chapter3=document.getElementById('gn-3-1');
+ const expulsion=document.getElementById('gn-3-24');
+ if(!chapter3||!expulsion)return;
+ const figures=Array.from(gallery.querySelectorAll('figure[data-illustration]'));
+ let current=null,scheduled=false;
+ function update(){
+  scheduled=false;
+  /* El cambio ocurre cuando empieza a leerse el nuevo capítulo. */
+  const readingLine=Math.max(90,Math.min(window.innerHeight*0.42,350));
+  let scene='eden';
+  if(chapter3.getBoundingClientRect().top<=readingLine)scene='fall';
+  if(expulsion.getBoundingClientRect().top<=readingLine)scene='sword';
+  if(scene===current)return;
+  current=scene;
+  for(const figure of figures){
+   const active=figure.dataset.illustration===scene;
+   figure.classList.toggle('is-active',active);
+   figure.setAttribute('aria-hidden',active?'false':'true');
+  }
+ }
+ function schedule(){
+  if(scheduled)return;
+  scheduled=true;
+  window.requestAnimationFrame(update);
+ }
+ window.addEventListener('scroll',schedule,{passive:true});
+ window.addEventListener('resize',schedule);
+ window.addEventListener('hashchange',schedule);
+ window.addEventListener('pageshow',schedule);
+ window.addEventListener('load',schedule);
+ schedule();
+})();
