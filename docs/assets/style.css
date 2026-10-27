@@ -37,15 +37,34 @@
 @media print{.scene-float-nav{display:none}.reader{padding-bottom:0}}
 
 
-/* Ilustración de La Caída: acceso visible junto al texto, sin perder la versión de móvil */
+/* Ilustraciones grandes y galería lateral que acompaña la lectura en escritorio */
 @media(min-width:701px){
-  .reader .reading-art{display:flex;flex-direction:column;gap:16px;position:sticky;top:16px}
-  .reader .reading-art figure{margin:0}
-  .reader .reading-art figure:first-child img{max-height:min(28vh,270px);object-fit:contain;object-position:top center}
-  .reader .reading-art .fall-art img{display:block;width:100%;max-height:min(36vh,345px);object-fit:contain}
-  .reader .reading-art figure:last-child img{max-height:140px;object-fit:contain}
-  .reader .reading-art .fall-art{width:100%;max-width:380px}
-  .reader .reading-art .fall-art figcaption{margin-top:7px;font-size:11px;color:var(--muted)}
+  .reader .reading-layout .reading-art{
+    display:block;
+    align-self:start;
+    position:sticky;
+    top:16px;
+    height:calc(100vh - 32px);
+    height:calc(100dvh - 32px);
+    overflow-y:auto;
+    overflow-x:hidden;
+    overscroll-behavior:contain;
+    scrollbar-width:thin;
+    scrollbar-color:#b8c8bd transparent;
+  }
+  .reader .reading-art figure{display:block;width:100%;margin:0}
+  .reader .reading-art figure+figure{margin-top:30px}
+  .reader .reading-art figure:first-child img,
+  .reader .reading-art .fall-art img,
+  .reader .reading-art figure:last-child img{
+    display:block;
+    width:100%;
+    height:auto;
+    max-height:none;
+    object-fit:initial;
+  }
+  .reader .reading-art .fall-art{width:100%;max-width:none}
+  .reader .reading-art .fall-art figcaption{margin-top:9px;font-size:11px;color:var(--muted)}
   .reader .reading-art .fall-art a{display:block}
   .reader .reading-art .fall-art figcaption a{display:inline;color:var(--green);text-decoration:underline}
 }
