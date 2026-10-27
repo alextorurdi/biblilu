@@ -103,3 +103,13 @@ shutil.copytree(ROOT/'assets',OUT/'assets',dirs_exist_ok=True)
 (OUT/'assets/entries.json').write_text(json.dumps({e['id']:{'title':e['title'],'category':C[e['category']][0],'body':e['body']} for e in E},ensure_ascii=False))
 (OUT/'.nojekyll').touch()
 print('Generadas',len(list(OUT.rglob('*.html'))),'páginas estáticas.')
+
+# Restaurar las páginas temáticas que cuentan con revisión editorial aprobada.
+# No regenerarlas según la división bíblica convencional ni perder sus notas.
+for _relative in ('genesis/index.html','genesis/1/index.html','genesis/2/index.html','genesis/3/index.html'):
+ _source=ROOT/'editorial'/'approved-pages'/_relative
+ if _source.exists():
+  _dest=OUT/_relative
+  _dest.parent.mkdir(parents=True,exist_ok=True)
+  shutil.copyfile(_source,_dest)
+print('Plantillas temáticas BIBLILU v. 0.1 restauradas.')
