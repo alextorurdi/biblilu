@@ -1,10 +1,10 @@
 # BIBLILU
 
-Biblia ilustrada en español de España, preparada para GitHub Pages. Primera entrega: Génesis 1–3, cinco apéndices y bibliografía. El texto se importa de los documentos editoriales del proyecto sin corregir su redacción.
+Biblia ilustrada en español de España, preparada para GitHub Pages. Versión 0.1: «Creación» (Gn 1:1–2:3) y «Paraíso» (Gn 2:4–3:24), cinco apéndices y bibliografía. El texto se importa de los documentos editoriales del proyecto sin corregir su redacción.
 
 ## Estructura
 
-- `docs/`: sitio estático completo, listo para publicar. Contiene 303 páginas.
+- `docs/`: sitio estático completo, listo para publicar. Incluye las dos páginas temáticas revisadas y un redireccionamiento para la antigua ruta de Génesis 3.
 - `data/genesis.json`: 80 versículos con numeración canónica interna y etiqueta original independiente.
 - `data/entries.json`: 290 entradas de los apéndices.
 - `data/bibliography.json`: bibliografía del editor.
@@ -12,7 +12,7 @@ Biblia ilustrada en español de España, preparada para GitHub Pages. Primera en
 - `scripts/build.py`: generador estático sin dependencias externas.
 - `scripts/import_docx.py`: importador OOXML sin dependencias externas.
 - `scripts/check.py`: comprobación de enlaces, texto, numeración y marcado.
-- `editorial/revision-genesis-1-3.md`: diferencias observadas; ninguna aplicada.
+- `editorial/approved-pages/`: páginas temáticas aprobadas, restauradas al final de cada ejecución de `scripts/build.py` para no perder las notas y la edición.
 
 ## Generar y comprobar
 
@@ -45,8 +45,8 @@ El estado inicial publica únicamente tres capítulos. Los demás capítulos y l
 
 Se preservan las entradas repetidas mediante identificadores independientes. Las referencias bíblicas enlazan solo a capítulos disponibles. Las citas bibliográficas enlazan a una fuente individual cuando la correspondencia es única; en caso contrario abren el índice bibliográfico para no inventar una identificación.
 
-Las diferencias de numeración del documento no se corrigen silenciosamente: Gn 2:2 mantiene «1» visible, con nota y ancla estable `#v2`.
+La lectura principal sigue los capítulos temáticos originales: «Creación» (Gn 1:1–2:3) y «Paraíso» (Gn 2:4–3:24). El índice alternativo conserva la capitulación bíblica tradicional y enlaza a anclas canónicas únicas como `#gn-2-1`. Las notas numeradas se abren como ventanas accesibles; sin JavaScript se pueden consultar al final de la página. Las plantillas editoriales preservan estas decisiones al reconstruir el sitio.
 
 ## Verificación
 
-`check.py` comprueba los enlaces locales, las anclas, los 80 versículos y su fidelidad al texto importado, la ausencia de enlaces en las palabras de Dios y casos de diálogo. La inspección visual del navegador debe cubrir ordenador y móvil antes de publicar cambios de diseño.
+`check.py` comprueba los enlaces locales, los 80 versículos, las 22 notas, las anclas canónicas, los índices y que las palabras de Dios no contengan hiperenlaces. La inspección visual del navegador debe cubrir ordenador y móvil antes de publicar cambios de diseño.
