@@ -14,6 +14,10 @@ Biblia ilustrada en español de España, preparada para GitHub Pages. Versión 0
 - `scripts/check.py`: comprobación de enlaces, texto, numeración y marcado.
 - `editorial/approved-pages/`: páginas temáticas aprobadas, restauradas al final de cada ejecución de `scripts/build.py` para no perder las notas y la edición.
 
+## Convención editorial
+
+En BIBLILU las divisiones temáticas originales del manuscrito se denominan **escenas**: «Creación», «Paraíso», etc. El término **capítulo** se reserva exclusivamente para la división bíblica tradicional (Génesis 1, Génesis 2, Génesis 3, etc.). Una escena puede abarcar varios capítulos o partes de ellos. Este criterio se aplica al código, la documentación y la interfaz; no modifica los títulos originales de las escenas ni los versículos.
+
 ## Generar y comprobar
 
 Se necesita Python 3. Ejecutar desde la raíz del repositorio:
@@ -45,7 +49,7 @@ El estado inicial publica únicamente tres capítulos. Los demás capítulos y l
 
 Se preservan las entradas repetidas mediante identificadores independientes. Las referencias bíblicas enlazan solo a capítulos disponibles. Las citas bibliográficas enlazan a una fuente individual cuando la correspondencia es única; en caso contrario abren el índice bibliográfico para no inventar una identificación.
 
-La lectura principal sigue los capítulos temáticos originales: «Creación» (Gn 1:1–2:3) y «Paraíso» (Gn 2:4–3:24). El índice alternativo conserva la capitulación bíblica tradicional y enlaza a anclas canónicas únicas como `#gn-2-1`. Las notas numeradas se abren como ventanas accesibles; sin JavaScript se pueden consultar al final de la página. Las plantillas editoriales preservan estas decisiones al reconstruir el sitio.
+La lectura principal sigue las **escenas** del manuscrito: «Creación» (Gn 1:1–2:3) y «Paraíso» (Gn 2:4–3:24). El índice alternativo conserva los **capítulos** bíblicos tradicionales y enlaza a anclas canónicas únicas como `#gn-2-1`. Las notas numeradas se abren como ventanas accesibles; sin JavaScript se pueden consultar al final de la página. Las plantillas editoriales preservan estas decisiones al reconstruir el sitio.
 
 ## Verificación
 
