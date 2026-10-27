@@ -19,3 +19,19 @@
 @media(max-width:800px){.creation-columns{grid-template-columns:1fr}.creation-infographic{margin:35px 4%;padding:24px 4%}.editorial-notes ol{columns:1}}
 @media(max-width:490px){.creation-day{grid-template-columns:32px 1fr 50px;padding:8px;gap:8px;min-height:104px}.creation-icon{height:55px;font-size:27px}.creation-day h4{font-size:16px}.creation-day p{font-size:11px}.creation-links b{padding:7px 12px;margin:2px;font-size:13px}.creation-rest{grid-template-columns:45px 1fr}.creation-rest>span:last-child{display:none}.creation-rest h3{font-size:23px}}
 @media print{.editorial-notes ol{columns:1}.creation-infographic{box-shadow:none;break-before:page}.note-dialog{display:none!important}}
+
+
+/* Navegación flotante de escenas y separación limpia entre capítulos bíblicos */
+.reader .verses #gn-3-1{margin-top:76px}
+.reader .verses .story-art{display:block;width:100%;margin:36px auto 40px}
+.reader .verses .story-art img{display:block;width:100%;max-height:720px;object-fit:contain;border-radius:10px}
+.reader .verses .story-art figcaption{text-align:center;color:var(--muted);font:11px/1.5 Arial,sans-serif;margin-top:10px}
+.hide-images .story-art{display:none!important}
+.scene-float-nav{position:fixed;z-index:35;right:clamp(12px,2vw,32px);bottom:calc(20px + env(safe-area-inset-bottom,0px));display:flex;align-items:center;gap:4px;padding:5px;border-radius:999px;background:rgba(251,251,246,.96);border:1px solid #cfd7cb;box-shadow:0 10px 38px rgba(32,48,38,.16);backdrop-filter:blur(10px)}
+.scene-float-nav a{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:42px;padding:7px 15px;border-radius:999px;font:600 13px/1.2 Arial,sans-serif;color:var(--green);white-space:nowrap}
+.scene-float-nav a:hover{background:#e7eee3;text-decoration:none}
+.scene-float-nav a:focus-visible{outline-offset:-3px}
+.scene-float-nav a>span[aria-hidden=true]{font-size:19px;font-weight:400;line-height:1}
+.reader{padding-bottom:75px}
+@media(max-width:700px){.reader .verses #gn-3-1{margin-top:64px}.scene-float-nav{left:12px;right:12px;bottom:calc(9px + env(safe-area-inset-bottom,0px));justify-content:center}.scene-float-nav a{flex:1;gap:7px;padding:8px 10px;font-size:12px}.reader .verses .story-art{margin:30px auto}.reader{padding-bottom:85px}}
+@media print{.scene-float-nav{display:none}.reader{padding-bottom:0}}
