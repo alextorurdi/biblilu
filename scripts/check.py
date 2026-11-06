@@ -44,7 +44,7 @@ for verse in V:
  unit=4 if c==4 else (1 if c==1 or (c==2 and v<=3) else 2)
  path=SITE/f'genesis/{unit}/index.html'
  html=path.read_text(encoding='utf-8')
- match=re.search(r'<p class="verse" id="gn-'+str(c)+'-'+str(v)+r'">(.*?)</p>',html,re.S)
+ match=re.search(r'<p class="verse(?: poetry)?" id="gn-'+str(c)+'-'+str(v)+r'">(.*?)</p>',html,re.S)
  assert match,(c,v,'missing canonical verse')
  text=re.sub(r'<sup class="fn-marker">[\s\S]*?</sup>','',match[1])
  text=re.sub(r'<a class="verse-num"[\s\S]*?</a>','',text)
@@ -63,7 +63,7 @@ assert '<span class="divine">No moriréis' not in all_text
 assert 'id="infographic-title"' in (SITE/'genesis/1/index.html').read_text(encoding='utf-8')
 assert 'id="gn-3-24"' in (SITE/'genesis/2/index.html').read_text(encoding='utf-8')
 assert 'location.replace' in (SITE/'genesis/3/index.html').read_text(encoding='utf-8')
-assert 'Capítulos del manuscrito' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
+assert 'Escenas del manuscrito' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
 assert 'Génesis 4' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
 assert 'data-scene="crueldad"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
 assert 'data-illustration="music"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
