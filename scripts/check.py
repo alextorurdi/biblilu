@@ -36,12 +36,12 @@ for p,doc in parsed.items():
     assert old_ch3,(p,address,'missing anchor')
 
 V=json.loads((ROOT/'data/genesis.json').read_text(encoding='utf-8'))
-assert len(V)==80
+assert len(V)==104
 normalize=lambda x:re.sub(r'\s+',' ',x).strip()
 all_text=''
 for verse in V:
  c,v=verse['chapter'],verse['verse']
- unit=1 if c==1 or (c==2 and v<=3) else 2
+ unit=4 if c==4 else (1 if c==1 or (c==2 and v<=3) else 2)
  path=SITE/f'genesis/{unit}/index.html'
  html=path.read_text(encoding='utf-8')
  match=re.search(r'<p class="verse" id="gn-'+str(c)+'-'+str(v)+r'">(.*?)</p>',html,re.S)
@@ -53,7 +53,7 @@ for verse in V:
  for speech in re.findall(r'<span class="divine">([\s\S]*?)</span>',match[1]):
   assert '<a ' not in speech,(c,v,'divine text has hyperlink')
  all_text+=match[1]
-for unit,min_n,max_n in [(1,1,8),(2,9,22)]:
+for unit,min_n,max_n in [(1,1,8),(2,9,22),(4,23,39)]:
  html=(SITE/f'genesis/{unit}/index.html').read_text(encoding='utf-8')
  a=[int(x) for x in re.findall(r'id="fnref-(\d+)"',html)]
  b=[int(x) for x in re.findall(r'<li id="fn-(\d+)"',html)]
@@ -64,4 +64,9 @@ assert 'id="infographic-title"' in (SITE/'genesis/1/index.html').read_text(encod
 assert 'id="gn-3-24"' in (SITE/'genesis/2/index.html').read_text(encoding='utf-8')
 assert 'location.replace' in (SITE/'genesis/3/index.html').read_text(encoding='utf-8')
 assert 'Capítulos del manuscrito' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
-print(f'OK: {len(parsed)} páginas; 80 versículos, 22 notas, dos índices, anclas canónicas y marcado divino.')
+assert 'Génesis 4' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
+assert 'data-scene="crueldad"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
+assert 'data-illustration="music"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
+assert 'id="fnref-27"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
+assert '«dadora de vida»' in (SITE/'genesis/2/index.html').read_text(encoding='utf-8')
+print(f'OK: {len(parsed)} páginas; 104 versículos, 39 notas, dos índices, anclas canónicas y marcado divino.')
