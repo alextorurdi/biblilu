@@ -98,7 +98,7 @@
 .cain-tree .branch strong{font-size:15px;font-weight:600;background:#dae7d7;border-radius:6px;padding:5px}
 .cain-tree .branch span{background:#fffef8;border:1px solid #d5ddd1;padding:5px 4px;border-radius:6px}
 .cain-tree-mobile{display:none}
-.reading-art[data-scene="crueldad"] > figure:nth-child(2){max-width:none!important}
+.reading-art[data-scene="crueldad"] > figure:nth-child(2),.reading-art[data-scene="crueldad"] > figure:last-child{max-width:none!important}
 .reading-art[data-scene="crueldad"] > figure:nth-child(2) figcaption{font-size:13px;margin-bottom:12px}
 @media(min-width:701px){.reader .verses .cain-tree-mobile{display:none}}
 @media(max-width:700px){
