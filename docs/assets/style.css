@@ -75,3 +75,35 @@
 .reader .verses .story-art{scroll-margin-top:45px}
 .reader .verses .story-art:target{outline:2px solid #a1bea6;outline-offset:8px}
 .hide-images .reader .reading-art,.hide-images .reader .verses .story-art{display:none!important}
+
+
+/* BIBLILU v. 0.2 · Citas, discursos y escenas */
+.reader .verses .speech{font-style:italic}
+.reader .verses .speech-dash::before{content:"— ";font-style:normal}
+.reader .verses .speech-long{display:block;margin:8px 0 10px 1.3em;text-indent:-1.3em}
+.reader .verses .speech-poem{display:block;margin-left:1.7em;line-height:1.72}
+.reader .verses .poetry{margin-bottom:9px}
+.reader .verses .poetry .verse-num{vertical-align:baseline}
+.hide-colors .reader .verses .speech{color:inherit}
+.reader .cain-tree,.reader .cain-tree-mobile{font-family:Georgia,serif}
+.cain-tree{width:100%;margin:16px auto 6px;padding:20px 12px;background:linear-gradient(150deg,#f8f6ed,#e9efe7);border:1px solid #dfe8dc;border-radius:14px;color:#293e31;text-align:center}
+.cain-tree .tree-spine{display:flex;align-items:center;flex-direction:column}
+.cain-tree .tree-spine span{display:block;min-width:130px;border:1px solid #b3c5b2;padding:6px 15px;border-radius:8px;background:#fffef9;font-size:16px}
+.cain-tree .tree-spine span:not(:last-child)::after{content:"";display:block;width:2px;height:16px;background:#8da78b;position:relative;bottom:-22px;margin:-14px auto 12px}
+.cain-tree .tree-spine span+span{margin-top:19px}
+.cain-tree .tree-wives{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:350px;margin:28px auto 0;position:relative}
+.cain-tree .tree-wives::before{content:"";position:absolute;left:25%;right:25%;top:-14px;border-top:2px solid #8da78b}
+.cain-tree .branch{display:flex;flex-direction:column;gap:6px;font-size:13px}
+.cain-tree .branch::before{content:"";width:2px;height:14px;background:#8da78b;margin:-14px auto 0}
+.cain-tree .branch strong{font-size:15px;font-weight:600;background:#dae7d7;border-radius:6px;padding:5px}
+.cain-tree .branch span{background:#fffef8;border:1px solid #d5ddd1;padding:5px 4px;border-radius:6px}
+.cain-tree-mobile{display:none}
+.reading-art[data-scene="crueldad"] > figure:nth-child(2){max-width:none!important}
+.reading-art[data-scene="crueldad"] > figure:nth-child(2) figcaption{font-size:13px;margin-bottom:12px}
+@media(min-width:701px){.reader .verses .cain-tree-mobile{display:none}}
+@media(max-width:700px){
+ .reader .verses .cain-tree-mobile{display:block;margin:32px 0}
+ .reader .verses .cain-tree-mobile figcaption{font:600 13px Arial,sans-serif;color:var(--muted);margin:0 0 9px}
+ .reader .verses .speech-poem{margin-left:.8em;font-size:.94em}
+}
+@media print{.reading-art[data-scene-illustrations]>figure{display:block!important}.cain-tree-mobile{display:none!important}}
