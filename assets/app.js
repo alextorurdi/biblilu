@@ -57,16 +57,24 @@
  if(!gallery)return;
  const chapter3=document.getElementById('gn-3-1');
  const expulsion=document.getElementById('gn-3-24');
- if(!chapter3||!expulsion)return;
+ const descent=document.getElementById('gn-4-17');
+ const music=document.getElementById('gn-4-21');
+ const cruelty=gallery.dataset.scene==='crueldad';
+ if(cruelty?(!descent||!music):(!chapter3||!expulsion))return;
  const figures=Array.from(gallery.querySelectorAll('figure[data-illustration]'));
  let current=null,scheduled=false;
  function update(){
   scheduled=false;
   /* El cambio ocurre cuando empieza a leerse el nuevo capítulo. */
   const readingLine=Math.max(90,Math.min(window.innerHeight*0.42,350));
-  let scene='eden';
-  if(chapter3.getBoundingClientRect().top<=readingLine)scene='fall';
-  if(expulsion.getBoundingClientRect().top<=readingLine)scene='sword';
+  let scene=cruelty?'envy':'eden';
+  if(cruelty){
+   if(descent.getBoundingClientRect().top<=readingLine)scene='lineage';
+   if(music.getBoundingClientRect().top<=readingLine)scene='music';
+  }else{
+   if(chapter3.getBoundingClientRect().top<=readingLine)scene='fall';
+   if(expulsion.getBoundingClientRect().top<=readingLine)scene='sword';
+  }
   if(scene===current)return;
   current=scene;
   for(const figure of figures){
