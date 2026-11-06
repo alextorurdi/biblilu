@@ -70,7 +70,9 @@ headings=['Relaciones familiares','Hechos bíblicos','Identificación','Etimolog
 def entrybody(e,pre):
  raw=e['body'];pats='|'.join(map(re.escape,headings));pieces=re.split(r'(?<!\w)('+pats+r')[.:]\s*',raw)
  out='<p>'+H(pieces[0])+'</p>'
- for i in range(1,len(pieces),2):out+=f'<h2>{H(pieces[i])}</h2><p>{H(pieces[i+1])}</p>'
+ for i in range(1,len(pieces),2):
+  fragment=H(pieces[i+1]);fragment=re.sub(r'\*([^*]+)\*',r'<em>\1</em>',fragment)
+  out+=f'<h2>{H(pieces[i])}</h2><p>{fragment}</p>'
  # Referencias a pasajes disponibles, sin alterar el texto visible.
  def ref(m):
   c=int(m[1]);v=int(m[2]);return f'<a href="{pre}genesis/{c}/index.html#v{v}">{m[0]}</a>' if any(x['chapter']==c and x['verse']==v for x in V) else m[0]
@@ -98,7 +100,7 @@ for e in E:
  backlinks='<div class="backlinks"><h2>En la lectura disponible</h2>'+ ' · '.join(mentions)+'</div>' if mentions else ''
  page(f'apendices/{e["id"]}/index.html',e['title'],f'<article class="section entry"><p class="crumb"><a href="../../index.html">Apéndices</a> / <a href="../index.html">{C[cat][0]}</a></p><p class="eyebrow {cat}">{C[cat][0]}</p><h1>{H(e["title"])}</h1>{chron}<div class="entry-body">{entrybody(e,"../../../")}</div>{backlinks}</article>')
 page('bibliografia/index.html','Bibliografía','<section class="section bibliography"><p class="eyebrow">LAS FUENTES</p><h1>Bibliografía</h1><p class="intro">Obras y recursos que acompañan los apéndices de BIBLILU.</p><ol>'+''.join(f'<li id="ref-{i+1}">{H(b)}</li>' for i,b in enumerate(B))+'</ol></section>')
-page('sobre/index.html','Sobre BIBLILU','''<section class="section entry"><p class="eyebrow">EL PROYECTO</p><h1>Leer. Mirar. Descubrir.</h1><p class="intro">BIBLILU es una edición ilustrada de la Biblia que conecta cada relato con sus personajes, lugares y referencias.</p><h2>Una publicación en marcha</h2><p>Esta primera entrega contiene Génesis 1–3. Los demás capítulos y libros se incorporarán progresivamente.</p><h2>Texto e ilustraciones</h2><p>Texto base: Reina-Valera 1960, según los documentos aportados por el editor. Se conserva su redacción. Las ilustraciones fueron creadas con ChatGPT para el proyecto BIBLILU.</p><p>Reina-Valera 1960 ® © Sociedades Bíblicas en América Latina, 1960. Renovado © Sociedades Bíblicas Unidas, 1988.</p><h2>Cómo leer los colores</h2><p>Los enlaces coloreados abren los apéndices. Dios, Jehová y las palabras atribuidas a Dios aparecen en rojo, sin hipervínculos. Las criaturas celestiales se incluyen en Animales.</p><h2>La cronología de Génesis</h2><p>Las fechas de las fichas del Génesis se expresan en años desde la Creación según el propio relato; no son fechas antes de Cristo.</p></section>''')
+page('sobre/index.html','Sobre BIBLILU','''<section class="section entry"><p class="eyebrow">EL PROYECTO</p><h1>Leer. Mirar. Descubrir.</h1><p class="intro">BIBLILU es una edición ilustrada de la Biblia que conecta cada relato con sus personajes, lugares y referencias.</p><h2>Una publicación en marcha</h2><p>Esta entrega contiene Génesis 1–4. Los demás capítulos y libros se incorporarán progresivamente.</p><h2>Texto e ilustraciones</h2><p>Texto base: Reina-Valera 1960, según los documentos aportados por el editor. Se conserva su redacción. Las ilustraciones fueron creadas con ChatGPT para el proyecto BIBLILU.</p><p>Reina-Valera 1960 ® © Sociedades Bíblicas en América Latina, 1960. Renovado © Sociedades Bíblicas Unidas, 1988.</p><h2>Cómo leer los colores</h2><p>Los enlaces coloreados abren los apéndices. Dios, Jehová y las palabras atribuidas a Dios aparecen en rojo, sin hipervínculos. Las criaturas celestiales se incluyen en Animales.</p><h2>La cronología de Génesis</h2><p>Las fechas de las fichas del Génesis se expresan en años desde la Creación según el propio relato; no son fechas antes de Cristo.</p></section>''')
 shutil.copytree(ROOT/'assets',OUT/'assets',dirs_exist_ok=True)
 (OUT/'assets/entries.json').write_text(json.dumps({e['id']:{'title':e['title'],'category':C[e['category']][0],'body':e['body']} for e in E},ensure_ascii=False))
 (OUT/'.nojekyll').touch()
@@ -106,7 +108,7 @@ print('Generadas',len(list(OUT.rglob('*.html'))),'páginas estáticas.')
 
 # Restaurar las páginas temáticas que cuentan con revisión editorial aprobada.
 # No regenerarlas según la división bíblica convencional ni perder sus notas.
-for _relative in ('genesis/index.html','genesis/1/index.html','genesis/2/index.html','genesis/3/index.html'):
+for _relative in ('index.html','genesis/index.html','genesis/1/index.html','genesis/2/index.html','genesis/3/index.html','genesis/4/index.html'):
  _source=ROOT/'editorial'/'approved-pages'/_relative
  if _source.exists():
   _dest=OUT/_relative
