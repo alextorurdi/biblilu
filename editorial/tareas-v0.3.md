@@ -7,6 +7,10 @@
 - [ ] **02. Actualizar la etimología de Set en el Apéndice Onomástico:** sustituirla por el texto exacto: «Su nombre podría derivar de el verbo šît, «poner» o «establecer», quizás un juego de palabras con “sustituto (de Abel)” [Hess, 2007]».
 - [ ] **03. Actualizar la nota 35 de Gn 4:25 (Set):** sustituirla por el texto exacto: «“Ubicado” o “Establecido”, quizás un juego de palabras con “sustituto (de Abel)”.».
 
+- [ ] **04. Actualizar la nota 36 de Gn 5:6 (Enós):** sustituirla por el texto exacto: ««Hombre» o «ser humano», aunque también puede sugerir «mortal» o «frágil» sin connotaciones negativas.».
+- [ ] **05. Actualizar la etimología de Enós en el Apéndice Onomástico:** sustituirla por el texto exacto: «Su nombre procede del hebreo ʾenôš, «hombre» o «ser humano», aunque también puede sugerir «mortal» o «frágil» sin connotaciones negativas. [Hamilton, 1990]».
+- [x] **06. Incluir a Hamilton (1990) en la Bibliografía:** ya consta en `data/bibliography.json` como «Hamilton, Victor P. (1990). The book of Genesis: Chapters 1–17. Eerdmans.». No duplicar la referencia; mantenerla disponible para la cita de la ficha de Enós.
+
 ---
 
-Estado: lista abierta; ninguna tarea aplicada todavía. Las próximas correcciones editoriales se añadirán aquí antes de implementar la versión 0.3.
+Estado: lista abierta; las correcciones de la v0.3 aún no se han aplicado. La referencia bibliográfica de Hamilton ya estaba incluida. Las próximas correcciones editoriales se añadirán aquí antes de implementar la versión 0.3.
