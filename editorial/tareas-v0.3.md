@@ -18,6 +18,8 @@
 
 - [ ] **10. Actualizar la nota 42 de Gn 5:22 (Enoc):** sustituirla por el texto exacto: «Solo existe otra indicación de alguien que “caminara con Dios” en todo el Génesis (es decir, usando esa misma construcción en hebreo): Noé en Gen 6:9».
 
+- [ ] **11. Actualizar la nota 43 de Gn 5:29 (Noé):** sustituirla por el texto siguiente, con las palabras hebreas en cursiva según el formato habitual: «*Nōaḥ* significa «descanso» o «reposo», del hebreo *nûaḥ* pero aquí Lamec hace un juego de palabras con *nāḥam*, «consolar» o «aliviar».».
+
 ---
 
 Estado: lista abierta; las correcciones de la v0.3 aún no se han aplicado. La referencia bibliográfica de Hamilton ya estaba incluida. Las próximas correcciones editoriales se añadirán aquí antes de implementar la versión 0.3.
