@@ -93,7 +93,7 @@ page('apendices/index.html','Apéndices','<section class="section"><p class="eye
 for cat,(name,desc) in C.items():
  entries=[e for e in E if e['category']==cat]
  family_link='<a class="button genealogy-directory-link" href="../genealogias/index.html">Explorar los árboles genealógicos ↗</a>' if cat=='onomastico' else ''
- listing=''.join(f'<a class="entry-row {cat}" data-search="{H(e["title"].lower())}" href="{e["id"].split("/")[1]}/index.html"><strong>{H(e["title"])}</strong><span>↗</span></a>' for e in entries)
+ listing=''.join(f'<a class="entry-row {cat}" data-search="{H((e["title"]+" Kesed" if e["id"]=="onomastico/kesed" else e["title"]).lower())}" href="{e["id"].split("/")[1]}/index.html"><strong>{H(e["title"])}</strong><span>↗</span></a>' for e in entries)
  page(f'apendices/{cat}/index.html',name,f'<section class="section directory"><p class="crumb"><a href="../index.html">Apéndices</a> / {name}</p><p class="eyebrow">{len(entries)} ENTRADAS</p><h1 class="{cat}">{name}</h1><p class="intro">{desc}</p>{family_link}<label class="search-label" for="entry-search">Buscar en este apéndice</label><input id="entry-search" type="search" placeholder="Escribe un nombre o término…"><p id="result-count" role="status">{len(entries)} entradas</p><div class="entry-list">{listing}</div></section>')
 for e in E:
  cat=e['category'];chron='<p class="source-note">Las fechas expresan años desde la Creación según la cronología del Génesis.</p>' if cat=='onomastico' and re.search(r'\(\d',e['title']) else ''

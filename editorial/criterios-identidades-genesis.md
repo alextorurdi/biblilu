@@ -14,6 +14,17 @@ Resoluciones aceptadas para BIBLILU. Estos criterios afectan a la interpretació
 - **Timna:** no unificar automáticamente a la concubina de Elifaz (Gn 36:12) con la hermana de Lotán (Gn 36:22); puede tratarse de la misma persona, pero el texto no lo establece.
 - **Naama:** Gn 4:22 la identifica como hermana de Tubal-caín dentro del contexto familiar de Zila; la maternidad de Zila se representa como inferencia contextual, no como declaración expresa.
 
+## Jefaturas edomitas (Génesis 36)
+- **Aholibama, Timna, Temán y Cenaz:** aparecen tanto como nombres personales como en listas de jefaturas (Gn 36:40–43). No se deben equiparar automáticamente a personas homónimas; las designaciones también pueden aludir a clanes o territorios.
+- **Coré:** aparece como hijo de Esaú (Gn 36:5) y en la lista de jefes asociados a Elifaz (Gn 36:16). Mantener separadas las referencias mientras su identidad no pueda establecerse.
+- Conservar los registros de jefaturas diferenciados y anotar las dudas cuando se enlacen a fichas individuales.
+
+## Nombres alternativos e identificadores
+- **Abram / Abraham** y **Sarai / Sara** son pares que representan a un mismo individuo. Sus remisiones ya se conservan en el Onomástico.
+- **Jacob / Israel**, **Esaú / Edom**, **José / Zafnat-panea** y **Benoni / Benjamín** son pares de nombres del mismo individuo; mantener esta equivalencia al crear sus futuras fichas.
+- **Varona** es la denominación común «mujer» en Gn 2:23, no un nombre propio independiente de Eva. Se mantiene la remisión desde la entrada «Varona» a «Eva».
+- **Quesed** (Gn 22:22) es la grafía principal de la RVR1960. **Kesed** permanece como variante de búsqueda y se conserva la URL histórica `onomastico/kesed`, sin crear una identidad adicional.
+
 ## Pendiente
 - No modificar los SVG, el visor, la representación, el color, los identificadores ni las relaciones de los árboles hasta nueva indicación.
 - La futura navegación Onomástico ↔ genealogías (puntos 1, 2, 4 y 5) se implementará por separado.
