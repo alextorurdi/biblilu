@@ -15,6 +15,18 @@
       const text=document.createElement('p');text.className='dialog-text';text.textContent=entry.body;
       const full=document.createElement('a');full.href=link.href;full.className='button';full.textContent='Abrir la ficha completa ↗';
       content.append(cat,title,text,full);dialog.showModal();dialog.scrollTop=0;
+      if(link.dataset.entry.startsWith('onomastico/')){
+        const slug=link.dataset.entry.split('/')[1];
+        fetch(base+'assets/genealogias/enlaces.json').then(r=>{if(!r.ok)throw Error('enlaces');return r.json()}).then(map=>{
+          const person=map.entry_to_person&&map.entry_to_person[slug];
+          if(!person||!title.isConnected||!dialog.open)return;
+          const treeLink=document.createElement('a');
+          treeLink.className='genealogy-person-link';
+          treeLink.href=base+'apendices/genealogias/index.html#persona='+encodeURIComponent(person);
+          treeLink.textContent='Ver en el árbol genealógico ↗';
+          content.appendChild(treeLink);
+        }).catch(()=>{});
+      }
     }catch{location.href=link.href}
   });
   dialog?.querySelector('.close').addEventListener('click',()=>dialog.close());
@@ -152,7 +164,7 @@
    link.href=base+'apendices/genealogias/index.html#persona='+encodeURIComponent(id);
    const lead=document.createElement('span');
    lead.className='genealogy-person-lead';
-   lead.textContent='♧ Ver en el árbol genealógico ↗';
+   lead.textContent='Ver en el árbol genealógico ↗';
    const subtitle=document.createElement('small');
    subtitle.textContent='Abrir su lámina y destacar al personaje';
    link.append(lead,subtitle);

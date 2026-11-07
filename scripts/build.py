@@ -109,7 +109,7 @@ def body_with_genealogy(e):
  person=ENTRY_TO_PERSON.get(e['id'].split('/')[1]) if e['category']=='onomastico' else None
  if not person:return body
  link=(f'<a class="genealogy-person-link" href="../../../apendices/genealogias/index.html#persona={H(person)}">'
-       '<span class="genealogy-person-lead">♧ Ver en el árbol genealógico ↗</span>'
+       '<span class="genealogy-person-lead">Ver en el árbol genealógico ↗</span>'
        '<small>Abrir su lámina y destacar al personaje</small></a>')
  pattern=r'(<h2>Relaciones familiares</h2><p>.*?</p>)'
  return re.sub(pattern,lambda m:m.group(1)+link,body,count=1) if re.search(pattern,body) else body+link
