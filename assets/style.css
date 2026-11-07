@@ -120,3 +120,9 @@
 .entry-row-tail{display:inline-flex;gap:13px;align-items:center;flex-shrink:0}
 .genealogy-index-mark{display:inline-flex;align-items:center;color:var(--onomastico)}
 .genealogy-index-mark svg{display:block}
+
+/* Árbol insertado en escenas: imagen y leyenda abren el visor completo */
+.scene-genealogy-image{display:block;text-decoration:none}
+.scene-genealogy-image:hover img{outline:2px solid var(--line);outline-offset:2px}
+.scene-genealogy-link{color:var(--green);font:600 12px/1.5 Arial,sans-serif;text-decoration:underline;text-underline-offset:2px}
+.cain-tree-mobile .scene-genealogy-link{font-size:12px}

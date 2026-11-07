@@ -3,6 +3,8 @@ import json,re,html,os,shutil
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'docs';OUT.mkdir(exist_ok=True)
 E=json.loads((ROOT/'data/entries.json').read_text());V=json.loads((ROOT/'data/genesis.json').read_text());B=json.loads((ROOT/'data/bibliography.json').read_text())
 H=html.escape
+GENEALOGY_LINKS=json.loads((ROOT/'assets/genealogias/enlaces.json').read_text(encoding='utf-8'))
+ENTRY_TO_PERSON=GENEALOGY_LINKS['entry_to_person']
 C={'onomastico':('Onomástico','Personas y relaciones familiares'),'materiales':('Materiales','Objetos, minerales y símbolos'),'animales':('Animales','Animales, plantas y criaturas celestiales'),'lugares':('Lugares','La geografía del relato'),'tribus':('Tribus','Pueblos de la Antigüedad')}
 byid={e['id']:e for e in E};links={}
 # Selección contextual para Génesis 1–3. No se enlazan homónimos automáticamente.
@@ -93,8 +95,24 @@ page('apendices/index.html','Apéndices','<section class="section"><p class="eye
 for cat,(name,desc) in C.items():
  entries=[e for e in E if e['category']==cat]
  family_link='<a class="button genealogy-directory-link" href="../genealogias/index.html">Explorar los árboles genealógicos ↗</a>' if cat=='onomastico' else ''
- listing=''.join(f'<a class="entry-row {cat}" data-search="{H((e["title"]+" Kesed" if e["id"]=="onomastico/kesed" else e["title"]).lower())}" href="{e["id"].split("/")[1]}/index.html"><strong>{H(e["title"])}</strong><span>↗</span></a>' for e in entries)
+ def render_index_row(e):
+  slug=e['id'].split('/')[1]
+  person=ENTRY_TO_PERSON.get(slug) if cat=='onomastico' else None
+  glyph='<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 6v5M5 17v-6h14v6"/><rect x="9" y="2" width="6" height="4" rx="1"/><rect x="2" y="17" width="6" height="5" rx="1"/><rect x="16" y="17" width="6" height="5" rx="1"/></svg>'
+  suffix=('<span class="entry-row-tail"><span class="genealogy-index-mark" role="img" aria-label="Incluido en los árboles genealógicos" title="Representado en los árboles genealógicos">'+glyph+'</span><span>↗</span></span>') if person else '<span>↗</span>'
+  query=(e['title']+' Kesed' if e['id']=='onomastico/kesed' else e['title']).lower()
+  return f'<a class="entry-row {cat}" data-search="{H(query)}" href="{slug}/index.html"><strong>{H(e["title"])}</strong>{suffix}</a>'
+ listing=''.join(render_index_row(e) for e in entries)
  page(f'apendices/{cat}/index.html',name,f'<section class="section directory"><p class="crumb"><a href="../index.html">Apéndices</a> / {name}</p><p class="eyebrow">{len(entries)} ENTRADAS</p><h1 class="{cat}">{name}</h1><p class="intro">{desc}</p>{family_link}<label class="search-label" for="entry-search">Buscar en este apéndice</label><input id="entry-search" type="search" placeholder="Escribe un nombre o término…"><p id="result-count" role="status">{len(entries)} entradas</p><div class="entry-list">{listing}</div></section>')
+def body_with_genealogy(e):
+ body=entrybody(e,'../../../')
+ person=ENTRY_TO_PERSON.get(e['id'].split('/')[1]) if e['category']=='onomastico' else None
+ if not person:return body
+ link=(f'<a class="genealogy-person-link" href="../../../apendices/genealogias/index.html#persona={H(person)}">'
+       '<span class="genealogy-person-lead">♧ Ver en el árbol genealógico ↗</span>'
+       '<small>Abrir su lámina y destacar al personaje</small></a>')
+ pattern=r'(<h2>Relaciones familiares</h2><p>.*?</p>)'
+ return re.sub(pattern,lambda m:m.group(1)+link,body,count=1) if re.search(pattern,body) else body+link
 for e in E:
  cat=e['category'];chron='<p class="source-note">Las fechas expresan años desde la Creación según la cronología del Génesis.</p>' if cat=='onomastico' and re.search(r'\(\d',e['title']) else ''
  mentions=[]
@@ -103,11 +121,11 @@ for e in E:
   if f'data-entry="{e["id"]}"' in rendered:mentions.append(f'<a href="../../../genesis/{v["chapter"]}/index.html#v{v["verse"]}">Gn {v["chapter"]}:{v["verse"]}</a>')
  backlinks='<div class="backlinks"><h2>En la lectura disponible</h2>'+ ' · '.join(mentions)+'</div>' if mentions else ''
  biblical_mentions='<div class="backlinks"><h2>Menciones bíblicas</h2><p>'+ ' · '.join(H(r) for r in e.get('mentions',[]))+'</p></div>' if e.get('mentions') else ''
- page(f'apendices/{e["id"]}/index.html',e['title'],f'<article class="section entry"><p class="crumb"><a href="../../index.html">Apéndices</a> / <a href="../index.html">{C[cat][0]}</a></p><p class="eyebrow {cat}">{C[cat][0]}</p><h1>{H(e["title"])}</h1>{chron}<div class="entry-body">{entrybody(e,"../../../")}</div>{backlinks}{biblical_mentions}</article>')
+ page(f'apendices/{e["id"]}/index.html',e['title'],f'<article class="section entry"><p class="crumb"><a href="../../index.html">Apéndices</a> / <a href="../index.html">{C[cat][0]}</a></p><p class="eyebrow {cat}">{C[cat][0]}</p><h1>{H(e["title"])}</h1>{chron}<div class="entry-body">{body_with_genealogy(e)}</div>{backlinks}{biblical_mentions}</article>')
 page('bibliografia/index.html','Bibliografía','<section class="section bibliography"><p class="eyebrow">LAS FUENTES</p><h1>Bibliografía</h1><p class="intro">Obras y recursos que acompañan los apéndices de BIBLILU.</p><ol>'+''.join(f'<li id="ref-{i+1}">{H(b)}</li>' for i,b in enumerate(B))+'</ol></section>')
 page('sobre/index.html','Sobre BIBLILU','''<section class="section entry"><p class="eyebrow">EL PROYECTO</p><h1>Leer. Mirar. Descubrir.</h1><p class="intro">BIBLILU es una edición ilustrada de la Biblia que conecta cada relato con sus personajes, lugares y referencias.</p><h2>Una publicación en marcha</h2><p>Esta entrega contiene Génesis 1–4. Los demás capítulos y libros se incorporarán progresivamente.</p><h2>Texto e ilustraciones</h2><p>Texto base: Reina-Valera 1960, según los documentos aportados por el editor. Se conserva su redacción. Las ilustraciones fueron creadas con ChatGPT para el proyecto BIBLILU.</p><p>Reina-Valera 1960 ® © Sociedades Bíblicas en América Latina, 1960. Renovado © Sociedades Bíblicas Unidas, 1988.</p><h2>Cómo leer los colores</h2><p>Los enlaces coloreados abren los apéndices. Dios, Jehová y las palabras atribuidas a Dios aparecen en rojo, sin hipervínculos. Las criaturas celestiales se incluyen en Animales.</p><h2>La cronología de Génesis</h2><p>Las fechas de las fichas del Génesis se expresan en años desde la Creación según el propio relato; no son fechas antes de Cristo.</p></section>''')
 
-page('apendices/genealogias/index.html','Árboles genealógicos', '''<section class="section genealogy-page"><p class="crumb"><a href="../index.html">Apéndices</a> / <a href="../onomastico/index.html">Onomástico</a> / Árboles genealógicos</p><p class="eyebrow onomastico">APÉNDICE GENEALÓGICO · GÉNESIS</p><h1>De Adán y Eva<br>a las últimas generaciones.</h1><p class="intro">Explora las filiaciones del Génesis en un árbol general y 18 láminas. Busca un nombre, amplía una rama o consulta las referencias y los casos ambiguos.</p><div class="genealogy-actions"><a class="button" href="../../assets/genealogias/visor.html" target="_blank" rel="noopener">Abrir visor en una pestaña ↗</a><a class="genealogy-return" href="../onomastico/index.html">Consultar el índice onomástico →</a></div><iframe class="genealogy-frame" src="../../assets/genealogias/visor.html" title="Árboles genealógicos del Génesis: buscador y 18 láminas" loading="eager"></iframe><p class="source-note">Los nombres conservan los colores del modelo: rojo para varones y violeta para mujeres. Las entradas colectivas y las filiaciones incompletas se identifican por separado. Las referencias y los criterios de inclusión se pueden consultar dentro del visor.</p></section>''', 'genealogy')
+page('apendices/genealogias/index.html','Árboles genealógicos', '''<section class="section genealogy-page"><p class="crumb"><a href="../index.html">Apéndices</a> / <a href="../onomastico/index.html">Onomástico</a> / Árboles genealógicos</p><p class="eyebrow onomastico">APÉNDICE GENEALÓGICO · GÉNESIS</p><h1>De Adán y Eva<br>a las últimas generaciones.</h1><p class="intro">Explora las filiaciones del Génesis en un árbol general y 18 láminas. Busca un nombre, amplía una rama o consulta las referencias y los casos ambiguos.</p><div class="genealogy-actions"><a class="button" href="../../assets/genealogias/visor.html" target="_blank" rel="noopener">Abrir visor en una pestaña ↗</a><a class="genealogy-return" href="../onomastico/index.html">Consultar el índice onomástico →</a></div><iframe class="genealogy-frame" src="../../assets/genealogias/visor.html" title="Árboles genealógicos del Génesis: buscador y 18 láminas" loading="eager"></iframe><p class="source-note">Pulsa un nombre para consultar sus relaciones y abrir su ficha del Onomástico. Los nombres conservan los colores del modelo: rojo para varones y violeta para mujeres. Las entradas colectivas y las filiaciones incompletas se identifican por separado. Las referencias y los criterios de inclusión se pueden consultar dentro del visor.</p></section>''', 'genealogy')
 
 shutil.copytree(ROOT/'assets',OUT/'assets',dirs_exist_ok=True)
 (OUT/'assets/entries.json').write_text(json.dumps({e['id']:{'title':e['title'],'category':C[e['category']][0],'body':e['body']} for e in E},ensure_ascii=False))
