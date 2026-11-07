@@ -112,3 +112,11 @@
 .genealogy-frame{display:block;width:100%;height:1000px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color-scheme:light}
 .genealogy-directory-link{margin-top:8px;margin-bottom:12px}
 @media(max-width:700px){.appendix-card-main{padding:18px 14px}.appendix-tree-link{padding:14px}.genealogy-page{padding-left:4%;padding-right:4%}.genealogy-actions{gap:10px}.genealogy-frame{height:1100px}.genealogy-page .crumb{line-height:1.8}}
+
+/* Navegación entre fichas onomásticas y genealogías */
+.genealogy-person-link{display:flex;flex-direction:column;gap:3px;max-width:460px;margin:20px 0 10px;padding:16px 19px;border:1px solid var(--line);border-radius:9px;background:#eeede6;color:var(--green);font:600 14px/1.5 Arial,sans-serif;text-decoration:none!important}
+.genealogy-person-link:hover{background:#e5eadd;border-color:#9cae9d}
+.genealogy-person-link small{color:var(--muted);font:400 12px/1.5 Arial,sans-serif}
+.entry-row-tail{display:inline-flex;gap:13px;align-items:center;flex-shrink:0}
+.genealogy-index-mark{display:inline-flex;align-items:center;color:var(--onomastico)}
+.genealogy-index-mark svg{display:block}

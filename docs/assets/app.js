@@ -95,3 +95,71 @@
  window.addEventListener('load',schedule);
  schedule();
 })();
+
+
+/* Navegación bidireccional entre el Onomástico y las láminas genealógicas. */
+(()=>{
+ const base=document.body.dataset.base||'';
+ const frame=document.querySelector('.genealogy-frame');
+ if(frame){
+  const initial=frame.getAttribute('src').split('#')[0];
+  const full=document.querySelector('.genealogy-actions .button');
+  function route(){
+   const params=new URLSearchParams(location.hash.slice(1));
+   const person=params.get('persona'),section=params.get('lamina');
+   let hash='';
+   if(person&&/^[a-z0-9_-]+$/.test(person))hash='#persona='+encodeURIComponent(person);
+   else if(section&&/^(general|0[1-9]|1[0-8])$/.test(section))hash='#lamina='+encodeURIComponent(section);
+   const src=initial+hash;
+   if(frame.getAttribute('src')!==src)frame.setAttribute('src',src);
+   if(full)full.setAttribute('href',src);
+  }
+  route();
+  window.addEventListener('hashchange',route);
+ }
+ const directory=document.querySelector('.directory .entry-list');
+ const entry=document.querySelector('.entry .entry-body');
+ if(!directory&&!entry)return;
+ const match=location.pathname.match(/\/apendices\/onomastico\/([^/]+)\/(?:index\.html)?$/);
+ fetch(base+'assets/genealogias/enlaces.json').then(r=>{
+  if(!r.ok)throw Error('enlaces genealógicos');
+  return r.json();
+ }).then(map=>{
+  const links=map.entry_to_person||{};
+  if(directory){
+   for(const row of directory.querySelectorAll('.entry-row')){
+    const slug=(row.getAttribute('href')||'').split('/')[0];
+    if(!links[slug]||row.querySelector('.genealogy-index-mark'))continue;
+    const mark=document.createElement('span');
+    mark.className='genealogy-index-mark';
+    mark.title='Representado en los árboles genealógicos';
+    mark.setAttribute('role','img');
+    mark.setAttribute('aria-label','Incluido en los árboles genealógicos');
+    mark.innerHTML='<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 6v5M5 17v-6h14v6"/><rect x="9" y="2" width="6" height="4" rx="1"/><rect x="2" y="17" width="6" height="5" rx="1"/><rect x="16" y="17" width="6" height="5" rx="1"/></svg>';
+    const arrow=row.querySelector('span:last-child');
+    if(arrow){
+     const tail=document.createElement('span');
+     tail.className='entry-row-tail';
+     arrow.replaceWith(tail);
+     tail.append(mark,arrow);
+    }else row.append(mark);
+   }
+  }
+  const id=match&&links[match[1]];
+  if(entry&&id&&!entry.querySelector('.genealogy-person-link')){
+   const link=document.createElement('a');
+   link.className='genealogy-person-link';
+   link.href=base+'apendices/genealogias/index.html#persona='+encodeURIComponent(id);
+   const lead=document.createElement('span');
+   lead.className='genealogy-person-lead';
+   lead.textContent='♧ Ver en el árbol genealógico ↗';
+   const subtitle=document.createElement('small');
+   subtitle.textContent='Abrir su lámina y destacar al personaje';
+   link.append(lead,subtitle);
+   const h=Array.from(entry.querySelectorAll('h2')).find(x=>x.textContent.trim()==='Relaciones familiares');
+   const anchor=h&&h.nextElementSibling&&h.nextElementSibling.tagName==='P'?h.nextElementSibling:null;
+   if(anchor)anchor.after(link);
+   else entry.append(link);
+  }
+ }).catch(()=>{ /* Se conservan las fichas si no está disponible el índice de vínculos. */ });
+})();
