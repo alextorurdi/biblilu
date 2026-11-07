@@ -13,6 +13,9 @@
 
 - [ ] **07. Actualizar la nota 37 de Gn 5:10 (Cainán):** sustituirla por el texto exacto: «Qēnan es similar a *Qayn* (Caín), existe la hipótesis de que su padre Enós es el nuevo Adán y Cainán es el nuevo Caín.».
 
+- [ ] **08. Actualizar la nota 38 de Gn 5:12 (Mahalaleel):** sustituirla por el texto exacto: «Su nombre significa “alabanza de Dios”. [Hess, 2007]».
+- [ ] **09. Actualizar la etimología de Mahalaleel en el Apéndice Onomástico:** sustituirla por el texto exacto: «Su nombre significa “alabanza de Dios”. [Hess, 2007]».
+
 ---
 
 Estado: lista abierta; las correcciones de la v0.3 aún no se han aplicado. La referencia bibliográfica de Hamilton ya estaba incluida. Las próximas correcciones editoriales se añadirán aquí antes de implementar la versión 0.3.
