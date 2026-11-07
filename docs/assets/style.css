@@ -107,3 +107,19 @@
  .reader .verses .speech-poem{margin-left:.8em;font-size:.94em}
 }
 @media print{.reading-art[data-scene-illustrations]>figure{display:block!important}.cain-tree-mobile{display:none!important}}
+
+/* Apéndice genealógico: dos destinos dentro de la misma tarjeta onomástica. */
+.appendix-card-family{padding:0;display:flex;flex-direction:column}
+.appendix-card-main{display:block;padding:24px 18px;flex:1}
+.appendix-card-main>span:last-child{display:block;text-align:right}
+.appendix-tree-link{display:flex;justify-content:space-between;gap:10px;padding:15px 18px;border-top:1px solid var(--line);font-size:12px;line-height:1.5;background:#a4471d08}
+.appendix-tree-link:hover{background:#a4471d12}
+.genealogy-page{max-width:1440px;padding-top:35px}
+.genealogy-page h1{font-size:clamp(36px,4.4vw,60px)}
+.genealogy-page .intro{max-width:750px}
+.genealogy-actions{display:flex;align-items:center;gap:25px;flex-wrap:wrap;margin-bottom:20px}
+.genealogy-actions .button{margin:12px 0}
+.genealogy-return{font-size:13px;color:var(--onomastico)}
+.genealogy-frame{display:block;width:100%;height:1000px;border:1px solid #413547;border-radius:10px;background:#111318;color-scheme:dark}
+.genealogy-directory-link{margin-top:8px;margin-bottom:12px}
+@media(max-width:700px){.appendix-card-main{padding:18px 14px}.appendix-tree-link{padding:14px}.genealogy-page{padding-left:4%;padding-right:4%}.genealogy-actions{gap:10px}.genealogy-frame{height:1100px}.genealogy-page .crumb{line-height:1.8}}

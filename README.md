@@ -54,3 +54,7 @@ La lectura principal sigue las **escenas** del manuscrito: «Creación» (Gn 1:1
 ## Verificación
 
 `check.py` comprueba los enlaces locales, los 80 versículos, las 22 notas, las anclas canónicas, los índices y que las palabras de Dios no contengan hiperenlaces. La inspección visual del navegador debe cubrir ordenador y móvil antes de publicar cambios de diseño.
+
+## Apéndice genealógico
+
+`apendices/genealogias/` contiene el visor del Génesis, con árbol general, 18 láminas, buscador, referencias y notas. Se accede desde la misma tarjeta del Onomástico en la portada y en el índice de apéndices, y desde el directorio onomástico. La fuente autocontenida está en `assets/genealogias/visor.html`; el generador la copia a `docs/assets/genealogias/` y crea su página dentro de la navegación habitual.
