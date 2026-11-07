@@ -80,7 +80,7 @@ def entrybody(e,pre):
   out+=f'<h2>{H(pieces[i])}</h2><p>{fragment}</p>'
  # Referencias a pasajes disponibles, sin alterar el texto visible.
  def ref(m):
-  c=int(m[1]);v=int(m[2]);return f'<a href="{pre}genesis/{c}/index.html#v{v}">{m[0]}</a>' if any(x['chapter']==c and x['verse']==v for x in V) else m[0]
+  c=int(m[1]);v=int(m[2]);return f'<a href="{pre}genesis/{5 if c==5 or (c==4 and v>=25) else c}/index.html#gn-{c}-{v}">{m[0]}</a>' if any(x['chapter']==c and x['verse']==v for x in V) else m[0]
  out=re.sub(r'\b(?:Gn|Gen|Génesis)\s+(\d+):(\d+)(?:-\d+)?',ref,out)
  def cite(m):
   s=html.unescape(m[1]);first=s.split(',')[0].strip().lower();year=re.search(r'\d{4}',s);candidates=[i for i,b in enumerate(B) if first in b.lower() and (not year or year[0] in b)]
@@ -118,12 +118,12 @@ for e in E:
  mentions=[]
  for v in V:
   rendered=verse(v,'../../../')
-  if f'data-entry="{e["id"]}"' in rendered:mentions.append(f'<a href="../../../genesis/{v["chapter"]}/index.html#v{v["verse"]}">Gn {v["chapter"]}:{v["verse"]}</a>')
+  if f'data-entry="{e["id"]}"' in rendered:mentions.append(f'<a href="../../../genesis/{5 if v["chapter"]==5 or (v["chapter"]==4 and v["verse"]>=25) else v["chapter"]}/index.html#gn-{v["chapter"]}-{v["verse"]}">Gn {v["chapter"]}:{v["verse"]}</a>')
  backlinks='<div class="backlinks"><h2>En la lectura disponible</h2>'+ ' · '.join(mentions)+'</div>' if mentions else ''
  biblical_mentions='<div class="backlinks"><h2>Menciones bíblicas</h2><p>'+ ' · '.join(H(r) for r in e.get('mentions',[]))+'</p></div>' if e.get('mentions') else ''
  page(f'apendices/{e["id"]}/index.html',e['title'],f'<article class="section entry"><p class="crumb"><a href="../../index.html">Apéndices</a> / <a href="../index.html">{C[cat][0]}</a></p><p class="eyebrow {cat}">{C[cat][0]}</p><h1>{H(e["title"])}</h1>{chron}<div class="entry-body">{body_with_genealogy(e)}</div>{backlinks}{biblical_mentions}</article>')
 page('bibliografia/index.html','Bibliografía','<section class="section bibliography"><p class="eyebrow">LAS FUENTES</p><h1>Bibliografía</h1><p class="intro">Obras y recursos que acompañan los apéndices de BIBLILU.</p><ol>'+''.join(f'<li id="ref-{i+1}">{H(b)}</li>' for i,b in enumerate(B))+'</ol></section>')
-page('sobre/index.html','Sobre BIBLILU','''<section class="section entry"><p class="eyebrow">EL PROYECTO</p><h1>Leer. Mirar. Descubrir.</h1><p class="intro">BIBLILU es una edición ilustrada de la Biblia que conecta cada relato con sus personajes, lugares y referencias.</p><h2>Una publicación en marcha</h2><p>Esta entrega contiene Génesis 1–4. Los demás capítulos y libros se incorporarán progresivamente.</p><h2>Texto e ilustraciones</h2><p>Texto base: Reina-Valera 1960, según los documentos aportados por el editor. Se conserva su redacción. Las ilustraciones fueron creadas con ChatGPT para el proyecto BIBLILU.</p><p>Reina-Valera 1960 ® © Sociedades Bíblicas en América Latina, 1960. Renovado © Sociedades Bíblicas Unidas, 1988.</p><h2>Cómo leer los colores</h2><p>Los enlaces coloreados abren los apéndices. Dios, Jehová y las palabras atribuidas a Dios aparecen en rojo, sin hipervínculos. Las criaturas celestiales se incluyen en Animales.</p><h2>La cronología de Génesis</h2><p>Las fechas de las fichas del Génesis se expresan en años desde la Creación según el propio relato; no son fechas antes de Cristo.</p></section>''')
+page('sobre/index.html','Sobre BIBLILU','''<section class="section entry"><p class="eyebrow">EL PROYECTO</p><h1>Leer. Mirar. Descubrir.</h1><p class="intro">BIBLILU es una edición ilustrada de la Biblia que conecta cada relato con sus personajes, lugares y referencias.</p><h2>Una publicación en marcha</h2><p>Esta entrega contiene Génesis 1–5. Los demás capítulos y libros se incorporarán progresivamente.</p><h2>Texto e ilustraciones</h2><p>Texto base: Reina-Valera 1960, según los documentos aportados por el editor. Se conserva su redacción. Las ilustraciones fueron creadas con ChatGPT para el proyecto BIBLILU.</p><p>Reina-Valera 1960 ® © Sociedades Bíblicas en América Latina, 1960. Renovado © Sociedades Bíblicas Unidas, 1988.</p><h2>Cómo leer los colores</h2><p>Los enlaces coloreados abren los apéndices. Dios, Jehová y las palabras atribuidas a Dios aparecen en rojo, sin hipervínculos. Las criaturas celestiales se incluyen en Animales.</p><h2>La cronología de Génesis</h2><p>Las fechas de las fichas del Génesis se expresan en años desde la Creación según el propio relato; no son fechas antes de Cristo.</p></section>''')
 
 page('apendices/genealogias/index.html','Árboles genealógicos', '''<section class="section genealogy-page"><p class="crumb"><a href="../index.html">Apéndices</a> / <a href="../onomastico/index.html">Onomástico</a> / Árboles genealógicos</p><p class="eyebrow onomastico">APÉNDICE GENEALÓGICO · GÉNESIS</p><h1>De Adán y Eva<br>a las últimas generaciones.</h1><p class="intro">Explora las filiaciones del Génesis en un árbol general y 18 láminas. Busca un nombre, amplía una rama o consulta las referencias y los casos ambiguos.</p><div class="genealogy-actions"><a class="button" href="../../assets/genealogias/visor.html" target="_blank" rel="noopener">Abrir visor en una pestaña ↗</a><a class="genealogy-return" href="../onomastico/index.html">Consultar el índice onomástico →</a></div><iframe class="genealogy-frame" src="../../assets/genealogias/visor.html" title="Árboles genealógicos del Génesis: buscador y 18 láminas" loading="eager"></iframe><p class="source-note">Pulsa un nombre para consultar sus relaciones y abrir su ficha del Onomástico. Los nombres conservan los colores del modelo: rojo para varones y violeta para mujeres. Las entradas colectivas y las filiaciones incompletas se identifican por separado. Las referencias y los criterios de inclusión se pueden consultar dentro del visor.</p></section>''', 'genealogy')
 
@@ -134,7 +134,7 @@ print('Generadas',len(list(OUT.rglob('*.html'))),'páginas estáticas.')
 
 # Restaurar las páginas temáticas que cuentan con revisión editorial aprobada.
 # No regenerarlas según la división bíblica convencional ni perder sus notas.
-for _relative in ('index.html','genesis/index.html','genesis/1/index.html','genesis/2/index.html','genesis/3/index.html','genesis/4/index.html'):
+for _relative in ('index.html','genesis/index.html','genesis/1/index.html','genesis/2/index.html','genesis/3/index.html','genesis/4/index.html','genesis/5/index.html'):
  _source=ROOT/'editorial'/'approved-pages'/_relative
  if _source.exists():
   _dest=OUT/_relative

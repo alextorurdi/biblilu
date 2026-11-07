@@ -155,7 +155,7 @@
 .chrono-flood{margin-top:18px;border-left:3px solid #ae6846;padding-left:13px}
 .chrono-flood strong{font:600 14px Arial,sans-serif}.chrono-flood p{margin:6px 0}
 .chrono-caveat{padding-top:12px;border-top:1px solid var(--line)}
-.hide-images .scene-four .scene-tree-mobile,.hide-images .scene-four .scene-chronology-mobile,.hide-images .scene-four .scene-enoc-art,.hide-images .scene-four .scene-four-side{display:none!important}
+.scene-four.hide-images .scene-tree-mobile,.scene-four.hide-images .scene-chronology-mobile,.scene-four.hide-images .scene-enoc-art,.scene-four.hide-images .scene-four-side{display:none!important}
 @media(max-width:1000px) and (min-width:701px){.scene-four .scene-four-layout{gap:25px;grid-template-columns:minmax(0,1fr) 280px}.scene-four-side .scene-chronology{padding:10px}.chrono-row{grid-template-columns:65px minmax(50px,1fr) 70px;gap:4px}}
 @media(max-width:700px){
  .scene-four .scene-four-layout{display:block;padding:20px 6%}
