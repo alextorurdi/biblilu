@@ -16,6 +16,8 @@
 - [ ] **08. Actualizar la nota 38 de Gn 5:12 (Mahalaleel):** sustituirla por el texto exacto: «Su nombre significa “alabanza de Dios”. [Hess, 2007]».
 - [ ] **09. Actualizar la etimología de Mahalaleel en el Apéndice Onomástico:** sustituirla por el texto exacto: «Su nombre significa “alabanza de Dios”. [Hess, 2007]».
 
+- [ ] **10. Actualizar la nota 42 de Gn 5:22 (Enoc):** sustituirla por el texto exacto: «Solo existe otra indicación de alguien que “caminara con Dios” en todo el Génesis (es decir, usando esa misma construcción en hebreo): Noé en Gen 6:9».
+
 ---
 
 Estado: lista abierta; las correcciones de la v0.3 aún no se han aplicado. La referencia bibliográfica de Hamilton ya estaba incluida. Las próximas correcciones editoriales se añadirán aquí antes de implementar la versión 0.3.
