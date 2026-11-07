@@ -1,0 +1,80 @@
+{
+  "basis": "RVR1960 / texto masorético",
+  "axis": {
+    "from": 0,
+    "to": 1656,
+    "flood": 1656
+  },
+  "people": [
+    {
+      "name": "Adán",
+      "from": 0,
+      "to": 930,
+      "label": "0–930",
+      "age": "930 años"
+    },
+    {
+      "name": "Set",
+      "from": 130,
+      "to": 1042,
+      "label": "130–1042",
+      "age": "912 años"
+    },
+    {
+      "name": "Enós",
+      "from": 235,
+      "to": 1140,
+      "label": "235–1140",
+      "age": "905 años"
+    },
+    {
+      "name": "Cainán",
+      "from": 325,
+      "to": 1235,
+      "label": "325–1235",
+      "age": "910 años"
+    },
+    {
+      "name": "Mahalaleel",
+      "from": 395,
+      "to": 1290,
+      "label": "395–1290",
+      "age": "895 años"
+    },
+    {
+      "name": "Jared",
+      "from": 460,
+      "to": 1422,
+      "label": "460–1422",
+      "age": "962 años"
+    },
+    {
+      "name": "Enoc",
+      "from": 622,
+      "to": 987,
+      "label": "622–987",
+      "age": "365 años · trasladado"
+    },
+    {
+      "name": "Matusalén",
+      "from": 687,
+      "to": 1656,
+      "label": "687–1656",
+      "age": "969 años"
+    },
+    {
+      "name": "Lamec",
+      "from": 874,
+      "to": 1651,
+      "label": "874–1651",
+      "age": "777 años"
+    },
+    {
+      "name": "Noé",
+      "from": 1056,
+      "to": null,
+      "label": "Desde 1056",
+      "age": "Vive durante el Diluvio"
+    }
+  ]
+}

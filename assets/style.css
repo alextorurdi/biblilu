@@ -126,3 +126,44 @@
 .scene-genealogy-image:hover img{outline:2px solid var(--line);outline-offset:2px}
 .scene-genealogy-link{color:var(--green);font:600 12px/1.5 Arial,sans-serif;text-decoration:underline;text-underline-offset:2px}
 .cain-tree-mobile .scene-genealogy-link{font-size:12px}
+
+
+/* v0.3 · Escena 4: lámina genealógica y cronología sin cambios de contenido en las escenas anteriores */
+.scene-four .scene-four-layout{align-items:stretch;max-width:1320px;grid-template-columns:minmax(0,660px) minmax(305px,420px);gap:48px}
+.scene-four-side{position:relative;display:block!important;max-width:none!important;padding-top:0}
+.scene-four-side>figure{display:none!important;position:sticky;top:20px;margin:0!important;max-width:none!important;max-height:calc(100vh - 40px);overflow:auto;scrollbar-width:thin}
+.scene-four-side>figure.is-active{display:block!important}
+.scene-four-side>figure[data-panel="tree"]>a>img{width:100%;height:auto;max-height:calc(100vh - 96px);object-fit:contain;object-position:top center}
+.scene-four-side>figure>figcaption,.scene-tree-mobile>figcaption{font:600 12px/1.6 Arial,sans-serif;color:var(--muted);padding-bottom:10px}
+.scene-four-side .scene-chronology{padding:14px}
+.scene-four .scene-tree-mobile,.scene-four .scene-chronology-mobile{display:none}
+.scene-four .scene-enoc-art{margin:28px auto 38px;max-width:600px}
+.scene-four .scene-enoc-art img{display:block;width:100%;height:auto;border-radius:10px;object-fit:cover}
+.scene-four .scene-enoc-art figcaption{font:12px/1.6 Arial,sans-serif;color:var(--muted);margin-top:8px}
+.scene-section-transition{height:1px;margin:28px 0;background:var(--line)}
+.scene-chronology{background:linear-gradient(160deg,#fbfaf5,#eef2ec);border:1px solid #d6dfd6;border-radius:14px;padding:22px;color:var(--ink)}
+.scene-chronology h2{font:normal 27px/1.2 Georgia,serif;margin:8px 0}
+.scene-chronology .eyebrow{font-size:10px}
+.chrono-subtitle,.chrono-caveat,.chrono-flood p{font:12px/1.6 Arial,sans-serif;color:var(--muted)}
+.chrono-scale{display:flex;justify-content:space-between;font:10px Arial,sans-serif;color:var(--muted);padding:14px 0 10px 78px;border-bottom:1px solid var(--line)}
+.chrono-row{display:grid;grid-template-columns:72px minmax(65px,1fr) 78px;gap:7px;align-items:center;padding:9px 0;border-bottom:1px solid #d9dfd6}
+.chrono-name{font:600 12px Arial,sans-serif}
+.chrono-rail{position:relative;height:11px;background:#e1e5da;border-radius:8px;overflow:hidden}
+.chrono-bar{position:absolute;height:100%;top:0;background:#648575;border-radius:8px}
+.chrono-row.translated .chrono-bar{background:#c0905a}
+.chrono-years{font:10px Arial,sans-serif;text-align:right}.chrono-years strong{font-weight:600}.chrono-years small{display:block;color:var(--muted);margin-top:3px}
+.chrono-flood{margin-top:18px;border-left:3px solid #ae6846;padding-left:13px}
+.chrono-flood strong{font:600 14px Arial,sans-serif}.chrono-flood p{margin:6px 0}
+.chrono-caveat{padding-top:12px;border-top:1px solid var(--line)}
+.hide-images .scene-four .scene-tree-mobile,.hide-images .scene-four .scene-chronology-mobile,.hide-images .scene-four .scene-enoc-art,.hide-images .scene-four .scene-four-side{display:none!important}
+@media(max-width:1000px) and (min-width:701px){.scene-four .scene-four-layout{gap:25px;grid-template-columns:minmax(0,1fr) 280px}.scene-four-side .scene-chronology{padding:10px}.chrono-row{grid-template-columns:65px minmax(50px,1fr) 70px;gap:4px}}
+@media(max-width:700px){
+ .scene-four .scene-four-layout{display:block;padding:20px 6%}
+ .scene-four .scene-four-side{display:none!important}
+ .scene-four .scene-tree-mobile{display:block;margin:28px 0;padding:15px;border:1px solid var(--line);border-radius:10px}
+ .scene-four .scene-tree-mobile img{display:block;width:100%;height:auto;max-height:850px;object-fit:contain}
+ .scene-four .scene-chronology-mobile{display:block;margin:36px 0 12px}
+ .scene-four .scene-chronology{padding:16px}
+ .scene-four .scene-enoc-art{margin:25px auto}
+}
+@media print{.scene-four-side{display:none!important}.scene-four .scene-tree-mobile,.scene-four .scene-chronology-mobile{display:block!important}}

@@ -1,0 +1,395 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="465pt" height="1269pt" viewBox="0.00 0.00 464.60 1268.60" role="group" aria-label="De Set a Noé">
+<g id="02-graph0" class="graph" transform="scale(1 1) rotate(0) translate(28.8 1239.8)">
+<title>G</title>
+
+<g id="02-edge15" class="edge">
+<title>adam-&gt;anon_adam</title>
+<g id="02-a_edge15"><a ns1:title="Gn 5:4 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M197.23,-1165.95C193.78,-1150.33 189.08,-1129.06 185.31,-1112.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="187.66,-1111.33 183.76,-1105.02 182.88,-1112.39 187.66,-1111.33" />
+</a>
+</g>
+</g>
+
+<g id="02-edge1" class="edge">
+<title>adam-&gt;u0</title>
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M229.59,-1165.82C260.7,-1141.38 307,-1105 307,-1105 307,-1105 314.54,-1098.51 321.34,-1092.66" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="322.99,-1094.48 326.7,-1088.06 319.79,-1090.77 322.99,-1094.48" />
+</g>
+
+<g id="02-edge18" class="edge">
+<title>cainan-&gt;anon_cainan</title>
+<g id="02-a_edge18"><a ns1:title="Gn 5:13 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M286.83,-741.95C251.61,-725.15 202.66,-701.79 165.84,-684.23" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="166.48,-681.82 159.11,-681.02 164.37,-686.25 166.48,-681.82" />
+</a>
+</g>
+</g>
+
+<g id="02-edge6" class="edge">
+<title>cainan-&gt;mahalaleel</title>
+<g id="02-a_edge6"><a ns1:title="Gn 5:12 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M332,-741.95C332,-726.33 332,-705.06 332,-688.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="334.45,-688.02 332,-681.02 329.55,-688.02 334.45,-688.02" />
+</a>
+</g>
+</g>
+
+<g id="02-edge21" class="edge">
+<title>enoc_s-&gt;anon_enoc_s</title>
+<g id="02-a_edge21"><a ns1:title="Gn 5:22 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M290.48,-425.32C255.67,-408.41 205.83,-384.18 168.67,-366.12" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="169.72,-363.91 162.35,-363.05 167.57,-368.32 169.72,-363.91" />
+</a>
+</g>
+</g>
+
+<g id="02-edge9" class="edge">
+<title>enoc_s-&gt;matusalen</title>
+<g id="02-a_edge9"><a ns1:title="Gn 5:21 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M332,-423.95C332,-408.33 332,-387.06 332,-370.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="334.45,-370.02 332,-363.02 329.55,-370.02 334.45,-370.02" />
+</a>
+</g>
+</g>
+
+<g id="02-edge17" class="edge">
+<title>enos-&gt;anon_enos</title>
+<g id="02-a_edge17"><a ns1:title="Gn 5:10 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M291.39,-847.95C259.85,-831.22 216.07,-807.99 183.02,-790.45" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="183.89,-788.14 176.56,-787.02 181.59,-792.47 183.89,-788.14" />
+</a>
+</g>
+</g>
+
+<g id="02-edge5" class="edge">
+<title>enos-&gt;cainan</title>
+<g id="02-a_edge5"><a ns1:title="Gn 5:9 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M332,-847.95C332,-832.33 332,-811.06 332,-794.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="334.45,-794.02 332,-787.02 329.55,-794.02 334.45,-794.02" />
+</a>
+</g>
+</g>
+
+<g id="02-edge2" class="edge">
+<title>eve-&gt;u0</title>
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M332,-1165.95C332,-1146.35 332,-1117.82 332,-1099.98" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="334.45,-1099.61 332,-1092.61 329.55,-1099.61 334.45,-1099.61" />
+</g>
+
+<g id="02-edge20" class="edge">
+<title>jared-&gt;anon_jared</title>
+<g id="02-a_edge20"><a ns1:title="Gn 5:19 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M293.67,-529.95C264.03,-513.29 222.92,-490.18 191.77,-472.67" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="192.59,-470.32 185.28,-469.02 190.18,-474.59 192.59,-470.32" />
+</a>
+</g>
+</g>
+
+<g id="02-edge8" class="edge">
+<title>jared-&gt;enoc_s</title>
+<g id="02-a_edge8"><a ns1:title="Gn 5:18 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M332,-529.95C332,-514.33 332,-493.06 332,-476.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="334.45,-476.02 332,-469.02 329.55,-476.02 334.45,-476.02" />
+</a>
+</g>
+</g>
+
+<g id="02-edge23" class="edge">
+<title>lamec_s-&gt;anon_lamec_s</title>
+<g id="02-a_edge23"><a ns1:title="Gn 5:30 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M294.91,-211.95C266.23,-195.29 226.46,-172.18 196.32,-154.67" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="197.32,-152.42 190.04,-151.02 194.86,-156.66 197.32,-152.42" />
+</a>
+</g>
+</g>
+
+<g id="02-edge11" class="edge">
+<title>lamec_s-&gt;noe</title>
+<g id="02-a_edge11"><a ns1:title="Gn 5:28–29 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M332,-211.95C332,-196.33 332,-175.06 332,-158.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="334.45,-158.02 332,-151.02 329.55,-158.02 334.45,-158.02" />
+</a>
+</g>
+</g>
+
+<g id="02-edge19" class="edge">
+<title>mahalaleel-&gt;anon_mahalaleel</title>
+<g id="02-a_edge19"><a ns1:title="Gn 5:16 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M293.46,-635.95C263.53,-619.22 221.99,-595.99 190.62,-578.45" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="191.8,-576.3 184.49,-575.02 189.4,-580.58 191.8,-576.3" />
+</a>
+</g>
+</g>
+
+<g id="02-edge7" class="edge">
+<title>mahalaleel-&gt;jared</title>
+<g id="02-a_edge7"><a ns1:title="Gn 5:15 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M332,-635.95C332,-620.33 332,-599.06 332,-582.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="334.45,-582.02 332,-575.02 329.55,-582.02 334.45,-582.02" />
+</a>
+</g>
+</g>
+
+<g id="02-edge22" class="edge">
+<title>matusalen-&gt;anon_matusalen</title>
+<g id="02-a_edge22"><a ns1:title="Gn 5:26 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M291.8,-317.95C260.59,-301.22 217.26,-277.99 184.54,-260.45" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="185.47,-258.17 178.15,-257.02 183.16,-262.49 185.47,-258.17" />
+</a>
+</g>
+</g>
+
+<g id="02-edge10" class="edge">
+<title>matusalen-&gt;lamec_s</title>
+<g id="02-a_edge10"><a ns1:title="Gn 5:25 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M332,-317.95C332,-302.33 332,-281.06 332,-264.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="334.45,-264.02 332,-257.02 329.55,-264.02 334.45,-264.02" />
+</a>
+</g>
+</g>
+
+<g id="02-edge13" class="edge">
+<title>noe-&gt;cam</title>
+<g id="02-a_edge13"><a ns1:title="Gn 5:32; 10:1 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M295.87,-109.86C259.74,-92.22 204.06,-65.03 164.84,-45.88" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="165.57,-43.51 158.2,-42.64 163.42,-47.91 165.57,-43.51" />
+</a>
+</g>
+</g>
+
+<g id="02-edge14" class="edge">
+<title>noe-&gt;jafet</title>
+<g id="02-a_edge14"><a ns1:title="Gn 5:32; 10:1 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M310.04,-105.95C293.55,-89.78 270.88,-67.53 253.24,-50.22" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="254.65,-48.17 247.94,-45.02 251.22,-51.67 254.65,-48.17" />
+</a>
+</g>
+</g>
+
+<g id="02-edge12" class="edge">
+<title>noe-&gt;sem</title>
+<g id="02-a_edge12"><a ns1:title="Gn 5:32; 10:1 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M332,-105.95C332,-90.33 332,-69.06 332,-52.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="334.45,-52.02 332,-45.02 329.55,-52.02 334.45,-52.02" />
+</a>
+</g>
+</g>
+
+<g id="02-edge16" class="edge">
+<title>set-&gt;anon_set</title>
+<g id="02-a_edge16"><a ns1:title="Gn 5:7 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M301.2,-958.09C271.44,-941.27 226.05,-915.61 192.39,-896.59" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="193.54,-894.43 186.24,-893.12 191.13,-898.69 193.54,-894.43" />
+</a>
+</g>
+</g>
+
+<g id="02-edge4" class="edge">
+<title>set-&gt;enos</title>
+<g id="02-a_edge4"><a ns1:title="Gn 5:6 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M332,-953.95C332,-938.33 332,-917.06 332,-900.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="334.45,-900.02 332,-893.02 329.55,-900.02 334.45,-900.02" />
+</a>
+</g>
+</g>
+
+<g id="02-edge3" class="edge">
+<title>u0-&gt;set</title>
+<g id="02-a_edge3"><a ns1:title="Gn 4:1–2,25 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M332,-1072.27C332,-1057.62 332,-1028.44 332,-1006.31" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="334.45,-1006.1 332,-999.1 329.55,-1006.1 334.45,-1006.1" />
+</a>
+</g>
+</g>
+
+<g id="02-node1" class="node" data-person="adam">
+<title>Adán · Gn 2:7; 4:1</title>
+<g id="02-a_node1"><a ns1:title="Gn 2:7; 4:1 · ">
+<text text-anchor="middle" x="202" y="-1181.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Adán</text>
+</a>
+</g>
+</g>
+
+<g id="02-node2" class="node" data-person="anon_adam">
+<title>Otros hijos e hijas · Gn 5:4</title>
+<g id="02-a_node2"><a ns1:title="Gn 5:4 · Número y nombres no indicados.">
+<text text-anchor="middle" x="179" y="-1075.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Otros hijos e hijas</text>
+</a>
+</g>
+</g>
+
+<g id="02-node3" class="node" data-person="anon_cainan">
+<title>Otros hijos e hijas · Gn 5:13</title>
+<g id="02-a_node3"><a ns1:title="Gn 5:13 · Número y nombres no indicados.">
+<text text-anchor="middle" x="114" y="-651.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Otros hijos e hijas</text>
+</a>
+</g>
+</g>
+
+<g id="02-node4" class="node" data-person="anon_enoc_s">
+<title>Otros hijos e hijas · Gn 5:22</title>
+<g id="02-a_node4"><a ns1:title="Gn 5:22 · Número y nombres no indicados.">
+<text text-anchor="middle" x="118" y="-333.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Otros hijos e hijas</text>
+</a>
+</g>
+</g>
+
+<g id="02-node5" class="node" data-person="anon_enos">
+<title>Otros hijos e hijas · Gn 5:10</title>
+<g id="02-a_node5"><a ns1:title="Gn 5:10 · Número y nombres no indicados.">
+<text text-anchor="middle" x="136" y="-757.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Otros hijos e hijas</text>
+</a>
+</g>
+</g>
+
+<g id="02-node6" class="node" data-person="anon_jared">
+<title>Otros hijos e hijas · Gn 5:19</title>
+<g id="02-a_node6"><a ns1:title="Gn 5:19 · Número y nombres no indicados.">
+<text text-anchor="middle" x="147" y="-439.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Otros hijos e hijas</text>
+</a>
+</g>
+</g>
+
+<g id="02-node7" class="node" data-person="anon_lamec_s">
+<title>Otros hijos e hijas · Gn 5:30</title>
+<g id="02-a_node7"><a ns1:title="Gn 5:30 · Número y nombres no indicados.">
+<text text-anchor="middle" x="153" y="-121.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Otros hijos e hijas</text>
+</a>
+</g>
+</g>
+
+<g id="02-node8" class="node" data-person="anon_mahalaleel">
+<title>Otros hijos e hijas · Gn 5:16</title>
+<g id="02-a_node8"><a ns1:title="Gn 5:16 · Número y nombres no indicados.">
+<text text-anchor="middle" x="146" y="-545.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Otros hijos e hijas</text>
+</a>
+</g>
+</g>
+
+<g id="02-node9" class="node" data-person="anon_matusalen">
+<title>Otros hijos e hijas · Gn 5:26</title>
+<g id="02-a_node9"><a ns1:title="Gn 5:26 · Número y nombres no indicados.">
+<text text-anchor="middle" x="138" y="-227.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Otros hijos e hijas</text>
+</a>
+</g>
+</g>
+
+<g id="02-node10" class="node" data-person="anon_set">
+<title>Otros hijos e hijas · Gn 5:7</title>
+<g id="02-a_node10"><a ns1:title="Gn 5:7 · Número y nombres no indicados.">
+<text text-anchor="middle" x="148" y="-863.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Otros hijos e hijas</text>
+</a>
+</g>
+</g>
+
+<g id="02-node11" class="node" data-person="cainan">
+<title>Cainán · Gn 5</title>
+<g id="02-a_node11"><a ns1:title="Gn 5 · ">
+<text text-anchor="middle" x="332" y="-757.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Cainán</text>
+</a>
+</g>
+</g>
+
+<g id="02-node12" class="node" data-person="cam">
+<title>Cam · Gn 5:32; 10:1</title>
+<g id="02-a_node12"><a ns1:title="Gn 5:32; 10:1 · ">
+<text text-anchor="middle" x="119" y="-15.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Cam</text>
+</a>
+</g>
+</g>
+
+<g id="02-node13" class="node" data-person="enoc_s">
+<title>Enoc · Gn 5</title>
+<g id="02-a_node13"><a ns1:title="Gn 5 · ">
+<text text-anchor="middle" x="332" y="-439.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Enoc</text>
+</a>
+</g>
+</g>
+
+<g id="02-node14" class="node" data-person="enos">
+<title>Enós · Gn 5</title>
+<g id="02-a_node14"><a ns1:title="Gn 5 · ">
+<text text-anchor="middle" x="332" y="-863.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Enós</text>
+</a>
+</g>
+</g>
+
+<g id="02-node15" class="node" data-person="eve">
+<title>Eva · Gn 3:20; 4:1</title>
+<g id="02-a_node15"><a ns1:title="Gn 3:20; 4:1 · ">
+<text text-anchor="middle" x="332" y="-1181.6" font-family="Liberation Serif" font-size="28.00" fill="#8b429d" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Eva</text>
+</a>
+</g>
+</g>
+
+<g id="02-node16" class="node" data-person="jafet">
+<title>Jafet · Gn 5:32; 10:1</title>
+<g id="02-a_node16"><a ns1:title="Gn 5:32; 10:1 · ">
+<text text-anchor="middle" x="226" y="-15.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Jafet</text>
+</a>
+</g>
+</g>
+
+<g id="02-node17" class="node" data-person="jared">
+<title>Jared · Gn 5</title>
+<g id="02-a_node17"><a ns1:title="Gn 5 · ">
+<text text-anchor="middle" x="332" y="-545.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Jared</text>
+</a>
+</g>
+</g>
+
+<g id="02-node18" class="node" data-person="lamec_s">
+<title>Lamec · Gn 5</title>
+<g id="02-a_node18"><a ns1:title="Gn 5 · ">
+<text text-anchor="middle" x="332" y="-227.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Lamec</text>
+</a>
+</g>
+</g>
+
+<g id="02-node19" class="node" data-person="mahalaleel">
+<title>Mahalaleel · Gn 5</title>
+<g id="02-a_node19"><a ns1:title="Gn 5 · ">
+<text text-anchor="middle" x="332" y="-651.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Mahalaleel</text>
+</a>
+</g>
+</g>
+
+<g id="02-node20" class="node" data-person="matusalen">
+<title>Matusalén · Gn 5</title>
+<g id="02-a_node20"><a ns1:title="Gn 5 · ">
+<text text-anchor="middle" x="332" y="-333.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Matusalén</text>
+</a>
+</g>
+</g>
+
+<g id="02-node21" class="node" data-person="noe">
+<title>Noé · Gn 5</title>
+<g id="02-a_node21"><a ns1:title="Gn 5 · ">
+<text text-anchor="middle" x="332" y="-121.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Noé</text>
+</a>
+</g>
+</g>
+
+<g id="02-node22" class="node" data-person="sem">
+<title>Sem · Gn 5:32; 10:1</title>
+<g id="02-a_node22"><a ns1:title="Gn 5:32; 10:1 · ">
+<text text-anchor="middle" x="332" y="-15.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Sem</text>
+</a>
+</g>
+</g>
+
+<g id="02-node23" class="node" data-person="set">
+<title>Set · Gn 4:1–2,25</title>
+<g id="02-a_node23"><a ns1:title="Gn 4:1–2,25 · ">
+<text text-anchor="middle" x="332" y="-969.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Set</text>
+</a>
+</g>
+</g>
+
+<g id="02-node24" class="node">
+<title>u0</title>
+<polygon fill="#e9d9eb" stroke="#977ca5" points="332,-1092.5 322,-1082.5 332,-1072.5 342,-1082.5 332,-1092.5" />
+</g>
+</g>
+</svg >
