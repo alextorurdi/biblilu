@@ -21,13 +21,15 @@
 - [ ] **11. Actualizar la nota 47 de Gn 5:29 (Noé):** sustituirla por el texto siguiente, con las palabras hebreas en cursiva según el formato habitual: «*Nōaḥ* significa «descanso» o «reposo», del hebreo *nûaḥ* pero aquí Lamec hace un juego de palabras con *nāḥam*, «consolar» o «aliviar».».
 
 - [ ] **12. Añadir una nueva nota 36 en Gn 4:26 (Enós y la invocación de Jehová):** incorporar exactamente el texto siguiente: «La principal interpretación de este pasaje es que en tiempos de Enós (no necesariamente iniciado por él) se dio comienzo a una forma de culto público a Jehová. Otra interpretación considera que la invocación del nombre de Jehová refleja un cambio en la relación entre Dios y la humanidad. Así, las primeras generaciones parecen tener contacto directo con él, mientras que las posteriores necesitan invocar su nombre y sólo tendrán contacto directo en ocasiones excepcionales.».
-- [ ] **13. Renumerar las notas tras las nuevas inserciones en Gn 4:26, 5:2, 5:3 y 5:24:** insertar las nuevas notas 36 (Gn 4:26), 37 (Gn 5:2), 38 (Gn 5:3) y 46 (Gn 5:24). Las notas originales 36–42 pasan a 39–45 (+3); la nota original 43 (Gn 5:29) pasa a 47 (+4). Aplicar +4 igualmente a las notas posteriores de la obra. Actualizar marcadores, identificadores, enlaces y referencias internas en el manuscrito y las páginas generadas, sin alterar el contenido de las demás notas. Las tareas 04, 07, 08, 10 y 11 reflejan ya su numeración final.
+- [ ] **13. Renumerar las notas tras las nuevas inserciones en Gn 4:26, 5:2, 5:3, 5:24 y 5:32:** insertar las nuevas notas 36 (Gn 4:26), 37 (Gn 5:2), 38 (Gn 5:3), 46 (Gn 5:24) y 48 (Gn 5:32). Las notas originales 36–42 pasan a 39–45 (+3); la nota original 43 (Gn 5:29) pasa a 47 (+4); las notas posteriores a Gn 5:32, si las hubiera, se desplazan +5. Actualizar marcadores, identificadores, enlaces y referencias internas en el manuscrito y las páginas generadas, sin alterar el contenido de las demás notas. Las tareas 04, 07, 08, 10 y 11 reflejan ya su numeración final.
 
 - [ ] **14. Añadir nueva nota 37 en Gn 5:2, inmediatamente después de «Adán»:** incorporar exactamente el texto: «Adan significa "ser humano". Usado de forma genérica se puede usar tanto para hombres como para mujeres». Aplicar la renumeración conjunta de la tarea 13.
 
 - [ ] **15. Añadir nueva nota 38 en Gn 5:3:** incorporar únicamente el texto literal «Génesis 5:3», sin la explicación extensa propuesta anteriormente. Aplicar la renumeración conjunta de la tarea 13.
 
 - [ ] **16. Añadir nueva nota 46 en Gn 5:24 (Enoc, tras «se lo llevó Dios»):** incorporar exactamente el texto: «Enoc y Elías (2 Re 2:11) son las únicas personas del AT que fueron arrebatadas por Dios antes de su muerte. Según Hebreos 11:5 Enoc fue trasladado «para no ver muerte».». Aplicar el renumerado previsto en la tarea 13.
+
+- [ ] **17. Añadir nueva nota 48 en Gn 5:32 (Sem, Cam y Jafet):** incorporar exactamente el texto: «La mención a los tres hijos de Noé no implica que nacieran a la vez o en ese orden. Según Génesis 7:6 y 11:10, Sem cumpió 100 años, dos años después del Diluvio, por lo que habría nacido cuando Noé tenía aproximadamente 502 años.». Conservar la redacción proporcionada y aplicar la renumeración conjunta de la tarea 13.
 
 ---
 
