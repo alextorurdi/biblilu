@@ -167,3 +167,24 @@
  .scene-four .scene-enoc-art{margin:25px auto}
 }
 @media print{.scene-four-side{display:none!important}.scene-four .scene-tree-mobile,.scene-four .scene-chronology-mobile{display:block!important}}
+
+
+/* v0.3.1: el contenedor lateral es el elemento sticky; los paneles intercambian contenido. */
+@media (min-width:701px){
+ .scene-four .scene-four-layout{align-items:start}
+ .scene-four .scene-four-side{
+  position:sticky!important;
+  top:20px;
+  align-self:start;
+  height:max-content;
+  max-height:calc(100vh - 40px);
+  overflow-y:auto;
+  scrollbar-width:thin;
+ }
+ .scene-four .scene-four-side>figure{
+  position:static!important;
+  max-height:none;
+  overflow:visible;
+ }
+ .scene-four .scene-four-side>figure[hidden]{display:none!important}
+}
