@@ -11,6 +11,8 @@
 - [ ] **05. Actualizar la etimología de Enós en el Apéndice Onomástico:** sustituirla por el texto exacto: «Su nombre procede del hebreo ʾenôš, «hombre» o «ser humano», aunque también puede sugerir «mortal» o «frágil» sin connotaciones negativas. [Hamilton, 1990]».
 - [x] **06. Incluir a Hamilton (1990) en la Bibliografía:** ya consta en `data/bibliography.json` como «Hamilton, Victor P. (1990). The book of Genesis: Chapters 1–17. Eerdmans.». No duplicar la referencia; mantenerla disponible para la cita de la ficha de Enós.
 
+- [ ] **07. Actualizar la nota 37 de Gn 5:10 (Cainán):** sustituirla por el texto exacto: «Qēnan es similar a *Qayn* (Caín), existe la hipótesis de que su padre Enós es el nuevo Adán y Cainán es el nuevo Caín.».
+
 ---
 
 Estado: lista abierta; las correcciones de la v0.3 aún no se han aplicado. La referencia bibliográfica de Hamilton ya estaba incluida. Las próximas correcciones editoriales se añadirán aquí antes de implementar la versión 0.3.
