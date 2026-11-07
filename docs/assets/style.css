@@ -120,6 +120,6 @@
 .genealogy-actions{display:flex;align-items:center;gap:25px;flex-wrap:wrap;margin-bottom:20px}
 .genealogy-actions .button{margin:12px 0}
 .genealogy-return{font-size:13px;color:var(--onomastico)}
-.genealogy-frame{display:block;width:100%;height:1000px;border:1px solid #413547;border-radius:10px;background:#111318;color-scheme:dark}
+.genealogy-frame{display:block;width:100%;height:1000px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color-scheme:light}
 .genealogy-directory-link{margin-top:8px;margin-bottom:12px}
 @media(max-width:700px){.appendix-card-main{padding:18px 14px}.appendix-tree-link{padding:14px}.genealogy-page{padding-left:4%;padding-right:4%}.genealogy-actions{gap:10px}.genealogy-frame{height:1100px}.genealogy-page .crumb{line-height:1.8}}
