@@ -177,25 +177,37 @@
 })();
 
 
-/* v0.3 · En la escena 4 la lámina 02 da paso a la cronología a partir de Gn 5:25. */
+/* v0.3.1 · Panel lateral fijo: árbol hasta Gn 5:24; cronología desde Gn 5:25. */
 (()=>{
- const aside=document.querySelector('[data-scene-four-side]'),threshold=document.getElementById('gn-5-25');
+ const aside=document.querySelector('[data-scene-four-side]');
+ const threshold=document.getElementById('gn-5-25');
  if(!aside||!threshold)return;
- let scheduled=false;
+ const panels=Array.from(aside.querySelectorAll('figure[data-panel]'));
+ if(!panels.length)return;
+ let current='',scheduled=false;
  const update=()=>{
-   scheduled=false;
-   const line=Math.max(90,Math.min(innerHeight*.42,350));
-   const section=threshold.getBoundingClientRect().top<=line?'chronology':'tree';
-   for(const f of aside.querySelectorAll('figure[data-panel]')){
-     const active=f.dataset.panel===section;
-     f.classList.toggle('is-active',active);
-     f.setAttribute('aria-hidden',active?'false':'true');
-   }
+  scheduled=false;
+  const readingLine=Math.max(90,Math.min(window.innerHeight*.42,350));
+  const next=threshold.getBoundingClientRect().top<=readingLine?'chronology':'tree';
+  if(next===current)return;
+  current=next;
+  for(const panel of panels){
+   const active=panel.dataset.panel===next;
+   panel.classList.toggle('is-active',active);
+   panel.hidden=!active;
+   panel.setAttribute('aria-hidden',String(!active));
+  }
  };
- const schedule=()=>{if(scheduled)return;scheduled=true;requestAnimationFrame(update)};
- addEventListener('scroll',schedule,{passive:true});
- addEventListener('resize',schedule);
- addEventListener('hashchange',schedule);
- addEventListener('pageshow',schedule);
- schedule();
+ const schedule=()=>{
+  if(scheduled)return;
+  scheduled=true;
+  window.requestAnimationFrame(update);
+ };
+ /* Escucha el desplazamiento de la página, incluidos los saltos a versículos. */
+ window.addEventListener('scroll',schedule,{passive:true});
+ window.addEventListener('resize',schedule);
+ window.addEventListener('hashchange',schedule);
+ window.addEventListener('pageshow',schedule);
+ window.addEventListener('load',schedule);
+ update();
 })();
