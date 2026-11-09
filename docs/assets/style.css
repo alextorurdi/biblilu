@@ -188,3 +188,36 @@
  }
  .scene-four .scene-four-side>figure[hidden]{display:none!important}
 }
+
+
+/* Diluvio · Escena 5 */
+.scene-five .scene-five-layout{align-items:start;max-width:1290px;grid-template-columns:minmax(0,680px) minmax(275px,400px);gap:58px}
+.scene-five .scene-five-side{position:sticky!important;top:18px;align-self:start;max-height:calc(100vh - 36px);overflow-y:auto;scrollbar-width:thin}
+.scene-five-side .flood-side-panel{position:static!important;display:block;margin:0;padding:0;max-height:none;overflow:visible}
+.scene-five-side .flood-side-panel[hidden]{display:none!important}
+.scene-five-side img,.flood-mobile-art img{width:100%;display:block;height:auto;max-height:calc(100vh - 120px);object-fit:contain;object-position:top center;border-radius:7px}
+.scene-five-side figcaption,.flood-mobile-art figcaption{display:flex;justify-content:space-between;gap:12px;align-items:baseline;font:11px/1.5 Arial,sans-serif;color:var(--muted);padding:10px 0 3px}
+.scene-five-side figcaption strong,.flood-mobile-art figcaption strong{color:var(--ink);font-weight:600}
+.scene-five .flood-mobile-art{display:none}
+.scene-five .flood-poem .flood-line{display:block}
+.flood-chronology{font:14px/1.55 Arial,sans-serif;background:#f2f4ed;border:1px solid #d4ddd0;border-radius:14px;margin:70px 0 30px;padding:28px;color:var(--ink)}
+.flood-chronology .eyebrow{margin:0 0 8px}
+.flood-chronology h2{font:normal 34px Georgia,serif;margin:0 0 12px}
+.flood-chronology>p{font-size:13px;color:var(--muted);margin:0 0 25px}
+.flood-timeline{display:flex;flex-direction:column;gap:0;margin:16px 0}
+.flood-event{display:grid;grid-template-columns:104px 17px minmax(0,1fr);gap:13px;min-height:72px;align-items:start;position:relative}
+.flood-date{font:700 11px/1.6 Arial,sans-serif;color:var(--green);padding-top:0}
+.flood-marker{height:13px;width:13px;margin-top:3px;border-radius:50%;border:3px solid #4c7a65;background:#e8f1e9;position:relative}
+.flood-event:not(:last-child) .flood-marker:after{content:'';display:block;position:absolute;left:3px;top:10px;width:2px;height:59px;background:#b6c7b6}
+.flood-event.estimated .flood-marker{border-color:#b78a63;background:#f9e9d9}
+.flood-event.estimated .flood-date{color:#99734e}
+.flood-detail{font-size:13px;line-height:1.4}
+.flood-detail strong{display:block;font-weight:600}
+.flood-detail small{display:block;color:var(--muted);margin-top:5px;font-size:11px}
+.flood-duration{display:flex;gap:18px;align-items:center;border-top:1px solid #cad6c9;padding:16px 0 8px;font-size:12px}
+.flood-duration strong{font:28px Georgia,serif;white-space:nowrap;color:#426653}
+.flood-chronology p.chrono-caveat{font-size:11px;color:#65716a;margin:8px 0 0;line-height:1.6}
+.scene-five.hide-images .scene-five-side,.scene-five.hide-images .flood-mobile-art{display:none!important}
+.scene-five.hide-images .scene-five-layout{display:block;max-width:850px}
+@media (max-width:1000px) and (min-width:701px){.scene-five .scene-five-layout{gap:25px;grid-template-columns:minmax(0,1fr) 270px}.scene-five-side figcaption{flex-direction:column;gap:1px}}
+@media (max-width:700px){.scene-five .scene-five-layout{display:block;padding:23px 6%}.scene-five .scene-five-side{display:none!important}.scene-five .flood-mobile-art{display:block;margin:22px 0 45px}.flood-mobile-art img{max-height:none;max-width:600px;margin:auto}.flood-mobile-art figcaption{font-size:11px}.flood-chronology{margin:45px 0 20px;padding:17px}.flood-chronology h2{font-size:29px}.flood-event{grid-template-columns:88px 13px minmax(0,1fr);gap:9px;min-height:85px}.flood-date{font-size:10px}.flood-duration{align-items:start;flex-direction:column;gap:3px}}
