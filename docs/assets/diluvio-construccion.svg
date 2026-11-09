@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-label="El arca de Noé en construcción bajo el cielo tormentoso"><defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0.3" y2="1"><stop stop-color="#101e2a"/><stop offset=".4" stop-color="#36434b"/><stop offset=".7" stop-color="#c0a184"/><stop offset="1" stop-color="#efe0b7"/></linearGradient>
+ <linearGradient id="dusk" x1="0" y1="0" x2=".75" y2="1"><stop stop-color="#101b27"/><stop offset=".5" stop-color="#47545a"/><stop offset="1" stop-color="#d4b28a"/></linearGradient>
+ <linearGradient id="water" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#526665"/><stop offset=".45" stop-color="#263d40"/><stop offset="1" stop-color="#101d25"/></linearGradient>
+ <linearGradient id="wood" x1="0" y1="0" x2=".8" y2=".5"><stop stop-color="#8e6547"/><stop offset=".35" stop-color="#bc8962"/><stop offset=".7" stop-color="#75503a"/><stop offset="1" stop-color="#3e2a25"/></linearGradient>
+ <linearGradient id="land" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#a68b6c"/><stop offset="1" stop-color="#4a463c"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#f7e0ab" stop-opacity=".88"/><stop offset="1" stop-color="#f7e0ab" stop-opacity="0"/></radialGradient>
+ <filter id="noise" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency=".009" numOctaves="4" seed="6" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".14"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+ <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+ <pattern id="grain" width="36" height="17" patternUnits="userSpaceOnUse"><path d="M0 2H36M4 14H31" stroke="#2f221e" stroke-opacity=".23" stroke-width="2"/></pattern>
+ </defs><rect width="900" height="1200" fill="url(#sky)"/><circle cx="273" cy="340" r="420" fill="url(#glow)"/><g fill="#172631" opacity=".88"><ellipse cx="100" cy="200" rx="240" ry="166"/><ellipse cx="390" cy="125" rx="250" ry="195"/><ellipse cx="700" cy="210" rx="290" ry="185"/><ellipse cx="785" cy="400" rx="220" ry="158"/></g><g fill="#617078" opacity=".35"><ellipse cx="220" cy="360" rx="265" ry="140"/><ellipse cx="640" cy="315" rx="270" ry="118"/></g><path d="M0 822Q145 752 290 819T620 820T900 760V1200H0Z" fill="url(#land)"/><g stroke="#3d3028" stroke-width="6" stroke-linejoin="round">
+<path d="M84 716Q432 773 814 637L845 669Q750 904 386 925Q160 919 84 716Z" fill="url(#wood)"/>
+<path d="M84 716L772 576L814 637Q475 777 84 716Z" fill="#8b6248"/>
+<path d="M172 658L238 498L611 450L716 590" fill="none" stroke="#634834" stroke-width="16"/>
+<path d="M173 658L218 489L633 453L712 590" fill="#5f4a39"/>
+<path d="M190 493L445 405L639 447L685 485L217 532Z" fill="#4a3b30"/>
+<path d="M215 542L672 487M205 575L688 524M191 620L704 567" fill="none" stroke="#d1a278" stroke-width="5"/>
+<path d="M138 737L158 948M230 755L242 945M357 768L362 959M476 749L503 930M620 714L672 866M753 665L825 789" fill="none" stroke="#6d553e" stroke-width="12"/>
+<path d="M100 790L798 675M116 822L770 713M146 858L741 761" fill="none" stroke="#4e362a" stroke-width="4"/>
+</g><g stroke="#473529" fill="none" stroke-width="9"><path d="M30 1030L270 1002M520 1057L850 987M58 1090L392 1055M490 1115L790 1078"/></g><g fill="#2f2927"><circle cx="296" cy="967" r="12"/><path d="M288 978l-14 66h39l-14 -66"/><circle cx="390" cy="994" r="12"/><path d="M381 1004l-22 60h50l-12 -59"/></g><rect width="900" height="1200" fill="#8a7765" opacity=".09" filter="url(#noise)"/></svg>
