@@ -211,3 +211,36 @@
  window.addEventListener('load',schedule);
  update();
 })();
+
+
+/* Escena 5 · Diluvio: ilustraciones sincronizadas con la lectura. */
+(()=>{
+ const aside=document.querySelector('[data-scene-five-side]');
+ if(!aside)return;
+ const order=[['construccion','gn-6-1'],['medidas','gn-6-14'],['tormenta','gn-7-17'],['paloma','gn-8-6'],['arcoiris','gn-8-18']];
+ const stops=order.map(([name,id])=>({name,node:document.getElementById(id)}));
+ const panels=Array.from(aside.querySelectorAll('figure[data-flood-panel]'));
+ if(stops.some(x=>!x.node)||!panels.length)return;
+ let current='',scheduled=false;
+ function update(){
+  scheduled=false;
+  const readingLine=Math.max(90,Math.min(window.innerHeight*.42,350));
+  let active=stops[0].name;
+  for(const stop of stops)if(stop.node.getBoundingClientRect().top<=readingLine)active=stop.name;
+  if(active===current)return;
+  current=active;
+  for(const figure of panels){
+   const visible=figure.dataset.floodPanel===active;
+   figure.hidden=!visible;
+   figure.classList.toggle('is-active',visible);
+   figure.setAttribute('aria-hidden',String(!visible));
+  }
+ }
+ const schedule=()=>{if(scheduled)return;scheduled=true;requestAnimationFrame(update)};
+ addEventListener('scroll',schedule,{passive:true});
+ addEventListener('resize',schedule);
+ addEventListener('pageshow',schedule);
+ addEventListener('hashchange',schedule);
+ addEventListener('load',schedule);
+ update();
+})();
