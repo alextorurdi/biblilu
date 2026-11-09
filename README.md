@@ -58,3 +58,9 @@ La lectura principal sigue las **escenas** del manuscrito: «Creación» (Gn 1:1
 ## Apéndice genealógico
 
 `apendices/genealogias/` contiene el visor del Génesis, con árbol general, 18 láminas, buscador, referencias y notas. Se accede desde la misma tarjeta del Onomástico en la portada y en el índice de apéndices, y desde el directorio onomástico. La fuente autocontenida está en `assets/genealogias/visor.html`; el generador la copia a `docs/assets/genealogias/` y crea su página dentro de la navegación habitual.
+
+## Escena 5 · Diluvio (Génesis 6:1–8:22)
+
+Publicada en `docs/genesis/6/index.html`, con fuente editorial en `editorial/approved-pages/genesis/6/index.html`. Incluye 68 versículos, doce notas (54–65), cinco posiciones visuales en el lateral para escritorio y después de cada sección en móvil, cronología final y las citas bibliográficas aprobadas. Los cinco recursos visuales se encuentran en `assets/diluvio-*.svg` y en su copia publicada `docs/assets/`.
+
+Los enlaces de las nuevas notas llevan a dos páginas de artículo en preparación, sin contenido especulativo. Los capítulos tradicionales Génesis 6, 7 y 8 enlazan a la misma escena mediante anclas canónicas. `scripts/build.py` conserva la página y las páginas de los artículos al reconstruir el sitio; `scripts/check.py` valida ahora 206 versículos y 65 notas. Para la revisión visual de las imágenes y de la activación lateral, probar el sitio desde navegador en escritorio y móvil.
