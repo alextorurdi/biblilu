@@ -36,12 +36,12 @@ for p,doc in parsed.items():
     assert old_ch3,(p,address,'missing anchor')
 
 V=json.loads((ROOT/'data/genesis.json').read_text(encoding='utf-8'))
-assert len(V)==138
+assert len(V)==206
 normalize=lambda x:re.sub(r'\s+',' ',x).strip()
 all_text=''
 for verse in V:
  c,v=verse['chapter'],verse['verse']
- unit=5 if c==5 or (c==4 and v>=25) else (4 if c==4 else (1 if c==1 or (c==2 and v<=3) else 2))
+ unit=6 if c in (6,7,8) else (5 if c==5 or (c==4 and v>=25) else (4 if c==4 else (1 if c==1 or (c==2 and v<=3) else 2)))
  path=SITE/f'genesis/{unit}/index.html'
  html=path.read_text(encoding='utf-8')
  match=re.search(r'<p class="verse(?: poetry)?" id="gn-'+str(c)+'-'+str(v)+r'">(.*?)</p>',html,re.S)
@@ -51,9 +51,9 @@ for verse in V:
  text=unescape(re.sub(r'<[^>]+>','',text))
  assert normalize(text)==normalize(verse['text']),(c,v,'verse text changed')
  for speech in re.findall(r'<span class="divine">([\s\S]*?)</span>',match[1]):
-  assert '<a ' not in speech,(c,v,'divine text has hyperlink')
+  assert not re.search(r'<a(?![^>]*class="fn-link")',speech),(c,v,'divine text has hyperlink')
  all_text+=match[1]
-for unit,min_n,max_n in [(1,1,8),(2,9,22),(4,23,39),(5,40,53)]:
+for unit,min_n,max_n in [(1,1,8),(2,9,22),(4,23,39),(5,40,53),(6,54,65)]:
  html=(SITE/f'genesis/{unit}/index.html').read_text(encoding='utf-8')
  a=[int(x) for x in re.findall(r'id="fnref-(\d+)"',html)]
  b=[int(x) for x in re.findall(r'<li id="fn-(\d+)"',html)]
@@ -69,7 +69,7 @@ assert 'data-scene="crueldad"' in (SITE/'genesis/4/index.html').read_text(encodi
 assert 'data-illustration="music"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
 assert 'id="fnref-27"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
 assert '“dadora de vida”' in (SITE/'genesis/2/index.html').read_text(encoding='utf-8')
-print(f'OK: {len(parsed)} páginas; 138 versículos, 53 notas, dos índices, anclas canónicas y marcado divino.')
+print(f'OK: {len(parsed)} páginas; 206 versículos, 65 notas, dos índices, anclas canónicas y marcado divino.')
 
 # La escena 4 abarca Gn 4:25–5:32; el árbol 02 cambia a cronología en Gn 5:25.
 scene_4=(SITE/'genesis/5/index.html').read_text(encoding='utf-8')
@@ -77,3 +77,11 @@ assert 'id="gn-4-25"' in scene_4 and 'id="gn-5-32"' in scene_4
 assert 'data-panel="chronology"' in scene_4 and 'id="gn-5-25"' in scene_4
 assert 'src="../../assets/genealogias/02.svg"' in scene_4
 assert scene_4.count('id="v25"')==1 and scene_4.count('id="v26"')==1
+
+# La escena 5 incluye Génesis 6–8, cinco ilustraciones y la cronología final.
+scene_5=(SITE/'genesis/6/index.html').read_text(encoding='utf-8')
+assert 'id="gn-6-1"' in scene_5 and 'id="gn-8-22"' in scene_5
+assert scene_5.count('class="flood-mobile-art"')==5
+assert scene_5.count('data-flood-panel=')==5
+assert 'id="cronologia-diluvio"' in scene_5
+assert 'href="../6/index.html"' in (SITE/'genesis/5/index.html').read_text(encoding='utf-8')
