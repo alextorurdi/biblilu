@@ -1,11 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1180" role="img" aria-label="Esquema de 300 codos de largo, 50 de ancho y 30 de alto, con tres cubiertas"><defs>
- <linearGradient id="sky" x1="0" y1="0" x2="0.3" y2="1"><stop stop-color="#101e2a"/><stop offset=".4" stop-color="#36434b"/><stop offset=".7" stop-color="#c0a184"/><stop offset="1" stop-color="#efe0b7"/></linearGradient>
- <linearGradient id="dusk" x1="0" y1="0" x2=".75" y2="1"><stop stop-color="#101b27"/><stop offset=".5" stop-color="#47545a"/><stop offset="1" stop-color="#d4b28a"/></linearGradient>
- <linearGradient id="water" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#526665"/><stop offset=".45" stop-color="#263d40"/><stop offset="1" stop-color="#101d25"/></linearGradient>
- <linearGradient id="wood" x1="0" y1="0" x2=".8" y2=".5"><stop stop-color="#8e6547"/><stop offset=".35" stop-color="#bc8962"/><stop offset=".7" stop-color="#75503a"/><stop offset="1" stop-color="#3e2a25"/></linearGradient>
- <linearGradient id="land" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#a68b6c"/><stop offset="1" stop-color="#4a463c"/></linearGradient>
- <radialGradient id="glow"><stop stop-color="#f7e0ab" stop-opacity=".88"/><stop offset="1" stop-color="#f7e0ab" stop-opacity="0"/></radialGradient>
- <filter id="noise" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency=".009" numOctaves="4" seed="6" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".14"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
- <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
- <pattern id="grain" width="36" height="17" patternUnits="userSpaceOnUse"><path d="M0 2H36M4 14H31" stroke="#2f221e" stroke-opacity=".23" stroke-width="2"/></pattern>
- </defs><rect width="900" height="1180" fill="#f2ede0"/><rect x="28" y="26" width="844" height="1128" fill="none" stroke="#aeac9a" stroke-width="2"/><text x="450" y="100" font-family="Georgia,serif" font-size="44" fill="#344d41" text-anchor="middle">Las medidas del arca</text><text x="450" y="148" font-size="22" font-family="Arial" fill="#77766a" text-anchor="middle">GÉNESIS 6:14–16 · ESQUEMA ORIENTATIVO</text><g transform="translate(50 235)"><path d="M60 378L607 239L777 304L242 480Z" fill="#ba9974" stroke="#4c493b" stroke-width="5"/><path d="M60 378L242 480L242 635L60 534Z" fill="#a48260" stroke="#4c493b" stroke-width="5"/><path d="M242 480L777 304L777 468L242 635Z" fill="#c7a483" stroke="#4c493b" stroke-width="5"/><path d="M242 534L777 363M242 584L777 414" stroke="#53483a" stroke-width="4"/><path d="M63 432L245 531M63 483L245 582" stroke="#53483a" stroke-width="4"/><path d="M60 610v-250M60 610l30 -10M60 360l30 -10M240 665L800 488M250 676l-7 -25M805 500l-9 -24" fill="none" stroke="#2d625b" stroke-width="4"/><text x="495" y="618" transform="rotate(-17 495 618)" text-anchor="middle" font-size="27" fill="#2d625b">300 codos · ≈135 m</text><text x="15" y="487" transform="rotate(-90 15 487)" font-size="25" text-anchor="middle" fill="#2d625b">30 codos</text><text x="91" y="310" transform="rotate(25 91 310)" font-size="25" fill="#2d625b">50 codos · ≈22,5 m</text></g><g font-family="Arial" fill="#344d41" text-anchor="middle"><text x="450" y="1022" font-size="29">Tres pisos · Una puerta lateral</text><text x="450" y="1067" font-size="21" fill="#726e62">1 codo ≈ 45 cm · dimensiones aproximadas</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1180" role="img" aria-labelledby="title desc">
+<title id="title">Las medidas del arca</title>
+<desc id="desc">Esquema inspirado en el manuscrito original: vista en perspectiva de un arca de casco curvado y sección longitudinal con tres pisos. Longitud de 300 codos, anchura de 50 codos y altura de 30 codos.</desc>
+<defs>
+ <linearGradient id="hull" x1=".1" y1="0" x2=".7" y2="1"><stop stop-color="#e5d8be"/><stop offset=".54" stop-color="#cdbb9a"/><stop offset="1" stop-color="#9a876e"/></linearGradient>
+ <linearGradient id="deck" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e5dcc9"/><stop offset="1" stop-color="#9e8b71"/></linearGradient>
+ <linearGradient id="section" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e8dcc3"/><stop offset="1" stop-color="#d3c1a0"/></linearGradient>
+ <pattern id="finegrain" width="12" height="11" patternUnits="userSpaceOnUse"><path d="M0 10L12 9" fill="none" stroke="#65564b" stroke-opacity=".1" stroke-width=".8"/></pattern>
+ <marker id="arr" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M9 1L1 5L9 9" fill="none" stroke="#637b6c" stroke-width="1.5"/></marker>
+ <clipPath id="sectionclip"><path d="M110 785Q114 768 129 766L757 766Q778 757 792 742Q788 850 753 913Q728 949 676 957L226 957Q158 947 131 904Q106 861 110 785Z"/></clipPath>
+</defs>
+<rect width="900" height="1180" fill="#f7f5ed"/>
+<rect x="28" y="27" width="844" height="1125" rx="13" fill="none" stroke="#ddd6c5" stroke-width="2"/>
+<text x="450" y="95" font-family="Georgia,serif" font-size="45" fill="#324d43" text-anchor="middle">Las medidas del arca</text>
+<text x="450" y="135" font-family="Arial,sans-serif" font-size="19" fill="#65736d" text-anchor="middle" letter-spacing="1">GÉNESIS 6:14–16 · ESQUEMA DEL MANUSCRITO</text>
+<path d="M106 161H794" stroke="#b5c3b5" stroke-width="2"/>
+<text x="103" y="202" font-family="Georgia,serif" font-size="26" font-style="italic" fill="#495c51">Vista en perspectiva</text>
+<!-- El casco es una embarcación alargada: extremos curvados y obra viva redondeada, no un prisma. -->
+<path d="M123 425Q138 448 183 455L249 467L767 359Q797 350 803 320Q814 400 767 453Q733 486 682 492L266 568Q187 579 145 528Q122 490 123 425Z" fill="url(#hull)" stroke="#51483e" stroke-width="5" stroke-linejoin="round"/>
+<path d="M123 425Q136 414 159 414L707 307Q762 294 803 320Q777 353 739 355L248 471Q161 465 123 425Z" fill="url(#deck)" stroke="#51483e" stroke-width="4" stroke-linejoin="round"/>
+<!-- visible upper rim and long recessed opening -->
+<path d="M167 425L713 314Q747 306 775 319L737 333L224 450Q188 446 167 425Z" fill="#7f7364" stroke="#574e44" stroke-width="2"/>
+<path d="M183 425L712 317Q739 312 752 320L225 443Z" fill="#b7ad99" stroke="#645849" stroke-width="1.5"/>
+<path d="M135 432Q153 444 184 450L249 467L768 358" fill="none" stroke="#f2e6d3" stroke-width="7" opacity=".7"/>
+<path d="M150 481Q181 510 253 510L762 402M164 519Q200 545 255 541L723 455M215 558Q237 561 272 554L686 484" fill="none" stroke="#67584a" stroke-width="2.1" opacity=".59"/>
+<path d="M128 440Q121 485 148 523M800 328Q797 391 762 441" fill="none" stroke="#665243" stroke-width="3"/>
+<g stroke="#715f50" opacity=".55" stroke-width="1.5" fill="none">
+<path d="M190 463q9 34 2 68"/><path d="M244 453q9 34 2 68"/><path d="M298 443q9 34 2 68"/><path d="M352 433q9 34 2 68"/><path d="M406 423q9 34 2 68"/><path d="M460 413q9 34 2 68"/><path d="M514 403q9 34 2 68"/><path d="M568 393q9 34 2 68"/><path d="M622 383q9 34 2 68"/></g>
+<!-- dimension leaders outside the drawing -->
+<path d="M163 617L771 507" stroke="#678473" stroke-width="2.3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="457" y="618" transform="rotate(-10 457 618)" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="600" fill="#315c4e">300 codos · ≈ 135 m</text>
+<path d="M107 384L196 362" stroke="#678473" stroke-width="2.1" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="109" y="344" text-anchor="start" font-family="Arial,sans-serif" font-size="21" fill="#315c4e">50 codos · ≈ 22,5 m</text>
+<path d="M835 345V475" stroke="#678473" stroke-width="2.1" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="858" y="475" transform="rotate(-90 858 475)" font-family="Arial,sans-serif" font-size="19" fill="#315c4e">30 codos · ≈ 13,5 m</text>
+<path d="M105 680H795" stroke="#c7caba" stroke-width="2"/>
+<text x="103" y="724" font-family="Georgia,serif" font-size="26" font-style="italic" fill="#495c51">Sección longitudinal · tres pisos</text>
+<!-- Lower cross section follows the manuscript: a rounded bottom, raised ends, 3 horizontal levels. -->
+<path d="M110 785Q114 768 129 766L757 766Q778 757 792 742Q788 850 753 913Q728 949 676 957L226 957Q158 947 131 904Q106 861 110 785Z" fill="url(#section)" stroke="#594d40" stroke-width="4.8"/>
+<g clip-path="url(#sectionclip)">
+ <path d="M125 789L770 789M115 841L778 841M126 897L766 897" fill="none" stroke="#5e5246" stroke-width="3.2"/>
+ <path d="M131 791V950M230 789V957M337 789V962M445 789V962M553 789V961M665 789V960M748 788V936" fill="none" stroke="#9b8b73" stroke-width="2.2" opacity=".47"/>
+ <path d="M110 922Q200 959 276 959L670 959Q741 949 777 910" fill="none" stroke="#7c6857" stroke-width="3" opacity=".7"/>
+</g>
+<path d="M113 783Q450 774 759 780" fill="none" stroke="#f2e9d7" stroke-width="7" opacity=".65"/>
+<!-- keyed labels at right, per original manuscript -->
+<path d="M792 806H803M790 866H803M771 930H803" fill="none" stroke="#657e6f" stroke-width="1.6"/>
+<g font-family="Arial,sans-serif" font-size="18" fill="#355f50" font-weight="600">
+ <text x="806" y="812">1.º piso</text><text x="806" y="872">2.º piso</text><text x="806" y="936">3.º piso</text>
+</g>
+<text x="451" y="1028" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#3d5547">300 × 50 × 30 codos · tres niveles</text>
+<text x="450" y="1066" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#72776c">La forma del casco es orientativa y sigue el dibujo del manuscrito.</text>
+<text x="450" y="1092" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#72776c">El texto bíblico no describe con precisión la silueta del arca.</text>
+</svg>
