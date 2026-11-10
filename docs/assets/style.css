@@ -313,3 +313,6 @@
 .v05-scene .ur-haran-map-mobile{display:block;margin-top:30px}
 }
 @media print{.v05-scene .reading-art{display:none!important}.v05-scene .v05-layout{display:block}.v05-scene .dispersion-tree-mobile{display:block}}
+
+.scene-8 #gn-11-27{margin-top:48px}
+.v05-scene .chronology-note{font:14px/1.7 Arial,sans-serif;color:var(--muted)}
