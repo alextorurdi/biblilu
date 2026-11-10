@@ -33,7 +33,7 @@ for p,doc in parsed.items():
     # Enlaces de fichas preexistentes: la ruta de Génesis 3 redirige
     # conservando el versículo; Gn 2:1–3 pertenece a «Creación».
     old_ch3=dest== (SITE/'genesis/3/index.html').resolve() and re.fullmatch(r'v[1-9]\d*',fragment)
-    assert old_ch3,(p,address,'missing anchor')
+    assert old_ch3 or fragment.startswith(('lamina=','persona=')),(p,address,'missing anchor')
 
 V=json.loads((ROOT/'data/genesis.json').read_text(encoding='utf-8'))
 assert len(V)==299
