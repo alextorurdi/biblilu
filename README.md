@@ -1,5 +1,9 @@
 # BIBLILU
 
+## Entrega v0.5 · Vanidad y De Noé a Abram
+
+Implementadas las escenas 7 y 8 (Génesis 11:1–32), con el texto del manuscrito original, notas 77–81, ilustración contemporánea de Babel, lámina genealógica 06, mapa esquemático Ur–Harán, correcciones cronológicas del Onomástico y tres erratas de fichas. Las páginas están en `docs/genesis/11/` y `docs/genesis/11-10/`; el generador conserva las plantillas aprobadas. Incorporación a `main` mediante PR #7.
+
 ## Entrega v0.4 · Dispersión\n\nPublicada la escena «Dispersión» (Génesis 10:1–32) con 32 versículos, notas 68–76, tres mapas geográficos y tres láminas genealógicas enlazadas al Apéndice. Escritorio: árbol lateral sincronizado; móvil: árbol desplegable y mapa al final de cada bloque. La fuente canónica continúa en `data/genesis.json`; la página aprobada se conserva en `editorial/approved-pages/genesis/10/index.html`.\n\n
 Biblia ilustrada en español de España, preparada para GitHub Pages. Versión 0.1: «Creación» (Gn 1:1–2:3) y «Paraíso» (Gn 2:4–3:24), cinco apéndices y bibliografía. El texto se importa de los documentos editoriales del proyecto sin corregir su redacción.
 
