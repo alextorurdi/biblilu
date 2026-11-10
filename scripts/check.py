@@ -36,12 +36,12 @@ for p,doc in parsed.items():
     assert old_ch3,(p,address,'missing anchor')
 
 V=json.loads((ROOT/'data/genesis.json').read_text(encoding='utf-8'))
-assert len(V)==235
+assert len(V)==267
 normalize=lambda x:re.sub(r'\s+',' ',x).strip()
 all_text=''
 for verse in V:
  c,v=verse['chapter'],verse['verse']
- unit=6 if c in (6,7,8,9) else (5 if c==5 or (c==4 and v>=25) else (4 if c==4 else (1 if c==1 or (c==2 and v<=3) else 2)))
+ unit=10 if c==10 else (6 if c in (6,7,8,9) else (5 if c==5 or (c==4 and v>=25) else (4 if c==4 else (1 if c==1 or (c==2 and v<=3) else 2))))
  path=SITE/f'genesis/{unit}/index.html'
  html=path.read_text(encoding='utf-8')
  match=re.search(r'<p class="verse(?: poetry)?" id="gn-'+str(c)+'-'+str(v)+r'">(.*?)</p>',html,re.S)
@@ -53,7 +53,7 @@ for verse in V:
  for speech in re.findall(r'<span class="divine">([\s\S]*?)</span>',match[1]):
   assert not re.search(r'<a(?![^>]*class="fn-link")',speech),(c,v,'divine text has hyperlink')
  all_text+=match[1]
-for unit,min_n,max_n in [(1,1,8),(2,9,22),(4,23,39),(5,40,53),(6,54,67)]:
+for unit,min_n,max_n in [(1,1,8),(2,9,22),(4,23,39),(5,40,53),(6,54,67),(10,68,76)]:
  html=(SITE/f'genesis/{unit}/index.html').read_text(encoding='utf-8')
  a=[int(x) for x in re.findall(r'id="fnref-(\d+)"',html)]
  b=[int(x) for x in re.findall(r'<li id="fn-(\d+)"',html)]
@@ -69,7 +69,7 @@ assert 'data-scene="crueldad"' in (SITE/'genesis/4/index.html').read_text(encodi
 assert 'data-illustration="music"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
 assert 'id="fnref-27"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
 assert '“dadora de vida”' in (SITE/'genesis/2/index.html').read_text(encoding='utf-8')
-print(f'OK: {len(parsed)} páginas; 235 versículos, 67 notas, dos índices, anclas canónicas y marcado divino.')
+print(f'OK: {len(parsed)} páginas; 267 versículos, 76 notas, dos índices, anclas canónicas y marcado divino.')
 
 # La escena 4 abarca Gn 4:25–5:32; el árbol 02 cambia a cronología en Gn 5:25.
 scene_4=(SITE/'genesis/5/index.html').read_text(encoding='utf-8')
@@ -100,3 +100,18 @@ for _n,_name in ((53,'Embry'),(54,'Bergsma'),(55,'Alexander')):
  assert f'href="../../bibliografia/index.html#ref-{_n}"' in scene_5
  assert f'id="ref-{_n}"' in (SITE/'bibliografia/index.html').read_text(encoding='utf-8')
 assert 'id="fn-67"' in scene_5
+
+# Escena 6: texto de Gn 10, notas consecutivas y cartografía con árboles genealógicos.
+scene_6=(SITE/'genesis/10/index.html').read_text(encoding='utf-8')
+assert all(f'id="gn-10-{n}"' in scene_6 for n in range(1,33))
+assert len(re.findall(r'<li id="fn-(?:6[89]|7[0-6])"',scene_6))==9
+assert scene_6.count('class="dispersion-map"')==3
+assert scene_6.count('class="dispersion-tree-mobile"')==3
+assert scene_6.count('data-dispersion-panel=')==3
+assert '<a href="10/index.html#gn-10-1">' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
+assert '<a href="../10/index.html">Dispersión →</a>' in scene_5
+for _name in ('jafet','cam','sem'):
+ assert (SITE/f'assets/mapas/{_name}.svg').exists()
+for _sheet in ('03','04','05'):
+ assert (SITE/f'assets/genealogias/{_sheet}.svg').exists()
+print('OK: Dispersión · 32 versículos, notas 68–76, tres mapas y tres árboles.')
