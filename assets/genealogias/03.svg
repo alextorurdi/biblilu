@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0.00 0.00 1349.60 345.60" role="group" aria-label="Jafet y su descendencia">
+<g id="03-graph0" class="graph" transform="scale(1 1) rotate(0) translate(28.8 316.8)">
+<title>G</title>
+
+<g id="03-edge8" class="edge">
+<title>gomer-&gt;askenaz</title>
+<g id="03-a_edge8"><a ns1:title="Gn 10:3 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M222.82,-136.86C189.18,-116.45 138.75,-85.86 103.25,-64.32" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="104.5,-62.22 97.24,-60.68 101.96,-66.41 104.5,-62.22" />
+</a>
+</g>
+</g>
+
+<g id="03-edge9" class="edge">
+<title>gomer-&gt;rifat</title>
+<g id="03-a_edge9"><a ns1:title="Gn 10:3 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M246.55,-136.86C235.78,-117.35 219.87,-88.55 208.1,-67.24" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="210.12,-65.83 204.59,-60.88 205.83,-68.2 210.12,-65.83" />
+</a>
+</g>
+</g>
+
+<g id="03-edge10" class="edge">
+<title>gomer-&gt;togarma</title>
+<g id="03-a_edge10"><a ns1:title="Gn 10:3 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M270.27,-136.86C280.88,-117.35 296.55,-88.55 308.14,-67.24" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="310.4,-68.2 311.6,-60.88 306.1,-65.86 310.4,-68.2" />
+</a>
+</g>
+</g>
+
+<g id="03-edge1" class="edge">
+<title>jafet-&gt;gomer</title>
+<g id="03-a_edge1"><a ns1:title="Gn 10:2 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M844.4,-257.99C738.18,-240.32 443.76,-191.33 317.38,-170.3" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="317.7,-167.87 310.39,-169.13 316.89,-172.7 317.7,-167.87" />
+</a>
+</g>
+</g>
+
+<g id="03-edge4" class="edge">
+<title>jafet-&gt;javan</title>
+<g id="03-a_edge4"><a ns1:title="Gn 10:2 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M844.25,-248.36C800.77,-230.49 730.48,-201.6 682.46,-181.86" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="683.24,-179.53 675.84,-179.14 681.38,-184.06 683.24,-179.53" />
+</a>
+</g>
+</g>
+
+<g id="03-edge3" class="edge">
+<title>jafet-&gt;madai</title>
+<g id="03-a_edge3"><a ns1:title="Gn 10:2 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M856.56,-242.95C836.08,-226.57 807.82,-203.95 786.07,-186.55" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="787.4,-184.48 780.4,-182.02 784.34,-188.31 787.4,-184.48" />
+</a>
+</g>
+</g>
+
+<g id="03-edge2" class="edge">
+<title>jafet-&gt;magog</title>
+<g id="03-a_edge2"><a ns1:title="Gn 10:2 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M883.5,-242.95C883.5,-227.33 883.5,-206.06 883.5,-189.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="885.95,-189.02 883.5,-182.02 881.05,-189.02 885.95,-189.02" />
+</a>
+</g>
+</g>
+
+<g id="03-edge6" class="edge">
+<title>jafet-&gt;mesec</title>
+<g id="03-a_edge6"><a ns1:title="Gn 10:2 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M910.64,-242.95C931.28,-226.57 959.77,-203.95 981.68,-186.55" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="983.43,-188.29 987.39,-182.02 980.39,-184.45 983.43,-188.29" />
+</a>
+</g>
+</g>
+
+<g id="03-edge7" class="edge">
+<title>jafet-&gt;tiras</title>
+<g id="03-a_edge7"><a ns1:title="Gn 10:2 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M922.56,-248.25C966.76,-229.86 1038.75,-199.92 1086.12,-180.21" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="1087.12,-182.45 1092.64,-177.5 1085.23,-177.93 1087.12,-182.45" />
+</a>
+</g>
+</g>
+
+<g id="03-edge5" class="edge">
+<title>jafet-&gt;tubal</title>
+<g id="03-a_edge5"><a ns1:title="Gn 10:2 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M922.75,-253.88C1005.12,-231.6 1188.5,-182 1188.5,-182 1188.5,-182 1191.49,-180.91 1196.13,-179.22" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="1197.04,-181.49 1202.78,-176.8 1195.37,-176.89 1197.04,-181.49" />
+</a>
+</g>
+</g>
+
+<g id="03-edge14" class="edge">
+<title>javan-&gt;dodanim</title>
+<g id="03-a_edge14"><a ns1:title="Gn 10:4 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M604.6,-136.86C585.9,-121.23 560.05,-99.63 537.4,-80.7" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="538.96,-78.81 532.02,-76.2 535.82,-82.57 538.96,-78.81" />
+</a>
+</g>
+</g>
+
+<g id="03-edge11" class="edge">
+<title>javan-&gt;elisa</title>
+<g id="03-a_edge11"><a ns1:title="Gn 10:4 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M630.5,-136.86C630.5,-117.61 630.5,-89.29 630.5,-68.07" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="632.95,-67.88 630.5,-60.88 628.05,-67.88 632.95,-67.88" />
+</a>
+</g>
+</g>
+
+<g id="03-edge13" class="edge">
+<title>javan-&gt;quitim</title>
+<g id="03-a_edge13"><a ns1:title="Gn 10:4 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M656.4,-136.86C675.1,-121.23 700.95,-99.63 723.6,-80.7" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="725.18,-82.57 728.98,-76.2 722.04,-78.81 725.18,-82.57" />
+</a>
+</g>
+</g>
+
+<g id="03-edge12" class="edge">
+<title>javan-&gt;tarsis</title>
+<g id="03-a_edge12"><a ns1:title="Gn 10:4 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M675.67,-142.31C684.19,-139.26 690.5,-137 690.5,-137 690.5,-137 861.5,-76 861.5,-76 861.5,-76 869.97,-70.78 880.55,-64.25" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="881.93,-66.28 886.6,-60.52 879.35,-62.11 881.93,-66.28" />
+</a>
+</g>
+</g>
+
+<g id="03-node1" class="node" data-person="askenaz">
+<title>Askenaz · Gn 10:3</title>
+<g id="03-a_node1"><a ns1:title="Gn 10:3 · ">
+<text text-anchor="middle" x="61.5" y="-31.1" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Askenaz</text>
+</a>
+</g>
+</g>
+
+<g id="03-node2" class="node" data-person="dodanim">
+<title>Dodanim · Gn 10:4</title>
+<g id="03-a_node2"><a ns1:title="Gn 10:4 · ">
+<text text-anchor="middle" x="487.5" y="-46.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Dodanim</text>
+<text text-anchor="middle" x="487.5" y="-15.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">[colectivo]</text>
+</a>
+</g>
+</g>
+
+<g id="03-node3" class="node" data-person="elisa">
+<title>Elisa · Gn 10:4</title>
+<g id="03-a_node3"><a ns1:title="Gn 10:4 · ">
+<text text-anchor="middle" x="630.5" y="-31.1" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Elisa</text>
+</a>
+</g>
+</g>
+
+<g id="03-node4" class="node" data-person="gomer">
+<title>Gomer · Gn 10:2</title>
+<g id="03-a_node4"><a ns1:title="Gn 10:2 · ">
+<text text-anchor="middle" x="258.5" y="-152.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Gomer</text>
+</a>
+</g>
+</g>
+
+<g id="03-node5" class="node" data-person="jafet">
+<title>Jafet · Gn 5:32; 10:1</title>
+<g id="03-a_node5"><a ns1:title="Gn 5:32; 10:1 · ">
+<text text-anchor="middle" x="883.5" y="-258.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Jafet</text>
+</a>
+</g>
+</g>
+
+<g id="03-node6" class="node" data-person="javan">
+<title>Javán · Gn 10:2</title>
+<g id="03-a_node6"><a ns1:title="Gn 10:2 · ">
+<text text-anchor="middle" x="630.5" y="-152.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Javán</text>
+</a>
+</g>
+</g>
+
+<g id="03-node7" class="node" data-person="madai">
+<title>Madai · Gn 10:2</title>
+<g id="03-a_node7"><a ns1:title="Gn 10:2 · ">
+<text text-anchor="middle" x="753.5" y="-152.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Madai</text>
+</a>
+</g>
+</g>
+
+<g id="03-node8" class="node" data-person="magog">
+<title>Magog · Gn 10:2</title>
+<g id="03-a_node8"><a ns1:title="Gn 10:2 · ">
+<text text-anchor="middle" x="883.5" y="-152.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Magog</text>
+</a>
+</g>
+</g>
+
+<g id="03-node9" class="node" data-person="mesec">
+<title>Mesec · Gn 10:2</title>
+<g id="03-a_node9"><a ns1:title="Gn 10:2 · ">
+<text text-anchor="middle" x="1014.5" y="-152.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Mesec</text>
+</a>
+</g>
+</g>
+
+<g id="03-node10" class="node" data-person="quitim">
+<title>Quitim · Gn 10:4</title>
+<g id="03-a_node10"><a ns1:title="Gn 10:4 · ">
+<text text-anchor="middle" x="773.5" y="-46.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Quitim</text>
+<text text-anchor="middle" x="773.5" y="-15.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">[colectivo]</text>
+</a>
+</g>
+</g>
+
+<g id="03-node11" class="node" data-person="rifat">
+<title>Rifat · Gn 10:3</title>
+<g id="03-a_node11"><a ns1:title="Gn 10:3 · ">
+<text text-anchor="middle" x="192.5" y="-31.1" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Rifat</text>
+</a>
+</g>
+</g>
+
+<g id="03-node12" class="node" data-person="tarsis">
+<title>Tarsis · Gn 10:4</title>
+<g id="03-a_node12"><a ns1:title="Gn 10:4 · ">
+<text text-anchor="middle" x="921.5" y="-31.1" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Tarsis</text>
+</a>
+</g>
+</g>
+
+<g id="03-node13" class="node" data-person="tiras">
+<title>Tiras · Gn 10:2</title>
+<g id="03-a_node13"><a ns1:title="Gn 10:2 · ">
+<text text-anchor="middle" x="1133.5" y="-152.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Tiras</text>
+</a>
+</g>
+</g>
+
+<g id="03-node14" class="node" data-person="togarma">
+<title>Togarma · Gn 10:3</title>
+<g id="03-a_node14"><a ns1:title="Gn 10:3 · ">
+<text text-anchor="middle" x="323.5" y="-31.1" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Togarma</text>
+</a>
+</g>
+</g>
+
+<g id="03-node15" class="node" data-person="tubal">
+<title>Tubal · Gn 10:2</title>
+<g id="03-a_node15"><a ns1:title="Gn 10:2 · ">
+<text text-anchor="middle" x="1247.5" y="-152.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Tubal</text>
+</a>
+</g>
+</g>
+</g>
+</svg>
