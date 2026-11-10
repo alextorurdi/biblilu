@@ -275,4 +275,15 @@
  addEventListener('hashchange',schedule);
  addEventListener('load',schedule);
  update();
+
+  // v0.5: sustituir el árbol de la familia de Taré por el mapa al llegar al viaje.
+  if (document.body.classList.contains('scene-8')) {
+    const anchor=document.getElementById('gn-11-31');
+    if(anchor){
+      const switchPanel=()=>document.body.classList.toggle('v05-show-map',anchor.getBoundingClientRect().top<=Math.max(135,innerHeight*.30));
+      addEventListener('scroll',switchPanel,{passive:true});
+      addEventListener('resize',switchPanel);
+      switchPanel();
+    }
+  }
 })();
