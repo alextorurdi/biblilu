@@ -91,3 +91,12 @@ assert all(f'id="gn-9-{n}"' in scene_5 for n in range(1,30))
 assert scene_5.index('diluvio-arcoiris.webp') < scene_5.index('id="gn-9-1"') < scene_5.index('id="gn-9-29"') < scene_5.index('id="cronologia-diluvio"')
 assert 'id="fn-66"' in scene_5 and 'id="fn-67"' in scene_5
 assert '<a href="6/index.html#gn-9-1">' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
+
+# Bibliografía de Génesis 9:25: correspondencia entre la nota 67 y las fuentes.
+_bib=json.loads((ROOT/'data/bibliography.json').read_text(encoding='utf-8'))
+assert len(_bib)==55
+for _n,_name in ((53,'Embry'),(54,'Bergsma'),(55,'Alexander')):
+ assert _name in _bib[_n-1]
+ assert f'href="../../bibliografia/index.html#ref-{_n}"' in scene_5
+ assert f'id="ref-{_n}"' in (SITE/'bibliografia/index.html').read_text(encoding='utf-8')
+assert 'id="fn-67"' in scene_5
