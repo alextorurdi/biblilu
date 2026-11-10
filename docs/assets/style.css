@@ -290,7 +290,7 @@
 .v05-scene .v05-genealogy img{display:block;width:760px;max-width:none;height:auto}
 .v05-scene .scene-genealogy-image small{display:block;font:12px Arial,sans-serif;color:var(--green);margin-top:9px}
 .v05-scene .ur-haran-map{margin:12px 0 30px;border-radius:12px;border:1px solid var(--line);background:#f5f6f0;padding:10px}
-.v05-scene .ur-haran-map svg{display:block;width:100%;height:auto}
+.v05-scene .ur-haran-map svg,.v05-scene .ur-haran-map img{display:block;width:100%;height:auto}
 .v05-scene .ur-haran-map-mobile{display:none}
 .v05-scene .dispersion-tree-mobile{display:none}
 .v05-scene.hide-images .v05-layout{display:block;max-width:840px}
