@@ -1,0 +1,404 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="714pt" height="1163pt" viewBox="0.00 0.00 714.10 1162.60" role="group" aria-label="De Peleg a la familia de Taré">
+<g id="06-graph0" class="graph" transform="scale(1 1) rotate(0) translate(28.8 1133.8)">
+<title>G</title>
+
+<g id="06-edge17" class="edge">
+<title>arfaxad-&gt;anon_arfaxad</title>
+<g id="06-a_edge17"><a ns1:title="Gn 11:13 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M327.2,-953.95C298.36,-937.29 258.37,-914.18 228.06,-896.67" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="229.04,-894.4 221.75,-893.02 226.58,-898.64 229.04,-894.4" />
+</a>
+</g>
+</g>
+
+<g id="06-edge2" class="edge">
+<title>arfaxad-&gt;sala</title>
+<g id="06-a_edge2"><a ns1:title="Gn 10:24; 11:12 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M364.5,-953.95C364.5,-938.33 364.5,-917.06 364.5,-900.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="366.95,-900.02 364.5,-893.02 362.05,-900.02 366.95,-900.02" />
+</a>
+</g>
+</g>
+
+<g id="06-edge15" class="edge">
+<title>haran-&gt;isca</title>
+<g id="06-a_edge15"><a ns1:title="Gn 11:27–29 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M283.61,-105.95C268.68,-89.78 248.14,-67.53 232.17,-50.22" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="233.91,-48.5 227.37,-45.02 230.31,-51.83 233.91,-48.5" />
+</a>
+</g>
+</g>
+
+<g id="06-edge13" class="edge">
+<title>haran-&gt;lot</title>
+<g id="06-a_edge13"><a ns1:title="Gn 11:27–29 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M303.5,-105.95C303.5,-90.33 303.5,-69.06 303.5,-52.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="305.95,-52.02 303.5,-45.02 301.05,-52.02 305.95,-52.02" />
+</a>
+</g>
+</g>
+
+<g id="06-edge14" class="edge">
+<title>haran-&gt;milca</title>
+<g id="06-a_edge14"><a ns1:title="Gn 11:27–29 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M325.46,-105.95C341.95,-89.78 364.62,-67.53 382.26,-50.22" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="384.28,-51.67 387.56,-45.02 380.85,-48.17 384.28,-51.67" />
+</a>
+</g>
+</g>
+
+<g id="06-edge19" class="edge">
+<title>heber-&gt;anon_heber</title>
+<g id="06-a_edge19"><a ns1:title="Gn 11:17 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M325.75,-741.95C295.67,-725.22 253.9,-701.99 222.36,-684.45" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="223.51,-682.28 216.2,-681.02 221.12,-686.56 223.51,-682.28" />
+</a>
+</g>
+</g>
+
+<g id="06-edge4" class="edge">
+<title>heber-&gt;peleg</title>
+<g id="06-a_edge4"><a ns1:title="Gn 10:25 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M364.5,-741.95C364.5,-726.33 364.5,-705.06 364.5,-688.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="366.95,-688.02 364.5,-681.02 362.05,-688.02 366.95,-688.02" />
+</a>
+</g>
+</g>
+
+<g id="06-edge23" class="edge">
+<title>nacor1-&gt;anon_nacor1</title>
+<g id="06-a_edge23"><a ns1:title="Gn 11:25 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M327.2,-317.95C298.36,-301.29 258.37,-278.18 228.06,-260.67" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="229.04,-258.4 221.75,-257.02 226.58,-262.64 229.04,-258.4" />
+</a>
+</g>
+</g>
+
+<g id="06-edge8" class="edge">
+<title>nacor1-&gt;tare</title>
+<g id="06-a_edge8"><a ns1:title="Gn 11:24 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M364.5,-317.95C364.5,-302.33 364.5,-281.06 364.5,-264.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="366.95,-264.02 364.5,-257.02 362.05,-264.02 366.95,-264.02" />
+</a>
+</g>
+</g>
+
+<g id="06-edge20" class="edge">
+<title>peleg-&gt;anon_peleg</title>
+<g id="06-a_edge20"><a ns1:title="Gn 11:19 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M327.62,-635.95C299.1,-619.29 259.55,-596.18 229.58,-578.67" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="230.61,-576.44 223.33,-575.02 228.14,-580.67 230.61,-576.44" />
+</a>
+</g>
+</g>
+
+<g id="06-edge5" class="edge">
+<title>peleg-&gt;reu</title>
+<g id="06-a_edge5"><a ns1:title="Gn 11:18 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M364.5,-635.95C364.5,-620.33 364.5,-599.06 364.5,-582.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="366.95,-582.02 364.5,-575.02 362.05,-582.02 366.95,-582.02" />
+</a>
+</g>
+</g>
+
+<g id="06-edge21" class="edge">
+<title>reu-&gt;anon_reu</title>
+<g id="06-a_edge21"><a ns1:title="Gn 11:21 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M329.39,-532.18C298.87,-515.39 254.44,-490.94 221.16,-472.62" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="221.97,-470.28 214.66,-469.05 219.61,-474.57 221.97,-470.28" />
+</a>
+</g>
+</g>
+
+<g id="06-edge6" class="edge">
+<title>reu-&gt;serug</title>
+<g id="06-a_edge6"><a ns1:title="Gn 11:20 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M364.5,-529.95C364.5,-514.33 364.5,-493.06 364.5,-476.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="366.95,-476.02 364.5,-469.02 362.05,-476.02 366.95,-476.02" />
+</a>
+</g>
+</g>
+
+<g id="06-edge18" class="edge">
+<title>sala-&gt;anon_sala</title>
+<g id="06-a_edge18"><a ns1:title="Gn 11:15 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M327.87,-849.45C297.23,-832.68 253.38,-808.68 220.41,-790.63" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="221.29,-788.32 213.97,-787.1 218.93,-792.61 221.29,-788.32" />
+</a>
+</g>
+</g>
+
+<g id="06-edge3" class="edge">
+<title>sala-&gt;heber</title>
+<g id="06-a_edge3"><a ns1:title="Gn 10:24; 11:14 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M364.5,-847.95C364.5,-832.33 364.5,-811.06 364.5,-794.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="366.95,-794.02 364.5,-787.02 362.05,-794.02 366.95,-794.02" />
+</a>
+</g>
+</g>
+
+<g id="06-edge16" class="edge">
+<title>sem-&gt;anon_sem</title>
+<g id="06-a_edge16"><a ns1:title="Gn 11:11 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M326.98,-1062.18C294.22,-1045.32 246.47,-1020.73 210.86,-1002.4" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="211.7,-1000.07 204.35,-999.05 209.45,-1004.43 211.7,-1000.07" />
+</a>
+</g>
+</g>
+
+<g id="06-edge1" class="edge">
+<title>sem-&gt;arfaxad</title>
+<g id="06-a_edge1"><a ns1:title="Gn 10:22 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M364.5,-1059.95C364.5,-1044.33 364.5,-1023.06 364.5,-1006.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="366.95,-1006.02 364.5,-999.02 362.05,-1006.02 366.95,-1006.02" />
+</a>
+</g>
+</g>
+
+<g id="06-edge22" class="edge">
+<title>serug-&gt;anon_serug</title>
+<g id="06-a_edge22"><a ns1:title="Gn 11:23 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M325.13,-423.95C294.56,-407.22 252.12,-383.99 220.08,-366.45" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="221.13,-364.23 213.82,-363.02 218.78,-368.53 221.13,-364.23" />
+</a>
+</g>
+</g>
+
+<g id="06-edge7" class="edge">
+<title>serug-&gt;nacor1</title>
+<g id="06-a_edge7"><a ns1:title="Gn 11:22 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M364.5,-423.95C364.5,-408.33 364.5,-387.06 364.5,-370.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="366.95,-370.02 364.5,-363.02 362.05,-370.02 366.95,-370.02" />
+</a>
+</g>
+</g>
+
+<g id="06-edge9" class="edge">
+<title>tare-&gt;abraham</title>
+<g id="06-a_edge9"><a ns1:title="Gn 11:26–27 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M327.46,-218.15C286.57,-201.21 220.17,-173.7 172.18,-153.81" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="172.94,-151.48 165.54,-151.06 171.06,-156 172.94,-151.48" />
+</a>
+</g>
+</g>
+
+<g id="06-edge11" class="edge">
+<title>tare-&gt;haran</title>
+<g id="06-a_edge11"><a ns1:title="Gn 11:26–27 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M351.86,-211.95C342.54,-196.05 329.77,-174.3 319.7,-157.12" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="321.78,-155.82 316.12,-151.02 317.55,-158.3 321.78,-155.82" />
+</a>
+</g>
+</g>
+
+<g id="06-edge10" class="edge">
+<title>tare-&gt;nacor2</title>
+<g id="06-a_edge10"><a ns1:title="Gn 11:26–27 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M377.35,-211.95C386.82,-196.05 399.8,-174.3 410.03,-157.12" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="412.19,-158.29 413.67,-151.02 407.98,-155.78 412.19,-158.29" />
+</a>
+</g>
+</g>
+
+<g id="06-edge12" class="edge">
+<title>tare-&gt;sara</title>
+<g id="06-a_edge12"><a ns1:title="Gn 11:26–27; 20:12 Filiación obtenida al combinar ambos pasajes.">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M401.95,-215.38C436.98,-198.44 489.58,-172.99 528.45,-154.19" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="529.82,-156.26 535.05,-151 527.68,-151.84 529.82,-156.26" />
+</a>
+</g>
+</g>
+
+<g id="06-node1" class="node" data-person="abraham">
+<title>Abram / Abraham · Gn 11:26–27</title>
+<g id="06-a_node1"><a ns1:title="Gn 11:26–27 · ">
+<text text-anchor="middle" x="113.5" y="-121.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Abram / Abraham</text>
+</a>
+</g>
+</g>
+
+<g id="06-node2" class="node" data-person="anon_arfaxad">
+<title>Otros hijos e hijas · Gn 11:13</title>
+<g id="06-a_node2"><a ns1:title="Gn 11:13 · No se cuentan como personas individualizadas.">
+<text text-anchor="middle" x="184.5" y="-863.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Otros hijos e hijas</text>
+</a>
+</g>
+</g>
+
+<g id="06-node3" class="node" data-person="anon_heber">
+<title>Otros hijos e hijas · Gn 11:17</title>
+<g id="06-a_node3"><a ns1:title="Gn 11:17 · No se cuentan como personas individualizadas.">
+<text text-anchor="middle" x="177.5" y="-651.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Otros hijos e hijas</text>
+</a>
+</g>
+</g>
+
+<g id="06-node4" class="node" data-person="anon_nacor1">
+<title>Otros hijos e hijas · Gn 11:25</title>
+<g id="06-a_node4"><a ns1:title="Gn 11:25 · No se cuentan como personas individualizadas.">
+<text text-anchor="middle" x="184.5" y="-227.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Otros hijos e hijas</text>
+</a>
+</g>
+</g>
+
+<g id="06-node5" class="node" data-person="anon_peleg">
+<title>Otros hijos e hijas · Gn 11:19</title>
+<g id="06-a_node5"><a ns1:title="Gn 11:19 · No se cuentan como personas individualizadas.">
+<text text-anchor="middle" x="186.5" y="-545.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Otros hijos e hijas</text>
+</a>
+</g>
+</g>
+
+<g id="06-node6" class="node" data-person="anon_reu">
+<title>Otros hijos e hijas · Gn 11:21</title>
+<g id="06-a_node6"><a ns1:title="Gn 11:21 · No se cuentan como personas individualizadas.">
+<text text-anchor="middle" x="175.5" y="-439.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Otros hijos e hijas</text>
+</a>
+</g>
+</g>
+
+<g id="06-node7" class="node" data-person="anon_sala">
+<title>Otros hijos e hijas · Gn 11:15</title>
+<g id="06-a_node7"><a ns1:title="Gn 11:15 · No se cuentan como personas individualizadas.">
+<text text-anchor="middle" x="174.5" y="-757.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Otros hijos e hijas</text>
+</a>
+</g>
+</g>
+
+<g id="06-node8" class="node" data-person="anon_sem">
+<title>Otros hijos e hijas · Gn 11:11</title>
+<g id="06-a_node8"><a ns1:title="Gn 11:11 · No se cuentan como personas individualizadas.">
+<text text-anchor="middle" x="162.5" y="-969.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Otros hijos e hijas</text>
+</a>
+</g>
+</g>
+
+<g id="06-node9" class="node" data-person="anon_serug">
+<title>Otros hijos e hijas · Gn 11:23</title>
+<g id="06-a_node9"><a ns1:title="Gn 11:23 · No se cuentan como personas individualizadas.">
+<text text-anchor="middle" x="174.5" y="-333.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Otros hijos e hijas</text>
+</a>
+</g>
+</g>
+
+<g id="06-node10" class="node" data-person="arfaxad">
+<title>Arfaxad · Gn 10:22</title>
+<g id="06-a_node10"><a ns1:title="Gn 10:22 · ">
+<text text-anchor="middle" x="364.5" y="-969.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Arfaxad</text>
+</a>
+</g>
+</g>
+
+<g id="06-node11" class="node" data-person="haran">
+<title>Harán · Gn 11:26–27</title>
+<g id="06-a_node11"><a ns1:title="Gn 11:26–27 · ">
+<text text-anchor="middle" x="303.5" y="-121.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Harán</text>
+</a>
+</g>
+</g>
+
+<g id="06-node12" class="node" data-person="heber">
+<title>Heber · Gn 10:24; 11:14</title>
+<g id="06-a_node12"><a ns1:title="Gn 10:24; 11:14 · ">
+<text text-anchor="middle" x="364.5" y="-757.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Heber</text>
+</a>
+</g>
+</g>
+
+<g id="06-node13" class="node" data-person="isca">
+<title>Isca · Gn 11:27–29</title>
+<g id="06-a_node13"><a ns1:title="Gn 11:27–29 · ">
+<text text-anchor="middle" x="207.5" y="-15.6" font-family="Liberation Serif" font-size="28.00" fill="#8b429d" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Isca</text>
+</a>
+</g>
+</g>
+
+<g id="06-node14" class="node" data-person="lot">
+<title>Lot · Gn 11:27–29</title>
+<g id="06-a_node14"><a ns1:title="Gn 11:27–29 · ">
+<text text-anchor="middle" x="303.5" y="-15.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Lot</text>
+</a>
+</g>
+</g>
+
+<g id="06-node15" class="node" data-person="milca">
+<title>Milca · Gn 11:27–29</title>
+<g id="06-a_node15"><a ns1:title="Gn 11:27–29 · ">
+<text text-anchor="middle" x="409.5" y="-15.6" font-family="Liberation Serif" font-size="28.00" fill="#8b429d" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Milca</text>
+</a>
+</g>
+</g>
+
+<g id="06-node16" class="node" data-person="nacor1">
+<title>Nacor · Gn 11:22</title>
+<g id="06-a_node16"><a ns1:title="Gn 11:22 · ">
+<text text-anchor="middle" x="364.5" y="-333.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Nacor</text>
+</a>
+</g>
+</g>
+
+<g id="06-node17" class="node" data-person="nacor2">
+<title>Nacor · Gn 11:26–27</title>
+<g id="06-a_node17"><a ns1:title="Gn 11:26–27 · ">
+<text text-anchor="middle" x="426.5" y="-121.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Nacor</text>
+</a>
+</g>
+</g>
+
+<g id="06-node18" class="node" data-person="peleg">
+<title>Peleg · Gn 10:25</title>
+<g id="06-a_node18"><a ns1:title="Gn 10:25 · ">
+<text text-anchor="middle" x="364.5" y="-651.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Peleg</text>
+</a>
+</g>
+</g>
+
+<g id="06-node19" class="node" data-person="reu">
+<title>Reu · Gn 11:18</title>
+<g id="06-a_node19"><a ns1:title="Gn 11:18 · ">
+<text text-anchor="middle" x="364.5" y="-545.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Reu</text>
+</a>
+</g>
+</g>
+
+<g id="06-node20" class="node" data-person="sala">
+<title>Sala · Gn 10:24; 11:12</title>
+<g id="06-a_node20"><a ns1:title="Gn 10:24; 11:12 · ">
+<text text-anchor="middle" x="364.5" y="-863.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Sala</text>
+</a>
+</g>
+</g>
+
+<g id="06-node21" class="node" data-person="sara">
+<title>Sarai / Sara · Gn 11:29; 17:15; 20:12</title>
+<g id="06-a_node21"><a ns1:title="Gn 11:29; 17:15; 20:12 · Hija del padre de Abraham según su declaración en 20:12; aquí se sigue esa lectura literal. No se identifica con Isca.">
+<text text-anchor="middle" x="579.5" y="-121.6" font-family="Liberation Serif" font-size="28.00" fill="#8b429d" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Sarai / Sara</text>
+</a>
+</g>
+</g>
+
+<g id="06-node22" class="node" data-person="sem">
+<title>Sem · Gn 5:32; 10:1</title>
+<g id="06-a_node22"><a ns1:title="Gn 5:32; 10:1 · ">
+<text text-anchor="middle" x="364.5" y="-1075.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Sem</text>
+</a>
+</g>
+</g>
+
+<g id="06-node23" class="node" data-person="serug">
+<title>Serug · Gn 11:20</title>
+<g id="06-a_node23"><a ns1:title="Gn 11:20 · ">
+<text text-anchor="middle" x="364.5" y="-439.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Serug</text>
+</a>
+</g>
+</g>
+
+<g id="06-node24" class="node" data-person="tare">
+<title>Taré · Gn 11:24</title>
+<g id="06-a_node24"><a ns1:title="Gn 11:24 · ">
+<text text-anchor="middle" x="364.5" y="-227.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Taré</text>
+</a>
+</g>
+</g>
+</g>
+</svg >
