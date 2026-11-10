@@ -244,3 +244,35 @@
  addEventListener('load',schedule);
  update();
 })();
+
+/* Escena 6 · Dispersión: cambiar árbol lateral al entrar en Jafet, Cam o Sem. */
+(()=>{
+ const aside=document.querySelector('[data-scene-six-side]');
+ if(!aside)return;
+ const order=[['jafet','gn-10-1'],['cam','gn-10-6'],['sem','gn-10-21']];
+ const stops=order.map(([key,id])=>({key,node:document.getElementById(id)}));
+ const panels=[...aside.querySelectorAll('figure[data-dispersion-panel]')];
+ if(stops.some(s=>!s.node)||panels.length!==3)return;
+ let current='',waiting=false;
+ const update=()=>{
+  waiting=false;
+  const readingLine=Math.max(90,Math.min(innerHeight*.42,350));
+  let active=stops[0].key;
+  for(const s of stops)if(s.node.getBoundingClientRect().top<=readingLine)active=s.key;
+  if(active===current)return;
+  current=active;
+  for(const p of panels){
+   const isActive=p.dataset.dispersionPanel===active;
+   p.hidden=!isActive;
+   p.classList.toggle('is-active',isActive);
+   p.setAttribute('aria-hidden',String(!isActive));
+  }
+ };
+ const schedule=()=>{if(!waiting){waiting=true;requestAnimationFrame(update)}};
+ addEventListener('scroll',schedule,{passive:true});
+ addEventListener('resize',schedule);
+ addEventListener('pageshow',schedule);
+ addEventListener('hashchange',schedule);
+ addEventListener('load',schedule);
+ update();
+})();
