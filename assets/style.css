@@ -268,3 +268,51 @@
 .scene-six .dispersion-tree-mobile{display:block!important}
 .scene-six .dispersion-tree-mobile:not([open])>.scene-genealogy-image{display:block!important}
 }
+
+
+/* v0.5 · Vanidad y De Noé a Abram */
+.v05-scene .v05-layout{max-width:1300px;grid-template-columns:minmax(0,680px) minmax(260px,400px);gap:54px;align-items:start}
+.v05-scene .v05-verses{min-width:0}
+.v05-scene .v05-verses .footnotes{margin-top:65px;border-top:1px solid var(--line);padding-top:22px}
+.v05-scene .v05-verses .footnotes h2{font:600 22px Georgia,serif}
+.v05-scene .v05-verses .footnotes ol{padding-left:1.8rem}
+.v05-scene .v05-verses .footnotes li{padding-left:6px;margin:0 0 18px;font:15px/1.75 Georgia,serif}
+.v05-scene .v05-verses .footnotes li b{margin-right:10px;color:var(--green)}
+.v05-scene .reading-art{position:sticky;top:25px;align-self:start}
+.v05-scene .reading-art figcaption,.v05-scene .ur-haran-map figcaption{font:13px/1.5 Arial,sans-serif;color:var(--muted);padding:11px 2px}
+.v05-scene .babel-art{margin:0}
+.v05-scene .babel-art img{display:block;width:100%;height:auto;border-radius:9px}
+.v05-scene .babel-mobile{display:none}
+.v05-scene .v05-map{display:none}
+.v05-scene.v05-show-map .v05-genealogy{display:none}
+.v05-scene.v05-show-map .v05-map{display:block}
+.v05-scene .v05-genealogy .scene-genealogy-image{display:block;border:1px solid var(--line);border-radius:10px;background:#fffdf9;padding:8px;overflow:auto;max-height:calc(100vh - 120px)}
+.v05-scene .v05-genealogy img{display:block;width:760px;max-width:none;height:auto}
+.v05-scene .scene-genealogy-image small{display:block;font:12px Arial,sans-serif;color:var(--green);margin-top:9px}
+.v05-scene .ur-haran-map{margin:12px 0 30px;border-radius:12px;border:1px solid var(--line);background:#f5f6f0;padding:10px}
+.v05-scene .ur-haran-map svg{display:block;width:100%;height:auto}
+.v05-scene .ur-haran-map-mobile{display:none}
+.v05-scene .dispersion-tree-mobile{display:none}
+.v05-scene.hide-images .v05-layout{display:block;max-width:840px}
+.v05-scene.hide-images .reading-art,.v05-scene.hide-images .babel-mobile,.v05-scene.hide-images .dispersion-tree-mobile,.v05-scene.hide-images .ur-haran-map-mobile{display:none!important}
+@media (max-width:1000px) and (min-width:701px){
+.v05-scene .v05-layout{grid-template-columns:minmax(0,1fr) 260px;gap:25px}
+.v05-scene .v05-genealogy img{width:650px}
+}
+@media (max-width:700px){
+.v05-scene .v05-layout{display:block;padding:24px 6%}
+.v05-scene .reading-art{display:none!important}
+.v05-scene .babel-mobile{display:block;margin:22px auto 45px;max-width:470px}
+.v05-scene .babel-mobile img{width:100%;border-radius:10px}
+.v05-scene .dispersion-tree-mobile{display:block;margin:15px 0 33px;border:1px solid #cdd7cd;border-radius:10px;background:#f9faf5;padding:0 13px 13px;overflow:hidden}
+.v05-scene .dispersion-tree-mobile:not([open]){padding-bottom:0}
+.v05-scene .dispersion-tree-mobile summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;min-height:56px;padding:12px 0;font:600 14px/1.4 Arial,sans-serif;color:var(--green)}
+.v05-scene .dispersion-tree-mobile summary::-webkit-details-marker{display:none}
+.v05-scene .dispersion-tree-mobile .scene-genealogy-image{display:block;overflow-x:auto;background:#fffdf9;border:1px solid var(--line);padding:8px;border-radius:8px}
+.v05-scene .dispersion-tree-mobile img{display:block;width:760px;max-width:none;height:auto}
+.v05-scene .ur-haran-map-mobile{display:block;margin-top:30px}
+}
+@media print{.v05-scene .reading-art{display:none!important}.v05-scene .v05-layout{display:block}.v05-scene .dispersion-tree-mobile{display:block}}
+
+.scene-8 #gn-11-27{margin-top:48px}
+.v05-scene .chronology-note{font:14px/1.7 Arial,sans-serif;color:var(--muted)}
