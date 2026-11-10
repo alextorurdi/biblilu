@@ -276,14 +276,34 @@
  addEventListener('load',schedule);
  update();
 
-  // v0.5: sustituir el árbol de la familia de Taré por el mapa al llegar al viaje.
-  if (document.body.classList.contains('scene-8')) {
-    const anchor=document.getElementById('gn-11-31');
-    if(anchor){
-      const switchPanel=()=>document.body.classList.toggle('v05-show-map',anchor.getBoundingClientRect().top<=Math.max(135,innerHeight*.30));
-      addEventListener('scroll',switchPanel,{passive:true});
-      addEventListener('resize',switchPanel);
-      switchPanel();
-    }
-  }
 })();
+
+/* Escena 8 · De Noé a Abram: árbol 06 hasta Gn 11:30, mapa desde Gn 11:31. */
+(()=>{
+  if (!document.body.classList.contains('scene-8')) return;
+  const anchor=document.getElementById('gn-11-31');
+  const genealogy=document.querySelector('.v05-genealogy');
+  const map=document.querySelector('.v05-map');
+  if (!anchor || !genealogy || !map) return;
+  let scheduled=false;
+  const update=()=>{
+    scheduled=false;
+    const readingLine=Math.max(90,Math.min(window.innerHeight*.42,350));
+    const active=anchor.getBoundingClientRect().top<=readingLine;
+    document.body.classList.toggle('v05-show-map',active);
+    genealogy.setAttribute('aria-hidden',String(active));
+    map.setAttribute('aria-hidden',String(!active));
+  };
+  const schedule=()=>{
+    if(scheduled)return;
+    scheduled=true;
+    requestAnimationFrame(update);
+  };
+  addEventListener('scroll',schedule,{passive:true});
+  addEventListener('resize',schedule);
+  addEventListener('hashchange',schedule);
+  addEventListener('pageshow',schedule);
+  addEventListener('load',schedule);
+  update();
+})();
+
