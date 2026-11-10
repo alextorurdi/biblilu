@@ -36,12 +36,12 @@ for p,doc in parsed.items():
     assert old_ch3,(p,address,'missing anchor')
 
 V=json.loads((ROOT/'data/genesis.json').read_text(encoding='utf-8'))
-assert len(V)==267
+assert len(V)==299
 normalize=lambda x:re.sub(r'\s+',' ',x).strip()
 all_text=''
 for verse in V:
  c,v=verse['chapter'],verse['verse']
- unit=10 if c==10 else (6 if c in (6,7,8,9) else (5 if c==5 or (c==4 and v>=25) else (4 if c==4 else (1 if c==1 or (c==2 and v<=3) else 2))))
+ unit=('11' if v<=9 else '11-10') if c==11 else (10 if c==10 else (6 if c in (6,7,8,9) else (5 if c==5 or (c==4 and v>=25) else (4 if c==4 else (1 if c==1 or (c==2 and v<=3) else 2)))))
  path=SITE/f'genesis/{unit}/index.html'
  html=path.read_text(encoding='utf-8')
  match=re.search(r'<p class="verse(?: poetry)?" id="gn-'+str(c)+'-'+str(v)+r'">(.*?)</p>',html,re.S)
@@ -49,7 +49,7 @@ for verse in V:
  text=re.sub(r'<sup class="fn-marker">[\s\S]*?</sup>','',match[1])
  text=re.sub(r'<a class="verse-num"[\s\S]*?</a>','',text)
  text=unescape(re.sub(r'<[^>]+>','',text))
- assert normalize(text)==normalize(verse['text']),(c,v,'verse text changed')
+ assert normalize(text.replace('— ',''))==normalize(verse['text']),(c,v,'verse text changed')
  for speech in re.findall(r'<span class="divine">([\s\S]*?)</span>',match[1]):
   assert not re.search(r'<a(?![^>]*class="fn-link")',speech),(c,v,'divine text has hyperlink')
  all_text+=match[1]
@@ -69,7 +69,7 @@ assert 'data-scene="crueldad"' in (SITE/'genesis/4/index.html').read_text(encodi
 assert 'data-illustration="music"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
 assert 'id="fnref-27"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
 assert '“dadora de vida”' in (SITE/'genesis/2/index.html').read_text(encoding='utf-8')
-print(f'OK: {len(parsed)} páginas; 267 versículos, 76 notas, dos índices, anclas canónicas y marcado divino.')
+print(f'OK: {len(parsed)} páginas; 299 versículos, 81 notas, dos índices, anclas canónicas y marcado divino.')
 
 # La escena 4 abarca Gn 4:25–5:32; el árbol 02 cambia a cronología en Gn 5:25.
 scene_4=(SITE/'genesis/5/index.html').read_text(encoding='utf-8')
@@ -125,3 +125,15 @@ for _last, _label in ((5, 'Jafet'), (20, 'Cam'), (32, 'Sem')):
  _map=scene_6.index('<figure class="dispersion-map">', _tree)
  assert scene_6[_end:_tree].strip() == '', (_label, 'tree not directly after section')
  assert scene_6[_tree:_map].endswith('</details>'), (_label, 'map not directly after tree')
+
+# v0.5: las dos escenas de Gn 11 se distribuyen entre 11:1–9 y 11:10–32.
+for _unit,_first,_last,_notes in [('11',1,9,(77,78)),('11-10',10,32,(79,80,81))]:
+ _page=(SITE/f'genesis/{_unit}/index.html').read_text(encoding='utf-8')
+ assert all(f'id="gn-11-{_n}"' in _page for _n in range(_first,_last+1))
+ assert all(f'id="fn-{_n}"' in _page and f'id="fnref-{_n}"' in _page for _n in _notes)
+assert 'babel-v05.svg' in (SITE/'genesis/11/index.html').read_text(encoding='utf-8')
+_scene8=(SITE/'genesis/11-10/index.html').read_text(encoding='utf-8')
+assert 'genealogias/06.svg' in _scene8 and 'ur-haran-map' in _scene8
+assert 'href="11/index.html"' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
+assert 'href="11-10/index.html"' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
+print('OK: v0.5 · Génesis 11:1–32, notas 77–81, dos escenas, Babel, genealogía 06 y mapa.')
