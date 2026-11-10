@@ -115,3 +115,13 @@ for _name in ('jafet','cam','sem'):
 for _sheet in ('03','04','05'):
  assert (SITE/f'assets/genealogias/{_sheet}.svg').exists()
 print('OK: Dispersión · 32 versículos, notas 68–76, tres mapas y tres árboles.')
+
+# Dispersión móvil: cada árbol desplegable se sitúa justo después del último
+# versículo de su sección y antes del mapa correspondiente, sin cambiar el lateral.
+for _last, _label in ((5, 'Jafet'), (20, 'Cam'), (32, 'Sem')):
+ _verse=scene_6.index(f'id="gn-10-{_last}"')
+ _end=scene_6.index('</p>', _verse)+4
+ _tree=scene_6.index('<details class="dispersion-tree-mobile">', _end)
+ _map=scene_6.index('<figure class="dispersion-map">', _tree)
+ assert scene_6[_end:_tree].strip() == '', (_label, 'tree not directly after section')
+ assert scene_6[_tree:_map].endswith('</details>'), (_label, 'map not directly after tree')
