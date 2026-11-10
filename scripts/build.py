@@ -113,12 +113,19 @@ def body_with_genealogy(e):
        '<small>Abrir su lámina y destacar al personaje</small></a>')
  pattern=r'(<h2>Relaciones familiares</h2><p>.*?</p>)'
  return re.sub(pattern,lambda m:m.group(1)+link,body,count=1) if re.search(pattern,body) else body+link
+def scene_path_for(v):
+ c,n=v['chapter'],v['verse']
+ if c==11:return '11' if n<=9 else '11-10'
+ if c in (6,7,8,9):return '6'
+ if c==5 or (c==4 and n>=25):return '5'
+ return str(c)
+
 for e in E:
  cat=e['category'];chron='<p class="source-note">Las fechas expresan años desde la Creación según la cronología del Génesis.</p>' if cat=='onomastico' and re.search(r'\(\d',e['title']) else ''
  mentions=[]
  for v in V:
   rendered=verse(v,'../../../')
-  if f'data-entry="{e["id"]}"' in rendered:mentions.append(f'<a href="../../../genesis/{6 if v["chapter"] in (6,7,8,9) else (5 if v["chapter"]==5 or (v["chapter"]==4 and v["verse"]>=25) else v["chapter"])}/index.html#gn-{v["chapter"]}-{v["verse"]}">Gn {v["chapter"]}:{v["verse"]}</a>')
+  if f'data-entry="{e["id"]}"' in rendered:mentions.append(f'<a href="../../../genesis/{scene_path_for(v)}/index.html#gn-{v["chapter"]}-{v["verse"]}">Gn {v["chapter"]}:{v["verse"]}</a>')
  backlinks='<div class="backlinks"><h2>En la lectura disponible</h2>'+ ' · '.join(mentions)+'</div>' if mentions else ''
  biblical_mentions='<div class="backlinks"><h2>Menciones bíblicas</h2><p>'+ ' · '.join(H(r) for r in e.get('mentions',[]))+'</p></div>' if e.get('mentions') else ''
  page(f'apendices/{e["id"]}/index.html',e['title'],f'<article class="section entry"><p class="crumb"><a href="../../index.html">Apéndices</a> / <a href="../index.html">{C[cat][0]}</a></p><p class="eyebrow {cat}">{C[cat][0]}</p><h1>{H(e["title"])}</h1>{chron}<div class="entry-body">{body_with_genealogy(e)}</div>{backlinks}{biblical_mentions}</article>')
