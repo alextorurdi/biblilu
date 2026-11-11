@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 900 590" aria-labelledby="title desc">
+<title id="title">Separación de Abram y Lot</title>
+<desc id="desc">Mapa con contornos geográficos reales basados en Natural Earth y fronteras modernas solo como orientación. Emplazamientos y rutas aproximados, no itinerarios comprobados.</desc>
+<rect width="900" height="590" rx="16" fill="#e0ebed"/>
+<text x="52" y="42" font-family="Arial,sans-serif" font-weight="700" font-size="25" fill="#27483d">Separación de Abram y Lot</text>
+<rect x="52" y="76" width="812" height="436" fill="#c9e1e8" rx="4"/>
+<g stroke="#d8e5dd" stroke-width=".7">
+<path d="M356.5 76V512"/>
+<path d="M52 502.3H864"/>
+</g>
+<g fill="#e9e0c9" stroke="#a3a38f" stroke-width="1.35">
+<polygon points="448.8,270.4 387.6,256.9 352.2,321.5 394.7,332.3 351.5,345.7 344.2,371.2 423.8,358.0 427.7,395.7 364.4,512.0 317.6,512.0 232.2,384.2 281.5,352.2 269.9,346.8 314.6,301.5 349.0,228.4 373.2,203.8 434.4,203.0 450.0,186.0 495.4,184.8 498.0,224.4 448.8,270.4"/>
+<polygon points="450.0,186.0 434.4,203.0 377.8,202.8 438.1,123.9 497.1,76.0 615.2,76.0 629.2,95.2 536.9,131.7 495.4,184.8 450.0,186.0"/>
+<polygon points="344.2,371.2 351.5,345.7 394.7,332.3 352.2,321.5 387.6,256.9 448.8,270.4 448.7,329.6 423.8,358.0 344.2,371.2"/>
+<polygon points="478.3,239.8 666.8,278.2 864.0,216.7 864.0,331.9 695.2,356.2 863.8,453.0 807.9,469.5 780.0,501.9 683.3,512.0 364.4,512.0 427.7,395.7 423.8,358.0 448.7,329.6 448.8,270.4 478.3,239.8"/>
+<polygon points="475.1,239.2 498.0,224.4 495.4,184.8 536.9,131.7 629.2,95.2 615.2,76.0 864.0,76.0 864.0,216.7 666.8,278.2 475.1,239.2"/>
+<polygon points="780.0,501.9 807.9,469.5 863.8,453.0 695.2,356.2 864.0,331.9 864.0,512.0 683.3,512.0 780.0,501.9"/>
+<polygon points="149.0,408.6 232.2,384.2 317.6,512.0 52.0,512.0 52.0,404.5 149.0,408.6"/>
+</g>
+<polyline points="395.4,314.3 373.4,354.1" fill="none" stroke="#99623e" stroke-width="4.5" stroke-dasharray="10 7" stroke-linejoin="round" stroke-linecap="round" opacity=".85"/>
+<polyline points="395.4,314.3 449.5,391.9" fill="none" stroke="#527e70" stroke-width="4.5" stroke-dasharray="10 7" stroke-linejoin="round" stroke-linecap="round" opacity=".85"/>
+<circle cx="395.4" cy="314.3" r="7.5" fill="#fffaf1" stroke="#315f50" stroke-width="3"/>
+<text x="327.4" y="321.3" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Bet-el</text>
+<circle cx="373.4" cy="354.1" r="7.5" fill="#fffaf1" stroke="#315f50" stroke-width="3"/>
+<text x="310.4" y="380.1" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Hebrón</text>
+<circle cx="449.5" cy="391.9" r="7.5" fill="#fffaf1" stroke="#bd7952" stroke-width="3"/>
+<text x="467.5" y="414.9" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Sodoma (zona discutida)</text>
+<rect x="52" y="525" width="812" height="37" rx="7" fill="#f8f5ed" opacity=".96"/>
+<text x="64" y="548" font-family="Arial,sans-serif" font-size="12.5" fill="#51635a">Base cartográfica: Natural Earth. Fronteras modernas orientativas · puntos y trayectos históricos aproximados.</text>
+</svg>

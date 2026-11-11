@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 900 590" aria-labelledby="title desc">
+<title id="title">Descenso a Egipto y regreso</title>
+<desc id="desc">Mapa con contornos geográficos reales basados en Natural Earth y fronteras modernas solo como orientación. Emplazamientos y rutas aproximados, no itinerarios comprobados.</desc>
+<rect width="900" height="590" rx="16" fill="#e0ebed"/>
+<text x="52" y="42" font-family="Arial,sans-serif" font-weight="700" font-size="25" fill="#27483d">Descenso a Egipto y regreso</text>
+<rect x="52" y="76" width="812" height="436" fill="#c9e1e8" rx="4"/>
+<g stroke="#d8e5dd" stroke-width=".7">
+<path d="M193.2 76V512"/>
+<path d="M546.3 76V512"/>
+<path d="M52 387.4H864"/>
+<path d="M52 76.0H864"/>
+</g>
+<g fill="#e9e0c9" stroke="#a3a38f" stroke-width="1.35">
+<polygon points="584.8,238.3 559.2,229.7 544.5,271.2 562.2,278.2 544.2,286.7 541.1,303.1 574.3,294.7 576.0,318.9 540.8,418.5 494.4,311.5 514.9,291.0 510.1,287.4 528.8,258.3 543.1,211.3 553.2,195.6 578.8,195.0 585.3,184.1 604.2,183.3 605.3,208.8 584.8,238.3"/>
+<polygon points="585.3,184.1 578.8,195.0 555.2,194.9 580.3,144.2 616.8,98.1 648.5,101.3 660.1,125.7 621.6,149.2 604.2,183.3 585.3,184.1"/>
+<polygon points="541.1,303.1 544.2,286.7 562.2,278.2 544.5,271.2 559.2,229.7 584.8,238.3 584.8,276.4 574.3,294.7 541.1,303.1"/>
+<polygon points="597.1,218.7 675.8,243.4 814.0,177.0 842.5,252.8 829.0,262.2 687.6,293.5 758.0,355.8 734.7,366.3 723.0,387.2 669.2,395.8 652.3,418.2 621.7,437.4 543.2,427.5 540.8,418.5 576.0,318.9 574.3,294.7 584.8,276.4 584.8,238.3 597.1,218.7"/>
+<polygon points="814.0,177.0 864.0,156.3 864.0,257.1 842.5,252.8 814.0,177.0"/>
+<polygon points="595.7,218.3 605.3,208.8 604.2,183.3 621.6,149.2 660.1,125.7 648.5,101.3 616.8,98.1 613.7,76.0 864.0,76.0 864.0,156.3 675.8,243.4 595.7,218.3"/>
+<polygon points="621.7,437.4 652.3,418.2 669.2,395.8 723.0,387.2 734.7,366.3 758.0,355.8 687.6,293.5 829.0,262.2 842.5,252.8 864.0,257.1 864.0,512.0 558.8,512.0 555.5,508.1 520.3,508.4 543.2,427.5 621.7,437.4"/>
+<polygon points="476.0,77.4 403.6,102.7 369.1,94.6 356.8,76.0 476.0,77.4"/>
+<polygon points="52.0,315.2 116.5,333.2 170.9,313.5 199.9,295.7 262.2,290.5 312.4,298.4 331.6,329.3 348.0,308.9 404.6,323.6 459.7,327.2 494.4,311.5 540.8,418.5 521.0,443.5 505.8,490.6 493.1,512.0 444.5,512.0 414.7,486.0 364.3,396.7 357.1,402.4 386.3,468.1 416.7,512.0 52.0,512.0 52.0,315.2"/>
+</g>
+<polyline points="562.5,266.6 532.1,343.8 277.9,343.8 532.1,343.8 562.5,266.6" fill="none" stroke="#99623e" stroke-width="4.5" stroke-dasharray="10 7" stroke-linejoin="round" stroke-linecap="round" opacity=".85"/>
+<circle cx="566.0" cy="249.8" r="7.5" fill="#fffaf1" stroke="#315f50" stroke-width="3"/>
+<text x="576.0" y="235.8" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Siquem</text>
+<circle cx="562.5" cy="266.6" r="7.5" fill="#fffaf1" stroke="#315f50" stroke-width="3"/>
+<text x="494.5" y="273.6" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Bet-el</text>
+<circle cx="532.1" cy="343.8" r="7.5" fill="#fffaf1" stroke="#315f50" stroke-width="3"/>
+<text x="520.1" y="370.8" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Neguev</text>
+<circle cx="277.9" cy="343.8" r="7.5" fill="#fffaf1" stroke="#315f50" stroke-width="3"/>
+<text x="223.9" y="332.8" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Egipto</text>
+<rect x="52" y="525" width="812" height="37" rx="7" fill="#f8f5ed" opacity=".96"/>
+<text x="64" y="548" font-family="Arial,sans-serif" font-size="12.5" fill="#51635a">Base cartográfica: Natural Earth. Fronteras modernas orientativas · puntos y trayectos históricos aproximados.</text>
+</svg>

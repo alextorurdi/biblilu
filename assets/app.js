@@ -307,3 +307,40 @@
   update();
 })();
 
+
+
+/* v0.6 · Mapas sincronizados en las escenas 9 (Viaje) y 10 (Guerra). */
+(()=>{
+  const isNine=document.body.classList.contains('scene-9');
+  const isTen=document.body.classList.contains('scene-10');
+  if(!isNine&&!isTen)return;
+  const aside=document.querySelector('[data-v06-side]');
+  if(!aside)return;
+  const steps=isNine
+    ? [['viaje-1','gn-12-1'],['viaje-2','gn-12-10'],['viaje-3','gn-13-5']]
+    : [['guerra-1','gn-14-1'],['guerra-2','gn-14-5'],['guerra-3','gn-14-13'],[null,'gn-14-17']];
+  const anchors=steps.map(([name,id])=>({name,node:document.getElementById(id)}));
+  const panels=Array.from(aside.querySelectorAll('[data-v06-panel]'));
+  if(anchors.some(a=>!a.node)||panels.length!==3)return;
+  let selected,queued=false;
+  const update=()=>{
+    queued=false;
+    const readingLine=Math.max(90,Math.min(window.innerHeight*.42,350));
+    let active=steps[0][0];
+    for(const step of anchors)if(step.node.getBoundingClientRect().top<=readingLine)active=step.name;
+    if(active===selected)return;
+    selected=active;
+    for(const panel of panels){
+      const on=panel.dataset.v06Panel===active;
+      panel.hidden=!on;
+      panel.setAttribute('aria-hidden',String(!on));
+    }
+  };
+  const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(update);};
+  addEventListener('scroll',schedule,{passive:true});
+  addEventListener('resize',schedule);
+  addEventListener('pageshow',schedule);
+  addEventListener('hashchange',schedule);
+  addEventListener('load',schedule);
+  update();
+})();

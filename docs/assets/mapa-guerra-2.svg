@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 900 590" aria-labelledby="title desc">
+<title id="title">Campaña militar de Quedorlaomer</title>
+<desc id="desc">Mapa con contornos geográficos reales basados en Natural Earth y fronteras modernas solo como orientación. Emplazamientos y rutas aproximados, no itinerarios comprobados.</desc>
+<rect width="900" height="590" rx="16" fill="#e0ebed"/>
+<text x="52" y="42" font-family="Arial,sans-serif" font-weight="700" font-size="25" fill="#27483d">Campaña militar de Quedorlaomer</text>
+<rect x="52" y="76" width="812" height="436" fill="#c9e1e8" rx="4"/>
+<g stroke="#d8e5dd" stroke-width=".7">
+<path d="M208.2 76V512"/>
+<path d="M728.7 76V512"/>
+<path d="M52 434.4H864"/>
+<path d="M52 135.7H864"/>
+</g>
+<g fill="#e9e0c9" stroke="#a3a38f" stroke-width="1.35">
+<polygon points="265.0,291.4 227.3,283.1 205.5,322.9 231.7,329.6 205.1,337.8 200.6,353.5 249.5,345.4 252.0,368.7 200.1,464.1 131.7,361.5 162.0,341.9 154.9,338.5 182.4,310.5 203.5,265.5 218.4,250.4 256.1,249.9 265.7,239.4 293.6,238.6 295.2,263.1 265.0,291.4"/>
+<polygon points="265.7,239.4 256.1,249.9 221.3,249.7 258.4,201.1 312.1,156.9 358.9,160.0 375.9,183.4 319.2,205.9 293.6,238.6 265.7,239.4"/>
+<polygon points="200.6,353.5 205.1,337.8 231.7,329.6 205.5,322.9 227.3,283.1 265.0,291.4 264.9,327.9 249.5,345.4 200.6,353.5"/>
+<polygon points="283.1,272.5 399.1,296.2 602.9,232.6 644.9,305.3 625.1,314.3 416.6,344.3 520.3,404.0 485.9,414.1 468.8,434.1 389.3,442.4 364.4,463.9 319.4,482.3 203.6,472.8 200.1,464.1 252.0,368.7 249.5,345.4 264.9,327.9 265.0,291.4 283.1,272.5"/>
+<polygon points="602.9,232.6 833.4,170.4 864.0,114.2 864.0,346.7 770.3,321.5 644.9,305.3 602.9,232.6"/>
+<polygon points="281.1,272.1 295.2,263.1 293.6,238.6 319.2,205.9 375.9,183.4 358.9,160.0 312.1,156.9 302.4,111.2 327.8,86.7 350.6,76.0 864.0,76.0 864.0,114.2 833.4,170.4 602.9,232.6 399.1,296.2 281.1,272.1"/>
+<polygon points="327.8,86.7 312.8,76.0 350.6,76.0 327.8,86.7"/>
+<polygon points="319.4,482.3 364.4,463.9 389.3,442.4 468.8,434.1 485.9,414.1 520.3,404.0 416.6,344.3 625.1,314.3 644.9,305.3 770.3,321.5 864.0,346.7 864.0,512.0 187.3,512.0 203.6,472.8 319.4,482.3"/>
+<polygon points="52.0,113.2 164.1,95.6 93.7,121.0 101.3,132.2 52.0,134.6 52.0,113.2"/>
+<polygon points="54.7,133.4 90.1,130.1 104.6,137.0 52.0,149.0 54.7,133.4"/>
+<polygon points="80.5,376.6 131.7,361.5 200.1,464.1 170.9,488.1 159.0,512.0 52.0,512.0 52.0,375.4 80.5,376.6"/>
+</g>
+<polyline points="325.8,261.2 317.5,291.0 291.4,329.8 249.8,398.5 187.3,458.2 150.9,404.5 249.8,347.8 265.4,356.7" fill="none" stroke="#99623e" stroke-width="4.5" stroke-dasharray="10 7" stroke-linejoin="round" stroke-linecap="round" opacity=".85"/>
+<circle cx="325.8" cy="261.2" r="7.5" fill="#fffaf1" stroke="#bd7952" stroke-width="3"/>
+<text x="337.8" y="249.2" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Astarot-carnaim (?)</text>
+<circle cx="317.5" cy="291.0" r="7.5" fill="#fffaf1" stroke="#bd7952" stroke-width="3"/>
+<text x="330.5" y="279.0" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Ham (?)</text>
+<circle cx="291.4" cy="329.8" r="7.5" fill="#fffaf1" stroke="#bd7952" stroke-width="3"/>
+<text x="304.4" y="319.8" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Save-quiriataim (?)</text>
+<circle cx="249.8" cy="398.5" r="7.5" fill="#fffaf1" stroke="#315f50" stroke-width="3"/>
+<text x="262.8" y="410.5" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Seir</text>
+<circle cx="187.3" cy="458.2" r="7.5" fill="#fffaf1" stroke="#315f50" stroke-width="3"/>
+<text x="134.3" y="475.2" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Parán</text>
+<circle cx="150.9" cy="404.5" r="7.5" fill="#fffaf1" stroke="#315f50" stroke-width="3"/>
+<text x="93.9" y="394.5" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Cades</text>
+<circle cx="249.8" cy="347.8" r="7.5" fill="#fffaf1" stroke="#bd7952" stroke-width="3"/>
+<text x="263.8" y="334.8" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Hazezontamar (?)</text>
+<circle cx="265.4" cy="356.7" r="7.5" fill="#fffaf1" stroke="#bd7952" stroke-width="3"/>
+<text x="277.4" y="381.7" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Sidim (aprox.)</text>
+<rect x="52" y="525" width="812" height="37" rx="7" fill="#f8f5ed" opacity=".96"/>
+<text x="64" y="548" font-family="Arial,sans-serif" font-size="12.5" fill="#51635a">Base cartográfica: Natural Earth. Fronteras modernas orientativas · puntos y trayectos históricos aproximados.</text>
+</svg>

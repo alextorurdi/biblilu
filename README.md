@@ -1,5 +1,9 @@
 # BIBLILU
 
+## Entrega v0.6 · Viaje y Guerra (Gn 12–14)
+
+Implementadas las escenas 9 «Viaje» (Génesis 12–13) y 10 «Guerra» (Génesis 14), con 62 versículos del manuscrito y las 22 notas editoriales definitivas (82–103). La nota original 68 se suprime; se conservan las demás, salvo las correcciones 66 y 74 y la sustitución íntegra de la 77 sobre Melquisedec. Se incorporan nuevas notas en Gn 12:1, 13:13, 14:10, 14:14 y 14:18 y bibliografía de Nissenbaum (2004). Mapas geográficos originales de las seis fases narrativas, ilustraciones del manuscrito optimizadas, sincronización en escritorio, mapas tras cada sección en móvil, formato de diálogo y enlaces a los apéndices. Se han actualizado índices, selectores y navegación. Fuentes: el manuscrito editorial y acuerdos recogidos en la incidencia #12. El generador mantiene las páginas aprobadas de las escenas 9 y 10.
+
 ## Entrega v0.5 · Vanidad y De Noé a Abram
 
 Implementadas las escenas 7 y 8 (Génesis 11:1–32), con el texto del manuscrito original, notas 77–81, ilustración contemporánea de Babel, lámina genealógica 06, mapa esquemático Ur–Harán, correcciones cronológicas del Onomástico y tres erratas de fichas. Las páginas están en `docs/genesis/11/` y `docs/genesis/11-10/`; el generador conserva las plantillas aprobadas. Incorporación a `main` mediante PR #7.
