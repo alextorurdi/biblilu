@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 900 590" aria-labelledby="title desc">
+<title id="title">Rescate de Lot por Abram</title>
+<desc id="desc">Mapa con contornos geográficos reales basados en Natural Earth y fronteras modernas solo como orientación. Emplazamientos y rutas aproximados, no itinerarios comprobados.</desc>
+<rect width="900" height="590" rx="16" fill="#e0ebed"/>
+<text x="52" y="42" font-family="Arial,sans-serif" font-weight="700" font-size="25" fill="#27483d">Rescate de Lot por Abram</text>
+<rect x="52" y="76" width="812" height="436" fill="#c9e1e8" rx="4"/>
+<g stroke="#d8e5dd" stroke-width=".7">
+<path d="M266.9 76V512"/>
+<path d="M864.0 76V512"/>
+<path d="M52 473.4H864"/>
+<path d="M52 197.4H864"/>
+</g>
+<g fill="#e9e0c9" stroke="#a3a38f" stroke-width="1.35">
+<polygon points="332.1,341.2 288.9,333.6 263.9,370.4 293.9,376.5 263.4,384.1 258.3,398.7 314.4,391.2 317.2,412.7 257.7,500.9 179.2,406.1 214.0,387.9 205.8,384.8 237.4,359.0 261.6,317.3 278.7,303.4 322.0,302.9 333.0,293.2 365.0,292.5 366.8,315.1 332.1,341.2"/>
+<polygon points="333.0,293.2 322.0,302.9 282.0,302.8 324.5,257.8 386.2,217.0 439.9,219.8 459.4,241.5 394.3,262.3 365.0,292.5 333.0,293.2"/>
+<polygon points="258.3,398.7 263.4,384.1 293.9,376.5 263.9,370.4 288.9,333.6 332.1,341.2 332.1,375.0 314.4,391.2 258.3,398.7"/>
+<polygon points="352.9,323.8 485.9,345.7 719.8,286.9 767.9,354.1 745.2,362.4 506.0,390.1 625.0,445.3 585.5,454.7 565.9,473.2 474.8,480.8 446.2,500.7 411.8,512.0 261.7,508.9 257.7,500.9 317.2,412.7 314.4,391.2 332.1,375.0 332.1,341.2 352.9,323.8"/>
+<polygon points="719.8,286.9 864.0,255.6 864.0,364.1 767.9,354.1 719.8,286.9"/>
+<polygon points="350.6,323.5 366.8,315.1 365.0,292.5 394.3,262.3 459.4,241.5 439.9,219.8 386.2,217.0 375.0,174.8 404.2,152.1 468.2,127.9 474.7,97.1 513.7,107.8 645.2,92.5 708.8,102.9 807.0,102.7 864.0,94.1 864.0,255.6 485.9,345.7 350.6,323.5"/>
+<polygon points="807.0,102.7 708.8,102.9 645.2,92.5 513.7,107.8 474.7,97.1 468.2,127.9 404.2,152.1 360.3,127.1 405.6,106.3 332.7,111.0 232.9,98.3 150.7,130.1 52.0,133.5 52.0,76.0 864.0,76.0 864.0,94.1 807.0,102.7"/>
+<polygon points="308.9,512.0 259.6,512.0 261.7,508.9 308.9,512.0"/>
+<polygon points="446.2,500.7 474.8,480.8 565.9,473.2 585.5,454.7 625.0,445.3 506.0,390.1 745.2,362.4 767.9,354.1 864.0,364.1 864.0,512.0 411.8,512.0 446.2,500.7"/>
+<polygon points="107.8,176.8 216.4,160.4 135.7,183.9 144.4,194.2 84.9,197.4 74.0,188.4 52.0,187.9 52.0,176.3 107.8,176.8"/>
+<polygon points="74.0,188.4 84.9,197.4 131.6,192.3 148.1,198.6 52.0,216.2 52.0,187.9 74.0,188.4"/>
+<polygon points="120.5,420.0 179.2,406.1 257.7,500.9 240.9,512.0 52.0,512.0 52.0,417.7 120.5,420.0"/>
+</g>
+<polyline points="278.9,388.9 343.4,294.0 446.1,260.9" fill="none" stroke="#99623e" stroke-width="4.5" stroke-dasharray="10 7" stroke-linejoin="round" stroke-linecap="round" opacity=".85"/>
+<circle cx="278.9" cy="388.9" r="7.5" fill="#fffaf1" stroke="#315f50" stroke-width="3"/>
+<text x="215.9" y="414.9" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Hebrón</text>
+<circle cx="343.4" cy="294.0" r="7.5" fill="#fffaf1" stroke="#315f50" stroke-width="3"/>
+<text x="298.4" y="282.0" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Dan</text>
+<circle cx="446.1" cy="260.9" r="7.5" fill="#fffaf1" stroke="#bd7952" stroke-width="3"/>
+<text x="458.1" y="250.9" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Hobá (?)</text>
+<circle cx="421.0" cy="279.7" r="7.5" fill="#fffaf1" stroke="#315f50" stroke-width="3"/>
+<text x="431.0" y="285.7" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#243e38" paint-order="stroke" stroke="#f2efe3" stroke-width="4" stroke-linejoin="round">Damasco</text>
+<rect x="52" y="525" width="812" height="37" rx="7" fill="#f8f5ed" opacity=".96"/>
+<text x="64" y="548" font-family="Arial,sans-serif" font-size="12.5" fill="#51635a">Base cartográfica: Natural Earth. Fronteras modernas orientativas · puntos y trayectos históricos aproximados.</text>
+</svg>
