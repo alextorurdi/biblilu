@@ -316,3 +316,26 @@
 
 .scene-8 #gn-11-27{margin-top:48px}
 .v05-scene .chronology-note{font:14px/1.7 Arial,sans-serif;color:var(--muted)}
+
+
+/* v0.6 · Viaje y Guerra */
+.v06-scene .v06-side{min-width:0}
+.v06-scene .v06-map-figure{margin:4px 0 28px;padding:10px;background:#f5f4ee;border:1px solid var(--line);border-radius:12px}
+.v06-scene .v06-map-figure[hidden]{display:none!important}
+.v06-scene .v06-map-figure img{display:block;width:100%;height:auto;border-radius:8px}
+.v06-scene .v06-map-figure figcaption,.v06-scene .v06-art figcaption{font:13px/1.6 Arial,sans-serif;color:var(--muted);margin:8px 4px 2px}
+.v06-scene .v06-art{margin:22px auto 40px;max-width:450px}
+.v06-scene .v06-art img{width:100%;height:auto;border-radius:10px;display:block}
+.v06-scene .v06-mobile-map{display:none}
+.v06-scene .v06-movement{height:54px;clear:both}
+.v06-scene .v06-speech{font-style:italic}
+.v06-scene.hide-images .v06-mobile-map,.v06-scene.hide-images .v06-art{display:none!important}
+@media(max-width:700px){
+ .v06-scene .v06-mobile-map{display:block;margin:20px auto 44px;max-width:560px}
+ .v06-scene .v06-art{max-width:460px;margin:20px auto 38px}
+ .v06-scene .v06-movement{height:36px}
+}
+@media print{
+ .v06-scene .v06-mobile-map{display:block!important}
+ .v06-scene .v06-side{display:none!important}
+}
