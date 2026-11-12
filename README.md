@@ -1,4 +1,10 @@
 # BIBLILU
+## Entrega v0.8 · Legado (Gn 16–17)
+
+Publicada la escena 12 «Legado», que unifica las antiguas escenas previstas «Agar» y «Pacto» en una única lectura de 43 versículos (Génesis 16:1–17:27). Incorpora las cinco notas originales 87–91, con las modificaciones aprobadas de 87 y 88, y seis notas nuevas; numeración consecutiva 111–121. Se descarta la propuesta de nota explicativa sobre la circuncisión. Se mantienen los diálogos y los pensamientos en cursiva, las palabras divinas en rojo y los enlaces a los apéndices directamente en el texto.
+
+El diseño visual usa tres recursos originales en `assets/legado-*.svg`: mapa esquemático de Canaán y Shur, ilustración de Agar y el ángel, y recreación de un instrumento antiguo. En móvil se insertan tras Génesis 16:6, después de 16:14 y antes de 17:23, respectivamente. En escritorio ocupan un único lateral alternante, con transiciones en 16:7 y 17:15. Se han actualizado el índice principal y el tradicional, los selectores de escenas, la navegación, los enlaces de las fichas y las páginas fuente protegidas por el generador. Génesis 17 dispone de redirección a su ancla canónica dentro de Legado. Criterios y tareas: `editorial/tareas-legado.md`.
+
 ## Entrega v0.7 · Promesas (Gn 15)
 
 Publicada la escena 11 «Promesas» (21 versículos, Génesis 15), con siete notas editoriales numeradas 104–110, incluidas las versiones aprobadas de las notas originales 81 y 85, la corrección puntual de la nota 82, las notas originales 83–84 y dos notas nuevas (Gn 15:6 y 15:18). Se descarta la propuesta de nota para 15:13. Ilustración original de Abram contemplando las estrellas y mapa geográfico de Canaán, Éufrates y posibles localizaciones del río de Egipto; transición sincronizada en escritorio y distribución móvil específica. No se crea ilustración del pacto. Se completan los enlaces de apéndices, índices, navegación y compatibilidad del generador. Acuerdos editoriales: incidencia #12.
