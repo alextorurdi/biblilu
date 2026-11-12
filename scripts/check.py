@@ -162,6 +162,8 @@ assert 'data-legado-side' in legado
 assert 'id="gn-16-7"' in legado and 'id="gn-17-15"' in legado
 assert '<a href="16/index.html#gn-16-1">' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
 assert '<a href="16/index.html#gn-17-1">' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
-for _asset in ('legado-mapa.svg','legado-agar-angel.svg','legado-instrumento.svg','legado.css','legado.js'):
+for _asset in ('legado-mapa.svg','legado-agar-angel.webp','legado-instrumento.webp','legado.css','legado.js'):
  assert (SITE/'assets'/_asset).exists()
-print('OK: Legado · 43 versículos, 11 notas (111–121), mapa, dos ilustraciones y navegación.')
+assert 'legado-agar-angel.webp' in legado and 'legado-instrumento.webp' in legado
+assert 'legado-mapa.svg?v=20261112def' in legado
+print('OK: Legado · 43 versículos, 11 notas (111–121), mapa e ilustraciones definitivas.')

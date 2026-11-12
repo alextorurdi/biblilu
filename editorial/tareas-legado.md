@@ -84,3 +84,5 @@ Se han incorporado a `data/bibliography.json` y a la página publicada `docs/bib
 
 
 **Revisión editorial de «Legado» CERRADA.** Quedan aprobados la estructura, el formato del diálogo, las decisiones sobre las once notas (cinco originales y seis nuevas), la distribución de elementos visuales para móvil y escritorio, y los enlaces integrados a los apéndices. La propuesta de nota sobre circuncisión queda descartada. La bibliografía está actualizada. Los 43 versículos, 11 notas consecutivas (111–121), enlaces canónicos y distribución visual en ambos formatos están implementados. Todas las tareas editoriales aprobadas quedan completadas; Génesis 17 conserva una redirección al comienzo de su capítulo dentro de la única escena 12.
+
+**Recursos visuales definitivos publicados:** `assets/legado-mapa.svg` (mapa geográfico original con incertidumbres señaladas), `assets/legado-agar-angel.webp` (ilustración de Agar y el ángel de Jehová) y `assets/legado-instrumento.webp` (hoja de sílex recreada). Copias sincronizadas en `docs/assets/`. Sustituyen a las ilustraciones vectoriales provisionales; se conservan las posiciones y cambios de panel aprobados.
