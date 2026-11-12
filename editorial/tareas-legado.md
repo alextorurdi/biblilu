@@ -8,6 +8,12 @@ Escena 12 · Génesis 16:1–17:27. Aún no publicada.
 
 La nota debe conservar su ubicación en Génesis 16:2. Al publicar «Legado», renumerarla según la numeración continua de las notas de BIBLILU, sin modificar el texto aprobado.
 
+- [ ] **Nota original 88 — Génesis 16:7. Sustituir su redacción por el siguiente texto exacto aprobado:**
+
+> Shur era una región desértica situada en las proximidades de la frontera oriental de Egipto, probablemente vinculada al noreste de la península del Sinaí.
+
+Conservar la ubicación de la nota en Génesis 16:7. Al publicar «Legado», asignar su numeración correlativa sin modificar la redacción aprobada.
+
 - [x] **Añadir cuatro estudios a la bibliografía general:**
   - Van Seters, John (1968). «The Problem of Childlessness in Near Eastern Law and the Patriarchs of Israel». Journal of Biblical Literature, 87(4), 401–408. DOI: 10.2307/3263301.
   - Westbrook, Raymond (1988). Old Babylonian Marriage Law. Archiv für Orientforschung, Beiheft 23. Horn: Berger & Söhne.
