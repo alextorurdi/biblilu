@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 860" role="img" aria-labelledby="title desc">
+<title id="title">Mapa esquemático de Canaán, Shur, Cades y Bered</title>
+<desc id="desc">La ruta de Agar hacia Egipto y las localidades de Cades y Bered se muestran de forma aproximada; la localización antigua no se conoce con certeza.</desc>
+<defs>
+<linearGradient id="sand" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6f0da"/><stop offset="1" stop-color="#d9b988"/></linearGradient>
+<linearGradient id="sea" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b8d9d2"/><stop offset="1" stop-color="#6d9fa7"/></linearGradient>
+<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".38" numOctaves="3" seed="9"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".065"/></feComponentTransfer></filter>
+</defs>
+<rect width="800" height="860" rx="28" fill="url(#sand)"/>
+<path d="M0 0H240C196 67 219 144 168 201C137 245 167 308 128 358C93 423 155 488 143 536C111 616 120 716 89 860H0Z" fill="url(#sea)"/>
+<path d="M239 0C200 65 219 145 167 202C137 247 167 306 128 356C93 424 155 488 142 536C111 619 120 718 89 860" fill="none" stroke="#fff8dd" stroke-width="8" opacity=".68"/>
+<g opacity=".28" fill="#ae854d"><path d="M448 0l36 60-28 72 41 56-15 72 67 71-54 112 12 90 102 100-39 114 98 113H800V0Z"/><path d="M351 123l40 48-65 42 13 70-46 28 22 85-65 41 25-84-18-85 48-52Z"/></g>
+<path d="M202 790C274 768 266 672 311 640C355 612 333 568 368 524C390 495 425 465 429 412C436 367 451 293 488 208" stroke="#b4a77c" stroke-width="7" fill="none" stroke-dasharray="10 17" stroke-linecap="round"/>
+<path d="M466 228l22-20 5 32" stroke="#b4a77c" fill="none" stroke-width="7" stroke-linejoin="round"/>
+<g stroke="#986c47" stroke-width="2" fill="none" opacity=".33"><path d="M550 130q44 42 90 0M573 190q40 38 89 12M501 560q61 20 134-21M260 484q51 31 87-2M249 700q41 28 75 7"/></g>
+<path d="M437 206C394 285 334 356 309 422C269 532 238 619 196 712" fill="none" stroke="#76584a" stroke-width="5" stroke-dasharray="7 14" stroke-linecap="round"/>
+<g font-family="Georgia,serif" fill="#34534d">
+<text x="49" y="430" font-style="italic" font-size="24" transform="rotate(-90 49 430)">MAR MEDITERRÁNEO</text>
+<text x="505" y="111" font-size="34" font-weight="bold" letter-spacing="5">CANAÁN</text>
+<text x="286" y="525" font-size="41" font-weight="bold" letter-spacing="5">SHUR</text>
+<text x="536" y="358" font-size="27">Cades</text>
+<text x="551" y="414" font-size="27">Bered</text>
+<text x="163" y="742" font-size="27">Egipto</text>
+</g>
+<g fill="#c56f48" stroke="#fff4de" stroke-width="5"><circle cx="438" cy="211" r="12"/><circle cx="320" cy="481" r="12"/></g>
+<g fill="#857762" stroke="#fff4de" stroke-width="4"><circle cx="510" cy="349" r="7"/><circle cx="522" cy="401" r="7"/></g>
+<circle cx="492" cy="378" r="94" fill="none" stroke="#857762" stroke-width="2" stroke-dasharray="7 12" opacity=".6"/>
+<path d="M94 125l13-45 13 45-13-8Z" fill="#355b58"/><path d="M107 82v77" stroke="#355b58" stroke-width="2"/><text x="95" y="71" font="bold 24px Arial" fill="#355b58">N</text>
+<rect x="40" y="774" width="722" height="58" rx="11" fill="#fff9eb" opacity=".88"/>
+<text x="59" y="799" font="18px Arial,sans-serif" fill="#494c45">Ruta ilustrativa hacia Egipto. Shur, Cades y Bered:</text>
+<text x="59" y="824" font="18px Arial,sans-serif" fill="#494c45">ubicaciones antiguas aproximadas o discutidas.</text>
+<rect width="800" height="860" rx="28" filter="url(#grain)" opacity=".6"/>
+</svg>
