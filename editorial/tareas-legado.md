@@ -2,6 +2,16 @@
 
 Escena 12 · Génesis 16:1–17:27. Aún no publicada.
 
+- [ ] **Formato aprobado · apartado 1 — Estructura de la escena:** mantener «Legado» como **una sola escena 12**, que cubra Génesis 16:1–17:27 (43 versículos). Preservar la continuidad narrativa sin subdividirla en escenas independientes ni añadir subtítulos intrusivos. Distinguir en el flujo de lectura estos tramos temáticos, sin encabezados: 16:1–6 (Sarai, Agar y conflicto); 16:7–14 (encuentro con el ángel de Jehová); 16:15–16 (nacimiento de Ismael); 17:1–8 (renovación del pacto y cambio de nombre de Abram); 17:9–14 (señal de la circuncisión); 17:15–22 (Sara, Isaac e Ismael); 17:23–27 (circuncisión de Abraham, Ismael y los varones de la casa). Conservar la lectura continua y los anclajes de los versículos.
+
+- [ ] **Formato aprobado · apartado 4 — Texto y diálogos:** aplicar los criterios editoriales acordados para BIBLILU:
+  - **Gn 16:2–6:** presentar las intervenciones de Sarai y Abram con guiones y cursiva; mantener la narración en letra normal.
+  - **Gn 16:8–12:** separar y atribuir correctamente los diálogos entre Agar y el ángel de Jehová. Conservar **en negro** las palabras del ángel, identificado expresamente como interlocutor; la nota aprobada en 16:13 explica su identificación narrativa con Jehová.
+  - **Gn 16:13:** diferenciar las palabras de Agar dirigidas a Dios de la reflexión posterior; presentar la reflexión como pensamiento en cursiva, sin guion.
+  - **Gn 17:1–22:** mantener las intervenciones directas de Dios en **rojo y cursiva**, especialmente los parlamentos continuos de 17:4–8, 17:9–14 y 17:19–21, sin cortes visuales arbitrarios.
+  - **Gn 17:17:** presentar la pregunta de Abraham expresamente interior como pensamiento en cursiva **sin guion**; distinguirla del diálogo directo de Gn 17:18.
+  - **Comprobación de importación:** revisar los cortes de página del manuscrito en Gn 16:6, 16:14 y 17:4 para evitar omisiones y conservar íntegros el texto y sus marcas de versículo.
+
 - [ ] **Nota original 87 — Génesis 16:2. Sustituir su redacción por el siguiente texto exacto aprobado:**
 
 > En el antiguo Oriente Próximo estaba documentada la práctica de que una esposa sin hijos entregara una esclava a su marido para obtener descendencia. Algunos contratos matrimoniales babilónicos establecían que los hijos nacidos de esta unión fueran considerados legalmente hijos de la esposa principal.
