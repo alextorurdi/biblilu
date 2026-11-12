@@ -339,3 +339,24 @@
  .v06-scene .v06-mobile-map{display:block!important}
  .v06-scene .v06-side{display:none!important}
 }
+
+
+/* v0.7 · Escena 11: Promesas */
+.v07-scene .v07-side{min-width:0}
+.v07-scene .v07-stars{margin:0 0 20px}
+.v07-scene .v07-stars img{width:100%;max-height:calc(100vh - 138px);height:auto;object-fit:contain;display:block;border-radius:10px}
+.v07-scene .v07-side figcaption,.v07-scene .v07-stars-mobile figcaption{font:13px/1.55 Arial,sans-serif;color:var(--muted);padding:9px 2px}
+.v07-scene .v07-side [hidden]{display:none!important}
+.v07-scene .v07-map-mobile,.v07-scene .v07-stars-mobile{display:none}
+.v07-scene .v07-covenant-break{height:28px}
+.v07-scene.hide-images .v07-map-mobile,.v07-scene.hide-images .v07-stars-mobile{display:none!important}
+@media(max-width:700px){
+ .v07-scene .v07-stars-mobile{display:block;max-width:480px;margin:26px auto 38px}
+ .v07-scene .v07-stars-mobile img{width:100%;height:auto;display:block;border-radius:10px}
+ .v07-scene .v07-map-mobile{display:block;margin:26px auto 45px;max-width:610px}
+ .v07-scene .v07-covenant-break{height:18px}
+}
+@media print{
+ .v07-scene .v07-stars-mobile,.v07-scene .v07-map-mobile{display:block!important}
+ .v07-scene .v07-side{display:none!important}
+}
