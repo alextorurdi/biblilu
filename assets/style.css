@@ -360,3 +360,7 @@
  .v07-scene .v07-stars-mobile,.v07-scene .v07-map-mobile{display:block!important}
  .v07-scene .v07-side{display:none!important}
 }
+
+.v07-scene .v07-tribe-links{font:13px/1.85 Arial,sans-serif;color:var(--muted);padding:12px 15px;margin:22px 0 8px;border-left:3px solid #dad3ba;background:#f2f1e9;border-radius:0 8px 8px 0}
+.v07-scene .v07-tribe-links span{font-weight:600;margin-right:8px}
+.v07-scene .v07-tribe-links a{white-space:nowrap}
