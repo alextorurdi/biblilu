@@ -36,12 +36,12 @@ for p,doc in parsed.items():
     assert old_ch3 or fragment.startswith(('lamina=','persona=')),(p,address,'missing anchor')
 
 V=json.loads((ROOT/'data/genesis.json').read_text(encoding='utf-8'))
-assert len(V)==299
+assert len(V)==425
 normalize=lambda x:re.sub(r'\s+',' ',x).strip()
 all_text=''
 for verse in V:
  c,v=verse['chapter'],verse['verse']
- unit=('11' if v<=9 else '11-10') if c==11 else (10 if c==10 else (6 if c in (6,7,8,9) else (5 if c==5 or (c==4 and v>=25) else (4 if c==4 else (1 if c==1 or (c==2 and v<=3) else 2)))))
+ unit='16' if c in (16,17) else ('15' if c==15 else ('14' if c==14 else ('12' if c in (12,13) else (('11' if v<=9 else '11-10') if c==11 else ('10' if c==10 else ('6' if c in (6,7,8,9) else ('5' if c==5 or (c==4 and v>=25) else ('4' if c==4 else ('1' if c==1 or (c==2 and v<=3) else '2'))))))))
  path=SITE/f'genesis/{unit}/index.html'
  html=path.read_text(encoding='utf-8')
  match=re.search(r'<p class="verse(?: poetry)?" id="gn-'+str(c)+'-'+str(v)+r'">(.*?)</p>',html,re.S)
@@ -53,7 +53,7 @@ for verse in V:
  for speech in re.findall(r'<span class="divine">([\s\S]*?)</span>',match[1]):
   assert not re.search(r'<a(?![^>]*class="fn-link")',speech),(c,v,'divine text has hyperlink')
  all_text+=match[1]
-for unit,min_n,max_n in [(1,1,8),(2,9,22),(4,23,39),(5,40,53),(6,54,67),(10,68,76)]:
+for unit,min_n,max_n in [(1,1,8),(2,9,22),(4,23,39),(5,40,53),(6,54,67),(10,68,76),('11',77,78),('11-10',79,81),('12',82,93),('14',94,103),('15',104,110),('16',111,121)]:
  html=(SITE/f'genesis/{unit}/index.html').read_text(encoding='utf-8')
  a=[int(x) for x in re.findall(r'id="fnref-(\d+)"',html)]
  b=[int(x) for x in re.findall(r'<li id="fn-(\d+)"',html)]
@@ -69,7 +69,7 @@ assert 'data-scene="crueldad"' in (SITE/'genesis/4/index.html').read_text(encodi
 assert 'data-illustration="music"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
 assert 'id="fnref-27"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
 assert '“dadora de vida”' in (SITE/'genesis/2/index.html').read_text(encoding='utf-8')
-print(f'OK: {len(parsed)} páginas; 299 versículos, 81 notas, dos índices, anclas canónicas y marcado divino.')
+print(f'OK: {len(parsed)} páginas; 425 versículos, 121 notas, dos índices, anclas canónicas y marcado divino.')
 
 # La escena 4 abarca Gn 4:25–5:32; el árbol 02 cambia a cronología en Gn 5:25.
 scene_4=(SITE/'genesis/5/index.html').read_text(encoding='utf-8')
@@ -94,7 +94,7 @@ assert '<a href="6/index.html#gn-9-1">' in (SITE/'genesis/index.html').read_text
 
 # Bibliografía de Génesis 9:25: correspondencia entre la nota 67 y las fuentes.
 _bib=json.loads((ROOT/'data/bibliography.json').read_text(encoding='utf-8'))
-assert len(_bib)==55
+assert len(_bib)==60
 for _n,_name in ((53,'Embry'),(54,'Bergsma'),(55,'Alexander')):
  assert _name in _bib[_n-1]
  assert f'href="../../bibliografia/index.html#ref-{_n}"' in scene_5
@@ -137,3 +137,17 @@ assert 'genealogias/06.svg' in _scene8 and 'ur-haran-map' in _scene8
 assert 'href="11/index.html"' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
 assert 'href="11-10/index.html"' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
 print('OK: v0.5 · Génesis 11:1–32, notas 77–81, dos escenas, Babel, genealogía 06 y mapa.')
+
+# Escena 12 · Legado: capítulos 16 y 17, once notas y tres inserciones visuales.
+legado=(SITE/'genesis/16/index.html').read_text(encoding='utf-8')
+assert all(f'id="gn-16-{n}"' in legado for n in range(1,17))
+assert all(f'id="gn-17-{n}"' in legado for n in range(1,28))
+assert legado.count('class="legado-mobile-art')==3
+assert legado.count('class="legado-panel')==3
+assert 'data-legado-side' in legado
+assert 'id="gn-16-7"' in legado and 'id="gn-17-15"' in legado
+assert '<a href="16/index.html#gn-16-1">' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
+assert '<a href="16/index.html#gn-17-1">' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
+for _asset in ('legado-mapa.svg','legado-agar-angel.svg','legado-instrumento.svg','legado.css','legado.js'):
+ assert (SITE/'assets'/_asset).exists()
+print('OK: Legado · 43 versículos, 11 notas (111–121), mapa, dos ilustraciones y navegación.')
