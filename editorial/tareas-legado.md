@@ -36,9 +36,9 @@ Conservar la ubicación de la nota en Génesis 16:7. Al publicar «Legado», asi
 
 > Agar llama a Dios *El Roʾí*, expresión hebrea que puede entenderse como «Dios que me ve» o «Dios de la visión». El pasaje también permite interpretar que Agar se sorprende de haber visto una manifestación divina y continuar con vida. El ángel de Jehová que aparece en 16:7 es identificado con Jehová en la narración de 16:13.
 
-- [ ] **Nueva nota — Génesis 17:1. Incorporar el siguiente texto exacto proporcionado por el editor (sin corregirlo):**
+- [ ] **Nueva nota — Génesis 17:1. Incorporar el siguiente texto aprobado, con corrección gramatical:**
 
-> ʾEl Šadday se traduce aquí como "Dios Todopoderoso" pero su etimología es discutido.
+> ʾEl Šadday se traduce aquí como "Dios Todopoderoso" pero su etimología es discutida.
 
 Al publicar, integrar las tres notas en sus versículos y aplicar la numeración continua de BIBLILU.
 
