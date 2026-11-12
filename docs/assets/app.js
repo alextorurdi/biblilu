@@ -344,3 +344,34 @@
   addEventListener('load',schedule);
   update();
 })();
+
+
+/* v0.7 · Sincronización de la ilustración y el mapa en «Promesas». */
+(()=>{
+  if(!document.body.classList.contains('scene-11'))return;
+  const side=document.querySelector('[data-v07-side]');
+  const transition=document.getElementById('gn-15-18');
+  if(!side||!transition)return;
+  const star=side.querySelector('[data-v07-panel="stars"]');
+  const map=side.querySelector('[data-v07-panel="map"]');
+  if(!star||!map)return;
+  let last=null,scheduled=false;
+  const update=()=>{
+    scheduled=false;
+    const line=Math.max(90,Math.min(window.innerHeight*.42,350));
+    const showMap=transition.getBoundingClientRect().top<=line;
+    if(last===showMap)return;
+    last=showMap;
+    star.hidden=showMap;
+    map.hidden=!showMap;
+    star.setAttribute('aria-hidden',String(showMap));
+    map.setAttribute('aria-hidden',String(!showMap));
+  };
+  const schedule=()=>{if(scheduled)return;scheduled=true;requestAnimationFrame(update);};
+  addEventListener('scroll',schedule,{passive:true});
+  addEventListener('resize',schedule);
+  addEventListener('pageshow',schedule);
+  addEventListener('hashchange',schedule);
+  addEventListener('load',schedule);
+  update();
+})();
