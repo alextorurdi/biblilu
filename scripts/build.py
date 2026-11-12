@@ -13,6 +13,7 @@ for cat,names in {'onomastico':['Adán','Eva','Varona'],'materiales':['Oro','Bed
   found=next((e for e in E if e['category']==cat and e['name'].lower()==name.lower()),None)
   if found:links[name.lower()]=found['id']
 links.update({'éufrates':'lugares/eufrates','querubines':'animales/querubin','cardos':'animales/cardo','árbol de vida':'animales/arbol-de-la-vida','árbol de la vida':'animales/arbol-de-la-vida','serpiente':'animales/serpiente'})
+links.update({'abram':'onomastico/abram','abraham':'onomastico/abraham','sarai':'onomastico/sarai','sara':'onomastico/sara','agar':'onomastico/agar','ismael':'onomastico/ismael','isaac':'onomastico/isaac','shur':'lugares/shur','cades':'lugares/cades','bered':'lugares/bered','canaán':'lugares/canaan','ángel de jehová':'animales/angel-de-jehova','pozo del viviente-que-me-ve':'lugares/pozo-del-viviente-que-me-ve'})
 links={k:v for k,v in links.items() if v in byid}
 # Las palabras de Dios prevalecen sobre los enlaces de categorías.
 aftercolon={(1,n) for n in [3,6,9,11,14,20,22,24,26,28,29]}|{(2,n) for n in [16,18]}|{(3,n) for n in [1,3,9,11,13,14,16,17,22]}
@@ -53,7 +54,7 @@ def cards(pre):
  return ''.join(onomastic_card(pre) if cat=='onomastico' else f'<a class="appendix-card {cat}" href="{pre}apendices/{cat}/index.html"><span class="dot"></span><h3>{name}</h3><p>{desc}</p><span aria-hidden="true">↗</span></a>' for cat,(name,desc) in C.items())
 old='Génesis|Éxodo|Levítico|Números|Deuteronomio|Josué|Jueces|Rut|1 Samuel|2 Samuel|1 Reyes|2 Reyes|1 Crónicas|2 Crónicas|Esdras|Nehemías|Ester|Job|Salmos|Proverbios|Eclesiastés|Cantares|Isaías|Jeremías|Lamentaciones|Ezequiel|Daniel|Oseas|Joel|Amós|Abdías|Jonás|Miqueas|Nahúm|Habacuc|Sofonías|Hageo|Zacarías|Malaquías'.split('|')
 new='Mateo|Marcos|Lucas|Juan|Hechos|Romanos|1 Corintios|2 Corintios|Gálatas|Efesios|Filipenses|Colosenses|1 Tesalonicenses|2 Tesalonicenses|1 Timoteo|2 Timoteo|Tito|Filemón|Hebreos|Santiago|1 Pedro|2 Pedro|1 Juan|2 Juan|3 Juan|Judas|Apocalipsis'.split('|')
-def books(items):return ''.join('<a class="book available" href="genesis/index.html"><span>01</span><strong>Génesis</strong><small>Capítulos 1–10 disponibles ↗</small></a>' if b=='Génesis' else f'<div class="book pending"><strong>{b}</strong><small>Próximamente</small></div>' for b in items)
+def books(items):return ''.join('<a class="book available" href="genesis/index.html"><span>01</span><strong>Génesis</strong><small>Capítulos 1–17 disponibles ↗</small></a>' if b=='Génesis' else f'<div class="book pending"><strong>{b}</strong><small>Próximamente</small></div>' for b in items)
 page('index.html','La Biblia ilustrada',f'''<section class="hero"><div class="hero-copy"><p class="eyebrow">UN LIBRO. MUCHAS FORMAS DE DESCUBRIRLO.</p><h1>Las palabras.<br>Las imágenes.<br><em>El principio.</em></h1><p class="intro">Recorre la Biblia a través de sus relatos, sus imágenes y el mundo que habita en cada palabra.</p><a class="button" href="genesis/1/index.html">Comenzar la lectura <span>↗</span></a><a class="quiet" href="#libros">Explorar los libros ↓</a><p class="edition">PRIMERA ENTREGA &nbsp; / &nbsp; GÉNESIS 1–10</p></div><figure class="hero-art"><img src="assets/creacion.jpg" alt="Ilustración de la creación: luz, astros, animales y naturaleza"><figcaption>01 / La creación</figcaption></figure></section><section id="libros" class="section"><p class="eyebrow">LA BIBLIOTECA</p><h2>Un recorrido, libro a libro.</h2><p>Los capítulos se incorporan a medida que están preparados.</p><h3 class="testament">Antiguo Testamento <span>39 libros</span></h3><div class="books">{books(old)}</div><details class="new-testament"><summary>Nuevo Testamento <span>27 libros</span></summary><div class="books">{books(new)}</div></details></section><section class="section tinted"><p class="eyebrow">MÁS ALLÁ DEL VERSÍCULO</p><h2>Cada palabra abre un mundo.</h2><p>Consulta los nombres, los lugares y los elementos del relato en nuestros cinco apéndices.</p><div class="appendix-grid">{cards('')}</div></section>''')
 page('genesis/index.html','Génesis','''<section class="book-hero"><div><p class="eyebrow">ANTIGUO TESTAMENTO / LIBRO 01</p><h1>Génesis</h1><p class="intro">Los comienzos: el mundo, la vida y los primeros pasos de la humanidad.</p><a class="button" href="1/index.html">Leer el primer capítulo ↗</a><p>8 de 50 capítulos disponibles</p></div><img src="../assets/eden.jpg" alt="El jardín de Edén"></section><section class="section"><h2>Índice de capítulos</h2><div class="chapter-grid">'''+''.join(f'<a href="{i}/index.html"><b>{i:02}</b><span>{["La creación","El huerto de Edén","Fuera del paraíso"][i-1]}</span>↗</a>' if i<=3 else f'<div class="pending"><b>{i:02}</b><span>Próximamente</span></div>' for i in range(1,51))+'''</div></section>''')
 art={1:('creacion.jpg','La creación'),2:('eden.jpg','El huerto de Edén'),3:('tentación.png','La serpiente y el fruto')};titles={1:'La creación',2:'El huerto de Edén',3:'Fuera del paraíso'}
@@ -115,6 +116,7 @@ def body_with_genealogy(e):
  return re.sub(pattern,lambda m:m.group(1)+link,body,count=1) if re.search(pattern,body) else body+link
 def scene_path_for(v):
  c,n=v['chapter'],v['verse']
+ if c in (16,17):return '16'
  if c in (12,13):return '12'
  if c==15:return '15'
  if c==14:return '14'
@@ -144,7 +146,7 @@ print('Generadas',len(list(OUT.rglob('*.html'))),'páginas estáticas.')
 
 # Restaurar las páginas temáticas que cuentan con revisión editorial aprobada.
 # No regenerarlas según la división bíblica convencional ni perder sus notas.
-for _relative in ('index.html','genesis/index.html','genesis/1/index.html','genesis/2/index.html','genesis/3/index.html','genesis/4/index.html','genesis/5/index.html','genesis/6/index.html','genesis/10/index.html','genesis/11/index.html','genesis/11-10/index.html','genesis/12/index.html','genesis/14/index.html','genesis/15/index.html','articulos/concepto-dia-genesis/index.html','articulos/cosmologia-hebrea/index.html'):
+for _relative in ('index.html','genesis/index.html','genesis/1/index.html','genesis/2/index.html','genesis/3/index.html','genesis/4/index.html','genesis/5/index.html','genesis/6/index.html','genesis/10/index.html','genesis/11/index.html','genesis/11-10/index.html','genesis/12/index.html','genesis/14/index.html','genesis/15/index.html','genesis/16/index.html','articulos/concepto-dia-genesis/index.html','articulos/cosmologia-hebrea/index.html'):
  _source=ROOT/'editorial'/'approved-pages'/_relative
  if _source.exists():
   _dest=OUT/_relative
