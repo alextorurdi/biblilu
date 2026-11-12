@@ -42,10 +42,22 @@ Conservar la ubicación de la nota en Génesis 16:7. Al publicar «Legado», asi
 
 Al publicar, integrar las tres notas en sus versículos y aplicar la numeración continua de BIBLILU.
 
+- [ ] **Nueva nota — Génesis 17:5. Incorporar íntegramente la redacción propuesta y aprobada:**
+
+> El nombre Abram suele interpretarse como «el padre es exaltado». Abraham parece ser una variante ampliada del mismo nombre, aunque el texto bíblico establece un juego de palabras con *ʾab hamôn*, «padre de una multitud». Así, el cambio de nombre expresa la promesa de que Abraham será padre de numerosas naciones.
+
+- [x] **Propuesta de nueva nota — Génesis 17:10–12 (circuncisión): DESCARTADA.** No crear ni incorporar la nota explicativa sobre la circuncisión propuesta en la revisión editorial. Conservar íntegro el texto bíblico y su formato habitual.
+
+- [ ] **Nueva nota — Génesis 17:15. Incorporar literalmente la redacción aprobada por el editor:**
+
+> Sarai y Sara son variantes de un nombre hebreo relacionado con la idea de «princesa» o «señora». La tradición judía ha interpretado el cambio como el paso de «mi princesa» a «princesa», es decir, "la princesa de todos los judíos".
+
+Al publicar «Legado», añadir las nuevas notas aprobadas en sus versículos, respetar las redacciones exactas y renumerarlas con la secuencia general de BIBLILU.
+
 - [x] **Añadir cuatro estudios a la bibliografía general:**
   - Van Seters, John (1968). «The Problem of Childlessness in Near Eastern Law and the Patriarchs of Israel». Journal of Biblical Literature, 87(4), 401–408. DOI: 10.2307/3263301.
   - Westbrook, Raymond (1988). Old Babylonian Marriage Law. Archiv für Orientforschung, Beiheft 23. Horn: Berger & Söhne.
   - White, Kayla (2014). «The Legal Status of Barren Wives in the Ancient Near East». Priscilla Papers, 28(4), 18–22.
   - Yoo, Philip Y. (2016). «Hagar the Egyptian: Wife, Handmaid, and Concubine». The Catholic Biblical Quarterly, 78(2), 215–235.
 
-Se han incorporado a `data/bibliography.json` y a la página publicada `docs/bibliografia/index.html`. Las restantes notas nuevas propuestas para «Legado» (Génesis 17:5, 17:10–12, 17:15 y 17:17–19) continúan sin aprobarse.
+Se han incorporado a `data/bibliography.json` y a la página publicada `docs/bibliografia/index.html`. La nota nueva propuesta en Génesis 17:17–19 continúa pendiente de decisión. La propuesta de nota sobre la circuncisión (Génesis 17:10–12) ha sido descartada.
