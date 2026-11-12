@@ -1,0 +1,25 @@
+/* Escena 12 · Legado — Gn 16–17. Recursos sincronizados en un único lateral. */
+.legado-scene .legado-side{min-width:0}
+.legado-scene .legado-side figure{margin:0}
+.legado-scene .legado-panel[hidden]{display:none!important}
+.legado-scene .legado-panel img{display:block;width:100%;max-height:calc(100vh - 135px);height:auto;object-fit:contain;border-radius:12px;background:#efede5;box-shadow:0 3px 12px #302a1b13}
+.legado-scene .legado-panel figcaption,.legado-scene .legado-mobile-art figcaption{font:13px/1.65 Arial,sans-serif;color:var(--muted);padding:12px 3px 2px}
+.legado-scene .legado-mobile-art{display:none}
+.legado-scene .legado-break{clear:both;margin:21px 0 30px;height:12px;border-bottom:1px solid var(--line)}
+.legado-scene .legado-speech{font-style:italic}
+.legado-scene .legado-thought{font-style:italic}
+.legado-scene .legado-inline-break{display:block;margin-top:9px}
+.legado-scene .legado-god{color:#a63235}
+.legado-scene .legado-god .term{color:inherit;border-bottom:1px dotted currentColor}
+.legado-scene .legado-mobile-art img{width:100%;height:auto;display:block;border-radius:11px;background:#eee7d8}
+.legado-scene.hide-images .legado-mobile-art{display:none!important}
+@media(max-width:700px){
+ .legado-scene .legado-mobile-art{display:block;max-width:500px;margin:22px auto 43px}
+ .legado-scene .legado-mobile-art.legado-mobile-map{max-width:610px}
+ .legado-scene .legado-break{margin:15px 0 22px}
+ .legado-scene .legado-mobile-art figcaption{font-size:12px}
+}
+@media print{
+ .legado-scene .legado-side{display:none!important}
+ .legado-scene .legado-mobile-art{display:block!important;max-width:440px;break-inside:avoid}
+}
