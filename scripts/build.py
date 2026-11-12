@@ -146,7 +146,7 @@ print('Generadas',len(list(OUT.rglob('*.html'))),'páginas estáticas.')
 
 # Restaurar las páginas temáticas que cuentan con revisión editorial aprobada.
 # No regenerarlas según la división bíblica convencional ni perder sus notas.
-for _relative in ('index.html','genesis/index.html','genesis/1/index.html','genesis/2/index.html','genesis/3/index.html','genesis/4/index.html','genesis/5/index.html','genesis/6/index.html','genesis/10/index.html','genesis/11/index.html','genesis/11-10/index.html','genesis/12/index.html','genesis/14/index.html','genesis/15/index.html','genesis/16/index.html','articulos/concepto-dia-genesis/index.html','articulos/cosmologia-hebrea/index.html'):
+for _relative in ('index.html','genesis/index.html','genesis/1/index.html','genesis/2/index.html','genesis/3/index.html','genesis/4/index.html','genesis/5/index.html','genesis/6/index.html','genesis/10/index.html','genesis/11/index.html','genesis/11-10/index.html','genesis/12/index.html','genesis/14/index.html','genesis/15/index.html','genesis/16/index.html','genesis/17/index.html','articulos/concepto-dia-genesis/index.html','articulos/cosmologia-hebrea/index.html'):
  _source=ROOT/'editorial'/'approved-pages'/_relative
  if _source.exists():
   _dest=OUT/_relative
