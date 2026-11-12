@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 620" role="img" aria-labelledby="t d">
+<title id="t">Representación artística de un instrumento cortante antiguo</title>
+<desc id="d">Una hoja de piedra tallada con mango de madera y cordaje sobre una superficie de lino y arena, ilustración conceptual no identificada como utensilio arqueológico específico.</desc>
+<defs>
+<linearGradient id="linen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7efe0"/><stop offset="1" stop-color="#d1b894"/></linearGradient>
+<linearGradient id="flint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e2d6bc"/><stop offset=".3" stop-color="#7f7970"/><stop offset=".65" stop-color="#a5a9a1"/><stop offset="1" stop-color="#333c40"/></linearGradient>
+<linearGradient id="wood" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#bf8f5c"/><stop offset=".45" stop-color="#8c5d37"/><stop offset="1" stop-color="#4d392a"/></linearGradient>
+<filter id="shadow"><feGaussianBlur stdDeviation="15"/></filter>
+<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".42" numOctaves="3" seed="6"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".05"/></feComponentTransfer></filter>
+</defs>
+<rect width="920" height="620" fill="#c8af8c"/>
+<path d="M0 32Q244 84 450 30T920 61V620H0Z" fill="url(#linen)"/>
+<g opacity=".25" stroke="#a58e72" fill="none" stroke-width="2"><path d="M0 130Q330 160 920 125M0 213Q440 197 920 222M0 310Q440 300 920 321M0 443Q440 458 920 440M0 560Q440 544 920 562"/></g>
+<g transform="translate(65 75) rotate(-17 410 245)">
+<path d="M150 372Q480 387 734 364" stroke="#51463a" stroke-width="62" opacity=".18" filter="url(#shadow)"/>
+<!-- wooden haft -->
+<path d="M443 209Q517 205 598 212L776 230Q798 233 809 252Q796 274 774 278L592 300Q509 306 449 292Z" fill="url(#wood)" stroke="#533d2a" stroke-width="5"/>
+<path d="M589 222Q660 246 772 244M596 286Q692 267 777 256" stroke="#deb27f" stroke-width="7" opacity=".48" fill="none"/>
+<ellipse cx="780" cy="253" rx="30" ry="28" fill="#6a4a32" stroke="#523b2c" stroke-width="4"/>
+<path d="M487 211q18 45 1 84m29-83q17 45 1 87m30-84q13 48 0 92m26-94q12 52 0 97" stroke="#e2ceab" stroke-width="10" opacity=".82" fill="none"/>
+<path d="M496 210q-8 44-3 85m27-86q-5 50-2 94m30-96q-6 52-1 101" stroke="#7d6949" stroke-width="4" fill="none"/>
+<!-- flint blade -->
+<path d="M474 205Q346 164 197 137Q98 116 40 155Q76 205 102 249Q167 332 271 347Q389 350 484 294Q449 255 474 205Z" fill="url(#flint)" stroke="#444e4d" stroke-width="7"/>
+<path d="M39 155Q213 160 334 225Q408 255 474 205L485 294Q357 346 266 346Q116 306 39 155" fill="none" stroke="#ded8bd" stroke-width="6" opacity=".64"/>
+<path d="M55 161L192 191L270 279L360 313L484 295M191 140L246 220L322 246L423 218M270 277L304 319" stroke="#4b5555" stroke-width="5" fill="none" opacity=".6"/>
+<path d="M40 155L197 137L334 180" stroke="#f2ead8" stroke-width="5" opacity=".75" fill="none"/>
+</g>
+<g transform="translate(56 520)" font-family="Georgia,serif" fill="#5c5347"><path d="M0 0h808" stroke="#a89275" stroke-width="2"/><text x="2" y="34" font-size="24" letter-spacing="2">INSTRUMENTO DE CORTE ANTIGUO</text><text x="2" y="67" font-family="Arial,sans-serif" font-size="17">Recreación evocadora · no reproduce un hallazgo identificado</text></g>
+<rect width="920" height="620" filter="url(#grain)" opacity=".48"/>
+</svg>
