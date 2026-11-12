@@ -54,10 +54,14 @@ Al publicar, integrar las tres notas en sus versículos y aplicar la numeración
 
 Al publicar «Legado», añadir las nuevas notas aprobadas en sus versículos, respetar las redacciones exactas y renumerarlas con la secuencia general de BIBLILU.
 
+- [ ] **Nueva nota — Génesis 17:17–19. Incorporar literalmente la redacción propuesta y aprobada:**
+
+> El nombre hebreo *Yiṣḥāq* (Isaac) está relacionado con el verbo *ṣāḥaq*, «reír». El relato establece así un juego de palabras con la reacción de Abraham al recibir el anuncio del nacimiento de su hijo. El motivo de la risa reaparecerá en Génesis 18:12 y 21:6.
+
 - [x] **Añadir cuatro estudios a la bibliografía general:**
   - Van Seters, John (1968). «The Problem of Childlessness in Near Eastern Law and the Patriarchs of Israel». Journal of Biblical Literature, 87(4), 401–408. DOI: 10.2307/3263301.
   - Westbrook, Raymond (1988). Old Babylonian Marriage Law. Archiv für Orientforschung, Beiheft 23. Horn: Berger & Söhne.
   - White, Kayla (2014). «The Legal Status of Barren Wives in the Ancient Near East». Priscilla Papers, 28(4), 18–22.
   - Yoo, Philip Y. (2016). «Hagar the Egyptian: Wife, Handmaid, and Concubine». The Catholic Biblical Quarterly, 78(2), 215–235.
 
-Se han incorporado a `data/bibliography.json` y a la página publicada `docs/bibliografia/index.html`. La nota nueva propuesta en Génesis 17:17–19 continúa pendiente de decisión. La propuesta de nota sobre la circuncisión (Génesis 17:10–12) ha sido descartada.
+Se han incorporado a `data/bibliography.json` y a la página publicada `docs/bibliografia/index.html`. La nueva nota de Génesis 17:17–19 queda aprobada sin cambios. Todas las notas propuestas para «Legado» están resueltas. La propuesta de nota sobre la circuncisión (Génesis 17:10–12) ha sido descartada.
