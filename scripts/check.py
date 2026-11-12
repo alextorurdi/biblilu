@@ -39,9 +39,23 @@ V=json.loads((ROOT/'data/genesis.json').read_text(encoding='utf-8'))
 assert len(V)==425
 normalize=lambda x:re.sub(r'\s+',' ',x).strip()
 all_text=''
+def scene_path(c,v):
+ if c in (16,17):return '16'
+ if c==15:return '15'
+ if c==14:return '14'
+ if c in (12,13):return '12'
+ if c==11:return '11' if v<=9 else '11-10'
+ if c==10:return '10'
+ if c in (6,7,8,9):return '6'
+ if c==5 or (c==4 and v>=25):return '5'
+ if c==4:return '4'
+ if c==3:return '2'
+ if c==2:return '1' if v<=3 else '2'
+ return '1'
+
 for verse in V:
  c,v=verse['chapter'],verse['verse']
- unit='16' if c in (16,17) else ('15' if c==15 else ('14' if c==14 else ('12' if c in (12,13) else (('11' if v<=9 else '11-10') if c==11 else ('10' if c==10 else ('6' if c in (6,7,8,9) else ('5' if c==5 or (c==4 and v>=25) else ('4' if c==4 else ('1' if c==1 or (c==2 and v<=3) else '2'))))))))
+ unit=scene_path(c,v)
  path=SITE/f'genesis/{unit}/index.html'
  html=path.read_text(encoding='utf-8')
  match=re.search(r'<p class="verse(?: poetry)?" id="gn-'+str(c)+'-'+str(v)+r'">(.*?)</p>',html,re.S)
