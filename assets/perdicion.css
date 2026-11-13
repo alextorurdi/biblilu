@@ -1,0 +1,24 @@
+/* Perdición · escena 13 · Gn 18–19. Los paneles laterales no se duplican. */
+.perdicion-scene .perdicion-side{min-width:0}
+.perdicion-scene .perdicion-panel{margin:0}
+.perdicion-scene .perdicion-panel[hidden]{display:none!important}
+.perdicion-scene .perdicion-panel img{display:block;width:100%;height:auto;max-height:calc(100vh - 145px);object-fit:contain;border-radius:12px;background:#f3efe6;box-shadow:0 3px 12px #1f261615}
+.perdicion-scene .perdicion-panel figcaption,.perdicion-scene .perdicion-mobile-art figcaption{font:13px/1.6 Arial,sans-serif;color:var(--muted);padding:11px 3px 2px}
+.perdicion-scene .perdicion-mobile-art{display:none}
+.perdicion-scene .perdicion-mobile-art img{width:100%;height:auto;display:block;border-radius:11px;background:#f0eadd}
+.perdicion-scene .perdicion-break{clear:both;margin:20px 0 28px;height:12px;border-bottom:1px solid var(--line)}
+.perdicion-scene .perdicion-speech,.perdicion-scene .perdicion-thought{font-style:italic}
+.perdicion-scene .perdicion-god{color:#a63235}
+.perdicion-scene .perdicion-god .term{color:inherit;border-bottom:1px dotted currentColor}
+.perdicion-scene .perdicion-inline-break{display:block;margin-top:9px}
+.perdicion-scene.hide-images .perdicion-mobile-art{display:none!important}
+@media(max-width:700px){
+ .perdicion-scene .perdicion-mobile-art{display:block;max-width:500px;margin:23px auto 43px}
+ .perdicion-scene .perdicion-mobile-art.perdicion-mobile-map{max-width:610px}
+ .perdicion-scene .perdicion-mobile-art figcaption{font-size:12px}
+ .perdicion-scene .perdicion-break{height:10px;margin:17px 0 22px}
+}
+@media print{
+ .perdicion-scene .perdicion-side{display:none!important}
+ .perdicion-scene .perdicion-mobile-art{display:block!important;max-width:440px;break-inside:avoid}
+}
