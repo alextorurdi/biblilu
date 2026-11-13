@@ -36,10 +36,11 @@ for p,doc in parsed.items():
     assert old_ch3 or fragment.startswith(('lamina=','persona=')),(p,address,'missing anchor')
 
 V=json.loads((ROOT/'data/genesis.json').read_text(encoding='utf-8'))
-assert len(V)==425
+assert len(V)==496
 normalize=lambda x:re.sub(r'\s+',' ',x).strip()
 all_text=''
 def scene_path(c,v):
+ if c in (18,19):return '18'
  if c in (16,17):return '16'
  if c==15:return '15'
  if c==14:return '14'
@@ -67,7 +68,7 @@ for verse in V:
  for speech in re.findall(r'<span class="divine">([\s\S]*?)</span>',match[1]):
   assert not re.search(r'<a(?![^>]*class="fn-link")',speech),(c,v,'divine text has hyperlink')
  all_text+=match[1]
-for unit,min_n,max_n in [(1,1,8),(2,9,22),(4,23,39),(5,40,53),(6,54,67),(10,68,76),('11',77,78),('11-10',79,81),('12',82,93),('14',94,103),('15',104,110),('16',111,121)]:
+for unit,min_n,max_n in [(1,1,8),(2,9,22),(4,23,39),(5,40,53),(6,54,67),(10,68,76),('11',77,78),('11-10',79,81),('12',82,93),('14',94,103),('15',104,110),('16',111,121),('18',122,130)]:
  html=(SITE/f'genesis/{unit}/index.html').read_text(encoding='utf-8')
  a=[int(x) for x in re.findall(r'id="fnref-(\d+)"',html)]
  b=[int(x) for x in re.findall(r'<li id="fn-(\d+)"',html)]
@@ -83,7 +84,7 @@ assert 'data-scene="crueldad"' in (SITE/'genesis/4/index.html').read_text(encodi
 assert 'data-illustration="music"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
 assert 'id="fnref-27"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
 assert '“dadora de vida”' in (SITE/'genesis/2/index.html').read_text(encoding='utf-8')
-print(f'OK: {len(parsed)} páginas; 425 versículos, 121 notas, dos índices, anclas canónicas y marcado divino.')
+print(f'OK: {len(parsed)} páginas; 496 versículos, 130 notas, dos índices, anclas canónicas y marcado divino.')
 
 # La escena 4 abarca Gn 4:25–5:32; el árbol 02 cambia a cronología en Gn 5:25.
 scene_4=(SITE/'genesis/5/index.html').read_text(encoding='utf-8')
@@ -167,3 +168,24 @@ for _asset in ('legado-mapa.svg','legado-agar-angel.webp','legado-instrumento.we
 assert 'legado-agar-angel.webp' in legado and 'legado-instrumento.webp' in legado
 assert 'legado-mapa.svg?v=20261112def' in legado
 print('OK: Legado · 43 versículos, 11 notas (111–121), mapa e ilustraciones definitivas.')
+
+# Escena 13 · Perdición: 71 versículos, 9 notas y disposición visual aprobada.
+perdicion=(SITE/'genesis/18/index.html').read_text(encoding='utf-8')
+assert all(f'id="gn-18-{n}"' in perdicion for n in range(1,34))
+assert all(f'id="gn-19-{n}"' in perdicion for n in range(1,39))
+assert perdicion.count('class="perdicion-mobile-art')==3
+assert perdicion.count('class="perdicion-panel')==3
+assert perdicion.count('class="perdicion-break"')==4
+assert 'data-perdicion-side' in perdicion
+assert 'gn-19-1' in (SITE/'assets/perdicion.js').read_text(encoding='utf-8')
+assert 'gn-19-30' in (SITE/'assets/perdicion.js').read_text(encoding='utf-8')
+assert '<a href="18/index.html#gn-18-1">' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
+assert '<a href="18/index.html#gn-19-1">' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
+assert 'href="../18/index.html">Perdición →</a>' in (SITE/'genesis/16/index.html').read_text(encoding='utf-8')
+assert 'location.replace' in (SITE/'genesis/19/index.html').read_text(encoding='utf-8')
+for _asset in ('perdicion-visita.svg','perdicion-mapa.svg','perdicion-mujer-lot.svg','perdicion.css','perdicion.js'):
+ assert (SITE/'assets'/_asset).exists()
+assert 'La narrativa parece indicar' in perdicion
+assert 'El verbo hebreo <em>yādaʿ</em>' in perdicion
+assert 'El nombre Moab se relaciona' in perdicion
+print('OK: Perdición · 71 versículos, nueve notas (122–130), enlaces y tres recursos visuales.')
