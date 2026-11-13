@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 1080" role="img" aria-labelledby="t d">
+<title id="t">El entorno del mar Muerto: Sodoma, Gomorra y Zoar</title>
+<desc id="d">Mapa esquemático de la región del mar Muerto. Identifica Hebrón, Mamre y la región del Jordán; las ubicaciones de Sodoma, Gomorra y Zoar aparecen como propuestas discutidas y no como puntos geográficos seguros.</desc>
+<defs>
+<linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f5ec"/><stop offset="1" stop-color="#e4dac2"/></linearGradient>
+<linearGradient id="land" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eee2c8"/><stop offset=".65" stop-color="#d4c2a5"/><stop offset="1" stop-color="#b6a88e"/></linearGradient>
+<linearGradient id="sea" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#90b7b9"/><stop offset=".63" stop-color="#648e99"/><stop offset="1" stop-color="#3e717f"/></linearGradient>
+<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".24" numOctaves="3" seed="4"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".055"/></feComponentTransfer></filter>
+</defs>
+<rect width="880" height="1080" fill="url(#paper)" rx="24"/>
+<rect x="21" y="20" width="838" height="1040" rx="19" fill="#f8f7f1" stroke="#c8c5b8" stroke-width="2"/>
+<text x="69" y="84" fill="#29483c" font-family="Georgia,serif" font-size="39" font-weight="bold">El entorno del mar Muerto</text>
+<text x="69" y="123" fill="#72776c" font-family="Arial,sans-serif" font-size="21">Génesis 18–19 · Cartografía interpretativa</text>
+<rect x="65" y="164" width="750" height="702" rx="10" fill="url(#land)" stroke="#b7b5a6" stroke-width="2"/>
+<!-- hillshades -->
+<g fill="#b4a187" opacity=".22"><path d="M65 164H252L338 253L291 347L350 466L257 538L337 651L280 866H65Z"/><path d="M652 164H815V866H723L647 745L755 618L643 481L727 344Z"/></g>
+<g fill="none" stroke="#c7b89a" stroke-width="8" opacity=".42"><path d="M244 180Q373 320 297 453T367 692L304 843"/><path d="M703 184Q630 330 727 455T667 821"/></g>
+<!-- Jordan river -->
+<path d="M539 164Q508 232 538 282T550 356" stroke="#699aa1" stroke-width="10" fill="none" stroke-linecap="round"/>
+<!-- Dead Sea shape -->
+<path d="M523 354Q560 329 609 366Q630 399 625 455L639 539Q637 588 620 627L649 703Q661 744 635 791Q596 812 574 775Q537 754 544 716Q524 691 543 657L528 579Q514 527 515 489Q505 433 510 406Z" fill="url(#sea)" stroke="#4a7e87" stroke-width="5"/>
+<path d="M558 388Q574 458 555 519M596 573Q608 635 595 678M586 720L602 759" stroke="#cfdfd7" stroke-width="9" fill="none" opacity=".25"/>
+<!-- west foothills -->
+<path d="M424 173Q388 283 421 382Q404 466 439 559Q410 641 444 733Q426 801 453 865" stroke="#b6a487" stroke-width="4" fill="none" stroke-dasharray="9 15" opacity=".65"/>
+<!-- city and region labels -->
+<g font-family="Georgia,serif" fill="#355249">
+<text x="90" y="274" font-size="31" letter-spacing="5">CANAÁN</text>
+<text x="640" y="301" font-size="27">Transjordania</text>
+<text x="142" y="579" font-size="29">Hebrón</text>
+<text x="115" y="533" font-size="22">Mamre</text>
+<text x="587" y="498" font-size="22" fill="#f5f2e5" transform="rotate(90 587 498)">Mar Muerto</text>
+<text x="540" y="242" font-size="22" fill="#587c80" transform="rotate(85 540 242)">Jordán</text>
+</g>
+<circle cx="226" cy="580" r="9" fill="#b67d50" stroke="#fff9e8" stroke-width="3"/>
+<circle cx="215" cy="533" r="7" fill="#b67d50" stroke="#fff9e8" stroke-width="3"/>
+<!-- uncertainty region lower basin -->
+<ellipse cx="568" cy="779" rx="191" ry="74" fill="#b9856f" opacity=".12" stroke="#9c725e" stroke-width="5" stroke-dasharray="15 14"/>
+<path d="M437 785l-64 45" stroke="#9c725e" stroke-width="3" stroke-dasharray="6 8"/>
+<g fill="#6d5149" font-family="Arial,sans-serif">
+<text x="97" y="780" font-size="27" font-weight="bold">Sodoma y Gomorra</text>
+<text x="97" y="814" font-size="20">Emplazamientos</text>
+<text x="97" y="841" font-size="20">discutidos</text>
+<text x="668" y="844" font-size="24" text-anchor="middle" font-weight="bold">Zoar (?)</text>
+</g>
+<circle cx="667" cy="805" r="10" fill="none" stroke="#9c725e" stroke-width="4" stroke-dasharray="6 4"/>
+<g font-family="Arial,sans-serif" fill="#5b635b">
+<text x="69" y="925" font-size="20" font-weight="bold">Lectura del mapa</text>
+<circle cx="84" cy="954" r="7" fill="#b67d50"/><text x="105" y="961" font-size="18">Topónimo de referencia</text>
+<ellipse cx="84" cy="991" rx="15" ry="8" fill="#b9856f" opacity=".25" stroke="#9c725e" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="108" y="998" font-size="18">Área / emplazamiento hipotético</text>
+<text x="69" y="1035" font-size="16" fill="#70756c">Sodoma, Gomorra y Zoar carecen de ubicación unánimemente aceptada.</text>
+</g>
+<!-- compass -->
+<path d="M758 204l-13 38 13-11 13 11Z" fill="#29483c"/><path d="M758 206v64" stroke="#29483c" stroke-width="3"/><text x="758" y="195" text-anchor="middle" font-family="Arial" font-size="19" fill="#29483c">N</text>
+<rect width="880" height="1080" rx="24" filter="url(#grain)" opacity=".68"/>
+</svg>
