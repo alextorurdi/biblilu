@@ -1,4 +1,12 @@
 # BIBLILU
+## Entrega v0.9 · Perdición (Gn 18–19)
+
+Escena 13 «Perdición»: una lectura continua de los 71 versículos de Génesis 18:1–19:38, con nueve notas 122–130. Se conservan sin modificar las originales 92, 93, 94, 96, 97, 98 y 99; se sustituye únicamente la original 95 (Gn 19:5) por el texto aprobado y se añade una nueva nota etimológica para Moab y Ben-ammi en 19:38. Quedan descartadas las nuevas notas propuestas para 19:11 y 19:26. Las palabras de Dios aparecen en rojo, los diálogos y pensamientos diferenciados, y los vínculos a las fichas de los apéndices se integran directamente en las menciones.
+
+Distribución final de ilustraciones: los tres visitantes de Abraham (`assets/perdicion-visita.svg`), mapa interpretativo del entorno del mar Muerto (`assets/perdicion-mapa.svg`) y la mujer de Lot (`assets/perdicion-mujer-lot.svg`). Cuatro cortes: después de Gn 18:9, 18:33, 19:23 y 19:29. En móvil aparecen la visita en el primer corte, el mapa en el tercero y la mujer de Lot en el cuarto; en escritorio el lateral cambia de la visita al mapa en el segundo corte y de este a la mujer de Lot en el cuarto. Se mantiene la incertidumbre arqueológica en el mapa y se evita la ilustración separada de la destrucción, descartada por el editor.
+
+Publicado como `docs/genesis/18/index.html`, con fuente en `editorial/approved-pages/genesis/18/index.html`. Génesis 19 redirige al versículo 19:1 dentro de la misma escena. Actualizados índices, portada, selectores, navegación, generador, verificaciones y tareas (`editorial/tareas-perdicion.md`).
+
 ## Entrega v0.8 · Legado (Gn 16–17)
 
 Publicada la escena 12 «Legado», que unifica las antiguas escenas previstas «Agar» y «Pacto» en una única lectura de 43 versículos (Génesis 16:1–17:27). Incorpora las cinco notas originales 87–91, con las modificaciones aprobadas de 87 y 88, y seis notas nuevas; numeración consecutiva 111–121. Se descarta la propuesta de nota explicativa sobre la circuncisión. Se mantienen los diálogos y los pensamientos en cursiva, las palabras divinas en rojo y los enlaces a los apéndices directamente en el texto.
