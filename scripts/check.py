@@ -183,8 +183,12 @@ assert '<a href="18/index.html#gn-18-1">' in (SITE/'genesis/index.html').read_te
 assert '<a href="18/index.html#gn-19-1">' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
 assert 'href="../18/index.html">Perdición →</a>' in (SITE/'genesis/16/index.html').read_text(encoding='utf-8')
 assert 'location.replace' in (SITE/'genesis/19/index.html').read_text(encoding='utf-8')
-for _asset in ('perdicion-visita.svg','perdicion-mapa.svg','perdicion-mujer-lot.svg','perdicion.css','perdicion.js'):
+for _asset in ('perdicion-visita.webp','perdicion-mapa.svg','perdicion-mujer-lot.webp','perdicion.css','perdicion.js'):
  assert (SITE/'assets'/_asset).exists()
+assert perdicion.count('perdicion-visita.webp?v=20261113final')==2
+assert perdicion.count('perdicion-mujer-lot.webp?v=20261113final')==2
+assert perdicion.count('perdicion-mapa.svg')==2
+assert 'perdicion-visita.svg' not in perdicion and 'perdicion-mujer-lot.svg' not in perdicion
 assert 'La narrativa parece indicar' in perdicion
 assert 'El verbo hebreo <em>yādaʿ</em>' in perdicion
 assert 'El nombre Moab se relaciona' in perdicion
