@@ -90,3 +90,6 @@ Estado: acuerdos aprobados, **implementados y enviados para publicación** en `d
 ---
 
 **Revisión editorial y tareas de implementación cerradas.** La escena contiene 71 versículos y nueve notas correlativas (122–130), con la única nota original modificada en Gn 19:5 y la nota nueva en Gn 19:38. Las dos propuestas rechazadas no se incorporaron. Los cuatro cortes definitivos son: 1.º tras Gn 18:9, 2.º tras Gn 18:33, 3.º tras Gn 19:23 y 4.º tras Gn 19:29. Las tres imágenes se distribuyen según lo aprobado. Los enlaces de apéndices se han integrado en el texto y las páginas y assets están replicados y protegidos para el generador. No introducir cambios de redacción sin nueva aprobación.
+
+
+**Ilustraciones definitivas publicadas:** `assets/perdicion-visita.webp` (Abraham y los tres visitantes) y `assets/perdicion-mujer-lot.webp` (la mujer de Lot ante la destrucción). El mapa interpretativo aprobado permanece en `assets/perdicion-mapa.svg`, con sus ubicaciones expresamente discutidas. Existen copias equivalentes de los tres recursos en `docs/assets/`. Se han sustituido las ilustraciones vectoriales provisionales y conservado los cuatro cortes acordados.
