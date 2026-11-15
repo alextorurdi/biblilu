@@ -2,7 +2,7 @@
 
 **Escena 14 · Génesis 20:1–23:20 · Revisión editorial en curso.**
 
-Estado: registradas las decisiones sobre las notas originales del manuscrito. La escena todavía no está implementada ni publicada.
+Estado: registradas las decisiones sobre notas, estructura, formato y recursos visuales, incluida la distribución corregida de escritorio. La escena todavía no está implementada ni publicada.
 
 ## Notas originales 100–109
 
@@ -39,9 +39,43 @@ Cuando se implemente la escena, mantener el anclaje original de cada nota y apli
 
 Al implementar, insertar las cuatro notas nuevas aprobadas en los versículos correspondientes y asignarles la numeración continua general de BIBLILU sin alterar el texto aprobado.
 
+## Estructura narrativa — aprobada
+
+- [ ] Mantener **una única escena «Cumplimiento»**, que cubre Génesis 20:1–23:20 (96 versículos), sin subdividirla en otras escenas ni introducir encabezados intrusivos. Conservar la continuidad de los bloques: Gn 20:1–18 (Abimelec), 21:1–7 (nacimiento de Isaac), 21:8–21 (Agar e Ismael), 21:22–34 (pacto de Beerseba), 22:1–19 (prueba de Abraham), 22:20–24 (genealogía de Nacor y Milca) y 23:1–20 (Sara y Macpela).
+
+## Formato y diálogos — apartado 4 aprobado íntegramente
+
+- [ ] Gn 20:3–16: distinguir las intervenciones de Dios, Abimelec y Abraham; palabras de Dios en rojo y cursiva, restantes diálogos en negro y cursiva con guiones.
+- [ ] Gn 21:6–18: diferenciar los diálogos de Sara y Abraham, el pensamiento de Agar de Gn 21:16 (en cursiva, sin guion) y las palabras del ángel en Gn 21:17–18 (en negro según el criterio de «Legado»).
+- [ ] Gn 21:22–34: conservar la continuidad del diálogo y la negociación del pozo entre Abimelec y Abraham.
+- [ ] Gn 22:1–19: separar las intervenciones de Dios, Abraham, Isaac y el ángel de Jehová; en Gn 22:16–18, expresar en rojo las palabras atribuidas a Jehová aunque sean transmitidas por el ángel.
+- [ ] Gn 22:20–24: conservar la genealogía como lectura continua, enlazando las fichas de personajes y distinguiendo homónimos.
+- [ ] Gn 23:3–16: distinguir los parlamentos de Abraham, los hijos de Het y Efrón sin alterar la negociación original.
+- [ ] Comprobar las frases cortadas por cambios de página en Gn 20:12–13, 21:18–19, 22:12–13 y 23:14–15.
+
+## Apartado 5 — recursos visuales aprobados
+
+- [ ] Mapa del sur de Canaán con Gerar, Beerseba, Hebrón y Macpela, y Moriah señalada con incertidumbre, sin dar coordenadas seguras.
+- [ ] Imagen 1: Agar e Ismael en el desierto (Gn 21:17–19), manteniendo la escena del manuscrito sin marco.
+- [ ] Imagen 2: las siete corderas (Gn 21:28–31), adaptada a la estética actual.
+- [ ] Imagen 3: «Obediencia», Abraham e Isaac ascendiendo con la leña (Gn 22:1–19), sin marco dorado.
+- [ ] Árbol Genealógico **#7** ya existente en los apéndices, para la genealogía de Nacor y Milca (Gn 22:20–24). Reutilizar ese recurso, no crear otra versión divergente.
+- [ ] Nueva imagen final: **la negociación para adquirir Macpela**, Abraham y Efrón ante los hijos de Het, en la puerta de la ciudad, con testigos y posible plata pesada, sin monedas modernas ni marco dorado.
+
+### Distribución en escritorio — última corrección aprobada (reemplaza la anterior)
+
+- [ ] **Segundo corte:** colocar el **mapa**.
+- [ ] **Tercer corte:** colocar la **imagen 1**, Agar e Ismael en el desierto.
+- [ ] **Cuarto corte:** colocar la **imagen 2**, siete corderas.
+- [ ] **Quinto corte:** colocar la **imagen 3**, «Obediencia».
+- [ ] **Sexto corte:** colocar el **Árbol Genealógico #7**.
+- [ ] **Último tramo, al final:** colocar la **nueva imagen de la negociación y compra de Macpela**.
+
+**Nota de maquetación:** respetar la secuencia y los cortes indicados expresamente por el editor. Esta última instrucción sustituye la anterior que empezaba mostrando el mapa desde el principio y desplazaba las imágenes un corte antes. El recurso anterior al segundo corte no queda fijado por esta corrección; no deducir uno. No inventar una correspondencia exacta entre números de corte y versículos sin comprobar el manuscrito y la maquetación.
+
 ## Resto de la revisión
 
-Quedan por resolver la estructura, el formato, los recursos visuales, los enlaces a apéndices y la bibliografía. No implementar ni publicar la escena sin nueva aprobación.
+Quedan pendientes de decisión los enlaces a apéndices (apartado 6), la incorporación de la bibliografía y cualquier distribución de móvil que no esté fijada. No implementar ni publicar la escena sin nueva aprobación.
 
 ---
 **Registro editorial:** las diez notas originales están resueltas; solo cambian las notas 105 y 106 mediante las dos supresiones expresas.
