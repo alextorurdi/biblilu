@@ -1,8 +1,8 @@
 # BIBLILU · Lista de tareas «Cumplimiento»
 
-**Escena 14 · Génesis 20:1–23:20 · Revisión editorial en curso.**
+**Escena 14 · Génesis 20:1–23:20 · Revisión editorial CERRADA.**
 
-Estado: registradas las decisiones sobre notas, estructura, formato y recursos visuales, incluida la distribución corregida de escritorio. La escena todavía no está implementada ni publicada.
+Estado: todas las decisiones editoriales están aprobadas, incluidos los enlaces a los apéndices y la bibliografía. **Implementación y publicación pendientes.**
 
 ## Notas originales 100–109
 
@@ -86,9 +86,29 @@ Los recursos se **insertan en el flujo de lectura** en los siguientes puntos:
 
 **Nota de maquetación:** esta distribución móvil es la que se había interpretado erróneamente como distribución de escritorio. Se restituye la anterior para escritorio. En móvil no se especificó ningún recurso para el primer corte. No inventar la correspondencia exacta entre números de corte y versículos sin revisar el manuscrito y su maquetación.
 
-## Resto de la revisión
+## Apartado 6 — Enlaces a los apéndices: aprobado íntegramente
 
-Quedan pendientes de decisión los enlaces a apéndices (apartado 6), la incorporación de la bibliografía y cualquier distribución de móvil que no esté fijada. No implementar ni publicar la escena sin nueva aprobación.
+- [ ] Integrar los enlaces a las fichas directamente en las menciones del texto bíblico, sin recuadros de enlaces independientes, siguiendo el estilo ya adoptado por BIBLILU.
+- [ ] **Onomástico:** enlazar, donde corresponda, Abraham, Sara, Abimelec, Ficol, Agar, Ismael, Isaac, Nacor (el hermano de Abraham), Milca, Betuel, Rebeca, Efrón, Zohar y los nombres presentes en la genealogía de Gn 22:20–24. Usar las fichas correctas de cada homónimo; en particular Uz y Aram.
+- [ ] **Lugares:** Gerar, Cades, Shur, Beerseba, Parán, Moriah, Hebrón, Quiriat-arba y Macpela; conservar la explicación geográfica de Moriah en el apéndice, sin duplicarla en una nueva nota.
+- [ ] **Tribus:** filisteos y heteos.
+- [ ] **Animales y plantas:** carnero y tamarisco.
+- [ ] **Materiales:** siclo.
+- [ ] Mantener los nombres divinos en rojo y sin hiperenlaces. Conservar el texto bíblico intacto al introducir los enlaces.
+
+## Bibliografía — incorporación de los tres estudios aprobada
+
+- [ ] Incorporar y enlazar en la bibliografía de BIBLILU, comprobando previamente que no haya entradas duplicadas:
+  - **Vincent Chukwuma Onwukwe (2022)**, «Looking into Sarah's Eyes: The Meaning of מְצַחֵק in Genesis 21.9», *The Bible Translator*. DOI: 10.1177/20516770211066930.
+  - **Isaac Kalimi (1990)**, «The Land of Moriah, Mount Moriah, and The Site of Solomon's Temple in Biblical Historiography». DOI: 10.1017/S001781600002383X.
+  - **Raymond Westbrook (1971)**, «Purchase of the Cave of Machpelah». DOI: 10.1017/S002122370000282X.
+- [ ] Respetar el sistema vigente de referencias bibliográficas de la web y relacionar las referencias con las notas/pasajes pertinentes sin cambiar la redacción que el editor ya aprobó.
+
+## Estado final
+
+**REVISIÓN EDITORIAL CERRADA.** Todas las decisiones han sido tomadas: notas originales, cuatro notas nuevas y descarte de la de Moriah, estructura, diálogos, mapa e ilustraciones, árbol genealógico #7, imagen definitiva de Macpela, distribución de escritorio y móvil, enlaces a los apéndices y tres estudios bibliográficos.
+
+Las casillas pendientes representan solamente **trabajos técnicos de implementación y comprobación**. La escena **no está implementada ni publicada**; requiere orden expresa de implementación/publicación.
 
 ---
 **Registro editorial:** las diez notas originales están resueltas; solo cambian las notas 105 y 106 mediante las dos supresiones expresas.
