@@ -62,16 +62,29 @@ Al implementar, insertar las cuatro notas nuevas aprobadas en los versículos co
 - [ ] Árbol Genealógico **#7** ya existente en los apéndices, para la genealogía de Nacor y Milca (Gn 22:20–24). Reutilizar ese recurso, no crear otra versión divergente.
 - [ ] Nueva imagen final: **la negociación para adquirir Macpela**, Abraham y Efrón ante los hijos de Het, en la puerta de la ciudad, con testigos y posible plata pesada, sin monedas modernas ni marco dorado.
 
-### Distribución en escritorio — última corrección aprobada (reemplaza la anterior)
+### Distribución en escritorio — versión anterior restaurada y aprobada
 
-- [ ] **Segundo corte:** colocar el **mapa**.
-- [ ] **Tercer corte:** colocar la **imagen 1**, Agar e Ismael en el desierto.
-- [ ] **Cuarto corte:** colocar la **imagen 2**, siete corderas.
-- [ ] **Quinto corte:** colocar la **imagen 3**, «Obediencia».
-- [ ] **Sexto corte:** colocar el **Árbol Genealógico #7**.
-- [ ] **Último tramo, al final:** colocar la **nueva imagen de la negociación y compra de Macpela**.
+Los recursos se muestran **en un único lateral**, sustituyéndose en cada corte sin duplicarse:
 
-**Nota de maquetación:** respetar la secuencia y los cortes indicados expresamente por el editor. Esta última instrucción sustituye la anterior que empezaba mostrando el mapa desde el principio y desplazaba las imágenes un corte antes. El recurso anterior al segundo corte no queda fijado por esta corrección; no deducir uno. No inventar una correspondencia exacta entre números de corte y versículos sin comprobar el manuscrito y la maquetación.
+- [ ] **Desde el inicio hasta el segundo corte:** **mapa** del sur de Canaán.
+- [ ] **Desde el segundo hasta el tercer corte:** **imagen 1**, Agar e Ismael en el desierto.
+- [ ] **Desde el tercer hasta el cuarto corte:** **imagen 2**, las siete corderas.
+- [ ] **Desde el cuarto hasta el quinto corte:** **imagen 3**, «Obediencia».
+- [ ] **Desde el quinto hasta el sexto corte:** **Árbol Genealógico #7** de los apéndices.
+- [ ] **Desde el sexto corte hasta el final:** **nueva imagen de la negociación para adquirir Macpela**.
+
+### Distribución en móvil — última indicación aprobada
+
+Los recursos se **insertan en el flujo de lectura** en los siguientes puntos:
+
+- [ ] **Segundo corte:** insertar el **mapa**.
+- [ ] **Tercer corte:** insertar la **imagen 1**, Agar e Ismael en el desierto.
+- [ ] **Cuarto corte:** insertar la **imagen 2**, siete corderas.
+- [ ] **Quinto corte:** insertar la **imagen 3**, «Obediencia».
+- [ ] **Sexto corte:** insertar el **Árbol Genealógico #7**.
+- [ ] **Al final de la escena:** insertar la **nueva imagen de la negociación y compra de Macpela**.
+
+**Nota de maquetación:** esta distribución móvil es la que se había interpretado erróneamente como distribución de escritorio. Se restituye la anterior para escritorio. En móvil no se especificó ningún recurso para el primer corte. No inventar la correspondencia exacta entre números de corte y versículos sin revisar el manuscrito y su maquetación.
 
 ## Resto de la revisión
 
