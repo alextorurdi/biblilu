@@ -60,7 +60,7 @@ Al implementar, insertar las cuatro notas nuevas aprobadas en los versículos co
 - [ ] Imagen 2: las siete corderas (Gn 21:28–31), adaptada a la estética actual.
 - [ ] Imagen 3: «Obediencia», Abraham e Isaac ascendiendo con la leña (Gn 22:1–19), sin marco dorado.
 - [ ] Árbol Genealógico **#7** ya existente en los apéndices, para la genealogía de Nacor y Milca (Gn 22:20–24). Reutilizar ese recurso, no crear otra versión divergente.
-- [ ] Nueva imagen final: **la negociación para adquirir Macpela**, Abraham y Efrón ante los hijos de Het, en la puerta de la ciudad, con testigos y posible plata pesada, sin monedas modernas ni marco dorado.
+- [ ] Nueva imagen final: **la negociación para adquirir Macpela**, Abraham y Efrón ante los hijos de Het, en la puerta de la ciudad, con testigos y posible plata pesada, sin monedas modernas ni marco dorado. **Diseño definitivo aprobado por el editor el 15-11-2026**: ilustración generada de Abraham y Efrón negociando ante ancianos/testigos, con balanza y plata, junto a la puerta de la ciudad. La imagen ya está creada en la conversación, pero **pendiente de subir al repositorio e integrar en la escena**.
 
 ### Distribución en escritorio — versión anterior restaurada y aprobada
 
