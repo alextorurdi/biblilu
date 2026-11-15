@@ -1,4 +1,14 @@
 # BIBLILU
+## Entrega v0.10 · Cumplimiento (Gn 20–23)
+
+Escena 14 «Cumplimiento», una lectura continua de 96 versículos (Génesis 20:1–23:20), con 14 notas editoriales consecutivas (131–144). Se mantienen intactas las ocho notas originales 100–104 y 107–109, se eliminan solamente «(registro catastral)» de la 105 y «(acta notarial)» de la 106; se incorporan las cuatro notas aprobadas de Gn 21:31, 22:2 (hijo único), 22:9 y 22:14. Se descarta la nota adicional sobre la localización de Moriah.
+
+Los diálogos mantienen cursivas, distinción de interlocutores y las palabras de Dios en rojo. Los enlaces contextuales a apéndices están incorporados en el propio texto, distinguiendo homónimos (Uz hijo de Nacor y Aram hijo de Kemuel). Bibliografía ampliada con Onwukwe 2022, Kalimi 1990 y Westbrook 1971 (refs. 61–63), enlazada a los pasajes y materiales pertinentes sin modificar las notas.
+
+Visuales definitivos de la entrega: mapa cartográfico `cumplimiento-mapa.svg`; ilustración de Agar e Ismael `cumplimiento-agar.webp`; siete corderas `cumplimiento-siete-corderas.svg`; Abraham e Isaac en «Obediencia» `cumplimiento-obediencia.svg`; lámina genealógica #07 de Nacor y Milca, extraída del visor actual (`assets/genealogias/07.svg`); y la imagen aprobada de Abraham y Efrón negociando en Macpela (`cumplimiento-macpela.webp`). El lateral de escritorio muestra mapa, Agar, corderas, obediencia, árbol y Macpela, alternándose en los cortes 2–6. En móvil se insertan el mapa en el corte 2, Agar en el 3, corderas en el 4, obediencia en el 5, árbol en el 6 y Macpela al final.
+
+La escena publicada es `docs/genesis/20/index.html` y está protegida como `editorial/approved-pages/genesis/20/index.html`. Los accesos tradicionales a Génesis 21, 22 y 23 conservan anclas al redirigir. Se actualizaron índices, portada, selectores, navegación anterior, generador, comprobaciones editoriales y lista `editorial/tareas-cumplimiento.md`.
+
 ## Entrega v0.9 · Perdición (Gn 18–19)
 
 Escena 13 «Perdición»: una lectura continua de los 71 versículos de Génesis 18:1–19:38, con nueve notas 122–130. Se conservan sin modificar las originales 92, 93, 94, 96, 97, 98 y 99; se sustituye únicamente la original 95 (Gn 19:5) por el texto aprobado y se añade una nueva nota etimológica para Moab y Ben-ammi en 19:38. Quedan descartadas las nuevas notas propuestas para 19:11 y 19:26. Las palabras de Dios aparecen en rojo, los diálogos y pensamientos diferenciados, y los vínculos a las fichas de los apéndices se integran directamente en las menciones.
