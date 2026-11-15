@@ -1,0 +1,369 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="1768pt" height="502pt" viewBox="0.00 0.00 1768.10 501.60" role="group" aria-label="Nacor, Milca y Reúma · hasta Labán">
+<g id="07-graph0" class="graph" transform="scale(1 1) rotate(0) translate(28.8 472.8)">
+<title>G</title>
+
+<g id="07-edge19" class="edge">
+<title>betuel-&gt;laban</title>
+<g id="07-a_edge19"><a ns1:title="Gn 22:23; 24:15,24,29; 25:20; 28:5 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M333.32,-211.95C323.24,-196.05 309.43,-174.3 298.53,-157.12" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="300.48,-155.62 294.66,-151.02 296.34,-158.24 300.48,-155.62" />
+</a>
+</g>
+</g>
+
+<g id="07-edge18" class="edge">
+<title>betuel-&gt;rebeca</title>
+<g id="07-a_edge18"><a ns1:title="Gn 22:23; 24:15,24,29; 25:20; 28:5 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M360.68,-211.95C370.76,-196.05 384.57,-174.3 395.47,-157.12" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="397.66,-158.24 399.34,-151.02 393.52,-155.62 397.66,-158.24" />
+</a>
+</g>
+</g>
+
+<g id="07-edge11" class="edge">
+<title>kemuel-&gt;aram_k</title>
+<g id="07-a_edge11"><a ns1:title="Gn 22:21 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M812,-211.95C812,-196.33 812,-175.06 812,-158.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="814.45,-158.02 812,-151.02 809.55,-158.02 814.45,-158.02" />
+</a>
+</g>
+</g>
+
+<g id="07-edge22" class="edge">
+<title>laban-&gt;laban_sons</title>
+<g id="07-a_edge22"><a ns1:title="Gn 30:35; 31:1 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M245.36,-105.95C217.8,-89.29 179.59,-66.18 150.63,-48.67" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="151.85,-46.55 144.59,-45.02 149.32,-50.74 151.85,-46.55" />
+</a>
+</g>
+</g>
+
+<g id="07-edge20" class="edge">
+<title>laban-&gt;lea</title>
+<g id="07-a_edge20"><a ns1:title="Gn 29:16 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M281,-105.95C281,-90.33 281,-69.06 281,-52.03" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="283.45,-52.02 281,-45.02 278.55,-52.02 283.45,-52.02" />
+</a>
+</g>
+</g>
+
+<g id="07-edge21" class="edge">
+<title>laban-&gt;raquel</title>
+<g id="07-a_edge21"><a ns1:title="Gn 29:16 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M304.83,-105.95C322.87,-89.64 347.74,-67.15 366.95,-49.78" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="368.65,-51.53 372.2,-45.02 365.37,-47.9 368.65,-51.53" />
+</a>
+</g>
+</g>
+
+<g id="07-edge2" class="edge">
+<title>milca-&gt;u58</title>
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M812,-398.82C812,-382.43 812,-360.3 812,-345.38" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="814.45,-345.31 812,-338.31 809.55,-345.31 814.45,-345.31" />
+</g>
+
+<g id="07-edge1" class="edge">
+<title>nacor2-&gt;u58</title>
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M1070.86,-406.4C999.69,-385.12 868.58,-345.92 825.86,-333.14" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="826.56,-330.8 819.15,-331.14 825.15,-335.49 826.56,-330.8" />
+</g>
+
+<g id="07-edge12" class="edge">
+<title>nacor2-&gt;u60</title>
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M1165.01,-406.8C1237.64,-385.64 1373.37,-346.08 1417.64,-333.18" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="1418.55,-335.47 1424.59,-331.16 1417.18,-330.77 1418.55,-335.47" />
+</g>
+
+<g id="07-edge13" class="edge">
+<title>reuma-&gt;u60</title>
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M1432,-398.82C1432,-382.43 1432,-360.3 1432,-345.38" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="1434.45,-345.31 1432,-338.31 1429.55,-345.31 1434.45,-345.31" />
+</g>
+
+<g id="07-edge10" class="edge">
+<title>u58-&gt;betuel</title>
+<g id="07-a_edge10"><a ns1:title="Gn 22:20–23 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M804.33,-325.66C748.75,-315.99 410,-257 410,-257 410,-257 407.24,-256.06 402.87,-254.57" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="403.43,-252.17 396.02,-252.23 401.85,-256.81 403.43,-252.17" />
+</a>
+</g>
+</g>
+
+<g id="07-edge4" class="edge">
+<title>u58-&gt;buz</title>
+<g id="07-a_edge4"><a ns1:title="Gn 22:20–23 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M804.53,-325.27C758.03,-314.49 510,-257 510,-257 510,-257 506.66,-255.57 501.72,-253.44" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="502.67,-251.18 495.27,-250.67 500.73,-255.68 502.67,-251.18" />
+</a>
+</g>
+</g>
+
+<g id="07-edge7" class="edge">
+<title>u58-&gt;hazo</title>
+<g id="07-a_edge7"><a ns1:title="Gn 22:20–23 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M805.31,-324.51C771.82,-312.04 624,-257 624,-257 624,-257 620.97,-255.86 616.3,-254.09" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="617.03,-251.75 609.62,-251.57 615.3,-256.34 617.03,-251.75" />
+</a>
+</g>
+</g>
+
+<g id="07-edge9" class="edge">
+<title>u58-&gt;jidlaf</title>
+<g id="07-a_edge9"><a ns1:title="Gn 22:20–23 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M806.41,-323.07C791.52,-312.58 749.85,-283.26 718.82,-261.42" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="719.9,-259.18 712.77,-257.16 717.08,-263.19 719.9,-259.18" />
+</a>
+</g>
+</g>
+
+<g id="07-edge5" class="edge">
+<title>u58-&gt;kemuel</title>
+<g id="07-a_edge5"><a ns1:title="Gn 22:20–23 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M812,-317.89C812,-305.52 812,-282.84 812,-264.4" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="814.45,-264.31 812,-257.31 809.55,-264.31 814.45,-264.31" />
+</a>
+</g>
+</g>
+
+<g id="07-edge8" class="edge">
+<title>u58-&gt;pildas</title>
+<g id="07-a_edge8"><a ns1:title="Gn 22:20–23 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M817.38,-323.3C832.38,-312.98 875.71,-283.17 907.74,-261.14" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="909.2,-263.11 913.58,-257.12 906.42,-259.07 909.2,-263.11" />
+</a>
+</g>
+</g>
+
+<g id="07-edge6" class="edge">
+<title>u58-&gt;quesed</title>
+<g id="07-a_edge6"><a ns1:title="Gn 22:20–23 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M818.79,-324.65C845.75,-315.3 947.01,-280.21 1014.14,-256.94" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="1015.12,-259.19 1020.94,-254.58 1013.52,-254.56 1015.12,-259.19" />
+</a>
+</g>
+</g>
+
+<g id="07-edge3" class="edge">
+<title>u58-&gt;uz_n</title>
+<g id="07-a_edge3"><a ns1:title="Gn 22:20–23 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M819.58,-325.41C869.15,-314.99 1145,-257 1145,-257 1145,-257 1148.47,-255.31 1153.46,-252.87" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="1154.68,-255 1159.9,-249.72 1152.53,-250.59 1154.68,-255" />
+</a>
+</g>
+</g>
+
+<g id="07-edge15" class="edge">
+<title>u60-&gt;gaham</title>
+<g id="07-a_edge15"><a ns1:title="Gn 22:24 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M1426.66,-323.3C1411.77,-312.98 1368.77,-283.17 1336.98,-261.14" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="1338.34,-259.09 1331.19,-257.12 1335.55,-263.12 1338.34,-259.09" />
+</a>
+</g>
+</g>
+
+<g id="07-edge17" class="edge">
+<title>u60-&gt;maaca</title>
+<g id="07-a_edge17"><a ns1:title="Gn 22:24 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M1432,-317.89C1432,-305.52 1432,-282.84 1432,-264.4" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="1434.45,-264.31 1432,-257.31 1429.55,-264.31 1434.45,-264.31" />
+</a>
+</g>
+</g>
+
+<g id="07-edge16" class="edge">
+<title>u60-&gt;tahas</title>
+<g id="07-a_edge16"><a ns1:title="Gn 22:24 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M1437.37,-323.07C1451.7,-312.58 1491.76,-283.26 1521.6,-261.42" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="1523.22,-263.27 1527.42,-257.16 1520.32,-259.31 1523.22,-263.27" />
+</a>
+</g>
+</g>
+
+<g id="07-edge14" class="edge">
+<title>u60-&gt;teba</title>
+<g id="07-a_edge14"><a ns1:title="Gn 22:24 ">
+<path fill="none" stroke="#89988a" stroke-width="1.6" d="M1438.58,-324.51C1471.54,-312.04 1617,-257 1617,-257 1617,-257 1620.08,-255.77 1624.78,-253.9" />
+<polygon fill="#89988a" stroke="#89988a" stroke-width="1.6" points="1625.87,-256.1 1631.47,-251.24 1624.06,-251.55 1625.87,-256.1" />
+</a>
+</g>
+</g>
+
+<g id="07-node1" class="node" data-person="aram_k">
+<title>Aram · Gn 22:21</title>
+<g id="07-a_node1"><a ns1:title="Gn 22:21 · ">
+<text text-anchor="middle" x="812" y="-121.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Aram</text>
+</a>
+</g>
+</g>
+
+<g id="07-node2" class="node" data-person="betuel">
+<title>Betuel · Gn 22:20–23</title>
+<g id="07-a_node2"><a ns1:title="Gn 22:20–23 · ">
+<text text-anchor="middle" x="347" y="-227.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Betuel</text>
+</a>
+</g>
+</g>
+
+<g id="07-node3" class="node" data-person="buz">
+<title>Buz · Gn 22:20–23</title>
+<g id="07-a_node3"><a ns1:title="Gn 22:20–23 · ">
+<text text-anchor="middle" x="460" y="-227.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Buz</text>
+</a>
+</g>
+</g>
+
+<g id="07-node4" class="node" data-person="gaham">
+<title>Gaham · Gn 22:24</title>
+<g id="07-a_node4"><a ns1:title="Gn 22:24 · ">
+<text text-anchor="middle" x="1300" y="-227.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Gaham</text>
+</a>
+</g>
+</g>
+
+<g id="07-node5" class="node" data-person="hazo">
+<title>Hazo · Gn 22:20–23</title>
+<g id="07-a_node5"><a ns1:title="Gn 22:20–23 · ">
+<text text-anchor="middle" x="567" y="-227.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Hazo</text>
+</a>
+</g>
+</g>
+
+<g id="07-node6" class="node" data-person="jidlaf">
+<title>Jidlaf · Gn 22:20–23</title>
+<g id="07-a_node6"><a ns1:title="Gn 22:20–23 · ">
+<text text-anchor="middle" x="682" y="-227.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Jidlaf</text>
+</a>
+</g>
+</g>
+
+<g id="07-node7" class="node" data-person="kemuel">
+<title>Kemuel · Gn 22:20–23</title>
+<g id="07-a_node7"><a ns1:title="Gn 22:20–23 · ">
+<text text-anchor="middle" x="812" y="-227.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Kemuel</text>
+</a>
+</g>
+</g>
+
+<g id="07-node8" class="node" data-person="laban">
+<title>Labán · Gn 22:23; 24:15,24,29; 25:20; 28:5</title>
+<g id="07-a_node8"><a ns1:title="Gn 22:23; 24:15,24,29; 25:20; 28:5 · ">
+<text text-anchor="middle" x="281" y="-121.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Labán</text>
+</a>
+</g>
+</g>
+
+<g id="07-node9" class="node" data-person="laban_sons">
+<title>Hijos sin nombre · Gn 30:35; 31:1</title>
+<g id="07-a_node9"><a ns1:title="Gn 30:35; 31:1 · Grupo de hijos varones; número no indicado.">
+<text text-anchor="middle" x="109" y="-15.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Hijos sin nombre</text>
+</a>
+</g>
+</g>
+
+<g id="07-node10" class="node" data-person="lea">
+<title>Lea · Gn 29:16</title>
+<g id="07-a_node10"><a ns1:title="Gn 29:16 · ">
+<text text-anchor="middle" x="281" y="-15.6" font-family="Liberation Serif" font-size="28.00" fill="#8b429d" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Lea</text>
+</a>
+</g>
+</g>
+
+<g id="07-node11" class="node" data-person="maaca">
+<title>Maaca · Gn 22:24</title>
+<g id="07-a_node11"><a ns1:title="Gn 22:24 · El pasaje no individualiza el sexo; se mantiene neutro.">
+<text text-anchor="middle" x="1432" y="-227.6" font-family="Liberation Serif" font-size="28.00" fill="#68736a" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Maaca</text>
+</a>
+</g>
+</g>
+
+<g id="07-node12" class="node" data-person="milca">
+<title>Milca · Gn 11:27–29</title>
+<g id="07-a_node12"><a ns1:title="Gn 11:27–29 · ">
+<text text-anchor="middle" x="812" y="-414.6" font-family="Liberation Serif" font-size="28.00" fill="#8b429d" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Milca</text>
+</a>
+</g>
+</g>
+
+<g id="07-node13" class="node" data-person="nacor2">
+<title>Nacor · Gn 11:26–27</title>
+<g id="07-a_node13"><a ns1:title="Gn 11:26–27 · ">
+<text text-anchor="middle" x="1118" y="-414.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Nacor</text>
+</a>
+</g>
+</g>
+
+<g id="07-node14" class="node" data-person="pildas">
+<title>Pildas · Gn 22:20–23</title>
+<g id="07-a_node14"><a ns1:title="Gn 22:20–23 · ">
+<text text-anchor="middle" x="945" y="-227.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Pildas</text>
+</a>
+</g>
+</g>
+
+<g id="07-node15" class="node" data-person="quesed">
+<title>Quesed · Gn 22:20–23</title>
+<g id="07-a_node15"><a ns1:title="Gn 22:20–23 · ">
+<text text-anchor="middle" x="1076" y="-227.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Quesed</text>
+</a>
+</g>
+</g>
+
+<g id="07-node16" class="node" data-person="raquel">
+<title>Raquel · Gn 29:16</title>
+<g id="07-a_node16"><a ns1:title="Gn 29:16 · ">
+<text text-anchor="middle" x="396" y="-15.6" font-family="Liberation Serif" font-size="28.00" fill="#8b429d" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Raquel</text>
+</a>
+</g>
+</g>
+
+<g id="07-node17" class="node" data-person="rebeca">
+<title>Rebeca · Gn 22:23; 24:15,24,29; 25:20; 28:5</title>
+<g id="07-a_node17"><a ns1:title="Gn 22:23; 24:15,24,29; 25:20; 28:5 · ">
+<text text-anchor="middle" x="413" y="-121.6" font-family="Liberation Serif" font-size="28.00" fill="#8b429d" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Rebeca</text>
+</a>
+</g>
+</g>
+
+<g id="07-node18" class="node" data-person="reuma">
+<title>Reúma · Gn 22:24</title>
+<g id="07-a_node18"><a ns1:title="Gn 22:24 ·  Incluida como pareja; Génesis no traza su cadena individual hasta Adán.">
+<text text-anchor="middle" x="1432" y="-414.6" font-family="Liberation Serif" font-size="28.00" fill="#8b429d" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Reúma</text>
+</a>
+</g>
+</g>
+
+<g id="07-node19" class="node" data-person="tahas">
+<title>Tahas · Gn 22:24</title>
+<g id="07-a_node19"><a ns1:title="Gn 22:24 · ">
+<text text-anchor="middle" x="1557" y="-227.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Tahas</text>
+</a>
+</g>
+</g>
+
+<g id="07-node20" class="node" data-person="teba">
+<title>Teba · Gn 22:24</title>
+<g id="07-a_node20"><a ns1:title="Gn 22:24 · ">
+<text text-anchor="middle" x="1671" y="-227.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Teba</text>
+</a>
+</g>
+</g>
+
+<g id="07-node21" class="node" data-person="uz_n">
+<title>Uz · Gn 22:20–23</title>
+<g id="07-a_node21"><a ns1:title="Gn 22:20–23 · ">
+<text text-anchor="middle" x="1189" y="-227.6" font-family="Liberation Serif" font-size="28.00" fill="#b32626" stroke="#f7f5ef" stroke-width="0.45" paint-order="stroke fill" stroke-linejoin="round">Uz</text>
+</a>
+</g>
+</g>
+
+<g id="07-node22" class="node">
+<title>u58</title>
+<polygon fill="#e9d9eb" stroke="#977ca5" points="812,-338 802,-328 812,-318 822,-328 812,-338" />
+</g>
+
+<g id="07-node23" class="node">
+<title>u60</title>
+<polygon fill="#e9d9eb" stroke="#977ca5" points="1432,-338 1422,-328 1432,-318 1442,-328 1432,-338" />
+</g>
+</g>
+</svg>
