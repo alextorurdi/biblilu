@@ -17,9 +17,31 @@ Estado: registradas las decisiones sobre las notas originales del manuscrito. La
 
 Cuando se implemente la escena, mantener el anclaje original de cada nota y aplicar la numeración correlativa de BIBLILU. No introducir ajustes adicionales en las ocho notas conservadas.
 
+## Nuevas notas — decisiones aprobadas
+
+- [ ] **Génesis 21:31 · Beerseba. Nueva nota aprobada con la redacción propuesta, sin variaciones:**
+
+> El nombre hebreo *Beʾer Ševaʿ*, «Beerseba», permite un juego de palabras entre *ševaʿ*, «siete», y *šāvaʿ*, «jurar». El relato relaciona así las siete corderas entregadas por Abraham con el juramento que ambos hombres realizaron junto al pozo. El topónimo puede entenderse como «pozo de los siete» o, tradicionalmente, «pozo del juramento».
+
+- [ ] **Génesis 22:2 · «Tu hijo, tu único». Nueva nota aprobada con la redacción propuesta, sin variaciones:**
+
+> La expresión «tu hijo, tu único» resulta llamativa porque Abraham también era padre de Ismael. El término hebreo *yāḥîd* puede expresar la condición de hijo único, pero también la de hijo singularmente amado o especialmente valioso. En este contexto se refiere a Isaac como hijo de la promesa y heredero del pacto, sin negar la existencia de Ismael.
+
+- [x] **Génesis 22:2 · Moriah: nueva nota DESCARTADA** porque la cuestión ya se explica en el apéndice de Lugares. No duplicar en el cuerpo de notas la explicación geográfica.
+
+- [ ] **Génesis 22:9 · La Aqedá. Nueva nota aprobada con la redacción propuesta, sin variaciones:**
+
+> En la tradición judía, este episodio se conoce como la *Aqedá*, «atadura» o «ligadura», por el verbo hebreo utilizado cuando Abraham ata a Isaac sobre el altar. El relato ocupa un lugar central en la reflexión judía sobre la fe, la obediencia y la relación entre Dios y Abraham.
+
+- [ ] **Génesis 22:14 · Jehová proveerá. Nueva nota aprobada con el texto exacto proporcionado por el editor:**
+
+> YHWH yirʾeh,«Jehová proveerá», contiene un juego de palabras con la forma del verbo rāʾāh, «ver». Dios "ve" la necesidad y "provee" para cubrirla.
+
+Al implementar, insertar las cuatro notas nuevas aprobadas en los versículos correspondientes y asignarles la numeración continua general de BIBLILU sin alterar el texto aprobado.
+
 ## Resto de la revisión
 
-Las propuestas sobre nuevas notas, estructura, formato, recursos visuales, enlaces a apéndices y bibliografía permanecen pendientes de decisión. No implementarlas ni publicarlas sin nueva aprobación.
+Quedan por resolver la estructura, el formato, los recursos visuales, los enlaces a apéndices y la bibliografía. No implementar ni publicar la escena sin nueva aprobación.
 
 ---
 **Registro editorial:** las diez notas originales están resueltas; solo cambian las notas 105 y 106 mediante las dos supresiones expresas.
