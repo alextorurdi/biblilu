@@ -112,3 +112,5 @@ Los recursos se **insertan en el flujo de lectura** en los siguientes puntos:
 
 ---
 **Registro editorial:** las diez notas originales están resueltas; solo cambian las notas 105 y 106 mediante las dos supresiones expresas.
+
+**Ilustraciones definitivas:** Agar e Ismael, siete corderas, «Obediencia» y la compra de Macpela están subidas como WebP en `assets/` y `docs/assets/`, enlazadas desde la escena 14; mapa y árbol #7 se mantienen en SVG.

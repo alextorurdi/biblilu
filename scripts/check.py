@@ -210,7 +210,7 @@ assert 'href="../20/index.html">Cumplimiento →</a>' in (SITE/'genesis/18/index
 for _ch in (21,22,23):
  assert 'location.replace' in (SITE/f'genesis/{_ch}/index.html').read_text(encoding='utf-8')
 for _asset in ('cumplimiento-agar.webp','cumplimiento-macpela.webp','cumplimiento-mapa.svg',
-               'cumplimiento-siete-corderas.svg','cumplimiento-obediencia.svg',
+               'cumplimiento-siete-corderas.webp','cumplimiento-obediencia.webp',
                'genealogias/07.svg','cumplimiento.css','cumplimiento.js'):
  assert (SITE/'assets'/_asset).exists()
 assert 'registro catastral' not in cumplimiento and 'acta notarial' not in cumplimiento
@@ -222,3 +222,7 @@ assert 'ref-61' in cumplimiento and 'ref-62' in cumplimiento and 'ref-63' in cum
 assert all(f'id="ref-{i}"' in (SITE/'bibliografia/index.html').read_text(encoding='utf-8') for i in (61,62,63))
 assert (SITE/'assets/genealogias/07.svg').read_text(encoding='utf-8').find('id="07-graph0"') >= 0
 print('OK: Cumplimiento · 96 versículos, 14 notas (131–144), 6 recursos y bibliografía ampliada.')
+
+# Imágenes definitivas de Cumplimiento: dos inserciones por recurso (móvil + escritorio).
+for _image in ('cumplimiento-agar.webp','cumplimiento-siete-corderas.webp','cumplimiento-obediencia.webp','cumplimiento-macpela.webp'):
+ assert cumplimiento.count(_image+'?v=20261115-def')==2,(_image,'imagen definitiva no enlazada dos veces')
