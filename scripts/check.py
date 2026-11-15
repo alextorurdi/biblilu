@@ -36,10 +36,11 @@ for p,doc in parsed.items():
     assert old_ch3 or fragment.startswith(('lamina=','persona=')),(p,address,'missing anchor')
 
 V=json.loads((ROOT/'data/genesis.json').read_text(encoding='utf-8'))
-assert len(V)==496
+assert len(V)==592
 normalize=lambda x:re.sub(r'\s+',' ',x).strip()
 all_text=''
 def scene_path(c,v):
+ if c in (20,21,22,23):return '20'
  if c in (18,19):return '18'
  if c in (16,17):return '16'
  if c==15:return '15'
@@ -68,7 +69,7 @@ for verse in V:
  for speech in re.findall(r'<span class="divine">([\s\S]*?)</span>',match[1]):
   assert not re.search(r'<a(?![^>]*class="fn-link")',speech),(c,v,'divine text has hyperlink')
  all_text+=match[1]
-for unit,min_n,max_n in [(1,1,8),(2,9,22),(4,23,39),(5,40,53),(6,54,67),(10,68,76),('11',77,78),('11-10',79,81),('12',82,93),('14',94,103),('15',104,110),('16',111,121),('18',122,130)]:
+for unit,min_n,max_n in [(1,1,8),(2,9,22),(4,23,39),(5,40,53),(6,54,67),(10,68,76),('11',77,78),('11-10',79,81),('12',82,93),('14',94,103),('15',104,110),('16',111,121),('18',122,130),('20',131,144)]:
  html=(SITE/f'genesis/{unit}/index.html').read_text(encoding='utf-8')
  a=[int(x) for x in re.findall(r'id="fnref-(\d+)"',html)]
  b=[int(x) for x in re.findall(r'<li id="fn-(\d+)"',html)]
@@ -84,7 +85,7 @@ assert 'data-scene="crueldad"' in (SITE/'genesis/4/index.html').read_text(encodi
 assert 'data-illustration="music"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
 assert 'id="fnref-27"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
 assert '“dadora de vida”' in (SITE/'genesis/2/index.html').read_text(encoding='utf-8')
-print(f'OK: {len(parsed)} páginas; 496 versículos, 130 notas, dos índices, anclas canónicas y marcado divino.')
+print(f'OK: {len(parsed)} páginas; 592 versículos, 144 notas, dos índices, anclas canónicas y marcado divino.')
 
 # La escena 4 abarca Gn 4:25–5:32; el árbol 02 cambia a cronología en Gn 5:25.
 scene_4=(SITE/'genesis/5/index.html').read_text(encoding='utf-8')
@@ -109,7 +110,7 @@ assert '<a href="6/index.html#gn-9-1">' in (SITE/'genesis/index.html').read_text
 
 # Bibliografía de Génesis 9:25: correspondencia entre la nota 67 y las fuentes.
 _bib=json.loads((ROOT/'data/bibliography.json').read_text(encoding='utf-8'))
-assert len(_bib)==60
+assert len(_bib)==63
 for _n,_name in ((53,'Embry'),(54,'Bergsma'),(55,'Alexander')):
  assert _name in _bib[_n-1]
  assert f'href="../../bibliografia/index.html#ref-{_n}"' in scene_5
@@ -193,3 +194,31 @@ assert 'La narrativa parece indicar' in perdicion
 assert 'El verbo hebreo <em>yādaʿ</em>' in perdicion
 assert 'El nombre Moab se relaciona' in perdicion
 print('OK: Perdición · 71 versículos, nueve notas (122–130), enlaces y tres recursos visuales.')
+
+# Escena 14 · Cumplimiento: 96 versículos, catorce notas y seis paneles.
+cumplimiento=(SITE/'genesis/20/index.html').read_text(encoding='utf-8')
+for _ch,_n in ((20,18),(21,34),(22,24),(23,20)):
+ assert all(f'id="gn-{_ch}-{v}"' in cumplimiento for v in range(1,_n+1))
+assert cumplimiento.count('class="cumplimiento-mobile-art')==6
+assert cumplimiento.count('class="cumplimiento-panel')==6
+assert cumplimiento.count('class="cumplimiento-break"')==6
+assert 'data-cumplimiento-side' in cumplimiento
+assert all(f'gn-{x}' in (SITE/'assets/cumplimiento.js').read_text(encoding='utf-8') for x in ['21-8','21-22','22-1','22-20','23-1'])
+assert '<a href="20/index.html#gn-20-1">' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
+assert '<a href="20/index.html#gn-23-1">' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
+assert 'href="../20/index.html">Cumplimiento →</a>' in (SITE/'genesis/18/index.html').read_text(encoding='utf-8')
+for _ch in (21,22,23):
+ assert 'location.replace' in (SITE/f'genesis/{_ch}/index.html').read_text(encoding='utf-8')
+for _asset in ('cumplimiento-agar.webp','cumplimiento-macpela.webp','cumplimiento-mapa.svg',
+               'cumplimiento-siete-corderas.svg','cumplimiento-obediencia.svg',
+               'genealogias/07.svg','cumplimiento.css','cumplimiento.js'):
+ assert (SITE/'assets'/_asset).exists()
+assert 'registro catastral' not in cumplimiento and 'acta notarial' not in cumplimiento
+assert 'Abraham pasa a definir los límites del terreno que quiere adquirir.' in cumplimiento
+assert 'Tras la autorización pública, empieza la negociación privada, enfrente de testigos.' in cumplimiento
+assert 'YHWH yirʾeh,«Jehová proveerá»' in cumplimiento
+assert 'El nombre hebreo <em>Beʾer Ševaʿ</em>' in cumplimiento
+assert 'ref-61' in cumplimiento and 'ref-62' in cumplimiento and 'ref-63' in cumplimiento
+assert all(f'id="ref-{i}"' in (SITE/'bibliografia/index.html').read_text(encoding='utf-8') for i in (61,62,63))
+assert (SITE/'assets/genealogias/07.svg').read_text(encoding='utf-8').find('id="07-graph0"') >= 0
+print('OK: Cumplimiento · 96 versículos, 14 notas (131–144), 6 recursos y bibliografía ampliada.')
