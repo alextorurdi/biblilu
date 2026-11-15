@@ -1,0 +1,28 @@
+/* Cumplimiento · escena 14 · Génesis 20–23 · seis recursos sincronizados. */
+.cumplimiento-scene .cumplimiento-side{min-width:0}
+.cumplimiento-scene .cumplimiento-panel{margin:0}
+.cumplimiento-scene .cumplimiento-panel[hidden]{display:none!important}
+.cumplimiento-scene .cumplimiento-panel img{display:block;width:100%;height:auto;max-height:calc(100vh - 155px);object-fit:contain;border-radius:12px;background:#f4efe7;box-shadow:0 3px 12px #302a1b14}
+.cumplimiento-scene .cumplimiento-panel.cumplimiento-tree img{max-height:490px}
+.cumplimiento-scene .cumplimiento-panel figcaption,.cumplimiento-scene .cumplimiento-mobile-art figcaption{font:13px/1.6 Arial,sans-serif;color:var(--muted);padding:10px 3px 3px}
+.cumplimiento-scene .cumplimiento-mobile-art{display:none}
+.cumplimiento-scene .cumplimiento-mobile-art img{width:100%;height:auto;display:block;border-radius:11px;background:#f3ecdf}
+.cumplimiento-scene .cumplimiento-break{clear:both;height:12px;border-bottom:1px solid var(--line);margin:22px 0 30px}
+.cumplimiento-scene .cumplimiento-speech,.cumplimiento-scene .cumplimiento-thought{font-style:italic}
+.cumplimiento-scene .cumplimiento-god{color:#a63235}
+.cumplimiento-scene .cumplimiento-bibref{font:12px/1.5 Arial,sans-serif;margin-top:9px;color:var(--muted)}
+.cumplimiento-scene .cumplimiento-bibref a{color:inherit;text-underline-offset:3px}
+.cumplimiento-scene.hide-images .cumplimiento-mobile-art{display:none!important}
+@media(max-width:700px){
+ .cumplimiento-scene .cumplimiento-mobile-art{display:block;max-width:530px;margin:24px auto 44px}
+ .cumplimiento-scene .cumplimiento-mobile-art.cumplimiento-map{max-width:590px}
+ .cumplimiento-scene .cumplimiento-mobile-art.cumplimiento-tree{overflow-x:auto;max-width:100%;padding-bottom:7px}
+ .cumplimiento-scene .cumplimiento-mobile-art.cumplimiento-tree img{width:860px;max-width:none;height:auto}
+ .cumplimiento-scene .cumplimiento-mobile-art figcaption{font-size:12px}
+ .cumplimiento-scene .cumplimiento-break{height:10px;margin:14px 0 21px}
+}
+@media print{
+ .cumplimiento-scene .cumplimiento-side{display:none!important}
+ .cumplimiento-scene .cumplimiento-mobile-art{display:block!important;max-width:430px;break-inside:avoid}
+ .cumplimiento-scene .cumplimiento-mobile-art.cumplimiento-tree img{width:100%;max-width:100%}
+}
