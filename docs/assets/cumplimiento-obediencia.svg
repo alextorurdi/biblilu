@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 1140" role="img" aria-labelledby="t d">
+<title id="t">Obediencia: Abraham e Isaac ascienden con la leña</title><desc id="d">Ilustración editorial original de Abraham anciano e Isaac joven ascendiendo por una senda de montaña. Abraham sostiene el fuego y su hijo transporta leña. Evoca Génesis 22 sin mostrar el sacrificio.</desc>
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#344a56"/><stop offset=".4" stop-color="#86a09d"/><stop offset=".8" stop-color="#dfb88a"/><stop offset="1" stop-color="#eacda2"/></linearGradient><linearGradient id="hill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b1a28c"/><stop offset=".55" stop-color="#93816e"/><stop offset="1" stop-color="#675c54"/></linearGradient><linearGradient id="robe" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a68869"/><stop offset=".58" stop-color="#6e645a"/><stop offset="1" stop-color="#3e474b"/></linearGradient><linearGradient id="robe2" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#c37a52"/><stop offset=".52" stop-color="#8e533f"/><stop offset="1" stop-color="#58453f"/></linearGradient><radialGradient id="fire"><stop stop-color="#fffad7"/><stop offset=".3" stop-color="#ffca6c" stop-opacity=".85"/><stop offset="1" stop-color="#f49d4a" stop-opacity="0"/></radialGradient><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".19" numOctaves="3" seed="18"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".09"/></feComponentTransfer></filter></defs>
+<rect width="920" height="1140" fill="url(#sky)"/>
+<circle cx="653" cy="358" r="107" fill="#ffe6b7" opacity=".45"/>
+<!-- distant mountains -->
+<path d="M0 712L169 386L277 562L431 313L635 577L782 391L920 552V1140H0Z" fill="#88928c"/>
+<path d="M0 779L211 482L328 635L478 392L657 601L827 480L920 568V1140H0Z" fill="#b1a28f" opacity=".78"/>
+<path d="M0 812Q175 686 305 753T615 718T920 695V1140H0Z" fill="url(#hill)"/>
+<path d="M0 1023Q251 886 451 991T920 884V1140H0Z" fill="#7a6a58"/>
+<!-- rising path -->
+<path d="M272 1140Q361 1009 449 915T650 703L920 682V1140Z" fill="#bf9b79" opacity=".55"/>
+<path d="M264 1140Q385 975 450 897T661 691" stroke="#e2bb8d" stroke-width="91" fill="none" opacity=".22"/>
+<g fill="#655e4b" opacity=".35"><path d="M64 904l34-87-10 67 29-50-13 88M814 990l31-113-2 90 42-55-18 90" stroke="#526354" stroke-width="11" fill="none"/></g>
+<!-- Isaac (right) with bundle -->
+<g transform="translate(562 496)">
+<path d="M45 203Q114 190 156 231M44 251Q115 244 174 268M56 164Q133 151 167 184" stroke="#61473a" stroke-width="16" stroke-linecap="round" fill="none"/>
+<path d="M69 123L172 249M54 146L182 223M66 161L175 175M62 185L188 259" stroke="#8c6a4c" stroke-width="13" stroke-linecap="round"/>
+<path d="M60 143Q-2 190 9 278L-9 477Q97 510 192 464L160 255Q157 184 110 142Z" fill="url(#robe2)" stroke="#755343" stroke-width="6"/>
+<ellipse cx="92" cy="95" rx="50" ry="62" fill="#b78c68" stroke="#896448" stroke-width="4"/>
+<path d="M44 98Q25 35 78 20Q121 14 146 54Q152 80 133 92Q91 60 44 98Z" fill="#51473f"/>
+<path d="M111 116q-13 16-35 7" stroke="#82563e" stroke-width="3" fill="none"/>
+<path d="M38 190Q-3 245-11 318M142 196Q170 262 184 315" stroke="#bb895f" stroke-width="27" stroke-linecap="round"/>
+<path d="M70 484L54 551M140 476L168 547" stroke="#755447" stroke-width="20" stroke-linecap="round"/>
+<path d="M58 548l-22 23 48-2M160 543l-13 25 48 5" stroke="#493d36" stroke-width="19" fill="none" stroke-linecap="round"/>
+<path d="M26 258q59-22 140 6" stroke="#dba87a" stroke-width="12" opacity=".55" fill="none"/>
+</g>
+<!-- Abraham elder (left) with fire -->
+<g transform="translate(239 359)">
+<path d="M18 178Q-32 230-26 363L-71 679Q82 739 224 675L194 371Q207 254 143 186Z" fill="url(#robe)" stroke="#5e544c" stroke-width="7"/>
+<ellipse cx="92" cy="126" rx="58" ry="77" fill="#b48b67" stroke="#7d634f" stroke-width="5"/>
+<path d="M30 109Q21 34 91 31Q147 42 155 114L128 69L64 77Z" fill="#b3a08b"/>
+<path d="M38 150Q49 244 92 256Q151 218 152 148Q127 190 101 184Z" fill="#d5c2a7"/>
+<path d="M69 147l-20 12M109 151l22 9" stroke="#766759" stroke-width="4" fill="none"/>
+<path d="M7 206Q-18 272-52 354M185 236Q236 309 245 374" stroke="#ac8465" stroke-width="31" fill="none" stroke-linecap="round"/>
+<!-- torch staff -->
+<path d="M-56 367L-118 57" stroke="#6e5945" stroke-width="21" fill="none" stroke-linecap="round"/>
+<path d="M-128 63l-10-69 33 5-3 62" fill="#57483d"/>
+<ellipse cx="-121" cy="-24" rx="95" ry="105" fill="url(#fire)"/>
+<path d="M-132 2Q-179-55-137-103Q-132-57-112-75Q-95-123-90-155Q-59-80-101-22Q-90-4-114 15Q-134 15-132 2Z" fill="#ed873f"/>
+<path d="M-123-18q-27-54 6-89q1 39 22 55q12 25-5 47q-18 12-23-13Z" fill="#ffe0a2"/>
+<path d="M-55 670l-11 46M166 672l16 44" stroke="#534d42" stroke-width="25" stroke-linecap="round"/>
+<path d="M-88 724l60 3M156 723l60 10" stroke="#3d413e" stroke-width="25" stroke-linecap="round"/>
+<path d="M-16 270l205 3" stroke="#a78c70" stroke-width="13" fill="none" opacity=".45"/>
+</g>
+<!-- foreground stones -->
+<g fill="#665b50" opacity=".55"><path d="M3 1104l97-71 72 66ZM688 1105l102-70 118 105Z"/><path d="M433 1048l91-35 83 55-88 39Z" fill="#9f8a70"/></g>
+<rect width="920" height="1140" filter="url(#grain)"/></svg>
