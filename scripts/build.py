@@ -6,7 +6,7 @@ H=html.escape
 GENEALOGY_LINKS=json.loads((ROOT/'assets/genealogias/enlaces.json').read_text(encoding='utf-8'))
 ENTRY_TO_PERSON=GENEALOGY_LINKS['entry_to_person']
 PERSON_TO_SHEETS=GENEALOGY_LINKS.get('person_to_sheets', {})
-C={'onomastico':('Onomástico','Personas y relaciones familiares'),'materiales':('Materiales','Objetos, minerales y símbolos'),'animales':('Animales','Animales, plantas y criaturas celestiales'),'lugares':('Lugares','La geografía del relato'),'tribus':('Tribus','Pueblos de la Antigüedad')}
+C={'onomastico':('Onomástico','Personas y relaciones familiares'),'lugares':('Lugares','La geografía del relato'),'animales':('Animales','Animales, plantas y criaturas celestiales'),'materiales':('Materiales','Objetos, minerales y símbolos'),'tribus':('Tribus','Pueblos de la Antigüedad')}
 byid={e['id']:e for e in E};links={}
 # Selección contextual para Génesis 1–3. No se enlazan homónimos automáticamente.
 for cat,names in {'onomastico':['Adán','Eva','Varona'],'materiales':['Oro','Bedelio','Ónice','Espada encendida'],'lugares':['Edén','Pisón','Havila','Gihón','Cus','Hidekel','Asiria','Eúfrates'],'animales':['Higuera','Querubín','Serpiente','Cardo','Árbol de la Vida','Árbol de la Ciencia del Bien y del Mal']}.items():
