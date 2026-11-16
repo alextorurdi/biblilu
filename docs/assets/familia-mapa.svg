@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1120" role="img" aria-labelledby="title description"><title id="title">El viaje del criado de Abraham a Mesopotamia</title><desc id="description">Mapa interpretativo desde el sur de Canaán hasta el norte de Mesopotamia. La ruta es aproximada y la ciudad de Nacor no posee localización segura.</desc>
+<defs><linearGradient id="earth" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9dfcb"/><stop offset=".55" stop-color="#d4c4a8"/><stop offset="1" stop-color="#bda88c"/></linearGradient><linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#9ec7ca"/><stop offset="1" stop-color="#5e9fa6"/></linearGradient><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".23" numOctaves="3" seed="7"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".045"/></feComponentTransfer></filter></defs>
+<rect width="850" height="1120" rx="14" fill="#fbf8ef"/><text x="55" y="83" font-family="Georgia,serif" font-size="38" font-weight="bold" fill="#264e43">El viaje del criado</text><text x="55" y="120" font-family="Arial,sans-serif" font-size="22" fill="#697066">Génesis 24 · Canaán — Mesopotamia septentrional</text>
+<rect x="52" y="164" width="745" height="784" fill="url(#earth)" stroke="#c5bba5" rx="8"/>
+<path d="M52 164H191Q194 205 171 268Q149 338 183 390T170 517Q143 595 159 654Q182 717 150 790Q136 870 140 948H52Z" fill="url(#water)"/>
+<path d="M197 164Q198 224 172 286T182 391T172 530Q161 592 175 665T158 805Q152 865 163 947" stroke="#72989b" stroke-width="5" fill="none"/>
+<path d="M190 176Q317 229 386 184L444 275Q517 305 610 282L791 313V164Z" fill="#b3a387" opacity=".3"/>
+<path d="M535 164Q489 248 542 312Q563 350 519 407Q465 453 515 519" stroke="#74a5a9" stroke-width="11" fill="none" stroke-linecap="round"/>
+<path d="M753 164Q697 223 707 277Q723 349 683 410Q662 475 704 560" stroke="#74a5a9" stroke-width="9" fill="none" stroke-linecap="round"/>
+<path d="M532 218Q582 298 660 340" stroke="#9d9981" stroke-width="8" opacity=".27" fill="none"/>
+<g stroke="#b6a589" fill="none" opacity=".55" stroke-width="4"><path d="M260 380Q366 341 420 419T560 482"/><path d="M247 622Q325 556 438 581T635 629"/><path d="M260 760Q372 718 486 783T727 780"/></g>
+<text x="70" y="450" font-family="Georgia,serif" font-size="22" fill="#2c6971" transform="rotate(-90 70 450)">Mar Mediterráneo</text>
+<text x="470" y="320" font-size="20" fill="#47808b" font-family="Arial" transform="rotate(48 470 320)">Éufrates</text><text x="721" y="279" font-size="20" fill="#47808b" font-family="Arial" transform="rotate(75 721 279)">Tigris</text>
+<g font-family="Georgia,serif" font-size="23" fill="#2b5446"><text x="233" y="602">CANAÁN</text><text x="503" y="203" font-size="22">ALTA MESOPOTAMIA</text><text x="372" y="757" font-size="21">Siria</text></g>
+<path d="M272 828C240 704 293 627 324 550S403 436 483 372L566 300" fill="none" stroke="#a5684f" stroke-width="5" stroke-dasharray="11 12" stroke-linecap="round"/>
+<path d="M556 297l16-7-8 19" fill="#a5684f"/>
+<circle cx="272" cy="829" r="13" fill="#b57451" stroke="#faf5e7" stroke-width="5"/>
+<text x="292" y="863" font-family="Arial" font-size="25" fill="#3f4c42" font-weight="bold">Sur de Canaán</text><text x="294" y="892" font-family="Arial" font-size="21" fill="#59645e">Abraham e Isaac</text>
+<circle cx="486" cy="374" r="9" fill="#b57451" stroke="#f6f3e8" stroke-width="4"/>
+<text x="397" y="353" font-family="Arial" font-size="23" font-weight="bold" fill="#384f45">Harán</text>
+<ellipse cx="563" cy="306" rx="143" ry="79" fill="#ab7d63" fill-opacity=".14" stroke="#9e6e58" stroke-width="4" stroke-dasharray="12 11"/>
+<text x="614" y="398" font-family="Arial" font-size="22" font-weight="bold" fill="#654d44">Ciudad de Nacor (?)</text>
+<text x="614" y="424" font-family="Arial" font-size="17" fill="#654d44">localización discutida</text>
+<g fill="#4c6a5b" font-family="Arial,sans-serif"><text x="60" y="991" font-size="19" font-weight="bold">Lectura del mapa</text><path d="M60 1023h63" stroke="#a5684f" stroke-width="4" stroke-dasharray="10 9"/><text x="142" y="1029" font-size="18">Ruta esquemática, no reconstrucción histórica</text><ellipse cx="79" cy="1065" rx="21" ry="11" fill="#ab7d63" fill-opacity=".14" stroke="#9e6e58" stroke-dasharray="6 4" stroke-width="2"/><text x="142" y="1071" font-size="18">Posible región de destino, sin emplazamiento seguro</text></g>
+<g font-family="Arial" fill="#2b5247"><text x="751" y="195" font-size="21" text-anchor="middle">N</text><path d="M751 203l-12 36 12-9 12 9Z" fill="#32584e"/></g>
+<rect width="850" height="1120" filter="url(#grain)" pointer-events="none"/></svg>
