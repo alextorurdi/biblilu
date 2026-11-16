@@ -396,3 +396,29 @@
    }
  }).catch(()=>{});
 })();
+
+/* Referencias bíblicas estructuradas de las fichas que todavía carecían de ellas. */
+(()=>{
+ const article=document.querySelector('article.entry');
+ if(!article||!location.pathname.includes('/apendices/onomastico/'))return;
+ const already=Array.from(article.querySelectorAll('.backlinks h2')).some(h=>h.textContent.trim()==='Menciones bíblicas');
+ if(already)return;
+ const base=document.body.dataset.base||'';
+ const slug=location.pathname.match(/\/onomastico\/([^/]+)\//)?.[1];if(!slug)return;
+ fetch(base+'assets/entries.json').then(r=>r.json()).then(data=>{
+   const refs=data['onomastico/'+slug]?.mentions||[];
+   if(!refs.length)return;
+   const div=document.createElement('div');div.className='backlinks';
+   const title=document.createElement('h2');title.textContent='Menciones bíblicas';div.appendChild(title);
+   const p=document.createElement('p');
+   for(const [i,ref] of refs.entries()){
+     if(i)p.appendChild(document.createTextNode(' · '));
+     const m=ref.match(/^Gn\s+(\d+):(\d+)/),c=m&&Number(m[1]),v=m&&Number(m[2]);
+     if(c&&c<=24){
+       const scene=c===24?'24':[20,21,22,23].includes(c)?'20':[18,19].includes(c)?'18':[16,17].includes(c)?'16':[12,13].includes(c)?'12':c===15?'15':c===14?'14':c===11?(v<=9?'11':'11-10'):[6,7,8,9].includes(c)?'6':c===5?'5':String(c);
+       const a=document.createElement('a');a.href=base+'genesis/'+scene+'/index.html#gn-'+c+'-'+v;a.textContent=ref;p.appendChild(a);
+     }else p.appendChild(document.createTextNode(ref));
+   }
+   div.appendChild(p);article.appendChild(div);
+ }).catch(()=>{});
+})();

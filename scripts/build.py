@@ -161,7 +161,7 @@ page('apendices/genealogias/index.html','Árboles genealógicos', '''<section cl
 
 shutil.copytree(ROOT/'assets',OUT/'assets',dirs_exist_ok=True)
 (OUT/'assets/genealogias/familiares.json').write_text(json.dumps({e['name']:e['id'].split('/')[1] for e in E if e['category']=='onomastico'},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-(OUT/'assets/entries.json').write_text(json.dumps({e['id']:{'title':e['title'],'category':C[e['category']][0],'body':e['body']} for e in E},ensure_ascii=False))
+(OUT/'assets/entries.json').write_text(json.dumps({e['id']:{'title':e['title'],'category':C[e['category']][0],'body':e['body'],'mentions':e.get('mentions',[])} for e in E},ensure_ascii=False))
 (OUT/'.nojekyll').touch()
 print('Generadas',len(list(OUT.rglob('*.html'))),'páginas estáticas.')
 
