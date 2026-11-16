@@ -36,6 +36,12 @@ Estado: el editor ha aprobado las cinco notas nuevas de Gn 24:2, 24:9, 24:55, 24
 - Andrew E. Steinmann (2017), «Jesus and Possessing the Enemies’ Gate (Genesis 22:17–18; Genesis 24:60)», *Bibliotheca Sacra* 174:693, pp. 13 ss.: propone una alusión mesiánica en Mt 16:18. Es una interpretación discutida; la lectura colectiva de «descendencia» es habitual en la investigación de Génesis.
 - Paralelos de las puertas de la muerte: Job 38:17 e Isaías 38:10. Para otros dichos sobre puertas, Mt 7:13–14, Lc 13:24–25, Mt 25:10 y Jn 10:7–9 usan símbolos de acceso/entrada, no directamente el de conquista de ciudades.
 
+- [ ] **Gn 24:62 — Pozo del Viviente-que-me-ve: NUEVA NOTA APROBADA y VERIFICADA.** El editor pidió inicialmente Gn 24:65, pero la mención al pozo aparece realmente en **Gn 24:62**, por lo que la nota debe anclarse allí. Incorporar literalmente la nota solicitada:
+
+> este es el mismo pozo nombrado por Agar en Gen 16:14
+
+  **Referencia cruzada y verificación:** Gn 16:14 (Agar da nombre al pozo), Gn 24:62 (Isaac viene del mismo pozo) y Gn 25:11 (Isaac habita junto a él). Véase la ficha ya existente `lugares/pozo-del-viviente-que-me-ve` en el apéndice de Lugares, que identifica las tres citas. Fuentes: [RVR1960: Gn 16:14 y 25:11](https://www.biblegateway.com/passage/?search=G%C3%A9nesis+16%3A14%2CG%C3%A9nesis+25%3A11&version=RVR1960) y [RVR1960: Gn 24:62](https://www.biblegateway.com/passage/?search=G%C3%A9nesis+24%3A62&version=RVR1960). No añadir una nota al versículo 24:65. En el texto bíblico, enlazar el nombre del pozo a la ficha existente.
+
 ## Bibliografía aprobada para la revisión de Génesis 24
 
 - [x] **Lea Jacobsen (2014)**: «A Mother's Legal Authority over her Offspring's Marriage in the Ancient Near East and the Bible», *Jewish Law Association Studies* XXV, pp. 51–104.
@@ -51,4 +57,4 @@ Los tres estudios han sido expresamente aprobados para su incorporación a la bi
 - [ ] No realizar cambios en la página publicada ni en el texto canónico mientras la revisión editorial siga abierta.
 
 ---
-**Registro editorial:** las seis notas nuevas de Gn 24:2, 24:9, 24:55, 24:58, 24:60 y 24:63 están aprobadas; la propuesta de Gn 24:22/47 fue descartada. La inclusión de Jacobsen (2014), Lorenzen (2024) y Ugwuewo, Obiorah y Odo (2024) en la bibliografía ha sido aprobada. El resto de apartados editoriales continúa pendiente.
+**Registro editorial:** las siete notas nuevas de Gn 24:2, 24:9, 24:55, 24:58, 24:60, 24:62 y 24:63 están aprobadas; la propuesta de Gn 24:22/47 fue descartada. La inclusión de Jacobsen (2014), Lorenzen (2024) y Ugwuewo, Obiorah y Odo (2024) en la bibliografía ha sido aprobada. El resto de apartados editoriales continúa pendiente.
