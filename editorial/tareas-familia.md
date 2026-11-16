@@ -2,7 +2,7 @@
 
 **Escena 15 · Génesis 24:1–67 · Revisión editorial en curso.**
 
-Estado: el editor ha aprobado nueve notas nuevas de Gn 24:2, 24:9, 24:53, 24:55, 24:58, 24:60, 24:62, 24:63 y 24:65 con su redacción definitiva. Queda descartada la propuesta de Gn 24:22/47. Los demás apartados editoriales están pendientes. No implementar ni publicar la escena.
+Estado: el editor ha aprobado nueve notas nuevas; la propuesta de Gn 24:22/47 se descartó. Estructura, formato, distribución visual y enlaces a los apéndices aprobados. Pendientes las dos propuestas de nuevas fichas de Lugares y la implementación/publicación.
 
 ## Notas nuevas
 
@@ -65,11 +65,31 @@ Estado: el editor ha aprobado nueve notas nuevas de Gn 24:2, 24:9, 24:53, 24:55,
 
 Los cinco estudios han sido expresamente aprobados para su incorporación a la bibliografía general. La revisión editorial de «Familia» sigue abierta y no se publica la escena.
 
-## Resto de la revisión
+## Apartados aprobados — estructura, formato, visualización y enlaces
 
-- [ ] Estructura propuesta: mantener una sola escena de 67 versículos (Gn 24:1–67), aún pendiente de aprobación.
-- [ ] Formato de diálogos, pensamientos, enlaces a los apéndices, ilustraciones y mapa: pendientes de decisión. Las tres referencias citadas en esta lista ya están aprobadas.
-- [ ] No realizar cambios en la página publicada ni en el texto canónico mientras la revisión editorial siga abierta.
+- [ ] **Apartado 1, estructura: APROBADO.** Una sola escena «Familia» (Gn 24:1–67, 67 versículos), sin subtítulos internos. Conservar íntegramente el relato y su repetición en boca del criado.
+- [ ] **Apartado 3, formato: APROBADO.** Seguir los criterios de las escenas anteriores: diálogo humano en negro y cursiva con guiones, pensamientos en cursiva sin guion (24:45), y nombres divinos en rojo sin hipervínculo; diferenciar voces en el relato del criado y revisar saltos de página.
+- [ ] **Recursos visuales y distribución: APROBADOS.** Ilustraciones definitivas pendientes de elaboración/subida: juramento del siervo, Rebeca y el criado junto al pozo («Destino», sin marco), partida de Rebeca y encuentro de Isaac con Rebeca; mapa del viaje a Mesopotamia y nuevo árbol de la ascendencia exclusiva de Isaac y Rebeca hasta Taré. **Incorporar el árbol nuevo al apéndice genealógico**.
+  - **Escritorio, lateral:** juramento desde el inicio al primer corte; mapa desde el primer al segundo corte; pozo desde el segundo al cuarto; partida desde el cuarto al último; encuentro desde el último al final.
+  - **Escritorio, centro:** árbol genealógico nuevo en el **cuarto corte, interrumpiendo el flujo de lectura**. Su inserción central no sustituye la imagen lateral de la partida, que también cambia allí.
+  - **Móvil:** juramento en el primer corte; mapa en el segundo; pozo y Rebeca en el tercero; árbol en el cuarto; partida en el quinto; encuentro al final.
+  - No inventar las equivalencias exactas entre cortes y versículos sin revisar la maquetación original.
+- [ ] **Apartado 5, enlaces a los apéndices: APROBADO ÍNTEGRAMENTE.** Integrar hipervínculos directamente en las menciones del texto, sin recuadros independientes. Enlazar las fichas existentes de Abraham, Isaac, Sara, Rebeca, Betuel, Milca, Nacor (hermano de Abraham, **no** el abuelo), Labán; Canaán, Neguev, Pozo del Viviente-que-me-ve; camellos y asnos; oro, plata y siclo; cananeos. Mantener a Dios y Jehová en rojo sin enlazarlos y **no identificar al criado anónimo automáticamente con Eliezer**.
+- [ ] **Nuevas fichas propuestas para el apéndice de Lugares: AÚN PENDIENTES DE APROBACIÓN.** Las dos redacciones siguientes son borradores editoriales, no fichas todavía incorporadas al índice; enlazar desde Gn 24:10 solo tras su aprobación y creación.
+
+### Borrador propuesto: Mesopotamia (Aram-Naharaim)
+
+> Mesopotamia (Aram-Naharaim). Región histórica del Medio Oriente asociada a las tierras situadas entre los ríos Tigris y Éufrates, donde surgieron importantes ciudades y reinos de la Antigüedad. Hechos bíblicos. En Génesis 24:10 se describe como el destino al que viajó el criado de Abraham para buscar esposa a Isaac, llegando a la ciudad de Nacor. El nombre reaparece en otros pasajes del Antiguo Testamento, entre ellos Deuteronomio 23:4 y Jueces 3:8. Ubicación. Aunque «Mesopotamia» puede designar toda la amplia región entre el Tigris y el Éufrates, el nombre hebreo utilizado aquí, Aram-Naharaim, hace referencia especialmente a su parte septentrional, en el entorno de Harán y de las cuencas del alto Éufrates y del Jabur, entre los actuales territorios de Turquía y Siria. Esta región debe distinguirse del sur de Mesopotamia, donde se suele localizar Ur de los caldeos. Etimología. «Mesopotamia» procede del griego y significa «entre ríos». El hebreo Aram-Naharaim puede traducirse como «Aram de los dos ríos», aunque existe debate sobre cuáles son exactamente los ríos aludidos. (Gn 24:10; Dt 23:4; Jue 3:8; 1 Cr 19:6).
+
+### Borrador propuesto: Ciudad de Nacor
+
+> Ciudad de Nacor. Localidad de la Mesopotamia septentrional mencionada como destino del criado de Abraham durante la búsqueda de esposa para Isaac (Gn 24:10). Hechos bíblicos. El criado llega a la ciudad, encuentra a Rebeca junto al pozo y se presenta ante su familia. Rebeca es hija de Betuel y nieta de Nacor, hermano de Abraham (Gn 22:20-23; 24:15, 24, 47). Ubicación. Su emplazamiento exacto es desconocido. Una interpretación tradicional la identifica con Harán, donde se había establecido parte de la familia de Abraham. Otros investigadores la relacionan con una localidad llamada Naḫur, atestiguada en documentos mesopotámicos del segundo milenio a.C. en la región del alto Jabur, al este de Harán. Ninguna de estas identificaciones puede considerarse definitiva. Etimología. La expresión hebrea ʿîr Nāḥôr significa «ciudad de Nacor», pero el texto no aclara si designa una ciudad con ese nombre o el asentamiento de la familia de Nacor; tampoco permite determinar si el nombre del lugar deriva del personaje bíblico. (Gn 24:10, 15-29, 47; 22:20-23).
+
+**Nota documental para las dos fichas:** el apéndice de Lugares existente carece de ambas entradas; Harán sí tiene ficha propia. En la bibliografía geográfica se proponen localizaciones diversas para la ciudad de Nacor: Harán, Naḫur o sencillamente el asentamiento del grupo familiar de Nacor; no asumir una identificación segura. Referencias comparativas: Detlef Jericke, *Ortsangaben im Buch Genesis* (2016, actualizado 2019), «Mesopotamien» y «Stadt Nahors»; *New American Bible Revised Edition*, nota a Gn 24:10; Daniel E. Fleming (1998), «Mari and the Possibilities of Biblical Memory», *Revue d'Assyriologie* 92, 41–78.
+
+## Estado de la revisión
+
+La estructura, formato, distribución visual y enlaces a los apéndices quedan aprobados. **Pendiente la aprobación de las dos fichas de Lugares propuestas**, la elaboración del árbol genealógico y los recursos visuales definitivos, así como la orden de implementar y publicar. No modificar la página de «Familia» ni publicar fichas propuestas sin autorización.
 
 ---
-**Registro editorial:** las nueve notas nuevas de Gn 24:2, 24:9, 24:53, 24:55, 24:58, 24:60, 24:62, 24:63 y 24:65 están aprobadas; la propuesta de Gn 24:22/47 fue descartada. La inclusión de Jacobsen (2014), Lorenzen (2024), Ugwuewo, Obiorah y Odo (2024) y Biga (2021) y Lemos (2010) en la bibliografía ha sido aprobada. El resto de apartados editoriales continúa pendiente.
+**Registro editorial:** las nueve notas nuevas de Gn 24:2, 24:9, 24:53, 24:55, 24:58, 24:60, 24:62, 24:63 y 24:65 están aprobadas; la propuesta de Gn 24:22/47 fue descartada. La inclusión de Jacobsen (2014), Lorenzen (2024), Ugwuewo, Obiorah y Odo (2024) y Biga (2021) y Lemos (2010) en la bibliografía ha sido aprobada. La estructura, formato, disposición visual y enlaces a los apéndices están aprobados; las nuevas fichas de Mesopotamia y ciudad de Nacor permanecen como propuestas pendientes.
