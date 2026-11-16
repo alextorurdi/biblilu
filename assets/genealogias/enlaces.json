@@ -238,7 +238,10 @@
     "jahzeel": "jahzeel",
     "guni": "guni",
     "jezer": "jezer",
-    "silem": "silem"
+    "silem": "silem",
+    "asurim": "asurim",
+    "letusim": "letusim",
+    "leumim": "leumim"
   },
   "entry_to_person": {
     "adan": "adam",
@@ -482,6 +485,1250 @@
     "silem": "silem",
     "abram": "abraham",
     "sarai": "sara",
-    "varona": "eve"
+    "varona": "eve",
+    "asurim": "asurim",
+    "letusim": "letusim",
+    "leumim": "leumim"
+  },
+  "person_to_sheets": {
+    "abel": [
+      "01",
+      "general"
+    ],
+    "ada_c": [
+      "01",
+      "general"
+    ],
+    "adam": [
+      "01",
+      "02",
+      "general"
+    ],
+    "cain": [
+      "01",
+      "general"
+    ],
+    "enoc_c": [
+      "01",
+      "general"
+    ],
+    "eve": [
+      "01",
+      "02",
+      "general"
+    ],
+    "irad": [
+      "01",
+      "general"
+    ],
+    "jabal": [
+      "01",
+      "general"
+    ],
+    "jubal": [
+      "01",
+      "general"
+    ],
+    "lamec_c": [
+      "01",
+      "general"
+    ],
+    "mehujael": [
+      "01",
+      "general"
+    ],
+    "metusael": [
+      "01",
+      "general"
+    ],
+    "naama": [
+      "01",
+      "general"
+    ],
+    "set": [
+      "01",
+      "02",
+      "general"
+    ],
+    "tubal_c": [
+      "01",
+      "general"
+    ],
+    "zila": [
+      "01",
+      "general"
+    ],
+    "anon_adam": [
+      "02",
+      "general"
+    ],
+    "anon_cainan": [
+      "02",
+      "general"
+    ],
+    "anon_enoc_s": [
+      "02",
+      "general"
+    ],
+    "anon_enos": [
+      "02",
+      "general"
+    ],
+    "anon_jared": [
+      "02",
+      "general"
+    ],
+    "anon_lamec_s": [
+      "02",
+      "general"
+    ],
+    "anon_mahalaleel": [
+      "02",
+      "general"
+    ],
+    "anon_matusalen": [
+      "02",
+      "general"
+    ],
+    "anon_set": [
+      "02",
+      "general"
+    ],
+    "cainan": [
+      "02",
+      "general"
+    ],
+    "cam": [
+      "02",
+      "04",
+      "general"
+    ],
+    "enoc_s": [
+      "02",
+      "general"
+    ],
+    "enos": [
+      "02",
+      "general"
+    ],
+    "jafet": [
+      "02",
+      "03",
+      "general"
+    ],
+    "jared": [
+      "02",
+      "general"
+    ],
+    "lamec_s": [
+      "02",
+      "general"
+    ],
+    "mahalaleel": [
+      "02",
+      "general"
+    ],
+    "matusalen": [
+      "02",
+      "general"
+    ],
+    "noe": [
+      "02",
+      "general"
+    ],
+    "sem": [
+      "02",
+      "05",
+      "06",
+      "general"
+    ],
+    "askenaz": [
+      "03",
+      "general"
+    ],
+    "dodanim": [
+      "03",
+      "general"
+    ],
+    "elisa": [
+      "03",
+      "general"
+    ],
+    "gomer": [
+      "03",
+      "general"
+    ],
+    "javan": [
+      "03",
+      "general"
+    ],
+    "madai": [
+      "03",
+      "general"
+    ],
+    "magog": [
+      "03",
+      "general"
+    ],
+    "mesec": [
+      "03",
+      "general"
+    ],
+    "quitim": [
+      "03",
+      "general"
+    ],
+    "rifat": [
+      "03",
+      "general"
+    ],
+    "tarsis": [
+      "03",
+      "general"
+    ],
+    "tiras": [
+      "03",
+      "general"
+    ],
+    "togarma": [
+      "03",
+      "general"
+    ],
+    "tubal": [
+      "03",
+      "general"
+    ],
+    "amorreo": [
+      "04",
+      "general"
+    ],
+    "anamim": [
+      "04",
+      "general"
+    ],
+    "araceo": [
+      "04",
+      "general"
+    ],
+    "arvadeo": [
+      "04",
+      "general"
+    ],
+    "caftorim": [
+      "04",
+      "general"
+    ],
+    "canaan": [
+      "04",
+      "general"
+    ],
+    "casluhim": [
+      "04",
+      "general"
+    ],
+    "cus": [
+      "04",
+      "general"
+    ],
+    "dedan_r": [
+      "04",
+      "general"
+    ],
+    "filisteos": [
+      "04",
+      "general"
+    ],
+    "fut": [
+      "04",
+      "general"
+    ],
+    "gergeseo": [
+      "04",
+      "general"
+    ],
+    "hamateo": [
+      "04",
+      "general"
+    ],
+    "havila_c": [
+      "04",
+      "general"
+    ],
+    "het": [
+      "04",
+      "general"
+    ],
+    "heveo": [
+      "04",
+      "general"
+    ],
+    "jebuseo": [
+      "04",
+      "general"
+    ],
+    "lehabim": [
+      "04",
+      "general"
+    ],
+    "ludim": [
+      "04",
+      "general"
+    ],
+    "mizraim": [
+      "04",
+      "general"
+    ],
+    "naftuhim": [
+      "04",
+      "general"
+    ],
+    "nimrod": [
+      "04",
+      "general"
+    ],
+    "patrusim": [
+      "04",
+      "general"
+    ],
+    "raama": [
+      "04",
+      "general"
+    ],
+    "sabta": [
+      "04",
+      "general"
+    ],
+    "sabteca": [
+      "04",
+      "general"
+    ],
+    "seba_c": [
+      "04",
+      "general"
+    ],
+    "seba_r": [
+      "04",
+      "general"
+    ],
+    "sidon": [
+      "04",
+      "general"
+    ],
+    "sineo": [
+      "04",
+      "general"
+    ],
+    "zemareo": [
+      "04",
+      "general"
+    ],
+    "abimael": [
+      "05",
+      "general"
+    ],
+    "adoram": [
+      "05",
+      "general"
+    ],
+    "almodad": [
+      "05",
+      "general"
+    ],
+    "aram_s": [
+      "05",
+      "general"
+    ],
+    "arfaxad": [
+      "05",
+      "06",
+      "general"
+    ],
+    "asur": [
+      "05",
+      "general"
+    ],
+    "dicla": [
+      "05",
+      "general"
+    ],
+    "elam": [
+      "05",
+      "general"
+    ],
+    "geter": [
+      "05",
+      "general"
+    ],
+    "havila_j": [
+      "05",
+      "general"
+    ],
+    "hazarmavet": [
+      "05",
+      "general"
+    ],
+    "heber": [
+      "05",
+      "06",
+      "general"
+    ],
+    "hul": [
+      "05",
+      "general"
+    ],
+    "jera": [
+      "05",
+      "general"
+    ],
+    "jobab_j": [
+      "05",
+      "general"
+    ],
+    "joctan": [
+      "05",
+      "general"
+    ],
+    "lud": [
+      "05",
+      "general"
+    ],
+    "mas": [
+      "05",
+      "general"
+    ],
+    "obal": [
+      "05",
+      "general"
+    ],
+    "ofir": [
+      "05",
+      "general"
+    ],
+    "peleg": [
+      "05",
+      "06",
+      "general"
+    ],
+    "sala": [
+      "05",
+      "06",
+      "general"
+    ],
+    "seba_j": [
+      "05",
+      "general"
+    ],
+    "selef": [
+      "05",
+      "general"
+    ],
+    "uz_s": [
+      "05",
+      "general"
+    ],
+    "uzal": [
+      "05",
+      "general"
+    ],
+    "abraham": [
+      "06",
+      "09",
+      "19",
+      "general"
+    ],
+    "anon_arfaxad": [
+      "06",
+      "general"
+    ],
+    "anon_heber": [
+      "06",
+      "general"
+    ],
+    "anon_nacor1": [
+      "06",
+      "general"
+    ],
+    "anon_peleg": [
+      "06",
+      "general"
+    ],
+    "anon_reu": [
+      "06",
+      "general"
+    ],
+    "anon_sala": [
+      "06",
+      "general"
+    ],
+    "anon_sem": [
+      "06",
+      "general"
+    ],
+    "anon_serug": [
+      "06",
+      "general"
+    ],
+    "haran": [
+      "06",
+      "19",
+      "general"
+    ],
+    "isca": [
+      "06",
+      "general"
+    ],
+    "lot": [
+      "06",
+      "08",
+      "general"
+    ],
+    "milca": [
+      "06",
+      "07",
+      "19",
+      "general"
+    ],
+    "nacor1": [
+      "06",
+      "general"
+    ],
+    "nacor2": [
+      "06",
+      "07",
+      "19",
+      "general"
+    ],
+    "reu": [
+      "06",
+      "general"
+    ],
+    "sara": [
+      "06",
+      "09",
+      "19",
+      "general"
+    ],
+    "serug": [
+      "06",
+      "general"
+    ],
+    "tare": [
+      "06",
+      "19",
+      "general"
+    ],
+    "aram_k": [
+      "07",
+      "general"
+    ],
+    "betuel": [
+      "07",
+      "19",
+      "general"
+    ],
+    "buz": [
+      "07",
+      "general"
+    ],
+    "gaham": [
+      "07",
+      "general"
+    ],
+    "hazo": [
+      "07",
+      "general"
+    ],
+    "jidlaf": [
+      "07",
+      "general"
+    ],
+    "kemuel": [
+      "07",
+      "general"
+    ],
+    "laban": [
+      "07",
+      "general"
+    ],
+    "laban_sons": [
+      "07",
+      "general"
+    ],
+    "lea": [
+      "07",
+      "13",
+      "general"
+    ],
+    "maaca": [
+      "07",
+      "general"
+    ],
+    "pildas": [
+      "07",
+      "general"
+    ],
+    "quesed": [
+      "07",
+      "general"
+    ],
+    "raquel": [
+      "07",
+      "13",
+      "general"
+    ],
+    "rebeca": [
+      "07",
+      "11",
+      "19",
+      "general"
+    ],
+    "reuma": [
+      "07",
+      "general"
+    ],
+    "tahas": [
+      "07",
+      "general"
+    ],
+    "teba": [
+      "07",
+      "general"
+    ],
+    "uz_n": [
+      "07",
+      "general"
+    ],
+    "benammi": [
+      "08",
+      "general"
+    ],
+    "lot_mayor": [
+      "08",
+      "general"
+    ],
+    "lot_menor": [
+      "08",
+      "general"
+    ],
+    "moab": [
+      "08",
+      "general"
+    ],
+    "abida": [
+      "09",
+      "general"
+    ],
+    "agar": [
+      "09",
+      "general"
+    ],
+    "asurim": [
+      "09",
+      "general"
+    ],
+    "cetura": [
+      "09",
+      "general"
+    ],
+    "dedan_a": [
+      "09",
+      "general"
+    ],
+    "efa": [
+      "09",
+      "general"
+    ],
+    "efer": [
+      "09",
+      "general"
+    ],
+    "elda": [
+      "09",
+      "general"
+    ],
+    "hanoc_m": [
+      "09",
+      "general"
+    ],
+    "isaac": [
+      "09",
+      "11",
+      "19",
+      "general"
+    ],
+    "isbac": [
+      "09",
+      "general"
+    ],
+    "ismael": [
+      "09",
+      "10",
+      "general"
+    ],
+    "jocsan": [
+      "09",
+      "general"
+    ],
+    "letusim": [
+      "09",
+      "general"
+    ],
+    "leumim": [
+      "09",
+      "general"
+    ],
+    "madian": [
+      "09",
+      "general"
+    ],
+    "medan": [
+      "09",
+      "general"
+    ],
+    "seba_a": [
+      "09",
+      "general"
+    ],
+    "sua_a": [
+      "09",
+      "general"
+    ],
+    "zimram": [
+      "09",
+      "general"
+    ],
+    "adbeel": [
+      "10",
+      "general"
+    ],
+    "basemat_i": [
+      "10",
+      "11",
+      "general"
+    ],
+    "cedar": [
+      "10",
+      "general"
+    ],
+    "cedema": [
+      "10",
+      "general"
+    ],
+    "duma": [
+      "10",
+      "general"
+    ],
+    "hadar_i": [
+      "10",
+      "general"
+    ],
+    "jetur": [
+      "10",
+      "general"
+    ],
+    "mahalat": [
+      "10",
+      "11",
+      "general"
+    ],
+    "massa": [
+      "10",
+      "general"
+    ],
+    "mibsam": [
+      "10",
+      "general"
+    ],
+    "misma": [
+      "10",
+      "general"
+    ],
+    "nafis": [
+      "10",
+      "general"
+    ],
+    "nebaiot": [
+      "10",
+      "general"
+    ],
+    "tema": [
+      "10",
+      "general"
+    ],
+    "ada_e": [
+      "11",
+      "general"
+    ],
+    "aholibama": [
+      "11",
+      "general"
+    ],
+    "amalec": [
+      "11",
+      "general"
+    ],
+    "basemat_h": [
+      "11",
+      "general"
+    ],
+    "cenaz": [
+      "11",
+      "general"
+    ],
+    "core_e": [
+      "11",
+      "general"
+    ],
+    "daughters_esau": [
+      "11",
+      "general"
+    ],
+    "elifaz": [
+      "11",
+      "12",
+      "general"
+    ],
+    "esau": [
+      "11",
+      "12",
+      "general"
+    ],
+    "gatam": [
+      "11",
+      "general"
+    ],
+    "jaalam": [
+      "11",
+      "general"
+    ],
+    "jacob": [
+      "11",
+      "13",
+      "general"
+    ],
+    "jeus": [
+      "11",
+      "general"
+    ],
+    "judit": [
+      "11",
+      "general"
+    ],
+    "miza": [
+      "11",
+      "general"
+    ],
+    "nahat": [
+      "11",
+      "general"
+    ],
+    "omar": [
+      "11",
+      "general"
+    ],
+    "reuel": [
+      "11",
+      "general"
+    ],
+    "sama": [
+      "11",
+      "general"
+    ],
+    "teman": [
+      "11",
+      "general"
+    ],
+    "timna": [
+      "11",
+      "general"
+    ],
+    "zefo": [
+      "11",
+      "general"
+    ],
+    "zera_r": [
+      "11",
+      "general"
+    ],
+    "chief_aholibama": [
+      "12",
+      "general"
+    ],
+    "chief_alva": [
+      "12",
+      "general"
+    ],
+    "chief_cenaz": [
+      "12",
+      "general"
+    ],
+    "chief_ela": [
+      "12",
+      "general"
+    ],
+    "chief_iram": [
+      "12",
+      "general"
+    ],
+    "chief_jetet": [
+      "12",
+      "general"
+    ],
+    "chief_magdiel": [
+      "12",
+      "general"
+    ],
+    "chief_mibzar": [
+      "12",
+      "general"
+    ],
+    "chief_pinon": [
+      "12",
+      "general"
+    ],
+    "chief_teman": [
+      "12",
+      "general"
+    ],
+    "chief_timna": [
+      "12",
+      "general"
+    ],
+    "core_chef": [
+      "12",
+      "general"
+    ],
+    "aser": [
+      "13",
+      "16",
+      "general"
+    ],
+    "benjamin": [
+      "13",
+      "17",
+      "general"
+    ],
+    "bilha": [
+      "13",
+      "general"
+    ],
+    "dan": [
+      "13",
+      "18",
+      "general"
+    ],
+    "dina": [
+      "13",
+      "general"
+    ],
+    "gad": [
+      "13",
+      "16",
+      "general"
+    ],
+    "isacar": [
+      "13",
+      "15",
+      "general"
+    ],
+    "jose": [
+      "13",
+      "17",
+      "general"
+    ],
+    "juda": [
+      "13",
+      "15",
+      "general"
+    ],
+    "levi": [
+      "13",
+      "14",
+      "general"
+    ],
+    "neftali": [
+      "13",
+      "18",
+      "general"
+    ],
+    "ruben": [
+      "13",
+      "14",
+      "general"
+    ],
+    "simeon": [
+      "13",
+      "14",
+      "general"
+    ],
+    "zabulon": [
+      "13",
+      "15",
+      "general"
+    ],
+    "zilpa": [
+      "13",
+      "general"
+    ],
+    "cananea": [
+      "14",
+      "general"
+    ],
+    "carmi": [
+      "14",
+      "general"
+    ],
+    "coat": [
+      "14",
+      "general"
+    ],
+    "falu": [
+      "14",
+      "general"
+    ],
+    "gerson": [
+      "14",
+      "general"
+    ],
+    "hanoc_r": [
+      "14",
+      "general"
+    ],
+    "hezron_r": [
+      "14",
+      "general"
+    ],
+    "jamin": [
+      "14",
+      "general"
+    ],
+    "jaquin": [
+      "14",
+      "general"
+    ],
+    "jemuel": [
+      "14",
+      "general"
+    ],
+    "merari": [
+      "14",
+      "general"
+    ],
+    "ohad": [
+      "14",
+      "general"
+    ],
+    "saul_s": [
+      "14",
+      "general"
+    ],
+    "zohar": [
+      "14",
+      "general"
+    ],
+    "elon_z": [
+      "15",
+      "general"
+    ],
+    "er": [
+      "15",
+      "general"
+    ],
+    "fares": [
+      "15",
+      "general"
+    ],
+    "fua": [
+      "15",
+      "general"
+    ],
+    "hamul": [
+      "15",
+      "general"
+    ],
+    "hezron_f": [
+      "15",
+      "general"
+    ],
+    "hija_sua": [
+      "15",
+      "general"
+    ],
+    "jahleel": [
+      "15",
+      "general"
+    ],
+    "job": [
+      "15",
+      "general"
+    ],
+    "onan": [
+      "15",
+      "general"
+    ],
+    "sela_j": [
+      "15",
+      "general"
+    ],
+    "sered": [
+      "15",
+      "general"
+    ],
+    "simron": [
+      "15",
+      "general"
+    ],
+    "tamar": [
+      "15",
+      "general"
+    ],
+    "tola": [
+      "15",
+      "general"
+    ],
+    "zara": [
+      "15",
+      "general"
+    ],
+    "areli": [
+      "16",
+      "general"
+    ],
+    "arodi": [
+      "16",
+      "general"
+    ],
+    "beria": [
+      "16",
+      "general"
+    ],
+    "eri": [
+      "16",
+      "general"
+    ],
+    "ezbon": [
+      "16",
+      "general"
+    ],
+    "hagui": [
+      "16",
+      "general"
+    ],
+    "heber_b": [
+      "16",
+      "general"
+    ],
+    "imna": [
+      "16",
+      "general"
+    ],
+    "isua": [
+      "16",
+      "general"
+    ],
+    "isui": [
+      "16",
+      "general"
+    ],
+    "malquiel": [
+      "16",
+      "general"
+    ],
+    "sera": [
+      "16",
+      "general"
+    ],
+    "suni": [
+      "16",
+      "general"
+    ],
+    "zifion": [
+      "16",
+      "general"
+    ],
+    "ard": [
+      "17",
+      "general"
+    ],
+    "asbel": [
+      "17",
+      "general"
+    ],
+    "asenat": [
+      "17",
+      "general"
+    ],
+    "bela_b": [
+      "17",
+      "general"
+    ],
+    "bequer": [
+      "17",
+      "general"
+    ],
+    "efrain": [
+      "17",
+      "general"
+    ],
+    "efrain_gens": [
+      "17",
+      "general"
+    ],
+    "ehi": [
+      "17",
+      "general"
+    ],
+    "gera": [
+      "17",
+      "general"
+    ],
+    "hupim": [
+      "17",
+      "general"
+    ],
+    "manases": [
+      "17",
+      "general"
+    ],
+    "maquir": [
+      "17",
+      "general"
+    ],
+    "maquir_sons": [
+      "17",
+      "general"
+    ],
+    "mupim": [
+      "17",
+      "general"
+    ],
+    "naaman": [
+      "17",
+      "general"
+    ],
+    "ros": [
+      "17",
+      "general"
+    ],
+    "guni": [
+      "18",
+      "general"
+    ],
+    "husim": [
+      "18",
+      "general"
+    ],
+    "jahzeel": [
+      "18",
+      "general"
+    ],
+    "jezer": [
+      "18",
+      "general"
+    ],
+    "silem": [
+      "18",
+      "general"
+    ]
   }
 }

@@ -20,11 +20,11 @@
         fetch(base+'assets/genealogias/enlaces.json').then(r=>{if(!r.ok)throw Error('enlaces');return r.json()}).then(map=>{
           const person=map.entry_to_person&&map.entry_to_person[slug];
           if(!person||!title.isConnected||!dialog.open)return;
-          const treeLink=document.createElement('a');
-          treeLink.className='genealogy-person-link';
-          treeLink.href=base+'apendices/genealogias/index.html#persona='+encodeURIComponent(person);
-          treeLink.textContent='Ver en el árbol genealógico ↗';
-          content.appendChild(treeLink);
+          const sheets=(map.person_to_sheets||{})[person]||['general'];
+          const group=document.createElement('div');group.className='genealogy-person-links';
+          const heading=document.createElement('strong');heading.textContent='Árboles genealógicos';group.appendChild(heading);
+          for(const section of sheets){const a=document.createElement('a');a.className='genealogy-person-link';a.href=base+'apendices/genealogias/index.html#persona='+encodeURIComponent(person)+'&lamina='+encodeURIComponent(section);a.textContent=section==='general'?'Árbol general ↗':'Lámina '+section+' ↗';group.appendChild(a)}
+          content.appendChild(group);
         }).catch(()=>{});
       }
     }catch{location.href=link.href}
@@ -121,7 +121,7 @@
    const person=params.get('persona'),section=params.get('lamina');
    let hash='';
    if(person&&/^[a-z0-9_-]+$/.test(person))hash='#persona='+encodeURIComponent(person);
-   else if(section&&/^(general|0[1-9]|1[0-8])$/.test(section))hash='#lamina='+encodeURIComponent(section);
+   else if(section&&/^(general|[0-9]{2})$/.test(section))hash='#lamina='+encodeURIComponent(section);
    const src=initial+hash;
    if(frame.getAttribute('src')!==src)frame.setAttribute('src',src);
    if(full)full.setAttribute('href',src);
@@ -158,20 +158,20 @@
    }
   }
   const id=match&&links[match[1]];
-  if(entry&&id&&!entry.querySelector('.genealogy-person-link')){
-   const link=document.createElement('a');
-   link.className='genealogy-person-link';
-   link.href=base+'apendices/genealogias/index.html#persona='+encodeURIComponent(id);
-   const lead=document.createElement('span');
-   lead.className='genealogy-person-lead';
-   lead.textContent='Ver en el árbol genealógico ↗';
-   const subtitle=document.createElement('small');
-   subtitle.textContent='Abrir su lámina y destacar al personaje';
-   link.append(lead,subtitle);
-   const h=Array.from(entry.querySelectorAll('h2')).find(x=>x.textContent.trim()==='Relaciones familiares');
-   const anchor=h&&h.nextElementSibling&&h.nextElementSibling.tagName==='P'?h.nextElementSibling:null;
-   if(anchor)anchor.after(link);
-   else entry.append(link);
+  if(entry&&id){
+    entry.querySelectorAll('.genealogy-person-link,.genealogy-person-links').forEach(a=>a.remove());
+    const sheets=(map.person_to_sheets||{})[id]||['general'];
+    const group=document.createElement('div');group.className='genealogy-person-links';
+    const heading=document.createElement('strong');heading.textContent='Árboles genealógicos';group.appendChild(heading);
+    for(const key of sheets){
+      const link=document.createElement('a');link.className='genealogy-person-link';
+      link.href=base+'apendices/genealogias/index.html#persona='+encodeURIComponent(id)+'&lamina='+encodeURIComponent(key);
+      link.textContent=key==='general'?'Árbol general ↗':'Lámina '+key+' ↗';
+      group.appendChild(link);
+    }
+    const h=Array.from(entry.querySelectorAll('h2')).find(x=>x.textContent.trim()==='Relaciones familiares');
+    const anchor=h&&h.nextElementSibling&&h.nextElementSibling.tagName==='P'?h.nextElementSibling:null;
+    if(anchor)anchor.after(group);else entry.append(group);
   }
  }).catch(()=>{ /* Se conservan las fichas si no está disponible el índice de vínculos. */ });
 })();
@@ -374,4 +374,25 @@
   addEventListener('hashchange',schedule);
   addEventListener('load',schedule);
   update();
+})();
+
+/* Enlaces contextuales familiares para fichas ya publicadas; sin fusionar homónimos. */
+(()=>{
+ const entry=document.querySelector('.entry .entry-body');
+ if(!entry||!location.pathname.includes('/apendices/onomastico/'))return;
+ const base=document.body.dataset.base||'';
+ fetch(base+'assets/genealogias/familiares.json').then(r=>r.json()).then(names=>{
+   const canon=Object.entries(names).filter(([name])=>name!=='Varona').sort((a,b)=>b[0].length-a[0].length);
+   const expr=new RegExp('(?<![\\p{L}\\p{N}])('+canon.map(([s])=>s.replace(/[.*+?^\\$\{\}()|[\\]\\\\]/g,'\\$&')).join('|')+')(?![\\p{L}\\p{N}])','gu');
+   const slug=location.pathname.match(/\/onomastico\/([^/]+)\//)?.[1];
+   const head=Array.from(entry.querySelectorAll('h2')).find(x=>x.textContent.trim()==='Relaciones familiares');
+   const p=head&&head.nextElementSibling;
+   if(!p||p.tagName!=='P')return;
+   const walker=document.createTreeWalker(p,NodeFilter.SHOW_TEXT);const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+   for(const node of nodes){if(node.parentElement?.closest('a'))continue;const txt=node.nodeValue;if(!txt)continue;expr.lastIndex=0;const matches=[...txt.matchAll(expr)];if(!matches.length)continue;
+     const frag=document.createDocumentFragment();let pos=0;
+     for(const m of matches){const n=m[0],target=names[n];frag.appendChild(document.createTextNode(txt.slice(pos,m.index)));if(target&&target!==slug){const a=document.createElement('a');a.href=base+'apendices/onomastico/'+target+'/index.html';a.textContent=n;frag.appendChild(a)}else frag.appendChild(document.createTextNode(n));pos=m.index+n.length}
+     frag.appendChild(document.createTextNode(txt.slice(pos)));node.replaceWith(frag);
+   }
+ }).catch(()=>{});
 })();

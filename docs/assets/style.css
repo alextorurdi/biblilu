@@ -364,3 +364,11 @@
 .v07-scene .v07-tribe-links{font:13px/1.85 Arial,sans-serif;color:var(--muted);padding:12px 15px;margin:22px 0 8px;border-left:3px solid #dad3ba;background:#f2f1e9;border-radius:0 8px 8px 0}
 .v07-scene .v07-tribe-links span{font-weight:600;margin-right:8px}
 .v07-scene .v07-tribe-links a{white-space:nowrap}
+
+/* Onomástico y árbol: varias apariciones de una misma persona */
+.entry-homonym-hint{font-size:.78em;color:#6b776d;flex:1}
+.genealogy-person-links{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:16px 0;padding:12px;border:1px solid #d9ddd3;border-radius:8px}
+.genealogy-person-links>strong{width:100%;font-size:13px;color:#496452}
+.genealogy-person-links .genealogy-person-link{display:inline-block;margin:0;padding:7px 10px;font-size:13px}
+.genealogy-search-options{display:flex;flex-direction:column;gap:4px;margin:6px 0 12px;padding-left:12px}
+.genealogy-search-item summary{font-size:14px;padding:8px 4px;cursor:pointer}
