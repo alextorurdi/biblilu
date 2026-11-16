@@ -26,9 +26,9 @@ Estado: el editor ha aprobado las cinco notas nuevas de Gn 24:2, 24:9, 24:55, 24
 
 > El verbo hebreo *lāśûaḥ*, traducido aquí como «meditar», aparece únicamente en este versículo y su significado exacto es discutido. Se ha interpretado como «meditar», «orar» o «pasear». La tradición judía ha relacionado este pasaje con la oración de la tarde, mientras que algunas traducciones modernas prefieren describir simplemente a Isaac caminando por el campo.
 
-- [ ] **Gn 24:60 — «Poseer la puerta de sus enemigos»: PROPUESTA PENDIENTE de aprobación.** El editor ha pedido estudiar la frase repetida en Gn 22:17 y sus posibles conexiones con el lenguaje de Jesús. El siguiente texto es una propuesta, no está aprobado:
+- [ ] **Gn 24:60 — «Poseer la puerta de sus enemigos»: APROBADA.** Incorporar en Génesis 24:60 el siguiente texto exacto, sin las comillas usadas para delimitar la cita del editor:
 
-> La bendición dirigida a Rebeca reproduce casi literalmente la promesa hecha por Dios a Abraham en Génesis 22:17. La «puerta» representaba el principal acceso y punto defensivo de una ciudad, de modo que «poseer la puerta de los enemigos» significaba conquistar o dominar sus ciudades. La Septuaginta, de hecho, traduce «ciudades de sus enemigos». Algunos estudiosos relacionan esta promesa con las «puertas del Hades» de Mateo 16:18, que Jesús declara que no prevalecerán contra su Iglesia, entendiendo la expresión como una victoria sobre el poder de la muerte. Sin embargo, no es seguro que exista una alusión directa, ya que la imagen de las puertas de la muerte también aparece en otros pasajes del Antiguo Testamento (Job 38:17; Isaías 38:10).
+> La bendición dirigida a Rebeca reproduce casi literalmente la promesa hecha por Dios a Abraham en Génesis 22:17. La «puerta» representaba el principal punto defensivo de una ciudad y también donde se realizaban trámites judiciales o administrativos (como la compra de Macpela), de modo que «poseer la puerta de los enemigos» significaba conquistar o dominar sus ciudades. Algunos estudiosos relacionan esta expresión con la mención de Jesús a las «puertas del Hades» de Mateo 16:18, entendiéndolo como una victoria sobre el poder de la muerte.
 
 **Documentación de apoyo:** 
 - Gé 22:17 y 24:60: fórmula casi idéntica (bendición de Abraham y despedida de Rebeca).
@@ -36,11 +36,19 @@ Estado: el editor ha aprobado las cinco notas nuevas de Gn 24:2, 24:9, 24:55, 24
 - Andrew E. Steinmann (2017), «Jesus and Possessing the Enemies’ Gate (Genesis 22:17–18; Genesis 24:60)», *Bibliotheca Sacra* 174:693, pp. 13 ss.: propone una alusión mesiánica en Mt 16:18. Es una interpretación discutida; la lectura colectiva de «descendencia» es habitual en la investigación de Génesis.
 - Paralelos de las puertas de la muerte: Job 38:17 e Isaías 38:10. Para otros dichos sobre puertas, Mt 7:13–14, Lc 13:24–25, Mt 25:10 y Jn 10:7–9 usan símbolos de acceso/entrada, no directamente el de conquista de ciudades.
 
+## Bibliografía aprobada para la revisión de Génesis 24
+
+- [x] **Lea Jacobsen (2014)**: «A Mother's Legal Authority over her Offspring's Marriage in the Ancient Near East and the Bible», *Jewish Law Association Studies* XXV, pp. 51–104.
+- [x] **Søren Lorenzen (2024)**: «Pursuing Partners: Traveling for Marital Partners in the Hebrew Bible», *Religions* 15(3), 324. DOI 10.3390/rel15030324.
+- [x] **Chisom S. Ugwuewo, Mary J. Obiorah y Damian O. Odo (2024)**: «Re-reading Genesis 24:55b–60 in the context of marriage by proxy in Awkunanaw, Enugu State», *Verbum et Ecclesia* 45(1), a3256. DOI 10.4102/ve.v45i1.3256.
+
+Los tres estudios han sido expresamente aprobados para su incorporación a la bibliografía general. La revisión editorial de «Familia» sigue abierta y no se publica la escena.
+
 ## Resto de la revisión
 
 - [ ] Estructura propuesta: mantener una sola escena de 67 versículos (Gn 24:1–67), aún pendiente de aprobación.
-- [ ] Formato de diálogos, pensamientos, enlaces a los apéndices, ilustraciones, mapa y bibliografía: pendientes de decisión.
+- [ ] Formato de diálogos, pensamientos, enlaces a los apéndices, ilustraciones y mapa: pendientes de decisión. Las tres referencias citadas en esta lista ya están aprobadas.
 - [ ] No realizar cambios en la página publicada ni en el texto canónico mientras la revisión editorial siga abierta.
 
 ---
-**Registro editorial:** las cinco notas nuevas de Gn 24:2, 24:9, 24:55, 24:58 y 24:63 están aprobadas; la propuesta de Gn 24:22/47 fue descartada. El resto de apartados editoriales continúa pendiente.
+**Registro editorial:** las seis notas nuevas de Gn 24:2, 24:9, 24:55, 24:58, 24:60 y 24:63 están aprobadas; la propuesta de Gn 24:22/47 fue descartada. La inclusión de Jacobsen (2014), Lorenzen (2024) y Ugwuewo, Obiorah y Odo (2024) en la bibliografía ha sido aprobada. El resto de apartados editoriales continúa pendiente.
