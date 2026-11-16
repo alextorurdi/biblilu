@@ -391,7 +391,13 @@
    const walker=document.createTreeWalker(p,NodeFilter.SHOW_TEXT);const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
    for(const node of nodes){if(node.parentElement?.closest('a'))continue;const txt=node.nodeValue;if(!txt)continue;expr.lastIndex=0;const matches=[...txt.matchAll(expr)];if(!matches.length)continue;
      const frag=document.createDocumentFragment();let pos=0;
-     for(const m of matches){const n=m[0],target=names[n];frag.appendChild(document.createTextNode(txt.slice(pos,m.index)));if(target&&target!==slug){const a=document.createElement('a');a.href=base+'apendices/onomastico/'+target+'/index.html';a.textContent=n;frag.appendChild(a)}else frag.appendChild(document.createTextNode(n));pos=m.index+n.length}
+     for(const m of matches){
+       const n=m[0];let target=names[n];
+       if(['Bela','Elón','Hadar','Jobab','Saúl','Súa'].includes(n)){
+         target=n==='Elón'&&/Elón heteo/.test(txt)?'elon-padre-de-basemat':
+           n==='Súa'&&/hija de Súa/.test(txt)?'sua-suegro-de-juda':null;
+       }
+       frag.appendChild(document.createTextNode(txt.slice(pos,m.index)));if(target&&target!==slug){const a=document.createElement('a');a.href=base+'apendices/onomastico/'+target+'/index.html';a.textContent=n;frag.appendChild(a)}else frag.appendChild(document.createTextNode(n));pos=m.index+n.length}
      frag.appendChild(document.createTextNode(txt.slice(pos)));node.replaceWith(frag);
    }
  }).catch(()=>{});
