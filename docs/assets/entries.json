@@ -2098,5 +2098,15 @@
     "title": "Silem",
     "category": "Onomástico",
     "body": "Relaciones familiares. Hijo de Neftalí. Hermano de Jahzeel, Guni y Jezer."
+  },
+  "lugares/mesopotamia": {
+    "title": "Mesopotamia (Aram-Naharaim)",
+    "category": "Lugares",
+    "body": "Región histórica del Medio Oriente asociada a las tierras situadas entre los ríos Tigris y Éufrates, donde surgieron importantes ciudades y reinos de la Antigüedad. Hechos bíblicos. En Génesis 24:10 se describe como el destino al que viajó el criado de Abraham para buscar esposa a Isaac, llegando a la [[lugares/ciudad-de-nacor|ciudad de Nacor]]. El nombre reaparece en otros pasajes del Antiguo Testamento, entre ellos Deuteronomio 23:4 y Jueces 3:8. Ubicación. Mesopotamia es una región histórica del Medio Oriente situada principalmente entre los ríos Tigris y Éufrates. En el Antiguo Testamento, la RVR1960 utiliza este nombre para traducir el hebreo Aram-Naharaim, referido generalmente a la región septentrional, en el entorno de [[lugares/haran|Harán]] y las cuencas del alto Éufrates y del Jabur, entre los actuales territorios de Turquía y Siria. En el Nuevo Testamento aparece el término griego Mesopotamía, de alcance geográfico más amplio, que incluye también las regiones meridionales donde tradicionalmente se localiza [[lugares/ur-de-los-caldeos|Ur de los caldeos]]. Etimología. «Mesopotamia» procede del griego y significa «entre ríos». El hebreo Aram-Naharaim puede traducirse como «Aram de los dos ríos», aunque existe debate sobre cuáles son exactamente los ríos aludidos. (Gn 24:10; Dt 23:4; Jue 3:8; 1 Cr 19:6)."
+  },
+  "lugares/ciudad-de-nacor": {
+    "title": "Ciudad de Nacor",
+    "category": "Lugares",
+    "body": "Localidad de la [[lugares/mesopotamia|Mesopotamia]] septentrional mencionada como destino del criado de Abraham durante la búsqueda de esposa para Isaac (Gn 24:10). Hechos bíblicos. El criado llega a la ciudad, encuentra a [[onomastico/rebeca|Rebeca]] junto al pozo y se presenta ante su familia. Rebeca es hija de [[onomastico/betuel|Betuel]] y nieta de [[onomastico/nacor-ii|Nacor, hermano de Abraham]] (Gn 22:20-23; 24:15, 24, 47). Ubicación. Su emplazamiento exacto es desconocido. Una interpretación tradicional la identifica con [[lugares/haran|Harán]], donde se había establecido parte de la familia de Abraham. Otros investigadores la relacionan con una localidad llamada Naḫur, atestiguada en documentos mesopotámicos del segundo milenio a.C. en la región del alto Jabur, al este de Harán. Ninguna de estas identificaciones puede considerarse definitiva. Etimología. La expresión hebrea ʿîr Nāḥôr significa «ciudad de Nacor», pero el texto no aclara si designa una ciudad con ese nombre o el asentamiento de la familia de Nacor; tampoco permite determinar si el nombre del lugar deriva del personaje bíblico. (Gn 24:10, 15-29, 47; 22:20-23)."
   }
 }
