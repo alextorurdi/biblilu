@@ -1,4 +1,12 @@
 # BIBLILU
+## Entrega v0.11 · Familia (Génesis 24)
+
+La escena 15 «Familia» ofrece los 67 versículos de Génesis 24, con nueve notas editoriales nuevas (145–153) y el texto original del manuscrito. Se mantuvo el diálogo del criado y la repetición de los sucesos ante los familiares de Rebeca. Los nombres divinos se marcan en rojo; los interlocutores, diálogos y pensamientos se distinguen mediante cursivas y guiones.
+
+Recursos originales: juramento del criado, mapa esquemático del viaje a Mesopotamia con emplazamiento incierto de la ciudad de Nacor, Rebeca en el pozo, partida de Rebeca y encuentro de Isaac y Rebeca. En escritorio las ilustraciones alternan en el lateral en los cortes 1, 2, 4 y 6; el árbol nuevo de la ascendencia de Isaac y Rebeca hasta Taré aparece en el centro del corte 4. En móvil se insertan la primera imagen en el corte 1, el mapa en el 2, el pozo en el 3, el árbol en el 4, la partida en el 5 y el encuentro al final.
+
+La genealogía se incorporó como **lámina 19** al apéndice general, con archivo `assets/genealogias/19.svg`. Se añadieron las fichas `lugares/mesopotamia` y `lugares/ciudad-de-nacor`, sus vínculos cruzados con otras entradas del apéndice y enlaces desde Génesis 24:10. Incluye acceso desde portada, índice principal y capítulo 24 del índice tradicional, así como navegación desde «Cumplimiento» y desplegables en las escenas anteriores. Las páginas `editorial/approved-pages/genesis/24/index.html` y `docs/genesis/24/index.html` son idénticas y están protegidas contra regeneraciones no editoriales.
+
 ## Entrega v0.10 · Cumplimiento (Gn 20–23)
 
 **Actualización 15-11-2026:** subidas las cuatro ilustraciones definitivas generadas para «Cumplimiento», optimizadas en WebP y enlazadas con control de caché en escritorio y móvil. El mapa y el árbol #07 permanecen como SVG.
