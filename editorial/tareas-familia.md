@@ -2,7 +2,7 @@
 
 **Escena 15 · Génesis 24:1–67 · Revisión editorial en curso.**
 
-Estado: el editor ha aprobado la primera nota nueva propuesta para Gn 24:2. El estudio del juramento de Gn 24:9 está en curso y **no hay todavía una redacción aprobada para esta segunda nota**. No implementar ni publicar la escena.
+Estado: el editor ha aprobado las nuevas notas de Gn 24:2 y Gn 24:9 con su redacción definitiva. Las demás decisiones editoriales están pendientes. No implementar ni publicar la escena.
 
 ## Notas nuevas
 
@@ -10,12 +10,10 @@ Estado: el editor ha aprobado la primera nota nueva propuesta para Gn 24:2. El e
 
 > El texto no identifica por nombre al criado de Abraham, aunque lo presenta como el principal administrador de su casa. Tradicionalmente se le ha identificado con Eliezer de Damasco, mencionado en Génesis 15:2. Sin embargo, la narración no confirma expresamente que se trate de la misma persona.
 
-- [ ] **Génesis 24:9 — Juramento bajo el muslo: PENDIENTE de decisión.** El editor ha solicitado desarrollar las interpretaciones basadas en los estudios académicos más recientes, no ha aprobado el texto propuesto anteriormente. Mantener las variantes (descendencia/fertilidad, circuncisión/pacto, sumisión/autoridad) diferenciadas y no afirmar como hecho el contacto físico con genitales o la invocación de antepasados.
-  - Tamara Joy Knudson (2023), *She Is More to You Than Seven Sons*, Universidad de St Andrews: sintetiza el debate y reconoce la relación simbólica con la promesa a los descendientes, pero cuestiona la hipótesis sobre espíritus ancestrales.
-  - Scott B. Noegel (2018), «Maleness, Memory, and the Matter of Dream Divination in the Hebrew Bible»: interpreta el gesto desde la reproducción, la memoria del pacto y posibles sanciones simbólicas ligadas a la esterilidad.
-  - Åke Viberg, *Symbols of Law* (obra de **1992**, reimpresa en 2021): defiende que se coloca la mano literalmente bajo el muslo y que el gesto expresa sometimiento a la autoridad en un juramento jurídicamente vinculante, sin contacto genital necesario.
-  - Meir Malul (1987), «Touching the Sexual Organs as an Oath Ceremony in an Akkadian Letter»: comparación textual con una carta babilónica de Kisurra, analogía limitada, no prueba de idéntica ejecución en Génesis.
-  - Rashi e Ibn Ezra ofrecen explicaciones medievales diferentes, respectivamente circuncisión como objeto sagrado y gesto de subordinación.
+- [ ] **Génesis 24:9 — Juramento bajo el muslo: APROBADA.** Incorporar esta redacción exacta, conservando las comillas interiores y la puntuación:
+
+> La colocación de la mano bajo el muslo era un gesto solemne vinculado al juramento, mencionado también en Génesis 47:29. Su significado exacto es discutido. Una interpretación considera que expresaba sumisión a la autoridad. Otras utilizan el término "muslo" como eufemismo de una parte más céntrica de la anatomía y la interpretación se relaciona con la circuncisión, señal del pacto entre Dios y Abraham, o con un juramento sobre la descendencia. Existían rituales parecidos en otras sociedades contemporáneas.
+
 - [ ] Otras propuestas iniciales de nota (Gn 24:22/47, 24:58 y 24:63): **pendientes de decisión**. Ni aprobadas ni descartadas.
 
 ## Resto de la revisión
@@ -25,4 +23,4 @@ Estado: el editor ha aprobado la primera nota nueva propuesta para Gn 24:2. El e
 - [ ] No realizar cambios en la página publicada ni en el texto canónico mientras la revisión editorial siga abierta.
 
 ---
-**Registro editorial:** únicamente está aprobada la nota de Gn 24:2. La nota de Gn 24:9 continúa abierta a revisión e investigación.
+**Registro editorial:** están aprobadas las notas de Gn 24:2 y Gn 24:9; las demás propuestas siguen pendientes de decisión.
