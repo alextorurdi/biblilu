@@ -2,7 +2,7 @@
 
 **Escena 15 · Génesis 24:1–67 · Revisión editorial en curso.**
 
-Estado: el editor ha aprobado las cinco notas nuevas de Gn 24:2, 24:9, 24:55, 24:58 y 24:63 con su redacción definitiva. Queda descartada la propuesta de Gn 24:22/47. Los demás apartados editoriales están pendientes. No implementar ni publicar la escena.
+Estado: el editor ha aprobado ocho notas nuevas de Gn 24:2, 24:9, 24:55, 24:58, 24:60, 24:62, 24:63 y 24:65 con su redacción definitiva. Queda descartada la propuesta de Gn 24:22/47. Los demás apartados editoriales están pendientes. No implementar ni publicar la escena.
 
 ## Notas nuevas
 
@@ -42,13 +42,21 @@ Estado: el editor ha aprobado las cinco notas nuevas de Gn 24:2, 24:9, 24:55, 24
 
   **Referencia cruzada y verificación:** Gn 16:14 (Agar da nombre al pozo), Gn 24:62 (Isaac viene del mismo pozo) y Gn 25:11 (Isaac habita junto a él). Véase la ficha ya existente `lugares/pozo-del-viviente-que-me-ve` en el apéndice de Lugares, que identifica las tres citas. Fuentes: [RVR1960: Gn 16:14 y 25:11](https://www.biblegateway.com/passage/?search=G%C3%A9nesis+16%3A14%2CG%C3%A9nesis+25%3A11&version=RVR1960) y [RVR1960: Gn 24:62](https://www.biblegateway.com/passage/?search=G%C3%A9nesis+24%3A62&version=RVR1960). No añadir una nota al versículo 24:65. En el texto bíblico, enlazar el nombre del pozo a la ficha existente.
 
+- [ ] **Gn 24:65 — El velo de Rebeca: APROBADA.** Insertar exactamente esta nota, sustituyendo «Oriente Próximo» por «Medio Oriente» conforme a la decisión del editor:
+
+> La palabra hebrea *ṣāʿîf*, traducida como «velo», designaba una prenda que podía cubrir la cabeza y posiblemente el rostro. Aparece también en Génesis 38:14 y 38:19, cuando Tamar la utiliza para ocultar su identidad. Aunque las prendas para cubrir la cabeza eran conocidas en el Medio Oriente, no hay pruebas de que las mujeres hebreas llevasen habitualmente el rostro cubierto. El hecho de que Rebeca se cubra únicamente al reconocer a Isaac sugiere que se trataba de un gesto relacionado con las costumbres matrimoniales o de modestia ante su futuro esposo.
+
+**Fuente académica:** Biga, Maria Giovanna (2021). «The Veil in Ancient Near Eastern Religions and Cultures: Some Remarks». En Headscarf and Veiling: Glimpses from Sumer to Islam, ed. Roswitha Del Fabbro, Frederick Mario Fales y Hannes D. Galter. Edizioni Ca’ Foscari. DOI: 10.30687/978-88-6969-521-6/005.
+
 ## Bibliografía aprobada para la revisión de Génesis 24
 
 - [x] **Lea Jacobsen (2014)**: «A Mother's Legal Authority over her Offspring's Marriage in the Ancient Near East and the Bible», *Jewish Law Association Studies* XXV, pp. 51–104.
 - [x] **Søren Lorenzen (2024)**: «Pursuing Partners: Traveling for Marital Partners in the Hebrew Bible», *Religions* 15(3), 324. DOI 10.3390/rel15030324.
 - [x] **Chisom S. Ugwuewo, Mary J. Obiorah y Damian O. Odo (2024)**: «Re-reading Genesis 24:55b–60 in the context of marriage by proxy in Awkunanaw, Enugu State», *Verbum et Ecclesia* 45(1), a3256. DOI 10.4102/ve.v45i1.3256.
 
-Los tres estudios han sido expresamente aprobados para su incorporación a la bibliografía general. La revisión editorial de «Familia» sigue abierta y no se publica la escena.
+- [x] **Maria Giovanna Biga (2021)**: «The Veil in Ancient Near Eastern Religions and Cultures: Some Remarks». DOI 10.30687/978-88-6969-521-6/005. Ediciones Ca’ Foscari. Referencia aprobada para Gn 24:65.
+
+Los cuatro estudios han sido expresamente aprobados para su incorporación a la bibliografía general. La revisión editorial de «Familia» sigue abierta y no se publica la escena.
 
 ## Resto de la revisión
 
@@ -57,4 +65,4 @@ Los tres estudios han sido expresamente aprobados para su incorporación a la bi
 - [ ] No realizar cambios en la página publicada ni en el texto canónico mientras la revisión editorial siga abierta.
 
 ---
-**Registro editorial:** las siete notas nuevas de Gn 24:2, 24:9, 24:55, 24:58, 24:60, 24:62 y 24:63 están aprobadas; la propuesta de Gn 24:22/47 fue descartada. La inclusión de Jacobsen (2014), Lorenzen (2024) y Ugwuewo, Obiorah y Odo (2024) en la bibliografía ha sido aprobada. El resto de apartados editoriales continúa pendiente.
+**Registro editorial:** las ocho notas nuevas de Gn 24:2, 24:9, 24:55, 24:58, 24:60, 24:62, 24:63 y 24:65 están aprobadas; la propuesta de Gn 24:22/47 fue descartada. La inclusión de Jacobsen (2014), Lorenzen (2024), Ugwuewo, Obiorah y Odo (2024) y Biga (2021) en la bibliografía ha sido aprobada. El resto de apartados editoriales continúa pendiente.
