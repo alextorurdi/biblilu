@@ -2,7 +2,7 @@
 
 **Escena 15 · Génesis 24:1–67 · Revisión editorial en curso.**
 
-Estado: el editor ha aprobado ocho notas nuevas de Gn 24:2, 24:9, 24:55, 24:58, 24:60, 24:62, 24:63 y 24:65 con su redacción definitiva. Queda descartada la propuesta de Gn 24:22/47. Los demás apartados editoriales están pendientes. No implementar ni publicar la escena.
+Estado: el editor ha aprobado nueve notas nuevas de Gn 24:2, 24:9, 24:53, 24:55, 24:58, 24:60, 24:62, 24:63 y 24:65 con su redacción definitiva. Queda descartada la propuesta de Gn 24:22/47. Los demás apartados editoriales están pendientes. No implementar ni publicar la escena.
 
 ## Notas nuevas
 
@@ -48,6 +48,12 @@ Estado: el editor ha aprobado ocho notas nuevas de Gn 24:2, 24:9, 24:55, 24:58, 
 
 **Fuente académica:** Biga, Maria Giovanna (2021). «The Veil in Ancient Near Eastern Religions and Cultures: Some Remarks». En Headscarf and Veiling: Glimpses from Sumer to Islam, ed. Roswitha Del Fabbro, Frederick Mario Fales y Hannes D. Galter. Edizioni Ca’ Foscari. DOI: 10.30687/978-88-6969-521-6/005.
 
+- [ ] **Gn 24:53 — Regalos matrimoniales: APROBADA.** Insertar esta nueva nota, diferenciándola expresamente de la nota descartada sobre el pendiente (Gn 24:22/47). Conservar el texto aprobado sin cambios:
+
+> Los regalos entregados por el criado de Abraham podrían corresponder a una costumbre matrimonial habitual en el antiguo Israel y otras sociedades del Medio Oriente. Además de la dote, que aportaba la familia de la novia y podía constituir su patrimonio personal, existía el *mōhar*, una prestación que el novio o su familia entregaban a la familia de la novia para formalizar el compromiso matrimonial. Algunos investigadores interpretan los regalos a Labán y a la madre de Rebeca como esta prestación, mientras que las joyas y vestidos entregados directamente a Rebeca podrían haber formado parte de su patrimonio matrimonial. Sin embargo, el texto no identifica expresamente estos regalos con ninguna institución jurídica concreta.
+
+**Referencias:** Lemos, T. M. (2010). Marriage Gifts and Social Change in Ancient Palestine: 1200 BCE to 200 CE. Cambridge University Press. DOI: 10.1017/CBO9780511750564. Complementar con el estudio de Lea Jacobsen (2014), ya registrado en la bibliografía. No afirmar que el propio relato emplea la palabra *mōhar* para estos regalos.
+
 ## Bibliografía aprobada para la revisión de Génesis 24
 
 - [x] **Lea Jacobsen (2014)**: «A Mother's Legal Authority over her Offspring's Marriage in the Ancient Near East and the Bible», *Jewish Law Association Studies* XXV, pp. 51–104.
@@ -55,8 +61,9 @@ Estado: el editor ha aprobado ocho notas nuevas de Gn 24:2, 24:9, 24:55, 24:58, 
 - [x] **Chisom S. Ugwuewo, Mary J. Obiorah y Damian O. Odo (2024)**: «Re-reading Genesis 24:55b–60 in the context of marriage by proxy in Awkunanaw, Enugu State», *Verbum et Ecclesia* 45(1), a3256. DOI 10.4102/ve.v45i1.3256.
 
 - [x] **Maria Giovanna Biga (2021)**: «The Veil in Ancient Near Eastern Religions and Cultures: Some Remarks». DOI 10.30687/978-88-6969-521-6/005. Ediciones Ca’ Foscari. Referencia aprobada para Gn 24:65.
+- [x] **T. M. Lemos (2010)**: *Marriage Gifts and Social Change in Ancient Palestine: 1200 BCE to 200 CE*. Cambridge University Press. DOI: 10.1017/CBO9780511750564. Referencia aprobada para Gn 24:53.
 
-Los cuatro estudios han sido expresamente aprobados para su incorporación a la bibliografía general. La revisión editorial de «Familia» sigue abierta y no se publica la escena.
+Los cinco estudios han sido expresamente aprobados para su incorporación a la bibliografía general. La revisión editorial de «Familia» sigue abierta y no se publica la escena.
 
 ## Resto de la revisión
 
@@ -65,4 +72,4 @@ Los cuatro estudios han sido expresamente aprobados para su incorporación a la 
 - [ ] No realizar cambios en la página publicada ni en el texto canónico mientras la revisión editorial siga abierta.
 
 ---
-**Registro editorial:** las ocho notas nuevas de Gn 24:2, 24:9, 24:55, 24:58, 24:60, 24:62, 24:63 y 24:65 están aprobadas; la propuesta de Gn 24:22/47 fue descartada. La inclusión de Jacobsen (2014), Lorenzen (2024), Ugwuewo, Obiorah y Odo (2024) y Biga (2021) en la bibliografía ha sido aprobada. El resto de apartados editoriales continúa pendiente.
+**Registro editorial:** las nueve notas nuevas de Gn 24:2, 24:9, 24:53, 24:55, 24:58, 24:60, 24:62, 24:63 y 24:65 están aprobadas; la propuesta de Gn 24:22/47 fue descartada. La inclusión de Jacobsen (2014), Lorenzen (2024), Ugwuewo, Obiorah y Odo (2024) y Biga (2021) y Lemos (2010) en la bibliografía ha sido aprobada. El resto de apartados editoriales continúa pendiente.
