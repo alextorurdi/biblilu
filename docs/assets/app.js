@@ -383,7 +383,7 @@
  const base=document.body.dataset.base||'';
  fetch(base+'assets/genealogias/familiares.json').then(r=>r.json()).then(names=>{
    const canon=Object.entries(names).filter(([name])=>name!=='Varona').sort((a,b)=>b[0].length-a[0].length);
-   const expr=new RegExp('(?<![\\p{L}\\p{N}])('+canon.map(([s])=>s.replace(/[.*+?^\\$\{\}()|[\\]\\\\]/g,'\\$&')).join('|')+')(?![\\p{L}\\p{N}])','gu');
+   const expr=new RegExp('(?<![\\p{L}\\p{N}])('+canon.map(([s])=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')+')(?![\\p{L}\\p{N}])','gu');
    const slug=location.pathname.match(/\/onomastico\/([^/]+)\//)?.[1];
    const head=Array.from(entry.querySelectorAll('h2')).find(x=>x.textContent.trim()==='Relaciones familiares');
    const p=head&&head.nextElementSibling;
