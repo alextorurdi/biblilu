@@ -1,0 +1,30 @@
+/* Familia · Escena 15 · Génesis 24 · 4 ilustraciones, mapa y genealogía. */
+.familia-scene .familia-side{min-width:0}
+.familia-scene .familia-panel{margin:0}
+.familia-scene .familia-panel[hidden]{display:none!important}
+.familia-scene .familia-panel img{display:block;width:100%;height:auto;max-height:calc(100vh - 150px);object-fit:contain;border-radius:12px;background:#f3eee4;box-shadow:0 3px 14px #1d2c1b1d}
+.familia-scene .familia-panel figcaption,.familia-scene .familia-mobile-art figcaption,.familia-scene .familia-genealogy figcaption{font:13px/1.6 Arial,sans-serif;color:var(--muted);padding:10px 4px 4px}
+.familia-scene .familia-mobile-art{display:none}
+.familia-scene .familia-mobile-art img{display:block;width:100%;height:auto;border-radius:12px;background:#f5eee5}
+.familia-scene .familia-break{clear:both;height:12px;border-bottom:1px solid var(--line);margin:24px 0 31px;scroll-margin-top:80px}
+.familia-scene .familia-speech,.familia-scene .familia-thought{font-style:italic}
+.familia-scene .familia-dialogue-break{display:block;margin-top:8px}
+.familia-scene .familia-genealogy{display:block;max-width:100%;margin:27px 0 35px;padding:9px 0 16px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.familia-scene .familia-genealogy img{display:block;width:100%;height:auto;background:#f7f5ef;border-radius:9px}
+.familia-scene .familia-genealogy a{color:var(--green);text-decoration:underline}
+.familia-scene .familia-bibref{font:12px/1.6 Arial,sans-serif;margin:9px 0 0;color:var(--muted)}
+.familia-scene .familia-bibref a{color:inherit;text-decoration:underline}
+.familia-scene.hide-images .familia-mobile-art,.familia-scene.hide-images .familia-genealogy{display:none!important}
+@media(max-width:700px){
+ .familia-scene .familia-mobile-art{display:block;max-width:540px;margin:24px auto 42px}
+ .familia-scene .familia-mobile-art.familia-mobile-map{max-width:560px}
+ .familia-scene .familia-break{height:10px;margin:15px 0 22px}
+ .familia-scene .familia-genealogy{overflow-x:auto;width:100%;padding:12px 0 14px}
+ .familia-scene .familia-genealogy img{width:850px;max-width:none}
+ .familia-scene .familia-mobile-art figcaption{font-size:12px}
+}
+@media print{
+ .familia-scene .familia-side{display:none!important}
+ .familia-scene .familia-mobile-art{display:block!important;max-width:440px;break-inside:avoid}
+ .familia-scene .familia-genealogy img{width:100%;max-width:100%}
+}
