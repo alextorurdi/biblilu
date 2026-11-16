@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1220 830" role="group" aria-label="Ascendencia de Isaac y Rebeca hasta Taré">
+<title>Genealogía 19 · Isaac y Rebeca, ascendencia desde Taré</title>
+<desc>Taré es padre de Abraham, Nacor y Harán. Abraham y Sara son padres de Isaac. Harán es padre de Milca, casada con Nacor; de su descendencia nace Betuel y de él Rebeca. La filiación de Sara respecto de Taré se representa como referencia discutida.</desc>
+<rect width="1220" height="830" fill="#f7f5ef" rx="15"/>
+<text x="610" y="47" text-anchor="middle" font-family="Georgia,serif" font-size="33" font-weight="bold" fill="#344d40">De Taré a Isaac y Rebeca</text>
+<text x="610" y="78" text-anchor="middle" font-family="Arial" font-size="19" fill="#68776a">Génesis 11:26–29 · 20:12 · 21:3 · 22:20–23 · 24:15</text>
+<g class="edges" stroke="#8b9888" fill="none" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M610 167V199H293V227"/><path d="M610 199H610V227"/><path d="M610 199H937V227"/>
+<path d="M937 291V373" />
+<path d="M293 291V376H210"/><path d="M122 406H210" stroke="#a2a08a" stroke-dasharray="9 7"/>
+<path d="M210 376V520H300V582"/>
+<path d="M610 291V346H740"/><path d="M937 436V456H740V346"/>
+<path d="M740 456V520H733V582"/>
+<path d="M733 648V697"/>
+</g>
+<g fill="#d2b879" stroke="#897b61" stroke-width="2.2"><path d="M210 376l12 12-12 12-12-12Z"/><path d="M740 456l12 12-12 12-12-12Z"/></g>
+<g class="node" id="19-node-tare" data-person="tare" role="button"><title>Taré</title><rect x="519" y="104" width="182" height="64" rx="14" fill="#f8e8e2" stroke="#a33b35" stroke-width="2.6"/><text x="610" y="137" text-anchor="middle" dominant-baseline="middle" font-family="Georgia,serif" font-size="25" font-weight="bold" fill="#a33b35">Taré</text></g>
+<g class="node" id="19-node-abraham" data-person="abraham" role="button"><title>Abraham</title><rect x="202" y="227" width="182" height="64" rx="14" fill="#f8e8e2" stroke="#a33b35" stroke-width="2.6"/><text x="293" y="260" text-anchor="middle" dominant-baseline="middle" font-family="Georgia,serif" font-size="25" font-weight="bold" fill="#a33b35">Abraham</text></g>
+<g class="node" id="19-node-nacor2" data-person="nacor2" role="button"><title>Nacor</title><rect x="519" y="227" width="182" height="64" rx="14" fill="#f8e8e2" stroke="#a33b35" stroke-width="2.6"/><text x="610" y="260" text-anchor="middle" dominant-baseline="middle" font-family="Georgia,serif" font-size="25" font-weight="bold" fill="#a33b35">Nacor</text></g>
+<g class="node" id="19-node-haran" data-person="haran" role="button"><title>Harán</title><rect x="846" y="227" width="182" height="64" rx="14" fill="#f8e8e2" stroke="#a33b35" stroke-width="2.6"/><text x="937" y="260" text-anchor="middle" dominant-baseline="middle" font-family="Georgia,serif" font-size="25" font-weight="bold" fill="#a33b35">Harán</text></g>
+<g class="node" id="19-node-sara" data-person="sara" role="button"><title>Sara</title><rect x="31" y="374" width="182" height="64" rx="14" fill="#f4e8f2" stroke="#8d568c" stroke-width="2.6"/><text x="122" y="407" text-anchor="middle" dominant-baseline="middle" font-family="Georgia,serif" font-size="25" font-weight="bold" fill="#8d568c">Sara</text><text x="122" y="458" text-anchor="middle" fill="#6c7065" font-family="Arial" font-size="14">madre de Isaac</text></g>
+<g class="node" id="19-node-milca" data-person="milca" role="button"><title>Milca</title><rect x="846" y="374" width="182" height="64" rx="14" fill="#f4e8f2" stroke="#8d568c" stroke-width="2.6"/><text x="937" y="407" text-anchor="middle" dominant-baseline="middle" font-family="Georgia,serif" font-size="25" font-weight="bold" fill="#8d568c">Milca</text><text x="937" y="458" text-anchor="middle" fill="#6c7065" font-family="Arial" font-size="14">hija de Harán</text></g>
+<g class="node" id="19-node-betuel" data-person="betuel" role="button"><title>Betuel</title><rect x="642" y="584" width="182" height="64" rx="14" fill="#f8e8e2" stroke="#a33b35" stroke-width="2.6"/><text x="733" y="617" text-anchor="middle" dominant-baseline="middle" font-family="Georgia,serif" font-size="25" font-weight="bold" fill="#a33b35">Betuel</text></g>
+<g class="node" id="19-node-isaac" data-person="isaac" role="button"><title>Isaac</title><rect x="209" y="584" width="182" height="64" rx="14" fill="#f8e8e2" stroke="#a33b35" stroke-width="2.6"/><text x="300" y="617" text-anchor="middle" dominant-baseline="middle" font-family="Georgia,serif" font-size="25" font-weight="bold" fill="#a33b35">Isaac</text></g>
+<g class="node" id="19-node-rebeca" data-person="rebeca" role="button"><title>Rebeca</title><rect x="642" y="703" width="182" height="64" rx="14" fill="#f4e8f2" stroke="#8d568c" stroke-width="2.6"/><text x="733" y="736" text-anchor="middle" dominant-baseline="middle" font-family="Georgia,serif" font-size="25" font-weight="bold" fill="#8d568c">Rebeca</text></g>
+<g font-family="Arial" font-size="18" fill="#54665a">
+<text x="394" y="349">Abraham + Sara</text><text x="751" y="339">Nacor + Milca</text>
+<text x="110" y="719" font-size="17">— Filiación según Génesis</text>
+<text x="110" y="748" font-size="16">◇ Matrimonio / unión</text>
+<text x="110" y="777" font-size="16">Sara: vínculo con Taré según Gn 20:12,</text><text x="110" y="799" font-size="16">no trazado como filiación independiente</text>
+</g>
+<path d="M610 168V175" stroke="#8b9888" stroke-width="4"/><rect x="8" y="8" width="1204" height="814" rx="13" stroke="#d6d1c3" stroke-width="1.8" fill="none"/></svg>
