@@ -12,8 +12,8 @@
     "category": "onomastico",
     "name": "Abida",
     "title": "Abida",
-    "text": "Abida. Relaciones familiares. Hijo de Madián. Hermano de Efa, Efer, Hanoc (hijo de Madián) y Elda.",
-    "body": "Relaciones familiares. Hijo de Madián. Hermano de Efa, Efer, Hanoc (hijo de Madián) y Elda.",
+    "text": "Abida. Relaciones familiares. Hijo de Madián. Hermano de Efa, Efer, Hanoc (hijo de Madián) y Elda. Etimología. Su nombre hebreo se interpreta como «mi padre ha conocido».",
+    "body": "Relaciones familiares. Hijo de Madián. Hermano de Efa, Efer, Hanoc (hijo de Madián) y Elda. Etimología. Su nombre hebreo se interpreta como «mi padre ha conocido».",
     "mentions": [
       "Gn 25:4"
     ]
@@ -23,8 +23,11 @@
     "category": "onomastico",
     "name": "Abimael",
     "title": "Abimael",
-    "text": "Abimael. Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahnitas). Etimología. En hebreo, Abimael significa \"Mi padre es Dios\" o \"Dios es mi padre\". (Gn 10:26-29; 1 Cr 1:22)",
-    "body": "Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahnitas). Etimología. En hebreo, Abimael significa \"Mi padre es Dios\" o \"Dios es mi padre\". (Gn 10:26-29; 1 Cr 1:22)"
+    "text": "Abimael. Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahtanitas). Etimología. En hebreo, Abimael significa \"Mi padre es Dios\" o \"Dios es mi padre\". (Gn 10:26-29; 1 Cr 1:22)",
+    "body": "Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahtanitas). Etimología. En hebreo, Abimael significa \"Mi padre es Dios\" o \"Dios es mi padre\". (Gn 10:26-29; 1 Cr 1:22)",
+    "mentions": [
+      "Gn 10:26-29"
+    ]
   },
   {
     "id": "onomastico/abimelec",
@@ -55,8 +58,8 @@
     "category": "onomastico",
     "name": "Ada (mujer de Esaú)",
     "title": "Ada (mujer de Esaú)",
-    "text": "Ada (mujer de Esaú). Relaciones familiares. Madre de Elifaz con Esaú (Edom). Hija de Elón heteo; su posible identificación con Basemat, hija de Elón, no está demostrada.",
-    "body": "Relaciones familiares. Madre de Elifaz con Esaú (Edom). Hija de Elón heteo; su posible identificación con Basemat, hija de Elón, no está demostrada.",
+    "text": "Ada (mujer de Esaú). Relaciones familiares. Madre de Elifaz con Esaú (Edom). Hija de Elón heteo; su posible identificación con Basemat, hija de Elón, no está demostrada. Etimología. El nombre se relaciona con «adorno» u «ornamento».",
+    "body": "Relaciones familiares. Madre de Elifaz con Esaú (Edom). Hija de Elón heteo; su posible identificación con Basemat, hija de Elón, no está demostrada. Etimología. El nombre se relaciona con «adorno» u «ornamento».",
     "mentions": [
       "Gn 36:2",
       "Gn 36:4"
@@ -67,8 +70,14 @@
     "category": "onomastico",
     "name": "Ada (mujer de Lamec)",
     "title": "Ada (mujer de Lamec)",
-    "text": "Ada (mujer de Lamec). Mujer de Lamec (hijo de Metusael), descendiente de Caín. Relaciones familiares. Eposa de Lamec (hijo de Metusael) (Gn 4:19), dio a luz a Jabal (Gn 4:20) y Jubal (Gn 4:21). Etimología. Su nombre significa “ornamento” [Hess, 2007]. (Gn 4:19-21)",
-    "body": "Mujer de Lamec (hijo de Metusael), descendiente de Caín. Relaciones familiares. Eposa de Lamec (hijo de Metusael) (Gn 4:19), dio a luz a Jabal (Gn 4:20) y Jubal (Gn 4:21). Etimología. Su nombre significa “ornamento” [Hess, 2007]. (Gn 4:19-21)"
+    "text": "Ada (mujer de Lamec). Mujer de Lamec (hijo de Metusael), descendiente de Caín. Relaciones familiares. Esposa de Lamec (hijo de Metusael) (Gn 4:19), dio a luz a Jabal (Gn 4:20) y Jubal (Gn 4:21). Etimología. Su nombre significa “ornamento” [Hess, 2007]. (Gn 4:19-21)",
+    "body": "Mujer de Lamec (hijo de Metusael), descendiente de Caín. Relaciones familiares. Esposa de Lamec (hijo de Metusael) (Gn 4:19), dio a luz a Jabal (Gn 4:20) y Jubal (Gn 4:21). Etimología. Su nombre significa “ornamento” [Hess, 2007]. (Gn 4:19-21)",
+    "mentions": [
+      "Gn 4:19",
+      "Gn 4:20",
+      "Gn 4:21",
+      "Gn 4:19-21"
+    ]
   },
   {
     "id": "onomastico/adan",
@@ -94,8 +103,11 @@
     "category": "onomastico",
     "name": "Adoram",
     "title": "Adoram",
-    "text": "Adoram. Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahnitas). Etimología. En hebreo, Adoram podría derivar de la raíz adar, que significa \"noble\" o \"excelente\". También puede estar relacionado con ador que significa \"grupo\" o \"colectivo\". (Gn 10:26-29; 1 Cr 1:21)",
-    "body": "Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahnitas). Etimología. En hebreo, Adoram podría derivar de la raíz adar, que significa \"noble\" o \"excelente\". También puede estar relacionado con ador que significa \"grupo\" o \"colectivo\". (Gn 10:26-29; 1 Cr 1:21)"
+    "text": "Adoram. Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahtanitas). Etimología. En hebreo, Adoram podría derivar de la raíz adar, que significa \"noble\" o \"excelente\". También puede estar relacionado con ador que significa \"grupo\" o \"colectivo\". (Gn 10:26-29; 1 Cr 1:21)",
+    "body": "Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahtanitas). Etimología. En hebreo, Adoram podría derivar de la raíz adar, que significa \"noble\" o \"excelente\". También puede estar relacionado con ador que significa \"grupo\" o \"colectivo\". (Gn 10:26-29; 1 Cr 1:21)",
+    "mentions": [
+      "Gn 10:26-29"
+    ]
   },
   {
     "id": "onomastico/agar",
@@ -110,8 +122,8 @@
     "category": "onomastico",
     "name": "Aholibama (mujer de Esaú)",
     "title": "Aholibama (mujer de Esaú)",
-    "text": "Aholibama (mujer de Esaú). Relaciones familiares. Madre de Jeús, Jaalam y Coré (hijo de Esaú) con Esaú (Edom). Hija de Aná y descendiente de Zibeón; no se identifica automáticamente con Judit.",
-    "body": "Relaciones familiares. Madre de Jeús, Jaalam y Coré (hijo de Esaú) con Esaú (Edom). Hija de Aná y descendiente de Zibeón; no se identifica automáticamente con Judit.",
+    "text": "Aholibama (mujer de Esaú). Relaciones familiares. Madre de Jeús, Jaalam y Coré (hijo de Esaú) con Esaú (Edom). Hija de Aná y descendiente de Zibeón; no se identifica automáticamente con Judit. Etimología. Su nombre puede entenderse como «tienda de la altura».",
+    "body": "Relaciones familiares. Madre de Jeús, Jaalam y Coré (hijo de Esaú) con Esaú (Edom). Hija de Aná y descendiente de Zibeón; no se identifica automáticamente con Judit. Etimología. Su nombre puede entenderse como «tienda de la altura».",
     "mentions": [
       "Gn 36:2,14",
       "Gn 36:5"
@@ -122,8 +134,11 @@
     "category": "onomastico",
     "name": "Almodad",
     "title": "Almodad",
-    "text": "Almodad. Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahnitas). Etimología. Almodad podría significar \"Dios es amado\" o \"Dios mide\". (Gn 10:26-29; 1 Cr 1:20)",
-    "body": "Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahnitas). Etimología. Almodad podría significar \"Dios es amado\" o \"Dios mide\". (Gn 10:26-29; 1 Cr 1:20)"
+    "text": "Almodad. Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahtanitas). Etimología. Almodad podría significar \"Dios es amado\" o \"Dios mide\". (Gn 10:26-29; 1 Cr 1:20)",
+    "body": "Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahtanitas). Etimología. Almodad podría significar \"Dios es amado\" o \"Dios mide\". (Gn 10:26-29; 1 Cr 1:20)",
+    "mentions": [
+      "Gn 10:26-29"
+    ]
   },
   {
     "id": "onomastico/amalec",
@@ -157,8 +172,11 @@
     "category": "onomastico",
     "name": "Aner",
     "title": "Aner",
-    "text": "Aner. Patriarca amorreo aliado de Abraham. Relaciones familiares. Hermano de Mamre y Escol, quienes junto con él formaron una alianza con Abraham. Hechos bíblicos. Aner participó como aliado de Abraham en la campaña para rescatar a Lot tras la captura de este por Quedorlaomer y sus aliados (Gn 14:13-24). Etimología: El nombre Aner podría significar \"juvenil\" o \"valiente\" en hebreo, reflejando una cualidad personal o tribal. (Gn 14:13-24)",
-    "body": "Patriarca amorreo aliado de Abraham. Relaciones familiares. Hermano de Mamre y Escol, quienes junto con él formaron una alianza con Abraham. Hechos bíblicos. Aner participó como aliado de Abraham en la campaña para rescatar a Lot tras la captura de este por Quedorlaomer y sus aliados (Gn 14:13-24). Etimología: El nombre Aner podría significar \"juvenil\" o \"valiente\" en hebreo, reflejando una cualidad personal o tribal. (Gn 14:13-24)"
+    "text": "Aner. Patriarca amorreo aliado de Abraham. Relaciones familiares. Hermano de Mamre y Escol, quienes junto con él formaron una alianza con Abraham. Hechos bíblicos. Aner participó como aliado de Abraham en la campaña para rescatar a Lot tras la captura de este por Quedorlaomer y sus aliados (Gn 14:13-24). Etimología. El nombre Aner podría significar \"juvenil\" o \"valiente\" en hebreo, reflejando una cualidad personal o tribal. (Gn 14:13-24)",
+    "body": "Patriarca amorreo aliado de Abraham. Relaciones familiares. Hermano de Mamre y Escol, quienes junto con él formaron una alianza con Abraham. Hechos bíblicos. Aner participó como aliado de Abraham en la campaña para rescatar a Lot tras la captura de este por Quedorlaomer y sus aliados (Gn 14:13-24). Etimología. El nombre Aner podría significar \"juvenil\" o \"valiente\" en hebreo, reflejando una cualidad personal o tribal. (Gn 14:13-24)",
+    "mentions": [
+      "Gn 14:13-24"
+    ]
   },
   {
     "id": "onomastico/aram-ii",
@@ -173,8 +191,14 @@
     "category": "onomastico",
     "name": "Aram (hijo de Sem)",
     "title": "Aram (hijo de Sem)",
-    "text": "Aram (hijo de Sem). Hijo de Sem (Gn 10:22), nieto de Noé. Relaciones familiares. Hijo de Sem (Gn 10:22), hermano de Elam, Asur, Arfaxad, Lud y Aram y padre de Uz (hijo de Aram), Hul, Geter y Mas (Gn 10:23). Identificación. Ancestro de los arameos, un pueblo semita que surgió en el norte de Siria y Mesopotamia durante el segundo milenio a.C., formando reinos como Aram-Damasco (2 Reyes 16:6), Aram-Naharaim (Gn 24:10) y Aram-Zobá (2 Sam 10:6). Conocidos por su lengua, el arameo, que se convirtió en la lengua franca del Medio Oriente, los arameos influyeron cultural, comercial y políticamente en la región. Etimología. Aram significa \"alto\" o \"elevado\" en hebreo, relacionado con la región montañosa de Siria. (Gn 10:22-23; 1 Cr 1:17)",
-    "body": "Hijo de Sem (Gn 10:22), nieto de Noé. Relaciones familiares. Hijo de Sem (Gn 10:22), hermano de Elam, Asur, Arfaxad, Lud y Aram y padre de Uz (hijo de Aram), Hul, Geter y Mas (Gn 10:23). Identificación. Ancestro de los arameos, un pueblo semita que surgió en el norte de Siria y Mesopotamia durante el segundo milenio a.C., formando reinos como Aram-Damasco (2 Reyes 16:6), Aram-Naharaim (Gn 24:10) y Aram-Zobá (2 Sam 10:6). Conocidos por su lengua, el arameo, que se convirtió en la lengua franca del Medio Oriente, los arameos influyeron cultural, comercial y políticamente en la región. Etimología. Aram significa \"alto\" o \"elevado\" en hebreo, relacionado con la región montañosa de Siria. (Gn 10:22-23; 1 Cr 1:17)"
+    "text": "Aram (hijo de Sem). Hijo de Sem (Gn 10:22), nieto de Noé. Relaciones familiares. Hijo de Sem (Gn 10:22), hermano de Elam, Asur, Arfaxad y Lud y padre de Uz (hijo de Aram), Hul, Geter y Mas (Gn 10:23). Identificación. Ancestro de los arameos, un pueblo semita que surgió en el norte de Siria y Mesopotamia durante el segundo milenio a.C., formando reinos como Aram-Damasco (2 Reyes 16:6), Aram-Naharaim (Gn 24:10) y Aram-Zobá (2 Sam 10:6). Conocidos por su lengua, el arameo, que se convirtió en la lengua franca del Medio Oriente, los arameos influyeron cultural, comercial y políticamente en la región. Etimología. Aram significa \"alto\" o \"elevado\" en hebreo, relacionado con la región montañosa de Siria. (Gn 10:22-23; 1 Cr 1:17)",
+    "body": "Hijo de Sem (Gn 10:22), nieto de Noé. Relaciones familiares. Hijo de Sem (Gn 10:22), hermano de Elam, Asur, Arfaxad y Lud y padre de Uz (hijo de Aram), Hul, Geter y Mas (Gn 10:23). Identificación. Ancestro de los arameos, un pueblo semita que surgió en el norte de Siria y Mesopotamia durante el segundo milenio a.C., formando reinos como Aram-Damasco (2 Reyes 16:6), Aram-Naharaim (Gn 24:10) y Aram-Zobá (2 Sam 10:6). Conocidos por su lengua, el arameo, que se convirtió en la lengua franca del Medio Oriente, los arameos influyeron cultural, comercial y políticamente en la región. Etimología. Aram significa \"alto\" o \"elevado\" en hebreo, relacionado con la región montañosa de Siria. (Gn 10:22-23; 1 Cr 1:17)",
+    "mentions": [
+      "Gn 10:22",
+      "Gn 10:23",
+      "Gn 24:10",
+      "Gn 10:22-23"
+    ]
   },
   {
     "id": "onomastico/ard",
@@ -192,8 +216,8 @@
     "category": "onomastico",
     "name": "Areli",
     "title": "Areli",
-    "text": "Areli. Relaciones familiares. Hijo de Gad. Hermano de Zifión, Hagui, Ezbón, Suni, Eri y Arodi.",
-    "body": "Relaciones familiares. Hijo de Gad. Hermano de Zifión, Hagui, Ezbón, Suni, Eri y Arodi.",
+    "text": "Areli. Relaciones familiares. Hijo de Gad. Hermano de Zifión, Hagui, Ezbón, Suni, Eri y Arodi. Etimología. Nombre relacionado con «león de Dios».",
+    "body": "Relaciones familiares. Hijo de Gad. Hermano de Zifión, Hagui, Ezbón, Suni, Eri y Arodi. Etimología. Nombre relacionado con «león de Dios».",
     "mentions": [
       "Gn 46:16"
     ]
@@ -203,16 +227,22 @@
     "category": "onomastico",
     "name": "Arfaxad",
     "title": "Arfaxad (1658-2096)",
-    "text": "Arfaxad (1658-2096). Antepasado de Abraham. Relaciones familiares. Hijo de Sem (Gn 10:22), nieto de Noé, padre de Sala (Gn 10:24), hermano de Elam, Asur, Lud y Aram (hijo de Sem). Identificación. Se asocia con los caldeos, un pueblo semítico que habitó el norte de Mesopotamia y que llego a dominar Babilonia durante el primer milenio a.C. Etimología. El nombre podría hacer referencia a “límite” o “frontera” indicando que este pueblo habitaba en los límites de Babilonia. También podría hacer referencia a la antigua región de Arrapjé en la actual Kirkuk (norte de Iraq) o Chesed o Quesed (Gn 22:22). (Gn 10:22-24; 1 Cr 1:17,24)",
-    "body": "Antepasado de Abraham. Relaciones familiares. Hijo de Sem (Gn 10:22), nieto de Noé, padre de Sala (Gn 10:24), hermano de Elam, Asur, Lud y Aram (hijo de Sem). Identificación. Se asocia con los caldeos, un pueblo semítico que habitó el norte de Mesopotamia y que llego a dominar Babilonia durante el primer milenio a.C. Etimología. El nombre podría hacer referencia a “límite” o “frontera” indicando que este pueblo habitaba en los límites de Babilonia. También podría hacer referencia a la antigua región de Arrapjé en la actual Kirkuk (norte de Iraq) o Chesed o Quesed (Gn 22:22). (Gn 10:22-24; 1 Cr 1:17,24)"
+    "text": "Arfaxad. Antepasado de Abraham, nacido dos años después del Diluvio (Gn 11:10). Relaciones familiares. Hijo de Sem, nieto de Noé y hermano de Elam, Asur, Lud y Aram (hijo de Sem) (Gn 10:22). Fue padre de Sala (Gn 11:12). Identificación. Tradicionalmente se ha relacionado su nombre con los caldeos, un conjunto de pueblos semíticos establecidos en el sur de Mesopotamia, especialmente en Babilonia, donde alcanzaron una gran influencia política durante el primer milenio a. C. Otra identificación propuesta es la región de Arrapha, situada en torno a la actual Kirkuk, en el norte de Irak. Etimología. El origen del nombre hebreo *ʾArpaḵšad* es incierto. Se han propuesto relaciones con términos que significan «límite» o «frontera», con el topónimo Arrapha y con *Keśed*, nombre relacionado con los caldeos. Ninguna de estas explicaciones goza de aceptación unánime. (Gn 10:22-24; 11:10-13; 1 Cr 1:17,24).",
+    "body": "Antepasado de Abraham, nacido dos años después del Diluvio (Gn 11:10). Relaciones familiares. Hijo de Sem, nieto de Noé y hermano de Elam, Asur, Lud y Aram (hijo de Sem) (Gn 10:22). Fue padre de Sala (Gn 11:12). Identificación. Tradicionalmente se ha relacionado su nombre con los caldeos, un conjunto de pueblos semíticos establecidos en el sur de Mesopotamia, especialmente en Babilonia, donde alcanzaron una gran influencia política durante el primer milenio a. C. Otra identificación propuesta es la región de Arrapha, situada en torno a la actual Kirkuk, en el norte de Irak. Etimología. El origen del nombre hebreo *ʾArpaḵšad* es incierto. Se han propuesto relaciones con términos que significan «límite» o «frontera», con el topónimo Arrapha y con *Keśed*, nombre relacionado con los caldeos. Ninguna de estas explicaciones goza de aceptación unánime. (Gn 10:22-24; 11:10-13; 1 Cr 1:17,24).",
+    "mentions": [
+      "Gn 11:10",
+      "Gn 10:22",
+      "Gn 11:12",
+      "Gn 10:22-24"
+    ]
   },
   {
     "id": "onomastico/arioc",
     "category": "onomastico",
     "name": "Arioc",
     "title": "Arioc",
-    "text": "Arioc. Rey de Elasar. Hechos bíblicos. Combatió del lado de Quedorlaomer, rey de Elam, en su guerra contra las ciudades de Canaán (Gn 14). Identificación. Se han propuesto varias identificaciones tanto para Arioc como para Elasar. Entre ellas están Warad-Sim o Rim-Sîn (ambos apodados Eri-Aku), reyes de Larsa, una importante ciudad de Sumeria (Mesopotamia). Otra propuesta más actual es Arriuk, rey de Ilānṣurā, una localidad que estaba ubicada al norte de Mari en Siria. Etimología: Su nombre, Arioc (Aryokh), proviene de la raíz semítica arye (\"león\"), lo que sugiere un significado como \"león feroz\" o \"guerrero fuerte,\" simbolizando poder y valentía. (Gn14:1-16)",
-    "body": "Rey de Elasar. Hechos bíblicos. Combatió del lado de Quedorlaomer, rey de Elam, en su guerra contra las ciudades de Canaán (Gn 14). Identificación. Se han propuesto varias identificaciones tanto para Arioc como para Elasar. Entre ellas están Warad-Sim o Rim-Sîn (ambos apodados Eri-Aku), reyes de Larsa, una importante ciudad de Sumeria (Mesopotamia). Otra propuesta más actual es Arriuk, rey de Ilānṣurā, una localidad que estaba ubicada al norte de Mari en Siria. Etimología: Su nombre, Arioc (Aryokh), proviene de la raíz semítica arye (\"león\"), lo que sugiere un significado como \"león feroz\" o \"guerrero fuerte,\" simbolizando poder y valentía. (Gn14:1-16)"
+    "text": "Arioc. Rey de Elasar. Hechos bíblicos. Combatió del lado de Quedorlaomer, rey de Elam, en su guerra contra las ciudades de Canaán (Gn 14). Identificación. Se han propuesto varias identificaciones tanto para Arioc como para Elasar. Entre ellas están Warad-Sim o Rim-Sîn (ambos apodados Eri-Aku), reyes de Larsa, una importante ciudad de Sumeria (Mesopotamia). Otra propuesta más actual es Arriuk, rey de Ilānṣurā, una localidad que estaba ubicada al norte de Mari en Siria. Etimología. Su nombre, Arioc (Aryokh), proviene de la raíz semítica arye (\"león\"), lo que sugiere un significado como \"león feroz\" o \"guerrero fuerte,\" simbolizando poder y valentía. (Gn14:1-16)",
+    "body": "Rey de Elasar. Hechos bíblicos. Combatió del lado de Quedorlaomer, rey de Elam, en su guerra contra las ciudades de Canaán (Gn 14). Identificación. Se han propuesto varias identificaciones tanto para Arioc como para Elasar. Entre ellas están Warad-Sim o Rim-Sîn (ambos apodados Eri-Aku), reyes de Larsa, una importante ciudad de Sumeria (Mesopotamia). Otra propuesta más actual es Arriuk, rey de Ilānṣurā, una localidad que estaba ubicada al norte de Mari en Siria. Etimología. Su nombre, Arioc (Aryokh), proviene de la raíz semítica arye (\"león\"), lo que sugiere un significado como \"león feroz\" o \"guerrero fuerte,\" simbolizando poder y valentía. (Gn14:1-16)"
   },
   {
     "id": "onomastico/arodi",
@@ -241,8 +271,8 @@
     "category": "onomastico",
     "name": "Asenat",
     "title": "Asenat",
-    "text": "Asenat. Relaciones familiares. Madre de Manasés y Efraín con José (Zafnat-panea). Hija de Potifera, sacerdote de On.",
-    "body": "Relaciones familiares. Madre de Manasés y Efraín con José (Zafnat-panea). Hija de Potifera, sacerdote de On.",
+    "text": "Asenat. Relaciones familiares. Madre de Manasés y Efraín con José (Zafnat-panea). Hija de Potifera, sacerdote de On. Etimología. Nombre de origen egipcio, probablemente «perteneciente a Neit», divinidad egipcia.",
+    "body": "Relaciones familiares. Madre de Manasés y Efraín con José (Zafnat-panea). Hija de Potifera, sacerdote de On. Etimología. Nombre de origen egipcio, probablemente «perteneciente a Neit», divinidad egipcia.",
     "mentions": [
       "Gn 41:45,50–52",
       "Gn 41:50–52",
@@ -254,8 +284,8 @@
     "category": "onomastico",
     "name": "Aser",
     "title": "Aser",
-    "text": "Aser. Relaciones familiares. Hijo de Jacob (Israel) y Zilpa. Hermano de Gad. Padre de Imna, Isúa, Isúi, Bería y Sera.",
-    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Zilpa. Hermano de Gad. Padre de Imna, Isúa, Isúi, Bería y Sera.",
+    "text": "Aser. Relaciones familiares. Hijo de Jacob (Israel) y Zilpa. Hermano de Gad. Padre de Imna, Isúa, Isúi, Bería y Sera. Etimología. El nombre hebreo *ʾĀšēr* significa «feliz» o «dichoso» (Gn 30:13).",
+    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Zilpa. Hermano de Gad. Padre de Imna, Isúa, Isúi, Bería y Sera. Etimología. El nombre hebreo *ʾĀšēr* significa «feliz» o «dichoso» (Gn 30:13).",
     "mentions": [
       "Gn 30:9–13",
       "Gn 46:17"
@@ -274,16 +304,20 @@
     "category": "onomastico",
     "name": "Asur",
     "title": "Asur",
-    "text": "Asur. Hijo de Sem (Gn 10:22), nieto de Noé. Relaciones familiares. Hijo de Sem (Gn 10:22), hermano de Elam, Arfaxad, Lud y Aram (hijo de Sem). Identificación. Se identifica habitualmente con la ciudad de Asur, la primera capital capital de Asiria. Existe cierta controversia con la interpretación del versículo Gn 10:11 en el que se puede entender tanto que Asur fundó Nínive, Cala y otras ciudades asirias como que fue Nimrod, hijo de Cam. En cualquier caso, Asur, Nínive y Cala nacieron como colonias de Babilonia por lo tanto, es posible, que el sentido del pasaje sea que Nimrod (Babilonia) estableció las ciudades y posteriormentee el pueblo de Asur las poblaron o las controlaron. Tras la caída del Viejo Imperio Babilónico durante el tercer milenio a.C. los asirios comenzaron a unir o conquistar ciudades bajo un poderoso imperio centrado en su capital y gestionado mediante una avanzada y eficaz administración. Su núcleo poblacional se encontraba al norte de Mesopotamia en la actual Siria; pero en un máximo esplendor (mediados del primer milenio a.C.) llego a ocupar casi todo Oriente Medio desde Anatolia Central (actual Turquía) hasta las regiones occidentales de Irán y sometió a Egipto a su vasallaje. Etimología. Derivado de la raíz ashar, que significa \"ir recto\", \"caminar con seguridad\" o \"ser feliz\". Esto sugiere que Asur podría significar \"el que va recto\" o \"el próspero\". (Gn 10:22; 1 Cr 1:17)",
-    "body": "Hijo de Sem (Gn 10:22), nieto de Noé. Relaciones familiares. Hijo de Sem (Gn 10:22), hermano de Elam, Arfaxad, Lud y Aram (hijo de Sem). Identificación. Se identifica habitualmente con la ciudad de Asur, la primera capital capital de Asiria. Existe cierta controversia con la interpretación del versículo Gn 10:11 en el que se puede entender tanto que Asur fundó Nínive, Cala y otras ciudades asirias como que fue Nimrod, hijo de Cam. En cualquier caso, Asur, Nínive y Cala nacieron como colonias de Babilonia por lo tanto, es posible, que el sentido del pasaje sea que Nimrod (Babilonia) estableció las ciudades y posteriormentee el pueblo de Asur las poblaron o las controlaron. Tras la caída del Viejo Imperio Babilónico durante el tercer milenio a.C. los asirios comenzaron a unir o conquistar ciudades bajo un poderoso imperio centrado en su capital y gestionado mediante una avanzada y eficaz administración. Su núcleo poblacional se encontraba al norte de Mesopotamia en la actual Siria; pero en un máximo esplendor (mediados del primer milenio a.C.) llego a ocupar casi todo Oriente Medio desde Anatolia Central (actual Turquía) hasta las regiones occidentales de Irán y sometió a Egipto a su vasallaje. Etimología. Derivado de la raíz ashar, que significa \"ir recto\", \"caminar con seguridad\" o \"ser feliz\". Esto sugiere que Asur podría significar \"el que va recto\" o \"el próspero\". (Gn 10:22; 1 Cr 1:17)"
+    "text": "Asur. Hijo de Sem (Gn 10:22), nieto de Noé. Relaciones familiares. Hijo de Sem (Gn 10:22), hermano de Elam, Arfaxad, Lud y Aram (hijo de Sem). Identificación. Se identifica habitualmente con la ciudad de Asur, la primera capital de Asiria. Existe cierta controversia con la interpretación del versículo Gn 10:11 en el que se puede entender tanto que Asur fundó Nínive, Cala y otras ciudades asirias como que fue Nimrod, hijo de Cam. En cualquier caso, Asur, Nínive y Cala nacieron como colonias de Babilonia por lo tanto, es posible, que el sentido del pasaje sea que Nimrod (Babilonia) estableció las ciudades y posteriormente el pueblo de Asur las poblaron o las controlaron. Tras la caída del Viejo Imperio Babilónico durante el tercer milenio a.C. los asirios comenzaron a unir o conquistar ciudades bajo un poderoso imperio centrado en su capital y gestionado mediante una avanzada y eficaz administración. Su núcleo poblacional se encontraba al norte de Mesopotamia en la actual Siria; pero en un máximo esplendor (mediados del primer milenio a.C.) llego a ocupar casi todo Oriente Medio desde Anatolia Central (actual Turquía) hasta las regiones occidentales de Irán y sometió a Egipto a su vasallaje. Etimología. Derivado de la raíz ashar, que significa \"ir recto\", \"caminar con seguridad\" o \"ser feliz\". Esto sugiere que Asur podría significar \"el que va recto\" o \"el próspero\". (Gn 10:22; 1 Cr 1:17)",
+    "body": "Hijo de Sem (Gn 10:22), nieto de Noé. Relaciones familiares. Hijo de Sem (Gn 10:22), hermano de Elam, Arfaxad, Lud y Aram (hijo de Sem). Identificación. Se identifica habitualmente con la ciudad de Asur, la primera capital de Asiria. Existe cierta controversia con la interpretación del versículo Gn 10:11 en el que se puede entender tanto que Asur fundó Nínive, Cala y otras ciudades asirias como que fue Nimrod, hijo de Cam. En cualquier caso, Asur, Nínive y Cala nacieron como colonias de Babilonia por lo tanto, es posible, que el sentido del pasaje sea que Nimrod (Babilonia) estableció las ciudades y posteriormente el pueblo de Asur las poblaron o las controlaron. Tras la caída del Viejo Imperio Babilónico durante el tercer milenio a.C. los asirios comenzaron a unir o conquistar ciudades bajo un poderoso imperio centrado en su capital y gestionado mediante una avanzada y eficaz administración. Su núcleo poblacional se encontraba al norte de Mesopotamia en la actual Siria; pero en un máximo esplendor (mediados del primer milenio a.C.) llego a ocupar casi todo Oriente Medio desde Anatolia Central (actual Turquía) hasta las regiones occidentales de Irán y sometió a Egipto a su vasallaje. Etimología. Derivado de la raíz ashar, que significa \"ir recto\", \"caminar con seguridad\" o \"ser feliz\". Esto sugiere que Asur podría significar \"el que va recto\" o \"el próspero\". (Gn 10:22; 1 Cr 1:17)",
+    "mentions": [
+      "Gn 10:22",
+      "Gn 10:11"
+    ]
   },
   {
     "id": "onomastico/basemat-hija-de-elon",
     "category": "onomastico",
     "name": "Basemat (hija de Elón)",
     "title": "Basemat (hija de Elón)",
-    "text": "Basemat (hija de Elón). Relaciones familiares. Cónyuge de Esaú (Edom). Hija de Elón heteo; su posible identificación con Ada, hija de Elón, no está demostrada.",
-    "body": "Relaciones familiares. Cónyuge de Esaú (Edom). Hija de Elón heteo; su posible identificación con Ada, hija de Elón, no está demostrada.",
+    "text": "Basemat (hija de Elón). Relaciones familiares. Cónyuge de Esaú (Edom). Hija de Elón heteo; su posible identificación con Ada, hija de Elón, no está demostrada. Etimología. El nombre se relaciona con «perfume» o «fragancia».",
+    "body": "Relaciones familiares. Cónyuge de Esaú (Edom). Hija de Elón heteo; su posible identificación con Ada, hija de Elón, no está demostrada. Etimología. El nombre se relaciona con «perfume» o «fragancia».",
     "mentions": [
       "Gn 26:34"
     ]
@@ -293,8 +327,8 @@
     "category": "onomastico",
     "name": "Basemat (hija de Ismael)",
     "title": "Basemat (hija de Ismael)",
-    "text": "Basemat (hija de Ismael). Relaciones familiares. Hija de Ismael. Madre de Reuel con Esaú (Edom). Podría ser la misma mujer que Mahalat, pero Génesis no establece explícitamente esa equivalencia.",
-    "body": "Relaciones familiares. Hija de Ismael. Madre de Reuel con Esaú (Edom). Podría ser la misma mujer que Mahalat, pero Génesis no establece explícitamente esa equivalencia.",
+    "text": "Basemat (hija de Ismael). Relaciones familiares. Hija de Ismael. Madre de Reuel con Esaú (Edom). Podría ser la misma mujer que Mahalat, pero Génesis no establece explícitamente esa equivalencia. Etimología. El nombre se relaciona con «perfume» o «fragancia».",
+    "body": "Relaciones familiares. Hija de Ismael. Madre de Reuel con Esaú (Edom). Podría ser la misma mujer que Mahalat, pero Génesis no establece explícitamente esa equivalencia. Etimología. El nombre se relaciona con «perfume» o «fragancia».",
     "mentions": [
       "Gn 36:3",
       "Gn 36:4"
@@ -324,8 +358,8 @@
     "category": "onomastico",
     "name": "Benjamín (Benoni)",
     "title": "Benjamín (Benoni)",
-    "text": "Benjamín (Benoni). Relaciones familiares. Hijo de Jacob (Israel) y Raquel. Hermano de José (Zafnat-panea). Padre de Bela, Bequer, Asbel, Gera, Naamán, Ehi, Ros, Mupim, Hupim y Ard. Llamado Benoni por Raquel y Benjamín por Jacob.",
-    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Raquel. Hermano de José (Zafnat-panea). Padre de Bela, Bequer, Asbel, Gera, Naamán, Ehi, Ros, Mupim, Hupim y Ard. Llamado Benoni por Raquel y Benjamín por Jacob.",
+    "text": "Benjamín (Benoni). Relaciones familiares. Hijo de Jacob (Israel) y Raquel. Hermano de José (Zafnat-panea). Padre de Bela, Bequer, Asbel, Gera, Naamán, Ehi, Ros, Mupim, Hupim y Ard. Llamado Benoni por Raquel y Benjamín por Jacob. Etimología. *Binyāmîn* significa «hijo de la derecha»; Raquel lo llamó primero *Ben-ʾônî*, «hijo de mi dolor» (Gn 35:18).",
+    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Raquel. Hermano de José (Zafnat-panea). Padre de Bela, Bequer, Asbel, Gera, Naamán, Ehi, Ros, Mupim, Hupim y Ard. Llamado Benoni por Raquel y Benjamín por Jacob. Etimología. *Binyāmîn* significa «hijo de la derecha»; Raquel lo llamó primero *Ben-ʾônî*, «hijo de mi dolor» (Gn 35:18).",
     "mentions": [
       "Gn 30:22–24",
       "Gn 35:16–18",
@@ -403,8 +437,11 @@
     "category": "onomastico",
     "name": "Caftorim",
     "title": "Caftorim",
-    "text": "Caftorim. Descendiente de Cam. Relaciones familiares. Hijo de Mizraim, nieto de Cam y bisnieto de Noé, hermano de Ludim, Anamim, Lehabim, Naftuhim, Patrusim y Casluhim (Gn 10:13-14). Identificación. Se asocia tradicionalmente a Creta y la cultura minoica; ya que Creta en egipcio es Keftiu y en Acadio, Kaptara. La cultura minoica, desarrollada en la isla de Creta entre aproximadamente 3000 y 1100 a.C., fue una de las primeras civilizaciones avanzadas de Europa. Destacó por sus impresionantes palacios, como el de Cnosos, su intrincado sistema de escritura (Lineal A) y su sofisticado arte, reflejado en frescos vibrantes. Los minoicos fueron grandes navegantes y comerciantes, influyendo en las culturas del Egeo y el Mediterráneo oriental. Según Deut 2:23 y Jer 47:4, de esta isla migraron los filisteos en dirección a Canaán. Etimología. No tiene una etimología clara. (Gn 10:13-14)",
-    "body": "Descendiente de Cam. Relaciones familiares. Hijo de Mizraim, nieto de Cam y bisnieto de Noé, hermano de Ludim, Anamim, Lehabim, Naftuhim, Patrusim y Casluhim (Gn 10:13-14). Identificación. Se asocia tradicionalmente a Creta y la cultura minoica; ya que Creta en egipcio es Keftiu y en Acadio, Kaptara. La cultura minoica, desarrollada en la isla de Creta entre aproximadamente 3000 y 1100 a.C., fue una de las primeras civilizaciones avanzadas de Europa. Destacó por sus impresionantes palacios, como el de Cnosos, su intrincado sistema de escritura (Lineal A) y su sofisticado arte, reflejado en frescos vibrantes. Los minoicos fueron grandes navegantes y comerciantes, influyendo en las culturas del Egeo y el Mediterráneo oriental. Según Deut 2:23 y Jer 47:4, de esta isla migraron los filisteos en dirección a Canaán. Etimología. No tiene una etimología clara. (Gn 10:13-14)"
+    "text": "Caftorim. Descendiente de Cam. Relaciones familiares. Hijo de Mizraim, nieto de Cam y bisnieto de Noé, hermano de Ludim, Anamim, Lehabim, Naftuhim, Patrusim y Casluhim (Gn 10:13-14). Identificación. El nombre en realidad podría referirse a un pueblo y no, a un individuo concreto (1 Cr 1:12; Dt 2:23). Se asocia tradicionalmente a Creta y la cultura minoica; ya que Creta en egipcio es *Keftiu* y en Acadio, *Kaptara*. La cultura minoica, desarrollada en la isla de Creta entre aproximadamente 3000 y 1100 a.C., fue una de las primeras civilizaciones avanzadas de Europa. Destacó por sus impresionantes palacios, como el de Cnosos, su intrincado sistema de escritura (Lineal A) y su sofisticado arte, reflejado en frescos vibrantes. Los minoicos fueron grandes navegantes y comerciantes, influyendo en las culturas del Egeo y el Mediterráneo oriental. Según Deut 2:23 y Jer 47:4, de esta isla migraron los filisteos en dirección a Canaán. Etimología. No tiene una etimología clara. (Gn 10:13-14)",
+    "body": "Descendiente de Cam. Relaciones familiares. Hijo de Mizraim, nieto de Cam y bisnieto de Noé, hermano de Ludim, Anamim, Lehabim, Naftuhim, Patrusim y Casluhim (Gn 10:13-14). Identificación. El nombre en realidad podría referirse a un pueblo y no, a un individuo concreto (1 Cr 1:12; Dt 2:23). Se asocia tradicionalmente a Creta y la cultura minoica; ya que Creta en egipcio es *Keftiu* y en Acadio, *Kaptara*. La cultura minoica, desarrollada en la isla de Creta entre aproximadamente 3000 y 1100 a.C., fue una de las primeras civilizaciones avanzadas de Europa. Destacó por sus impresionantes palacios, como el de Cnosos, su intrincado sistema de escritura (Lineal A) y su sofisticado arte, reflejado en frescos vibrantes. Los minoicos fueron grandes navegantes y comerciantes, influyendo en las culturas del Egeo y el Mediterráneo oriental. Según Deut 2:23 y Jer 47:4, de esta isla migraron los filisteos en dirección a Canaán. Etimología. No tiene una etimología clara. (Gn 10:13-14)",
+    "mentions": [
+      "Gn 10:13-14"
+    ]
   },
   {
     "id": "onomastico/cain",
@@ -435,16 +472,22 @@
     "category": "onomastico",
     "name": "Canaán",
     "title": "Canaán",
-    "text": "Canaán. Hijo de Cam. Relaciones familiares. Hijo de Cam, nieto de Noé, hermano de Cus, Mizraim y Fut (Gn 10:6). Fue padre de Sidón y Het y ancestro de numerosas tribus que habitaban la Tierra Prometida antes que Israel (Gn 10:15-16). Hechos bíblicos. Fue maldecido (él y su descendencia) por Noé tras un incidente ocurrido mientras éste estaba incapacitado por el alcohol (Gn 9:20-25). Identificación/Etimología. El término hebreo Kena‘an designa la región bíblica de Canaán y su significado podría provenir de la raíz semítica k-n-‘, que significa \"bajar\" o \"humillarse\". Esto podría implicar \"tierra baja\", refiriéndose a la ubicación geográfica de Canaán, en contraste con las tierras montañosas circundantes o tener relación con la maldición de Noé que sometió a Canaán y sus descendientes a ser súbditos de sus hermanos. (Gn 9:18-27, 10:6-19; Ex 3:8, Js 10, 1 Re 9:16; 1 Cr 1:8)",
-    "body": "Hijo de Cam. Relaciones familiares. Hijo de Cam, nieto de Noé, hermano de Cus, Mizraim y Fut (Gn 10:6). Fue padre de Sidón y Het y ancestro de numerosas tribus que habitaban la Tierra Prometida antes que Israel (Gn 10:15-16). Hechos bíblicos. Fue maldecido (él y su descendencia) por Noé tras un incidente ocurrido mientras éste estaba incapacitado por el alcohol (Gn 9:20-25). Identificación/Etimología. El término hebreo Kena‘an designa la región bíblica de Canaán y su significado podría provenir de la raíz semítica k-n-‘, que significa \"bajar\" o \"humillarse\". Esto podría implicar \"tierra baja\", refiriéndose a la ubicación geográfica de Canaán, en contraste con las tierras montañosas circundantes o tener relación con la maldición de Noé que sometió a Canaán y sus descendientes a ser súbditos de sus hermanos. (Gn 9:18-27, 10:6-19; Ex 3:8, Js 10, 1 Re 9:16; 1 Cr 1:8)"
+    "text": "Canaán. Hijo de Cam. Relaciones familiares. Hijo de Cam, nieto de Noé, hermano de Cus, Mizraim y Fut (Gn 10:6). Fue padre de Sidón y Het y ancestro de numerosas tribus que habitaban la Tierra Prometida antes que Israel (Gn 10:15-16). Hechos bíblicos. Fue maldecido (él y su descendencia) por Noé tras un incidente ocurrido mientras éste estaba incapacitado por el alcohol (Gn 9:20-25). Etimología. El término hebreo Kena‘an designa la región bíblica de Canaán y su significado podría provenir de la raíz semítica k-n-‘, que significa \"bajar\" o \"humillarse\". Esto podría implicar \"tierra baja\", refiriéndose a la ubicación geográfica de Canaán, en contraste con las tierras montañosas circundantes o tener relación con la maldición de Noé que sometió a Canaán y sus descendientes a ser súbditos de sus hermanos. (Gn 9:18-27, 10:6-19; Ex 3:8, Js 10, 1 Re 9:16; 1 Cr 1:8)",
+    "body": "Hijo de Cam. Relaciones familiares. Hijo de Cam, nieto de Noé, hermano de Cus, Mizraim y Fut (Gn 10:6). Fue padre de Sidón y Het y ancestro de numerosas tribus que habitaban la Tierra Prometida antes que Israel (Gn 10:15-16). Hechos bíblicos. Fue maldecido (él y su descendencia) por Noé tras un incidente ocurrido mientras éste estaba incapacitado por el alcohol (Gn 9:20-25). Etimología. El término hebreo Kena‘an designa la región bíblica de Canaán y su significado podría provenir de la raíz semítica k-n-‘, que significa \"bajar\" o \"humillarse\". Esto podría implicar \"tierra baja\", refiriéndose a la ubicación geográfica de Canaán, en contraste con las tierras montañosas circundantes o tener relación con la maldición de Noé que sometió a Canaán y sus descendientes a ser súbditos de sus hermanos. (Gn 9:18-27, 10:6-19; Ex 3:8, Js 10, 1 Re 9:16; 1 Cr 1:8)",
+    "mentions": [
+      "Gn 10:6",
+      "Gn 10:15-16",
+      "Gn 9:20-25",
+      "Gn 9:18-27"
+    ]
   },
   {
     "id": "onomastico/carmi",
     "category": "onomastico",
     "name": "Carmi",
     "title": "Carmi",
-    "text": "Carmi. Relaciones familiares. Hijo de Rubén. Hermano de Hanoc (hijo de Rubén), Falú y Hezrón (hijo de Rubén).",
-    "body": "Relaciones familiares. Hijo de Rubén. Hermano de Hanoc (hijo de Rubén), Falú y Hezrón (hijo de Rubén).",
+    "text": "Carmi. Relaciones familiares. Hijo de Rubén. Hermano de Hanoc (hijo de Rubén), Falú y Hezrón (hijo de Rubén). Etimología. Se relaciona con el término hebreo para «viña» o «viñador».",
+    "body": "Relaciones familiares. Hijo de Rubén. Hermano de Hanoc (hijo de Rubén), Falú y Hezrón (hijo de Rubén). Etimología. Se relaciona con el término hebreo para «viña» o «viñador».",
     "mentions": [
       "Gn 46:9"
     ]
@@ -462,8 +505,8 @@
     "category": "onomastico",
     "name": "Cedar",
     "title": "Cedar",
-    "text": "Cedar. Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Adbeel, Mibsam, Misma, Duma, Massa, Hadar, Tema, Jetur, Nafis y Cedema.",
-    "body": "Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Adbeel, Mibsam, Misma, Duma, Massa, Hadar, Tema, Jetur, Nafis y Cedema.",
+    "text": "Cedar. Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Adbeel, Mibsam, Misma, Duma, Massa, Hadar, Tema, Jetur, Nafis y Cedema. Etimología. Se relaciona con la raíz hebrea para «oscuro».",
+    "body": "Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Adbeel, Mibsam, Misma, Duma, Massa, Hadar, Tema, Jetur, Nafis y Cedema. Etimología. Se relaciona con la raíz hebrea para «oscuro».",
     "mentions": [
       "Gn 25:12–16"
     ]
@@ -473,8 +516,8 @@
     "category": "onomastico",
     "name": "Cedema",
     "title": "Cedema",
-    "text": "Cedema. Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Duma, Massa, Hadar, Tema, Jetur y Nafis.",
-    "body": "Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Duma, Massa, Hadar, Tema, Jetur y Nafis.",
+    "text": "Cedema. Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Duma, Massa, Hadar, Tema, Jetur y Nafis. Etimología. Se relaciona con «oriente» o «este».",
+    "body": "Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Duma, Massa, Hadar, Tema, Jetur y Nafis. Etimología. Se relaciona con «oriente» o «este».",
     "mentions": [
       "Gn 25:12–16"
     ]
@@ -495,8 +538,8 @@
     "category": "onomastico",
     "name": "Cetura",
     "title": "Cetura",
-    "text": "Cetura. Relaciones familiares. Madre de Zimram, Jocsán, Medán, Madián, Isbac y Súa con Abraham. Mujer de Abraham.",
-    "body": "Relaciones familiares. Madre de Zimram, Jocsán, Medán, Madián, Isbac y Súa con Abraham. Mujer de Abraham.",
+    "text": "Cetura. Relaciones familiares. Madre de Zimram, Jocsán, Medán, Madián, Isbac y Súa con Abraham. Mujer de Abraham. Etimología. Se relaciona con «incienso» o «perfumada».",
+    "body": "Relaciones familiares. Madre de Zimram, Jocsán, Medán, Madián, Isbac y Súa con Abraham. Mujer de Abraham. Etimología. Se relaciona con «incienso» o «perfumada».",
     "mentions": [
       "Gn 25:1",
       "Gn 25:1–2"
@@ -518,8 +561,8 @@
     "category": "onomastico",
     "name": "Coré (hijo de Esaú)",
     "title": "Coré (hijo de Esaú)",
-    "text": "Coré (hijo de Esaú). Relaciones familiares. Hijo de Esaú (Edom) y Aholibama (mujer de Esaú). Hermano de Jeús y Jaalam. No se identifica automáticamente con Coré, mencionado entre las jefaturas de Elifaz.",
-    "body": "Relaciones familiares. Hijo de Esaú (Edom) y Aholibama (mujer de Esaú). Hermano de Jeús y Jaalam. No se identifica automáticamente con Coré, mencionado entre las jefaturas de Elifaz.",
+    "text": "Coré (hijo de Esaú). Relaciones familiares. Hijo de Esaú (Edom) y Aholibama (mujer de Esaú). Hermano de Jeús y Jaalam. No se identifica automáticamente con Coré, mencionado entre las jefaturas de Elifaz. Etimología. El nombre puede relacionarse con «calvo» o «calvicie».",
+    "body": "Relaciones familiares. Hijo de Esaú (Edom) y Aholibama (mujer de Esaú). Hermano de Jeús y Jaalam. No se identifica automáticamente con Coré, mencionado entre las jefaturas de Elifaz. Etimología. El nombre puede relacionarse con «calvo» o «calvicie».",
     "mentions": [
       "Gn 36:5"
     ]
@@ -537,8 +580,8 @@
     "category": "onomastico",
     "name": "Dan",
     "title": "Dan",
-    "text": "Dan. Relaciones familiares. Hijo de Jacob (Israel) y Bilha. Hermano de Neftalí. Padre de Husim.",
-    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Bilha. Hermano de Neftalí. Padre de Husim.",
+    "text": "Dan. Relaciones familiares. Hijo de Jacob (Israel) y Bilha. Hermano de Neftalí. Padre de Husim. Etimología. Relacionado con el verbo hebreo «juzgar»; Génesis lo vincula con la justicia de Dios (Gn 30:6).",
+    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Bilha. Hermano de Neftalí. Padre de Husim. Etimología. Relacionado con el verbo hebreo «juzgar»; Génesis lo vincula con la justicia de Dios (Gn 30:6).",
     "mentions": [
       "Gn 30:3–8",
       "Gn 46:23"
@@ -549,8 +592,8 @@
     "category": "onomastico",
     "name": "Dedán (hijo de Jocsán)",
     "title": "Dedán (hijo de Jocsán)",
-    "text": "Dedán (hijo de Jocsán). Relaciones familiares. Hijo de Jocsán. Hermano de Seba (hijo de Jocsán). Se le atribuyen los grupos familiares Asurim, Letusim y Leumim.",
-    "body": "Relaciones familiares. Hijo de Jocsán. Hermano de Seba (hijo de Jocsán). Se le atribuyen los grupos familiares Asurim, Letusim y Leumim.",
+    "text": "Dedán (hijo de Jocsán). Relaciones familiares. Hijo de Jocsán. Hermano de Seba (hijo de Jocsán). Padre de Asurim, Letusim y Leumim (Gn 25:3).",
+    "body": "Relaciones familiares. Hijo de Jocsán. Hermano de Seba (hijo de Jocsán). Padre de Asurim, Letusim y Leumim (Gn 25:3).",
     "mentions": [
       "Gn 25:3"
     ]
@@ -568,16 +611,19 @@
     "category": "onomastico",
     "name": "Dicla",
     "title": "Dicla",
-    "text": "Dicla. Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahnitas). Etimología. En hebreo, Diqlá está relacionado con la palabra para \"palmera\", deqel. (Gn 10:26-29; 1 Cr 1:21)",
-    "body": "Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahnitas). Etimología. En hebreo, Diqlá está relacionado con la palabra para \"palmera\", deqel. (Gn 10:26-29; 1 Cr 1:21)"
+    "text": "Dicla. Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahtanitas). Etimología. En hebreo, Diqlá está relacionado con la palabra para \"palmera\", deqel. (Gn 10:26-29; 1 Cr 1:21)",
+    "body": "Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahtanitas). Etimología. En hebreo, Diqlá está relacionado con la palabra para \"palmera\", deqel. (Gn 10:26-29; 1 Cr 1:21)",
+    "mentions": [
+      "Gn 10:26-29"
+    ]
   },
   {
     "id": "onomastico/dina",
     "category": "onomastico",
     "name": "Dina",
     "title": "Dina",
-    "text": "Dina. Relaciones familiares. Hija de Jacob (Israel) y Lea. Hermana de Rubén, Simeón, Leví, Judá, Isacar y Zabulón.",
-    "body": "Relaciones familiares. Hija de Jacob (Israel) y Lea. Hermana de Rubén, Simeón, Leví, Judá, Isacar y Zabulón.",
+    "text": "Dina. Relaciones familiares. Hija de Jacob (Israel) y Lea. Hermana de Rubén, Simeón, Leví, Judá, Isacar y Zabulón. Etimología. Se relaciona con el verbo hebreo «juzgar».",
+    "body": "Relaciones familiares. Hija de Jacob (Israel) y Lea. Hermana de Rubén, Simeón, Leví, Judá, Isacar y Zabulón. Etimología. Se relaciona con el verbo hebreo «juzgar».",
     "mentions": [
       "Gn 29:31–35",
       "Gn 30:17–21"
@@ -588,16 +634,19 @@
     "category": "onomastico",
     "name": "Dodanim",
     "title": "Dodanim",
-    "text": "Dodanim. Descendiente de Jafet. Relaciones familiares. Hijo de Javán, nieto de Jaffet y biznieto de Noé, hermano de Elisa, Tarsis y Quitim (Gn 10:4). Identificación. En algunas versiones aparece como Rodanim, dando lugar a que se le asocie comúnmente con la isla de Rodas. Situada en la costa de Asia Menor, Rodas fue un importante centro cultural y comercial en el Mediterráneo oriental. Su ubicación estratégica facilitó el intercambio entre civilizaciones como los minóicos, micénicos, fenicios y, posteriormente, los griegos. Además Rodas desarrolló una rica tradición marítima y comercial que la consolidó como una potencia insular clave en la región. Otras identificaciones de Dodanim (o los Dodanim, el nombre puede ser plural y referirse a una tribu o pueblo), lo relacionan con los dánaos, un término que Homero usa para referirse a los griegos, en general. [Demsky, 2023] Etimología. Podría derivar de la raíz hebrea dod, que significa \"amado\" o \"amigo.\" (Gn 10:4; 1 Cr 1:7)",
-    "body": "Descendiente de Jafet. Relaciones familiares. Hijo de Javán, nieto de Jaffet y biznieto de Noé, hermano de Elisa, Tarsis y Quitim (Gn 10:4). Identificación. En algunas versiones aparece como Rodanim, dando lugar a que se le asocie comúnmente con la isla de Rodas. Situada en la costa de Asia Menor, Rodas fue un importante centro cultural y comercial en el Mediterráneo oriental. Su ubicación estratégica facilitó el intercambio entre civilizaciones como los minóicos, micénicos, fenicios y, posteriormente, los griegos. Además Rodas desarrolló una rica tradición marítima y comercial que la consolidó como una potencia insular clave en la región. Otras identificaciones de Dodanim (o los Dodanim, el nombre puede ser plural y referirse a una tribu o pueblo), lo relacionan con los dánaos, un término que Homero usa para referirse a los griegos, en general. [Demsky, 2023] Etimología. Podría derivar de la raíz hebrea dod, que significa \"amado\" o \"amigo.\" (Gn 10:4; 1 Cr 1:7)"
+    "text": "Dodanim. Descendiente de Jafet. Relaciones familiares. Hijo de Javán, nieto de Jafet y biznieto de Noé, hermano de Elisa, Tarsis y Quitim (Gn 10:4). Identificación. En algunas versiones aparece como Rodanim, dando lugar a que se le asocie comúnmente con la isla de Rodas. Situada en la costa de Asia Menor, Rodas fue un importante centro cultural y comercial en el Mediterráneo oriental. Su ubicación estratégica facilitó el intercambio entre civilizaciones como los minóicos, micénicos, fenicios y, posteriormente, los griegos. Además Rodas desarrolló una rica tradición marítima y comercial que la consolidó como una potencia insular clave en la región. Otras identificaciones de Dodanim (o los Dodanim, el nombre puede ser plural y referirse a una tribu o pueblo), lo relacionan con los dánaos, un término que Homero usa para referirse a los griegos, en general. [Demsky, 2023] Etimología. Podría derivar de la raíz hebrea dod, que significa \"amado\" o \"amigo.\" (Gn 10:4; 1 Cr 1:7)",
+    "body": "Descendiente de Jafet. Relaciones familiares. Hijo de Javán, nieto de Jafet y biznieto de Noé, hermano de Elisa, Tarsis y Quitim (Gn 10:4). Identificación. En algunas versiones aparece como Rodanim, dando lugar a que se le asocie comúnmente con la isla de Rodas. Situada en la costa de Asia Menor, Rodas fue un importante centro cultural y comercial en el Mediterráneo oriental. Su ubicación estratégica facilitó el intercambio entre civilizaciones como los minóicos, micénicos, fenicios y, posteriormente, los griegos. Además Rodas desarrolló una rica tradición marítima y comercial que la consolidó como una potencia insular clave en la región. Otras identificaciones de Dodanim (o los Dodanim, el nombre puede ser plural y referirse a una tribu o pueblo), lo relacionan con los dánaos, un término que Homero usa para referirse a los griegos, en general. [Demsky, 2023] Etimología. Podría derivar de la raíz hebrea dod, que significa \"amado\" o \"amigo.\" (Gn 10:4; 1 Cr 1:7)",
+    "mentions": [
+      "Gn 10:4"
+    ]
   },
   {
     "id": "onomastico/duma",
     "category": "onomastico",
     "name": "Duma",
     "title": "Duma",
-    "text": "Duma. Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Massa, Hadar, Tema, Jetur, Nafis y Cedema.",
-    "body": "Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Massa, Hadar, Tema, Jetur, Nafis y Cedema.",
+    "text": "Duma. Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Massa, Hadar, Tema, Jetur, Nafis y Cedema. Etimología. Significa «silencio» en hebreo.",
+    "body": "Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Massa, Hadar, Tema, Jetur, Nafis y Cedema. Etimología. Significa «silencio» en hebreo.",
     "mentions": [
       "Gn 25:12–16"
     ]
@@ -629,8 +678,8 @@
     "category": "onomastico",
     "name": "Efraín",
     "title": "Efraín",
-    "text": "Efraín. Relaciones familiares. Hijo de José (Zafnat-panea) y Asenat. Hermano de Manasés.",
-    "body": "Relaciones familiares. Hijo de José (Zafnat-panea) y Asenat. Hermano de Manasés.",
+    "text": "Efraín. Relaciones familiares. Hijo de José (Zafnat-panea) y Asenat. Hermano de Manasés. Etimología. El relato lo relaciona con la fecundidad: «fructífero» (Gn 41:52).",
+    "body": "Relaciones familiares. Hijo de José (Zafnat-panea) y Asenat. Hermano de Manasés. Etimología. El relato lo relaciona con la fecundidad: «fructífero» (Gn 41:52).",
     "mentions": [
       "Gn 41:50–52",
       "Gn 46:20",
@@ -680,8 +729,14 @@
     "category": "onomastico",
     "name": "Eliezer",
     "title": "Eliezer",
-    "text": "Eliezer. Siervo principal de Abraham, descrito como el administrador de su casa y potencial heredero antes del nacimiento de Isaac. Eliezer representa la lealtad y la confianza en la narrativa patriarcal. Hechos bíblicos. Es mencionado por primera vez cuando Abraham expresa que, de no tener descendencia, Eliezer de Damasco heredaría su casa (Gn 15:2-3). También se le asocia tradicionalmente con el siervo encargado de buscar esposa para Isaac, quien muestra una fe profunda al orar por guía y reconocer la dirección divina al encontrar a Rebeca (Gn 24:1-67). Etimología. Su nombre en hebreo, Eli‘ezer, significa \"Mi Dios es ayuda,\" reflejando su fe y dependencia de la providencia divina. (Gn 15:2-3, ¿24?)",
-    "body": "Siervo principal de Abraham, descrito como el administrador de su casa y potencial heredero antes del nacimiento de Isaac. Eliezer representa la lealtad y la confianza en la narrativa patriarcal. Hechos bíblicos. Es mencionado por primera vez cuando Abraham expresa que, de no tener descendencia, Eliezer de Damasco heredaría su casa (Gn 15:2-3). También se le asocia tradicionalmente con el siervo encargado de buscar esposa para Isaac, quien muestra una fe profunda al orar por guía y reconocer la dirección divina al encontrar a Rebeca (Gn 24:1-67). Etimología. Su nombre en hebreo, Eli‘ezer, significa \"Mi Dios es ayuda,\" reflejando su fe y dependencia de la providencia divina. (Gn 15:2-3, ¿24?)"
+    "text": "Eliezer. Siervo de Abram, originario de Damasco, mencionado como posible heredero de sus bienes ante la ausencia de descendencia directa (Gn 15:2-3). Hechos bíblicos. En Génesis 15:2-3, Abram expresa su preocupación por no tener hijos y menciona a Eliezer de Damasco como posible heredero de su casa. Tradicionalmente se ha entendido que Eliezer era el administrador de los bienes del patriarca, responsable de gestionar sus propiedades, ganado, sirvientes y transacciones comerciales, lo que lo situaría en una posición privilegiada para heredar sus posesiones. También se le identifica tradicionalmente con el siervo que Abraham envió a Mesopotamia para buscar esposa a Isaac (Gn 24). Este siervo demostró fidelidad a su señor y confianza en la providencia divina, orando para encontrar a la mujer adecuada y reconociendo la intervención de Dios en su encuentro con Rebeca. Etimología. El nombre hebreo *ʾElîʿezer* significa «Mi Dios es ayuda» o «Dios es mi ayuda». En Génesis 15:2 podría existir también un juego de palabras entre *mešeq* y *Dammeśeq* («Damasco»), relacionando la expresión utilizada para describir su posición en la casa de Abram con su procedencia. (Gn 15:2-3; tradicionalmente relacionado con Gn 24:1-67).",
+    "body": "Siervo de Abram, originario de Damasco, mencionado como posible heredero de sus bienes ante la ausencia de descendencia directa (Gn 15:2-3). Hechos bíblicos. En Génesis 15:2-3, Abram expresa su preocupación por no tener hijos y menciona a Eliezer de Damasco como posible heredero de su casa. Tradicionalmente se ha entendido que Eliezer era el administrador de los bienes del patriarca, responsable de gestionar sus propiedades, ganado, sirvientes y transacciones comerciales, lo que lo situaría en una posición privilegiada para heredar sus posesiones. También se le identifica tradicionalmente con el siervo que Abraham envió a Mesopotamia para buscar esposa a Isaac (Gn 24). Este siervo demostró fidelidad a su señor y confianza en la providencia divina, orando para encontrar a la mujer adecuada y reconociendo la intervención de Dios en su encuentro con Rebeca. Etimología. El nombre hebreo *ʾElîʿezer* significa «Mi Dios es ayuda» o «Dios es mi ayuda». En Génesis 15:2 podría existir también un juego de palabras entre *mešeq* y *Dammeśeq* («Damasco»), relacionando la expresión utilizada para describir su posición en la casa de Abram con su procedencia. (Gn 15:2-3; tradicionalmente relacionado con Gn 24:1-67).",
+    "mentions": [
+      "Gn 15:2-3",
+      "Génesis 15:2-3",
+      "Génesis 15:2",
+      "Gn 24:1-67"
+    ]
   },
   {
     "id": "onomastico/elifaz",
@@ -702,16 +757,19 @@
     "category": "onomastico",
     "name": "Elisa",
     "title": "Elisa",
-    "text": "Elisa. Descendiente de Jafet. Relaciones familiares. Hijo de Javán, nieto de Jaffet y biznieto de Noé, hermano de Tarsis, Quitim y Dodanim (Gn 10:4). Identificación. Se le considera el fundador del pueblo chipriota; ya que Chipre era conocida como Alashiya por los acadios, los egipcios, los hititas y los ugaritas. Durante el primer y segundo milenio a.C., Chipre fue un importante centro de comercio y cultura en el Mediterráneo oriental y desarrolló una cultura única influenciada por los pueblos fenicios, micénicos y egipcios. [Demsky, 2023] Etimología. El nombre Elisá podría derivar de las raíces hebreas El, que significa \"Dios\" y yasha, que significa \"salvación\" o \"liberación.\" En este caso, el nombre podría interpretarse como \"Dios es salvación\" o \"Dios salva.\" (Gn 10:4; 1 Cr 1:7)",
-    "body": "Descendiente de Jafet. Relaciones familiares. Hijo de Javán, nieto de Jaffet y biznieto de Noé, hermano de Tarsis, Quitim y Dodanim (Gn 10:4). Identificación. Se le considera el fundador del pueblo chipriota; ya que Chipre era conocida como Alashiya por los acadios, los egipcios, los hititas y los ugaritas. Durante el primer y segundo milenio a.C., Chipre fue un importante centro de comercio y cultura en el Mediterráneo oriental y desarrolló una cultura única influenciada por los pueblos fenicios, micénicos y egipcios. [Demsky, 2023] Etimología. El nombre Elisá podría derivar de las raíces hebreas El, que significa \"Dios\" y yasha, que significa \"salvación\" o \"liberación.\" En este caso, el nombre podría interpretarse como \"Dios es salvación\" o \"Dios salva.\" (Gn 10:4; 1 Cr 1:7)"
+    "text": "Elisa. Descendiente de Jafet. Relaciones familiares. Hijo de Javán, nieto de Jafet y biznieto de Noé, hermano de Tarsis, Quitim y Dodanim (Gn 10:4). Identificación. Se le considera el fundador del pueblo chipriota; ya que Chipre era conocida como Alashiya por los acadios, los egipcios, los hititas y los ugaritas. Durante el primer y segundo milenio a.C., Chipre fue un importante centro de comercio y cultura en el Mediterráneo oriental y desarrolló una cultura única influenciada por los pueblos fenicios, micénicos y egipcios. [Demsky, 2023] Etimología. El nombre Elisá podría derivar de las raíces hebreas El, que significa \"Dios\" y yasha, que significa \"salvación\" o \"liberación.\" En este caso, el nombre podría interpretarse como \"Dios es salvación\" o \"Dios salva.\" (Gn 10:4; 1 Cr 1:7)",
+    "body": "Descendiente de Jafet. Relaciones familiares. Hijo de Javán, nieto de Jafet y biznieto de Noé, hermano de Tarsis, Quitim y Dodanim (Gn 10:4). Identificación. Se le considera el fundador del pueblo chipriota; ya que Chipre era conocida como Alashiya por los acadios, los egipcios, los hititas y los ugaritas. Durante el primer y segundo milenio a.C., Chipre fue un importante centro de comercio y cultura en el Mediterráneo oriental y desarrolló una cultura única influenciada por los pueblos fenicios, micénicos y egipcios. [Demsky, 2023] Etimología. El nombre Elisá podría derivar de las raíces hebreas El, que significa \"Dios\" y yasha, que significa \"salvación\" o \"liberación.\" En este caso, el nombre podría interpretarse como \"Dios es salvación\" o \"Dios salva.\" (Gn 10:4; 1 Cr 1:7)",
+    "mentions": [
+      "Gn 10:4"
+    ]
   },
   {
     "id": "onomastico/elon",
     "category": "onomastico",
     "name": "Elón",
     "title": "Elón",
-    "text": "Elón. Relaciones familiares. Hijo de Zabulón. Hermano de Sered y Jahleel.",
-    "body": "Relaciones familiares. Hijo de Zabulón. Hermano de Sered y Jahleel.",
+    "text": "Elón. Relaciones familiares. Hijo de Zabulón. Hermano de Sered y Jahleel. Etimología. El nombre hebreo designa una «encina» o un «terebinto».",
+    "body": "Relaciones familiares. Hijo de Zabulón. Hermano de Sered y Jahleel. Etimología. El nombre hebreo designa una «encina» o un «terebinto».",
     "mentions": [
       "Gn 46:14"
     ]
@@ -745,8 +803,8 @@
     "category": "onomastico",
     "name": "Er",
     "title": "Er",
-    "text": "Er. Relaciones familiares. Hijo de Judá y la hija de Súa. Hermano de Onán y Sela. Cónyuge de Tamar.",
-    "body": "Relaciones familiares. Hijo de Judá y la hija de Súa. Hermano de Onán y Sela. Cónyuge de Tamar.",
+    "text": "Er. Relaciones familiares. Hijo de Judá y la hija de Súa. Hermano de Onán y Sela. Cónyuge de Tamar. Etimología. Se relaciona con «vigilante» o «despierto».",
+    "body": "Relaciones familiares. Hijo de Judá y la hija de Súa. Hermano de Onán y Sela. Cónyuge de Tamar. Etimología. Se relaciona con «vigilante» o «despierto».",
     "mentions": [
       "Gn 38:2–5",
       "Gn 38:6–7"
@@ -768,8 +826,8 @@
     "category": "onomastico",
     "name": "Esaú (Edom)",
     "title": "Esaú (Edom)",
-    "text": "Esaú (Edom). Relaciones familiares. Hijo de Isaac y Rebeca. Hermano de Jacob (Israel). Padre de Elifaz con Ada (mujer de Esaú). Padre de Reuel con Basemat (hija de Ismael). Padre de Jeús, Jaalam y Coré (hijo de Esaú) con Aholibama (mujer de Esaú). Cónyuge de Judit (hija de Beeri). Cónyuge de Basemat (hija de Elón). Cónyuge de Mahalat (hija de Ismael).",
-    "body": "Relaciones familiares. Hijo de Isaac y Rebeca. Hermano de Jacob (Israel). Padre de Elifaz con Ada (mujer de Esaú). Padre de Reuel con Basemat (hija de Ismael). Padre de Jeús, Jaalam y Coré (hijo de Esaú) con Aholibama (mujer de Esaú). Cónyuge de Judit (hija de Beeri). Cónyuge de Basemat (hija de Elón). Cónyuge de Mahalat (hija de Ismael).",
+    "text": "Esaú (Edom). Relaciones familiares. Hijo de Isaac y Rebeca. Hermano de Jacob (Israel). Padre de Elifaz con Ada (mujer de Esaú). Padre de Reuel con Basemat (hija de Ismael). Padre de Jeús, Jaalam y Coré (hijo de Esaú) con Aholibama (mujer de Esaú). Cónyuge de Judit (hija de Beeri). Cónyuge de Basemat (hija de Elón). Cónyuge de Mahalat (hija de Ismael). Etimología. El nombre Esaú se asocia en el relato con el vello de su nacimiento, mientras que Edom se relaciona con el color «rojo» (Gn 25:25,30).",
+    "body": "Relaciones familiares. Hijo de Isaac y Rebeca. Hermano de Jacob (Israel). Padre de Elifaz con Ada (mujer de Esaú). Padre de Reuel con Basemat (hija de Ismael). Padre de Jeús, Jaalam y Coré (hijo de Esaú) con Aholibama (mujer de Esaú). Cónyuge de Judit (hija de Beeri). Cónyuge de Basemat (hija de Elón). Cónyuge de Mahalat (hija de Ismael). Etimología. El nombre Esaú se asocia en el relato con el vello de su nacimiento, mientras que Edom se relaciona con el color «rojo» (Gn 25:25,30).",
     "mentions": [
       "Gn 25:19–26",
       "Gn 26:34",
@@ -823,16 +881,19 @@
     "category": "onomastico",
     "name": "Faraón",
     "title": "Faraón",
-    "text": "Faraón. Este era el título de los monarcas del antiguo Egipto. Los faraones eran considerados no solo gobernantes, sino también deidades vivientes, eran el vínculo entre los dioses y su pueblo. Su autoridad absoluta abarcaba la gestión de vastos recursos, campañas militares y la construcción de monumentos que desafiaban el tiempo, como las pirámides y templos. En la Biblia nunca se cita el nombre del faraón de turno, siendo, necesariamente, uno distinto en cada episodio bíblico. Dentro de Génesis podemos contabilizar dos: el interlocutor de Abraham (Gn 12:10-20) y el benefactor de José. Según la identificación tradicional, el primero sería un faraón perteneciente al Reino Medio, un periodo de prosperidad y crecimiento cultural, mientras que el segundo correspondería a la dinastía invasora de los hicsos. (Gn 12:10-20; 37:36; 39:1-23; 40:1-23; 41:1-57; 47:1-26; Ex 1:8-22; 2:1-10; 3:1-22; 5:1-23; 7-12; 14:1-31; 1R 3:1; 9:16; 2R 18:21; Jr 44:30; Ez 29-32; Hch 7:10)",
-    "body": "Este era el título de los monarcas del antiguo Egipto. Los faraones eran considerados no solo gobernantes, sino también deidades vivientes, eran el vínculo entre los dioses y su pueblo. Su autoridad absoluta abarcaba la gestión de vastos recursos, campañas militares y la construcción de monumentos que desafiaban el tiempo, como las pirámides y templos. En la Biblia nunca se cita el nombre del faraón de turno, siendo, necesariamente, uno distinto en cada episodio bíblico. Dentro de Génesis podemos contabilizar dos: el interlocutor de Abraham (Gn 12:10-20) y el benefactor de José. Según la identificación tradicional, el primero sería un faraón perteneciente al Reino Medio, un periodo de prosperidad y crecimiento cultural, mientras que el segundo correspondería a la dinastía invasora de los hicsos. (Gn 12:10-20; 37:36; 39:1-23; 40:1-23; 41:1-57; 47:1-26; Ex 1:8-22; 2:1-10; 3:1-22; 5:1-23; 7-12; 14:1-31; 1R 3:1; 9:16; 2R 18:21; Jr 44:30; Ez 29-32; Hch 7:10)"
+    "text": "Faraón. Título utilizado para designar a los monarcas del antiguo Egipto. Descripción. Los faraones ejercían la máxima autoridad política y religiosa del Estado egipcio. Su figura poseía un carácter sagrado y se les atribuía una relación especial con los dioses. Su autoridad comprendía la administración del territorio, la organización de campañas militares, la gestión de los recursos del reino y la construcción de grandes monumentos, como templos y pirámides. Hechos bíblicos. En el Génesis aparecen dos faraones principales cuyos nombres personales no se indican. El primero recibió a Abram durante su estancia en Egipto y tomó a Sarai creyendo que era su hermana. Tras las plagas que afectaron a su casa, ordenó que Abram abandonara el país (Gn 12:10-20). El segundo gobernaba Egipto durante la vida de José. Después de que este interpretara sus sueños, lo nombró gobernador del país y le confió la administración de los recursos ante los años de abundancia y hambre que se avecinaban (Gn 41). Identificación. Se han propuesto distintas identificaciones históricas para ambos gobernantes. Algunas reconstrucciones sitúan el episodio de Abraham durante el Reino Medio de Egipto, mientras que otras relacionan la historia de José con el Segundo Periodo Intermedio y el dominio de los hicsos, gobernantes de origen asiático que controlaron parte de Egipto. Sin embargo, el texto bíblico no ofrece información suficiente para identificar a estos faraones con monarcas históricos concretos. Tampoco existe consenso académico sobre la cronología precisa de los acontecimientos narrados. Etimología. El término «faraón» procede del egipcio *pr-ꜥꜣ*, «casa grande», originalmente una denominación del palacio real que posteriormente pasó a utilizarse para referirse al propio monarca. (Gn 12:10-20; 37:36; 39–41; 47:1-26; Ex 1–14; 1 R 3:1; 9:16; 2 R 18:21; Jer 44:30; Ez 29–32; Hch 7:10).",
+    "body": "Título utilizado para designar a los monarcas del antiguo Egipto. Descripción. Los faraones ejercían la máxima autoridad política y religiosa del Estado egipcio. Su figura poseía un carácter sagrado y se les atribuía una relación especial con los dioses. Su autoridad comprendía la administración del territorio, la organización de campañas militares, la gestión de los recursos del reino y la construcción de grandes monumentos, como templos y pirámides. Hechos bíblicos. En el Génesis aparecen dos faraones principales cuyos nombres personales no se indican. El primero recibió a Abram durante su estancia en Egipto y tomó a Sarai creyendo que era su hermana. Tras las plagas que afectaron a su casa, ordenó que Abram abandonara el país (Gn 12:10-20). El segundo gobernaba Egipto durante la vida de José. Después de que este interpretara sus sueños, lo nombró gobernador del país y le confió la administración de los recursos ante los años de abundancia y hambre que se avecinaban (Gn 41). Identificación. Se han propuesto distintas identificaciones históricas para ambos gobernantes. Algunas reconstrucciones sitúan el episodio de Abraham durante el Reino Medio de Egipto, mientras que otras relacionan la historia de José con el Segundo Periodo Intermedio y el dominio de los hicsos, gobernantes de origen asiático que controlaron parte de Egipto. Sin embargo, el texto bíblico no ofrece información suficiente para identificar a estos faraones con monarcas históricos concretos. Tampoco existe consenso académico sobre la cronología precisa de los acontecimientos narrados. Etimología. El término «faraón» procede del egipcio *pr-ꜥꜣ*, «casa grande», originalmente una denominación del palacio real que posteriormente pasó a utilizarse para referirse al propio monarca. (Gn 12:10-20; 37:36; 39–41; 47:1-26; Ex 1–14; 1 R 3:1; 9:16; 2 R 18:21; Jer 44:30; Ez 29–32; Hch 7:10).",
+    "mentions": [
+      "Gn 12:10-20"
+    ]
   },
   {
     "id": "onomastico/fares",
     "category": "onomastico",
     "name": "Fares",
     "title": "Fares",
-    "text": "Fares. Relaciones familiares. Hijo de Judá y Tamar. Hermano de Zara. Padre de Hezrón (hijo de Fares) y Hamul.",
-    "body": "Relaciones familiares. Hijo de Judá y Tamar. Hermano de Zara. Padre de Hezrón (hijo de Fares) y Hamul.",
+    "text": "Fares. Relaciones familiares. Hijo de Judá y Tamar. Hermano de Zara. Padre de Hezrón (hijo de Fares) y Hamul. Etimología. Del hebreo *Péreṣ*, «brecha» o «irrupción»; el relato lo explica mediante el nacimiento de los gemelos (Gn 38:29).",
+    "body": "Relaciones familiares. Hijo de Judá y Tamar. Hermano de Zara. Padre de Hezrón (hijo de Fares) y Hamul. Etimología. Del hebreo *Péreṣ*, «brecha» o «irrupción»; el relato lo explica mediante el nacimiento de los gemelos (Gn 38:29).",
     "mentions": [
       "Gn 38:27–30",
       "Gn 46:12"
@@ -870,8 +931,8 @@
     "category": "onomastico",
     "name": "Gad",
     "title": "Gad",
-    "text": "Gad. Relaciones familiares. Hijo de Jacob (Israel) y Zilpa. Hermano de Aser. Padre de Zifión, Hagui, Ezbón, Suni, Eri, Arodi y Areli.",
-    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Zilpa. Hermano de Aser. Padre de Zifión, Hagui, Ezbón, Suni, Eri, Arodi y Areli.",
+    "text": "Gad. Relaciones familiares. Hijo de Jacob (Israel) y Zilpa. Hermano de Aser. Padre de Zifión, Hagui, Ezbón, Suni, Eri, Arodi y Areli. Etimología. Se asocia con la «fortuna» o la «buena suerte» en Génesis 30:11.",
+    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Zilpa. Hermano de Aser. Padre de Zifión, Hagui, Ezbón, Suni, Eri, Arodi y Areli. Etimología. Se asocia con la «fortuna» o la «buena suerte» en Génesis 30:11.",
     "mentions": [
       "Gn 30:9–13",
       "Gn 46:16"
@@ -882,8 +943,11 @@
     "category": "onomastico",
     "name": "Gaham",
     "title": "Gaham",
-    "text": "Gaham: Uno de los hijos de Reúma, concubina de Nacor (hijo de Taré). Relaciones familiares. Hijo de Reúma y Nacor (hijo de Taré), hermano de Teba, Tahas y Maaca. Etimología: Gaham podría significar \"oscuro\" o \"quemado\". (Gn 22:24)",
-    "body": "Uno de los hijos de Reúma, concubina de Nacor (hijo de Taré). Relaciones familiares. Hijo de Reúma y Nacor (hijo de Taré), hermano de Teba, Tahas y Maaca. Etimología: Gaham podría significar \"oscuro\" o \"quemado\". (Gn 22:24)"
+    "text": "Gaham. Uno de los hijos de Reúma, concubina de Nacor (hijo de Taré). Relaciones familiares. Hijo de Reúma y Nacor (hijo de Taré), hermano de Teba, Tahas y Maaca. Etimología. Gaham podría significar \"oscuro\" o \"quemado\". (Gn 22:24)",
+    "body": "Uno de los hijos de Reúma, concubina de Nacor (hijo de Taré). Relaciones familiares. Hijo de Reúma y Nacor (hijo de Taré), hermano de Teba, Tahas y Maaca. Etimología. Gaham podría significar \"oscuro\" o \"quemado\". (Gn 22:24)",
+    "mentions": [
+      "Gn 22:24"
+    ]
   },
   {
     "id": "onomastico/gatam",
@@ -912,8 +976,8 @@
     "category": "onomastico",
     "name": "Gersón",
     "title": "Gersón",
-    "text": "Gersón. Relaciones familiares. Hijo de Leví. Hermano de Coat y Merari.",
-    "body": "Relaciones familiares. Hijo de Leví. Hermano de Coat y Merari.",
+    "text": "Gersón. Relaciones familiares. Hijo de Leví. Hermano de Coat y Merari. Etimología. Se relaciona con «expulsión» o «destierro».",
+    "body": "Relaciones familiares. Hijo de Leví. Hermano de Coat y Merari. Etimología. Se relaciona con «expulsión» o «destierro».",
     "mentions": [
       "Gn 46:11"
     ]
@@ -931,8 +995,13 @@
     "category": "onomastico",
     "name": "Gomer",
     "title": "Gomer",
-    "text": "Gomer. Hijo de Jafet. Relaciones familiares. Hijo de Jaffet y hermano de Gomer, Magog, Madai, Javán, Tubal, Mesec y Tiras (Gn 10:2). Tuvo, al menos, 3 hijos: Askenaz, Rifat y Togarma (Gn 10:3). Identificación. Se le suele asociar con los Cimerios, un pueblo nómada de cultura escita, que habitó originalmente en las estepas al norte del Cáucaso y que después se desplazó a Asia Menor [Sayce,1898] y zonas del norte de Irán [Olbrycht, 2000b]. En fuentes helenistas y asirias se hace referencia a ellos como un pueblo invasor conocido con nombres como Gimirru o Gimirrai. Etimología. Su nombre, Gamer, puede referirse a gmr “completitud” o “fin”. [Brown, 1906] (Gn 10:2-3; 1 Cr 1:5)",
-    "body": "Hijo de Jafet. Relaciones familiares. Hijo de Jaffet y hermano de Gomer, Magog, Madai, Javán, Tubal, Mesec y Tiras (Gn 10:2). Tuvo, al menos, 3 hijos: Askenaz, Rifat y Togarma (Gn 10:3). Identificación. Se le suele asociar con los Cimerios, un pueblo nómada de cultura escita, que habitó originalmente en las estepas al norte del Cáucaso y que después se desplazó a Asia Menor [Sayce,1898] y zonas del norte de Irán [Olbrycht, 2000b]. En fuentes helenistas y asirias se hace referencia a ellos como un pueblo invasor conocido con nombres como Gimirru o Gimirrai. Etimología. Su nombre, Gamer, puede referirse a gmr “completitud” o “fin”. [Brown, 1906] (Gn 10:2-3; 1 Cr 1:5)"
+    "text": "Gomer. Hijo de Jafet. Relaciones familiares. Hijo de Jafet y hermano de Gomer, Magog, Madai, Javán, Tubal, Mesec y Tiras (Gn 10:2). Tuvo, al menos, 3 hijos: Askenaz, Rifat y Togarma (Gn 10:3). Identificación. Se le suele asociar con los Cimerios, un pueblo nómada de cultura escita, que habitó originalmente en las estepas al norte del Cáucaso y que después se desplazó a Asia Menor [Sayce,1898] y zonas del norte de Irán [Olbrycht, 2000b]. En fuentes helenistas y asirias se hace referencia a ellos como un pueblo invasor conocido con nombres como Gimirru o Gimirrai. Etimología. Su nombre, Gamer, puede referirse a gmr “completitud” o “fin”. [Brown, 1906] (Gn 10:2-3; 1 Cr 1:5)",
+    "body": "Hijo de Jafet. Relaciones familiares. Hijo de Jafet y hermano de Gomer, Magog, Madai, Javán, Tubal, Mesec y Tiras (Gn 10:2). Tuvo, al menos, 3 hijos: Askenaz, Rifat y Togarma (Gn 10:3). Identificación. Se le suele asociar con los Cimerios, un pueblo nómada de cultura escita, que habitó originalmente en las estepas al norte del Cáucaso y que después se desplazó a Asia Menor [Sayce,1898] y zonas del norte de Irán [Olbrycht, 2000b]. En fuentes helenistas y asirias se hace referencia a ellos como un pueblo invasor conocido con nombres como Gimirru o Gimirrai. Etimología. Su nombre, Gamer, puede referirse a gmr “completitud” o “fin”. [Brown, 1906] (Gn 10:2-3; 1 Cr 1:5)",
+    "mentions": [
+      "Gn 10:2",
+      "Gn 10:3",
+      "Gn 10:2-3"
+    ]
   },
   {
     "id": "onomastico/guni",
@@ -950,8 +1019,8 @@
     "category": "onomastico",
     "name": "Hadar",
     "title": "Hadar",
-    "text": "Hadar. Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Duma, Massa, Tema, Jetur, Nafis y Cedema.",
-    "body": "Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Duma, Massa, Tema, Jetur, Nafis y Cedema.",
+    "text": "Hadar. Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Duma, Massa, Tema, Jetur, Nafis y Cedema. Etimología. El nombre significa «esplendor» u «honor».",
+    "body": "Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Duma, Massa, Tema, Jetur, Nafis y Cedema. Etimología. El nombre significa «esplendor» u «honor».",
     "mentions": [
       "Gn 25:12–16"
     ]
@@ -961,8 +1030,8 @@
     "category": "onomastico",
     "name": "Hagui",
     "title": "Hagui",
-    "text": "Hagui. Relaciones familiares. Hijo de Gad. Hermano de Zifión, Ezbón, Suni, Eri, Arodi y Areli.",
-    "body": "Relaciones familiares. Hijo de Gad. Hermano de Zifión, Ezbón, Suni, Eri, Arodi y Areli.",
+    "text": "Hagui. Relaciones familiares. Hijo de Gad. Hermano de Zifión, Ezbón, Suni, Eri, Arodi y Areli. Etimología. Se relaciona con las «fiestas» o celebraciones.",
+    "body": "Relaciones familiares. Hijo de Gad. Hermano de Zifión, Ezbón, Suni, Eri, Arodi y Areli. Etimología. Se relaciona con las «fiestas» o celebraciones.",
     "mentions": [
       "Gn 46:16"
     ]
@@ -972,8 +1041,8 @@
     "category": "onomastico",
     "name": "Hamul",
     "title": "Hamul",
-    "text": "Hamul. Relaciones familiares. Hijo de Fares. Hermano de Hezrón (hijo de Fares).",
-    "body": "Relaciones familiares. Hijo de Fares. Hermano de Hezrón (hijo de Fares).",
+    "text": "Hamul. Relaciones familiares. Hijo de Fares. Hermano de Hezrón (hijo de Fares). Etimología. Se ha relacionado con «compadecido» o «perdonado».",
+    "body": "Relaciones familiares. Hijo de Fares. Hermano de Hezrón (hijo de Fares). Etimología. Se ha relacionado con «compadecido» o «perdonado».",
     "mentions": [
       "Gn 46:12"
     ]
@@ -983,8 +1052,8 @@
     "category": "onomastico",
     "name": "Hanoc (hijo de Madián)",
     "title": "Hanoc (hijo de Madián)",
-    "text": "Hanoc (hijo de Madián). Relaciones familiares. Hijo de Madián. Hermano de Efa, Efer, Abida y Elda.",
-    "body": "Relaciones familiares. Hijo de Madián. Hermano de Efa, Efer, Abida y Elda.",
+    "text": "Hanoc (hijo de Madián). Relaciones familiares. Hijo de Madián. Hermano de Efa, Efer, Abida y Elda. Etimología. El nombre significa «dedicado» o «consagrado».",
+    "body": "Relaciones familiares. Hijo de Madián. Hermano de Efa, Efer, Abida y Elda. Etimología. El nombre significa «dedicado» o «consagrado».",
     "mentions": [
       "Gn 25:4"
     ]
@@ -994,8 +1063,8 @@
     "category": "onomastico",
     "name": "Hanoc (hijo de Rubén)",
     "title": "Hanoc (hijo de Rubén)",
-    "text": "Hanoc (hijo de Rubén). Relaciones familiares. Hijo de Rubén. Hermano de Falú, Hezrón (hijo de Rubén) y Carmi.",
-    "body": "Relaciones familiares. Hijo de Rubén. Hermano de Falú, Hezrón (hijo de Rubén) y Carmi.",
+    "text": "Hanoc (hijo de Rubén). Relaciones familiares. Hijo de Rubén. Hermano de Falú, Hezrón (hijo de Rubén) y Carmi. Etimología. El nombre significa «dedicado» o «consagrado».",
+    "body": "Relaciones familiares. Hijo de Rubén. Hermano de Falú, Hezrón (hijo de Rubén) y Carmi. Etimología. El nombre significa «dedicado» o «consagrado».",
     "mentions": [
       "Gn 46:9"
     ]
@@ -1045,8 +1114,8 @@
     "category": "onomastico",
     "name": "Heber (hijo de Bería)",
     "title": "Heber (hijo de Bería)",
-    "text": "Heber (hijo de Bería). Relaciones familiares. Hijo de Bería. Hermano de Malquiel.",
-    "body": "Relaciones familiares. Hijo de Bería. Hermano de Malquiel.",
+    "text": "Heber (hijo de Bería). Relaciones familiares. Hijo de Bería. Hermano de Malquiel. Etimología. Se relaciona con «compañero» o «aliado».",
+    "body": "Relaciones familiares. Hijo de Bería. Hermano de Malquiel. Etimología. Se relaciona con «compañero» o «aliado».",
     "mentions": [
       "Gn 46:17"
     ]
@@ -1072,8 +1141,8 @@
     "category": "onomastico",
     "name": "Hezrón (hijo de Fares)",
     "title": "Hezrón (hijo de Fares)",
-    "text": "Hezrón (hijo de Fares). Relaciones familiares. Hijo de Fares. Hermano de Hamul.",
-    "body": "Relaciones familiares. Hijo de Fares. Hermano de Hamul.",
+    "text": "Hezrón (hijo de Fares). Relaciones familiares. Hijo de Fares. Hermano de Hamul. Etimología. Se relaciona con un «recinto» o «cercado».",
+    "body": "Relaciones familiares. Hijo de Fares. Hermano de Hamul. Etimología. Se relaciona con un «recinto» o «cercado».",
     "mentions": [
       "Gn 46:12"
     ]
@@ -1083,8 +1152,8 @@
     "category": "onomastico",
     "name": "Hezrón (hijo de Rubén)",
     "title": "Hezrón (hijo de Rubén)",
-    "text": "Hezrón (hijo de Rubén). Relaciones familiares. Hijo de Rubén. Hermano de Hanoc (hijo de Rubén), Falú y Carmi.",
-    "body": "Relaciones familiares. Hijo de Rubén. Hermano de Hanoc (hijo de Rubén), Falú y Carmi.",
+    "text": "Hezrón (hijo de Rubén). Relaciones familiares. Hijo de Rubén. Hermano de Hanoc (hijo de Rubén), Falú y Carmi. Etimología. Se relaciona con un «recinto» o «cercado».",
+    "body": "Relaciones familiares. Hijo de Rubén. Hermano de Hanoc (hijo de Rubén), Falú y Carmi. Etimología. Se relaciona con un «recinto» o «cercado».",
     "mentions": [
       "Gn 46:9"
     ]
@@ -1151,8 +1220,8 @@
     "category": "onomastico",
     "name": "Isacar",
     "title": "Isacar",
-    "text": "Isacar. Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Simeón, Leví, Judá, Zabulón y Dina. Padre de Tola, Fúa, Job y Simrón.",
-    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Simeón, Leví, Judá, Zabulón y Dina. Padre de Tola, Fúa, Job y Simrón.",
+    "text": "Isacar. Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Simeón, Leví, Judá, Zabulón y Dina. Padre de Tola, Fúa, Job y Simrón. Etimología. La explicación de Génesis relaciona el nombre con la «recompensa» (Gn 30:18).",
+    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Simeón, Leví, Judá, Zabulón y Dina. Padre de Tola, Fúa, Job y Simrón. Etimología. La explicación de Génesis relaciona el nombre con la «recompensa» (Gn 30:18).",
     "mentions": [
       "Gn 29:31–35",
       "Gn 30:17–21",
@@ -1232,8 +1301,8 @@
     "category": "onomastico",
     "name": "Jacob (Israel)",
     "title": "Jacob (Israel)",
-    "text": "Jacob (Israel). Relaciones familiares. Hijo de Isaac y Rebeca. Hermano de Esaú (Edom). Padre de Rubén, Simeón, Leví, Judá, Isacar, Zabulón y Dina con Lea. Padre de José (Zafnat-panea) y Benjamín (Benoni) con Raquel. Padre de Dan y Neftalí con Bilha. Padre de Gad y Aser con Zilpa.",
-    "body": "Relaciones familiares. Hijo de Isaac y Rebeca. Hermano de Esaú (Edom). Padre de Rubén, Simeón, Leví, Judá, Isacar, Zabulón y Dina con Lea. Padre de José (Zafnat-panea) y Benjamín (Benoni) con Raquel. Padre de Dan y Neftalí con Bilha. Padre de Gad y Aser con Zilpa.",
+    "text": "Jacob (Israel). Relaciones familiares. Hijo de Isaac y Rebeca. Hermano de Esaú (Edom). Padre de Rubén, Simeón, Leví, Judá, Isacar, Zabulón y Dina con Lea. Padre de José (Zafnat-panea) y Benjamín (Benoni) con Raquel. Padre de Dan y Neftalí con Bilha. Padre de Gad y Aser con Zilpa. Etimología. Jacob se relaciona con «talón» (Gn 25:26), e Israel se explica en el relato mediante su lucha con Dios (Gn 32:28). Se trata de explicaciones narrativas de los nombres.",
+    "body": "Relaciones familiares. Hijo de Isaac y Rebeca. Hermano de Esaú (Edom). Padre de Rubén, Simeón, Leví, Judá, Isacar, Zabulón y Dina con Lea. Padre de José (Zafnat-panea) y Benjamín (Benoni) con Raquel. Padre de Dan y Neftalí con Bilha. Padre de Gad y Aser con Zilpa. Etimología. Jacob se relaciona con «talón» (Gn 25:26), e Israel se explica en el relato mediante su lucha con Dios (Gn 32:28). Se trata de explicaciones narrativas de los nombres.",
     "mentions": [
       "Gn 25:19–26",
       "Gn 29:31–35",
@@ -1249,16 +1318,23 @@
     "category": "onomastico",
     "name": "Jafet",
     "title": "Jafet (1556?-)",
-    "text": "Jafet (1556?-). Hijo de Noé. Relaciones familiares. Hijo de Noé y hermano de Cam y Sem (Gn 5:32). Padre de Gomer, Magog, Madai, Javán, Tubal, Mesec y Tiras (Gn 10:2). Hechos bíblicos. Él y sus descendientes fueron bendecidos por Noé por ayudarlo cuando estaba ebrio (Gn 9:20-27). Identificación. Se le considera el ancestro de los pueblos europeos. Etimología. Su nombre, Yepet, pude estar relacionado con “extensión” dando a entender que sus descendiente se extenderían por una gran extensión del mundo. (Gn 9:27). Otras interpretaciones alternativas relacionan el nombre con y-p-h “belleza” (Talmud 9b], con el dios/titán griego Iapetos [Demsky, 2023] o el dios hindú Pra-Japati [West, 2007]. (Gn 5:32, 6:10, 9:18-27, 10:2-5; 1 Cr 1:4)",
-    "body": "Hijo de Noé. Relaciones familiares. Hijo de Noé y hermano de Cam y Sem (Gn 5:32). Padre de Gomer, Magog, Madai, Javán, Tubal, Mesec y Tiras (Gn 10:2). Hechos bíblicos. Él y sus descendientes fueron bendecidos por Noé por ayudarlo cuando estaba ebrio (Gn 9:20-27). Identificación. Se le considera el ancestro de los pueblos europeos. Etimología. Su nombre, Yepet, pude estar relacionado con “extensión” dando a entender que sus descendiente se extenderían por una gran extensión del mundo. (Gn 9:27). Otras interpretaciones alternativas relacionan el nombre con y-p-h “belleza” (Talmud 9b], con el dios/titán griego Iapetos [Demsky, 2023] o el dios hindú Pra-Japati [West, 2007]. (Gn 5:32, 6:10, 9:18-27, 10:2-5; 1 Cr 1:4)"
+    "text": "Jafet. Hijo de Noé y antepasado de diversos pueblos mencionados en la Tabla de Naciones. Relaciones familiares. Hijo de Noé y hermano de Sem y Cam (Gn 5:32). Fue padre de Gomer, Magog, Madai, Javán, Tubal, Mesec y Tiras (Gn 10:2). Hechos bíblicos. Junto con su hermano Sem, cubrió la desnudez de Noé mientras este se encontraba ebrio, evitando contemplarlo directamente (Gn 9:23). Posteriormente, Noé pidió que Dios engrandeciera a Jafet y que habitara en las tiendas de Sem (Gn 9:27). Identificación. Tradicionalmente se ha considerado a Jafet como antepasado de los pueblos europeos. Sin embargo, las identificaciones propuestas para sus descendientes abarcan un territorio más amplio, que incluye Europa, Anatolia, el Cáucaso y regiones del Próximo Oriente. Entre las identificaciones más habituales se encuentran Javán con los griegos jonios, Madai con los medos y Gomer con los cimerios. Otros nombres, como Tubal y Mesec, se relacionan frecuentemente con pueblos de Anatolia. Por tanto, la descendencia de Jafet no debe limitarse exclusivamente a Europa. Etimología. El nombre hebreo *Yepet* podría relacionarse con la raíz *pātâ*, «ensanchar» o «extender», en posible relación con la bendición de Génesis 9:27. Otra interpretación lo relaciona con la raíz hebrea *yāp̄â*, «ser bello». (Gn 5:32; 6:10; 9:18-27; 10:2-5; 1 Cr 1:4).",
+    "body": "Hijo de Noé y antepasado de diversos pueblos mencionados en la Tabla de Naciones. Relaciones familiares. Hijo de Noé y hermano de Sem y Cam (Gn 5:32). Fue padre de Gomer, Magog, Madai, Javán, Tubal, Mesec y Tiras (Gn 10:2). Hechos bíblicos. Junto con su hermano Sem, cubrió la desnudez de Noé mientras este se encontraba ebrio, evitando contemplarlo directamente (Gn 9:23). Posteriormente, Noé pidió que Dios engrandeciera a Jafet y que habitara en las tiendas de Sem (Gn 9:27). Identificación. Tradicionalmente se ha considerado a Jafet como antepasado de los pueblos europeos. Sin embargo, las identificaciones propuestas para sus descendientes abarcan un territorio más amplio, que incluye Europa, Anatolia, el Cáucaso y regiones del Próximo Oriente. Entre las identificaciones más habituales se encuentran Javán con los griegos jonios, Madai con los medos y Gomer con los cimerios. Otros nombres, como Tubal y Mesec, se relacionan frecuentemente con pueblos de Anatolia. Por tanto, la descendencia de Jafet no debe limitarse exclusivamente a Europa. Etimología. El nombre hebreo *Yepet* podría relacionarse con la raíz *pātâ*, «ensanchar» o «extender», en posible relación con la bendición de Génesis 9:27. Otra interpretación lo relaciona con la raíz hebrea *yāp̄â*, «ser bello». (Gn 5:32; 6:10; 9:18-27; 10:2-5; 1 Cr 1:4).",
+    "mentions": [
+      "Gn 5:32",
+      "Gn 10:2",
+      "Gn 9:23",
+      "Gn 9:27",
+      "Génesis 9:27"
+    ]
   },
   {
     "id": "onomastico/jahleel",
     "category": "onomastico",
     "name": "Jahleel",
     "title": "Jahleel",
-    "text": "Jahleel. Relaciones familiares. Hijo de Zabulón. Hermano de Sered y Elón.",
-    "body": "Relaciones familiares. Hijo de Zabulón. Hermano de Sered y Elón.",
+    "text": "Jahleel. Relaciones familiares. Hijo de Zabulón. Hermano de Sered y Elón. Etimología. Su nombre se interpreta como «el que espera en Dios».",
+    "body": "Relaciones familiares. Hijo de Zabulón. Hermano de Sered y Elón. Etimología. Su nombre se interpreta como «el que espera en Dios».",
     "mentions": [
       "Gn 46:14"
     ]
@@ -1268,8 +1344,8 @@
     "category": "onomastico",
     "name": "Jahzeel",
     "title": "Jahzeel",
-    "text": "Jahzeel. Relaciones familiares. Hijo de Neftalí. Hermano de Guni, Jezer y Silem.",
-    "body": "Relaciones familiares. Hijo de Neftalí. Hermano de Guni, Jezer y Silem.",
+    "text": "Jahzeel. Relaciones familiares. Hijo de Neftalí. Hermano de Guni, Jezer y Silem. Etimología. Se interpreta como «Dios reparte» o «Dios asigna».",
+    "body": "Relaciones familiares. Hijo de Neftalí. Hermano de Guni, Jezer y Silem. Etimología. Se interpreta como «Dios reparte» o «Dios asigna».",
     "mentions": [
       "Gn 46:24"
     ]
@@ -1279,8 +1355,8 @@
     "category": "onomastico",
     "name": "Jamín",
     "title": "Jamín",
-    "text": "Jamín. Relaciones familiares. Hijo de Simeón. Hermano de Jemuel, Ohad, Jaquín y Zohar.",
-    "body": "Relaciones familiares. Hijo de Simeón. Hermano de Jemuel, Ohad, Jaquín y Zohar.",
+    "text": "Jamín. Relaciones familiares. Hijo de Simeón. Hermano de Jemuel, Ohad, Jaquín y Zohar. Etimología. El nombre significa «derecha» o «mano derecha».",
+    "body": "Relaciones familiares. Hijo de Simeón. Hermano de Jemuel, Ohad, Jaquín y Zohar. Etimología. El nombre significa «derecha» o «mano derecha».",
     "mentions": [
       "Gn 46:10"
     ]
@@ -1290,8 +1366,8 @@
     "category": "onomastico",
     "name": "Jaquín",
     "title": "Jaquín",
-    "text": "Jaquín. Relaciones familiares. Hijo de Simeón. Hermano de Jemuel, Jamín, Ohad y Zohar.",
-    "body": "Relaciones familiares. Hijo de Simeón. Hermano de Jemuel, Jamín, Ohad y Zohar.",
+    "text": "Jaquín. Relaciones familiares. Hijo de Simeón. Hermano de Jemuel, Jamín, Ohad y Zohar. Etimología. Su nombre puede significar «él establecerá».",
+    "body": "Relaciones familiares. Hijo de Simeón. Hermano de Jemuel, Jamín, Ohad y Zohar. Etimología. Su nombre puede significar «él establecerá».",
     "mentions": [
       "Gn 46:10"
     ]
@@ -1309,8 +1385,12 @@
     "category": "onomastico",
     "name": "Javán",
     "title": "Javán",
-    "text": "Javán. Hijo de Jafet. Relaciones familiares. Hijo de Jaffet y hermano de Gomer, Magog, Madai, Tubal, Mesec y Tiras (Gn 10:2). Tuvo 4 hijos: Elisa, Tarsis, Quitim y Dodanim (Gn 10:4). Identificación. Su nombre se relaciona con los jonios, los griegos que habitaban la costa oeste de Asia Menor; por tanto el consenso mayoritario es que Javán fue el antecesor de los helenos. [Demsky, 2023] De hecho, el propio nombre en hebreo para los griegos es Yawan [Jewish, 1983]. Etimología.  Vinculada con la raíz hebrea yaven, que significa \"lodo\" o \"arcilla\". (Gn 10:2,4; 1 Cr 1:5)",
-    "body": "Hijo de Jafet. Relaciones familiares. Hijo de Jaffet y hermano de Gomer, Magog, Madai, Tubal, Mesec y Tiras (Gn 10:2). Tuvo 4 hijos: Elisa, Tarsis, Quitim y Dodanim (Gn 10:4). Identificación. Su nombre se relaciona con los jonios, los griegos que habitaban la costa oeste de Asia Menor; por tanto el consenso mayoritario es que Javán fue el antecesor de los helenos. [Demsky, 2023] De hecho, el propio nombre en hebreo para los griegos es Yawan [Jewish, 1983]. Etimología.  Vinculada con la raíz hebrea yaven, que significa \"lodo\" o \"arcilla\". (Gn 10:2,4; 1 Cr 1:5)"
+    "text": "Javán. Hijo de Jafet. Relaciones familiares. Hijo de Jafet y hermano de Gomer, Magog, Madai, Tubal, Mesec y Tiras (Gn 10:2). Tuvo 4 hijos: Elisa, Tarsis, Quitim y Dodanim (Gn 10:4). Identificación. Su nombre se relaciona con los jonios, los griegos que habitaban la costa oeste de Asia Menor; por tanto el consenso mayoritario es que Javán fue el antecesor de los helenos. [Demsky, 2023] De hecho, el propio nombre en hebreo para los griegos es Yawan [Jewish, 1983]. Etimología.  Vinculada con la raíz hebrea yaven, que significa \"lodo\" o \"arcilla\". (Gn 10:2,4; 1 Cr 1:5)",
+    "body": "Hijo de Jafet. Relaciones familiares. Hijo de Jafet y hermano de Gomer, Magog, Madai, Tubal, Mesec y Tiras (Gn 10:2). Tuvo 4 hijos: Elisa, Tarsis, Quitim y Dodanim (Gn 10:4). Identificación. Su nombre se relaciona con los jonios, los griegos que habitaban la costa oeste de Asia Menor; por tanto el consenso mayoritario es que Javán fue el antecesor de los helenos. [Demsky, 2023] De hecho, el propio nombre en hebreo para los griegos es Yawan [Jewish, 1983]. Etimología.  Vinculada con la raíz hebrea yaven, que significa \"lodo\" o \"arcilla\". (Gn 10:2,4; 1 Cr 1:5)",
+    "mentions": [
+      "Gn 10:2",
+      "Gn 10:4"
+    ]
   },
   {
     "id": "onomastico/jemuel",
@@ -1328,8 +1408,11 @@
     "category": "onomastico",
     "name": "Jera",
     "title": "Jera",
-    "text": "Jera. Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahnitas). Etimología. En hebreo, yeraj está relacionado con la palabra \"luna\" o \"mes\". (Gn 10:26-29; 1 Cr 1:20)",
-    "body": "Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahnitas). Etimología. En hebreo, yeraj está relacionado con la palabra \"luna\" o \"mes\". (Gn 10:26-29; 1 Cr 1:20)"
+    "text": "Jera. Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahtanitas). Etimología. En hebreo, yeraj está relacionado con la palabra \"luna\" o \"mes\". (Gn 10:26-29; 1 Cr 1:20)",
+    "body": "Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahtanitas). Etimología. En hebreo, yeraj está relacionado con la palabra \"luna\" o \"mes\". (Gn 10:26-29; 1 Cr 1:20)",
+    "mentions": [
+      "Gn 10:26-29"
+    ]
   },
   {
     "id": "onomastico/jetur",
@@ -1358,8 +1441,8 @@
     "category": "onomastico",
     "name": "Jezer",
     "title": "Jezer",
-    "text": "Jezer. Relaciones familiares. Hijo de Neftalí. Hermano de Jahzeel, Guni y Silem.",
-    "body": "Relaciones familiares. Hijo de Neftalí. Hermano de Jahzeel, Guni y Silem.",
+    "text": "Jezer. Relaciones familiares. Hijo de Neftalí. Hermano de Jahzeel, Guni y Silem. Etimología. Se relaciona con «formación» o «figura».",
+    "body": "Relaciones familiares. Hijo de Neftalí. Hermano de Jahzeel, Guni y Silem. Etimología. Se relaciona con «formación» o «figura».",
     "mentions": [
       "Gn 46:24"
     ]
@@ -1385,8 +1468,11 @@
     "category": "onomastico",
     "name": "Jobab",
     "title": "Jobab",
-    "text": "Jobab. Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir y Havila (hijo de Joctán) (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahnitas). Etimología. En hebreo, Yovav puede derivar de la raíz yvb, que significa \"gritar\" o \"gritar de alegría\". (Gn 10:26-29; 1 Cr 1:23)",
-    "body": "Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir y Havila (hijo de Joctán) (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahnitas). Etimología. En hebreo, Yovav puede derivar de la raíz yvb, que significa \"gritar\" o \"gritar de alegría\". (Gn 10:26-29; 1 Cr 1:23)"
+    "text": "Jobab. Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir y Havila (hijo de Joctán) (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahtanitas). Etimología. En hebreo, Yovav puede derivar de la raíz yvb, que significa \"gritar\" o \"gritar de alegría\". (Gn 10:26-29; 1 Cr 1:23)",
+    "body": "Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir y Havila (hijo de Joctán) (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahtanitas). Etimología. En hebreo, Yovav puede derivar de la raíz yvb, que significa \"gritar\" o \"gritar de alegría\". (Gn 10:26-29; 1 Cr 1:23)",
+    "mentions": [
+      "Gn 10:26-29"
+    ]
   },
   {
     "id": "onomastico/jocsan",
@@ -1405,16 +1491,22 @@
     "category": "onomastico",
     "name": "Joctán",
     "title": "Joctán",
-    "text": "Joctán. Hijo de Heber (Gn 10:25), descendiente de Sem y Noé. Relaciones familiares. Hijo de Heber, hermano de Peleg y padre de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Algunas tradiciones lo consideran el fundador de los Qahtanitas, la tribu originaria del sur de Arabia (actual Yemen). Su territorio se describe como \"desde Mesa en dirección a Sefar, monte al oriente\" (Gn 10:30), ubicando a su linaje en áreas asociadas con Arabia y la región circundante, subrayando su relevancia en la formación de las culturas semitas del sur. (Gn 10:25-29; 1 Cr 1:19)",
-    "body": "Hijo de Heber (Gn 10:25), descendiente de Sem y Noé. Relaciones familiares. Hijo de Heber, hermano de Peleg y padre de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Algunas tradiciones lo consideran el fundador de los Qahtanitas, la tribu originaria del sur de Arabia (actual Yemen). Su territorio se describe como \"desde Mesa en dirección a Sefar, monte al oriente\" (Gn 10:30), ubicando a su linaje en áreas asociadas con Arabia y la región circundante, subrayando su relevancia en la formación de las culturas semitas del sur. (Gn 10:25-29; 1 Cr 1:19)"
+    "text": "Joctán. Hijo de Heber (Gn 10:25), descendiente de Sem y Noé. Relaciones familiares. Hijo de Heber, hermano de Peleg y padre de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Algunas tradiciones lo consideran el fundador de los Qahtanitas, la tribu originaria del sur de Arabia (actual Yemen). Su territorio se describe como \"desde Mesa en dirección a Sefar, monte al oriente\" (Gn 10:30), ubicando a su linaje en áreas asociadas con Arabia y la región circundante, subrayando su relevancia en la formación de las culturas semitas del sur. (Gn 10:25-29; 1 Cr 1:19) Etimología. Se ha interpretado como «pequeño».",
+    "body": "Hijo de Heber (Gn 10:25), descendiente de Sem y Noé. Relaciones familiares. Hijo de Heber, hermano de Peleg y padre de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Algunas tradiciones lo consideran el fundador de los Qahtanitas, la tribu originaria del sur de Arabia (actual Yemen). Su territorio se describe como \"desde Mesa en dirección a Sefar, monte al oriente\" (Gn 10:30), ubicando a su linaje en áreas asociadas con Arabia y la región circundante, subrayando su relevancia en la formación de las culturas semitas del sur. (Gn 10:25-29; 1 Cr 1:19) Etimología. Se ha interpretado como «pequeño».",
+    "mentions": [
+      "Gn 10:25",
+      "Gn 10:26-29",
+      "Gn 10:30",
+      "Gn 10:25-29"
+    ]
   },
   {
     "id": "onomastico/jose",
     "category": "onomastico",
     "name": "José (Zafnat-panea)",
     "title": "José (Zafnat-panea)",
-    "text": "José (Zafnat-panea). Relaciones familiares. Hijo de Jacob (Israel) y Raquel. Hermano de Benjamín (Benoni). Padre de Manasés y Efraín con Asenat. También llamado Zafnat-panea.",
-    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Raquel. Hermano de Benjamín (Benoni). Padre de Manasés y Efraín con Asenat. También llamado Zafnat-panea.",
+    "text": "José (Zafnat-panea). Relaciones familiares. Hijo de Jacob (Israel) y Raquel. Hermano de Benjamín (Benoni). Padre de Manasés y Efraín con Asenat. También llamado Zafnat-panea. Etimología. El nombre José se relaciona en Génesis 30:24 con «añadir»: «Añádame Jehová otro hijo». La etimología del nombre egipcio Zafnat-panea es discutida.",
+    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Raquel. Hermano de Benjamín (Benoni). Padre de Manasés y Efraín con Asenat. También llamado Zafnat-panea. Etimología. El nombre José se relaciona en Génesis 30:24 con «añadir»: «Añádame Jehová otro hijo». La etimología del nombre egipcio Zafnat-panea es discutida.",
     "mentions": [
       "Gn 30:22–24",
       "Gn 35:16–18",
@@ -1435,8 +1527,8 @@
     "category": "onomastico",
     "name": "Judá",
     "title": "Judá",
-    "text": "Judá. Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Simeón, Leví, Isacar, Zabulón y Dina. Padre de Er, Onán y Sela con la hija de Súa. Padre de Fares y Zara con Tamar.",
-    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Simeón, Leví, Isacar, Zabulón y Dina. Padre de Er, Onán y Sela con la hija de Súa. Padre de Fares y Zara con Tamar.",
+    "text": "Judá. Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Simeón, Leví, Isacar, Zabulón y Dina. Padre de Er, Onán y Sela con la hija de Súa. Padre de Fares y Zara con Tamar. Etimología. Génesis relaciona Judá con la «alabanza» (Gn 29:35).",
+    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Simeón, Leví, Isacar, Zabulón y Dina. Padre de Er, Onán y Sela con la hija de Súa. Padre de Fares y Zara con Tamar. Etimología. Génesis relaciona Judá con la «alabanza» (Gn 29:35).",
     "mentions": [
       "Gn 29:31–35",
       "Gn 30:17–21",
@@ -1468,8 +1560,8 @@
     "category": "onomastico",
     "name": "Labán",
     "title": "Labán",
-    "text": "Labán. Relaciones familiares. Hijo de Betuel. Hermano de Rebeca. Padre de Lea y Raquel.",
-    "body": "Relaciones familiares. Hijo de Betuel. Hermano de Rebeca. Padre de Lea y Raquel.",
+    "text": "Labán. Relaciones familiares. Hijo de Betuel. Hermano de Rebeca. Padre de Lea y Raquel. Etimología. En hebreo, su nombre significa «blanco».",
+    "body": "Relaciones familiares. Hijo de Betuel. Hermano de Rebeca. Padre de Lea y Raquel. Etimología. En hebreo, su nombre significa «blanco».",
     "mentions": [
       "Gn 22:23",
       "Gn 24:15,24,29",
@@ -1522,8 +1614,8 @@
     "category": "onomastico",
     "name": "Leví",
     "title": "Leví",
-    "text": "Leví. Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Simeón, Judá, Isacar, Zabulón y Dina. Padre de Gersón, Coat y Merari.",
-    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Simeón, Judá, Isacar, Zabulón y Dina. Padre de Gersón, Coat y Merari.",
+    "text": "Leví. Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Simeón, Judá, Isacar, Zabulón y Dina. Padre de Gersón, Coat y Merari. Etimología. El relato vincula el nombre con «unirse» o «estar ligado» (Gn 29:34).",
+    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Simeón, Judá, Isacar, Zabulón y Dina. Padre de Gersón, Coat y Merari. Etimología. El relato vincula el nombre con «unirse» o «estar ligado» (Gn 29:34).",
     "mentions": [
       "Gn 29:31–35",
       "Gn 30:17–21",
@@ -1535,8 +1627,17 @@
     "category": "onomastico",
     "name": "Lot",
     "title": "Lot",
-    "text": "Lot. Sobrino de Abraham, conocido por su papel en los eventos relacionados con la destrucción de Sodoma y Gomorra. Relaciones familiares. Hijo de Harán, hermano de Isca y Milca, sobrino de Abraham y de Nacor (hijo de Taré); padre de Moab y Amón, fundadores de los moabitas y amonitas, respectivamente (Gn 11:27, 19:36-38). Hechos bíblicos. Acompañó a Abraham en su migración hacia Canaán (Gn 12:4-5). Se separó de Abraham debido a conflictos entre sus pastores, eligiendo establecerse en la fértil región cercana a Sodoma (Gn 13:5-13). Fue rescatado por Abraham tras ser capturado en una guerra entre reyes (Gn 14:1-16). Durante la destrucción de Sodoma y Gomorra, fue advertido por ángeles y huyó junto con sus hijas, aunque su esposa murió convertida en estatua de sal (Gn 19:1-26). Sus hijas, creyendo que la humanidad había sido destruida, lo embriagaron y concibieron a Moab y Amón de él (Gn 19:30-38). Etimología. Lot, puede significar \"velo\" o \"cubierta,\" aludiendo a la protección o al misterio en torno a su historia. (Gn 11:27-31; 12:4-5; 13:5-13; 14:1-16; 19:1-38; Lc 17:28-32; 2 Pe 2:6-8)",
-    "body": "Sobrino de Abraham, conocido por su papel en los eventos relacionados con la destrucción de Sodoma y Gomorra. Relaciones familiares. Hijo de Harán, hermano de Isca y Milca, sobrino de Abraham y de Nacor (hijo de Taré); padre de Moab y Amón, fundadores de los moabitas y amonitas, respectivamente (Gn 11:27, 19:36-38). Hechos bíblicos. Acompañó a Abraham en su migración hacia Canaán (Gn 12:4-5). Se separó de Abraham debido a conflictos entre sus pastores, eligiendo establecerse en la fértil región cercana a Sodoma (Gn 13:5-13). Fue rescatado por Abraham tras ser capturado en una guerra entre reyes (Gn 14:1-16). Durante la destrucción de Sodoma y Gomorra, fue advertido por ángeles y huyó junto con sus hijas, aunque su esposa murió convertida en estatua de sal (Gn 19:1-26). Sus hijas, creyendo que la humanidad había sido destruida, lo embriagaron y concibieron a Moab y Amón de él (Gn 19:30-38). Etimología. Lot, puede significar \"velo\" o \"cubierta,\" aludiendo a la protección o al misterio en torno a su historia. (Gn 11:27-31; 12:4-5; 13:5-13; 14:1-16; 19:1-38; Lc 17:28-32; 2 Pe 2:6-8)"
+    "text": "Lot. Sobrino de Abraham, conocido por su papel en los eventos relacionados con la destrucción de Sodoma y Gomorra. Relaciones familiares. Hijo de Harán, hermano de Isca y Milca, sobrino de Abraham y de Nacor (hijo de Taré); padre de Moab y Ben-ammi, fundadores de los moabitas y amonitas, respectivamente (Gn 11:27, 19:36-38). Hechos bíblicos. Acompañó a Abraham en su migración hacia Canaán (Gn 12:4-5). Se separó de Abraham debido a conflictos entre sus pastores, eligiendo establecerse en la fértil región cercana a Sodoma (Gn 13:5-13). Fue rescatado por Abraham tras ser capturado en una guerra entre reyes (Gn 14:1-16). Durante la destrucción de Sodoma y Gomorra, fue advertido por ángeles y huyó junto con sus hijas, aunque su esposa murió convertida en estatua de sal (Gn 19:1-26). Sus hijas, creyendo que la humanidad había sido destruida, lo embriagaron y concibieron a Moab y Amón de él (Gn 19:30-38). Etimología. Lot, puede significar \"velo\" o \"cubierta,\" aludiendo a la protección o al misterio en torno a su historia. (Gn 11:27-31; 12:4-5; 13:5-13; 14:1-16; 19:1-38; Lc 17:28-32; 2 Pe 2:6-8)",
+    "body": "Sobrino de Abraham, conocido por su papel en los eventos relacionados con la destrucción de Sodoma y Gomorra. Relaciones familiares. Hijo de Harán, hermano de Isca y Milca, sobrino de Abraham y de Nacor (hijo de Taré); padre de Moab y Ben-ammi, fundadores de los moabitas y amonitas, respectivamente (Gn 11:27, 19:36-38). Hechos bíblicos. Acompañó a Abraham en su migración hacia Canaán (Gn 12:4-5). Se separó de Abraham debido a conflictos entre sus pastores, eligiendo establecerse en la fértil región cercana a Sodoma (Gn 13:5-13). Fue rescatado por Abraham tras ser capturado en una guerra entre reyes (Gn 14:1-16). Durante la destrucción de Sodoma y Gomorra, fue advertido por ángeles y huyó junto con sus hijas, aunque su esposa murió convertida en estatua de sal (Gn 19:1-26). Sus hijas, creyendo que la humanidad había sido destruida, lo embriagaron y concibieron a Moab y Amón de él (Gn 19:30-38). Etimología. Lot, puede significar \"velo\" o \"cubierta,\" aludiendo a la protección o al misterio en torno a su historia. (Gn 11:27-31; 12:4-5; 13:5-13; 14:1-16; 19:1-38; Lc 17:28-32; 2 Pe 2:6-8)",
+    "mentions": [
+      "Gn 11:27",
+      "Gn 12:4-5",
+      "Gn 13:5-13",
+      "Gn 14:1-16",
+      "Gn 19:1-26",
+      "Gn 19:30-38",
+      "Gn 11:27-31"
+    ]
   },
   {
     "id": "onomastico/lud",
@@ -1567,8 +1668,11 @@
     "category": "onomastico",
     "name": "Madai",
     "title": "Madai",
-    "text": "Madai. Hijo de Jafet. Relaciones familiares. Hijo de Jaffet y hermano de Gomer, Magog, Javán, Tubal, Mesec y Tiras (Gn 10:2). Identificación. Según el consenso mayoritario, podría haber sido el fundador de un pueblo antecesor de los medos. Éstos fueron un pueblo indoeuropeo asentado en la región de Media, en el noroeste de Irán, desde aproximadamente el primer milenio a.C. Conocidos por su organización política y militar, formaron el Imperio Medo, que posteriormente se unió a los persas en la conquista de Asiria. Sin embargo, al ser su aparición más tardía que el resto de pueblos en la Tabla de las Naciones, se han propuesto otras identificaciones como Mitani, Matiene o Mannai, todos ellos reinos de la zona norte de Irán que acabaron siendo conquistados por los medos. [Demsky, 2023] Etimología. El nombre Madai podría derivar de una raíz que significa \"medio\" o \"central,\" reflejando la ubicación geográfica de los medos en el Medio Oriente. Otra interpretación relaciona el nombre con la palabra acadia Madāya, utilizada para designar a los medos. (Gn 10:2; 1 Cr 1:5)",
-    "body": "Hijo de Jafet. Relaciones familiares. Hijo de Jaffet y hermano de Gomer, Magog, Javán, Tubal, Mesec y Tiras (Gn 10:2). Identificación. Según el consenso mayoritario, podría haber sido el fundador de un pueblo antecesor de los medos. Éstos fueron un pueblo indoeuropeo asentado en la región de Media, en el noroeste de Irán, desde aproximadamente el primer milenio a.C. Conocidos por su organización política y militar, formaron el Imperio Medo, que posteriormente se unió a los persas en la conquista de Asiria. Sin embargo, al ser su aparición más tardía que el resto de pueblos en la Tabla de las Naciones, se han propuesto otras identificaciones como Mitani, Matiene o Mannai, todos ellos reinos de la zona norte de Irán que acabaron siendo conquistados por los medos. [Demsky, 2023] Etimología. El nombre Madai podría derivar de una raíz que significa \"medio\" o \"central,\" reflejando la ubicación geográfica de los medos en el Medio Oriente. Otra interpretación relaciona el nombre con la palabra acadia Madāya, utilizada para designar a los medos. (Gn 10:2; 1 Cr 1:5)"
+    "text": "Madai. Hijo de Jafet. Relaciones familiares. Hijo de Jafet y hermano de Gomer, Magog, Javán, Tubal, Mesec y Tiras (Gn 10:2). Identificación. Según el consenso mayoritario, podría haber sido el fundador de un pueblo antecesor de los medos. Éstos fueron un pueblo indoeuropeo asentado en la región de Media, en el noroeste de Irán, desde aproximadamente el primer milenio a.C. Conocidos por su organización política y militar, formaron el Imperio Medo, que posteriormente se unió a los persas en la conquista de Asiria. Sin embargo, al ser su aparición más tardía que el resto de pueblos en la Tabla de las Naciones, se han propuesto otras identificaciones como Mitani, Matiene o Mannai, todos ellos reinos de la zona norte de Irán que acabaron siendo conquistados por los medos. [Demsky, 2023] Etimología. El nombre Madai podría derivar de una raíz que significa \"medio\" o \"central,\" reflejando la ubicación geográfica de los medos en el Medio Oriente. Otra interpretación relaciona el nombre con la palabra acadia Madāya, utilizada para designar a los medos. (Gn 10:2; 1 Cr 1:5)",
+    "body": "Hijo de Jafet. Relaciones familiares. Hijo de Jafet y hermano de Gomer, Magog, Javán, Tubal, Mesec y Tiras (Gn 10:2). Identificación. Según el consenso mayoritario, podría haber sido el fundador de un pueblo antecesor de los medos. Éstos fueron un pueblo indoeuropeo asentado en la región de Media, en el noroeste de Irán, desde aproximadamente el primer milenio a.C. Conocidos por su organización política y militar, formaron el Imperio Medo, que posteriormente se unió a los persas en la conquista de Asiria. Sin embargo, al ser su aparición más tardía que el resto de pueblos en la Tabla de las Naciones, se han propuesto otras identificaciones como Mitani, Matiene o Mannai, todos ellos reinos de la zona norte de Irán que acabaron siendo conquistados por los medos. [Demsky, 2023] Etimología. El nombre Madai podría derivar de una raíz que significa \"medio\" o \"central,\" reflejando la ubicación geográfica de los medos en el Medio Oriente. Otra interpretación relaciona el nombre con la palabra acadia Madāya, utilizada para designar a los medos. (Gn 10:2; 1 Cr 1:5)",
+    "mentions": [
+      "Gn 10:2"
+    ]
   },
   {
     "id": "onomastico/madian",
@@ -1587,8 +1691,11 @@
     "category": "onomastico",
     "name": "Magog",
     "title": "Magog",
-    "text": "Magog. Hijo de Jafet. Relaciones familiares. Hijo de Jaffet y hermano de Gomer, Madai, Javán, Tubal, Mesec y Tiras (Gn 10:2). Identificación. Algunos autores creen que el nombre podría provenir del acadio mat Gugi, \"tierra de Gog\" o tierra de Giges, fundador de la Dinastía Mermnada en Lidia [Demsky, 2023]. El Reino de Lidia llegó a cubrir casi toda la mitad occidental de la actual Turquía y fue una potencia comercial de la Antigüedad [Historia, 2008]. Otras fuentes como Josefo, asocian a Magog con los escitas o con poderes de más al Norte. [Antigüedades, 1,6]. También se relaciona a la tribu de Magog con el Apocalipsis debido a su mención en Ezequiel (Ez 38:2, 39:6) y Apocalipsis (Ap 20:8) como uno de los reinos que se unirán al Maligno en los últimos días. [Demsky, 2023] Etimología. No existe una etimología clara. (Gn 10:2; 1 Cr 1:5)",
-    "body": "Hijo de Jafet. Relaciones familiares. Hijo de Jaffet y hermano de Gomer, Madai, Javán, Tubal, Mesec y Tiras (Gn 10:2). Identificación. Algunos autores creen que el nombre podría provenir del acadio mat Gugi, \"tierra de Gog\" o tierra de Giges, fundador de la Dinastía Mermnada en Lidia [Demsky, 2023]. El Reino de Lidia llegó a cubrir casi toda la mitad occidental de la actual Turquía y fue una potencia comercial de la Antigüedad [Historia, 2008]. Otras fuentes como Josefo, asocian a Magog con los escitas o con poderes de más al Norte. [Antigüedades, 1,6]. También se relaciona a la tribu de Magog con el Apocalipsis debido a su mención en Ezequiel (Ez 38:2, 39:6) y Apocalipsis (Ap 20:8) como uno de los reinos que se unirán al Maligno en los últimos días. [Demsky, 2023] Etimología. No existe una etimología clara. (Gn 10:2; 1 Cr 1:5)"
+    "text": "Magog. Hijo de Jafet. Relaciones familiares. Hijo de Jafet y hermano de Gomer, Madai, Javán, Tubal, Mesec y Tiras (Gn 10:2). Identificación. Algunos autores creen que el nombre podría provenir del acadio mat Gugi, \"tierra de Gog\" o tierra de Giges, fundador de la Dinastía Mermnada en Lidia [Demsky, 2023]. El Reino de Lidia llegó a cubrir casi toda la mitad occidental de la actual Turquía y fue una potencia comercial de la Antigüedad [Historia, 2008]. Otras fuentes como Josefo, asocian a Magog con los escitas o con poderes de más al Norte. [Antigüedades, 1,6]. También se relaciona a la tribu de Magog con el Apocalipsis debido a su mención en Ezequiel (Ez 38:2, 39:6) y Apocalipsis (Ap 20:8) como uno de los reinos que se unirán al Maligno en los últimos días. [Demsky, 2023] Etimología. No existe una etimología clara. (Gn 10:2; 1 Cr 1:5)",
+    "body": "Hijo de Jafet. Relaciones familiares. Hijo de Jafet y hermano de Gomer, Madai, Javán, Tubal, Mesec y Tiras (Gn 10:2). Identificación. Algunos autores creen que el nombre podría provenir del acadio mat Gugi, \"tierra de Gog\" o tierra de Giges, fundador de la Dinastía Mermnada en Lidia [Demsky, 2023]. El Reino de Lidia llegó a cubrir casi toda la mitad occidental de la actual Turquía y fue una potencia comercial de la Antigüedad [Historia, 2008]. Otras fuentes como Josefo, asocian a Magog con los escitas o con poderes de más al Norte. [Antigüedades, 1,6]. También se relaciona a la tribu de Magog con el Apocalipsis debido a su mención en Ezequiel (Ez 38:2, 39:6) y Apocalipsis (Ap 20:8) como uno de los reinos que se unirán al Maligno en los últimos días. [Demsky, 2023] Etimología. No existe una etimología clara. (Gn 10:2; 1 Cr 1:5)",
+    "mentions": [
+      "Gn 10:2"
+    ]
   },
   {
     "id": "onomastico/mahalaleel",
@@ -1614,8 +1721,8 @@
     "category": "onomastico",
     "name": "Malquiel",
     "title": "Malquiel",
-    "text": "Malquiel. Relaciones familiares. Hijo de Bería. Hermano de Heber (hijo de Bería).",
-    "body": "Relaciones familiares. Hijo de Bería. Hermano de Heber (hijo de Bería).",
+    "text": "Malquiel. Relaciones familiares. Hijo de Bería. Hermano de Heber (hijo de Bería). Etimología. Su nombre puede interpretarse como «mi rey es Dios».",
+    "body": "Relaciones familiares. Hijo de Bería. Hermano de Heber (hijo de Bería). Etimología. Su nombre puede interpretarse como «mi rey es Dios».",
     "mentions": [
       "Gn 46:17"
     ]
@@ -1633,8 +1740,8 @@
     "category": "onomastico",
     "name": "Manasés",
     "title": "Manasés",
-    "text": "Manasés. Relaciones familiares. Hijo de José (Zafnat-panea) y Asenat. Hermano de Efraín. Padre de Maquir.",
-    "body": "Relaciones familiares. Hijo de José (Zafnat-panea) y Asenat. Hermano de Efraín. Padre de Maquir.",
+    "text": "Manasés. Relaciones familiares. Hijo de José (Zafnat-panea) y Asenat. Hermano de Efraín. Padre de Maquir. Etimología. Génesis relaciona el nombre con «hacer olvidar» (Gn 41:51).",
+    "body": "Relaciones familiares. Hijo de José (Zafnat-panea) y Asenat. Hermano de Efraín. Padre de Maquir. Etimología. Génesis relaciona el nombre con «hacer olvidar» (Gn 41:51).",
     "mentions": [
       "Gn 41:50–52",
       "Gn 46:20",
@@ -1646,8 +1753,8 @@
     "category": "onomastico",
     "name": "Maquir",
     "title": "Maquir",
-    "text": "Maquir. Relaciones familiares. Hijo de Manasés. Se mencionan también hijos de Maquir cuyos nombres no se indican.",
-    "body": "Relaciones familiares. Hijo de Manasés. Se mencionan también hijos de Maquir cuyos nombres no se indican.",
+    "text": "Maquir. Relaciones familiares. Hijo de Manasés. Se mencionan también hijos de Maquir cuyos nombres no se indican. Etimología. Se relaciona con el verbo hebreo «vender».",
+    "body": "Relaciones familiares. Hijo de Manasés. Se mencionan también hijos de Maquir cuyos nombres no se indican. Etimología. Se relaciona con el verbo hebreo «vender».",
     "mentions": [
       "Gn 50:23"
     ]
@@ -1665,8 +1772,8 @@
     "category": "onomastico",
     "name": "Massa",
     "title": "Massa",
-    "text": "Massa. Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Duma, Hadar, Tema, Jetur, Nafis y Cedema.",
-    "body": "Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Duma, Hadar, Tema, Jetur, Nafis y Cedema.",
+    "text": "Massa. Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Duma, Hadar, Tema, Jetur, Nafis y Cedema. Etimología. El término puede significar «carga» o «peso».",
+    "body": "Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Duma, Hadar, Tema, Jetur, Nafis y Cedema. Etimología. El término puede significar «carga» o «peso».",
     "mentions": [
       "Gn 25:12–16"
     ]
@@ -1711,8 +1818,8 @@
     "category": "onomastico",
     "name": "Merari",
     "title": "Merari",
-    "text": "Merari. Relaciones familiares. Hijo de Leví. Hermano de Gersón y Coat.",
-    "body": "Relaciones familiares. Hijo de Leví. Hermano de Gersón y Coat.",
+    "text": "Merari. Relaciones familiares. Hijo de Leví. Hermano de Gersón y Coat. Etimología. El nombre se relaciona con «amargo».",
+    "body": "Relaciones familiares. Hijo de Leví. Hermano de Gersón y Coat. Etimología. El nombre se relaciona con «amargo».",
     "mentions": [
       "Gn 46:11"
     ]
@@ -1722,8 +1829,11 @@
     "category": "onomastico",
     "name": "Mesec",
     "title": "Mesec",
-    "text": "Mesec. Hijo de Jafet. Relaciones familiares. Hijo de Jaffet y hermano de Gomer, Magog, Madai, Javán, Tubal y Tiras (Gn 10:2). Identificación. Tubal y Mesec son mencionados juntos a menudo en la Biblia (Ez 27:13, 32:26, 38:2-3;39:1; Is 66:19). Actualmente, se les relaciona con dos pueblos que se asentaron en la región de Cilicia (en la costa sur-oriental de la actual Turquía) que los asirios llamaban Tabal y Mushki [Demsky, 2023]. Conocidos por su habilidad en la metalurgia, especialmente en la producción de hierro, los mushki jugaron un papel importante en el comercio y en las confrontaciones militares con el Imperio Asirio. Su identidad exacta sigue siendo objeto de debate, pero muchos estudiosos los consideran ancestros de los frigios o como un grupo culturalmente cercano a ellos [Kopanias, 2015]. Herodoto también habla de dos pueblos, Tibareni y Mosinoici, que vivían al sur del Mar Negro. Etimología. Probablemente deriva de la raíz hebrea mashakh, que significa \"extender\" o \"arrastrar. (Gn 10:2; 1 Cr 1:5)",
-    "body": "Hijo de Jafet. Relaciones familiares. Hijo de Jaffet y hermano de Gomer, Magog, Madai, Javán, Tubal y Tiras (Gn 10:2). Identificación. Tubal y Mesec son mencionados juntos a menudo en la Biblia (Ez 27:13, 32:26, 38:2-3;39:1; Is 66:19). Actualmente, se les relaciona con dos pueblos que se asentaron en la región de Cilicia (en la costa sur-oriental de la actual Turquía) que los asirios llamaban Tabal y Mushki [Demsky, 2023]. Conocidos por su habilidad en la metalurgia, especialmente en la producción de hierro, los mushki jugaron un papel importante en el comercio y en las confrontaciones militares con el Imperio Asirio. Su identidad exacta sigue siendo objeto de debate, pero muchos estudiosos los consideran ancestros de los frigios o como un grupo culturalmente cercano a ellos [Kopanias, 2015]. Herodoto también habla de dos pueblos, Tibareni y Mosinoici, que vivían al sur del Mar Negro. Etimología. Probablemente deriva de la raíz hebrea mashakh, que significa \"extender\" o \"arrastrar. (Gn 10:2; 1 Cr 1:5)"
+    "text": "Mesec. Hijo de Jafet. Relaciones familiares. Hijo de Jafet y hermano de Gomer, Magog, Madai, Javán, Tubal y Tiras (Gn 10:2). Identificación. Tubal y Mesec son mencionados juntos a menudo en la Biblia (Ez 27:13, 32:26, 38:2-3;39:1; Is 66:19). Actualmente, se les relaciona con dos pueblos que se asentaron en la región de Cilicia (en la costa sur-oriental de la actual Turquía) que los asirios llamaban Tabal y Mushki [Demsky, 2023]. Conocidos por su habilidad en la metalurgia, especialmente en la producción de hierro, los mushki jugaron un papel importante en el comercio y en las confrontaciones militares con el Imperio Asirio. Su identidad exacta sigue siendo objeto de debate, pero muchos estudiosos los consideran ancestros de los frigios o como un grupo culturalmente cercano a ellos [Kopanias, 2015]. Herodoto también habla de dos pueblos, Tibareni y Mosinoici, que vivían al sur del Mar Negro. Etimología. Probablemente deriva de la raíz hebrea mashakh, que significa \"extender\" o \"arrastrar. (Gn 10:2; 1 Cr 1:5)",
+    "body": "Hijo de Jafet. Relaciones familiares. Hijo de Jafet y hermano de Gomer, Magog, Madai, Javán, Tubal y Tiras (Gn 10:2). Identificación. Tubal y Mesec son mencionados juntos a menudo en la Biblia (Ez 27:13, 32:26, 38:2-3;39:1; Is 66:19). Actualmente, se les relaciona con dos pueblos que se asentaron en la región de Cilicia (en la costa sur-oriental de la actual Turquía) que los asirios llamaban Tabal y Mushki [Demsky, 2023]. Conocidos por su habilidad en la metalurgia, especialmente en la producción de hierro, los mushki jugaron un papel importante en el comercio y en las confrontaciones militares con el Imperio Asirio. Su identidad exacta sigue siendo objeto de debate, pero muchos estudiosos los consideran ancestros de los frigios o como un grupo culturalmente cercano a ellos [Kopanias, 2015]. Herodoto también habla de dos pueblos, Tibareni y Mosinoici, que vivían al sur del Mar Negro. Etimología. Probablemente deriva de la raíz hebrea mashakh, que significa \"extender\" o \"arrastrar. (Gn 10:2; 1 Cr 1:5)",
+    "mentions": [
+      "Gn 10:2"
+    ]
   },
   {
     "id": "onomastico/metusael",
@@ -1738,8 +1848,8 @@
     "category": "onomastico",
     "name": "Mibsam",
     "title": "Mibsam",
-    "text": "Mibsam. Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Misma, Duma, Massa, Hadar, Tema, Jetur, Nafis y Cedema.",
-    "body": "Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Misma, Duma, Massa, Hadar, Tema, Jetur, Nafis y Cedema.",
+    "text": "Mibsam. Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Misma, Duma, Massa, Hadar, Tema, Jetur, Nafis y Cedema. Etimología. El nombre significa «perfume» o «fragancia».",
+    "body": "Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Misma, Duma, Massa, Hadar, Tema, Jetur, Nafis y Cedema. Etimología. El nombre significa «perfume» o «fragancia».",
     "mentions": [
       "Gn 25:12–16"
     ]
@@ -1757,8 +1867,8 @@
     "category": "onomastico",
     "name": "Misma",
     "title": "Misma",
-    "text": "Misma. Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Duma, Massa, Hadar, Tema, Jetur, Nafis y Cedema.",
-    "body": "Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Duma, Massa, Hadar, Tema, Jetur, Nafis y Cedema.",
+    "text": "Misma. Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Duma, Massa, Hadar, Tema, Jetur, Nafis y Cedema. Etimología. Se relaciona con el acto de «oír» o «escuchar».",
+    "body": "Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Duma, Massa, Hadar, Tema, Jetur, Nafis y Cedema. Etimología. Se relaciona con el acto de «oír» o «escuchar».",
     "mentions": [
       "Gn 25:12–16"
     ]
@@ -1779,8 +1889,12 @@
     "category": "onomastico",
     "name": "Mizraim",
     "title": "Mizraim",
-    "text": "Mizraim. Hijo de Cam. Relaciones familiares. Hijo de Cam, nieto de Noé, hermano de Cus, Fut y Canaán (Gn 10:6). Fue padre de Ludim, Anamim, Lehabim, Naftuhim, Patrusim, Casluhim y Caftorim (Gn 10:13-14). Identificación/Etimología: Su nombre significa literalmente “Egipto” y así se usa repetidamente en la Biblia para referirse a esa nación. Es por tanto, considerado el fundador del pueblo egipcio. Como curiosidad Mizraim suena en hebreo como matsór, “sitiar” y meitsár “estrechez, dificultad” y quizás llevara esas connotaciones debido a la amenaza que siempre supuso Egipto para los hebreos. (Gn 10:6, 13-14; 1 Cr 1:8)",
-    "body": "Hijo de Cam. Relaciones familiares. Hijo de Cam, nieto de Noé, hermano de Cus, Fut y Canaán (Gn 10:6). Fue padre de Ludim, Anamim, Lehabim, Naftuhim, Patrusim, Casluhim y Caftorim (Gn 10:13-14). Identificación/Etimología: Su nombre significa literalmente “Egipto” y así se usa repetidamente en la Biblia para referirse a esa nación. Es por tanto, considerado el fundador del pueblo egipcio. Como curiosidad Mizraim suena en hebreo como matsór, “sitiar” y meitsár “estrechez, dificultad” y quizás llevara esas connotaciones debido a la amenaza que siempre supuso Egipto para los hebreos. (Gn 10:6, 13-14; 1 Cr 1:8)"
+    "text": "Mizraim. Hijo de Cam. Relaciones familiares. Hijo de Cam, nieto de Noé, hermano de Cus, Fut y Canaán (Gn 10:6). Fue padre de Ludim, Anamim, Lehabim, Naftuhim, Patrusim, Casluhim y Caftorim (Gn 10:13-14). Identificación. Su nombre significa literalmente “Egipto” y así se usa repetidamente en la Biblia para referirse a esa nación. Es por tanto, considerado el fundador del pueblo egipcio. Etimología. Como curiosidad Mizraim suena en hebreo como matsór, “sitiar” y meitsár “estrechez, dificultad” y quizás llevara esas connotaciones debido a la amenaza que siempre supuso Egipto para los hebreos. (Gn 10:6, 13-14; 1 Cr 1:8)",
+    "body": "Hijo de Cam. Relaciones familiares. Hijo de Cam, nieto de Noé, hermano de Cus, Fut y Canaán (Gn 10:6). Fue padre de Ludim, Anamim, Lehabim, Naftuhim, Patrusim, Casluhim y Caftorim (Gn 10:13-14). Identificación. Su nombre significa literalmente “Egipto” y así se usa repetidamente en la Biblia para referirse a esa nación. Es por tanto, considerado el fundador del pueblo egipcio. Etimología. Como curiosidad Mizraim suena en hebreo como matsór, “sitiar” y meitsár “estrechez, dificultad” y quizás llevara esas connotaciones debido a la amenaza que siempre supuso Egipto para los hebreos. (Gn 10:6, 13-14; 1 Cr 1:8)",
+    "mentions": [
+      "Gn 10:6",
+      "Gn 10:13-14"
+    ]
   },
   {
     "id": "onomastico/moab",
@@ -1814,8 +1928,8 @@
     "category": "onomastico",
     "name": "Naamán",
     "title": "Naamán",
-    "text": "Naamán. Relaciones familiares. Hijo de Benjamín (Benoni). Hermano de Bela, Bequer, Asbel, Gera, Ehi, Ros, Mupim, Hupim y Ard.",
-    "body": "Relaciones familiares. Hijo de Benjamín (Benoni). Hermano de Bela, Bequer, Asbel, Gera, Ehi, Ros, Mupim, Hupim y Ard.",
+    "text": "Naamán. Relaciones familiares. Hijo de Benjamín (Benoni). Hermano de Bela, Bequer, Asbel, Gera, Ehi, Ros, Mupim, Hupim y Ard. Etimología. Se relaciona con «agradable» o «placentero».",
+    "body": "Relaciones familiares. Hijo de Benjamín (Benoni). Hermano de Bela, Bequer, Asbel, Gera, Ehi, Ros, Mupim, Hupim y Ard. Etimología. Se relaciona con «agradable» o «placentero».",
     "mentions": [
       "Gn 46:21"
     ]
@@ -1825,8 +1939,13 @@
     "category": "onomastico",
     "name": "Nacor (hijo de Serug)",
     "title": "Nacor (hijo de Serug) (1849–1997)",
-    "text": "Nacor (hijo de Serug) (1849–1997). Abuelo de Abraham. Relaciones familiares. Hijo de Sarug (Gn 11:22) y padre de Taré (Gn 11:24). Etimología. Existen varias posibilidades para su etimología: puede venir de nakhar que significa “resplandecer, brillar” o de naqor, “soplar, exhalar”. (Gn 11:22:24; 1 Cr 1:26)",
-    "body": "Abuelo de Abraham. Relaciones familiares. Hijo de Sarug (Gn 11:22) y padre de Taré (Gn 11:24). Etimología. Existen varias posibilidades para su etimología: puede venir de nakhar que significa “resplandecer, brillar” o de naqor, “soplar, exhalar”. (Gn 11:22:24; 1 Cr 1:26)"
+    "text": "Nacor (hijo de Serug). Abuelo de Abraham. Relaciones familiares. Hijo de Serug (Gn 11:22) y padre de Taré (Gn 11:24). Etimología. Existen varias posibilidades para su etimología: puede venir de nakhar que significa “resplandecer, brillar” o de naqor, “soplar, exhalar”. (Gn 11:22-24; 1 Cr 1:26)",
+    "body": "Abuelo de Abraham. Relaciones familiares. Hijo de Serug (Gn 11:22) y padre de Taré (Gn 11:24). Etimología. Existen varias posibilidades para su etimología: puede venir de nakhar que significa “resplandecer, brillar” o de naqor, “soplar, exhalar”. (Gn 11:22-24; 1 Cr 1:26)",
+    "mentions": [
+      "Gn 11:22",
+      "Gn 11:24",
+      "Gn 11:22-24"
+    ]
   },
   {
     "id": "onomastico/nacor-ii",
@@ -1860,8 +1979,8 @@
     "category": "onomastico",
     "name": "Nahat",
     "title": "Nahat",
-    "text": "Nahat. Relaciones familiares. Hijo de Reuel. Hermano de Zera, Sama y Miza.",
-    "body": "Relaciones familiares. Hijo de Reuel. Hermano de Zera, Sama y Miza.",
+    "text": "Nahat. Relaciones familiares. Hijo de Reuel. Hermano de Zera, Sama y Miza. Etimología. El nombre puede significar «reposo» o «descanso».",
+    "body": "Relaciones familiares. Hijo de Reuel. Hermano de Zera, Sama y Miza. Etimología. El nombre puede significar «reposo» o «descanso».",
     "mentions": [
       "Gn 36:13"
     ]
@@ -1882,8 +2001,8 @@
     "category": "onomastico",
     "name": "Neftalí",
     "title": "Neftalí",
-    "text": "Neftalí. Relaciones familiares. Hijo de Jacob (Israel) y Bilha. Hermano de Dan. Padre de Jahzeel, Guni, Jezer y Silem.",
-    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Bilha. Hermano de Dan. Padre de Jahzeel, Guni, Jezer y Silem.",
+    "text": "Neftalí. Relaciones familiares. Hijo de Jacob (Israel) y Bilha. Hermano de Dan. Padre de Jahzeel, Guni, Jezer y Silem. Etimología. El relato asocia el nombre con las «luchas» de Raquel (Gn 30:8).",
+    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Bilha. Hermano de Dan. Padre de Jahzeel, Guni, Jezer y Silem. Etimología. El relato asocia el nombre con las «luchas» de Raquel (Gn 30:8).",
     "mentions": [
       "Gn 30:3–8",
       "Gn 46:24"
@@ -1910,8 +2029,11 @@
     "category": "onomastico",
     "name": "Obal",
     "title": "Obal",
-    "text": "Obal. Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab. Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahnitas). Etimología. En hebreo, Obal podría estar relacionado con una raíz semítica que significa \"llevar\" o \"mover\". (Gn 10:26-29; 1 Cr 1:22)",
-    "body": "Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab. Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahnitas). Etimología. En hebreo, Obal podría estar relacionado con una raíz semítica que significa \"llevar\" o \"mover\". (Gn 10:26-29; 1 Cr 1:22)"
+    "text": "Obal. Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab. Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahtanitas). Etimología. En hebreo, Obal podría estar relacionado con una raíz semítica que significa \"llevar\" o \"mover\". (Gn 10:26-29; 1 Cr 1:22)",
+    "body": "Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Selef, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab. Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahtanitas). Etimología. En hebreo, Obal podría estar relacionado con una raíz semítica que significa \"llevar\" o \"mover\". (Gn 10:26-29; 1 Cr 1:22)",
+    "mentions": [
+      "Gn 10:26-29"
+    ]
   },
   {
     "id": "onomastico/ofir",
@@ -1948,8 +2070,8 @@
     "category": "onomastico",
     "name": "Onán",
     "title": "Onán",
-    "text": "Onán. Relaciones familiares. Hijo de Judá y la hija de Súa. Hermano de Er y Sela. Cónyuge de Tamar.",
-    "body": "Relaciones familiares. Hijo de Judá y la hija de Súa. Hermano de Er y Sela. Cónyuge de Tamar.",
+    "text": "Onán. Relaciones familiares. Hijo de Judá y la hija de Súa. Hermano de Er y Sela. Cónyuge de Tamar. Etimología. Se ha relacionado con «vigoroso» o «fuerte».",
+    "body": "Relaciones familiares. Hijo de Judá y la hija de Súa. Hermano de Er y Sela. Cónyuge de Tamar. Etimología. Se ha relacionado con «vigoroso» o «fuerte».",
     "mentions": [
       "Gn 38:2–5",
       "Gn 38:8–10"
@@ -1968,8 +2090,14 @@
     "category": "onomastico",
     "name": "Peleg",
     "title": "Peleg (1757–1996)",
-    "text": "Peleg (1757–1996). Antepasado de Abraham. Relaciones familiares. Hijo de Heber (Gn 10:25), hermano de Joctán y padre de Reu (Gn 11:18). Etimología. Su nombre significa “dividir” y se nos cuenta que “en sus días su repartida la tierra”. Esto ha llevado a diversas interpretaciones: algunos lo relacionan con la separación de los continentes (si se toma como un evento geológico) o la dispersión de los pueblos tras la Torre de Babel (Gn 11). (Gn 10:25, 11:18; 1 Cr 1:19, 25)",
-    "body": "Antepasado de Abraham. Relaciones familiares. Hijo de Heber (Gn 10:25), hermano de Joctán y padre de Reu (Gn 11:18). Etimología. Su nombre significa “dividir” y se nos cuenta que “en sus días su repartida la tierra”. Esto ha llevado a diversas interpretaciones: algunos lo relacionan con la separación de los continentes (si se toma como un evento geológico) o la dispersión de los pueblos tras la Torre de Babel (Gn 11). (Gn 10:25, 11:18; 1 Cr 1:19, 25)"
+    "text": "Peleg. Antepasado de Abraham, perteneciente a la descendencia de Sem. Relaciones familiares. Hijo de Heber (Gn 10:25), hermano de Joctán y padre de Reu (Gn 11:18). Hechos bíblicos. Génesis 10:25 señala que durante sus días fue repartida la tierra, sin precisar en qué consistió exactamente dicha división. Este acontecimiento suele relacionarse con la dispersión de los pueblos y la confusión de las lenguas narradas en Génesis 11:1-9, aunque el texto no establece expresamente que ambos episodios sean el mismo. Etimología. Su nombre procede del hebreo *Peleg*, relacionado con la raíz *pālag*, «dividir» o «repartir». El propio Génesis establece un juego de palabras entre su nombre y la división de la tierra que tuvo lugar durante su vida. (Gn 10:25; 11:16-19; 1 Cr 1:19,25).",
+    "body": "Antepasado de Abraham, perteneciente a la descendencia de Sem. Relaciones familiares. Hijo de Heber (Gn 10:25), hermano de Joctán y padre de Reu (Gn 11:18). Hechos bíblicos. Génesis 10:25 señala que durante sus días fue repartida la tierra, sin precisar en qué consistió exactamente dicha división. Este acontecimiento suele relacionarse con la dispersión de los pueblos y la confusión de las lenguas narradas en Génesis 11:1-9, aunque el texto no establece expresamente que ambos episodios sean el mismo. Etimología. Su nombre procede del hebreo *Peleg*, relacionado con la raíz *pālag*, «dividir» o «repartir». El propio Génesis establece un juego de palabras entre su nombre y la división de la tierra que tuvo lugar durante su vida. (Gn 10:25; 11:16-19; 1 Cr 1:19,25).",
+    "mentions": [
+      "Gn 10:25",
+      "Gn 11:18",
+      "Génesis 10:25",
+      "Génesis 11:1-9"
+    ]
   },
   {
     "id": "onomastico/pildas",
@@ -2000,8 +2128,11 @@
     "category": "onomastico",
     "name": "Quitim",
     "title": "Quitim",
-    "text": "Quitim. Descendiente de Jafet. Relaciones familiares. Hijo de Javán, nieto de Jaffet y biznieto de Noé, hermano de Elisa, Tarsis y Dodanim (Gn 10:4). Identificación. Se identifica normalmente con la colonia fenicia de Kitión, localizada en la actual ciudad chipriota de Lárnaca. Fue un centro comercial importante y entre otras cosas comerciaban con madera de pino incrustada en marfil (Ez 27:6). En cualquier caso, la palabra Kitim acabó designando a cualquier pueblo occidental como los romanos o los griegos. Etimología. Podría estar relacionado con la raíz katah, “golpear, aplastar” o con ket, “grupo, congregación”. (Gn 10:4; 1 Cr 1:7)",
-    "body": "Descendiente de Jafet. Relaciones familiares. Hijo de Javán, nieto de Jaffet y biznieto de Noé, hermano de Elisa, Tarsis y Dodanim (Gn 10:4). Identificación. Se identifica normalmente con la colonia fenicia de Kitión, localizada en la actual ciudad chipriota de Lárnaca. Fue un centro comercial importante y entre otras cosas comerciaban con madera de pino incrustada en marfil (Ez 27:6). En cualquier caso, la palabra Kitim acabó designando a cualquier pueblo occidental como los romanos o los griegos. Etimología. Podría estar relacionado con la raíz katah, “golpear, aplastar” o con ket, “grupo, congregación”. (Gn 10:4; 1 Cr 1:7)"
+    "text": "Quitim. Descendiente de Jafet. Relaciones familiares. Hijo de Javán, nieto de Jafet y biznieto de Noé, hermano de Elisa, Tarsis y Dodanim (Gn 10:4). Identificación. El nombre en realidad podría referirse a un pueblo y no, a un individuo concreto (1 Cr 1:7; Nm 24:24; Is 23:1,12; Jer 2:10; Ez 27:6; Dn 11:30). Se identifica normalmente con la colonia fenicia de Kitión, localizada en la actual ciudad chipriota de Lárnaca. Fue un centro comercial importante y entre otras cosas comerciaban con madera de pino incrustada en marfil (Ez 27:6). En cualquier caso, la palabra *Kitim* acabó designando a cualquier pueblo occidental como los romanos o los griegos. Etimología. Podría estar relacionado con la raíz katah, “golpear, aplastar” o con ket, “grupo, congregación”. (Gn 10:4; 1 Cr 1:7)",
+    "body": "Descendiente de Jafet. Relaciones familiares. Hijo de Javán, nieto de Jafet y biznieto de Noé, hermano de Elisa, Tarsis y Dodanim (Gn 10:4). Identificación. El nombre en realidad podría referirse a un pueblo y no, a un individuo concreto (1 Cr 1:7; Nm 24:24; Is 23:1,12; Jer 2:10; Ez 27:6; Dn 11:30). Se identifica normalmente con la colonia fenicia de Kitión, localizada en la actual ciudad chipriota de Lárnaca. Fue un centro comercial importante y entre otras cosas comerciaban con madera de pino incrustada en marfil (Ez 27:6). En cualquier caso, la palabra *Kitim* acabó designando a cualquier pueblo occidental como los romanos o los griegos. Etimología. Podría estar relacionado con la raíz katah, “golpear, aplastar” o con ket, “grupo, congregación”. (Gn 10:4; 1 Cr 1:7)",
+    "mentions": [
+      "Gn 10:4"
+    ]
   },
   {
     "id": "onomastico/raama",
@@ -2016,8 +2147,8 @@
     "category": "onomastico",
     "name": "Raquel",
     "title": "Raquel",
-    "text": "Raquel. Relaciones familiares. Hija de Labán. Hermana de Lea. Madre de José (Zafnat-panea) y Benjamín (Benoni) con Jacob (Israel).",
-    "body": "Relaciones familiares. Hija de Labán. Hermana de Lea. Madre de José (Zafnat-panea) y Benjamín (Benoni) con Jacob (Israel).",
+    "text": "Raquel. Relaciones familiares. Hija de Labán. Hermana de Lea. Madre de José (Zafnat-panea) y Benjamín (Benoni) con Jacob (Israel). Etimología. En hebreo, su nombre significa «oveja».",
+    "body": "Relaciones familiares. Hija de Labán. Hermana de Lea. Madre de José (Zafnat-panea) y Benjamín (Benoni) con Jacob (Israel). Etimología. En hebreo, su nombre significa «oveja».",
     "mentions": [
       "Gn 29:16",
       "Gn 30:22–24",
@@ -2052,8 +2183,8 @@
     "category": "onomastico",
     "name": "Reuel",
     "title": "Reuel",
-    "text": "Reuel. Relaciones familiares. Hijo de Esaú (Edom) y Basemat (hija de Ismael). Padre de Nahat, Zera, Sama y Miza.",
-    "body": "Relaciones familiares. Hijo de Esaú (Edom) y Basemat (hija de Ismael). Padre de Nahat, Zera, Sama y Miza.",
+    "text": "Reuel. Relaciones familiares. Hijo de Esaú (Edom) y Basemat (hija de Ismael). Padre de Nahat, Zera, Sama y Miza. Etimología. Se interpreta como «amigo de Dios».",
+    "body": "Relaciones familiares. Hijo de Esaú (Edom) y Basemat (hija de Ismael). Padre de Nahat, Zera, Sama y Miza. Etimología. Se interpreta como «amigo de Dios».",
     "mentions": [
       "Gn 36:4",
       "Gn 36:13"
@@ -2080,8 +2211,8 @@
     "category": "onomastico",
     "name": "Ros",
     "title": "Ros",
-    "text": "Ros. Relaciones familiares. Hijo de Benjamín (Benoni). Hermano de Bela, Bequer, Asbel, Gera, Naamán, Ehi, Mupim, Hupim y Ard.",
-    "body": "Relaciones familiares. Hijo de Benjamín (Benoni). Hermano de Bela, Bequer, Asbel, Gera, Naamán, Ehi, Mupim, Hupim y Ard.",
+    "text": "Ros. Relaciones familiares. Hijo de Benjamín (Benoni). Hermano de Bela, Bequer, Asbel, Gera, Naamán, Ehi, Mupim, Hupim y Ard. Etimología. El término hebreo significa «cabeza».",
+    "body": "Relaciones familiares. Hijo de Benjamín (Benoni). Hermano de Bela, Bequer, Asbel, Gera, Naamán, Ehi, Mupim, Hupim y Ard. Etimología. El término hebreo significa «cabeza».",
     "mentions": [
       "Gn 46:21"
     ]
@@ -2091,8 +2222,8 @@
     "category": "onomastico",
     "name": "Rubén",
     "title": "Rubén",
-    "text": "Rubén. Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Simeón, Leví, Judá, Isacar, Zabulón y Dina. Padre de Hanoc (hijo de Rubén), Falú, Hezrón (hijo de Rubén) y Carmi.",
-    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Simeón, Leví, Judá, Isacar, Zabulón y Dina. Padre de Hanoc (hijo de Rubén), Falú, Hezrón (hijo de Rubén) y Carmi.",
+    "text": "Rubén. Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Simeón, Leví, Judá, Isacar, Zabulón y Dina. Padre de Hanoc (hijo de Rubén), Falú, Hezrón (hijo de Rubén) y Carmi. Etimología. Génesis 29:32 establece un juego de palabras entre su nombre y la expresión «ha mirado Jehová mi aflicción»; también admite el sentido «mirad, un hijo».",
+    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Simeón, Leví, Judá, Isacar, Zabulón y Dina. Padre de Hanoc (hijo de Rubén), Falú, Hezrón (hijo de Rubén) y Carmi. Etimología. Génesis 29:32 establece un juego de palabras entre su nombre y la expresión «ha mirado Jehová mi aflicción»; también admite el sentido «mirad, un hijo».",
     "mentions": [
       "Gn 29:31–35",
       "Gn 30:17–21",
@@ -2155,8 +2286,8 @@
     "category": "onomastico",
     "name": "Saúl",
     "title": "Saúl",
-    "text": "Saúl. Relaciones familiares. Hijo de Simeón y una mujer cananea cuyo nombre no consta.",
-    "body": "Relaciones familiares. Hijo de Simeón y una mujer cananea cuyo nombre no consta.",
+    "text": "Saúl. Relaciones familiares. Hijo de Simeón y una mujer cananea cuyo nombre no consta. Etimología. Su nombre está relacionado con «pedir» o «solicitar».",
+    "body": "Relaciones familiares. Hijo de Simeón y una mujer cananea cuyo nombre no consta. Etimología. Su nombre está relacionado con «pedir» o «solicitar».",
     "mentions": [
       "Gn 46:10"
     ]
@@ -2212,16 +2343,26 @@
     "category": "onomastico",
     "name": "Selef",
     "title": "Selef",
-    "text": "Selef. Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahnitas). Etimología. En hebreo, Selef podría derivar de una raíz semítica que significa \"retirar\", \"extraer\" o \"elevar\". (Gn 10:26-29; 1 Cr 1:20)",
-    "body": "Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahnitas). Etimología. En hebreo, Selef podría derivar de una raíz semítica que significa \"retirar\", \"extraer\" o \"elevar\". (Gn 10:26-29; 1 Cr 1:20)"
+    "text": "Selef. Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahtanitas). Etimología. En hebreo, Selef podría derivar de una raíz semítica que significa \"retirar\", \"extraer\" o \"elevar\". (Gn 10:26-29; 1 Cr 1:20)",
+    "body": "Descendiente de Heber, Sem y Noé. Relaciones familiares. Hijo de Joctán, hermano de Almodad, Hazar-mavet, Jera, Adoram, Uzal, Dicla, Obal, Abimael, Seba (hijo de Joctán), Ofir, Havila (hijo de Joctán) y Jobab (Gn 10:26-29). Identificación. Se cree que podría estar relacionado con alguna tribu no identificada de árabes meridionales (qahtanitas). Etimología. En hebreo, Selef podría derivar de una raíz semítica que significa \"retirar\", \"extraer\" o \"elevar\". (Gn 10:26-29; 1 Cr 1:20)",
+    "mentions": [
+      "Gn 10:26-29"
+    ]
   },
   {
     "id": "onomastico/sem",
     "category": "onomastico",
     "name": "Sem",
     "title": "Sem (1558–2158)",
-    "text": "Sem (1558–2158). Hijo de Noé y ancestro de Abraham. Relaciones familiares. Hijo de Noé y hermano de Jafet y Cam (Gn 5:32). Fue padre de Elam, Asur, Arfaxad, Lud y Aram (hijo de Sem). Hechos bíblicos. Él y sus descendientes fueron bendecidos por Noé por ayudarlo cuando estaba ebrio (Gn 9:20-27). Identificación. Además, fue el antepasado común de todos los pueblo semitas de Asia. Etimología. El significado más probable del nombre Shém es \"nombre\" o \"renombre, prestigio, gloria\". (Gn 5:32, 6:10, 9:18-27, 10:21-31, 11:10-26; 1 Cr 1:4, 24)",
-    "body": "Hijo de Noé y ancestro de Abraham. Relaciones familiares. Hijo de Noé y hermano de Jafet y Cam (Gn 5:32). Fue padre de Elam, Asur, Arfaxad, Lud y Aram (hijo de Sem). Hechos bíblicos. Él y sus descendientes fueron bendecidos por Noé por ayudarlo cuando estaba ebrio (Gn 9:20-27). Identificación. Además, fue el antepasado común de todos los pueblo semitas de Asia. Etimología. El significado más probable del nombre Shém es \"nombre\" o \"renombre, prestigio, gloria\". (Gn 5:32, 6:10, 9:18-27, 10:21-31, 11:10-26; 1 Cr 1:4, 24)"
+    "text": "Sem. Hijo de Noé y antepasado de Abraham. Relaciones familiares. Hijo de Noé y hermano de Cam y Jafet (Gn 5:32). Fue padre de Elam, Asur, Arfaxad, Lud y Aram (hijo de Sem) (Gn 10:22). Hechos bíblicos. Junto con su hermano Jafet, cubrió la desnudez de Noé cuando este se encontraba ebrio, evitando contemplarlo directamente (Gn 9:23). Posteriormente, Noé pronunció una bendición sobre Jehová, Dios de Sem (Gn 9:26). De su descendencia procede Abraham, cuya genealogía se desarrolla en Génesis 11:10-26. Identificación. La Tabla de Naciones presenta a Sem como antepasado de diversos pueblos relacionados principalmente con Mesopotamia, Siria, Arabia y otras regiones del Próximo Oriente. De su nombre procede el término moderno «semita», utilizado especialmente en lingüística para designar una familia de lenguas que incluye el hebreo, el arameo y el árabe. Sin embargo, esta clasificación lingüística no coincide exactamente con la genealogía bíblica. Por ejemplo, Elam aparece como hijo de Sem, aunque la lengua elamita no pertenecía a la familia semítica. Etimología. El nombre hebreo *Šēm* significa «nombre», aunque también puede transmitir la idea de «renombre», «prestigio» o «gloria». (Gn 5:32; 6:10; 9:18-27; 10:21-31; 11:10-26; 1 Cr 1:4,24).",
+    "body": "Hijo de Noé y antepasado de Abraham. Relaciones familiares. Hijo de Noé y hermano de Cam y Jafet (Gn 5:32). Fue padre de Elam, Asur, Arfaxad, Lud y Aram (hijo de Sem) (Gn 10:22). Hechos bíblicos. Junto con su hermano Jafet, cubrió la desnudez de Noé cuando este se encontraba ebrio, evitando contemplarlo directamente (Gn 9:23). Posteriormente, Noé pronunció una bendición sobre Jehová, Dios de Sem (Gn 9:26). De su descendencia procede Abraham, cuya genealogía se desarrolla en Génesis 11:10-26. Identificación. La Tabla de Naciones presenta a Sem como antepasado de diversos pueblos relacionados principalmente con Mesopotamia, Siria, Arabia y otras regiones del Próximo Oriente. De su nombre procede el término moderno «semita», utilizado especialmente en lingüística para designar una familia de lenguas que incluye el hebreo, el arameo y el árabe. Sin embargo, esta clasificación lingüística no coincide exactamente con la genealogía bíblica. Por ejemplo, Elam aparece como hijo de Sem, aunque la lengua elamita no pertenecía a la familia semítica. Etimología. El nombre hebreo *Šēm* significa «nombre», aunque también puede transmitir la idea de «renombre», «prestigio» o «gloria». (Gn 5:32; 6:10; 9:18-27; 10:21-31; 11:10-26; 1 Cr 1:4,24).",
+    "mentions": [
+      "Gn 5:32",
+      "Gn 10:22",
+      "Gn 9:23",
+      "Gn 9:26",
+      "Génesis 11:10-26"
+    ]
   },
   {
     "id": "onomastico/semeber",
@@ -2266,8 +2407,12 @@
     "category": "onomastico",
     "name": "Set",
     "title": "Set (130-1042)",
-    "text": "Set (130-1042). Tercer hijo de Adán y Eva (Gn 4:25). Relaciones familiares. Hijo de Adán y Eva, hermano de Caín y Abel. (Gn 4:25). Tuvo, al menos, un hijo: Enós (Gn 4:26, 5:6). Etimología. Su nombre podría derivar de el verbo *šît*, «poner» o «establecer», quizás un juego de palabras con “sustituto (de Abel)” [Hess, 2007] (Gn 4:25; 5:3-8; 1 Cr 1:1)",
-    "body": "Tercer hijo de Adán y Eva (Gn 4:25). Relaciones familiares. Hijo de Adán y Eva, hermano de Caín y Abel. (Gn 4:25). Tuvo, al menos, un hijo: Enós (Gn 4:26, 5:6). Etimología. Su nombre podría derivar de el verbo *šît*, «poner» o «establecer», quizás un juego de palabras con “sustituto (de Abel)” [Hess, 2007] (Gn 4:25; 5:3-8; 1 Cr 1:1)"
+    "text": "Set. Tercer hijo de Adán y Eva (Gn 4:25). Relaciones familiares. Hijo de Adán y Eva, hermano de Caín y Abel. (Gn 4:25). Tuvo, al menos, un hijo: Enós (Gn 4:26, 5:6). Etimología. Su nombre podría derivar del verbo *šît*, «poner» o «establecer», quizás un juego de palabras con “sustituto (de Abel)” [Hess, 2007] (Gn 4:25; 5:3-8; 1 Cr 1:1)",
+    "body": "Tercer hijo de Adán y Eva (Gn 4:25). Relaciones familiares. Hijo de Adán y Eva, hermano de Caín y Abel. (Gn 4:25). Tuvo, al menos, un hijo: Enós (Gn 4:26, 5:6). Etimología. Su nombre podría derivar del verbo *šît*, «poner» o «establecer», quizás un juego de palabras con “sustituto (de Abel)” [Hess, 2007] (Gn 4:25; 5:3-8; 1 Cr 1:1)",
+    "mentions": [
+      "Gn 4:25",
+      "Gn 4:26"
+    ]
   },
   {
     "id": "onomastico/sidon",
@@ -2282,8 +2427,8 @@
     "category": "onomastico",
     "name": "Silem",
     "title": "Silem",
-    "text": "Silem. Relaciones familiares. Hijo de Neftalí. Hermano de Jahzeel, Guni y Jezer.",
-    "body": "Relaciones familiares. Hijo de Neftalí. Hermano de Jahzeel, Guni y Jezer.",
+    "text": "Silem. Relaciones familiares. Hijo de Neftalí. Hermano de Jahzeel, Guni y Jezer. Etimología. Se ha interpretado como «retribución» o «recompensa».",
+    "body": "Relaciones familiares. Hijo de Neftalí. Hermano de Jahzeel, Guni y Jezer. Etimología. Se ha interpretado como «retribución» o «recompensa».",
     "mentions": [
       "Gn 46:24"
     ]
@@ -2293,8 +2438,8 @@
     "category": "onomastico",
     "name": "Simeón",
     "title": "Simeón",
-    "text": "Simeón. Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Leví, Judá, Isacar, Zabulón y Dina. Padre de Jemuel, Jamín, Ohad, Jaquín y Zohar. Padre de Saúl con una mujer cananea cuyo nombre no consta.",
-    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Leví, Judá, Isacar, Zabulón y Dina. Padre de Jemuel, Jamín, Ohad, Jaquín y Zohar. Padre de Saúl con una mujer cananea cuyo nombre no consta.",
+    "text": "Simeón. Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Leví, Judá, Isacar, Zabulón y Dina. Padre de Jemuel, Jamín, Ohad, Jaquín y Zohar. Padre de Saúl con una mujer cananea cuyo nombre no consta. Etimología. Se relaciona con la raíz hebrea «oír» o «escuchar» (Gn 29:33).",
+    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Leví, Judá, Isacar, Zabulón y Dina. Padre de Jemuel, Jamín, Ohad, Jaquín y Zohar. Padre de Saúl con una mujer cananea cuyo nombre no consta. Etimología. Se relaciona con la raíz hebrea «oír» o «escuchar» (Gn 29:33).",
     "mentions": [
       "Gn 29:31–35",
       "Gn 30:17–21",
@@ -2355,8 +2500,8 @@
     "category": "onomastico",
     "name": "Tamar",
     "title": "Tamar",
-    "text": "Tamar. Relaciones familiares. Madre de Fares y Zara con Judá. Fue mujer de Er; después quedó vinculada a Onán conforme a la obligación familiar descrita en Gn 38.",
-    "body": "Relaciones familiares. Madre de Fares y Zara con Judá. Fue mujer de Er; después quedó vinculada a Onán conforme a la obligación familiar descrita en Gn 38.",
+    "text": "Tamar. Relaciones familiares. Madre de Fares y Zara con Judá. Fue mujer de Er; después quedó vinculada a Onán conforme a la obligación familiar descrita en Gn 38. Etimología. Su nombre significa «palmera datilera».",
+    "body": "Relaciones familiares. Madre de Fares y Zara con Judá. Fue mujer de Er; después quedó vinculada a Onán conforme a la obligación familiar descrita en Gn 38. Etimología. Su nombre significa «palmera datilera».",
     "mentions": [
       "Gn 38:6,27–30",
       "Gn 38:6–7",
@@ -2369,16 +2514,27 @@
     "category": "onomastico",
     "name": "Taré",
     "title": "Taré (1878–2083)",
-    "text": "Taré (1878–2083). Padre de Abraham. Relaciones familiares. Hijo de Nacor (hijo de Serug) (Gn 11:24), padre de Abraham, Nacor (hijo de Taré) y Harán (Gn 11:26). Hechos bíblicos. Vivía en Ur (Gn 11:28) pero se marchó con su familia a Harán, en el norte de Mesopotamia (Gn 11:31) donde murió (Gn 11:32). Etimología. Su nombre podría significar “resplandor” o “elevación”. (Gn 11:24:32; 1 Cr 1:26)",
-    "body": "Padre de Abraham. Relaciones familiares. Hijo de Nacor (hijo de Serug) (Gn 11:24), padre de Abraham, Nacor (hijo de Taré) y Harán (Gn 11:26). Hechos bíblicos. Vivía en Ur (Gn 11:28) pero se marchó con su familia a Harán, en el norte de Mesopotamia (Gn 11:31) donde murió (Gn 11:32). Etimología. Su nombre podría significar “resplandor” o “elevación”. (Gn 11:24:32; 1 Cr 1:26)"
+    "text": "Taré. Padre de Abraham. Relaciones familiares. Hijo de Nacor (hijo de Serug) (Gn 11:24), padre de Abraham, Nacor (hijo de Taré) y Harán (Gn 11:26). Hechos bíblicos. Vivía en Ur (Gn 11:28) pero se marchó con su familia a Harán, en el norte de Mesopotamia (Gn 11:31) donde murió (Gn 11:32). Etimología. Su nombre podría significar “resplandor” o “elevación”. (Gn 11:24-32; 1 Cr 1:26)",
+    "body": "Padre de Abraham. Relaciones familiares. Hijo de Nacor (hijo de Serug) (Gn 11:24), padre de Abraham, Nacor (hijo de Taré) y Harán (Gn 11:26). Hechos bíblicos. Vivía en Ur (Gn 11:28) pero se marchó con su familia a Harán, en el norte de Mesopotamia (Gn 11:31) donde murió (Gn 11:32). Etimología. Su nombre podría significar “resplandor” o “elevación”. (Gn 11:24-32; 1 Cr 1:26)",
+    "mentions": [
+      "Gn 11:24",
+      "Gn 11:26",
+      "Gn 11:28",
+      "Gn 11:31",
+      "Gn 11:32",
+      "Gn 11:24-32"
+    ]
   },
   {
     "id": "onomastico/tarsis",
     "category": "onomastico",
     "name": "Tarsis",
     "title": "Tarsis",
-    "text": "Tarsis. Descendiente de Jafet. Relaciones familiares. Hijo de Javán, nieto de Jaffet y biznieto de Noé, hermano de Elisa, Quitim y Dodanim (Gn 10:4). Identificación. Tarsis aparece en la Biblia varias veces como un reino o ciudad lejana proveedora de joyas y minerales. Se ha identificado de forma diversa con Cartago, Cerdeña o alguna colonia fenicia del Mediterráneo. Una teoría bastante extendida asocia Tarsis a Tartesos, una antigua civilización situada en el sur de la península ibérica. Tartessos era famosa en el mundo antiguo por su riqueza en metales preciosos, especialmente plata y estaño, y se menciona en textos griegos y romanos. [Demsky, 2023] Etimología. Podría derivar de tarash, que está relacionado con “buscar”, “explorar” o “refinar”. (Gn 10:4; 1 Cr 1:7)",
-    "body": "Descendiente de Jafet. Relaciones familiares. Hijo de Javán, nieto de Jaffet y biznieto de Noé, hermano de Elisa, Quitim y Dodanim (Gn 10:4). Identificación. Tarsis aparece en la Biblia varias veces como un reino o ciudad lejana proveedora de joyas y minerales. Se ha identificado de forma diversa con Cartago, Cerdeña o alguna colonia fenicia del Mediterráneo. Una teoría bastante extendida asocia Tarsis a Tartesos, una antigua civilización situada en el sur de la península ibérica. Tartessos era famosa en el mundo antiguo por su riqueza en metales preciosos, especialmente plata y estaño, y se menciona en textos griegos y romanos. [Demsky, 2023] Etimología. Podría derivar de tarash, que está relacionado con “buscar”, “explorar” o “refinar”. (Gn 10:4; 1 Cr 1:7)"
+    "text": "Tarsis. Descendiente de Jafet. Relaciones familiares. Hijo de Javán, nieto de Jafet y biznieto de Noé, hermano de Elisa, Quitim y Dodanim (Gn 10:4). Identificación. Tarsis aparece en la Biblia varias veces como un reino o ciudad lejana proveedora de joyas y minerales. Se ha identificado de forma diversa con Cartago, Cerdeña o alguna colonia fenicia del Mediterráneo. Una teoría bastante extendida asocia Tarsis a Tartesos, una antigua civilización situada en el sur de la península ibérica. Tartessos era famosa en el mundo antiguo por su riqueza en metales preciosos, especialmente plata y estaño, y se menciona en textos griegos y romanos. [Demsky, 2023] Etimología. Podría derivar de tarash, que está relacionado con “buscar”, “explorar” o “refinar”. (Gn 10:4; 1 Cr 1:7)",
+    "body": "Descendiente de Jafet. Relaciones familiares. Hijo de Javán, nieto de Jafet y biznieto de Noé, hermano de Elisa, Quitim y Dodanim (Gn 10:4). Identificación. Tarsis aparece en la Biblia varias veces como un reino o ciudad lejana proveedora de joyas y minerales. Se ha identificado de forma diversa con Cartago, Cerdeña o alguna colonia fenicia del Mediterráneo. Una teoría bastante extendida asocia Tarsis a Tartesos, una antigua civilización situada en el sur de la península ibérica. Tartessos era famosa en el mundo antiguo por su riqueza en metales preciosos, especialmente plata y estaño, y se menciona en textos griegos y romanos. [Demsky, 2023] Etimología. Podría derivar de tarash, que está relacionado con “buscar”, “explorar” o “refinar”. (Gn 10:4; 1 Cr 1:7)",
+    "mentions": [
+      "Gn 10:4"
+    ]
   },
   {
     "id": "onomastico/teba",
@@ -2404,8 +2560,8 @@
     "category": "onomastico",
     "name": "Temán (hijo de Elifaz)",
     "title": "Temán (hijo de Elifaz)",
-    "text": "Temán (hijo de Elifaz). Relaciones familiares. Hijo de Elifaz. Hermano de Omar, Zefo, Gatam y Cenaz (hijo de Elifaz). No se identifica automáticamente con la jefatura homónima de Gn 36:42.",
-    "body": "Relaciones familiares. Hijo de Elifaz. Hermano de Omar, Zefo, Gatam y Cenaz (hijo de Elifaz). No se identifica automáticamente con la jefatura homónima de Gn 36:42.",
+    "text": "Temán (hijo de Elifaz). Relaciones familiares. Hijo de Elifaz. Hermano de Omar, Zefo, Gatam y Cenaz (hijo de Elifaz). No se identifica automáticamente con la jefatura homónima de Gn 36:42. Etimología. El nombre se relaciona con «sur» o «meridional».",
+    "body": "Relaciones familiares. Hijo de Elifaz. Hermano de Omar, Zefo, Gatam y Cenaz (hijo de Elifaz). No se identifica automáticamente con la jefatura homónima de Gn 36:42. Etimología. El nombre se relaciona con «sur» o «meridional».",
     "mentions": [
       "Gn 36:11"
     ]
@@ -2423,8 +2579,8 @@
     "category": "onomastico",
     "name": "Timna (concubina de Elifaz)",
     "title": "Timna (concubina de Elifaz)",
-    "text": "Timna (concubina de Elifaz). Relaciones familiares. Madre de Amalec con Elifaz. Concubina de Elifaz; no se equipara automáticamente con Timna, hermana de Lotán (Gn 36:22).",
-    "body": "Relaciones familiares. Madre de Amalec con Elifaz. Concubina de Elifaz; no se equipara automáticamente con Timna, hermana de Lotán (Gn 36:22).",
+    "text": "Timna (concubina de Elifaz). Relaciones familiares. Madre de Amalec con Elifaz. Concubina de Elifaz; no se equipara automáticamente con Timna, hermana de Lotán (Gn 36:22). Etimología. Se ha relacionado con «restricción» o «impedimento».",
+    "body": "Relaciones familiares. Madre de Amalec con Elifaz. Concubina de Elifaz; no se equipara automáticamente con Timna, hermana de Lotán (Gn 36:22). Etimología. Se ha relacionado con «restricción» o «impedimento».",
     "mentions": [
       "Gn 36:12"
     ]
@@ -2434,8 +2590,11 @@
     "category": "onomastico",
     "name": "Tiras",
     "title": "Tiras",
-    "text": "Tiras. Hijo de Jafet. Relaciones familiares. Hijo de Jaffet y hermano de Gomer, Magog, Madai, Javán, Tubal y Mesec (Gn 10:2). Identificación. A lo largo de la Historia, se le ha identificado con varios pueblos del Mediterráneo: los tirrenos, los tracios, o incluso los troyanos. Los tirrenos, conocidos como tirsenos en fuentes antiguas, fueron un pueblo marítimo del Mediterráneo que habitó la región de Etruria (actual Toscana, Italia) durante el primer milenio a.C. Se cree que fueron los antepasado de los etruscos. En cambio, los tracios fueron un pueblo indoeuropeo que habitó el sureste de Europa, en regiones de la actual Bulgaria, Grecia y Turquía, durante el primer milenio a.C. Eran conocidos por su habilidad guerrera y sus ricas tradiciones artísticas que influyeron en las culturas vecinas. Finalmente, Troya, situada en la costa occidental de Anatolia (actual Turquía), fue una ciudad clave en el comercio del Mediterráneo y el Egeo, cuya importancia estratégica y cultural fue inmortalizada en la literatura homérica. [Bromiley, 1988]. Etimología. Podría estar relacionado con la raíz hebrea tar, que significa \"explorar\" o \"viajar\". (Gn 10:2; 1 Cr 1:5)",
-    "body": "Hijo de Jafet. Relaciones familiares. Hijo de Jaffet y hermano de Gomer, Magog, Madai, Javán, Tubal y Mesec (Gn 10:2). Identificación. A lo largo de la Historia, se le ha identificado con varios pueblos del Mediterráneo: los tirrenos, los tracios, o incluso los troyanos. Los tirrenos, conocidos como tirsenos en fuentes antiguas, fueron un pueblo marítimo del Mediterráneo que habitó la región de Etruria (actual Toscana, Italia) durante el primer milenio a.C. Se cree que fueron los antepasado de los etruscos. En cambio, los tracios fueron un pueblo indoeuropeo que habitó el sureste de Europa, en regiones de la actual Bulgaria, Grecia y Turquía, durante el primer milenio a.C. Eran conocidos por su habilidad guerrera y sus ricas tradiciones artísticas que influyeron en las culturas vecinas. Finalmente, Troya, situada en la costa occidental de Anatolia (actual Turquía), fue una ciudad clave en el comercio del Mediterráneo y el Egeo, cuya importancia estratégica y cultural fue inmortalizada en la literatura homérica. [Bromiley, 1988]. Etimología. Podría estar relacionado con la raíz hebrea tar, que significa \"explorar\" o \"viajar\". (Gn 10:2; 1 Cr 1:5)"
+    "text": "Tiras. Hijo de Jafet. Relaciones familiares. Hijo de Jafet y hermano de Gomer, Magog, Madai, Javán, Tubal y Mesec (Gn 10:2). Identificación. A lo largo de la Historia, se le ha identificado con varios pueblos del Mediterráneo: los tirrenos, los tracios, o incluso los troyanos. Los tirrenos, conocidos como tirsenos en fuentes antiguas, fueron un pueblo marítimo del Mediterráneo que habitó la región de Etruria (actual Toscana, Italia) durante el primer milenio a.C. Se cree que fueron los antepasado de los etruscos. En cambio, los tracios fueron un pueblo indoeuropeo que habitó el sureste de Europa, en regiones de la actual Bulgaria, Grecia y Turquía, durante el primer milenio a.C. Eran conocidos por su habilidad guerrera y sus ricas tradiciones artísticas que influyeron en las culturas vecinas. Finalmente, Troya, situada en la costa occidental de Anatolia (actual Turquía), fue una ciudad clave en el comercio del Mediterráneo y el Egeo, cuya importancia estratégica y cultural fue inmortalizada en la literatura homérica. [Bromiley, 1988]. Etimología. Podría estar relacionado con la raíz hebrea tar, que significa \"explorar\" o \"viajar\". (Gn 10:2; 1 Cr 1:5)",
+    "body": "Hijo de Jafet. Relaciones familiares. Hijo de Jafet y hermano de Gomer, Magog, Madai, Javán, Tubal y Mesec (Gn 10:2). Identificación. A lo largo de la Historia, se le ha identificado con varios pueblos del Mediterráneo: los tirrenos, los tracios, o incluso los troyanos. Los tirrenos, conocidos como tirsenos en fuentes antiguas, fueron un pueblo marítimo del Mediterráneo que habitó la región de Etruria (actual Toscana, Italia) durante el primer milenio a.C. Se cree que fueron los antepasado de los etruscos. En cambio, los tracios fueron un pueblo indoeuropeo que habitó el sureste de Europa, en regiones de la actual Bulgaria, Grecia y Turquía, durante el primer milenio a.C. Eran conocidos por su habilidad guerrera y sus ricas tradiciones artísticas que influyeron en las culturas vecinas. Finalmente, Troya, situada en la costa occidental de Anatolia (actual Turquía), fue una ciudad clave en el comercio del Mediterráneo y el Egeo, cuya importancia estratégica y cultural fue inmortalizada en la literatura homérica. [Bromiley, 1988]. Etimología. Podría estar relacionado con la raíz hebrea tar, que significa \"explorar\" o \"viajar\". (Gn 10:2; 1 Cr 1:5)",
+    "mentions": [
+      "Gn 10:2"
+    ]
   },
   {
     "id": "onomastico/togarma",
@@ -2450,8 +2609,8 @@
     "category": "onomastico",
     "name": "Tola",
     "title": "Tola",
-    "text": "Tola. Relaciones familiares. Hijo de Isacar. Hermano de Fúa, Job y Simrón.",
-    "body": "Relaciones familiares. Hijo de Isacar. Hermano de Fúa, Job y Simrón.",
+    "text": "Tola. Relaciones familiares. Hijo de Isacar. Hermano de Fúa, Job y Simrón. Etimología. Se relaciona con el «gusano escarlata».",
+    "body": "Relaciones familiares. Hijo de Isacar. Hermano de Fúa, Job y Simrón. Etimología. Se relaciona con el «gusano escarlata».",
     "mentions": [
       "Gn 46:13"
     ]
@@ -2461,8 +2620,11 @@
     "category": "onomastico",
     "name": "Tubal",
     "title": "Tubal",
-    "text": "Tubal. Hijo de Jafet. Relaciones familiares. Hijo de Jaffet y hermano de Gomer, Magog, Madai, Javán, Mesec y Tiras (Gn 10:2). Identificación. Tubal y Mesec son mencionados juntos a menudo en la Biblia (Ez 27:13, 32:26, 38:2-3;39:1; Is 66:19). Actualmente, se les relaciona con dos pueblos que se asentaron en la región de Cilicia (en la costa sur-oriental de la actual Turquía) que los asirios llamaban Tabal y Mushki. [Demsky, 2023] Conocido por su dominio en la metalurgia, Tabal era una confederación de ciudades-estado que desempeñó un papel clave en el comercio de metales. Pasó tanto por periodos de independencia como de vasallaje al Imperio Asirio, hasta que finalmente fueron absorbidos por él [Weden,2017]. Herodoto también habla de dos pueblos, Tibareni y Mosinoici, que vivían al sur del Mar Negro. Etimología. Podría derivar de la raíz hebrea taval, que significa \"mezclar\" o \"confundir.\" (Gn 10:2; 1 Cr 1:5).",
-    "body": "Hijo de Jafet. Relaciones familiares. Hijo de Jaffet y hermano de Gomer, Magog, Madai, Javán, Mesec y Tiras (Gn 10:2). Identificación. Tubal y Mesec son mencionados juntos a menudo en la Biblia (Ez 27:13, 32:26, 38:2-3;39:1; Is 66:19). Actualmente, se les relaciona con dos pueblos que se asentaron en la región de Cilicia (en la costa sur-oriental de la actual Turquía) que los asirios llamaban Tabal y Mushki. [Demsky, 2023] Conocido por su dominio en la metalurgia, Tabal era una confederación de ciudades-estado que desempeñó un papel clave en el comercio de metales. Pasó tanto por periodos de independencia como de vasallaje al Imperio Asirio, hasta que finalmente fueron absorbidos por él [Weden,2017]. Herodoto también habla de dos pueblos, Tibareni y Mosinoici, que vivían al sur del Mar Negro. Etimología. Podría derivar de la raíz hebrea taval, que significa \"mezclar\" o \"confundir.\" (Gn 10:2; 1 Cr 1:5)."
+    "text": "Tubal. Hijo de Jafet. Relaciones familiares. Hijo de Jafet y hermano de Gomer, Magog, Madai, Javán, Mesec y Tiras (Gn 10:2). Identificación. Tubal y Mesec son mencionados juntos a menudo en la Biblia (Ez 27:13, 32:26, 38:2-3;39:1; Is 66:19). Actualmente, se les relaciona con dos pueblos que se asentaron en la región de Cilicia (en la costa sur-oriental de la actual Turquía) que los asirios llamaban Tabal y Mushki. [Demsky, 2023] Conocido por su dominio en la metalurgia, Tabal era una confederación de ciudades-estado que desempeñó un papel clave en el comercio de metales. Pasó tanto por periodos de independencia como de vasallaje al Imperio Asirio, hasta que finalmente fueron absorbidos por él [Weden,2017]. Herodoto también habla de dos pueblos, Tibareni y Mosinoici, que vivían al sur del Mar Negro. Etimología. Podría derivar de la raíz hebrea taval, que significa \"mezclar\" o \"confundir.\" (Gn 10:2; 1 Cr 1:5).",
+    "body": "Hijo de Jafet. Relaciones familiares. Hijo de Jafet y hermano de Gomer, Magog, Madai, Javán, Mesec y Tiras (Gn 10:2). Identificación. Tubal y Mesec son mencionados juntos a menudo en la Biblia (Ez 27:13, 32:26, 38:2-3;39:1; Is 66:19). Actualmente, se les relaciona con dos pueblos que se asentaron en la región de Cilicia (en la costa sur-oriental de la actual Turquía) que los asirios llamaban Tabal y Mushki. [Demsky, 2023] Conocido por su dominio en la metalurgia, Tabal era una confederación de ciudades-estado que desempeñó un papel clave en el comercio de metales. Pasó tanto por periodos de independencia como de vasallaje al Imperio Asirio, hasta que finalmente fueron absorbidos por él [Weden,2017]. Herodoto también habla de dos pueblos, Tibareni y Mosinoici, que vivían al sur del Mar Negro. Etimología. Podría derivar de la raíz hebrea taval, que significa \"mezclar\" o \"confundir.\" (Gn 10:2; 1 Cr 1:5).",
+    "mentions": [
+      "Gn 10:2"
+    ]
   },
   {
     "id": "onomastico/tubal-cain",
@@ -2509,8 +2671,8 @@
     "category": "onomastico",
     "name": "Zabulón",
     "title": "Zabulón",
-    "text": "Zabulón. Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Simeón, Leví, Judá, Isacar y Dina. Padre de Sered, Elón y Jahleel.",
-    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Simeón, Leví, Judá, Isacar y Dina. Padre de Sered, Elón y Jahleel.",
+    "text": "Zabulón. Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Simeón, Leví, Judá, Isacar y Dina. Padre de Sered, Elón y Jahleel. Etimología. En Génesis 30:20 aparecen juegos de palabras asociados con «honrar» y «habitar»; no equivalen necesariamente a una etimología única.",
+    "body": "Relaciones familiares. Hijo de Jacob (Israel) y Lea. Hermano de Rubén, Simeón, Leví, Judá, Isacar y Dina. Padre de Sered, Elón y Jahleel. Etimología. En Génesis 30:20 aparecen juegos de palabras asociados con «honrar» y «habitar»; no equivalen necesariamente a una etimología única.",
     "mentions": [
       "Gn 29:31–35",
       "Gn 30:17–21",
@@ -2522,8 +2684,8 @@
     "category": "onomastico",
     "name": "Zara",
     "title": "Zara",
-    "text": "Zara. Relaciones familiares. Hijo de Judá y Tamar. Hermano de Fares.",
-    "body": "Relaciones familiares. Hijo de Judá y Tamar. Hermano de Fares.",
+    "text": "Zara. Relaciones familiares. Hijo de Judá y Tamar. Hermano de Fares. Etimología. Su nombre hebreo *Zéraḥ* se relaciona con «amanecer» o «resplandecer» (Gn 38:30).",
+    "body": "Relaciones familiares. Hijo de Judá y Tamar. Hermano de Fares. Etimología. Su nombre hebreo *Zéraḥ* se relaciona con «amanecer» o «resplandecer» (Gn 38:30).",
     "mentions": [
       "Gn 38:27–30"
     ]
@@ -2544,8 +2706,8 @@
     "category": "onomastico",
     "name": "Zera",
     "title": "Zera",
-    "text": "Zera. Relaciones familiares. Hijo de Reuel. Hermano de Nahat, Sama y Miza.",
-    "body": "Relaciones familiares. Hijo de Reuel. Hermano de Nahat, Sama y Miza.",
+    "text": "Zera. Relaciones familiares. Hijo de Reuel. Hermano de Nahat, Sama y Miza. Etimología. Se relaciona con «amanecer» o «salida de la luz».",
+    "body": "Relaciones familiares. Hijo de Reuel. Hermano de Nahat, Sama y Miza. Etimología. Se relaciona con «amanecer» o «salida de la luz».",
     "mentions": [
       "Gn 36:13"
     ]
@@ -2555,8 +2717,8 @@
     "category": "onomastico",
     "name": "Zifión",
     "title": "Zifión",
-    "text": "Zifión. Relaciones familiares. Hijo de Gad. Hermano de Hagui, Ezbón, Suni, Eri, Arodi y Areli.",
-    "body": "Relaciones familiares. Hijo de Gad. Hermano de Hagui, Ezbón, Suni, Eri, Arodi y Areli.",
+    "text": "Zifión. Relaciones familiares. Hijo de Gad. Hermano de Hagui, Ezbón, Suni, Eri, Arodi y Areli. Etimología. Posible relación con «atalaya» o «vigilar».",
+    "body": "Relaciones familiares. Hijo de Gad. Hermano de Hagui, Ezbón, Suni, Eri, Arodi y Areli. Etimología. Posible relación con «atalaya» o «vigilar».",
     "mentions": [
       "Gn 46:16"
     ]
@@ -2586,8 +2748,8 @@
     "category": "onomastico",
     "name": "Zimram",
     "title": "Zimram",
-    "text": "Zimram. Relaciones familiares. Hijo de Abraham y Cetura. Hermano de Jocsán, Medán, Madián, Isbac y Súa.",
-    "body": "Relaciones familiares. Hijo de Abraham y Cetura. Hermano de Jocsán, Medán, Madián, Isbac y Súa.",
+    "text": "Zimram. Relaciones familiares. Hijo de Abraham y Cetura. Hermano de Jocsán, Medán, Madián, Isbac y Súa. Etimología. Podría relacionarse con la raíz hebrea para «cantar».",
+    "body": "Relaciones familiares. Hijo de Abraham y Cetura. Hermano de Jocsán, Medán, Madián, Isbac y Súa. Etimología. Podría relacionarse con la raíz hebrea para «cantar».",
     "mentions": [
       "Gn 25:1–2"
     ]
@@ -2597,8 +2759,8 @@
     "category": "onomastico",
     "name": "Zohar",
     "title": "Zohar",
-    "text": "Zohar. Relaciones familiares. Hijo de Simeón. Hermano de Jemuel, Jamín, Ohad y Jaquín.",
-    "body": "Relaciones familiares. Hijo de Simeón. Hermano de Jemuel, Jamín, Ohad y Jaquín.",
+    "text": "Zohar. Relaciones familiares. Hijo de Simeón. Hermano de Jemuel, Jamín, Ohad y Jaquín. Etimología. Significa «resplandor» o «brillo».",
+    "body": "Relaciones familiares. Hijo de Simeón. Hermano de Jemuel, Jamín, Ohad y Jaquín. Etimología. Significa «resplandor» o «brillo».",
     "mentions": [
       "Gn 46:10"
     ]
@@ -3832,5 +3994,247 @@
     "name": "Ciudad de Nacor",
     "title": "Ciudad de Nacor",
     "body": "Localidad de la [[lugares/mesopotamia|Mesopotamia]] septentrional mencionada como destino del criado de Abraham durante la búsqueda de esposa para Isaac (Gn 24:10). Hechos bíblicos. El criado llega a la ciudad, encuentra a [[onomastico/rebeca|Rebeca]] junto al pozo y se presenta ante su familia. Rebeca es hija de [[onomastico/betuel|Betuel]] y nieta de [[onomastico/nacor-ii|Nacor, hermano de Abraham]] (Gn 22:20-23; 24:15, 24, 47). Ubicación. Su emplazamiento exacto es desconocido. Una interpretación tradicional la identifica con [[lugares/haran|Harán]], donde se había establecido parte de la familia de Abraham. Otros investigadores la relacionan con una localidad llamada Naḫur, atestiguada en documentos mesopotámicos del segundo milenio a.C. en la región del alto Jabur, al este de Harán. Ninguna de estas identificaciones puede considerarse definitiva. Etimología. La expresión hebrea ʿîr Nāḥôr significa «ciudad de Nacor», pero el texto no aclara si designa una ciudad con ese nombre o el asentamiento de la familia de Nacor; tampoco permite determinar si el nombre del lugar deriva del personaje bíblico. (Gn 24:10, 15-29, 47; 22:20-23)."
+  },
+  {
+    "id": "onomastico/elon-padre-de-basemat",
+    "category": "onomastico",
+    "name": "Elón (padre de Basemat)",
+    "title": "Elón (padre de Basemat)",
+    "body": "Relaciones familiares. Heteo, padre de Basemat, mujer de Esaú (Gn 26:34). Génesis 36:2 menciona también a Ada, hija de Elón, entre las mujeres de Esaú; la equivalencia entre Ada y Basemat no queda establecida expresamente.",
+    "text": "Elón (padre de Basemat). Relaciones familiares. Heteo, padre de Basemat, mujer de Esaú (Gn 26:34). Génesis 36:2 menciona también a Ada, hija de Elón, entre las mujeres de Esaú; la equivalencia entre Ada y Basemat no queda establecida expresamente.",
+    "mentions": [
+      "Gn 26:34"
+    ]
+  },
+  {
+    "id": "onomastico/sua-suegro-de-juda",
+    "category": "onomastico",
+    "name": "Súa (suegro de Judá)",
+    "title": "Súa (suegro de Judá)",
+    "body": "Relaciones familiares. Cananeo, padre de la mujer de Judá, cuyo nombre no se indica. Fue abuelo de Er, Onán y Sela (Gn 38:2-5).",
+    "text": "Súa (suegro de Judá). Relaciones familiares. Cananeo, padre de la mujer de Judá, cuyo nombre no se indica. Fue abuelo de Er, Onán y Sela (Gn 38:2-5).",
+    "mentions": [
+      "Gn 38:2-5"
+    ]
+  },
+  {
+    "id": "onomastico/bela-rey-de-edom",
+    "category": "onomastico",
+    "name": "Bela (rey de Edom)",
+    "title": "Bela (rey de Edom)",
+    "body": "Hechos bíblicos. Rey de Edom, hijo de Beor. Reinó desde la ciudad de Dinhaba y fue sucedido por Jobab (rey de Edom) (Gn 36:32-33).",
+    "text": "Bela (rey de Edom). Hechos bíblicos. Rey de Edom, hijo de Beor. Reinó desde la ciudad de Dinhaba y fue sucedido por Jobab (rey de Edom) (Gn 36:32-33).",
+    "mentions": [
+      "Gn 36:32-33"
+    ]
+  },
+  {
+    "id": "onomastico/jobab-rey-de-edom",
+    "category": "onomastico",
+    "name": "Jobab (rey de Edom)",
+    "title": "Jobab (rey de Edom)",
+    "body": "Relaciones familiares. Hijo de Zera, natural de Bosra. Hechos bíblicos. Reinó en Edom después de Bela (rey de Edom) y antes de Husam (Gn 36:33-34).",
+    "text": "Jobab (rey de Edom). Relaciones familiares. Hijo de Zera, natural de Bosra. Hechos bíblicos. Reinó en Edom después de Bela (rey de Edom) y antes de Husam (Gn 36:33-34).",
+    "mentions": [
+      "Gn 36:33-34"
+    ]
+  },
+  {
+    "id": "onomastico/saul-rey-de-edom",
+    "category": "onomastico",
+    "name": "Saúl (rey de Edom)",
+    "title": "Saúl (rey de Edom)",
+    "body": "Hechos bíblicos. Rey de Edom procedente de Rehobot junto al río. Sucedió a Samla y fue sucedido por Baal-hanán (Gn 36:37-38).",
+    "text": "Saúl (rey de Edom). Hechos bíblicos. Rey de Edom procedente de Rehobot junto al río. Sucedió a Samla y fue sucedido por Baal-hanán (Gn 36:37-38).",
+    "mentions": [
+      "Gn 36:37-38"
+    ]
+  },
+  {
+    "id": "onomastico/hadar-rey-de-edom",
+    "category": "onomastico",
+    "name": "Hadar (rey de Edom)",
+    "title": "Hadar (rey de Edom)",
+    "body": "Relaciones familiares. Esposo de Mehetabel, hija de Matred y nieta de Mezaab. Hechos bíblicos. Rey de Edom que sucedió a Baal-hanán; su ciudad fue Pau (Gn 36:39).",
+    "text": "Hadar (rey de Edom). Relaciones familiares. Esposo de Mehetabel, hija de Matred y nieta de Mezaab. Hechos bíblicos. Rey de Edom que sucedió a Baal-hanán; su ciudad fue Pau (Gn 36:39).",
+    "mentions": [
+      "Gn 36:39"
+    ]
+  },
+  {
+    "id": "onomastico/timna-hija-de-seir",
+    "category": "onomastico",
+    "name": "Timna (hija de Seir)",
+    "title": "Timna (hija de Seir)",
+    "body": "Relaciones familiares. Hermana de Lotán (hijo de Seir), por lo que se la incluye en la descendencia de Seir (Gn 36:20-22). No se identifica automáticamente con Timna (concubina de Elifaz).",
+    "text": "Timna (hija de Seir). Relaciones familiares. Hermana de Lotán (hijo de Seir), por lo que se la incluye en la descendencia de Seir (Gn 36:20-22). No se identifica automáticamente con Timna (concubina de Elifaz).",
+    "mentions": [
+      "Gn 36:20-22"
+    ]
+  },
+  {
+    "id": "onomastico/husam-rey-de-edom",
+    "category": "onomastico",
+    "name": "Husam (rey de Edom)",
+    "title": "Husam (rey de Edom)",
+    "body": "Hechos bíblicos. Rey de Edom, procedente de la tierra de Temán. Sucedió a Jobab y fue sucedido por Hadad (Gn 36:34-35).",
+    "text": "Husam (rey de Edom). Hechos bíblicos. Rey de Edom, procedente de la tierra de Temán. Sucedió a Jobab y fue sucedido por Hadad (Gn 36:34-35).",
+    "mentions": [
+      "Gn 36:34-35"
+    ]
+  },
+  {
+    "id": "onomastico/hadad-rey-de-edom",
+    "category": "onomastico",
+    "name": "Hadad (rey de Edom)",
+    "title": "Hadad (rey de Edom)",
+    "body": "Relaciones familiares. Hijo de Bedad. Hechos bíblicos. Rey de Edom que derrotó a Madián en el campo de Moab. Su ciudad fue Avit; sucedió a Husam y fue sucedido por Samla (Gn 36:35-36).",
+    "text": "Hadad (rey de Edom). Relaciones familiares. Hijo de Bedad. Hechos bíblicos. Rey de Edom que derrotó a Madián en el campo de Moab. Su ciudad fue Avit; sucedió a Husam y fue sucedido por Samla (Gn 36:35-36).",
+    "mentions": [
+      "Gn 36:35-36"
+    ]
+  },
+  {
+    "id": "onomastico/samla-rey-de-edom",
+    "category": "onomastico",
+    "name": "Samla (rey de Edom)",
+    "title": "Samla (rey de Edom)",
+    "body": "Hechos bíblicos. Rey de Edom originario de Masreca. Sucedió a Hadad y fue sucedido por Saúl (rey de Edom) (Gn 36:36-37).",
+    "text": "Samla (rey de Edom). Hechos bíblicos. Rey de Edom originario de Masreca. Sucedió a Hadad y fue sucedido por Saúl (rey de Edom) (Gn 36:36-37).",
+    "mentions": [
+      "Gn 36:36-37"
+    ]
+  },
+  {
+    "id": "onomastico/baal-hanan-rey-de-edom",
+    "category": "onomastico",
+    "name": "Baal-hanán (rey de Edom)",
+    "title": "Baal-hanán (rey de Edom)",
+    "body": "Relaciones familiares. Hijo de Acbor. Hechos bíblicos. Rey de Edom, sucesor de Saúl y predecesor de Hadar (rey de Edom) (Gn 36:38-39).",
+    "text": "Baal-hanán (rey de Edom). Relaciones familiares. Hijo de Acbor. Hechos bíblicos. Rey de Edom, sucesor de Saúl y predecesor de Hadar (rey de Edom) (Gn 36:38-39).",
+    "mentions": [
+      "Gn 36:38-39"
+    ]
+  },
+  {
+    "id": "onomastico/seir-horeo",
+    "category": "onomastico",
+    "name": "Seir (horeo)",
+    "title": "Seir (horeo)",
+    "body": "Relaciones familiares. Antepasado de los horeos de la tierra de Seir; padre de Lotán, Sobal, Zibeón, Aná, Disón, Ezer y Disán (Gn 36:20-21).",
+    "text": "Seir (horeo). Relaciones familiares. Antepasado de los horeos de la tierra de Seir; padre de Lotán, Sobal, Zibeón, Aná, Disón, Ezer y Disán (Gn 36:20-21).",
+    "mentions": [
+      "Gn 36:20-21"
+    ]
+  },
+  {
+    "id": "onomastico/lotan-hijo-de-seir",
+    "category": "onomastico",
+    "name": "Lotán (hijo de Seir)",
+    "title": "Lotán (hijo de Seir)",
+    "body": "Relaciones familiares. Hijo de Seir, hermano de Sobal, Zibeón, Aná, Disón, Ezer y Disán. Padre de Hori y Hemam y hermano de Timna (hija de Seir) (Gn 36:20-22).",
+    "text": "Lotán (hijo de Seir). Relaciones familiares. Hijo de Seir, hermano de Sobal, Zibeón, Aná, Disón, Ezer y Disán. Padre de Hori y Hemam y hermano de Timna (hija de Seir) (Gn 36:20-22).",
+    "mentions": [
+      "Gn 36:20-22"
+    ]
+  },
+  {
+    "id": "onomastico/sobal-hijo-de-seir",
+    "category": "onomastico",
+    "name": "Sobal (hijo de Seir)",
+    "title": "Sobal (hijo de Seir)",
+    "body": "Relaciones familiares. Hijo de Seir. Padre de Alván, Manahat, Ebal, Sefo y Onam (Gn 36:20,23).",
+    "text": "Sobal (hijo de Seir). Relaciones familiares. Hijo de Seir. Padre de Alván, Manahat, Ebal, Sefo y Onam (Gn 36:20,23).",
+    "mentions": [
+      "Gn 36:20"
+    ]
+  },
+  {
+    "id": "onomastico/zibeon-hijo-de-seir",
+    "category": "onomastico",
+    "name": "Zibeón (hijo de Seir)",
+    "title": "Zibeón (hijo de Seir)",
+    "body": "Relaciones familiares. Hijo de Seir, padre de Aja y Aná (Gn 36:20,24).",
+    "text": "Zibeón (hijo de Seir). Relaciones familiares. Hijo de Seir, padre de Aja y Aná (Gn 36:20,24).",
+    "mentions": [
+      "Gn 36:20"
+    ]
+  },
+  {
+    "id": "onomastico/ana-hijo-de-seir",
+    "category": "onomastico",
+    "name": "Aná (hijo de Seir)",
+    "title": "Aná (hijo de Seir)",
+    "body": "Relaciones familiares. Mencionado entre los hijos de Seir, el horeo (Gn 36:20-21). No se equipara automáticamente con otros personajes llamados Aná.",
+    "text": "Aná (hijo de Seir). Relaciones familiares. Mencionado entre los hijos de Seir, el horeo (Gn 36:20-21). No se equipara automáticamente con otros personajes llamados Aná.",
+    "mentions": [
+      "Gn 36:20-21"
+    ]
+  },
+  {
+    "id": "onomastico/dison-hijo-de-seir",
+    "category": "onomastico",
+    "name": "Disón (hijo de Seir)",
+    "title": "Disón (hijo de Seir)",
+    "body": "Relaciones familiares. Hijo de Seir, padre de Hemdán, Esbán, Itrán y Querán (Gn 36:21,26).",
+    "text": "Disón (hijo de Seir). Relaciones familiares. Hijo de Seir, padre de Hemdán, Esbán, Itrán y Querán (Gn 36:21,26).",
+    "mentions": [
+      "Gn 36:21"
+    ]
+  },
+  {
+    "id": "onomastico/ezer-hijo-de-seir",
+    "category": "onomastico",
+    "name": "Ezer (hijo de Seir)",
+    "title": "Ezer (hijo de Seir)",
+    "body": "Relaciones familiares. Hijo de Seir, padre de Bilhán, Zaaván y Acán (Gn 36:21,27).",
+    "text": "Ezer (hijo de Seir). Relaciones familiares. Hijo de Seir, padre de Bilhán, Zaaván y Acán (Gn 36:21,27).",
+    "mentions": [
+      "Gn 36:21"
+    ]
+  },
+  {
+    "id": "onomastico/disan-hijo-de-seir",
+    "category": "onomastico",
+    "name": "Disán (hijo de Seir)",
+    "title": "Disán (hijo de Seir)",
+    "body": "Relaciones familiares. Hijo de Seir, padre de Uz y Arán (Gn 36:21,28).",
+    "text": "Disán (hijo de Seir). Relaciones familiares. Hijo de Seir, padre de Uz y Arán (Gn 36:21,28).",
+    "mentions": [
+      "Gn 36:21"
+    ]
+  },
+  {
+    "id": "onomastico/asurim",
+    "category": "onomastico",
+    "name": "Asurim",
+    "title": "Asurim",
+    "body": "Relaciones familiares. Hijo de Dedán (hijo de Jocsán), nieto de Jocsán y bisnieto de Abraham. Hermano de Letusim y Leumim. (Gn 25:3).",
+    "text": "Asurim. Relaciones familiares. Hijo de Dedán (hijo de Jocsán), nieto de Jocsán y bisnieto de Abraham. Hermano de Letusim y Leumim. (Gn 25:3).",
+    "mentions": [
+      "Gn 25:3"
+    ]
+  },
+  {
+    "id": "onomastico/letusim",
+    "category": "onomastico",
+    "name": "Letusim",
+    "title": "Letusim",
+    "body": "Relaciones familiares. Hijo de Dedán (hijo de Jocsán), nieto de Jocsán y bisnieto de Abraham. Hermano de Asurim y Leumim. (Gn 25:3).",
+    "text": "Letusim. Relaciones familiares. Hijo de Dedán (hijo de Jocsán), nieto de Jocsán y bisnieto de Abraham. Hermano de Asurim y Leumim. (Gn 25:3).",
+    "mentions": [
+      "Gn 25:3"
+    ]
+  },
+  {
+    "id": "onomastico/leumim",
+    "category": "onomastico",
+    "name": "Leumim",
+    "title": "Leumim",
+    "body": "Relaciones familiares. Hijo de Dedán (hijo de Jocsán), nieto de Jocsán y bisnieto de Abraham. Hermano de Asurim y Letusim. (Gn 25:3).",
+    "text": "Leumim. Relaciones familiares. Hijo de Dedán (hijo de Jocsán), nieto de Jocsán y bisnieto de Abraham. Hermano de Asurim y Letusim. (Gn 25:3).",
+    "mentions": [
+      "Gn 25:3"
+    ]
   }
 ]
