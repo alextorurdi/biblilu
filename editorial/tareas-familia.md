@@ -2,7 +2,7 @@
 
 **Escena 15 · Génesis 24:1–67 · Revisión editorial en curso.**
 
-Estado: el editor ha aprobado las nuevas notas de Gn 24:2, 24:9, 24:55 y 24:58 con su redacción definitiva. Queda descartada la propuesta de Gn 24:22/47. Las demás decisiones editoriales están pendientes. No implementar ni publicar la escena.
+Estado: el editor ha aprobado las cinco notas nuevas de Gn 24:2, 24:9, 24:55, 24:58 y 24:63 con su redacción definitiva. Queda descartada la propuesta de Gn 24:22/47. Los demás apartados editoriales están pendientes. No implementar ni publicar la escena.
 
 ## Notas nuevas
 
@@ -22,7 +22,9 @@ Estado: el editor ha aprobado las nuevas notas de Gn 24:2, 24:9, 24:55 y 24:58 c
 - [ ] **Gn 24:58 — Consulta a Rebeca: APROBADA.** Anclar a Génesis 24:58 e incorporar exactamente el siguiente texto:
 
 > Curiosamente, Rebeca no es preguntada sobre si acepta su matrimonio con Isaac pero es consultada para resolver el desacuerdo sobre la partida.
-- [ ] **Gn 24:63 — Meditación de Isaac: pendiente de decisión.**
+- [ ] **Gn 24:63 — Meditación de Isaac: APROBADA.** Anclar en Génesis 24:63 e incorporar el texto propuesto, sin cambios:
+
+> El verbo hebreo *lāśûaḥ*, traducido aquí como «meditar», aparece únicamente en este versículo y su significado exacto es discutido. Se ha interpretado como «meditar», «orar» o «pasear». La tradición judía ha relacionado este pasaje con la oración de la tarde, mientras que algunas traducciones modernas prefieren describir simplemente a Isaac caminando por el campo.
 
 ## Resto de la revisión
 
@@ -31,4 +33,4 @@ Estado: el editor ha aprobado las nuevas notas de Gn 24:2, 24:9, 24:55 y 24:58 c
 - [ ] No realizar cambios en la página publicada ni en el texto canónico mientras la revisión editorial siga abierta.
 
 ---
-**Registro editorial:** están aprobadas las cuatro notas nuevas de Gn 24:2, 24:9, 24:55 y 24:58; la propuesta de Gn 24:22/47 fue descartada. La nota de Gn 24:63 y el resto de apartados siguen pendientes de decisión.
+**Registro editorial:** las cinco notas nuevas de Gn 24:2, 24:9, 24:55, 24:58 y 24:63 están aprobadas; la propuesta de Gn 24:22/47 fue descartada. El resto de apartados editoriales continúa pendiente.
