@@ -115,3 +115,11 @@ Publicada en `docs/genesis/6/index.html`, con fuente editorial en `editorial/app
 Los enlaces de las nuevas notas llevan a dos páginas de artículo en preparación, sin contenido especulativo. Los capítulos tradicionales Génesis 6, 7 y 8 enlazan a la misma escena mediante anclas canónicas. `scripts/build.py` conserva la página y las páginas de los artículos al reconstruir el sitio; `scripts/check.py` valida ahora 206 versículos y 65 notas. Para la revisión visual de las imágenes y de la activación lateral, probar el sitio desde navegador en escritorio y móvil.
 
 <!-- Preparación de Dispersión (Gn 10). -->
+
+## Visor de mapas
+
+`apendices/mapas/` reúne los 15 mapas de las escenas, con selector, búsqueda sin distinción de tildes, zoom, desplazamiento y pantalla completa. La tarjeta de Lugares incorpora un acceso secundario, y las imágenes de las escenas enlazan al mapa concreto. Las fichas completas y sus ventanas de consulta enumeran todos los mapas donde figura cada lugar.
+
+`assets/mapas/catalogo.json` mantiene los mapas, las escenas y las asociaciones explícitas entre rótulos SVG y fichas. Los enlaces admiten `#mapa=familia&lugar=lugares/ciudad-de-nacor` o `#mapa=familia&rotulo=4`. El visor resalta el rótulo sin modificar el SVG original ni eliminar sus indicaciones de incertidumbre. Los lugares no representados lo indican en su ficha. Para añadir mapas o modificar sus rótulos, actualizar el catálogo y ejecutar `python scripts/check_maps.py`.
+
+Comprobación de esta entrega: validación específica del catálogo, rótulos y enlaces; sintaxis JavaScript; revisión del visor en navegador. La comprobación general `scripts/check.py` tiene un fallo anterior a esta entrega: `docs/genesis/2/index.html` enlaza a `../1/index.html#gn-2-16`, que no existe. El generador también produce diferencias preexistentes respecto a páginas publicadas; en esta entrega se han conservado esas páginas y el contenido de las fichas, añadiendo únicamente la navegación cartográfica.

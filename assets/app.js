@@ -15,6 +15,17 @@
       const text=document.createElement('p');text.className='dialog-text';text.textContent=entry.body;
       const full=document.createElement('a');full.href=link.href;full.className='button';full.textContent='Abrir la ficha completa ↗';
       content.append(cat,title,text,full);dialog.showModal();dialog.scrollTop=0;
+      if(link.dataset.entry.startsWith('lugares/')){
+        fetch(base+'assets/mapas/catalogo.json').then(r=>{if(!r.ok)throw Error('mapas');return r.json()}).then(maps=>{
+          if(!title.isConnected||!dialog.open)return;
+          const matches=maps.filter(m=>m.labels.some(l=>l.entries.includes(link.dataset.entry)));
+          const group=document.createElement('div');group.className='map-links';
+          const heading=document.createElement('strong');heading.textContent='En los mapas';group.append(heading);
+          for(const m of matches){const a=document.createElement('a');a.href=base+'apendices/mapas/index.html#mapa='+m.id+'&lugar='+encodeURIComponent(link.dataset.entry);a.textContent=m.title+' ↗';group.append(a)}
+          if(!matches.length)group.append('Este lugar todavía no está señalado en los mapas disponibles.');
+          content.append(group);
+        }).catch(()=>{});
+      }
       if(link.dataset.entry.startsWith('onomastico/')){
         const slug=link.dataset.entry.split('/')[1];
         fetch(base+'assets/genealogias/enlaces.json').then(r=>{if(!r.ok)throw Error('enlaces');return r.json()}).then(map=>{

@@ -1,0 +1,1020 @@
+[
+  {
+    "id": "jafet",
+    "asset": "mapas/jafet.svg",
+    "title": "Dispersión · Jafet",
+    "scene": "10",
+    "labels": [
+      {
+        "index": 0,
+        "label": "Tartesos?",
+        "entries": []
+      },
+      {
+        "index": 1,
+        "label": "Tiras (tirrenos?)",
+        "entries": []
+      },
+      {
+        "index": 2,
+        "label": "Tiras (Tracia?)",
+        "entries": []
+      },
+      {
+        "index": 3,
+        "label": "Javán (griegos)",
+        "entries": []
+      },
+      {
+        "index": 4,
+        "label": "Magog (Lidia?)",
+        "entries": []
+      },
+      {
+        "index": 5,
+        "label": "Elisa (Chipre)",
+        "entries": []
+      },
+      {
+        "index": 6,
+        "label": "Rodas?",
+        "entries": []
+      },
+      {
+        "index": 7,
+        "label": "Quitim (Chipre)",
+        "entries": []
+      },
+      {
+        "index": 8,
+        "label": "Mesec",
+        "entries": []
+      },
+      {
+        "index": 9,
+        "label": "Tubal (Tabal)",
+        "entries": []
+      },
+      {
+        "index": 10,
+        "label": "Togarma",
+        "entries": []
+      },
+      {
+        "index": 11,
+        "label": "Gomer (cimerios)",
+        "entries": []
+      },
+      {
+        "index": 12,
+        "label": "Askenaz (escitas)",
+        "entries": []
+      },
+      {
+        "index": 13,
+        "label": "Madai (medos)",
+        "entries": []
+      }
+    ]
+  },
+  {
+    "id": "cam",
+    "asset": "mapas/cam.svg",
+    "title": "Dispersión · Cam",
+    "scene": "10",
+    "labels": [
+      {
+        "index": 0,
+        "label": "Fut (Libia)",
+        "entries": []
+      },
+      {
+        "index": 1,
+        "label": "Mizraim (Egipto)",
+        "entries": [
+          "lugares/egipto"
+        ]
+      },
+      {
+        "index": 2,
+        "label": "Cus (Kush)",
+        "entries": [
+          "lugares/cus"
+        ]
+      },
+      {
+        "index": 3,
+        "label": "Seba (Etiopía?)",
+        "entries": []
+      },
+      {
+        "index": 4,
+        "label": "Ludim (Libia?)",
+        "entries": []
+      },
+      {
+        "index": 5,
+        "label": "Naftuhim?",
+        "entries": []
+      },
+      {
+        "index": 6,
+        "label": "Patrusim",
+        "entries": []
+      },
+      {
+        "index": 7,
+        "label": "Lehabim",
+        "entries": []
+      },
+      {
+        "index": 8,
+        "label": "Dedán",
+        "entries": []
+      },
+      {
+        "index": 9,
+        "label": "Raama?",
+        "entries": []
+      },
+      {
+        "index": 10,
+        "label": "Havila?",
+        "entries": [
+          "lugares/havila"
+        ]
+      },
+      {
+        "index": 11,
+        "label": "Seba (Sabá)",
+        "entries": []
+      },
+      {
+        "index": 12,
+        "label": "Sabta (Hadramaut)",
+        "entries": []
+      },
+      {
+        "index": 13,
+        "label": "Babel",
+        "entries": [
+          "lugares/babel"
+        ]
+      },
+      {
+        "index": 14,
+        "label": "Erec",
+        "entries": [
+          "lugares/erec"
+        ]
+      },
+      {
+        "index": 15,
+        "label": "Acad?",
+        "entries": [
+          "lugares/acad"
+        ]
+      },
+      {
+        "index": 16,
+        "label": "Nínive",
+        "entries": [
+          "lugares/ninive"
+        ]
+      },
+      {
+        "index": 17,
+        "label": "Cala",
+        "entries": [
+          "lugares/cala"
+        ]
+      },
+      {
+        "index": 18,
+        "label": "Sinar",
+        "entries": [
+          "lugares/sinar"
+        ]
+      },
+      {
+        "index": 22,
+        "label": "Sidón",
+        "entries": [
+          "lugares/sidon"
+        ]
+      },
+      {
+        "index": 23,
+        "label": "Arvadeos",
+        "entries": []
+      },
+      {
+        "index": 24,
+        "label": "Zemareos?",
+        "entries": []
+      },
+      {
+        "index": 25,
+        "label": "Hamateos",
+        "entries": []
+      },
+      {
+        "index": 26,
+        "label": "Araceos?",
+        "entries": []
+      },
+      {
+        "index": 27,
+        "label": "Jebuseos",
+        "entries": []
+      },
+      {
+        "index": 28,
+        "label": "Amorreos",
+        "entries": []
+      },
+      {
+        "index": 29,
+        "label": "Heteos?",
+        "entries": []
+      },
+      {
+        "index": 30,
+        "label": "Gergeseos?",
+        "entries": []
+      },
+      {
+        "index": 31,
+        "label": "Gaza",
+        "entries": [
+          "lugares/gaza"
+        ]
+      },
+      {
+        "index": 32,
+        "label": "Gerar?",
+        "entries": [
+          "lugares/gerar",
+          "lugares/gerar-2"
+        ]
+      },
+      {
+        "index": 33,
+        "label": "Sodoma? · Gomorra?",
+        "entries": [
+          "lugares/gomorra",
+          "lugares/sodoma"
+        ]
+      },
+      {
+        "index": 34,
+        "label": "Adma? · Zeboim?",
+        "entries": [
+          "lugares/adma",
+          "lugares/zeboim"
+        ]
+      },
+      {
+        "index": 35,
+        "label": "Lasa?",
+        "entries": [
+          "lugares/bela",
+          "lugares/lasa"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sem",
+    "asset": "mapas/sem.svg",
+    "title": "Dispersión · Sem",
+    "scene": "10",
+    "labels": [
+      {
+        "index": 0,
+        "label": "Lud (Lidia)",
+        "entries": []
+      },
+      {
+        "index": 1,
+        "label": "Asur (Asiria)",
+        "entries": [
+          "lugares/asiria"
+        ]
+      },
+      {
+        "index": 2,
+        "label": "Elam",
+        "entries": [
+          "lugares/elam"
+        ]
+      },
+      {
+        "index": 3,
+        "label": "Caldea?",
+        "entries": []
+      },
+      {
+        "index": 4,
+        "label": "Aram",
+        "entries": []
+      },
+      {
+        "index": 5,
+        "label": "Hul?",
+        "entries": []
+      },
+      {
+        "index": 6,
+        "label": "Uz?",
+        "entries": []
+      },
+      {
+        "index": 7,
+        "label": "Geter?",
+        "entries": []
+      },
+      {
+        "index": 8,
+        "label": "Mas?",
+        "entries": []
+      },
+      {
+        "index": 9,
+        "label": "Havila?",
+        "entries": [
+          "lugares/havila"
+        ]
+      },
+      {
+        "index": 10,
+        "label": "Ofir?",
+        "entries": []
+      },
+      {
+        "index": 11,
+        "label": "Séfar?",
+        "entries": [
+          "lugares/sefar"
+        ]
+      },
+      {
+        "index": 12,
+        "label": "Seba (Sabá)",
+        "entries": []
+      },
+      {
+        "index": 13,
+        "label": "Hazar-mavet (Hadramaut)",
+        "entries": []
+      },
+      {
+        "index": 14,
+        "label": "Joctán (Arabia)",
+        "entries": []
+      }
+    ]
+  },
+  {
+    "id": "ur-haran",
+    "asset": "mapa-ur-haran-v05.svg",
+    "title": "De Noé a Abram · Ur y Harán",
+    "scene": "11-10",
+    "labels": [
+      {
+        "index": 6,
+        "label": "Ur",
+        "entries": [
+          "lugares/ur-de-los-caldeos"
+        ]
+      },
+      {
+        "index": 8,
+        "label": "Harán",
+        "entries": [
+          "lugares/haran"
+        ]
+      },
+      {
+        "index": 10,
+        "label": "Canaán",
+        "entries": [
+          "lugares/canaan"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "viaje-1",
+    "asset": "mapa-viaje-1.svg",
+    "title": "Viaje · Llegada a Canaán",
+    "scene": "12",
+    "labels": [
+      {
+        "index": 1,
+        "label": "Harán",
+        "entries": [
+          "lugares/haran"
+        ]
+      },
+      {
+        "index": 2,
+        "label": "Siquem",
+        "entries": [
+          "lugares/siquem"
+        ]
+      },
+      {
+        "index": 3,
+        "label": "Bet-el",
+        "entries": [
+          "lugares/bet-el"
+        ]
+      },
+      {
+        "index": 4,
+        "label": "Neguev",
+        "entries": [
+          "lugares/neguev"
+        ]
+      },
+      {
+        "index": 5,
+        "label": "Canaán",
+        "entries": [
+          "lugares/canaan"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "viaje-2",
+    "asset": "mapa-viaje-2.svg",
+    "title": "Viaje · Egipto y regreso",
+    "scene": "12",
+    "labels": [
+      {
+        "index": 1,
+        "label": "Siquem",
+        "entries": [
+          "lugares/siquem"
+        ]
+      },
+      {
+        "index": 2,
+        "label": "Bet-el",
+        "entries": [
+          "lugares/bet-el"
+        ]
+      },
+      {
+        "index": 3,
+        "label": "Neguev",
+        "entries": [
+          "lugares/neguev"
+        ]
+      },
+      {
+        "index": 4,
+        "label": "Egipto",
+        "entries": [
+          "lugares/egipto"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "viaje-3",
+    "asset": "mapa-viaje-3.svg",
+    "title": "Viaje · Separación de Abram y Lot",
+    "scene": "12",
+    "labels": [
+      {
+        "index": 1,
+        "label": "Bet-el",
+        "entries": [
+          "lugares/bet-el"
+        ]
+      },
+      {
+        "index": 2,
+        "label": "Hebrón",
+        "entries": [
+          "lugares/hebron",
+          "lugares/quiriat-arba"
+        ]
+      },
+      {
+        "index": 3,
+        "label": "Sodoma (zona discutida)",
+        "entries": [
+          "lugares/sodoma"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "guerra-1",
+    "asset": "mapa-guerra-1.svg",
+    "title": "Guerra · Coalición de los reyes",
+    "scene": "14",
+    "labels": [
+      {
+        "index": 1,
+        "label": "Elam",
+        "entries": [
+          "lugares/elam"
+        ]
+      },
+      {
+        "index": 2,
+        "label": "Sinar",
+        "entries": [
+          "lugares/sinar"
+        ]
+      },
+      {
+        "index": 3,
+        "label": "Elasar (?)",
+        "entries": [
+          "lugares/elasar"
+        ]
+      },
+      {
+        "index": 4,
+        "label": "Goim (?)",
+        "entries": [
+          "lugares/goim"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "guerra-2",
+    "asset": "mapa-guerra-2.svg",
+    "title": "Guerra · Campaña de Quedorlaomer",
+    "scene": "14",
+    "labels": [
+      {
+        "index": 1,
+        "label": "Astarot-carnaim (?)",
+        "entries": [
+          "lugares/astarot-carnaim"
+        ]
+      },
+      {
+        "index": 2,
+        "label": "Ham (?)",
+        "entries": [
+          "lugares/ham"
+        ]
+      },
+      {
+        "index": 3,
+        "label": "Save-quiriataim (?)",
+        "entries": [
+          "lugares/save",
+          "lugares/save-quiriataim"
+        ]
+      },
+      {
+        "index": 4,
+        "label": "Seir",
+        "entries": [
+          "lugares/seir"
+        ]
+      },
+      {
+        "index": 5,
+        "label": "Parán",
+        "entries": [
+          "lugares/paran"
+        ]
+      },
+      {
+        "index": 6,
+        "label": "Cades",
+        "entries": [
+          "lugares/cades",
+          "lugares/en-mispat"
+        ]
+      },
+      {
+        "index": 7,
+        "label": "Hazezontamar (?)",
+        "entries": [
+          "lugares/hazezontamar"
+        ]
+      },
+      {
+        "index": 8,
+        "label": "Sidim (aprox.)",
+        "entries": [
+          "lugares/sidim"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "guerra-3",
+    "asset": "mapa-guerra-3.svg",
+    "title": "Guerra · Rescate de Lot",
+    "scene": "14",
+    "labels": [
+      {
+        "index": 1,
+        "label": "Hebrón",
+        "entries": [
+          "lugares/hebron",
+          "lugares/quiriat-arba"
+        ]
+      },
+      {
+        "index": 2,
+        "label": "Dan",
+        "entries": [
+          "lugares/dan"
+        ]
+      },
+      {
+        "index": 3,
+        "label": "Hobá (?)",
+        "entries": [
+          "lugares/hoba"
+        ]
+      },
+      {
+        "index": 4,
+        "label": "Damasco",
+        "entries": [
+          "lugares/damasco"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "promesas",
+    "asset": "mapa-promesas-v07.svg",
+    "title": "Promesas · La tierra prometida",
+    "scene": "15",
+    "labels": [
+      {
+        "index": 0,
+        "label": "MAR MEDITERRÁNEO",
+        "entries": []
+      },
+      {
+        "index": 1,
+        "label": "CANAÁN",
+        "entries": [
+          "lugares/canaan"
+        ]
+      },
+      {
+        "index": 2,
+        "label": "SINÁI",
+        "entries": []
+      },
+      {
+        "index": 3,
+        "label": "EGIPTO",
+        "entries": [
+          "lugares/egipto"
+        ]
+      },
+      {
+        "index": 4,
+        "label": "TRANSJORDANIA",
+        "entries": []
+      },
+      {
+        "index": 5,
+        "label": "MESOPOTAMIA",
+        "entries": [
+          "lugares/mesopotamia"
+        ]
+      },
+      {
+        "index": 6,
+        "label": "Éufrates",
+        "entries": [
+          "lugares/eufrates"
+        ]
+      },
+      {
+        "index": 7,
+        "label": "Hebrón",
+        "entries": [
+          "lugares/hebron",
+          "lugares/quiriat-arba"
+        ]
+      },
+      {
+        "index": 8,
+        "label": "Mar Muerto",
+        "entries": [
+          "lugares/mar-salado"
+        ]
+      },
+      {
+        "index": 9,
+        "label": "Brazo oriental",
+        "entries": []
+      },
+      {
+        "index": 10,
+        "label": "del Nilo",
+        "entries": []
+      },
+      {
+        "index": 11,
+        "label": "Wadi el-Arish",
+        "entries": []
+      }
+    ]
+  },
+  {
+    "id": "legado",
+    "asset": "legado-mapa.svg",
+    "title": "Legado · El camino de Agar",
+    "scene": "16",
+    "labels": [
+      {
+        "index": 2,
+        "label": "MarMediterráneo",
+        "entries": []
+      },
+      {
+        "index": 3,
+        "label": "CANAÁN",
+        "entries": [
+          "lugares/canaan"
+        ]
+      },
+      {
+        "index": 4,
+        "label": "NÉGUEV",
+        "entries": [
+          "lugares/neguev"
+        ]
+      },
+      {
+        "index": 5,
+        "label": "SHUR",
+        "entries": [
+          "lugares/shur"
+        ]
+      },
+      {
+        "index": 7,
+        "label": "EGIPTO",
+        "entries": [
+          "lugares/egipto"
+        ]
+      },
+      {
+        "index": 8,
+        "label": "SINAÍ",
+        "entries": []
+      },
+      {
+        "index": 9,
+        "label": "Hebrón",
+        "entries": [
+          "lugares/hebron",
+          "lugares/quiriat-arba"
+        ]
+      },
+      {
+        "index": 11,
+        "label": "Cades*",
+        "entries": [
+          "lugares/cades",
+          "lugares/en-mispat"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "perdicion",
+    "asset": "perdicion-mapa.svg",
+    "title": "Perdición · El entorno del mar Muerto",
+    "scene": "18",
+    "labels": [
+      {
+        "index": 2,
+        "label": "CANAÁN",
+        "entries": [
+          "lugares/canaan"
+        ]
+      },
+      {
+        "index": 3,
+        "label": "Transjordania",
+        "entries": []
+      },
+      {
+        "index": 4,
+        "label": "Hebrón",
+        "entries": [
+          "lugares/hebron",
+          "lugares/quiriat-arba"
+        ]
+      },
+      {
+        "index": 5,
+        "label": "Mamre",
+        "entries": [
+          "lugares/mamre"
+        ]
+      },
+      {
+        "index": 6,
+        "label": "Mar Muerto",
+        "entries": [
+          "lugares/mar-salado"
+        ]
+      },
+      {
+        "index": 7,
+        "label": "Jordán",
+        "entries": [
+          "lugares/jordan"
+        ]
+      },
+      {
+        "index": 8,
+        "label": "Sodoma y Gomorra",
+        "entries": [
+          "lugares/gomorra",
+          "lugares/sodoma"
+        ]
+      },
+      {
+        "index": 11,
+        "label": "Zoar (?)",
+        "entries": [
+          "lugares/bela-2",
+          "lugares/zoar"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cumplimiento",
+    "asset": "cumplimiento-mapa.svg",
+    "title": "Cumplimiento · El sur de Canaán",
+    "scene": "20",
+    "labels": [
+      {
+        "index": 2,
+        "label": "MarMediterráneo",
+        "entries": []
+      },
+      {
+        "index": 3,
+        "label": "CANAÁN",
+        "entries": [
+          "lugares/canaan"
+        ]
+      },
+      {
+        "index": 4,
+        "label": "NÉGUEV",
+        "entries": [
+          "lugares/neguev"
+        ]
+      },
+      {
+        "index": 5,
+        "label": "EGIPTO",
+        "entries": [
+          "lugares/egipto"
+        ]
+      },
+      {
+        "index": 6,
+        "label": "SINAÍ",
+        "entries": []
+      },
+      {
+        "index": 7,
+        "label": "Hebrón",
+        "entries": [
+          "lugares/hebron",
+          "lugares/quiriat-arba"
+        ]
+      },
+      {
+        "index": 8,
+        "label": "Macpela",
+        "entries": [
+          "lugares/cueva-de-macpela",
+          "lugares/macpela"
+        ]
+      },
+      {
+        "index": 9,
+        "label": "Gerar*",
+        "entries": [
+          "lugares/gerar",
+          "lugares/gerar-2"
+        ]
+      },
+      {
+        "index": 10,
+        "label": "Beerseba*",
+        "entries": [
+          "lugares/beerseba"
+        ]
+      },
+      {
+        "index": 11,
+        "label": "Moriah (?)",
+        "entries": [
+          "lugares/moriah"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "familia",
+    "asset": "familia-mapa.svg",
+    "title": "Familia · El viaje del criado",
+    "scene": "24",
+    "labels": [
+      {
+        "index": 2,
+        "label": "Harán",
+        "entries": [
+          "lugares/haran"
+        ]
+      },
+      {
+        "index": 4,
+        "label": "Ciudad de Nacor (?)",
+        "entries": [
+          "lugares/ciudad-de-nacor"
+        ]
+      },
+      {
+        "index": 6,
+        "label": "ALTA MESOPOTAMIA",
+        "entries": [
+          "lugares/mesopotamia"
+        ]
+      },
+      {
+        "index": 7,
+        "label": "Sur de Canaán",
+        "entries": [
+          "lugares/canaan"
+        ]
+      },
+      {
+        "index": 9,
+        "label": "CANAÁN",
+        "entries": [
+          "lugares/canaan"
+        ]
+      },
+      {
+        "index": 10,
+        "label": "DESIERTO DE SIRIA",
+        "entries": []
+      },
+      {
+        "index": 11,
+        "label": "Mar Mediterráneo",
+        "entries": []
+      },
+      {
+        "index": 12,
+        "label": "Chipre",
+        "entries": []
+      },
+      {
+        "index": 13,
+        "label": "Éufrates",
+        "entries": [
+          "lugares/eufrates"
+        ]
+      },
+      {
+        "index": 14,
+        "label": "Tigris",
+        "entries": [
+          "lugares/hidekel",
+          "lugares/tigris"
+        ]
+      },
+      {
+        "index": 15,
+        "label": "Jordán",
+        "entries": [
+          "lugares/jordan"
+        ]
+      }
+    ]
+  }
+]
