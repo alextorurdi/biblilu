@@ -36,10 +36,11 @@ for p,doc in parsed.items():
     assert old_ch3 or fragment.startswith(('lamina=','persona=')),(p,address,'missing anchor')
 
 V=json.loads((ROOT/'data/genesis.json').read_text(encoding='utf-8'))
-assert len(V)==592
+assert len(V)==659
 normalize=lambda x:re.sub(r'\s+',' ',x).strip()
 all_text=''
 def scene_path(c,v):
+ if c==24:return '24'
  if c in (20,21,22,23):return '20'
  if c in (18,19):return '18'
  if c in (16,17):return '16'
@@ -69,7 +70,7 @@ for verse in V:
  for speech in re.findall(r'<span class="divine">([\s\S]*?)</span>',match[1]):
   assert not re.search(r'<a(?![^>]*class="fn-link")',speech),(c,v,'divine text has hyperlink')
  all_text+=match[1]
-for unit,min_n,max_n in [(1,1,8),(2,9,22),(4,23,39),(5,40,53),(6,54,67),(10,68,76),('11',77,78),('11-10',79,81),('12',82,93),('14',94,103),('15',104,110),('16',111,121),('18',122,130),('20',131,144)]:
+for unit,min_n,max_n in [(1,1,8),(2,9,22),(4,23,39),(5,40,53),(6,54,67),(10,68,76),('11',77,78),('11-10',79,81),('12',82,93),('14',94,103),('15',104,110),('16',111,121),('18',122,130),('20',131,144),('24',145,153)]:
  html=(SITE/f'genesis/{unit}/index.html').read_text(encoding='utf-8')
  a=[int(x) for x in re.findall(r'id="fnref-(\d+)"',html)]
  b=[int(x) for x in re.findall(r'<li id="fn-(\d+)"',html)]
@@ -85,7 +86,7 @@ assert 'data-scene="crueldad"' in (SITE/'genesis/4/index.html').read_text(encodi
 assert 'data-illustration="music"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
 assert 'id="fnref-27"' in (SITE/'genesis/4/index.html').read_text(encoding='utf-8')
 assert '“dadora de vida”' in (SITE/'genesis/2/index.html').read_text(encoding='utf-8')
-print(f'OK: {len(parsed)} páginas; 592 versículos, 144 notas, dos índices, anclas canónicas y marcado divino.')
+print(f'OK: {len(parsed)} páginas; 659 versículos, 153 notas, dos índices, anclas canónicas y marcado divino.')
 
 # La escena 4 abarca Gn 4:25–5:32; el árbol 02 cambia a cronología en Gn 5:25.
 scene_4=(SITE/'genesis/5/index.html').read_text(encoding='utf-8')
@@ -110,7 +111,7 @@ assert '<a href="6/index.html#gn-9-1">' in (SITE/'genesis/index.html').read_text
 
 # Bibliografía de Génesis 9:25: correspondencia entre la nota 67 y las fuentes.
 _bib=json.loads((ROOT/'data/bibliography.json').read_text(encoding='utf-8'))
-assert len(_bib)==63
+assert len(_bib)==68
 for _n,_name in ((53,'Embry'),(54,'Bergsma'),(55,'Alexander')):
  assert _name in _bib[_n-1]
  assert f'href="../../bibliografia/index.html#ref-{_n}"' in scene_5
@@ -226,3 +227,38 @@ print('OK: Cumplimiento · 96 versículos, 14 notas (131–144), 6 recursos y bi
 # Imágenes definitivas de Cumplimiento: dos inserciones por recurso (móvil + escritorio).
 for _image in ('cumplimiento-agar.webp','cumplimiento-siete-corderas.webp','cumplimiento-obediencia.webp','cumplimiento-macpela.webp'):
  assert cumplimiento.count(_image+'?v=20261115-def')==2,(_image,'imagen definitiva no enlazada dos veces')
+
+# Escena 15: Familia (Gn 24) · nueve notas, cinco imágenes/mapa y árbol propio.
+familia=(SITE/'genesis/24/index.html').read_text(encoding='utf-8')
+assert all(f'id="gn-24-{v}"' in familia for v in range(1,68))
+assert familia.count('class="familia-break"')==6
+assert familia.count('class="familia-mobile-art')==5
+assert familia.count('class="familia-panel"')==5
+assert familia.count('class="familia-genealogy"')==1
+assert 'data-familia-side' in familia
+assert all(f'familia-corte-{n}' in familia for n in range(1,7))
+assert (SITE/'assets/familia.js').read_text(encoding='utf-8').find('[1,2,4,6]') >= 0
+for _asset in ('familia-juramento.webp','familia-mapa.svg','familia-pozo.webp','familia-partida.webp','familia-encuentro.webp','genealogias/19.svg','familia.css','familia.js'):
+ assert (SITE/'assets'/_asset).exists(), _asset
+for _asset in ('familia-juramento.webp','familia-mapa.svg','familia-pozo.webp','familia-partida.webp','familia-encuentro.webp'):
+ assert familia.count(_asset)==2,(_asset, familia.count(_asset))
+assert 'src="../../assets/genealogias/19.svg"' in familia
+assert 'href="../../assets/genealogias/visor.html#lamina=19"' in familia
+assert '<option value="19">' in (SITE/'assets/genealogias/visor.html').read_text(encoding='utf-8')
+assert 'id="t-19"' in (SITE/'assets/genealogias/visor.html').read_text(encoding='utf-8')
+assert '19 láminas' in (SITE/'apendices/genealogias/index.html').read_text(encoding='utf-8')
+assert '<a href="24/index.html#gn-24-1">' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
+assert '<a href="../24/index.html">Familia →</a>' in (SITE/'genesis/20/index.html').read_text(encoding='utf-8')
+assert all(_id in familia for _id in ('data-entry="lugares/mesopotamia"','data-entry="lugares/ciudad-de-nacor"','data-entry="lugares/pozo-del-viviente-que-me-ve"'))
+assert all((SITE/'apendices/lugares'/x/'index.html').exists() for x in ('mesopotamia','ciudad-de-nacor'))
+places=(SITE/'apendices/lugares/index.html').read_text(encoding='utf-8')
+assert '76 ENTRADAS' in places and 'ciudad-de-nacor/index.html' in places and 'mesopotamia/index.html' in places
+city=(SITE/'apendices/lugares/ciudad-de-nacor/index.html').read_text(encoding='utf-8')
+mesa=(SITE/'apendices/lugares/mesopotamia/index.html').read_text(encoding='utf-8')
+assert all(x in city for x in ('lugares/mesopotamia','lugares/haran','onomastico/nacor-ii','onomastico/rebeca','onomastico/betuel'))
+assert all(x in mesa for x in ('lugares/ciudad-de-nacor','lugares/haran','lugares/ur-de-los-caldeos'))
+assert 'este es el mismo pozo nombrado por Agar en Gen 16:14' in familia
+assert 'El verbo hebreo <em>lāśûaḥ</em>' in familia
+assert 'El hecho de que Rebeca se cubra únicamente' in familia
+assert all(f'id="ref-{n}"' in (SITE/'bibliografia/index.html').read_text(encoding='utf-8') for n in range(64,69))
+print('OK: Familia · 67 versículos, 9 notas (145–153), mapa, cuatro ilustraciones, lámina 19 y dos fichas enlazadas.')
