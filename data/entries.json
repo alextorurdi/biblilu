@@ -3627,14 +3627,6 @@
     "body": "Ciudad y región del sur de Canaán. Hechos bíblicos. Abraham establece un pacto con Abimelec en este lugar, asegurando el uso de un pozo tras un conflicto; el nombre Beerseba se explica como \"pozo del juramento\" o \"pozo de los siete\" (Gn 21:22-34). Más tarde, Isaac reabre los pozos que habían sido cegados por los filisteos y renueva el pacto con Abimelec (Gn 26:23-33). También es mencionada como punto de partida o referencia en los viajes de Jacob y Elías (Gn 28:10; 1R 19:3). Ubicación. Identificada con el sitio arqueológico de Tell Be'er Sheva, cerca del desierto del Negev, en Israel moderno. Etimología. El nombre combina \"be'er\" (pozo) y \"sheba\" (siete o juramento), lo que refleja las narrativas bíblicas. (Gn 21:22-34; Gn 26:23-33; Gn 28:10; 1R 19:3)"
   },
   {
-    "id": "lugares/bela",
-    "category": "lugares",
-    "name": "Bela",
-    "title": "Bela",
-    "text": "Bela. Ver Lasa.",
-    "body": "Ver Lasa."
-  },
-  {
     "id": "lugares/bela-2",
     "category": "lugares",
     "name": "Bela",
@@ -3695,8 +3687,8 @@
     "category": "lugares",
     "name": "Cueva de Macpela",
     "title": "Cueva de Macpela",
-    "text": "Cueva de Macpela. Ver Macpela (cueva de).",
-    "body": "Ver Macpela (cueva de)."
+    "text": "Cueva de Macpela. Ver Macpela.",
+    "body": "Ver [[lugares/macpela|Macpela]]."
   },
   {
     "id": "lugares/cus",
@@ -3793,14 +3785,6 @@
     "title": "Gaza",
     "text": "Gaza. Una de las más antiguas del mundo, fue un importante centro comercial y estratégico en la antigüedad debido a su ubicación en la costa del Mediterráneo, en la ruta que conectaba Egipto con Canaán y Mesopotamia. Mencionada en textos egipcios, asirios y bíblicos, Gaza fue gobernada por diversas civilizaciones, incluidas los egipcios, filisteos, asirios y persas. Durante el período de los filisteos, Gaza fue una de sus principales ciudades-estado, conocida por su fortaleza y como lugar del famoso episodio bíblico de Sansón (Jueces 16).",
     "body": "Una de las más antiguas del mundo, fue un importante centro comercial y estratégico en la antigüedad debido a su ubicación en la costa del Mediterráneo, en la ruta que conectaba Egipto con Canaán y Mesopotamia. Mencionada en textos egipcios, asirios y bíblicos, Gaza fue gobernada por diversas civilizaciones, incluidas los egipcios, filisteos, asirios y persas. Durante el período de los filisteos, Gaza fue una de sus principales ciudades-estado, conocida por su fortaleza y como lugar del famoso episodio bíblico de Sansón (Jueces 16)."
-  },
-  {
-    "id": "lugares/gerar",
-    "category": "lugares",
-    "name": "Gerar",
-    "title": "Gerar",
-    "text": "Gerar. Ciudad filistea al sur de Canaán con la que Abraham e Isaac tuvieron mucha relación. Estaba gobernada por Abimelec y se describe como un centro agrícola y ganadero en una región semiárida, conectada a rutas comerciales entre Egipto y Canaán.",
-    "body": "Ciudad filistea al sur de Canaán con la que Abraham e Isaac tuvieron mucha relación. Estaba gobernada por Abimelec y se describe como un centro agrícola y ganadero en una región semiárida, conectada a rutas comerciales entre Egipto y Canaán."
   },
   {
     "id": "lugares/gerar-2",
@@ -4105,14 +4089,6 @@
     "title": "Sidón",
     "text": "Sidón. Una de las ciudades más antiguas del mundo. Fue un destacado puerto fenicio ubicado en la costa del actual Líbano. Fundada sobre el tercer milenio a.C., Sidón floreció como un importante centro marítimo y comercial, exportando productos como vidrio, tintes púrpura y madera de cedro. Tuvo un impacto cultural significativo, influyendo en otras ciudades fenicias como Tiro y fundando colonias en el Mediterráneo. Seguramente fue fundada por Sidón, primogénito de Canaán (Génesis 10:15).",
     "body": "Una de las ciudades más antiguas del mundo. Fue un destacado puerto fenicio ubicado en la costa del actual Líbano. Fundada sobre el tercer milenio a.C., Sidón floreció como un importante centro marítimo y comercial, exportando productos como vidrio, tintes púrpura y madera de cedro. Tuvo un impacto cultural significativo, influyendo en otras ciudades fenicias como Tiro y fundando colonias en el Mediterráneo. Seguramente fue fundada por Sidón, primogénito de Canaán (Génesis 10:15)."
-  },
-  {
-    "id": "lugares/sig",
-    "category": "lugares",
-    "name": "SIG",
-    "title": "SIG",
-    "text": "SIG",
-    "body": ""
   },
   {
     "id": "lugares/sinar",
