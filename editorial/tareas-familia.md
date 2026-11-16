@@ -14,7 +14,9 @@ Estado: el editor ha aprobado las nuevas notas de Gn 24:2 y Gn 24:9 con su redac
 
 > La colocación de la mano bajo el muslo era un gesto solemne vinculado al juramento, mencionado también en Génesis 47:29. Su significado exacto es discutido. Una interpretación considera que expresaba sumisión a la autoridad. Otras utilizan el término "muslo" como eufemismo de una parte más céntrica de la anatomía y la interpretación se relaciona con la circuncisión, señal del pacto entre Dios y Abraham, o con un juramento sobre la descendencia. Existían rituales parecidos en otras sociedades contemporáneas.
 
-- [ ] Otras propuestas iniciales de nota (Gn 24:22/47, 24:58 y 24:63): **pendientes de decisión**. Ni aprobadas ni descartadas.
+- [x] **Gn 24:22/47 — Nota sobre el pendiente de Rebeca: DESCARTADA** por decisión del editor. No incorporar nota ni tratar la variación narrativa entre los versículos 22 y 47 como nueva nota.
+- [ ] **Gn 24:58 — La decisión de Rebeca y el intento de retrasar su partida: EN INVESTIGACIÓN; no aprobada.** El editor solicita revisar estudios recientes sobre todo Gn 24:50–61 y especialmente Gn 24:55–58, el plazo de espera, posibles rituales de esponsales, preparativos de boda, intereses familiares y el consentimiento de Rebeca. No adoptar una hipótesis como hecho ni confundir interpretaciones rabínicas posteriores con un ritual demostrable en el entorno histórico de Génesis.
+- [ ] **Gn 24:63 — Meditación de Isaac: pendiente de decisión.**
 
 ## Resto de la revisión
 
