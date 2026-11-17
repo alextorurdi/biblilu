@@ -7,7 +7,7 @@ GENEALOGY_LINKS=json.loads((ROOT/'assets/genealogias/enlaces.json').read_text(en
 MAPS=json.loads((ROOT/'assets/mapas/catalogo.json').read_text(encoding='utf-8'))
 ENTRY_TO_PERSON=GENEALOGY_LINKS['entry_to_person']
 PERSON_TO_SHEETS=GENEALOGY_LINKS.get('person_to_sheets', {})
-C={'onomastico':('Onomástico','Personas y relaciones familiares'),'lugares':('Lugares','La geografía del relato'),'animales':('Animales','Animales, plantas y criaturas celestiales'),'materiales':('Materiales','Objetos, minerales y símbolos'),'tribus':('Tribus','Pueblos de la Antigüedad')}
+C={'onomastico':('Onomástico','Personas y relaciones familiares'),'lugares':('Lugares','La geografía del relato'),'animales':('Seres Vivos','Animales, plantas y criaturas celestiales'),'materiales':('Materiales','Objetos, minerales y símbolos'),'tribus':('Tribus','Pueblos de la Antigüedad')}
 byid={e['id']:e for e in E};links={}
 # Selección contextual para Génesis 1–3. No se enlazan homónimos automáticamente.
 for cat,names in {'onomastico':['Adán','Eva','Varona'],'materiales':['Oro','Bedelio','Ónice','Espada encendida'],'lugares':['Edén','Pisón','Havila','Gihón','Cus','Hidekel','Asiria','Eúfrates'],'animales':['Higuera','Querubín','Serpiente','Cardo','Árbol de la Vida','Árbol de la Ciencia del Bien y del Mal']}.items():
@@ -73,7 +73,7 @@ def cards(pre, appendix_index=False):
   elif cat=='lugares':
    result.append(places_card(pre))
   else:
-   label='Seres Vivos' if appendix_index and cat=='animales' else name
+   label=name
    result.append(f'<a class="appendix-card {cat}" href="{pre}apendices/{cat}/index.html"><span class="dot"></span><h3>{label}</h3><p>{desc}</p><span aria-hidden="true">↗</span></a>')
  return ''.join(result)
 old='Génesis|Éxodo|Levítico|Números|Deuteronomio|Josué|Jueces|Rut|1 Samuel|2 Samuel|1 Reyes|2 Reyes|1 Crónicas|2 Crónicas|Esdras|Nehemías|Ester|Job|Salmos|Proverbios|Eclesiastés|Cantares|Isaías|Jeremías|Lamentaciones|Ezequiel|Daniel|Oseas|Joel|Amós|Abdías|Jonás|Miqueas|Nahúm|Habacuc|Sofonías|Hageo|Zacarías|Malaquías'.split('|')
@@ -122,7 +122,7 @@ def entrybody(e,pre):
   target=raw[4:].rstrip('.');dest=next((x for x in E if x['category']==e['category'] and x['name']==target),None)
   if dest:out=f'<p>Ver <a href="{pre}apendices/{dest["id"]}/index.html">{H(target)}</a>.</p>'
  return out
-page('apendices/index.html','Apéndices','<section class="section"><p class="eyebrow">GUÍAS DE LECTURA</p><h1>El mundo de la Biblia.</h1><p class="intro">Cinco caminos para explorar lo que aparece en el relato.</p><div class="appendix-grid">'+cards('../',appendix_index=True)+'</div></section>')
+page('apendices/index.html','Apéndices','<section class="section"><p class="eyebrow">GUÍAS DE LECTURA</p><h1>El mundo de la Biblia.</h1><p class="intro">Cinco caminos para explorar lo que aparece en el relato.</p><div class="appendix-grid">'+cards('../')+'</div></section>')
 for cat,(name,desc) in C.items():
  entries=[e for e in E if e['category']==cat]
  family_link='<a class="button genealogy-directory-link" href="../genealogias/index.html">Explorar los árboles genealógicos ↗</a>' if cat=='onomastico' else '<a class="button genealogy-directory-link" href="../mapas/index.html">Explorar los mapas ↗</a>' if cat=='lugares' else ''
