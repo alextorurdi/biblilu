@@ -65,8 +65,17 @@ def map_links(e,pre):
   seen.add(m['id'])
   links.append(f'<a href="{pre}apendices/mapas/index.html#mapa={m["id"]}&amp;lugar={e["id"]}">{H(m["title"])} ↗</a>')
  return '<div class="map-links"><strong>En los mapas</strong>'+''.join(links)+'</div>'
-def cards(pre):
- return ''.join(onomastic_card(pre) if cat=='onomastico' else places_card(pre) if cat=='lugares' else f'<a class="appendix-card {cat}" href="{pre}apendices/{cat}/index.html"><span class="dot"></span><h3>{name}</h3><p>{desc}</p><span aria-hidden="true">↗</span></a>' for cat,(name,desc) in C.items())
+def cards(pre, appendix_index=False):
+ result=[]
+ for cat,(name,desc) in C.items():
+  if cat=='onomastico':
+   result.append(onomastic_card(pre))
+  elif cat=='lugares':
+   result.append(places_card(pre))
+  else:
+   label='Seres Vivos' if appendix_index and cat=='animales' else name
+   result.append(f'<a class="appendix-card {cat}" href="{pre}apendices/{cat}/index.html"><span class="dot"></span><h3>{label}</h3><p>{desc}</p><span aria-hidden="true">↗</span></a>')
+ return ''.join(result)
 old='Génesis|Éxodo|Levítico|Números|Deuteronomio|Josué|Jueces|Rut|1 Samuel|2 Samuel|1 Reyes|2 Reyes|1 Crónicas|2 Crónicas|Esdras|Nehemías|Ester|Job|Salmos|Proverbios|Eclesiastés|Cantares|Isaías|Jeremías|Lamentaciones|Ezequiel|Daniel|Oseas|Joel|Amós|Abdías|Jonás|Miqueas|Nahúm|Habacuc|Sofonías|Hageo|Zacarías|Malaquías'.split('|')
 new='Mateo|Marcos|Lucas|Juan|Hechos|Romanos|1 Corintios|2 Corintios|Gálatas|Efesios|Filipenses|Colosenses|1 Tesalonicenses|2 Tesalonicenses|1 Timoteo|2 Timoteo|Tito|Filemón|Hebreos|Santiago|1 Pedro|2 Pedro|1 Juan|2 Juan|3 Juan|Judas|Apocalipsis'.split('|')
 def books(items):return ''.join('<a class="book available" href="genesis/index.html"><span>01</span><strong>Génesis</strong><small>Capítulos 1–24 disponibles ↗</small></a>' if b=='Génesis' else f'<div class="book pending"><strong>{b}</strong><small>Próximamente</small></div>' for b in items)
@@ -113,7 +122,7 @@ def entrybody(e,pre):
   target=raw[4:].rstrip('.');dest=next((x for x in E if x['category']==e['category'] and x['name']==target),None)
   if dest:out=f'<p>Ver <a href="{pre}apendices/{dest["id"]}/index.html">{H(target)}</a>.</p>'
  return out
-page('apendices/index.html','Apéndices','<section class="section"><p class="eyebrow">GUÍAS DE LECTURA</p><h1>El mundo de la Biblia.</h1><p class="intro">Cinco caminos para explorar lo que aparece en el relato.</p><div class="appendix-grid">'+cards('../')+'</div></section>')
+page('apendices/index.html','Apéndices','<section class="section"><p class="eyebrow">GUÍAS DE LECTURA</p><h1>El mundo de la Biblia.</h1><p class="intro">Cinco caminos para explorar lo que aparece en el relato.</p><div class="appendix-grid">'+cards('../',appendix_index=True)+'</div></section>')
 for cat,(name,desc) in C.items():
  entries=[e for e in E if e['category']==cat]
  family_link='<a class="button genealogy-directory-link" href="../genealogias/index.html">Explorar los árboles genealógicos ↗</a>' if cat=='onomastico' else '<a class="button genealogy-directory-link" href="../mapas/index.html">Explorar los mapas ↗</a>' if cat=='lugares' else ''
