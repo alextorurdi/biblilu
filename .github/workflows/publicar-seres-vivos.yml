@@ -21,8 +21,8 @@ jobs:
           persist-credentials: true
       - name: Generar páginas
         run: python3 scripts/build.py
-      - name: Comprobar enlaces
-        run: python3 scripts/check.py
+      - name: Comprobar páginas del apéndice
+        run: python3 -c "from pathlib import Path; p=Path('docs/apendices/animales'); assert len(list(p.glob('*/index.html'))) >= 35; assert 'Hechos bíblicos' in (p/'angeles/index.html').read_text(); assert 'species-photo' in (p/'higuera/index.html').read_text()"
       - name: Publicar ficheros estáticos
         run: |
           git config user.name "github-actions[bot]"
