@@ -120,6 +120,8 @@
 .entry-row-tail{display:inline-flex;gap:13px;align-items:center;flex-shrink:0}
 .genealogy-index-mark{display:inline-flex;align-items:center;color:var(--onomastico)}
 .genealogy-index-mark svg{display:block}
+.map-index-mark{display:inline-flex;align-items:center;color:var(--lugares)}
+.map-index-mark svg{display:block}
 
 /* Árbol insertado en escenas: imagen y leyenda abren el visor completo */
 .scene-genealogy-image{display:block;text-decoration:none}

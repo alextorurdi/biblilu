@@ -120,8 +120,15 @@ for cat,(name,desc) in C.items():
  def render_index_row(e):
   slug=e['id'].split('/')[1]
   person=ENTRY_TO_PERSON.get(slug) if cat=='onomastico' else None
-  glyph='<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 6v5M5 17v-6h14v6"/><rect x="9" y="2" width="6" height="4" rx="1"/><rect x="2" y="17" width="6" height="5" rx="1"/><rect x="16" y="17" width="6" height="5" rx="1"/></svg>'
-  suffix=('<span class="entry-row-tail"><span class="genealogy-index-mark" role="img" aria-label="Incluido en los árboles genealógicos" title="Representado en los árboles genealógicos">'+glyph+'</span><span>↗</span></span>') if person else '<span>↗</span>'
+  has_map=(cat=='lugares' and any(e['id'] in label['entries'] for m in MAPS for label in m['labels']))
+  tree_glyph='<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 6v5M5 17v-6h14v6"/><rect x="9" y="2" width="6" height="4" rx="1"/><rect x="2" y="17" width="6" height="5" rx="1"/><rect x="16" y="17" width="6" height="5" rx="1"/></svg>'
+  map_glyph='<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3z"/><path d="M9 3v15M15 6v15"/></svg>'
+  if person:
+   suffix='<span class="entry-row-tail"><span class="genealogy-index-mark" role="img" aria-label="Incluido en los árboles genealógicos" title="Representado en los árboles genealógicos">'+tree_glyph+'</span><span>↗</span></span>'
+  elif has_map:
+   suffix='<span class="entry-row-tail"><span class="map-index-mark" role="img" aria-label="Representado en los mapas" title="Representado en los mapas">'+map_glyph+'</span><span>↗</span></span>'
+  else:
+   suffix='<span>↗</span>'
   extras={'onomastico/jacob':'Israel','onomastico/jose':'Zafnat-panea','onomastico/eliezer':'siervo de Abraham siervo de Abram mayordomo','onomastico/abraham':'Abram','onomastico/sara':'Sarai','onomastico/benjamin':'Benoni'}
   family=re.search(r'Relaciones familiares[.:]\s*(.*?)(?=Hechos bíblicos[.:]|Identificación[.:]|Etimología[.:]|$)',e['body'])
   query=' '.join([e['title'], e['name'], extras.get(e['id'],''), family.group(1)[:200] if family else '']).lower()
