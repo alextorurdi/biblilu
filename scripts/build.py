@@ -58,7 +58,7 @@ def places_card(pre):
  return f'<div class="appendix-card lugares appendix-card-family"><a class="appendix-card-main" href="{pre}apendices/lugares/index.html"><span class="dot"></span><h3>Lugares</h3><p>La geografía del relato</p><span aria-hidden="true">↗</span></a><a class="appendix-tree-link" href="{pre}apendices/mapas/index.html">Mapas <span aria-hidden="true">↗</span></a></div>'
 def map_links(e,pre):
  matches=[(m,l) for m in MAPS for l in m['labels'] if e['id'] in l['entries']]
- if not matches:return '<p class="map-unavailable">Este lugar todavía no está señalado en los mapas disponibles.</p>'
+ if not matches:return ''
  seen=set(); links=[]
  for m,l in matches:
   if m['id'] in seen:continue
@@ -87,7 +87,7 @@ for c in [1,2,3]:
  body=f'<div class="reader-heading"><p class="crumb"><a href="../../index.html">Biblia</a> / <a href="../index.html">Génesis</a> / {c}</p><p class="eyebrow">GÉNESIS · CAPÍTULO {c:02}</p><h1>{titles[c]}</h1><p class="subtitle">Reina-Valera 1960 · Edición ilustrada</p>{toolbar}{legend}</div><div class="reading-layout"><article class="verses">'+reading+note+f'</article><aside class="reading-art"><figure><img src="{pre}assets/{im}" alt="{alt}"><figcaption>{alt} · Génesis {c}</figcaption></figure>'+(f'<figure class="sword"><img loading="lazy" src="{pre}assets/espada.jpg" alt="Una espada rodeada de llamas"><figcaption>La espada encendida · Génesis 3:24</figcaption></figure>' if c==3 else '')+'</aside></div>'
  body+='<nav class="chapter-nav" aria-label="Navegación de capítulos">'+(f'<a href="../{c-1}/index.html">← Capítulo {c-1}</a>' if c>1 else '<a href="../index.html">← Índice de Génesis</a>')+(f'<a href="../{c+1}/index.html">Capítulo {c+1} →</a>' if c<3 else '<span>Capítulo 4 · Próximamente</span>')+'</nav>'
  page(f'genesis/{c}/index.html',f'Génesis {c}',body,'reader')
-headings=['Relaciones familiares','Hechos bíblicos','Identificación','Etimología','Descripción','Simbolismo cultural','Simbolismo','Apariciones','Especie','Estado actual','Estado de conservación','Cultura','Controversia','Ubicación']
+headings=['Relaciones familiares','Hechos bíblicos','Identificación','Ubicación e identificación','Etimología','Referencias','Descripción','Simbolismo cultural','Simbolismo','Apariciones','Especie','Estado actual','Estado de conservación','Cultura','Controversia','Ubicación']
 def entrybody(e,pre):
  raw=e['body'];pats='|'.join(map(re.escape,headings));pieces=re.split(r'(?<!\w)('+pats+r')[.:]\s*',raw)
  out='<p>'+H(pieces[0])+'</p>' if pieces[0].strip() else ''
@@ -130,7 +130,14 @@ for cat,(name,desc) in C.items():
  page(f'apendices/{cat}/index.html',name,f'<section class="section directory"><p class="crumb"><a href="../index.html">Apéndices</a> / {name}</p><p class="eyebrow">{len(entries)} ENTRADAS</p><h1 class="{cat}">{name}</h1><p class="intro">{desc}</p>{family_link}<label class="search-label" for="entry-search">Buscar en este apéndice</label><input id="entry-search" type="search" placeholder="Escribe un nombre o término…"><p id="result-count" role="status">{len(entries)} entradas</p><div class="entry-list">{listing}</div></section>')
 def body_with_genealogy(e):
  body=entrybody(e,'../../../')
- if e['category']=='lugares':return body+map_links(e,'../../../')
+ if e['category']=='lugares':
+   panel=map_links(e,'../../../')
+   if e['id']=='lugares/egipto':return body+panel # Excepción editorial: no intervenir en Egipto.
+   if not panel:return body
+   found=re.search(r'(<h2>(?:Ubicación(?: e identificación)?|Identificación)</h2><p>.*?</p>)',body,flags=re.S)
+   if not found:found=re.search(r'(<h2>Hechos bíblicos</h2><p>.*?</p>)',body,flags=re.S)
+   if not found:found=re.search(r'(<p>.*?</p>)',body,flags=re.S)
+   return body[:found.end()]+panel+body[found.end():] if found else body+panel
  if e['category']!='onomastico':return body
  person=ENTRY_TO_PERSON.get(e['id'].split('/')[1])
  if not person:return body
