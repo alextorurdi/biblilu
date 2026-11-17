@@ -140,8 +140,10 @@
   route();
   window.addEventListener('hashchange',route);
  }
- const directory=document.querySelector('.directory .entry-list');
- const entry=document.querySelector('.entry .entry-body');
+ // Las fichas homónimas de Lugares y Onomástico no comparten representación genealógica.
+ const inOnomastico=location.pathname.includes('/apendices/onomastico/');
+ const directory=inOnomastico?document.querySelector('.directory .entry-list'):null;
+ const entry=inOnomastico?document.querySelector('.entry .entry-body'):null;
  if(!directory&&!entry)return;
  const match=location.pathname.match(/\/apendices\/onomastico\/([^/]+)\/(?:index\.html)?$/);
  fetch(base+'assets/genealogias/enlaces.json').then(r=>{
@@ -150,7 +152,7 @@
  }).then(map=>{
   const links=map.entry_to_person||{};
   if(directory){
-   for(const row of directory.querySelectorAll('.entry-row')){
+   for(const row of directory.querySelectorAll('.entry-row.onomastico')){
     const slug=(row.getAttribute('href')||'').split('/')[0];
     if(!links[slug]||row.querySelector('.genealogy-index-mark'))continue;
     const mark=document.createElement('span');
