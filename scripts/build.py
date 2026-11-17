@@ -1,5 +1,6 @@
 from pathlib import Path
 import json,re,html,os,shutil
+from urllib.parse import quote
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'docs';OUT.mkdir(exist_ok=True)
 E=json.loads((ROOT/'data/entries.json').read_text());V=json.loads((ROOT/'data/genesis.json').read_text());B=json.loads((ROOT/'data/bibliography.json').read_text())
 H=html.escape
@@ -97,18 +98,42 @@ for c in [1,2,3]:
  body+='<nav class="chapter-nav" aria-label="Navegación de capítulos">'+(f'<a href="../{c-1}/index.html">← Capítulo {c-1}</a>' if c>1 else '<a href="../index.html">← Índice de Génesis</a>')+(f'<a href="../{c+1}/index.html">Capítulo {c+1} →</a>' if c<3 else '<span>Capítulo 4 · Próximamente</span>')+'</nav>'
  page(f'genesis/{c}/index.html',f'Génesis {c}',body,'reader')
 headings=['Relaciones familiares','Hechos bíblicos','Identificación','Ubicación e identificación','Etimología','Referencias','Descripción','Simbolismo cultural','Simbolismo','Apariciones','Especie','Estado actual','Estado de conservación','Cultura','Controversia','Ubicación']
+def heading_title(e):
+ title=H(e['title'])
+ return re.sub(r'\*([^*]+)\*',r'<em>\1</em>',title) if e['category']=='animales' else title
+
+def species_figure(e):
+ photo=e.get('image') if e['category']=='animales' else None
+ if not photo:return ''
+ image_url='https://commons.wikimedia.org/wiki/Special:FilePath/'+quote(photo['file'])
+ author=photo.get('author') or 'Autor en la ficha original'
+ caption='<em>'+H(photo['scientific'])+'</em> · '+H(author)+' · '+H(photo['license'])
+ return '<figure class="species-photo"><a href="'+H(image_url)+'" target="_blank" rel="noopener noreferrer" aria-label="Ampliar fotografía de '+H(photo['scientific'])+'"><img src="'+H(image_url)+'" alt="Fotografía natural: '+H(photo['scientific'])+'" loading="lazy" decoding="async"></a><figcaption>'+caption+' · <a href="'+H(photo['source'])+'" target="_blank" rel="noopener noreferrer">Fuente y licencia</a></figcaption></figure>'
+
 def entrybody(e,pre):
- raw=e['body'];pats='|'.join(map(re.escape,headings));pieces=re.split(r'(?<!\w)('+pats+r')[.:]\s*',raw)
- out='<p>'+H(pieces[0])+'</p>' if pieces[0].strip() else ''
- for i in range(1,len(pieces),2):
-  fragment=H(pieces[i+1]);fragment=re.sub(r'\*([^*]+)\*',r'<em>\1</em>',fragment)
-  out+=f'<h2>{H(pieces[i])}</h2><p>{fragment}</p>'
+ raw=e['body']
+ if e['category']=='animales' and (raw.startswith('Ver ') or '\n### ' in raw):
+  def inline(v):
+   v=H(v)
+   v=re.sub(r'\*\*([^*]+)\*\*',r'<strong>\1</strong>',v)
+   return re.sub(r'(?<!\*)\*([^*\n]+)\*(?!\*)',r'<em>\1</em>',v)
+  chunks=[]
+  for block in re.split(r'\n\s*\n',raw.strip()):
+   if block.startswith('### '):chunks.append('<h2>'+H(block[4:].strip())+'</h2>')
+   else:chunks.append('<p>'+inline(block.replace('\n',' '))+'</p>')
+  out=''.join(chunks)
+ else:
+  pats='|'.join(map(re.escape,headings));pieces=re.split(r'(?<!\w)('+pats+r')[.:]\s*',raw)
+  out='<p>'+H(pieces[0])+'</p>' if pieces[0].strip() else ''
+  for i in range(1,len(pieces),2):
+   fragment=H(pieces[i+1]);fragment=re.sub(r'\*([^*]+)\*',r'<em>\1</em>',fragment)
+   out+=f'<h2>{H(pieces[i])}</h2><p>{fragment}</p>'
  # Referencias a pasajes disponibles, sin alterar el texto visible.
  def ref(m):
   c=int(m[1]);v=int(m[2]);return f'<a href="{pre}genesis/{scene_path_for({"chapter":c,"verse":v})}/index.html#gn-{c}-{v}">{m[0]}</a>' if any(x['chapter']==c and x['verse']==v for x in V) else m[0]
  out=re.sub(r'\b(?:Gn|Gen|Génesis)\s+(\d+):(\d+)(?:-\d+)?',ref,out)
  def cite(m):
-  s=html.unescape(m[1]);first=s.split(',')[0].strip().lower();year=re.search(r'\d{4}',s);candidates=[i for i,b in enumerate(B) if first in b.lower() and (not year or year[0] in b)]
+  s=html.unescape(m[1]);first=s.split(',')[0].strip().lower();first='day' if first=='john day' else first;year=re.search(r'\d{4}',s);candidates=[i for i,b in enumerate(B) if first in b.lower() and (not year or year[0] in b)]
   target=f'#ref-{candidates[0]+1}' if len(candidates)==1 else ''
   return f'<a href="{pre}bibliografia/index.html{target}">{m[0]}</a>'
  # Internal cross-links in approved geographical entries: [[category/slug|label]]
@@ -141,7 +166,7 @@ for cat,(name,desc) in C.items():
   extras={'onomastico/jacob':'Israel','onomastico/jose':'Zafnat-panea','onomastico/eliezer':'siervo de Abraham siervo de Abram mayordomo','onomastico/abraham':'Abram','onomastico/sara':'Sarai','onomastico/benjamin':'Benoni'}
   family=re.search(r'Relaciones familiares[.:]\s*(.*?)(?=Hechos bíblicos[.:]|Identificación[.:]|Etimología[.:]|$)',e['body'])
   query=' '.join([e['title'], e['name'], extras.get(e['id'],''), family.group(1)[:200] if family else '']).lower()
-  return f'<a class="entry-row {cat}" data-search="{H(query)}" href="{slug}/index.html"><strong>{H(e["title"])}</strong>{suffix}</a>'
+  return f'<a class="entry-row {cat}" data-search="{H(query)}" href="{slug}/index.html"><strong>{heading_title(e)}</strong>{suffix}</a>'
  listing=''.join(render_index_row(e) for e in entries)
  page(f'apendices/{cat}/index.html',name,f'<section class="section directory"><p class="crumb"><a href="../index.html">Apéndices</a> / {name}</p><p class="eyebrow">{len(entries)} ENTRADAS</p><h1 class="{cat}">{name}</h1><p class="intro">{desc}</p>{family_link}<label class="search-label" for="entry-search">Buscar en este apéndice</label><input id="entry-search" type="search" placeholder="Escribe un nombre o término…"><p id="result-count" role="status">{len(entries)} entradas</p><div class="entry-list">{listing}</div></section>')
 def body_with_genealogy(e):
@@ -189,7 +214,7 @@ for e in E:
   if f'data-entry="{e["id"]}"' in rendered:mentions.append(f'<a href="../../../genesis/{scene_path_for(v)}/index.html#gn-{v["chapter"]}-{v["verse"]}">Gn {v["chapter"]}:{v["verse"]}</a>')
  backlinks='<div class="backlinks"><h2>En la lectura disponible</h2>'+ ' · '.join(mentions)+'</div>' if mentions else ''
  biblical_mentions='<div class="backlinks"><h2>Menciones bíblicas</h2><p>'+ ' · '.join(H(r) for r in e.get('mentions',[]))+'</p></div>' if e.get('mentions') else ''
- page(f'apendices/{e["id"]}/index.html',e['title'],f'<article class="section entry"><p class="crumb"><a href="../../index.html">Apéndices</a> / <a href="../index.html">{C[cat][0]}</a></p><p class="eyebrow {cat}">{C[cat][0]}</p><h1>{H(e["title"])}</h1>{chron}<div class="entry-body">{body_with_genealogy(e)}</div>{backlinks}{biblical_mentions}</article>')
+ page(f'apendices/{e["id"]}/index.html',e['title'],f'<article class="section entry"><p class="crumb"><a href="../../index.html">Apéndices</a> / <a href="../index.html">{C[cat][0]}</a></p><p class="eyebrow {cat}">{C[cat][0]}</p><h1>{heading_title(e)}</h1>{chron}<div class="entry-body">{species_figure(e)}{body_with_genealogy(e)}</div>{backlinks}{biblical_mentions}</article>')
 page('bibliografia/index.html','Bibliografía','<section class="section bibliography"><p class="eyebrow">LAS FUENTES</p><h1>Bibliografía</h1><p class="intro">Obras y recursos que acompañan los apéndices de BIBLILU.</p><ol>'+''.join(f'<li id="ref-{i+1}">{H(b)}</li>' for i,b in enumerate(B))+'</ol></section>')
 page('sobre/index.html','Sobre BIBLILU','''<section class="section entry"><p class="eyebrow">EL PROYECTO</p><h1>Leer. Mirar. Descubrir.</h1><p class="intro">BIBLILU es una edición ilustrada de la Biblia que conecta cada relato con sus personajes, lugares y referencias.</p><h2>Una publicación en marcha</h2><p>Esta entrega contiene Génesis 1–15. Los demás capítulos y libros se incorporarán progresivamente.</p><h2>Texto e ilustraciones</h2><p>Texto base: Reina-Valera 1960, según los documentos aportados por el editor. Se conserva su redacción. Las ilustraciones fueron creadas con ChatGPT para el proyecto BIBLILU.</p><p>Reina-Valera 1960 ® © Sociedades Bíblicas en América Latina, 1960. Renovado © Sociedades Bíblicas Unidas, 1988.</p><h2>Cómo leer los colores</h2><p>Los enlaces coloreados abren los apéndices. Dios, Jehová y las palabras atribuidas a Dios aparecen en rojo, sin hipervínculos. Las criaturas celestiales se incluyen en Animales.</p><h2>La cronología de Génesis</h2><p>Las fechas de las fichas del Génesis se expresan en años desde la Creación según el propio relato; no son fechas antes de Cristo.</p></section>''')
 
