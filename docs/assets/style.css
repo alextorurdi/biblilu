@@ -393,3 +393,13 @@
 /* Seres Vivos: nombre en español destacado y denominación complementaria discreta. */
 .entry h1 .living-title-secondary{display:block;margin-top:7px;color:var(--muted);font:400 clamp(16px,2.8vw,22px)/1.45 Arial,Helvetica,sans-serif;letter-spacing:normal;overflow-wrap:anywhere}
 .entry h1 .living-title-secondary em{font-style:italic}
+
+/* Apéndice de Materiales: nombre principal y transliteración hebrea secundaria. */
+.entry-row.materiales .material-index-original{display:inline-block;margin-left:.32em;color:var(--muted);font:400 .76em/1.45 Arial,Helvetica,sans-serif;vertical-align:baseline;overflow-wrap:anywhere}
+.entry-row.materiales .material-index-original em{font-style:italic}
+.entry h1 .material-title-secondary{display:block;margin-top:7px;color:var(--muted);font:italic 400 clamp(16px,2.8vw,22px)/1.45 Arial,Helvetica,sans-serif;letter-spacing:normal;overflow-wrap:anywhere}
+.entry-body.materiales ul{padding-left:1.4em;margin:14px 0 22px}.entry-body.materiales li{padding:4px 0}
+.material-related{margin:30px 0 0;padding:18px 20px;border:1px solid var(--line);border-radius:8px}
+.material-related strong{font:600 13px/1.5 Arial,Helvetica,sans-serif;color:var(--muted)}
+.material-related-links{display:flex;flex-wrap:wrap;gap:9px 14px;margin-top:12px}
+.material-related-links a{color:var(--green);font:500 14px/1.5 Arial,Helvetica,sans-serif;text-decoration:underline}
