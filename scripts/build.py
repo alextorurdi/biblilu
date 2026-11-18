@@ -102,6 +102,16 @@ def heading_title(e):
  title=H(e['title'])
  return re.sub(r'\*([^*]+)\*',r'<em>\1</em>',title) if e['category']=='animales' else title
 
+def living_index_title(e):
+ title=heading_title(e)
+ # El subtítulo "ser sobrenatural" es editorial, no una forma hebrea.
+ if e['category']!='animales' or e['id']=='animales/serpiente':
+  return title
+ parts=re.fullmatch(r'(.+?)\s+(\(.*\))',title)
+ if not parts:
+  return title
+ return parts.group(1)+'<span class="living-index-original">'+parts.group(2)+'</span>'
+
 def entry_heading_title(e):
  title=heading_title(e)
  if e['category']!='animales':
@@ -230,7 +240,7 @@ for cat,(name,desc) in C.items():
   extras={'onomastico/jacob':'Israel','onomastico/jose':'Zafnat-panea','onomastico/eliezer':'siervo de Abraham siervo de Abram mayordomo','onomastico/abraham':'Abram','onomastico/sara':'Sarai','onomastico/benjamin':'Benoni'}
   family=re.search(r'Relaciones familiares[.:]\s*(.*?)(?=Hechos bíblicos[.:]|Identificación[.:]|Etimología[.:]|$)',e['body'])
   query=' '.join([e['title'], e['name'], extras.get(e['id'],''), family.group(1)[:200] if family else '']).lower()
-  return f'<a class="entry-row {cat}" data-search="{H(query)}" href="{slug}/index.html"><strong>{heading_title(e)}</strong>{suffix}</a>'
+  return f'<a class="entry-row {cat}" data-search="{H(query)}" href="{slug}/index.html"><strong>{living_index_title(e)}</strong>{suffix}</a>'
  listing=''.join(render_index_row(e) for e in entries)
  intro=desc
  if cat=='animales':
