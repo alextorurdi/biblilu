@@ -125,6 +125,9 @@
 /* Marcas de clasificación en el índice de Seres Vivos */
 .living-index-mark{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;color:var(--animales)}
 .living-index-mark svg{display:block;flex-shrink:0}
+/* Leyenda integrada en la frase introductoria, sin alterar la tipografía */
+.living-legend-part{white-space:nowrap}
+.living-legend-part svg{display:inline-block;width:.9em;height:.9em;margin-left:.18em;vertical-align:-.1em;color:var(--animales)}
 
 /* Árbol insertado en escenas: imagen y leyenda abren el visor completo */
 .scene-genealogy-image{display:block;text-decoration:none}
