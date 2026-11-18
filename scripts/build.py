@@ -63,7 +63,7 @@ def rel(path):return '../'*len(Path(path).parent.parts) if str(Path(path).parent
 def page(path,title,body,kind=''):
  pre=rel(path);p=OUT/path;p.parent.mkdir(parents=True,exist_ok=True)
  # Versionado del CSS para evitar estilos antiguos cacheados en el índice de Seres Vivos.
- css_version='?v=seres-vivos-index-20261118-2' if str(path)=='apendices/animales/index.html' else ''
+ css_version='?v=seres-vivos-index-20261118-2' if str(path)=='apendices/animales/index.html' else '?v=materiales-lingotes-20261118' if str(path)=='apendices/materiales/index.html' else ''
  p.write_text(f'''<!doctype html><html lang="es-ES"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="BIBLILU: una Biblia ilustrada para leer, descubrir y explorar. Génesis y sus apéndices."><title>{H(title)} · BIBLILU</title><link rel="icon" href="{pre}assets/favicon.svg"><link rel="stylesheet" href="{pre}assets/style.css{css_version}"><script src="{pre}assets/app.js" defer></script></head><body data-base="{pre}" class="{kind}"><a class="skip" href="#contenido">Saltar al contenido</a><header class="header"><a class="brand" href="{pre}index.html">BIBLILU<span>LA BIBLIA ILUSTRADA</span></a><nav aria-label="Principal"><a href="{pre}index.html#libros">Los libros</a><a href="{pre}apendices/index.html">Apéndices</a><a href="{pre}bibliografia/index.html">Bibliografía</a></nav></header><main id="contenido">{body}</main><footer><a class="brand" href="{pre}index.html">BIBLILU</a><p>Una lectura que también se contempla.</p><a href="{pre}sobre/index.html">Sobre el proyecto y créditos</a><span>Español · RVR 1960</span></footer><dialog id="entry-dialog" aria-labelledby="dialog-title"><button class="close" aria-label="Cerrar ficha">×</button><div id="dialog-content"></div></dialog></body></html>''',encoding='utf-8')
 def onomastic_card(pre):
  return f'<div class="appendix-card onomastico appendix-card-family"><a class="appendix-card-main" href="{pre}apendices/onomastico/index.html"><span class="dot"></span><h3>Onomástico</h3><p>Personas y relaciones familiares</p><span aria-hidden="true">↗</span></a><a class="appendix-tree-link" href="{pre}apendices/genealogias/index.html">Árboles genealógicos <span aria-hidden="true">↗</span></a></div>'
@@ -268,6 +268,10 @@ for cat,(name,desc) in C.items():
    suffix='<span class="entry-row-tail"><span class="genealogy-index-mark" role="img" aria-label="Incluido en los árboles genealógicos" title="Representado en los árboles genealógicos">'+tree_glyph+'</span><span>↗</span></span>'
   elif has_map:
    suffix='<span class="entry-row-tail"><span class="map-index-mark" role="img" aria-label="Representado en los mapas" title="Representado en los mapas">'+map_glyph+'</span><span>↗</span></span>'
+  elif cat=='materiales' and e['id'] in MATERIAL_REVISION.get('images',{}):
+   # Tres lingotes en pirámide (uno arriba, dos abajo), con el color del apéndice.
+   ingots='<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 3.5h4l2.5 6.5h-9L10 3.5Z"/><path d="M4.5 12.5h4l2.5 7h-9l2.5-7Z"/><path d="M15.5 12.5h4l2.5 7h-9l2.5-7Z"/></svg>'
+   suffix='<span class="entry-row-tail"><span class="material-index-mark" role="img" aria-label="Ficha con fotografía" title="Ficha con fotografía">'+ingots+'</span><span>↗</span></span>'
   elif cat=='animales':
    kind=SERES_VIVOS_TYPES[e['id']]
    glyph=SERES_VIVOS_ICONS[kind]
