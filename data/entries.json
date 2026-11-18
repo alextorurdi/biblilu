@@ -3365,7 +3365,7 @@
     "id": "animales/burro",
     "category": "animales",
     "name": "Burro",
-    "title": "Burro",
+    "title": "Burro (*ḥămôr*)",
     "text": "Burro. Ver Asno.",
     "body": "Ver Asno."
   },
@@ -3441,7 +3441,7 @@
     "id": "animales/cordero",
     "category": "animales",
     "name": "Cordero",
-    "title": "Cordero",
+    "title": "Cordero (*śeh*)",
     "text": "Cordero. Ver Oveja.",
     "body": "Ver Oveja."
   },
@@ -3586,7 +3586,7 @@
     "id": "animales/vaca",
     "category": "animales",
     "name": "Vaca",
-    "title": "Vaca",
+    "title": "Vaca (*pārāh*)",
     "text": "Vaca. Ver Res.",
     "body": "Ver Ganado Bovino."
   },
@@ -3609,7 +3609,7 @@
     "id": "animales/vina",
     "category": "animales",
     "name": "Viña",
-    "title": "Viña",
+    "title": "Viña (*kerem*)",
     "text": "Viña. Ver Vid.",
     "body": "Ver Vid."
   },
@@ -4739,7 +4739,7 @@
     "category": "animales",
     "title": "Onagro (*pereʾ*)",
     "name": "Onagro",
-    "body": "Équido salvaje de las regiones áridas y esteparias del antiguo Oriente Próximo, semejante al asno doméstico, pero de comportamiento y origen zoológico distintos.\n\nSe caracteriza por su resistencia a ambientes secos, su rapidez y su vida en espacios abiertos.\n\n### Hechos bíblicos\n\nEn Génesis 16:12, el Ángel de Jehová anunció a Agar que Ismael sería como un asno montés, utilizando una comparación que destaca su carácter indómito y su independencia.\n\nEn Job 39:5-8, Dios pregunta quién dio libertad al asno montés y describe al animal viviendo en tierras deshabitadas, lejos del bullicio de la ciudad.\n\nEn Salmo 104:11, los asnos monteses aparecen entre los animales que beben de las aguas proporcionadas por Dios.\n\nJeremías 2:24 y 14:6 utilizan también su imagen para describir el comportamiento de animales salvajes en regiones áridas.\n\n### Identificación\n\nEl término bíblico se relaciona generalmente con los asnos salvajes asiáticos, especialmente con el onagro (*Equus hemionus*) y sus poblaciones regionales.\n\nEntre ellas se encontraba el asno salvaje sirio (*Equus hemionus hemippus*), hoy extinguido. Sin embargo, las referencias bíblicas no permiten identificar una subespecie concreta con certeza.\n\nNo debe confundirse con el asno doméstico (*Equus africanus asinus*).\n\n### Simbolismo\n\nEl onagro aparece en la Biblia como imagen de libertad, resistencia y vida independiente, lejos de los asentamientos humanos.\n\nSu representación subraya también el cuidado de Dios por las criaturas que habitan fuera del dominio humano.\n\n### Etimología\n\nEl término hebreo *pereʾ* (פֶּרֶא) suele traducirse como «asno montés» o «asno salvaje».\n\nVer también [[animales/asno|Asno]] y [[animales/asno-montes|Asno montés]].\n\n### Referencias\n\nGn 16:12; Job 39:5-8; Sal 104:11; Jer 2:24; 14:6.",
+    "body": "Équido salvaje de las regiones áridas y esteparias del antiguo Oriente Próximo, semejante al asno doméstico, pero de comportamiento y origen zoológico distintos.\n\nSe caracteriza por su resistencia a ambientes secos, su rapidez y su vida en espacios abiertos.\n\n### Hechos bíblicos\n\nEn Génesis 16:12, el Ángel de Jehová anunció a Agar que Ismael sería un *pereʾ ʾādām*, expresión hebrea que lo compara con un asno montés, destacando su carácter indómito e independiente. La RVR60 traduce esta expresión como «hombre fiero».\n\nEn Job 39:5-8, Dios pregunta quién dio libertad al asno montés y describe al animal viviendo en tierras deshabitadas, lejos del bullicio de la ciudad.\n\nEn Salmo 104:11, los asnos monteses aparecen entre los animales que beben de las aguas proporcionadas por Dios.\n\nJeremías 2:24 y 14:6 utilizan también su imagen para describir el comportamiento de animales salvajes en regiones áridas.\n\n### Identificación\n\nEl término bíblico se relaciona generalmente con los asnos salvajes asiáticos, especialmente con el onagro (*Equus hemionus*) y sus poblaciones regionales.\n\nEntre ellas se encontraba el asno salvaje sirio (*Equus hemionus hemippus*), hoy extinguido. Sin embargo, las referencias bíblicas no permiten identificar una subespecie concreta con certeza.\n\nNo debe confundirse con el asno doméstico (*Equus africanus asinus*).\n\n### Simbolismo\n\nEl onagro aparece en la Biblia como imagen de libertad, resistencia y vida independiente, lejos de los asentamientos humanos.\n\nSu representación subraya también el cuidado de Dios por las criaturas que habitan fuera del dominio humano.\n\n### Etimología\n\nEl término hebreo *pereʾ* (פֶּרֶא) suele traducirse como «asno montés» o «asno salvaje».\n\nVer también [[animales/asno|Asno]] y [[animales/asno-montes|Asno montés]].\n\n### Referencias\n\nGn 16:12; Job 39:5-8; Sal 104:11; Jer 2:24; 14:6.",
     "image": {
       "file": "Half ezel (Onager) in Artis, Bestanddeelnr 918-2066.jpg",
       "scientific": "Equus hemionus onager",
@@ -4752,7 +4752,7 @@
     "id": "animales/asno-montes",
     "category": "animales",
     "name": "Asno montés",
-    "title": "Asno montés",
+    "title": "Asno montés (*pereʾ*)",
     "body": "Ver Onagro."
   }
 ]
