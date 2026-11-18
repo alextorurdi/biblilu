@@ -411,3 +411,7 @@
 .material-photo img{display:block;max-width:100%;width:auto;max-height:430px;object-fit:contain;border-radius:9px;box-shadow:0 7px 25px rgba(0,0,0,.09);background:#f5f3eb}
 .material-photo figcaption{font:400 13px/1.6 Arial,Helvetica,sans-serif;color:#666b62;margin:10px 0 0}
 .material-photo figcaption a{color:#476b55;text-decoration:underline}
+
+/* Materiales: tres lingotes apilados señalan las fichas que incluyen fotografía. */
+.material-index-mark{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;color:var(--materiales)}
+.material-index-mark svg{display:block;flex-shrink:0}
