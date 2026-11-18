@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'data/entries.json'
+      - 'data/materiales_revision.json'
       - 'data/bibliography.json'
       - 'scripts/build.py'
       - 'assets/style.css'
