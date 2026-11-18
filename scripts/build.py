@@ -244,6 +244,7 @@ for cat,(name,desc) in C.items():
   query=' '.join([e['title'], e['name'], extras.get(e['id'],''), family.group(1)[:200] if family else '']).lower()
   return f'<a class="entry-row {cat}" data-search="{H(query)}" href="{slug}/index.html"><strong>{living_index_title(e)}</strong>{suffix}</a>'
  listing=''.join(render_index_row(e) for e in entries)
+ count_label='entrada' if len(entries)==1 else 'entradas'
  intro=desc
  if cat=='animales':
   intro=(
@@ -251,7 +252,7 @@ for cat,(name,desc) in C.items():
    f'<span class="living-legend-part">plantas{SERES_VIVOS_ICONS["vegetal"]}</span> y criaturas '
    f'<span class="living-legend-part">celestiales{SERES_VIVOS_ICONS["sobrenatural"]}</span>'
   )
- page(f'apendices/{cat}/index.html',name,f'<section class="section directory"><p class="crumb"><a href="../index.html">Apéndices</a> / {name}</p><p class="eyebrow">{len(entries)} ENTRADAS</p><h1 class="{cat}">{name}</h1><p class="intro">{intro}</p>{family_link}<label class="search-label" for="entry-search">Buscar en este apéndice</label><input id="entry-search" type="search" placeholder="Escribe un nombre o término…"><p id="result-count" role="status">{len(entries)} entradas</p><div class="entry-list">{listing}</div></section>')
+ page(f'apendices/{cat}/index.html',name,f'<section class="section directory"><p class="crumb"><a href="../index.html">Apéndices</a> / {name}</p><p class="eyebrow">{len(entries)} {count_label.upper()}</p><h1 class="{cat}">{name}</h1><p class="intro">{intro}</p>{family_link}<label class="search-label" for="entry-search">Buscar en este apéndice</label><input id="entry-search" type="search" placeholder="Escribe un nombre o término…"><p id="result-count" role="status">{len(entries)} {count_label}</p><div class="entry-list">{listing}</div></section>')
 def body_with_genealogy(e):
  body=entrybody(e,'../../../')
  if e['category']=='lugares':
