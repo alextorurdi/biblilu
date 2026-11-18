@@ -3,7 +3,7 @@
     "materiales/arena": "Arena (ḥôl)",
     "materiales/asfalto": "Asfalto (ḥēmār)",
     "materiales/bedelio": "Bedelio (bəḏōlaḥ)",
-    "materiales/brea": "Brea (kōfer)",
+    "materiales/brea": "Brea (kōp̄er / zép̄eṯ)",
     "materiales/bronce": "Bronce (nəḥōšet)",
     "materiales/gofer": "Gofer (gōfer)",
     "materiales/hierro": "Hierro (barzel)",
@@ -224,6 +224,14 @@
       "mentions": [
         "Gn 2:12",
         "Nm 11:7"
+      ]
+    },
+    "materiales/brea": {
+      "body": "Sustancia espesa, adherente e impermeabilizante utilizada desde la Antigüedad para sellar recipientes y embarcaciones. Podía obtenerse de materiales resinosos o bituminosos, aunque los textos bíblicos no permiten determinar con certeza la composición de las sustancias a las que hacen referencia.\n\n### Hechos bíblicos\n\nEn Génesis 6:14, Dios ordenó a Noé construir un arca de madera de gofer y calafatearla con brea por dentro y por fuera, con el propósito de impedir la entrada del agua durante el Diluvio.\n\nEn Éxodo 2:3, la madre de Moisés impermeabilizó una arquilla de juncos utilizando asfalto y brea antes de colocar en ella al niño y dejarla entre la vegetación de la orilla del Nilo.\n\nEn Isaías 34:9, el profeta anuncia la devastación de Edom mediante una descripción en la que sus arroyos se convierten en brea, su polvo en azufre y su tierra en brea ardiente.\n\n### Características y usos\n\nLa brea se caracteriza por su elevada adherencia y su resistencia al agua. Puede presentar una consistencia viscosa o semisólida y, dependiendo de su composición, ablandarse mediante el calor para facilitar su aplicación.\n\nEn la Antigüedad se utilizaban diferentes sustancias impermeabilizantes de origen vegetal o mineral para revestir superficies, rellenar las juntas entre piezas de madera y proteger embarcaciones y recipientes de las filtraciones.\n\nEste procedimiento se conoce como *calafateado* y resultaba especialmente importante en las construcciones destinadas a permanecer en contacto con el agua.\n\n### Simbolismo\n\n**Juicio y destrucción.** En Isaías 34:9-10, la brea ardiente, asociada al azufre y a un fuego que no se extingue, forma parte de las imágenes utilizadas para representar la devastación y el juicio divino sobre Edom.\n\nEn cambio, su utilización en la construcción del Arca de Noé y la arquilla de Moisés responde a una función práctica de protección. Aunque ambos relatos describen instrumentos de preservación de la vida, no atribuyen expresamente un significado simbólico a la brea.\n\n### Etimología\n\nLa Reina-Valera 1960 traduce como «brea» dos términos hebreos diferentes:\n\n- *Kōp̄er* (כֹּפֶר): aparece en Génesis 6:14 para designar la sustancia empleada en el revestimiento del arca. Está relacionado con la raíz hebrea *k-p-r*, asociada a la acción de cubrir. En el mismo versículo aparece el verbo *kāp̄ar*, referido a la aplicación de la brea.\n- *Zép̄eṯ* (זֶפֶת): aparece en Éxodo 2:3 e Isaías 34:9, donde designa una sustancia bituminosa o semejante a la brea.\n\nEn Éxodo 2:3, *zép̄eṯ* aparece junto a *ḥēmār*, traducido como «asfalto». La presencia de ambos términos indica una distinción en el vocabulario hebreo, aunque no permite establecer con seguridad una diferencia precisa en su composición.\n\n### Referencias\n\nGn 6:14; Ex 2:3; Is 34:9-10.",
+      "mentions": [
+        "Gn 6:14",
+        "Ex 2:3",
+        "Is 34:9-10"
       ]
     }
   }
