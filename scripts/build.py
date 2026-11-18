@@ -117,8 +117,9 @@ def heading_title(e):
 def living_index_title(e):
  title=heading_title(e)
  if e['category']=='materiales':
-  parts=re.fullmatch(r'(.+?)\\s+\\((.+)\\)',title)
-  if parts:return parts.group(1)+' <small class="material-index-original"><em>'+parts.group(2)+'</em></small>'
+  if ' (' in title and title.endswith(')'):
+   name,term=title.rsplit(' (',1)
+   return name+' <small class="material-index-original"><em>'+term[:-1]+'</em></small>'
  # El subtítulo "ser sobrenatural" es editorial, no una forma hebrea.
  if e['category']!='animales' or e['id']=='animales/serpiente':
   return title
@@ -130,8 +131,9 @@ def living_index_title(e):
 def entry_heading_title(e):
  title=heading_title(e)
  if e['category']=='materiales':
-  parts=re.fullmatch(r'(.+?)\\s+\\((.+)\\)',title)
-  if parts:return parts.group(1)+'<span class="material-title-secondary">'+parts.group(2)+'</span>'
+  if ' (' in title and title.endswith(')'):
+   name,term=title.rsplit(' (',1)
+   return name+'<span class="material-title-secondary">'+term[:-1]+'</span>'
  if e['category']!='animales':
   return title
  parts=re.fullmatch(r'(.+?)\s+(\(.*\))',title)
