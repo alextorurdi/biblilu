@@ -234,5 +234,71 @@
         "Is 34:9-10"
       ]
     }
+  },
+  "images": {
+    "materiales/arena": {
+      "file": "Pitted sand grains Western Desert.jpg",
+      "caption": "Granos de arena del Desierto Occidental (Egipto).",
+      "author": "Wilson44691",
+      "license": "CC0 1.0",
+      "alt": "Macro de granos de arena del desierto, con superficie erosionada por el viento",
+      "source": "https://commons.wikimedia.org/wiki/File:Pitted_sand_grains_Western_Desert.jpg"
+    },
+    "materiales/asfalto": {
+      "file": "Bitumen.jpg",
+      "caption": "Betún natural recogido en la orilla del mar Muerto.",
+      "author": "Daniel Tzvi",
+      "license": "Dominio público",
+      "alt": "Muestra de betún o asfalto natural de color oscuro procedente de la orilla del mar Muerto",
+      "source": "https://commons.wikimedia.org/wiki/File:Bitumen.jpg"
+    },
+    "materiales/bronce": {
+      "file": "Metalwork of bronze and other copper alloys, Amuq Valley, various sites and ages - Oriental Institute Museum, University of Chicago - DSC07665.JPG",
+      "caption": "Objetos antiguos de bronce y otras aleaciones de cobre procedentes del valle del Amuq.",
+      "author": "Daderot",
+      "license": "CC0 1.0",
+      "alt": "Conjunto de objetos arqueológicos de bronce y otras aleaciones de cobre expuestos en un museo",
+      "source": "https://commons.wikimedia.org/wiki/File:Metalwork_of_bronze_and_other_copper_alloys,_Amuq_Valley,_various_sites_and_ages_-_Oriental_Institute_Museum,_University_of_Chicago_-_DSC07665.JPG"
+    },
+    "materiales/hierro": {
+      "file": "Hematite (20255007100).jpg",
+      "caption": "Hematita, mena mineral de la que puede obtenerse hierro.",
+      "author": "Joe deSousa",
+      "license": "CC0 1.0",
+      "alt": "Muestra natural de hematita, mineral de hierro",
+      "source": "https://commons.wikimedia.org/wiki/File:Hematite_(20255007100).jpg"
+    },
+    "materiales/ladrillo": {
+      "file": "Cuneiform dedication by Gudea on a mud brick, excavated in Iraq, end of the Gutian period, 22nd century BC, clay - Tokyo National Museum - Tokyo, Japan - DSC08544.jpg",
+      "caption": "Ladrillo mesopotámico con inscripción de Gudea, finales del III milenio a. C. (ejemplo arqueológico, no procedente de Babel).",
+      "author": "Daderot",
+      "license": "CC0 1.0",
+      "alt": "Ladrillo antiguo de arcilla con inscripción cuneiforme mesopotámica",
+      "source": "https://commons.wikimedia.org/wiki/File:Cuneiform_dedication_by_Gudea_on_a_mud_brick,_excavated_in_Iraq,_end_of_the_Gutian_period,_22nd_century_BC,_clay_-_Tokyo_National_Museum_-_Tokyo,_Japan_-_DSC08544.jpg"
+    },
+    "materiales/oro": {
+      "file": "Gold (GeoDIL number - 521).jpg",
+      "caption": "Oro nativo visible en una matriz de roca volcánica silicificada.",
+      "author": "Dexter Perkins",
+      "license": "CC0 1.0",
+      "alt": "Fragmento de roca natural con laminillas y vetas visibles de oro",
+      "source": "https://commons.wikimedia.org/wiki/File:Gold_(GeoDIL_number_-_521).jpg"
+    },
+    "materiales/piedra": {
+      "file": "Dry stone wall building 01.jpg",
+      "caption": "Construcción actual con piedras colocadas en seco, sin mortero.",
+      "author": "Immanuel Giel",
+      "license": "CC0 1.0",
+      "alt": "Mampostería de piedra natural colocada sin argamasa en un muro",
+      "source": "https://commons.wikimedia.org/wiki/File:Dry_stone_wall_building_01.jpg"
+    },
+    "materiales/plata": {
+      "file": "Native silver (GeoDIL number - 852).jpg",
+      "caption": "Ejemplar de plata nativa, con su aspecto natural oscurecido.",
+      "author": "Darla Sondrol",
+      "license": "CC0 1.0",
+      "alt": "Muestra de plata nativa grisácea formada por finos filamentos metálicos",
+      "source": "https://commons.wikimedia.org/wiki/File:Native_silver_(GeoDIL_number_-_852).jpg"
+    }
   }
 }
