@@ -152,6 +152,50 @@ def spanish_alphabetical_key(label):
  normalized=unicodedata.normalize('NFD',label.casefold()).replace('n\u0303','n~')
  return ''.join(char for char in normalized if not unicodedata.combining(char))
 
+SERES_VIVOS_TYPES = {
+ "animales/arbol-de-la-ciencia-del-bien-y-del-mal": "vegetal",
+ "animales/arbol-de-la-vida": "vegetal",
+ "animales/cardo": "vegetal",
+ "animales/centaurea": "vegetal",
+ "animales/higuera": "vegetal",
+ "animales/lentejas": "vegetal",
+ "animales/matorral": "vegetal",
+ "animales/olivo": "vegetal",
+ "animales/tamarisco": "vegetal",
+ "animales/vid": "vegetal",
+ "animales/vina": "vegetal",
+ "animales/zarzal": "vegetal",
+ "animales/asno": "animal",
+ "animales/asno-montes": "animal",
+ "animales/aves-de-rapina": "animal",
+ "animales/becerro": "animal",
+ "animales/burro": "animal",
+ "animales/cabra": "animal",
+ "animales/camello": "animal",
+ "animales/carnero": "animal",
+ "animales/cordero": "animal",
+ "animales/cuervo": "animal",
+ "animales/ganado-bovino": "animal",
+ "animales/onagro": "animal",
+ "animales/oveja": "animal",
+ "animales/paloma": "animal",
+ "animales/palomino": "animal",
+ "animales/serpiente-natural": "animal",
+ "animales/tortola": "animal",
+ "animales/vaca": "animal",
+ "animales/angel-de-jehova": "sobrenatural",
+ "animales/angeles": "sobrenatural",
+ "animales/nefilim": "sobrenatural",
+ "animales/querubin": "sobrenatural",
+ "animales/serpiente": "sobrenatural",
+}
+SERES_VIVOS_ICONS = {
+ "vegetal": "<svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 21V11\"/><path d=\"M12 14C6 14 4 10 4 5c6 0 9 3 8 9Z\"/><path d=\"M12 11c0-6 3-9 9-9 0 6-3 9-9 9Z\"/></svg>",
+ "animal": "<svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 8a3 3 0 0 1 5-2 3 3 0 0 1 4 2 3 3 0 0 1 2 5 3 3 0 0 1-3 4H7a3 3 0 0 1-3-4 3 3 0 0 1 3-5Z\"/><path d=\"M7 17v3h3v-3M14 17v3h3v-4\"/><path d=\"M16 9c2-3 5-2 5 1v4c0 2-1 3-3 3h-1\"/><path d=\"M19 10l2-1M19 13h.01\"/><path d=\"M4 11 2 10\"/></svg>",
+ "sobrenatural": "<svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"12\" cy=\"3.5\" rx=\"4.2\" ry=\"1.5\"/><circle cx=\"12\" cy=\"9\" r=\"3\"/><path d=\"M7 14c-3-3-6-2-5 2l5 5 2-3M17 14c3-3 6-2 5 2l-5 5-2-3M9 14h6l2 8H7l2-8Z\"/></svg>",
+}
+SERES_VIVOS_LABELS = {"vegetal":"Vegetal","animal":"Animal","sobrenatural":"Ser sobrenatural"}
+
 for cat,(name,desc) in C.items():
  entries=[e for e in E if e['category']==cat]
  if cat=='animales':
@@ -167,6 +211,11 @@ for cat,(name,desc) in C.items():
    suffix='<span class="entry-row-tail"><span class="genealogy-index-mark" role="img" aria-label="Incluido en los árboles genealógicos" title="Representado en los árboles genealógicos">'+tree_glyph+'</span><span>↗</span></span>'
   elif has_map:
    suffix='<span class="entry-row-tail"><span class="map-index-mark" role="img" aria-label="Representado en los mapas" title="Representado en los mapas">'+map_glyph+'</span><span>↗</span></span>'
+  elif cat=='animales':
+   kind=SERES_VIVOS_TYPES[e['id']]
+   glyph=SERES_VIVOS_ICONS[kind]
+   kind_label=SERES_VIVOS_LABELS[kind]
+   suffix=f'<span class="entry-row-tail"><span class="living-index-mark living-index-mark--{kind}" role="img" aria-label="{kind_label}" title="{kind_label}">{glyph}</span><span>↗</span></span>'
   else:
    suffix='<span>↗</span>'
   extras={'onomastico/jacob':'Israel','onomastico/jose':'Zafnat-panea','onomastico/eliezer':'siervo de Abraham siervo de Abram mayordomo','onomastico/abraham':'Abram','onomastico/sara':'Sarai','onomastico/benjamin':'Benoni'}
