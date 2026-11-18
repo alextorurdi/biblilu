@@ -1,0 +1,134 @@
+{
+  "titles": {
+    "materiales/arena": "Arena (ḥôl)",
+    "materiales/asfalto": "Asfalto (ḥēmār)",
+    "materiales/bedelio": "Bedelio (bəḏōlaḥ)",
+    "materiales/brea": "Brea (kōfer)",
+    "materiales/bronce": "Bronce (nəḥōšet)",
+    "materiales/gofer": "Gofer (gōfer)",
+    "materiales/hierro": "Hierro (barzel)",
+    "materiales/ladrillo": "Ladrillo (ləḇēnâ)",
+    "materiales/onice": "Ónice (šōham)",
+    "materiales/oro": "Oro (zāhāḇ)",
+    "materiales/piedra": "Piedra (ʾeḇen)",
+    "materiales/plata": "Plata (keseph)"
+  },
+  "related": {
+    "materiales/arena": [],
+    "materiales/asfalto": [
+      "materiales/ladrillo",
+      "materiales/brea",
+      "objetos/torre-de-babel",
+      "objetos/arca-de-noe"
+    ],
+    "materiales/bedelio": [
+      "materiales/oro",
+      "materiales/onice"
+    ],
+    "materiales/brea": [
+      "materiales/gofer",
+      "materiales/asfalto",
+      "objetos/arca-de-noe"
+    ],
+    "materiales/bronce": [
+      "materiales/hierro",
+      "objetos/altar"
+    ],
+    "materiales/gofer": [
+      "materiales/brea",
+      "objetos/arca-de-noe"
+    ],
+    "materiales/hierro": [
+      "materiales/bronce"
+    ],
+    "materiales/ladrillo": [
+      "materiales/asfalto",
+      "materiales/piedra",
+      "objetos/torre-de-babel"
+    ],
+    "materiales/onice": [
+      "materiales/bedelio",
+      "materiales/oro"
+    ],
+    "materiales/oro": [
+      "materiales/plata",
+      "materiales/bedelio",
+      "materiales/onice"
+    ],
+    "materiales/piedra": [
+      "materiales/ladrillo"
+    ],
+    "materiales/plata": [
+      "materiales/oro"
+    ]
+  },
+  "revised": {
+    "materiales/arena": {
+      "body": "Material formado por pequeñas partículas minerales o fragmentos de roca, abundante en las regiones desérticas y costeras del antiguo Oriente Próximo.\n\n### Hechos bíblicos\n\nEn Génesis 22:17, Dios promete a Abraham multiplicar su descendencia como las estrellas del cielo y la arena de la orilla del mar. Jacob recuerda esta promesa en Génesis 32:12.\n\nEn Génesis 41:49, José reúne tanto trigo que el narrador lo compara con la arena del mar, destacando su extraordinaria cantidad.\n\nJeremías 5:22 presenta la arena como el límite que Dios ha establecido para contener las aguas del mar.\n\nEn Job 6:3 y Proverbios 27:3 se emplea su peso como término de comparación para expresar cargas difíciles de soportar.\n\n### Características y usos\n\nLa arena está constituida por partículas de distintos minerales y rocas cuyo tamaño y composición dependen de su origen geológico.\n\nLos autores bíblicos la conocían tanto por su presencia en las playas como en los terrenos áridos. Sus propiedades físicas permiten utilizarla en comparaciones relacionadas con su abundancia, peso y comportamiento como terreno de construcción.\n\n### Simbolismo\n\nSu asociación simbólica más frecuente es con lo innumerable: la descendencia prometida, la abundancia de recursos y la magnitud de pueblos o ejércitos.\n\nTambién puede representar una carga extraordinaria por su peso, como en Job 6:3.\n\nEn Mateo 7:26-27, Jesús utiliza la imagen de una casa edificada sobre arena para ilustrar las consecuencias de escuchar sus palabras sin ponerlas en práctica. En ese contexto específico representa un fundamento inestable.\n\n### Etimología\n\nEl hebreo *ḥôl* (חוֹל) significa «arena». Su origen etimológico exacto es discutido. En el Nuevo Testamento aparece el griego *ámmos* (ἄμμος), con el mismo significado general.\n\n### Referencias\n\nGn 22:17; 32:12; 41:49; Job 6:3; Pr 27:3; Jer 5:22; Sal 139:18; Mt 7:26-27; Heb 11:12.",
+      "mentions": [
+        "Gn 22:17",
+        "Gn 32:12",
+        "Gn 41:49",
+        "Job 6:3",
+        "Pr 27:3",
+        "Jer 5:22",
+        "Sal 139:18",
+        "Mt 7:26-27",
+        "Heb 11:12"
+      ]
+    },
+    "materiales/bronce": {
+      "body": "Aleación metálica compuesta principalmente de cobre y estaño, apreciada desde la Antigüedad por su dureza, resistencia y durabilidad.\n\nEn los textos hebreos, la denominación tradicionalmente traducida como «bronce» también puede referirse al cobre, por lo que no siempre es posible determinar la composición exacta del metal mencionado.\n\n### Hechos bíblicos\n\nEn Génesis 4:22, Tubal-caín, descendiente de Caín, aparece descrito como artífice de toda obra de bronce y de hierro, en una de las primeras referencias bíblicas al trabajo de los metales.\n\nDurante la construcción del tabernáculo, Dios ordenó fabricar diversos elementos de bronce, entre ellos el revestimiento del altar de los holocaustos y sus utensilios (Ex 27:1-8). También se elaboró una fuente de bronce utilizando los espejos de las mujeres que velaban a la puerta del tabernáculo de reunión (Ex 38:8).\n\nEn Números 21:8-9, Moisés fabricó una serpiente de bronce y la colocó sobre un asta por mandato divino. Los israelitas mordidos por serpientes venenosas podían salvar la vida al mirarla. Siglos después, el rey Ezequías ordenó destruirla porque se había convertido en objeto de culto (2 R 18:4).\n\nEn el enfrentamiento entre David y Goliat, el guerrero filisteo aparece equipado con un casco de bronce y una pesada cota de malla (1 S 17:5-6).\n\nDurante la construcción del templo de Salomón, Hiram, artesano procedente de Tiro, realizó numerosas obras de bronce, entre ellas las columnas, las basas, las fuentes y el gran recipiente conocido como el «mar de fundición» (1 R 7:13-47).\n\n### Características y usos\n\nEl bronce se obtiene mediante la aleación del cobre con estaño en proporciones variables. Generalmente presenta mayor dureza y resistencia al desgaste que el cobre puro.\n\nSu fabricación requiere técnicas metalúrgicas como la fundición y el vaciado en moldes. También podía trabajarse mediante martillado, pulido y otros procedimientos, dependiendo de la composición y del objeto que se pretendiera elaborar.\n\nEn el antiguo Oriente Próximo fue uno de los metales más importantes para la producción de herramientas agrícolas, armas, recipientes, adornos y elementos arquitectónicos. Su utilización continuó incluso después de la difusión de la metalurgia del hierro.\n\nEl cobre y algunas de sus aleaciones podían pulirse hasta obtener superficies suficientemente reflectantes para fabricar espejos, como los mencionados en Éxodo 38:8.\n\n### Simbolismo\n\n**Resistencia y dureza.** El bronce aparece como imagen de una fuerza difícil de vencer o de una resistencia extraordinaria. En Deuteronomio 28:23, el cielo convertido en bronce representa la ausencia de lluvia como consecuencia del juicio divino.\n\n**Obstinación.** En Isaías 48:4, Dios compara la frente de Israel con el bronce para expresar la dureza de su actitud y su resistencia a la corrección.\n\n**Brillo y esplendor.** El aspecto luminoso del metal bruñido sirve para describir manifestaciones extraordinarias. En Ezequiel 1:7, los seres vivientes contemplados por el profeta centellean como bronce muy bruñido. En Apocalipsis 1:15, los pies de Cristo glorificado se describen como semejantes al bronce bruñido, refulgente como en un horno.\n\nEstos significados dependen del contexto de cada pasaje y no implican que el bronce posea un simbolismo único en toda la Biblia.\n\n### Etimología\n\nEl término hebreo *nəḥōšet* (נְחֹשֶׁת) designa el cobre o el bronce y aparece numerosas veces en el Antiguo Testamento. Su identificación concreta depende del contexto histórico y de la naturaleza del objeto mencionado.\n\nEn Números 21:9 se produce una semejanza sonora entre *nāḥāš* (נָחָשׁ), «serpiente», y *nəḥōšet*, «bronce», que ha sido interpretada como un juego de palabras deliberado.\n\nEn el Nuevo Testamento aparece el término griego *chalkós* (χαλκός), que puede referirse al cobre o al bronce. La expresión utilizada para describir los pies de Cristo en Apocalipsis 1:15, traducida como «bronce bruñido» en la RVR60, presenta particularidades lingüísticas cuya interpretación exacta es discutida.\n\n### Referencias\n\nGn 4:22; Ex 27:1-8; 38:8; Nm 21:8-9; Dt 28:23; 1 S 17:5-6; 1 R 7:13-47; 2 R 18:4; Is 48:4; Ez 1:7; Ap 1:15.",
+      "mentions": [
+        "Gn 4:22",
+        "Ex 27:1-8",
+        "Ex 38:8",
+        "Nm 21:8-9",
+        "Dt 28:23",
+        "1 S 17:5-6",
+        "1 R 7:13-47",
+        "2 R 18:4",
+        "Is 48:4",
+        "Ez 1:7",
+        "Ap 1:15"
+      ]
+    },
+    "materiales/gofer": {
+      "body": "Madera mencionada en Génesis 6:14 como el material elegido para construir el arca de Noé. Su identificación botánica es desconocida, aunque se ha propuesto que podría corresponder a alguna especie de conífera, como el ciprés, el cedro o el pino.\n\nLa Reina-Valera 1960 conserva el término hebreo mediante su transliteración, sin identificarlo con una especie concreta.\n\n### Hechos bíblicos\n\nEn Génesis 6:14, Dios ordena a Noé construir un arca de madera de gofer, dividida en compartimentos e impermeabilizada con brea por dentro y por fuera.\n\nLas instrucciones continúan con las dimensiones y características de la embarcación (Gn 6:15-16). El relato concluye señalando que Noé cumplió todo lo que Dios le había mandado (Gn 6:22).\n\nEsta es la única ocasión en que se menciona expresamente la madera de gofer en las Escrituras.\n\n### Características y usos\n\nLa identificación del gofer con una especie arbórea concreta es discutida. Entre las principales propuestas se encuentran:\n\n- **Ciprés:** una de las identificaciones más habituales, debido a la resistencia de su madera y a su utilización tradicional en construcciones navales.\n- **Cedro:** apreciado en el antiguo Oriente Próximo por su durabilidad y sus aplicaciones arquitectónicas.\n- **Pino:** propuesto por su disponibilidad y por las propiedades resinosas de algunas de sus especies.\n\nTambién se ha sugerido que gofer no designaba una especie concreta, sino una clase de madera resinosa o preparada para la construcción.\n\nNinguna de estas propuestas ha podido demostrarse de manera concluyente.\n\nLas traducciones antiguas muestran igualmente dificultades para interpretar el término. La Septuaginta griega utiliza una expresión que significa «maderas escuadradas», mientras que la Vulgata latina habla de «maderas alisadas». Estas traducciones parecen describir la preparación de la madera, en lugar de identificar su especie.\n\n### Etimología\n\nEl término hebreo *gōfer* (גֹפֶר) aparece exclusivamente en Génesis 6:14. Su origen y significado exactos son desconocidos.\n\nAlgunos investigadores han propuesto una relación con *kōfer* (כֹּפֶר), «brea» o «betún», término que aparece en el mismo versículo. Según esta hipótesis, gofer podría referirse a una madera resinosa o relacionada con materiales impermeabilizantes.\n\n### Referencias\n\nGn 6:14 (única mención explícita); 6:15-22 (contexto de construcción del arca).",
+      "mentions": [
+        "Gn 6:14",
+        "Gn 6:15-22"
+      ]
+    },
+    "materiales/hierro": {
+      "body": "Metal de gran dureza y resistencia, utilizado desde la Antigüedad para fabricar herramientas, armas, utensilios y elementos de construcción. Su importancia aumentó considerablemente con el desarrollo de las técnicas metalúrgicas que permitieron producirlo y trabajarlo de manera más extendida.\n\n### Hechos bíblicos\n\nEn Génesis 4:22, Tubal-caín, descendiente de Caín, aparece como artífice de toda obra de bronce y de hierro, constituyendo la primera referencia bíblica al trabajo de este metal.\n\nEn Deuteronomio 8:9, Moisés describe la Tierra Prometida como una región de cuyas piedras se obtiene hierro, destacando sus recursos naturales.\n\nDurante el período de los jueces, los cananeos disponían de carros de guerra equipados con hierro, que representaban una importante ventaja militar (Jue 4:3). Más adelante, durante el reinado de Saúl, el relato bíblico afirma que los filisteos impedían a los israelitas disponer de herreros capaces de fabricar espadas y lanzas, obligándolos a acudir a ellos para afilar sus herramientas agrícolas (1 S 13:19-22).\n\nEn 2 Reyes 6:5-7 se relata cómo Eliseo hizo flotar milagrosamente el hierro de un hacha que había caído al agua mientras unos hombres cortaban madera.\n\nDurante los preparativos para la construcción del templo de Jerusalén, David reunió grandes cantidades de hierro destinado a fabricar clavos y elementos de unión de las puertas (1 Cr 22:3).\n\n### Características y usos\n\nEl hierro es un elemento metálico que se encuentra principalmente formando parte de minerales. Su obtención requiere procesos de reducción del mineral mediante calor y agentes reductores. En la metalurgia antigua, el hierro obtenido debía trabajarse y consolidarse mediante operaciones de forja.\n\nEl hierro puro es relativamente blando, pero sus propiedades mecánicas pueden modificarse considerablemente mediante la incorporación de carbono y distintos tratamientos térmicos. Esto permitió fabricar herramientas y armas de gran resistencia y dureza.\n\nAunque el hierro ya era conocido durante la Edad del Bronce, su producción y utilización se extendieron progresivamente por el antiguo Oriente Próximo entre finales del segundo milenio y comienzos del primero a. C. Su difusión no fue uniforme y durante mucho tiempo convivió con el uso del bronce.\n\nEl relato de 1 Samuel 13:19-22 describe una situación de dependencia de los israelitas respecto a los herreros filisteos. Sin embargo, no permite concluir que los filisteos poseyeran el monopolio de la metalurgia del hierro en toda la región o que los israelitas desconocieran por completo esta tecnología.\n\n### Simbolismo\n\n**Fuerza y poder.** Su dureza convierte al hierro en una imagen de fortaleza y capacidad de dominación. En Daniel 2:40, el cuarto reino de la visión de Nabucodonosor es comparado con el hierro porque quebranta y desmenuza cuanto encuentra a su paso.\n\n**Opresión y esclavitud.** En Deuteronomio 28:48, el yugo de hierro representa el sometimiento a una dominación severa. En Deuteronomio 4:20, Egipto es descrito como un horno de hierro, expresión que evoca el sufrimiento de la esclavitud.\n\n**Firmeza.** En Jeremías 1:18, Dios anuncia al profeta que lo convertirá en una columna de hierro y un muro de bronce frente a quienes se opongan a su misión.\n\n**Perfeccionamiento mutuo.** Proverbios 27:17 compara el contacto entre dos piezas de hierro, capaces de afilarse mutuamente, con la influencia que una persona puede ejercer sobre otra.\n\nEstos significados responden a las propiedades físicas del metal y al contexto de cada pasaje, sin constituir un simbolismo único.\n\n### Etimología\n\nEl término hebreo *barzel* (בַּרְזֶל) significa «hierro». Tiene correspondencias en otras lenguas semíticas, como el arameo y el acadio, aunque su origen etimológico más antiguo no está establecido con certeza.\n\nEn el Nuevo Testamento aparecen formas griegas relacionadas con *sídēros* (σίδηρος), «hierro». En Apocalipsis 2:27, 12:5 y 19:15 se utiliza la expresión «vara de hierro», relacionada con la autoridad y el gobierno sobre las naciones.\n\n### Referencias\n\nGn 4:22; Dt 4:20; 8:9; 28:48; Jue 4:3; 1 S 13:19-22; 2 R 6:5-7; 1 Cr 22:3; Pr 27:17; Jer 1:18; Dn 2:40; Ap 2:27; 12:5; 19:15.",
+      "mentions": [
+        "Gn 4:22",
+        "Dt 4:20",
+        "Dt 8:9",
+        "Dt 28:48",
+        "Jue 4:3",
+        "1 S 13:19-22",
+        "2 R 6:5-7",
+        "1 Cr 22:3",
+        "Pr 27:17",
+        "Jer 1:18",
+        "Dn 2:40",
+        "Ap 2:27",
+        "Ap 12:5",
+        "Ap 19:15"
+      ]
+    },
+    "materiales/ladrillo": {
+      "body": "Material de construcción elaborado principalmente con arcilla o barro, moldeado en piezas de forma regular y endurecido mediante secado al sol o cocción en hornos. Fue uno de los materiales constructivos más utilizados en las civilizaciones del antiguo Oriente Próximo, especialmente en regiones donde abundaba la arcilla y escaseaba la piedra.\n\n### Hechos bíblicos\n\nEn Génesis 11:3, los habitantes de Sinar deciden fabricar ladrillos cocidos al fuego para construir la ciudad y la torre de Babel, empleando asfalto como mortero en lugar de la mezcla habitual. El relato destaca el uso de ladrillos en sustitución de la piedra.\n\nEn Éxodo 1:14, la fabricación de ladrillos aparece entre los trabajos forzados impuestos a los israelitas durante su esclavitud en Egipto. Posteriormente, el faraón ordena dejar de proporcionarles paja, aunque exige mantener la misma producción de ladrillos (Ex 5:7-19).\n\nEn Isaías 9:9-10, los habitantes de Samaria declaran que reconstruirán con piedra de cantería los edificios de ladrillo que han caído. El profeta presenta estas palabras como expresión de soberbia ante el juicio divino.\n\nEn Ezequiel 4:1-3, Dios ordena al profeta representar la ciudad de Jerusalén sobre un adobe y escenificar su asedio, como señal profética del sitio que sufrirá la ciudad. La RVR60 utiliza aquí la palabra «adobe», aunque el término hebreo es el mismo que se traduce como «ladrillo» en otros pasajes.\n\n### Características y usos\n\nLos ladrillos antiguos se fabricaban mezclando arcilla o barro con agua y, frecuentemente, materiales vegetales como paja o fibras, que contribuían a dar cohesión a la mezcla y limitar la formación de grietas durante el secado.\n\nExistían dos procedimientos principales de endurecimiento:\n\n- **Secado al sol:** los ladrillos se dejaban secar al aire sin someterlos a temperaturas de cocción. Este procedimiento, característico de los adobes, era económico y muy extendido, aunque ofrecía menor resistencia a la humedad.\n- **Cocción en hornos:** los ladrillos se sometían a temperaturas elevadas, que transformaban el material y aumentaban su dureza, durabilidad y resistencia al agua.\n\nEn Mesopotamia se emplearon ampliamente ambos procedimientos. Los ladrillos secados al sol eran habituales en los muros de numerosos edificios, mientras que los cocidos se utilizaban especialmente en construcciones expuestas a la humedad o que requerían mayor resistencia.\n\nGénesis 11:3 menciona expresamente la cocción al fuego, por lo que los ladrillos de Babel no deben confundirse con simples adobes secados al sol. El uso de asfalto como mortero también está documentado arqueológicamente en construcciones mesopotámicas.\n\n### Simbolismo\n\n**Fragilidad de las obras humanas.** Los ladrillos secados al sol podían deteriorarse por efecto de la lluvia y los cambios de temperatura, convirtiéndose en una imagen del carácter pasajero de las construcciones humanas.\n\n**Soberbia y ambición humana.** Los ladrillos en la Biblia aparecen en contextos donde los humanos construyen para sí mismos y no para Dios. En Génesis 11:3-4, los ladrillos cocidos constituyen el material con el que los habitantes de Babel pretenden levantar una ciudad y una torre cuya cúspide llegue al cielo. La construcción representa su deseo de alcanzar grandeza y hacerse un nombre, en oposición a los propósitos de Dios. En Éxodo 1:14 y 5:7-19, la fabricación de ladrillos aparece vinculada a la soberbia del Faraón que usa a los israelitas para construir para la gloria humana en vez de seguir la voluntad de Dios y dejarlos marchar.\n\n**Idolatría y desobediencia.** En Isaías 65:3, Dios denuncia a quienes queman incienso sobre ladrillos, en el contexto de prácticas religiosas que provocan su indignación. Los ladrillos aparecen así asociados a cultos contrarios a sus mandamientos.\n\n### Etimología\n\nEl término hebreo *ləḇēnâ* (לְבֵנָה) significa «ladrillo» y puede designar tanto piezas secadas al sol como cocidas al fuego.\n\nTradicionalmente se ha relacionado con la raíz hebrea *l-b-n*, asociada al color blanco, posiblemente por el aspecto claro de determinadas arcillas o de los ladrillos secados al sol.\n\nSin embargo, también se han propuesto relaciones con el acadio *libittu*, «ladrillo», por lo que el origen preciso del término sigue siendo discutido.\n\n### Referencias\n\nGn 11:3; Ex 1:14; 5:7-19; Is 9:9-10; 65:3; Ez 4:1-3.",
+      "mentions": [
+        "Gn 11:3",
+        "Ex 1:14",
+        "Ex 5:7-19",
+        "Is 9:9-10",
+        "Is 65:3",
+        "Ez 4:1-3"
+      ]
+    }
+  }
+}
