@@ -1,5 +1,5 @@
 from pathlib import Path
-import json,re,html,os,shutil
+import json,re,html,os,shutil,unicodedata
 from urllib.parse import quote
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'docs';OUT.mkdir(exist_ok=True)
 E=json.loads((ROOT/'data/entries.json').read_text());V=json.loads((ROOT/'data/genesis.json').read_text());B=json.loads((ROOT/'data/bibliography.json').read_text())
@@ -148,8 +148,14 @@ def entrybody(e,pre):
   if dest:out=f'<p>Ver <a href="{pre}apendices/{dest["id"]}/index.html">{H(target)}</a>.</p>'
  return out
 page('apendices/index.html','Apéndices','<section class="section"><p class="eyebrow">GUÍAS DE LECTURA</p><h1>El mundo de la Biblia.</h1><p class="intro">Cinco caminos para explorar lo que aparece en el relato.</p><div class="appendix-grid">'+cards('../')+'</div></section>')
+def spanish_alphabetical_key(label):
+ normalized=unicodedata.normalize('NFD',label.casefold()).replace('n\u0303','n~')
+ return ''.join(char for char in normalized if not unicodedata.combining(char))
+
 for cat,(name,desc) in C.items():
  entries=[e for e in E if e['category']==cat]
+ if cat=='animales':
+  entries.sort(key=lambda e: spanish_alphabetical_key(e['title'].replace('*','')))
  family_link='<a class="button genealogy-directory-link" href="../genealogias/index.html">Explorar los árboles genealógicos ↗</a>' if cat=='onomastico' else '<a class="button genealogy-directory-link" href="../mapas/index.html">Explorar los mapas ↗</a>' if cat=='lugares' else ''
  def render_index_row(e):
   slug=e['id'].split('/')[1]
