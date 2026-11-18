@@ -386,3 +386,7 @@
 
 /* Seres Vivos: fotografías naturales identificadas y con fuente. */
 .species-photo{margin:0 0 28px;max-width:760px}.species-photo a:focus-visible{outline:3px solid #aa6e36;outline-offset:3px}.species-photo img{display:block;max-width:100%;width:auto;max-height:430px;object-fit:contain;border-radius:9px;box-shadow:0 7px 25px rgba(0,0,0,.09);background:#f5f3eb}.species-photo figcaption{font-size:13px;color:#666b62;line-height:1.5;margin:10px 0 0}.species-photo figcaption a{color:#476b55;text-decoration:underline}
+
+/* Seres Vivos: nombre en español destacado y denominación complementaria discreta. */
+.entry h1 .living-title-secondary{display:block;margin-top:7px;color:var(--muted);font:400 clamp(16px,2.8vw,22px)/1.45 Arial,Helvetica,sans-serif;letter-spacing:normal;overflow-wrap:anywhere}
+.entry h1 .living-title-secondary em{font-style:italic}
