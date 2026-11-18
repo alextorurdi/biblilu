@@ -126,7 +126,7 @@
 .living-index-mark{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;color:var(--animales)}
 .living-index-mark svg{display:block;flex-shrink:0}
 /* En el índice, la forma hebrea acompaña al nombre español como información secundaria. */
-.entry-row.animales .living-index-original{display:inline-block;margin-left:.5em;color:var(--muted);font:400 .8em/1.35 Arial,Helvetica,sans-serif;vertical-align:baseline;overflow-wrap:anywhere}
+.entry-row.animales .living-index-original{display:inline-block;margin-left:.28em;color:var(--muted);font:400 .75em/1.4 Arial,Helvetica,sans-serif;vertical-align:baseline;overflow-wrap:anywhere}
 .entry-row.animales .living-index-original em{font-style:italic}
 /* Leyenda integrada en la frase introductoria, sin alterar la tipografía */
 .living-legend-part{white-space:nowrap}
