@@ -1,4 +1,4 @@
-name: Publicar fichas de Seres Vivos
+name: Publicar apéndices de BIBLILU
 on:
   push:
     branches: [main]
@@ -7,6 +7,7 @@ on:
       - 'data/bibliography.json'
       - 'scripts/build.py'
       - 'assets/style.css'
+      - 'editorial/approved-pages/**'
       - '.github/workflows/publicar-seres-vivos.yml'
   workflow_dispatch:
 permissions:
@@ -27,9 +28,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/apendices/animales docs/assets/entries.json docs/bibliografia/index.html docs/assets/style.css
+          git add docs/apendices docs/assets/entries.json docs/bibliografia/index.html docs/assets/style.css docs/index.html docs/genesis/2/index.html docs/genesis/11/index.html docs/genesis/20/index.html docs/genesis/24/index.html
           git rm -f --ignore-unmatch docs/apendices/animales/legumbres/index.html
           if ! git diff --cached --quiet; then
-            git commit -m "Publicar revisión aprobada del Apéndice de Seres Vivos"
+            git commit -m "Publicar reorganización de los apéndices de BIBLILU"
             git push
           fi

@@ -3155,24 +3155,24 @@
     ]
   },
   {
-    "id": "materiales/altar",
-    "category": "materiales",
+    "id": "objetos/altar",
+    "category": "objetos",
     "name": "Altar",
     "title": "Altar (Mizbeach)",
     "text": "Altar (Mizbeach). Estructura elevada, generalmente de piedra, tierra o madera, destinada a realizar actos de culto. Los altares del Génesis son diferentes al del resto de libros bíblicos. Son estructuras improvisadas realizadas, probablemente, apilando piedras o ramas de la zona. Tenían varias funciones, la principal era la de marcar los sitios donde Dios había dado provisión y poder regresar a ellos más tarde (Gen 13:2-4). En ellos se adoraba a Dios, se realizaban ofrendas y se le daba las gracias por el bien recibido (Génesis 8:20). Abraham e Isaac elevaron altares allá donde iban. Sin embargo, a partir del Éxodo, la Ley de Dios prohibiría este tipo de estructuras improvisadas y centraría todo el culto en un único altar - en el tabernáculo o en el Templo (Dt 12:13-14). Además, Dios reguló el sistema de sacrificios y ofrendas  (Levítico 1-7). Después de la Muerte y Resurrección de Jesús, los altares cobran un sentido más espiritual, siendo cada creyente el que debe entregar su cuerpo como altar  (Romanos 12:1).",
     "body": "Estructura elevada, generalmente de piedra, tierra o madera, destinada a realizar actos de culto. Los altares del Génesis son diferentes al del resto de libros bíblicos. Son estructuras improvisadas realizadas, probablemente, apilando piedras o ramas de la zona. Tenían varias funciones, la principal era la de marcar los sitios donde Dios había dado provisión y poder regresar a ellos más tarde (Gen 13:2-4). En ellos se adoraba a Dios, se realizaban ofrendas y se le daba las gracias por el bien recibido (Génesis 8:20). Abraham e Isaac elevaron altares allá donde iban. Sin embargo, a partir del Éxodo, la Ley de Dios prohibiría este tipo de estructuras improvisadas y centraría todo el culto en un único altar - en el tabernáculo o en el Templo (Dt 12:13-14). Además, Dios reguló el sistema de sacrificios y ofrendas  (Levítico 1-7). Después de la Muerte y Resurrección de Jesús, los altares cobran un sentido más espiritual, siendo cada creyente el que debe entregar su cuerpo como altar  (Romanos 12:1)."
   },
   {
-    "id": "materiales/arca-de-noe",
-    "category": "materiales",
+    "id": "objetos/arca-de-noe",
+    "category": "objetos",
     "name": "Arca de Noé",
     "title": "Arca de Noé (Tevat Noah)",
     "text": "Arca de Noé (Tevat Noah). Embarcación de madera cuya creación fue encomendada por Dios a Noé y cuyo propósito era resguardarlos a él, su familia y la diversidad animal de la destrucción provocada por el Diluvio Universal (Gen 6:14-21). Medía 300 codos de largo, 50 de ancho y 30 de alto (137m x 23m x 14m) (Gen 6:15). Tenía 3 pisos o cubiertas (Gen 6:16). También tenía una puerta y una claraboya, aunque algunos autores interpretan esta última como un tejadillo [Hamilton, 1990]. A ella subieron 7 parejas de animales de cada especie limpia y 1 pareja de cada especie impura (Gen 7:2), Noé, su hijos Sem, Cam y Jaffet y sus respectivas mujeres (Gen 6:18).",
     "body": "Embarcación de madera cuya creación fue encomendada por Dios a Noé y cuyo propósito era resguardarlos a él, su familia y la diversidad animal de la destrucción provocada por el Diluvio Universal (Gen 6:14-21). Medía 300 codos de largo, 50 de ancho y 30 de alto (137m x 23m x 14m) (Gen 6:15). Tenía 3 pisos o cubiertas (Gen 6:16). También tenía una puerta y una claraboya, aunque algunos autores interpretan esta última como un tejadillo [Hamilton, 1990]. A ella subieron 7 parejas de animales de cada especie limpia y 1 pareja de cada especie impura (Gen 7:2), Noé, su hijos Sem, Cam y Jaffet y sus respectivas mujeres (Gen 6:18)."
   },
   {
-    "id": "materiales/arco-iris",
-    "category": "materiales",
+    "id": "objetos/arco-iris",
+    "category": "objetos",
     "name": "Arco Iris",
     "title": "Arco Iris (Qeshet)",
     "text": "Arco Iris (Qeshet). Fenómeno natural que con forma de semicírculo de colores que se forma cuando la luz del sol se refracta, refleja y dispersa en gotas de agua en la atmósfera. Su carácter cotidiano nos hace pasar por alto su carácter sagrado. Dios mismo lo llamó mi arco (comparándolo con un arma de combate) y lo estableció como símbolo del pacto con la humanidad, garantizando que nunca más se repetirían los terribles acontecimientos del Diluvio (Gen 9:12-17).",
@@ -3219,8 +3219,8 @@
     "body": "Aleación resistente y duradera de cobre y estaño, ampliamente utilizada desde la antigüedad en la fabricación de herramientas, armas y obras de arte por su maleabilidad y resistencia a la corrosión. En ese contexto, el bronce era el metal predominante entre los israelitas, y por ello, es frecuente encontrarlo mencionado en la descripción de objetos sagrados y armas hebreas. En la Biblia, el bronce simboliza tanto la resistencia como la maleabilidad. Además, se destaca su reflejo y brillo cuando está pulido, ya que en la Antigüedad se utilizaba como material para fabricar espejos."
   },
   {
-    "id": "materiales/espada-encendida",
-    "category": "materiales",
+    "id": "objetos/espada-encendida",
+    "category": "objetos",
     "name": "Espada encendida",
     "title": "Espada encendida (lahat chereb)",
     "text": "Espada encendida (lahat chereb). Arma colocada por Dios para guardar la entrada al huerto de Edén (Gen 3:24). Según el texto, el arma giraba continuamente; pero no queda claro si empuñada por los querubines que Dios colocó en el mismo lugar o de forma independiente.",
@@ -3235,8 +3235,8 @@
     "body": "Esta palabra aparece únicamente en relación a la madera del Arca de Noé (Gen 6:14) pero no hay consenso en cuanto a su significado. Podría ser un tipo de madera como cedro [Hirsch, 1906] o ciprés [García-Moreno, 2018] o un procesamiento de la misma como el laminado [Taylor, 2001]."
   },
   {
-    "id": "materiales/kinnor",
-    "category": "materiales",
+    "id": "instrumentos/kinnor",
+    "category": "instrumentos",
     "name": "Kinnor",
     "title": "Kinnor",
     "text": "Kinnor. (Gen 4:21) Lira hebrea antigua de entre 5 y 10 cuerdas muy popular en tiempos bíblicos. Su sonido inspiraba alegría y se usaba tanto para la alabanza en el Templo como para los festivales seculares. Se componía de dos brazos que sostenían una barra a donde se ataban un extremo de las cuerdas. El otro extremo cubría la caja de resonancia colocada en la parte inferior. Según los registros que tenemos se podía tocar con una especie de púa o con la mano. [Friedman, 2013] Según la Biblia fue inventada o impulsada por Jubal (Gen 4:21).",
@@ -3291,32 +3291,32 @@
     "body": "Metal precioso de color blanco o gris claro, brillante y maleable. En la Antigüedad se usaba en la fabricación de monedas y utensilios. Al igual que el oro, la plata representa riqueza y bendición divina (Gn 13:4). Como tal, se usa como moneda de cambio (Gn 23:16) y para los postes del tabernáculo (Ex 26:19-25). Sin embargo, también tiene connotaciones negativas, pues Dios advierte contra la acumulación desmedida de plata y su uso en la idolatría (Ex 20:23; Dt 7:25, 17:17). Por ejemplo, José fue vendido por sus hermanos por veinte piezas de plata (Gn 27:38) y el propio Jesucristo fue entregado por treinta monedas de plata (Mt 26:14-16). Al igual que el oro, la plata también es usada para la fabricación de ídolos (Jue 17:4). El proceso de refinado de la plata, que implicaba someter el metal a altas temperaturas para eliminar sus impurezas, se utiliza como metáfora de la purificación del carácter humano y la fidelidad divina (Sal 66:10)."
   },
   {
-    "id": "materiales/siclo",
-    "category": "materiales",
+    "id": "medidas/siclo",
+    "category": "medidas",
     "name": "Siclo",
     "title": "Siclo (sheqel)",
     "text": "Siclo (sheqel). Originalmente una unidad de peso. Su valor exacto variaba por región y época, pero suele situarse en torno a 8–12 g de plata; en el sistema bíblico estándar se dividía en 20 guerás, y se organizaba en múltiplos mayores como la mina (≈60 siclos) y el talento (≈60 minas). En transacciones entre comerciantes de distintos orígenes se usaba un patrón comercial común para evitar disputas (Gn 23:15-16). En época persa y helenística, pasó a designar también monedas (p. ej., el siclo tiro).",
     "body": "Originalmente una unidad de peso. Su valor exacto variaba por región y época, pero suele situarse en torno a 8–12 g de plata; en el sistema bíblico estándar se dividía en 20 guerás, y se organizaba en múltiplos mayores como la mina (≈60 siclos) y el talento (≈60 minas). En transacciones entre comerciantes de distintos orígenes se usaba un patrón comercial común para evitar disputas (Gn 23:15-16). En época persa y helenística, pasó a designar también monedas (p. ej., el siclo tiro)."
   },
   {
-    "id": "materiales/tienda",
-    "category": "materiales",
+    "id": "objetos/tienda",
+    "category": "objetos",
     "name": "Tienda",
     "title": "Tienda (ohel)",
     "text": "Tienda (ohel). Estructura habitacional de carácter temporal fabricada con cubiertas de cuero o lana de cabra tejida, sostenidas por postes de madera o hueso endurecido y ancladas al suelo mediante estacas y cuerdas de lana, cuero trenzado o lino. Fue un elemento esencial en la vida nómada de los patriarcas de Israel.  Estructura interna. Estas tiendas, de gran extensión, eran capaces de albergar a numerosas personas. Estaban divididas en espacios interiores para separar dormitorios, áreas de trabajo y zonas de recepción de invitados, adaptándose a las complejidades de la vida cotidiana. Los campamentos consistían en múltiples tiendas organizadas alrededor de un espacio central reservado para el líder del clan, su familia y sus sirvientes. Esta tienda principal servía como núcleo administrativo y lugar de encuentro. Distribución del campamento. El ganado, uno de los bienes más valiosos de estas comunidades, era resguardado en cercados improvisados o semipermanentes hechos con ramas y piedras recolectadas del entorno. Las tiendas del personal encargado de la seguridad se colocaban en el perímetro del campamento, proporcionando una defensa constante contra depredadores y ladrones. Organización. Montar y desmontar un campamento era una tarea eficiente, generalmente completada en un solo día. Los elementos de las tiendas se transportaban en los animales de carga: la tela (más pesada) en los camellos y los postes y cordajes (más ligeros) sobre los burros. Los campamentos se establecían cerca de fuentes de agua y pasto, y los movimientos eran cuidadosamente planificados para evitar quedar varados en el desierto durante la noche. Este estilo de vida itinerante exigía una dependencia absoluta de Dios, especialmente para Abraham, quien obedeció el llamado divino de ir rumbo a una tierra desconocida, confiando únicamente en la promesa divina. Simbología. La tienda se presenta en la Biblia como un símbolo de tránsito y una constante dependencia de Dios. Su carácter precario obligaba a sus habitantes a confiar plenamente en la provisión divina para cubrir incluso las necesidades más básicas. En contraste, la ciudad, con su aparente estabilidad y comodidades, es vista en el Génesis y el Pentateuco como un espacio que a menudo aleja a sus habitantes de Dios. Este contraste resalta la fe de los patriarcas, quienes aceptaron la fragilidad de su condición para vivir conforme al propósito divino. Es significativo que el único periodo en el que los israelitas vivieron en casas, según los cinco libros de la Torá, fue durante su esclavitud en Egipto, un tiempo marcado por la opresión y la ausencia de libertad. La tienda, por tanto, no solo representa un estilo de vida ligado a la fe, sino también una forma de vivir en libertad bajo la guía y provisión divina.",
     "body": "Estructura habitacional de carácter temporal fabricada con cubiertas de cuero o lana de cabra tejida, sostenidas por postes de madera o hueso endurecido y ancladas al suelo mediante estacas y cuerdas de lana, cuero trenzado o lino. Fue un elemento esencial en la vida nómada de los patriarcas de Israel.  Estructura interna. Estas tiendas, de gran extensión, eran capaces de albergar a numerosas personas. Estaban divididas en espacios interiores para separar dormitorios, áreas de trabajo y zonas de recepción de invitados, adaptándose a las complejidades de la vida cotidiana. Los campamentos consistían en múltiples tiendas organizadas alrededor de un espacio central reservado para el líder del clan, su familia y sus sirvientes. Esta tienda principal servía como núcleo administrativo y lugar de encuentro. Distribución del campamento. El ganado, uno de los bienes más valiosos de estas comunidades, era resguardado en cercados improvisados o semipermanentes hechos con ramas y piedras recolectadas del entorno. Las tiendas del personal encargado de la seguridad se colocaban en el perímetro del campamento, proporcionando una defensa constante contra depredadores y ladrones. Organización. Montar y desmontar un campamento era una tarea eficiente, generalmente completada en un solo día. Los elementos de las tiendas se transportaban en los animales de carga: la tela (más pesada) en los camellos y los postes y cordajes (más ligeros) sobre los burros. Los campamentos se establecían cerca de fuentes de agua y pasto, y los movimientos eran cuidadosamente planificados para evitar quedar varados en el desierto durante la noche. Este estilo de vida itinerante exigía una dependencia absoluta de Dios, especialmente para Abraham, quien obedeció el llamado divino de ir rumbo a una tierra desconocida, confiando únicamente en la promesa divina. Simbología. La tienda se presenta en la Biblia como un símbolo de tránsito y una constante dependencia de Dios. Su carácter precario obligaba a sus habitantes a confiar plenamente en la provisión divina para cubrir incluso las necesidades más básicas. En contraste, la ciudad, con su aparente estabilidad y comodidades, es vista en el Génesis y el Pentateuco como un espacio que a menudo aleja a sus habitantes de Dios. Este contraste resalta la fe de los patriarcas, quienes aceptaron la fragilidad de su condición para vivir conforme al propósito divino. Es significativo que el único periodo en el que los israelitas vivieron en casas, según los cinco libros de la Torá, fue durante su esclavitud en Egipto, un tiempo marcado por la opresión y la ausencia de libertad. La tienda, por tanto, no solo representa un estilo de vida ligado a la fe, sino también una forma de vivir en libertad bajo la guía y provisión divina."
   },
   {
-    "id": "materiales/torre-de-babel",
-    "category": "materiales",
+    "id": "objetos/torre-de-babel",
+    "category": "objetos",
     "name": "Torre de Babel",
     "title": "Torre de Babel (Miḡdal Bāḇel)",
     "text": "Torre de Babel (Miḡdal Bāḇel). Construcción realizada con ladrillo y asfalto erigida  junto con la ciudad de Babel con la intención de “llegar al cielo” y ensalzar la vanidad de sus creadores (Gen 11:4). Fue abandonada después de que Dios confundiera las lenguas de los edificadores (Gen 11:8). Se cree que es una referencia al Zigurat de Etemenanki. Un monumental templo escalonado dedicado al dios Marduk, localizado en Babilonia. Se especula que su altura estaba comprendida entre los 60 y los 90 mentros. Sus ruinas se encuentran a 90 km al sur de Bagdad (Iraq).",
     "body": "Construcción realizada con ladrillo y asfalto erigida  junto con la ciudad de Babel con la intención de “llegar al cielo” y ensalzar la vanidad de sus creadores (Gen 11:4). Fue abandonada después de que Dios confundiera las lenguas de los edificadores (Gen 11:8). Se cree que es una referencia al Zigurat de Etemenanki. Un monumental templo escalonado dedicado al dios Marduk, localizado en Babilonia. Se especula que su altura estaba comprendida entre los 60 y los 90 mentros. Sus ruinas se encuentran a 90 km al sur de Bagdad (Iraq)."
   },
   {
-    "id": "materiales/ugab",
-    "category": "materiales",
+    "id": "instrumentos/ugab",
+    "category": "instrumentos",
     "name": "Ugab",
     "title": "Ugab",
     "text": "Ugab. Instrumento musical hebreo antiguo. Era, o una flauta simple o varias flautas unidas con una cuerda similar a una flauta de pan. Según la Biblia fue inventada o impulsada por Jubal (Gen 4:21).",
