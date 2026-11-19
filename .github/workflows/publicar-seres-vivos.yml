@@ -7,13 +7,17 @@ on:
       - 'data/tribus_nuevas.json'
       - 'assets/atlas/**'
       - 'assets/app.js'
+      - 'assets/bibliography.js'
       - 'scripts/build_atlas.py'
+      - 'scripts/build_bibliography.py'
+      - 'scripts/check_bibliography.py'
       - 'scripts/build_atlas_relief.py'
       - 'scripts/check_atlas.py'
       - 'data/materiales_revision.json'
       - 'data/objetos_revision.json'
       - 'data/instrumentos_revision.json'
       - 'data/medidas_revision.json'
+      - 'data/bibliography_apa7.json'
       - 'data/bibliography.json'
       - 'scripts/build.py'
       - 'assets/style.css'
@@ -118,11 +122,15 @@ jobs:
           python3 scripts/check_atlas.py
           node --check assets/atlas/visor.js
           node --check assets/app.js
+      - name: Comprobar Bibliografía APA 7 y enlaces
+        run: |
+          python3 scripts/check_bibliography.py
+          node --check assets/bibliography.js
       - name: Publicar ficheros estáticos
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/atlas/relieve.webp docs/apendices docs/assets/atlas docs/assets/app.js docs/assets/entries.json docs/assets/instrumentos-kinnor.svg docs/assets/instrumentos-ugab.svg docs/bibliografia/index.html docs/assets/style.css docs/index.html docs/genesis/2/index.html docs/genesis/4/index.html docs/genesis/6/index.html docs/genesis/11/index.html docs/genesis/18/index.html docs/genesis/20/index.html docs/genesis/24/index.html
+          git add assets/atlas/relieve.webp docs/apendices docs/assets/atlas docs/assets/app.js docs/assets/bibliography.js docs/assets/entries.json docs/assets/instrumentos-kinnor.svg docs/assets/instrumentos-ugab.svg docs/bibliografia/index.html docs/assets/style.css docs/index.html docs/genesis/2/index.html docs/genesis/4/index.html docs/genesis/6/index.html docs/genesis/11/index.html docs/genesis/18/index.html docs/genesis/20/index.html docs/genesis/24/index.html
           git rm -f --ignore-unmatch docs/apendices/animales/legumbres/index.html
           if ! git diff --cached --quiet; then
             git commit -m "Publicar reorganización de los apéndices de BIBLILU"
