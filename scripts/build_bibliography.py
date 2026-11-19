@@ -64,6 +64,7 @@ CITATIONS = {
     "day, 2013": 69,
     "rey, 2017": 70,
     "john day, 2012": 49,
+    "day, 2012": 49,  # El texto aprobado de Génesis 6 utiliza el apellido solo.
     "jacobsen, 1939": 37,
     "algaze, 2013": 38,
     "ryken, wilhoit y longman, 1998": 71,
