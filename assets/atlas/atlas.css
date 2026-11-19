@@ -93,3 +93,6 @@
 .atlas-show-details .atlas-places{visibility:visible}
 .atlas-place-dot{fill:#534437;stroke:#fffdf4;stroke-width:1.2;vector-effect:non-scaling-stroke}
 .atlas-place-name{fill:#303a36;font-family:Arial,Helvetica,sans-serif;font-weight:600;paint-order:stroke;stroke:#fff9ed;stroke-width:2.7;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+
+/* Cambiar del rótulo regional a topónimos de detalle al acercar. */
+.atlas-show-details .atlas-geolabels{display:none}
