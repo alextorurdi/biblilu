@@ -63,11 +63,23 @@ jobs:
           assert scene.count('data-entry=&quot;instrumentos/kinnor&quot;')==0;
           assert scene.count('data-entry=\"instrumentos/kinnor\"')==2 and scene.count('data-entry=\"instrumentos/ugab\"')==2;
           assert '<small class=\"instrument-index-original\"' in (root/'index.html').read_text(encoding='utf-8')"
+      - name: Comprobar emblema y recortes musicales
+        run: >-
+          python3 -c "from pathlib import Path;
+          ap=Path('docs/apendices/instrumentos');
+          ix=(ap/'index.html').read_text(encoding='utf-8');
+          assert ix.count('instrument-index-mark')==2 and ix.count('Lira: ficha ilustrada')==2;
+          for_name=['kinnor','ugab'];
+          assert all(('instrumentos-'+n+'.svg') in (ap/n/'index.html').read_text(encoding='utf-8') for n in for_name);
+          assert all((Path('docs/assets')/('instrumentos-'+n+'.svg')).exists() for n in for_name);
+          assert all((Path('docs/assets')/('instrumentos-'+n+'.svg')).read_text(encoding='utf-8').count('<g transform=')==1 for n in for_name);
+          scene=Path('docs/genesis/4/index.html').read_text(encoding='utf-8');
+          assert scene.count('src=\"../../assets/instrumentos.svg\"')>=1"
       - name: Publicar ficheros estáticos
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/apendices docs/assets/entries.json docs/bibliografia/index.html docs/assets/style.css docs/index.html docs/genesis/2/index.html docs/genesis/4/index.html docs/genesis/6/index.html docs/genesis/11/index.html docs/genesis/18/index.html docs/genesis/20/index.html docs/genesis/24/index.html
+          git add docs/apendices docs/assets/entries.json docs/assets/instrumentos-kinnor.svg docs/assets/instrumentos-ugab.svg docs/bibliografia/index.html docs/assets/style.css docs/index.html docs/genesis/2/index.html docs/genesis/4/index.html docs/genesis/6/index.html docs/genesis/11/index.html docs/genesis/18/index.html docs/genesis/20/index.html docs/genesis/24/index.html
           git rm -f --ignore-unmatch docs/apendices/animales/legumbres/index.html
           if ! git diff --cached --quiet; then
             git commit -m "Publicar reorganización de los apéndices de BIBLILU"
