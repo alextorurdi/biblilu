@@ -462,3 +462,15 @@
 /* Distintivo de lira en el índice de Instrumentos musicales. */
 .instrument-index-mark{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;color:var(--instrumentos)}
 .instrument-index-mark svg{display:block;flex-shrink:0}
+/* Pesos, medidas y monedas: transliteraciones y equivalencias legibles. */
+.entry-row.medidas .measure-index-original{display:inline-block;margin-left:.32em;color:var(--muted);font:400 .76em/1.45 Arial,Helvetica,sans-serif;vertical-align:baseline;overflow-wrap:anywhere}
+.entry-row.medidas .measure-index-original em{font-style:italic}
+.entry h1 .measure-title-secondary{display:block;margin-top:7px;color:var(--muted);font:italic 400 clamp(16px,2.8vw,22px)/1.45 Arial,Helvetica,sans-serif;letter-spacing:normal;overflow-wrap:anywhere}
+.entry-body.medidas ul{padding-left:1.4em;margin:12px 0 22px}
+.entry-body.medidas li{padding:4px 0}
+.measure-table-scroll{overflow-x:auto;max-width:760px;margin:18px 0 24px}
+.measure-equivalences{width:100%;border-collapse:collapse;font:400 15px/1.6 Arial,Helvetica,sans-serif}
+.measure-equivalences th,.measure-equivalences td{padding:10px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.measure-equivalences th{font-weight:700;background:rgba(90,86,94,.06)}
+.measure-equivalences td:first-child{font-weight:600;white-space:nowrap}
+.divine .term.medidas,.speech .divine .term.medidas{color:inherit}
