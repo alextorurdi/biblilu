@@ -7,6 +7,7 @@ E=json.loads((ROOT/'data/entries.json').read_text());V=json.loads((ROOT/'data/ge
 # antes de generar las páginas y el índice de búsqueda.
 MATERIAL_REVISION=json.loads((ROOT/'data/materiales_revision.json').read_text(encoding='utf-8'))
 OBJECT_REVISION=json.loads((ROOT/'data/objetos_revision.json').read_text(encoding='utf-8'))
+INSTRUMENT_REVISION=json.loads((ROOT/'data/instrumentos_revision.json').read_text(encoding='utf-8'))
 for _entry in E:
  _eid=_entry['id']
  if _eid in MATERIAL_REVISION['titles']:
@@ -18,6 +19,11 @@ for _entry in E:
   _entry['title']=OBJECT_REVISION['titles'][_eid]
  if _eid in OBJECT_REVISION['revised']:
   _entry.update(OBJECT_REVISION['revised'][_eid])
+  _entry['text']=_entry['title']+'. '+_entry['body']
+ if _eid in INSTRUMENT_REVISION['titles']:
+  _entry['title']=INSTRUMENT_REVISION['titles'][_eid]
+ if _eid in INSTRUMENT_REVISION['revised']:
+  _entry.update(INSTRUMENT_REVISION['revised'][_eid])
   _entry['text']=_entry['title']+'. '+_entry['body']
 H=html.escape
 GENEALOGY_LINKS=json.loads((ROOT/'assets/genealogias/enlaces.json').read_text(encoding='utf-8'))
@@ -122,10 +128,10 @@ def heading_title(e):
 
 def living_index_title(e):
  title=heading_title(e)
- if e['category'] in ('materiales','objetos'):
+ if e['category'] in ('materiales','objetos','instrumentos'):
   if ' (' in title and title.endswith(')'):
    name,term=title.rsplit(' (',1)
-   css='material-index-original' if e['category']=='materiales' else 'object-index-original'
+   css={'materiales':'material-index-original','objetos':'object-index-original','instrumentos':'instrument-index-original'}[e['category']]
    return name+' <small class="'+css+'"><em>'+term[:-1]+'</em></small>'
  # El subtítulo "ser sobrenatural" es editorial, no una forma hebrea.
  if e['category']!='animales' or e['id']=='animales/serpiente':
@@ -137,10 +143,10 @@ def living_index_title(e):
 
 def entry_heading_title(e):
  title=heading_title(e)
- if e['category'] in ('materiales','objetos'):
+ if e['category'] in ('materiales','objetos','instrumentos'):
   if ' (' in title and title.endswith(')'):
    name,term=title.rsplit(' (',1)
-   css='material-title-secondary' if e['category']=='materiales' else 'object-title-secondary'
+   css={'materiales':'material-title-secondary','objetos':'object-title-secondary','instrumentos':'instrument-title-secondary'}[e['category']]
    return name+'<span class="'+css+'">'+term[:-1]+'</span>'
  if e['category']!='animales':
   return title
@@ -185,9 +191,22 @@ def object_figure(e):
   +'</a><figcaption>'+caption+' · <a href="'+H(source_url)+'"'+(' target="_blank" rel="noopener noreferrer"' if source_url.startswith('http') else '')+'>Fuente y licencia</a></figcaption></figure>'
  )
 
+def instrument_figure(e):
+ if e['category']!='instrumentos':return ''
+ photo=INSTRUMENT_REVISION.get('images',{}).get(e['id'])
+ if not photo:return ''
+ image_url='../../../assets/'+quote(photo['local'])
+ source_url=photo['source']
+ caption=H(photo['caption'])+' · '+H(photo['author'])+' · '+H(photo['license'])
+ return (
+  '<figure class="instrument-photo"><a class="instrument-photo-view" href="'+H(image_url)+'" target="_blank" rel="noopener noreferrer" aria-label="Ampliar ilustración de '+H(e['name'])+'">'
+  +'<img src="'+H(image_url)+'" alt="'+H(photo['alt'])+'" loading="lazy" decoding="async"></a>'
+  +'<figcaption>'+caption+' · <a href="'+H(source_url)+'">Ver en la escena Crueldad</a></figcaption></figure>'
+ )
+
 def entrybody(e,pre):
  raw=e['body']
- if e['category'] in ('animales','materiales','objetos') and (raw.startswith('Ver ') or '\n### ' in raw):
+ if e['category'] in ('animales','materiales','objetos','instrumentos') and (raw.startswith('Ver ') or '\n### ' in raw):
   def inline(v):
    v=H(v)
    v=re.sub(r'\*\*([^*]+)\*\*',r'<strong>\1</strong>',v)
@@ -321,6 +340,12 @@ for cat,(name,desc) in C.items():
  page(f'apendices/{cat}/index.html',name,f'<section class="section directory"><p class="crumb"><a href="../index.html">Apéndices</a> / {name}</p><p class="eyebrow">{len(entries)} {count_label.upper()}</p><h1 class="{cat}">{name}</h1><p class="intro">{intro}</p>{family_link}<label class="search-label" for="entry-search">Buscar en este apéndice</label><input id="entry-search" type="search" placeholder="Escribe un nombre o término…"><p id="result-count" role="status">{len(entries)} {count_label}</p><div class="entry-list">{listing}</div></section>')
 def body_with_genealogy(e):
  body=entrybody(e,'../../../')
+ if e['category']=='instrumentos':
+  related=[byid[i] for i in INSTRUMENT_REVISION.get('related',{}).get(e['id'],[]) if i in byid]
+  if related:
+   links=''.join('<a href="../../../apendices/'+H(item['id'])+'/index.html">'+H(item['name'])+'</a>' for item in related)
+   body+='<nav class="instrument-related" aria-label="Fichas relacionadas"><strong>Fichas relacionadas</strong><div class="instrument-related-links">'+links+'</div></nav>'
+  return body
  if e['category']=='objetos':
   # Insertar figuras documentadas en su posición editorial dentro del texto.
   for illustration in OBJECT_REVISION.get('inline_images',{}).get(e['id'],[]):
@@ -409,7 +434,7 @@ for e in E:
    rendered=verse(v,'../../../')
    if f'data-entry="{e["id"]}"' in rendered:mentions.append(f'<a href="../../../genesis/{scene_path_for(v)}/index.html#gn-{v["chapter"]}-{v["verse"]}">Gn {v["chapter"]}:{v["verse"]}</a>')
   backlinks='<div class="backlinks"><h2>En la lectura disponible</h2>'+ ' · '.join(mentions)+'</div>' if mentions else ''
- page(f'apendices/{e["id"]}/index.html',e['title'],f'<article class="section entry"><p class="crumb"><a href="../../index.html">Apéndices</a> / <a href="../index.html">{C[cat][0]}</a></p><p class="eyebrow {cat}">{C[cat][0]}</p><h1>{entry_heading_title(e)}</h1>{chron}<div class="entry-body {cat}">{species_figure(e)}{material_figure(e)}{object_figure(e)}{body_html}</div>{backlinks}{biblical_mentions}</article>')
+ page(f'apendices/{e["id"]}/index.html',e['title'],f'<article class="section entry"><p class="crumb"><a href="../../index.html">Apéndices</a> / <a href="../index.html">{C[cat][0]}</a></p><p class="eyebrow {cat}">{C[cat][0]}</p><h1>{entry_heading_title(e)}</h1>{chron}<div class="entry-body {cat}">{species_figure(e)}{material_figure(e)}{object_figure(e)}{instrument_figure(e)}{body_html}</div>{backlinks}{biblical_mentions}</article>')
 page('bibliografia/index.html','Bibliografía','<section class="section bibliography"><p class="eyebrow">LAS FUENTES</p><h1>Bibliografía</h1><p class="intro">Obras y recursos que acompañan los apéndices de BIBLILU.</p><ol>'+''.join(f'<li id="ref-{i+1}">{H(b)}</li>' for i,b in enumerate(B))+'</ol></section>')
 page('sobre/index.html','Sobre BIBLILU','''<section class="section entry"><p class="eyebrow">EL PROYECTO</p><h1>Leer. Mirar. Descubrir.</h1><p class="intro">BIBLILU es una edición ilustrada de la Biblia que conecta cada relato con sus personajes, lugares y referencias.</p><h2>Una publicación en marcha</h2><p>Esta entrega contiene Génesis 1–15. Los demás capítulos y libros se incorporarán progresivamente.</p><h2>Texto e ilustraciones</h2><p>Texto base: Reina-Valera 1960, según los documentos aportados por el editor. Se conserva su redacción. Las ilustraciones fueron creadas con ChatGPT para el proyecto BIBLILU.</p><p>Reina-Valera 1960 ® © Sociedades Bíblicas en América Latina, 1960. Renovado © Sociedades Bíblicas Unidas, 1988.</p><h2>Cómo leer los colores</h2><p>Los enlaces coloreados abren los apéndices. Dios, Jehová y las palabras atribuidas a Dios aparecen en rojo, sin hipervínculos. Las criaturas celestiales se incluyen en Animales.</p><h2>La cronología de Génesis</h2><p>Las fechas de las fichas del Génesis se expresan en años desde la Creación según el propio relato; no son fechas antes de Cristo.</p></section>''')
 
