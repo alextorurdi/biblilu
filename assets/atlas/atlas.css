@@ -1,0 +1,69 @@
+/* BIBLILU · Atlas de Pueblos. Usa el color de Tribus sin modificar los mapas de escenas. */
+.atlas-page{max-width:1440px;margin:auto}
+.atlas-page h1{font-size:clamp(38px,4.6vw,64px);margin-bottom:18px}
+.atlas-page .intro{max-width:920px}
+.atlas-top-links{display:flex;gap:18px;flex-wrap:wrap;font-size:14px;margin:0 0 24px}
+.atlas-top-links a{color:var(--tribus);font-weight:700}
+.atlas-layout{display:grid;grid-template-columns:minmax(220px,290px) minmax(0,1fr);gap:22px;align-items:start}
+.atlas-sidebar,.atlas-map-panel{border:1px solid var(--line);border-radius:15px;background:#fff;overflow:hidden}
+.atlas-sidebar{padding:18px}
+.atlas-sidebar label{display:block;font-size:13px;font-weight:700;margin-bottom:7px}
+.atlas-sidebar input{width:100%;padding:11px 12px;border:1px solid #b9bcb7;border-radius:8px;background:white}
+.atlas-count{color:var(--muted);font-size:12px;margin:12px 0}
+.atlas-list{max-height:590px;overflow-y:auto;display:flex;flex-direction:column;gap:4px}
+.atlas-entry{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:9px 10px;border-radius:8px;color:var(--ink);text-decoration:none!important;font-size:13px}
+.atlas-entry strong{font-weight:600}
+.atlas-entry small{font-size:10px;color:var(--muted);line-height:1.3;text-align:right;max-width:100px}
+.atlas-entry:hover,.atlas-entry:focus-visible{background:#f1eef8}
+.atlas-entry.active{background:#eee8f6;color:#3f246e;box-shadow:inset 3px 0 var(--tribus)}
+.atlas-map-panel{min-width:0;position:relative}
+.atlas-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:13px 16px;background:#f2eff8;border-bottom:1px solid #e1d9ed}
+.atlas-toolbar strong{font-size:13px;color:#452b75}
+.atlas-buttons{display:flex;gap:6px;flex-wrap:wrap}
+.atlas-buttons button{font-size:12px;border:1px solid #bbafcf;background:white;color:#3c2d4a;border-radius:7px;padding:6px 10px;cursor:pointer}
+.atlas-buttons button:hover{background:#e5def0}
+.atlas-canvas{background:#c7dfdf;position:relative;min-height:480px}
+.atlas-canvas svg{display:block;width:100%;height:clamp(440px,55vw,630px);touch-action:none;user-select:none;cursor:grab}
+.atlas-canvas svg:active{cursor:grabbing}
+.atlas-sea{fill:#c6dfe0}
+.atlas-grid path{fill:none;stroke:#fff;stroke-width:1;opacity:.28;pointer-events:none}
+.atlas-land path{fill:#eee9d9;stroke:#b5b5a3;stroke-width:1.8;vector-effect:non-scaling-stroke;pointer-events:none}
+.atlas-waterways path{fill:none;stroke:#84bac7;stroke-width:2.1;stroke-linecap:round;vector-effect:non-scaling-stroke;opacity:.8;pointer-events:none}
+.atlas-geolabels text,.atlas-watermark{font-family:Arial,Helvetica,sans-serif;font-weight:700;letter-spacing:2px;pointer-events:none}
+.atlas-label{fill:#8b8875;opacity:.68}
+.atlas-sea-label{fill:#62969f;opacity:.8}
+.atlas-watermark{fill:#52564f;opacity:.45;font-size:12px;letter-spacing:2px}
+.atlas-territory{fill:#8765ba;fill-opacity:.15;stroke:var(--tribus);stroke-opacity:.78;stroke-width:1.6;stroke-dasharray:6 4;vector-effect:non-scaling-stroke;cursor:pointer}
+.atlas-aproximada .atlas-territory{stroke-dasharray:3 2;fill-opacity:.19}
+.atlas-difusa .atlas-territory{stroke-dasharray:8 7;fill-opacity:.1}
+.atlas-point-ring{fill:#e7dbf4;fill-opacity:.55;stroke:var(--tribus);stroke-width:2;vector-effect:non-scaling-stroke}
+.atlas-point{fill:var(--tribus);stroke:white;stroke-width:1.4;vector-effect:non-scaling-stroke}
+.atlas-feature{cursor:pointer;transition:opacity .12s}
+.atlas-feature:hover .atlas-territory{fill-opacity:.38;stroke-width:3}
+.atlas-feature:hover .atlas-point-ring{fill:#d2b8f1;fill-opacity:.85}
+.atlas-has-selection .atlas-feature:not(.active){opacity:.19}
+.atlas-feature.active{opacity:1!important}
+.atlas-feature.active .atlas-territory{fill:#7955b0;fill-opacity:.39;stroke:#4d268c;stroke-width:3.5;stroke-dasharray:none}
+.atlas-feature.active .atlas-point-ring{fill:#ecdafc;fill-opacity:.88;stroke:#4d268c;stroke-width:3.5}
+.atlas-feature:focus-visible{outline:none}
+.atlas-feature:focus-visible .atlas-territory,.atlas-feature:focus-visible .atlas-point-ring{stroke:#c25e24;stroke-width:4}
+.atlas-status{font-size:12px;line-height:1.5;padding:10px 16px;margin:0;background:#f8f5ee;color:#536158}
+.atlas-details{border-top:1px solid var(--line);padding:18px 22px;min-height:132px}
+.atlas-details h2{font-size:26px;letter-spacing:-.5px;margin:5px 0 8px}
+.atlas-details p{margin:7px 0;line-height:1.55;font-size:14px}
+.atlas-details .atlas-small{font-size:12px;color:var(--muted)}
+.atlas-kind{display:inline-block;font-size:11px;font-weight:700;color:var(--tribus);background:#f0ebf8;padding:3px 9px;border-radius:20px}
+.atlas-detail-link{display:inline-flex!important;margin-top:10px;font-size:12px!important;background:var(--tribus)!important;color:white!important;padding:7px 13px!important;border-radius:7px!important}
+.atlas-no-geometry{font-size:12px;color:#704d29}
+.atlas-legend{display:flex;gap:15px;flex-wrap:wrap;margin:17px 0 8px;font-size:12px}
+.atlas-legend span{display:inline-flex;align-items:center;gap:6px}
+.atlas-swatch{width:17px;height:13px;border-radius:3px;border:2px solid var(--tribus);background:#d8cde9}
+.atlas-swatch.diffuse{border-style:dashed;background:#efeaf8}
+.atlas-swatch.point{height:13px;width:13px;border-radius:50%;background:var(--tribus)}
+.atlas-swatch.unknown{background:transparent;border-style:dotted;border-color:#888}
+.atlas-note{font-size:13px;color:var(--muted);line-height:1.6;max-width:1050px;margin-top:16px}
+.atlas-map-panel:fullscreen{background:white;display:flex;flex-direction:column}
+.atlas-map-panel:fullscreen .atlas-canvas{flex:1;min-height:0}
+.atlas-map-panel:fullscreen .atlas-canvas svg{height:100%}
+@media(max-width:860px){.atlas-layout{grid-template-columns:1fr}.atlas-sidebar{padding:13px}.atlas-list{max-height:180px;display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:4px}.atlas-entry{padding:7px;font-size:12px}.atlas-entry small{display:none}.atlas-canvas svg{height:480px}.atlas-details{padding:15px}}
+@media(max-width:520px){.atlas-toolbar{padding:9px;align-items:flex-start}.atlas-toolbar strong{display:block;width:100%}.atlas-buttons button{padding:5px 8px}.atlas-canvas svg{height:400px}.atlas-legend{gap:9px}.atlas-legend span{font-size:10px}.atlas-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
