@@ -109,7 +109,7 @@ s=index.read_text(encoding='utf-8')
 s=s.replace('25 ENTRADAS','27 ENTRADAS').replace('25 entradas','27 entradas')
 intro='<p class="intro">Pueblos de la Antigüedad</p>'
 s=s.replace(intro,intro+'<a class="button genealogy-directory-link" href="../atlas-pueblos/index.html">Explorar el Atlas de Pueblos ↗</a>',1)
-mapglyph='<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3z"/><path d="M9 3v15M15 6v15"/></svg>'
+peopleglyph='<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="9" cy="8" r="3"/><path d="M2.5 20v-2a6.5 6.5 0 0 1 13 0v2M17 5a3 3 0 0 1 0 6M18 14a5 5 0 0 1 3.5 5v1"/></svg>'
 rows=[]
 for e in sorted(ENTRIES,key=lambda x:unicodedata.normalize('NFD',TITLES[x['id'].split('/')[1]][0]).casefold()):
  slug=e['id'].split('/')[1]
@@ -117,7 +117,7 @@ for e in sorted(ENTRIES,key=lambda x:unicodedata.normalize('NFD',TITLES[x['id'].
  label=esc(name)+' <small class="tribe-index-original"><em>'+esc(trans)+'</em></small>'
  query=esc(' '.join([name,trans,e['name'],BY_ID[e['id']]['properties'].get('aliases','')]).lower())
  if BY_ID[e['id']]['geometry']:
-  tail='<span class="entry-row-tail"><span class="map-index-mark" role="img" aria-label="Representado en el Atlas de Pueblos" title="Representado en el Atlas de Pueblos">'+mapglyph+'</span><span>↗</span></span>'
+  tail='<span class="entry-row-tail"><span class="tribe-index-mark" role="img" aria-label="Pueblo localizado en el Atlas" title="Pueblo localizado en el Atlas">'+peopleglyph+'</span><span>↗</span></span>'
  else:tail='<span>↗</span>'
  rows.append('<a class="entry-row tribus" data-search="'+query+'" href="'+esc(slug)+'/index.html"><strong>'+label+'</strong>'+tail+'</a>')
 s=re.sub(r'<div class="entry-list">.*?</div>',lambda _: '<div class="entry-list">'+''.join(rows)+'</div>',s,count=1,flags=re.S)
