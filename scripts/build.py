@@ -364,8 +364,11 @@ def body_with_genealogy(e):
  pattern=r'(<h2>Relaciones familiares</h2><p>.*?</p>)'
  return re.sub(pattern,lambda m:m.group(1)+panel,body,count=1) if re.search(pattern,body) else body+panel
 
+AVAILABLE_VERSES={(v['chapter'],v['verse']) for v in V}
+
 def scene_path_for(v):
  c,n=v['chapter'],v['verse']
+ if c==3:return '2'  # Génesis 3 está en la escena Paraíso.
  if c==24:return '24'
  if c in (20,21,22,23):return '20'
  if c in (18,19):return '18'
@@ -380,17 +383,31 @@ def scene_path_for(v):
 
 for e in E:
  cat=e['category'];chron='<p class="source-note">Las fechas expresan años desde la Creación según la cronología del Génesis.</p>' if cat=='onomastico' and re.search(r'\(\d',e['title']) else ''
- mentions=[]
- for v in V:
-  rendered=verse(v,'../../../')
-  if f'data-entry="{e["id"]}"' in rendered:mentions.append(f'<a href="../../../genesis/{scene_path_for(v)}/index.html#gn-{v["chapter"]}-{v["verse"]}">Gn {v["chapter"]}:{v["verse"]}</a>')
- backlinks='<div class="backlinks"><h2>En la lectura disponible</h2>'+ ' · '.join(mentions)+'</div>' if mentions else ''
  body_html=body_with_genealogy(e)
- # Las fichas revisadas incluyen las referencias dentro del cuerpo.
- # Evitar repetirlas automáticamente bajo «Menciones bíblicas» y conservar
- # esa sección en entradas sin apartado propio de referencias (p. ej. Onomástico).
+ # Una sola relación de referencias por ficha:
+ # - Fichas con «Referencias» propio: no añadir un segundo listado.
+ # - Fichas con «Menciones bíblicas»: enlazar pasajes ya publicados; omitir
+ #   «En la lectura disponible» para evitar cientos de enlaces redundantes.
+ # - Sin ninguno de los anteriores: conservar los enlaces a la lectura.
  has_references=bool(re.search(r'<h[2-6]>\s*Referencias(?: bíblicas)?\s*</h[2-6]>',body_html,re.I))
- biblical_mentions='<div class="backlinks"><h2>Menciones bíblicas</h2><p>'+ ' · '.join(H(r) for r in e.get('mentions',[]))+'</p></div>' if e.get('mentions') and not has_references else ''
+ mention_labels=e.get('mentions',[])
+ biblical_mentions=''
+ if mention_labels and not has_references:
+  def linked_mention(label):
+   match=re.match(r'^(?:Gn|Gen|Génesis)\s+(\d+):(\d+)',label,re.I)
+   if not match:return H(label)
+   chapter,verse_no=map(int,match.groups())
+   if (chapter,verse_no) not in AVAILABLE_VERSES:return H(label)
+   dest=scene_path_for({'chapter':chapter,'verse':verse_no})
+   return f'<a href="../../../genesis/{dest}/index.html#gn-{chapter}-{verse_no}">{H(label)}</a>'
+  biblical_mentions='<div class="backlinks"><h2>Menciones bíblicas</h2><p>'+ ' · '.join(linked_mention(r) for r in mention_labels)+'</p></div>'
+ backlinks=''
+ if not has_references and not mention_labels:
+  mentions=[]
+  for v in V:
+   rendered=verse(v,'../../../')
+   if f'data-entry="{e["id"]}"' in rendered:mentions.append(f'<a href="../../../genesis/{scene_path_for(v)}/index.html#gn-{v["chapter"]}-{v["verse"]}">Gn {v["chapter"]}:{v["verse"]}</a>')
+  backlinks='<div class="backlinks"><h2>En la lectura disponible</h2>'+ ' · '.join(mentions)+'</div>' if mentions else ''
  page(f'apendices/{e["id"]}/index.html',e['title'],f'<article class="section entry"><p class="crumb"><a href="../../index.html">Apéndices</a> / <a href="../index.html">{C[cat][0]}</a></p><p class="eyebrow {cat}">{C[cat][0]}</p><h1>{entry_heading_title(e)}</h1>{chron}<div class="entry-body {cat}">{species_figure(e)}{material_figure(e)}{object_figure(e)}{body_html}</div>{backlinks}{biblical_mentions}</article>')
 page('bibliografia/index.html','Bibliografía','<section class="section bibliography"><p class="eyebrow">LAS FUENTES</p><h1>Bibliografía</h1><p class="intro">Obras y recursos que acompañan los apéndices de BIBLILU.</p><ol>'+''.join(f'<li id="ref-{i+1}">{H(b)}</li>' for i,b in enumerate(B))+'</ol></section>')
 page('sobre/index.html','Sobre BIBLILU','''<section class="section entry"><p class="eyebrow">EL PROYECTO</p><h1>Leer. Mirar. Descubrir.</h1><p class="intro">BIBLILU es una edición ilustrada de la Biblia que conecta cada relato con sus personajes, lugares y referencias.</p><h2>Una publicación en marcha</h2><p>Esta entrega contiene Génesis 1–15. Los demás capítulos y libros se incorporarán progresivamente.</p><h2>Texto e ilustraciones</h2><p>Texto base: Reina-Valera 1960, según los documentos aportados por el editor. Se conserva su redacción. Las ilustraciones fueron creadas con ChatGPT para el proyecto BIBLILU.</p><p>Reina-Valera 1960 ® © Sociedades Bíblicas en América Latina, 1960. Renovado © Sociedades Bíblicas Unidas, 1988.</p><h2>Cómo leer los colores</h2><p>Los enlaces coloreados abren los apéndices. Dios, Jehová y las palabras atribuidas a Dios aparecen en rojo, sin hipervínculos. Las criaturas celestiales se incluyen en Animales.</p><h2>La cronología de Génesis</h2><p>Las fechas de las fichas del Génesis se expresan en años desde la Creación según el propio relato; no son fechas antes de Cristo.</p></section>''')
