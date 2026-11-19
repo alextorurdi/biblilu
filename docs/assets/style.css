@@ -477,3 +477,30 @@
 /* Regla graduada en el índice de Pesos, medidas y monedas. */
 .measure-index-mark{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;color:var(--medidas)}
 .measure-index-mark svg{display:block;flex-shrink:0}
+/* Bibliografía APA 7 · 2026-11-20 */
+.bib-apa7{max-width:980px}
+.bib-apa7 .bib-count{font-size:14px;color:var(--muted);margin:1.1rem 0 1.8rem}
+.bib-controls{display:grid;grid-template-columns:minmax(0,2fr) minmax(170px,1fr);gap:16px;padding:20px;margin-bottom:14px;border:1px solid var(--line);border-radius:14px;background:var(--paper)}
+.bib-controls label{display:block;font-size:13px;font-weight:600;color:var(--ink);margin-bottom:8px}
+.bib-controls input,.bib-controls select{width:100%;min-width:0;height:44px;padding:9px 12px;border:1px solid var(--line);border-radius:9px;font:inherit;font-size:15px;color:var(--ink);background:var(--paper)}
+.bib-controls input:focus-visible,.bib-controls select:focus-visible{outline:3px solid #9585b560;outline-offset:2px}
+.bib-result-count{font-size:13px;color:var(--muted);margin:0 0 12px}
+.bib-list{display:flex;flex-direction:column;gap:0}
+.bib-item{padding:20px 12px 18px;border-bottom:1px solid var(--line);scroll-margin-top:105px}
+.bib-item[hidden]{display:none}
+.bib-item:target,.bib-item:has(.bib-legacy-anchor:target){background:#e3eadc;border-radius:8px}
+.bib-reference{font:16px/1.7 Georgia,serif;margin:0;padding-left:2em;text-indent:-2em;overflow-wrap:anywhere}
+.bib-reference em{font-style:italic}
+.bib-reference a{color:var(--forest);text-decoration:underline;text-underline-offset:2px;overflow-wrap:anywhere}
+.bib-uses{margin:12px 0 0 2em;font-size:13px}
+.bib-uses summary{cursor:pointer;color:var(--forest);font-weight:600;line-height:1.6}
+.bib-uses ul{padding:5px 0 0 20px;margin:0;list-style:disc}
+.bib-uses li{padding:5px 0;border:0;font-size:13px;overflow-wrap:anywhere;line-height:1.45}
+.bib-uses a{color:var(--forest)}
+.bib-empty{font-size:15px;border:1px dashed var(--line);border-radius:10px;padding:22px;text-align:center}
+.bib-method{font-size:13px;color:var(--muted);line-height:1.6;margin-top:24px}
+.bib-legacy-anchor{display:block;height:0;position:relative;top:-105px;visibility:hidden;scroll-margin-top:100px}
+.bib-retired-links{margin-top:0}
+.bib-retired{display:none;font-size:13px;line-height:1.6;margin:0}
+.bib-retired:target{display:block;background:#f5ece8;padding:12px;border:1px solid var(--line);border-radius:8px;scroll-margin-top:100px}
+@media(max-width:650px){.bib-controls{grid-template-columns:1fr;padding:15px}.bib-item{padding:16px 3px}.bib-reference{font-size:15px;padding-left:1.4em;text-indent:-1.4em}.bib-uses{margin-left:1.4em}}
