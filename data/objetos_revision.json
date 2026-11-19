@@ -207,5 +207,15 @@
       "alt": "Acceso monumental de adobe de la antigua ciudad de Tel Dan",
       "source": "https://commons.wikimedia.org/wiki/File:Abraham's_Gate.jpg"
     }
+  },
+  "inline_images": {
+    "objetos/arca-de-noe": [
+      {
+        "after": "Estas equivalencias son orientativas y dependen de la longitud asignada al codo antiguo.",
+        "asset": "diluvio-medidas.svg",
+        "alt": "Esquema de las medidas del Arca de Noé: 300 codos de longitud, 50 de anchura y 30 de altura, con tres niveles.",
+        "caption": "Las medidas del Arca de Noé · Génesis 6:14-16. Esquema empleado también en la escena Diluvio."
+      }
+    ]
   }
 }
