@@ -584,3 +584,6 @@ print('Plantillas temáticas BIBLILU v. 0.1 restauradas.')
 # Generar el Atlas de Pueblos después de restaurar las escenas aprobadas.
 import runpy
 runpy.run_path(str(ROOT/'scripts/build_atlas.py'),run_name='__main__')
+
+# Bibliografía APA 7: se construye tras restaurar escenas, atlas y fichas.
+runpy.run_path(str(ROOT/'scripts/build_bibliography.py'),run_name='__main__')
