@@ -93,6 +93,14 @@ jobs:
           assert perdicion.count('data-entry=\"medidas/sea\"')==1;
           assert 'data-entry=\"medidas/siclo\"' in Path('docs/genesis/20/index.html').read_text(encoding='utf-8');
           assert 'data-entry=\"medidas/siclo\"' in Path('docs/genesis/24/index.html').read_text(encoding='utf-8')"
+      - name: Comprobar reglas en índice de medidas
+        run: >-
+          python3 -c "from pathlib import Path;
+          p=Path('docs/apendices/medidas/index.html');
+          s=p.read_text(encoding='utf-8');
+          assert s.count('class=\"measure-index-mark\"') == 3;
+          assert s.count('aria-label=\"Regla: unidad de medida\"') == 3;
+          assert all('href=\"'+item+'/index.html\"' in s for item in ['codo','sea','siclo'])"
       - name: Publicar ficheros estáticos
         run: |
           git config user.name "github-actions[bot]"
