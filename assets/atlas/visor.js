@@ -15,7 +15,16 @@ const path=coords=>'M'+coords.map(c=>project(c).map(v=>v.toFixed(1)).join(',')).
 const line=coords=>'M'+coords.map(c=>project(c).map(v=>v.toFixed(1)).join(',')).join('L');
 const elt=(tag,attrs,where)=>{const e=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs||{}))e.setAttribute(k,v);if(where)where.append(e);return e};
 const norm=s=>(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-const view=()=>svg.setAttribute('viewBox',box.join(' '));
+const view=()=>{
+ svg.setAttribute('viewBox',box.join(' '));
+ // Keep labels and point symbols a readable size at any zoom level.
+ const ratio=box[2]/FULL[2];
+ svg.querySelectorAll('.atlas-point-ring').forEach(e=>e.setAttribute('r',(11*ratio).toFixed(2)));
+ svg.querySelectorAll('.atlas-point').forEach(e=>e.setAttribute('r',(5*ratio).toFixed(2)));
+ svg.querySelectorAll('.atlas-place-dot').forEach(e=>e.setAttribute('r',(2.6*ratio).toFixed(2)));
+ svg.querySelectorAll('.atlas-place-name').forEach(e=>e.setAttribute('font-size',(11*ratio).toFixed(2)));
+ svg.classList.toggle('atlas-show-details',box[2]<=530);
+};
 const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 function setZoom(f,cx,cy){const w=clamp(box[2]*f,95,FULL[2]*1.15),h=w*FULL[3]/FULL[2];box=[cx-w/2,cy-h/2,w,h];view()}
 function reset(){box=FULL.slice();view()}
@@ -37,10 +46,18 @@ function caption(svgParent,at,text,size,cls){const t=elt('text',{x:project(at)[0
 function background(){
  svg.replaceChildren();
  elt('rect',{x:0,y:0,width:1280,height:920,class:'atlas-sea'},svg);
- const grid=elt('g',{class:'atlas-grid'},svg);
- for(let lon=26;lon<=54;lon+=4){const x=project([lon,44])[0];elt('path',{d:'M'+x+' 0V920'},grid)}
- for(let lat=24;lat<=42;lat+=4){const y=project([24,lat])[1];elt('path',{d:'M0 '+y+'H1280'},grid)}
  const land=elt('g',{class:'atlas-land'},svg);LAND.forEach(p=>elt('path',{d:path(p)},land));
+ // Georeferenced public-site asset cropped to 24°–56° E / 21°–44° N.
+ // The old schematic land polygon remains only as an offline/image-error fallback.
+ const raster=elt('image',{
+   href:base+'assets/atlas/relieve.webp',x:0,y:0,width:1280,height:920,
+   preserveAspectRatio:'none',class:'atlas-relief','aria-hidden':'true'
+ },svg);
+ raster.addEventListener('error',()=>raster.remove());
+ const grid=elt('g',{class:'atlas-grid'},svg);
+ for(let lon=28;lon<=52;lon+=4){const x=project([lon,44])[0];elt('path',{d:'M'+x+' 0V920'},grid)}
+ for(let lat=24;lat<=40;lat+=4){const y=project([24,lat])[1];elt('path',{d:'M0 '+y+'H1280'},grid)}
+
  const waters=elt('g',{class:'atlas-waterways'},svg);
  for(const a of [
  [[31.3,31.3],[31.25,30.4],[31.3,29.4],[31.5,27.5],[32.5,24.5]],
@@ -57,6 +74,26 @@ function background(){
  caption(lab,[36.5,30.1],'TRANSJORDANIA',12,'atlas-label');
  caption(lab,[34.3,26.1],'MAR ROJO',14,'atlas-sea-label');
  caption(lab,[43.2,26.7],'PENÍNSULA ARÁBIGA',19,'atlas-label');
+ caption(lab,[43.0,40.2],'ANATOLIA',16,'atlas-label');
+ caption(lab,[38.8,32.1],'DESIERTO DE SIRIA',13,'atlas-label');
+ // Detailed city labels become visible only at a close scale.
+ const points=elt('g',{class:'atlas-places','aria-hidden':'true'},svg);
+ const cities=[
+  [[35.37,33.56],'Sidón'],[[35.19,33.27],'Tiro'],[[35.86,34.85],'Arvad'],
+  [[36.75,35.13],'Hamat'],[[36.29,33.51],'Damasco'],
+  [[35.24,31.78],'Jerusalén'],[[35.10,31.53],'Hebrón'],
+  [[35.28,32.21],'Siquem'],[[35.18,31.85],'Gabaón'],
+  [[34.46,31.50],'Gaza'],[[35.44,31.86],'Jericó'],
+  [[44.42,32.54],'Babilonia'],[[46.10,30.96],'Ur'],
+  [[48.27,32.19],'Susa'],[[43.15,36.35],'Nínive'],
+  [[31.23,30.05],'Menfis / delta']
+ ];
+ for(const [at,name] of cities){
+  const [x,y]=project(at);
+  elt('circle',{cx:x,cy:y,r:2.6,class:'atlas-place-dot'},points);
+  const t=elt('text',{x:x+7,y:y-6,'font-size':11,class:'atlas-place-name'},points);
+  t.textContent=name;
+ }
 }
 function drawFeature(f,layer){
  const p=f.properties,g=f.geometry;if(!g)return;
@@ -71,7 +108,7 @@ function drawFeature(f,layer){
  group.addEventListener('click',e=>{e.stopPropagation();if(!moved)location.hash='pueblo='+encodeURIComponent(p.id)});
  group.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();location.hash='pueblo='+encodeURIComponent(p.id)}});
 }
-function renderMap(){background();const layer=elt('g',{id:'atlas-territories'},svg);features.forEach(f=>drawFeature(f,layer));const legend=elt('g',{'aria-hidden':'true'},svg);caption(legend,[24.65,21.5],'BIBLILU · ATLAS ORIENTATIVO',15,'atlas-watermark');styleSelection()}
+function renderMap(){background();const layer=elt('g',{id:'atlas-territories'},svg);features.forEach(f=>drawFeature(f,layer));const legend=elt('g',{'aria-hidden':'true'},svg);caption(legend,[24.65,21.5],'BIBLILU · ATLAS ORIENTATIVO',15,'atlas-watermark');view();styleSelection()}
 function styleSelection(){
  svg.querySelectorAll('.atlas-feature').forEach(g=>g.classList.toggle('active',g.dataset.pueblo===selected));
  svg.classList.toggle('atlas-has-selection',!!selected);
