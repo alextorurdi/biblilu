@@ -67,7 +67,7 @@ def rename_title(s,old,name,hebrew):
  assert '<span class="tribe-title-secondary">' in s,(name,old)
  return s
 def css_in_head(s,depth):
- tag='<link rel="stylesheet" href="'+depth+'assets/atlas/atlas.css?v=1">'
+ tag='<link rel="stylesheet" href="'+depth+'assets/atlas/atlas.css?v=2">'
  return s.replace('</head>',tag+'</head>',1)
 # Fichas existentes: mantener su texto intacto, y añadir navegación y títulos
 # normalizados. Sus reformulaciones editoriales pendientes se publican aparte.
@@ -172,7 +172,7 @@ body="""<section class="section atlas-page">
 <div class="atlas-legend" aria-label="Leyenda"><span><i class="atlas-swatch"></i> Área aproximada</span><span><i class="atlas-swatch diffuse"></i> Zona difusa</span><span><i class="atlas-swatch point"></i> Núcleo de referencia</span><span><i class="atlas-swatch unknown"></i> Ubicación desconocida</span></div>
 <p class="atlas-note">Los contornos son zonas interpretativas, nunca fronteras históricas. Los puntos señalan centros citados o propuestos, sin atribuirles todo el territorio de un pueblo. Se incluyen épocas distintas, desde tradiciones patriarcales hasta la Edad del Hierro. Los pueblos sin localización suficientemente fundamentada permanecen en el índice sin geometría inventada.</p>
 <p class="atlas-note">Relieve topográfico: imagen mundial <em>shadedrelief</em> incluida en Basemap-data (LGPL-3.0 o posterior), recortada para este visor; <a href="https://github.com/matplotlib/basemap" target="_blank" rel="noopener noreferrer">fuente</a> y <a href="https://spdx.org/licenses/LGPL-3.0-or-later.html" target="_blank" rel="noopener noreferrer">licencia</a>. Geometrías de pueblos: reconstrucción editorial orientativa, revisable conforme avance la documentación. Los mapas originales de las escenas se conservan intactos.</p>
-</section><script src="../../assets/atlas/visor.js" defer></script>"""
+</section><script src="../../assets/atlas/visor.js?v=2" defer></script>"""
 m=re.sub(r'<main id="contenido">.*?</main>',lambda _: '<main id="contenido">'+body+'</main>',m,count=1,flags=re.S)
 target=AP/'atlas-pueblos/index.html'
 target.parent.mkdir(parents=True,exist_ok=True)
