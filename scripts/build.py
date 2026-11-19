@@ -318,8 +318,8 @@ SERES_VIVOS_LABELS = {"vegetal":"Vegetal","animal":"Animal","sobrenatural":"Ser 
 
 for cat,(name,desc) in C.items():
  entries=[e for e in E if e['category']==cat]
- if cat in ('animales','materiales','objetos','instrumentos','medidas'):
-  entries.sort(key=lambda e: spanish_alphabetical_key(e['name']))
+ # Los ocho índices siguen el título visible de cada ficha; se conservan los homónimos.
+ entries.sort(key=lambda e: (spanish_alphabetical_key(e['title']), e['id']))
  family_link='<a class="button genealogy-directory-link" href="../genealogias/index.html">Explorar los árboles genealógicos ↗</a>' if cat=='onomastico' else '<a class="button genealogy-directory-link" href="../mapas/index.html">Explorar los mapas ↗</a>' if cat=='lugares' else ''
  def render_index_row(e):
   slug=e['id'].split('/')[1]
