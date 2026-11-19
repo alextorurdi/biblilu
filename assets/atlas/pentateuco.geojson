@@ -1,0 +1,854 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Atlas de Pueblos · Pentateuco",
+    "revision": "1.0",
+    "scope": "Pueblos mencionados en el Pentateuco; no representa un único momento histórico",
+    "precision": "Localizaciones y contornos editoriales orientativos, no fronteras históricas ni identificación arqueológica garantizada",
+    "projection": "WGS84 (EPSG:4326)",
+    "legend": {
+      "nucleo": "Núcleo documentado o propuesto",
+      "nucleos": "Varios núcleos narrativos",
+      "aproximada": "Área geográfica aproximada",
+      "difusa": "Área amplia o difusa",
+      "desconocida": "Sin localización representable"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/amalecitas",
+        "name": "Amalecitas",
+        "kind": "difusa",
+        "note": "Regiones del Néguev y del Sinaí; extensión desconocida. No representa fronteras ni la época de Abraham.",
+        "refs": "Gn 14:7; 36:12; Ex 17:8",
+        "era": "Tradiciones del éxodo y relatos posteriores",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.5,
+              30.7
+            ],
+            [
+              34.25,
+              31.1
+            ],
+            [
+              35.3,
+              30.65
+            ],
+            [
+              35.2,
+              29.8
+            ],
+            [
+              34.5,
+              29.4
+            ],
+            [
+              33.5,
+              30.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/amonitas",
+        "name": "Amonitas",
+        "kind": "aproximada",
+        "note": "Entorno de Rabá, al este del Jordán. Delimitación esquemática, no frontera política.",
+        "refs": "Gn 19:38",
+        "era": "Edad del Hierro",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.65,
+              32.55
+            ],
+            [
+              36.5,
+              32.5
+            ],
+            [
+              36.7,
+              31.7
+            ],
+            [
+              36.15,
+              31.3
+            ],
+            [
+              35.7,
+              31.7
+            ],
+            [
+              35.65,
+              32.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/amorreos",
+        "name": "Amorreos",
+        "kind": "difusa",
+        "note": "Denominación empleada para distintas poblaciones de Canaán y Transjordania. Se muestran dos áreas orientativas, no territorios simultáneos.",
+        "refs": "Gn 10:16; 14:7,13; 15:16",
+        "era": "Tradiciones patriarcales y conquista",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                34.75,
+                33.3
+              ],
+              [
+                35.45,
+                33.2
+              ],
+              [
+                35.5,
+                31.4
+              ],
+              [
+                35.05,
+                31.1
+              ],
+              [
+                34.7,
+                31.8
+              ],
+              [
+                34.75,
+                33.3
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                35.55,
+                33.2
+              ],
+              [
+                36.5,
+                33.1
+              ],
+              [
+                36.5,
+                31.55
+              ],
+              [
+                35.7,
+                31.45
+              ],
+              [
+                35.55,
+                33.2
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/araceo",
+        "name": "Araceos",
+        "kind": "nucleo",
+        "note": "Identificación tradicional con Arqa, en el norte del actual Líbano.",
+        "refs": "Gn 10:17",
+        "era": "Antigüedad; centro urbano",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.05,
+          34.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/arvadeo",
+        "name": "Arvadeos",
+        "kind": "nucleo",
+        "note": "Arvad, isla frente a la costa de la actual Siria.",
+        "refs": "Gn 10:18",
+        "era": "Antigüedad; centro urbano",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.86,
+          34.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/cadmoneos",
+        "name": "Cadmoneos",
+        "kind": "desconocida",
+        "note": "El nombre podría referirse a pueblos orientales; no existe localización verificable.",
+        "refs": "Gn 15:19",
+        "era": "Época narrativa de Abraham",
+        "aliases": ""
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/cananeo",
+        "name": "Cananeos",
+        "kind": "difusa",
+        "note": "Área cultural y geográfica de Canaán, no una nación con límites exactos; puede superponerse a otros pueblos.",
+        "refs": "Gn 10:15-19; 12:6",
+        "era": "Segundo milenio a. C. (referencia general)",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.55,
+              33.7
+            ],
+            [
+              35.55,
+              33.7
+            ],
+            [
+              35.75,
+              32.5
+            ],
+            [
+              35.65,
+              31.2
+            ],
+            [
+              34.85,
+              30.95
+            ],
+            [
+              34.55,
+              32.5
+            ],
+            [
+              34.55,
+              33.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/ceneos",
+        "name": "Ceneos",
+        "kind": "difusa",
+        "note": "Poblaciones vinculadas al sur de Canaán y el Néguev; asignación territorial muy incierta.",
+        "refs": "Gn 15:19; Jue 1:16",
+        "era": "Tradiciones patriarcales y posteriores",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.3,
+              31.25
+            ],
+            [
+              35.55,
+              31.25
+            ],
+            [
+              35.85,
+              30.2
+            ],
+            [
+              34.8,
+              29.9
+            ],
+            [
+              34.3,
+              31.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/cenezeos",
+        "name": "Cenezeos",
+        "kind": "desconocida",
+        "note": "La relación con Edom o con Cenaz no ofrece una ubicación territorial segura.",
+        "refs": "Gn 15:19",
+        "era": "Época narrativa de Abraham",
+        "aliases": ""
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/egipcios",
+        "name": "Egipcios",
+        "kind": "aproximada",
+        "note": "Se representa el valle y el delta del Nilo, no las fronteras cambiantes de Egipto.",
+        "refs": "Gn 10:6; 12:10; 39–50",
+        "era": "Egipto faraónico; múltiples épocas",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                29.7,
+                31.55
+              ],
+              [
+                32.55,
+                31.4
+              ],
+              [
+                32.2,
+                30.15
+              ],
+              [
+                31,
+                29.75
+              ],
+              [
+                29.9,
+                30.35
+              ],
+              [
+                29.7,
+                31.55
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                30.65,
+                29.9
+              ],
+              [
+                31.4,
+                29.9
+              ],
+              [
+                32.9,
+                23.8
+              ],
+              [
+                32.25,
+                23.7
+              ],
+              [
+                30.65,
+                29.9
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/emitas",
+        "name": "Emitas",
+        "kind": "difusa",
+        "note": "Población anterior a los moabitas; se señala solo su región general al este del mar Muerto.",
+        "refs": "Gn 14:5; Dt 2:10-11",
+        "era": "Anterior al establecimiento de Moab",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.5,
+              31.95
+            ],
+            [
+              36.25,
+              31.85
+            ],
+            [
+              36.5,
+              30.7
+            ],
+            [
+              35.55,
+              30.6
+            ],
+            [
+              35.5,
+              31.95
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/ferezeo",
+        "name": "Ferezeos",
+        "kind": "desconocida",
+        "note": "Sin localización independiente comprobada; no se dibuja una zona hipotética.",
+        "refs": "Gn 13:7; 15:20",
+        "era": "Tradiciones patriarcales",
+        "aliases": ""
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/filisteos",
+        "name": "Filisteos",
+        "kind": "aproximada",
+        "note": "Concentración histórica de ciudades filisteas de la Edad del Hierro. No representa necesariamente los filisteos de los relatos patriarcales.",
+        "refs": "Gn 10:14; 21:34; 26:1",
+        "era": "Edad del Hierro (desde c. 1200 a. C.)",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.16,
+              31.7
+            ],
+            [
+              34.53,
+              32
+            ],
+            [
+              35,
+              31.95
+            ],
+            [
+              35.15,
+              31.4
+            ],
+            [
+              34.85,
+              31.05
+            ],
+            [
+              34.35,
+              31
+            ],
+            [
+              34.16,
+              31.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/gergeseo",
+        "name": "Gergeseos",
+        "kind": "desconocida",
+        "note": "No existe identificación territorial suficientemente fundamentada.",
+        "refs": "Gn 10:16; 15:21",
+        "era": "Tradiciones de Canaán",
+        "aliases": ""
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/hamateo",
+        "name": "Hamateos",
+        "kind": "nucleo",
+        "note": "Centro histórico de Hamat, en el valle del Orontes; no indica la extensión de su reino.",
+        "refs": "Gn 10:18",
+        "era": "Antigüedad; centro urbano",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.75,
+          35.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/heteo",
+        "name": "Heteos",
+        "kind": "nucleo",
+        "note": "Hebrón, escenario de la compraventa de Macpela. No identifica a estos heteos con el territorio del Imperio hitita de Anatolia.",
+        "refs": "Gn 10:15; 23:3-20",
+        "era": "Narraciones patriarcales",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1,
+          31.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/heveo",
+        "name": "Heveos",
+        "kind": "nucleos",
+        "note": "Se resaltan Siquem y Gabaón, donde son mencionados, y una referencia al entorno del Hermón; no un territorio continuo.",
+        "refs": "Gn 10:17; 34:2; Jos 9:7",
+        "era": "Relatos patriarcales y conquista",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            35.28,
+            32.21
+          ],
+          [
+            35.18,
+            31.85
+          ],
+          [
+            35.85,
+            33.38
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/horeos",
+        "name": "Horeos",
+        "kind": "difusa",
+        "note": "Población antigua del monte Seir; contorno orientativo, anterior al dominio edomita.",
+        "refs": "Gn 14:6; 36:20",
+        "era": "Anterior al establecimiento de Edom",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.05,
+              30.95
+            ],
+            [
+              35.85,
+              30.95
+            ],
+            [
+              36.3,
+              29.35
+            ],
+            [
+              35.25,
+              29.25
+            ],
+            [
+              35.05,
+              30.95
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/jebuseo",
+        "name": "Jebuseos",
+        "kind": "nucleo",
+        "note": "Jerusalén/Jebús, núcleo principal relacionado con los jebuseos; no se representa un territorio mayor.",
+        "refs": "Gn 10:16; Jos 15:63",
+        "era": "Edad del Bronce y del Hierro",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.235,
+          31.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/moabitas",
+        "name": "Moabitas",
+        "kind": "aproximada",
+        "note": "Meseta oriental del mar Muerto, en la actual Jordania. No representa una frontera fija.",
+        "refs": "Gn 19:37",
+        "era": "Edad del Hierro",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.65,
+              31.8
+            ],
+            [
+              36.4,
+              31.7
+            ],
+            [
+              36.55,
+              30.7
+            ],
+            [
+              35.6,
+              30.65
+            ],
+            [
+              35.65,
+              31.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/refaitas",
+        "name": "Refaítas",
+        "kind": "difusa",
+        "note": "Una de las regiones mencionadas para los refaítas es Basán; el nombre también se usa en otros territorios y sentidos.",
+        "refs": "Gn 14:5; 15:20",
+        "era": "Poblaciones antiguas; cronología no fijada",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.6,
+              33.35
+            ],
+            [
+              36.45,
+              33.35
+            ],
+            [
+              36.8,
+              32.45
+            ],
+            [
+              35.8,
+              32.3
+            ],
+            [
+              35.6,
+              33.35
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/sineo",
+        "name": "Sineos",
+        "kind": "desconocida",
+        "note": "Las propuestas de identificación en Egipto o el Levante septentrional son inciertas.",
+        "refs": "Gn 10:17",
+        "era": "Tradiciones de Génesis 10",
+        "aliases": ""
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/zemareo",
+        "name": "Zemareos",
+        "kind": "nucleo",
+        "note": "Identificación propuesta con Sumur/Simira, en la costa siriofenicia; emplazamiento debatido.",
+        "refs": "Gn 10:18",
+        "era": "Antigüedad; identificación propuesta",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.96,
+          34.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/zuzitas",
+        "name": "Zuzitas",
+        "kind": "desconocida",
+        "note": "La ubicación de Ham es incierta; la relación con los zamzumitas no está demostrada.",
+        "refs": "Gn 14:5",
+        "era": "Época narrativa de Abraham",
+        "aliases": "zamzumitas zamzummim"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/sidonios",
+        "name": "Sidonios",
+        "kind": "nucleo",
+        "note": "Sidón, ciudad fenicia de la costa del actual Líbano; no representa todos los posibles usos amplios del gentilicio.",
+        "refs": "Gn 10:15,19",
+        "era": "Antigüedad; centro urbano",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.37,
+          33.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/elamitas",
+        "name": "Elamitas",
+        "kind": "aproximada",
+        "note": "Suroeste del actual Irán; Elam comprendió regiones diversas y sus límites variaron.",
+        "refs": "Gn 10:22; 14:1",
+        "era": "Elam histórico; distintas épocas",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.55,
+              33.75
+            ],
+            [
+              50.2,
+              33.5
+            ],
+            [
+              51.3,
+              31.6
+            ],
+            [
+              50,
+              29.65
+            ],
+            [
+              47.7,
+              30.3
+            ],
+            [
+              47.55,
+              33.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tribus/caldeos",
+        "name": "Caldeos",
+        "kind": "difusa",
+        "note": "Sur de Babilonia. Identificación documentada desde el siglo IX a. C.; no se proyecta retrospectivamente sin reservas sobre la época de Abraham.",
+        "refs": "Gn 11:28,31; 15:7",
+        "era": "Primer milenio a. C.",
+        "aliases": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              44.5,
+              32.15
+            ],
+            [
+              47.45,
+              32.05
+            ],
+            [
+              48.3,
+              29.7
+            ],
+            [
+              46.2,
+              29.6
+            ],
+            [
+              44.5,
+              32.15
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
