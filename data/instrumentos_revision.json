@@ -1,0 +1,58 @@
+{
+  "titles": {
+    "instrumentos/kinnor": "Kinnor (kinnôr)",
+    "instrumentos/ugab": "Ugab (ʿûḡāḇ)"
+  },
+  "revised": {
+    "instrumentos/kinnor": {
+      "body": "Instrumento musical de cuerda utilizado en el antiguo Israel y en otras culturas del Oriente Próximo. Generalmente identificado como una lira, la Reina-Valera 1960 lo traduce habitualmente como «arpa». Aparece en contextos relacionados con celebraciones, entretenimiento y alabanza religiosa.\n\n### Hechos bíblicos\n\nEn Génesis 4:21, [[onomastico/jubal|Jubal]] es presentado como «padre de todos los que tocan arpa y flauta», en referencia al *kinnor* y al *ugab*.\n\nEn Génesis 31:27, Labán reprocha a Jacob haberse marchado sin permitirle despedirlo con alegría, cánticos, tamborines y arpas.\n\nEn 1 Samuel 16:23, David toca el *kinnor* para aliviar a Saúl cuando lo atormenta un espíritu malo.\n\nEn 2 Samuel 6:5, este instrumento figura entre los utilizados durante el traslado del Arca del Pacto.\n\nLos Salmos también lo mencionan frecuentemente como instrumento de alabanza a Dios (Sal 33:2; 57:8; 150:3).\n\n### Características y usos\n\nEl *kinnor* pertenecía a la familia de las liras. Su estructura consistía en una caja de resonancia de la que partían dos brazos unidos por un travesaño superior, al que se sujetaban las cuerdas.\n\nEl número de cuerdas podía variar según la época y el modelo. Las reconstrucciones históricas suelen representar instrumentos con varias cuerdas, pero los textos bíblicos no permiten determinar una cantidad fija.\n\nSe tocaba pulsando o rasgueando las cuerdas con los dedos o mediante un plectro.\n\nSu utilización está documentada tanto en actividades festivas como en contextos religiosos.\n\n### Simbolismo\n\n**Alegría y alabanza.** El *kinnor* aparece asociado a la celebración y al reconocimiento de la grandeza de Dios, especialmente en los Salmos.\n\n**Consuelo y expresión emocional.** La música interpretada por David para Saúl muestra su utilización para proporcionar alivio. En Job 30:31, en cambio, el instrumento aparece asociado al duelo y al sufrimiento.\n\n### Etimología\n\nEl término hebreo *kinnôr* (כִּנּוֹר) designa un instrumento de cuerda generalmente identificado como una lira.\n\nAunque tradicionalmente se ha traducido como «arpa», ambos instrumentos presentan diferencias organológicas: en una lira, las cuerdas discurren entre la caja de resonancia y un travesaño sostenido por dos brazos.\n\nEl origen etimológico del término hebreo no está establecido con certeza.\n\nLa RVR60 también emplea «arpa» para otros términos originales, como el arameo *sabbekā* (Dn 3:5) o el griego *kithára* (Ap 5:8); por tanto, no toda arpa mencionada en esta traducción corresponde al *kinnor*.\n\n### Referencias\n\nGn 4:21; 31:27; 1 S 16:23; 2 S 6:5; Job 30:31; Sal 33:2; 57:8; 150:3.",
+      "mentions": [
+        "Gn 4:21",
+        "Gn 31:27",
+        "1 S 16:23",
+        "2 S 6:5",
+        "Job 30:31",
+        "Sal 33:2",
+        "Sal 57:8",
+        "Sal 150:3"
+      ]
+    },
+    "instrumentos/ugab": {
+      "body": "Instrumento musical mencionado en el Antiguo Testamento, generalmente interpretado como un instrumento de viento. La Reina-Valera 1960 lo traduce como «flauta», aunque su identificación exacta es discutida.\n\n### Hechos bíblicos\n\nEn Génesis 4:21, el *ugab* aparece junto al *kinnor* en la descripción de [[onomastico/jubal|Jubal]], considerado antepasado de quienes practican la música instrumental.\n\nEn Job 21:12 se menciona entre los instrumentos utilizados para acompañar celebraciones y momentos de alegría.\n\nEn Job 30:31, por el contrario, aparece relacionado con el llanto y el duelo.\n\nEn el Salmo 150:4 se incluye entre los instrumentos con los que se exhorta a alabar a Dios.\n\n### Características y usos\n\nTradicionalmente, el *ugab* se ha identificado como una flauta o instrumento de viento construido con una caña o tubo.\n\nTambién se ha propuesto que pudiera tratarse de un conjunto de tubos de distintas longitudes, semejante a una flauta de Pan.\n\nSin embargo, el texto bíblico no describe su estructura, materiales, número de tubos ni técnica de interpretación. Por tanto, no es posible determinar con certeza su apariencia original.\n\n### Simbolismo\n\n**Alegría y celebración.** En Job 21:12, el *ugab* acompaña las celebraciones de quienes disfrutan de la prosperidad.\n\n**Lamento y tristeza.** Job 30:31 presenta el sonido del instrumento asociado al duelo, mostrando su capacidad para expresar sentimientos contrapuestos.\n\n**Alabanza a Dios.** En el Salmo 150:4, el instrumento se incorpora a la exhortación general a alabar a Dios mediante la música.\n\n### Etimología\n\nEl término hebreo *ʿûḡāḇ* (עוּגָב) designa un instrumento musical cuya identificación exacta permanece discutida.\n\nTradicionalmente se ha relacionado con instrumentos de viento, particularmente flautas de uno o varios tubos. Su etimología no está establecida con certeza.\n\nEl término aparece únicamente en cuatro versículos del Antiguo Testamento.\n\nLa RVR60 también utiliza «flauta» para otros términos originales, como el hebreo *ḥālîl* (1 S 10:5), el arameo *mašrôqîṯā* (Dn 3:5) y el griego *aulós* (1 Co 14:7). No todas estas menciones se refieren al *ugab*.\n\n### Referencias\n\nGn 4:21; Job 21:12; 30:31; Sal 150:4.",
+      "mentions": [
+        "Gn 4:21",
+        "Job 21:12",
+        "Job 30:31",
+        "Sal 150:4"
+      ]
+    }
+  },
+  "related": {
+    "instrumentos/kinnor": [
+      "onomastico/jubal",
+      "instrumentos/ugab"
+    ],
+    "instrumentos/ugab": [
+      "onomastico/jubal",
+      "instrumentos/kinnor"
+    ]
+  },
+  "images": {
+    "instrumentos/kinnor": {
+      "local": "instrumentos.svg",
+      "alt": "Representación esquemática de una lira antigua (kinnor), junto con el instrumento ugab.",
+      "caption": "Kinnor y ugab, ilustración esquemática utilizada también en la escena Crueldad (Gn 4:21). No son reproducciones arqueológicas exactas.",
+      "author": "BIBLILU",
+      "license": "Ilustración del proyecto",
+      "source": "../../../genesis/4/index.html#gn-4-21"
+    },
+    "instrumentos/ugab": {
+      "local": "instrumentos.svg",
+      "alt": "Representación esquemática del ugab como instrumento de viento, junto con el kinnor.",
+      "caption": "Kinnor y ugab, ilustración esquemática utilizada también en la escena Crueldad (Gn 4:21). La forma exacta del ugab es incierta.",
+      "author": "BIBLILU",
+      "license": "Ilustración del proyecto",
+      "source": "../../../genesis/4/index.html#gn-4-21"
+    }
+  }
+}
