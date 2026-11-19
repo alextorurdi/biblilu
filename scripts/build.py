@@ -405,4 +405,35 @@ for _relative in ('index.html','genesis/index.html','genesis/1/index.html','gene
   _dest=OUT/_relative
   _dest.parent.mkdir(parents=True,exist_ok=True)
   shutil.copyfile(_source,_dest)
+# Enlazar las menciones aprobadas de «puerta» en las escenas temáticas,
+# después de restaurar sus originales editoriales y sin reescribir sus notas.
+_SCENE_PUERTA_REFS={
+ '4':{(4,7)},
+ '6':{(6,16),(7,16)},
+ '18':{(18,1),(18,2),(18,10),(19,1),(19,6),(19,9),(19,10),(19,11)},
+ '20':{(22,17),(23,10),(23,18)},
+ '24':{(24,60)}
+}
+_PUERTA_LINK='<a class="term objetos" data-entry="objetos/puerta" href="../../apendices/objetos/puerta/index.html">'
+for _scene,_target_verses in _SCENE_PUERTA_REFS.items():
+ _file=OUT/'genesis'/_scene/'index.html'
+ if not _file.exists():continue
+ _html=_file.read_text(encoding='utf-8')
+ _seen=set()
+ def _wrap_puerta(_match):
+  _key=(int(_match[1]),int(_match[2]))
+  if _key not in _target_verses:return _match[0]
+  _seen.add(_key)
+  _tokens=re.split(r'(<[^>]+>)',_match[0])
+  for _k in range(0,len(_tokens),2):
+   _tokens[_k]=re.sub(r'\bpuertas?\b',lambda _w:_PUERTA_LINK+_w[0]+'</a>',_tokens[_k],flags=re.I)
+  return ''.join(_tokens)
+ _html=re.sub(r'<p class="verse" id="gn-(\d+)-(\d+)"[^>]*>.*?</p>',_wrap_puerta,_html,flags=re.S)
+ if _seen!=_target_verses:raise RuntimeError(f'Menciones a puerta sin encontrar en escena {_scene}: {_target_verses-_seen}')
+ if _scene=='24':
+  _note=re.search(r'<li id="fn-150">.*?</li>',_html,flags=re.S)
+  if not _note or 'La «puerta»' not in _note[0]:raise RuntimeError('Nota 150 no localizada para enlazar Puerta')
+  _html=_html[:_note.start()]+_note[0].replace('La «puerta»','La «'+_PUERTA_LINK+'puerta</a>»',1)+_html[_note.end():]
+ _file.write_text(_html,encoding='utf-8')
+
 print('Plantillas temáticas BIBLILU v. 0.1 restauradas.')
