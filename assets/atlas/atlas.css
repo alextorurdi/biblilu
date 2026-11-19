@@ -67,3 +67,11 @@
 .atlas-map-panel:fullscreen .atlas-canvas svg{height:100%}
 @media(max-width:860px){.atlas-layout{grid-template-columns:1fr}.atlas-sidebar{padding:13px}.atlas-list{max-height:180px;display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:4px}.atlas-entry{padding:7px;font-size:12px}.atlas-entry small{display:none}.atlas-canvas svg{height:480px}.atlas-details{padding:15px}}
 @media(max-width:520px){.atlas-toolbar{padding:9px;align-items:flex-start}.atlas-toolbar strong{display:block;width:100%}.atlas-buttons button{padding:5px 8px}.atlas-canvas svg{height:400px}.atlas-legend{gap:9px}.atlas-legend span{font-size:10px}.atlas-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Transliteraciones de los nombres de tribus, siguiendo Materiales. */
+.entry h1 .tribe-title-secondary{display:block;margin-top:7px;color:var(--muted);font:italic 400 clamp(16px,2.8vw,22px)/1.45 Arial,Helvetica,sans-serif;letter-spacing:normal;overflow-wrap:anywhere}
+.entry-row.tribus .tribe-index-original{display:inline-block;margin-left:.32em;color:var(--muted);font:400 .76em/1.45 Arial,Helvetica,sans-serif;vertical-align:baseline;overflow-wrap:anywhere}
+.entry-row.tribus .tribe-index-original em{font-style:italic}
+.appendix-card.tribus .appendix-card-main h3 svg{vertical-align:middle;color:var(--tribus);margin-right:5px}
+.appendix-card.tribus .appendix-tree-link{background:#6543a00a}
+.appendix-card.tribus .appendix-tree-link:hover{background:#6543a017}
