@@ -295,7 +295,8 @@ for cat,(name,desc) in C.items():
    ingots='<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 3.5h4l2.5 6.5h-9L10 3.5Z"/><path d="M4.5 12.5h4l2.5 7h-9l2.5-7Z"/><path d="M15.5 12.5h4l2.5 7h-9l2.5-7Z"/></svg>'
    suffix='<span class="entry-row-tail"><span class="material-index-mark" role="img" aria-label="Ficha con fotografía" title="Ficha con fotografía">'+ingots+'</span><span>↗</span></span>'
   elif cat=='objetos' and e['id'] in OBJECT_REVISION.get('images',{}):
-   glyph='<svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9" r="1.6"/><path d="m5.5 17 4.5-4 3 2 3.5-4 3 4"/></svg>'
+   # Tienda estilizada: marca común de las fichas ilustradas de Objetos y símbolos.
+   glyph='<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2.5 20h19L12 3Z"/><path d="M12 3v11"/><path d="m8.5 20 3.5-6 3.5 6"/></svg>'
    suffix='<span class="entry-row-tail"><span class="object-index-mark" role="img" aria-label="Ficha ilustrada" title="Ficha con imagen">'+glyph+'</span><span>↗</span></span>'
   elif cat=='animales':
    kind=SERES_VIVOS_TYPES[e['id']]
