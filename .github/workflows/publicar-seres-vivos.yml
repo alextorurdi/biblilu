@@ -28,6 +28,8 @@ jobs:
         run: python3 -c "from pathlib import Path; p=Path('docs/apendices/animales'); assert len(list(p.glob('*/index.html'))) >= 35; assert 'Hechos bíblicos' in (p/'angeles/index.html').read_text(); assert 'species-photo' in (p/'higuera/index.html').read_text()"
       - name: Comprobar fichas de Objetos y símbolos
         run: python3 -c "from pathlib import Path; p=Path('docs/apendices/objetos'); assert len(list(p.glob('*/index.html'))) == 7; assert all('object-photo' in q.read_text() for q in p.glob('*/index.html')); assert 'object-index-mark' in (p/'index.html').read_text()"
+      - name: Comprobar ausencia de menciones duplicadas
+        run: python3 -c "from pathlib import Path; pages=list(Path('docs/apendices').glob('*/*/index.html')); duplicated=[str(p) for p in pages if '<h2>Referencias</h2>' in p.read_text(encoding='utf-8') and '<h2>Menciones bíblicas</h2>' in p.read_text(encoding='utf-8')]; assert not duplicated, 'Apartados de referencias duplicados: '+', '.join(duplicated)"
       - name: Publicar ficheros estáticos
         run: |
           git config user.name "github-actions[bot]"
