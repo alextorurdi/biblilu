@@ -447,3 +447,58 @@
    div.appendChild(p);article.appendChild(div);
  }).catch(()=>{});
 })();
+
+
+// APA 7: compatibilidad de citas anteriores en páginas ya publicadas.
+(() => {
+  'use strict';
+  const names = {
+    'brown et al., 1906':'bib-brown-driver-briggs-1906-lexicon',
+    'brown, 1906':'bib-brown-driver-briggs-1906-lexicon',
+    'hess, 2007':'bib-hess-r-2007-8',
+    'hess, 1992':'bib-hess-r-1992-48',
+    'ivantchik, 2018':'bib-ivantchik-2018-scythians',
+    'zadok, 2018':'bib-zadok-2018-iskuza',
+    'jones, 1856':'bib-jones-a-1856-11',
+    'the new open bible, 1990':'bib-the-new-open-1990-14',
+    'kitchen, 2003':'bib-kitchen-k-2003-34',
+    'demsky, 2023':'bib-demsky-2023-genealogy',
+    'glueck, 1951':'bib-glueck-n-1951-36',
+    'hamilton, 1990':'bib-hamilton-v-1990-7',
+    'sayce, 1899':'bib-sayce-a-1899-20',
+    'olbrycht, 2000':'bib-olbrycht-m-2000-21',
+    'redford, 2001':'bib-redford-d-2001-35',
+    'antigüedades, 1.6':'bib-josefo-f-2024-29',
+    'antigüedades, 1,6':'bib-josefo-f-2024-29',
+    'antigüedades, 1,6,4':'bib-josefo-f-2024-29',
+    'hidalgo de la vega et al., 2008':'bib-hidalgo-de-la-2008-28',
+    'kopanias, 2015':'bib-kopanias-k-2015-32',
+    'gowan, 1988':'bib-gowan-d-1988-23',
+    'tiras, 1988':'bib-tiras-1988-33',
+    'block,1998':'bib-block-d-1998-24',
+    'burney,2004':'bib-burney-c-2004-25',
+    'gurney, 1952':'bib-gurney-o-1952-26',
+    'barjamovic, 2011':'bib-barjamovic-g-2011-27',
+    'weeden, 2017':'bib-weeden-2017-tabal',
+    'hirsch & hyvernat, 1904':'bib-hirsch-hyvernat-1904-gopher-wood',
+    'garcía-moreno, 1987':'bib-garcia-moreno-a-1987-5',
+    'taylor, 2024':'bib-taylor-p-2024-12',
+    'friedmann, 2013':'bib-friedmann-j-2013-4',
+    'gordon, 1997':'bib-gordon-c-1997-6',
+    'day, 2013':'bib-day-j-2013-69',
+    'rey, 2017':'bib-rey-j-s-2017-70',
+    'john day, 2012':'bib-day-2012-giants',
+    'jacobsen, 1939':'bib-jacobsen-1939-sumerian',
+    'algaze, 2013':'bib-algaze-g-2013-38',
+    'ryken, wilhoit y longman, 1998':'bib-ryken-l-wilhoit-1998-71'
+  };
+  const key=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
+  const normalized=Object.fromEntries(Object.entries(names).map(([k,v])=>[key(k),v]));
+  document.querySelectorAll('a[href*="bibliografia/index.html"]').forEach(link=>{
+    const raw=link.textContent.trim();
+    if(!/^\[[^\[\]]+\]$/.test(raw))return;
+    const id=normalized[key(raw.slice(1,-1))];
+    if(id)link.href=link.href.split('#')[0]+'#'+id;
+    else if(!/\d{4}/.test(raw))link.replaceWith(document.createTextNode(raw));
+  });
+})();
