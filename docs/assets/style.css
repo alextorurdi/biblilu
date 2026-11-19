@@ -459,3 +459,6 @@
 .instrument-related strong{font:600 13px/1.5 Arial,Helvetica,sans-serif;color:var(--muted)}
 .instrument-related-links{display:flex;flex-wrap:wrap;gap:9px 14px;margin-top:12px}
 .instrument-related-links a{color:var(--instrumentos);font:500 14px/1.5 Arial,Helvetica,sans-serif;text-decoration:underline}
+/* Distintivo de lira en el índice de Instrumentos musicales. */
+.instrument-index-mark{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;color:var(--instrumentos)}
+.instrument-index-mark svg{display:block;flex-shrink:0}
