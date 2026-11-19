@@ -1,0 +1,61 @@
+{
+  "new_entries": [
+    {
+      "id": "medidas/codo",
+      "category": "medidas",
+      "name": "Codo",
+      "title": "Codo (ʾammāh)",
+      "text": "",
+      "body": ""
+    },
+    {
+      "id": "medidas/sea",
+      "category": "medidas",
+      "name": "Seá",
+      "title": "Seá (səʾāh)",
+      "text": "",
+      "body": ""
+    }
+  ],
+  "titles": {
+    "medidas/codo": "Codo (ʾammāh)",
+    "medidas/sea": "Seá (səʾāh)",
+    "medidas/siclo": "Siclo (šeqel)"
+  },
+  "revised": {
+    "medidas/codo": {
+      "body": "Unidad de longitud utilizada en el antiguo Oriente Próximo y ampliamente mencionada en la Biblia. Originalmente se basaba en la distancia entre el codo y la punta del dedo medio de una persona con el brazo extendido. Su longitud variaba según la época, la región y el patrón de medida empleado.\n\n### Hechos bíblicos\n\nEn Génesis 6:15, Dios indica a Noé las dimensiones del Arca: 300 codos de longitud, 50 de anchura y 30 de altura. En el versículo siguiente aparece otra medida de un codo relacionada con su parte superior.\n\nEn Génesis 7:20 se afirma que las aguas del Diluvio subieron quince codos por encima de los montes que habían quedado cubiertos.\n\nEn Éxodo 25:10 se establecen las dimensiones del Arca del Pacto, que debía medir dos codos y medio de longitud, uno y medio de anchura y uno y medio de altura.\n\nEn 1 Reyes 6:2 se describen las dimensiones del Templo construido por Salomón: 60 codos de longitud, 20 de anchura y 30 de altura.\n\nEn Ezequiel 40:5 se menciona expresamente un codo de mayor longitud, compuesto por un codo ordinario más un palmo menor, utilizado en las mediciones del templo contemplado por el profeta.\n\n### Equivalencias y usos\n\nEl codo era una medida antropométrica, es decir, basada originalmente en las proporciones del cuerpo humano. Su valor podía normalizarse mediante patrones oficiales para emplearlo en la construcción y el comercio.\n\nSe distinguen habitualmente dos variantes principales:\n\n- **Codo común:** aproximadamente 44–45 cm.\n- **Codo largo o real:** aproximadamente 52–53 cm.\n\nEl codo común suele dividirse en seis palmos menores, mientras que el codo largo corresponde aproximadamente a siete.\n\nUtilizando un codo de 45 cm, las dimensiones del Arca de Noé serían de unos 135 m de longitud, 22,5 m de anchura y 13,5 m de altura. Con un codo largo de 52,5 cm, alcanzarían aproximadamente 157,5 × 26,25 × 15,75 m.\n\nEstas conversiones son orientativas, ya que el relato del Génesis no especifica qué patrón concreto de codo se utilizó.\n\nEl codo se empleaba principalmente para medir construcciones, terrenos, objetos y distancias relativamente pequeñas. Su utilización en las instrucciones del Tabernáculo y las descripciones del Templo muestra la importancia de las medidas normalizadas en la arquitectura del antiguo Israel.\n\n### Etimología\n\nEl término hebreo *ʾammāh* (אַמָּה) designa tanto el antebrazo como la unidad de longitud conocida como «codo».\n\nSu significado como medida está relacionado con la parte del cuerpo utilizada originalmente como referencia. Existen términos equivalentes en otras lenguas del antiguo Oriente Próximo, donde también se emplearon sistemas de medida basados en las proporciones humanas.\n\n### Referencias\n\nGn 6:15-16; 7:20; Ex 25:10; 1 R 6:2; Ez 40:5; 43:13.",
+      "mentions": [
+        "Gn 6:15-16",
+        "Gn 7:20",
+        "Ex 25:10",
+        "1 R 6:2",
+        "Ez 40:5",
+        "Ez 43:13"
+      ]
+    },
+    "medidas/sea": {
+      "body": "Unidad de capacidad utilizada en el antiguo Israel para medir productos secos, especialmente cereales, grano y harina. La Reina-Valera 1960 suele traducir este término como «medida», sin conservar su denominación hebrea. Su capacidad exacta podía variar según el patrón utilizado.\n\n### Hechos bíblicos\n\nEn Génesis 18:6, Abraham pide a Sara que prepare panes con tres seás de flor de harina para atender a los visitantes que han llegado a su campamento. La RVR60 traduce esta cantidad como «tres medidas».\n\nEn 1 Samuel 25:18, Abigail prepara provisiones para David y sus hombres, entre ellas cinco seás de grano tostado.\n\nEn 1 Reyes 18:32, Elías construye una zanja alrededor del altar del monte Carmelo cuya capacidad se describe mediante dos seás de semilla.\n\nEn 2 Reyes 7:1 se anuncia que una seá de flor de harina y dos seás de cebada podrán comprarse por un siclo a la puerta de Samaria. El cumplimiento de esta profecía se relata en los versículos 16 y 18.\n\nEn Mateo 13:33 y Lucas 13:21, Jesús utiliza una cantidad de tres medidas de harina en la parábola de la levadura. El término griego empleado, *sáton*, corresponde a la misma unidad de capacidad.\n\n### Equivalencias y usos\n\nLa seá formaba parte del sistema hebreo de medidas para productos secos. Su equivalencia tradicional era:\n\n- **1 seá = 1/3 de efa.**\n- **3 seás = 1 efa.**\n- **30 seás = 1 homer.**\n\nUna estimación moderna ampliamente utilizada sitúa su capacidad en aproximadamente 7,3 litros, aunque existen reconstrucciones históricas que proponen valores superiores.\n\nSegún esa equivalencia, las tres seás mencionadas en Génesis 18:6 representarían unos 22 litros de harina. Se trata de una cantidad considerable para preparar una comida, que pone de manifiesto la abundancia de las provisiones ofrecidas por Abraham.\n\nEstas cifras expresan volumen, no peso. La cantidad de harina en kilogramos dependería de su densidad y de las condiciones en las que se midiera.\n\nLa seá se empleaba principalmente en la preparación de alimentos, el almacenamiento de cereales y el intercambio comercial. Las referencias de 2 Reyes 7 muestran su utilización para expresar precios de productos alimenticios.\n\n### Etimología\n\nEl término hebreo *səʾāh* (סְאָה) designa una unidad de capacidad para productos secos. Su origen etimológico exacto no está establecido con certeza.\n\nEn el Nuevo Testamento aparece el griego *sáton* (σάτον), relacionado con el término semítico y utilizado con el mismo significado general.\n\nLa RVR60 traduce ambos términos como «medida», por lo que su identificación requiere consultar el vocabulario original.\n\n### Referencias\n\nGn 18:6; 1 S 25:18; 1 R 18:32; 2 R 7:1, 16, 18; Mt 13:33; Lc 13:21.",
+      "mentions": [
+        "Gn 18:6",
+        "1 S 25:18",
+        "1 R 18:32",
+        "2 R 7:1, 16, 18",
+        "Mt 13:33",
+        "Lc 13:21"
+      ]
+    },
+    "medidas/siclo": {
+      "body": "Unidad de peso utilizada en el antiguo Oriente Próximo, especialmente para medir metales preciosos y establecer el valor de las transacciones comerciales. Aunque posteriormente también designó monedas, en los relatos patriarcales del Génesis se refiere fundamentalmente a una cantidad de metal determinada por su peso.\n\n### Hechos bíblicos\n\nEn Génesis 23:15-16, Efrón establece el precio del terreno que Abraham desea adquirir en 400 siclos de plata. Abraham pesa esta cantidad ante los hijos de Het, siguiendo un patrón reconocido entre comerciantes.\n\nEn Génesis 24:22, el siervo de Abraham entrega a Rebeca un pendiente de oro que pesa medio siclo y dos brazaletes cuyo peso conjunto se expresa en diez siclos.\n\nEn Éxodo 30:13 se establece que el siclo del santuario equivale a veinte geras.\n\nOtros pasajes mencionan patrones de peso diferentes, como el siclo del rey (2 S 14:26), lo que refleja la existencia de distintas referencias metrológicas.\n\n### Equivalencias y usos\n\nUn siclo hebreo suele estimarse aproximadamente en **11,4 gramos**, aunque su peso efectivo podía variar según la época, la región y el patrón utilizado.\n\nSus principales relaciones metrológicas eran:\n\n| Unidad | Equivalencia |\n|---|---|\n| Gera | 1/20 de siclo |\n| Beka | 1/2 siclo |\n| Mina | Habitualmente 50 siclos; 60 en Ez 45:12 |\n| Talento | Habitualmente 3.000 siclos |\n\nEstas equivalencias no constituyeron un sistema único e invariable durante toda la historia bíblica.\n\nEn el Génesis, los siclos de plata se emplean como unidad de valoración comercial, no necesariamente como piezas monetarias acuñadas. El metal podía pesarse durante la propia transacción.\n\nCon una equivalencia orientativa de 11,4 gramos por siclo, los 400 siclos entregados por Abraham representarían aproximadamente 4,56 kilogramos de plata.\n\nPosteriormente, el término también pasó a designar determinadas monedas, entre ellas los siclos de Tiro.\n\n### Etimología\n\nEl hebreo *šeqel* (שֶׁקֶל) deriva de la raíz *š-q-l*, relacionada con la acción de pesar.\n\nSu significado original está vinculado al peso y no a una moneda concreta. Este sentido explica que una misma unidad pudiera utilizarse para cuantificar distintos materiales, aunque las transacciones comerciales se expresaran frecuentemente en plata.\n\n### Referencias\n\nGn 23:15-16; 24:22; Ex 30:13; Lv 27:25; Nm 3:47; 2 S 14:26; Ez 45:12.",
+      "mentions": [
+        "Gn 23:15-16",
+        "Gn 24:22",
+        "Ex 30:13",
+        "Lv 27:25",
+        "Nm 3:47",
+        "2 S 14:26",
+        "Ez 45:12"
+      ]
+    }
+  }
+}
