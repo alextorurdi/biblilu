@@ -1,0 +1,565 @@
+{
+  "version": 1,
+  "format": "APA 7",
+  "total": 69,
+  "deleted_legacy": [
+    2,
+    3,
+    22,
+    30
+  ],
+  "entries": [
+    {
+      "id": "bib-roberts-a-1886-1",
+      "legacy": 1,
+      "apa": "Roberts, A., & Donaldson, J. (Eds.). (1886). *Ante-Nicene Fathers: Fathers of the third century: Gregory Thaumaturgus, Dionysius the Great, Julius Africanus, Anatolius, and minor writers, Methodius, Arnobius* (Vol. 6; A. C. Coxe, Rev.). T&T Clark. https://www.ccel.org/ccel/schaff/anf06",
+      "categories": [
+        "Textos y fuentes antiguas"
+      ]
+    },
+    {
+      "id": "bib-friedmann-j-2013-4",
+      "legacy": 4,
+      "apa": "Friedmann, J. L. (2013). *Music in biblical life: The roles of song in ancient Israel*. McFarland.",
+      "categories": [
+        "Cultura y naturaleza"
+      ]
+    },
+    {
+      "id": "bib-garcia-moreno-a-1987-5",
+      "legacy": 5,
+      "apa": "García-Moreno, A. (1987). [Reseña de *Nova Vulgata Bibliorum Sacrorum Editio* (2.ª ed.), publicada por Libreria Editrice Vaticana]. *Scripta Theologica, 19*(1–2), 457–459. https://doi.org/10.15581/006.19.19741",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-gordon-c-1997-6",
+      "legacy": 6,
+      "apa": "Gordon, C. H., & Rendsburg, G. A. (1997). *The Bible and the ancient Near East* (4th ed.). W. W. Norton.",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-hamilton-v-1990-7",
+      "legacy": 7,
+      "apa": "Hamilton, V. P. (1990). *The book of Genesis: Chapters 1–17*. Eerdmans.",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-hess-r-2007-8",
+      "legacy": 8,
+      "apa": "Hess, R. S. (2007). *Israelite religions: An archaeological and biblical survey*. Baker Academic.",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-hirsch-hyvernat-1904-gopher-wood",
+      "legacy": 9,
+      "apa": "Hirsch, E. G., & Hyvernat, H. (1904). Gopher-wood. En I. Singer (Ed.), *The Jewish Encyclopedia* (Vol. 6). Funk & Wagnalls. https://sefaria.jewishencyclopedia.com/articles/6808-gopher-wood",
+      "categories": [
+        "Textos y fuentes antiguas"
+      ]
+    },
+    {
+      "id": "bib-chabad-org-sf-10",
+      "legacy": 10,
+      "apa": "Chabad.org. (s. f.). *Bereshit (Genesis): Chapter 6*. https://www.chabad.org/library/bible_cdo/aid/8171/jewish/Chapter-6.htm",
+      "categories": [
+        "Textos y fuentes antiguas"
+      ]
+    },
+    {
+      "id": "bib-jones-a-1856-11",
+      "legacy": 11,
+      "apa": "Jones, A. (1856). *The proper names of the Old Testament Scriptures expounded and illustrated*. Samuel Bagster and Sons.",
+      "categories": [
+        "Lenguas y lexicografía"
+      ]
+    },
+    {
+      "id": "bib-taylor-p-2024-12",
+      "legacy": 12,
+      "apa": "Taylor, P. S. (2024, 28 de junio). *What is “gopher” wood?* Christian Answers. https://christiananswers.net/q-eden/gopherwood.html",
+      "categories": [
+        "Textos y fuentes antiguas"
+      ]
+    },
+    {
+      "id": "bib-tristram-h-1898-13",
+      "legacy": 13,
+      "apa": "Tristram, H. B. (1898). *The natural history of the Bible: Being a review of the physical geography, geology, and meteorology of the Holy Land, with a description of every animal and plant mentioned in Holy Scripture* (9.ª ed.). Society for Promoting Christian Knowledge. https://archive.org/details/naturalhistoryof00trisuoft",
+      "categories": [
+        "Cultura y naturaleza"
+      ]
+    },
+    {
+      "id": "bib-the-new-open-1990-14",
+      "legacy": 14,
+      "apa": "*The New Open Bible: Study edition, New King James Version*. (1990). Thomas Nelson.",
+      "categories": [
+        "Textos y fuentes antiguas"
+      ]
+    },
+    {
+      "id": "bib-hirsch-e-1904-15",
+      "legacy": 15,
+      "apa": "Hirsch, E. G., Seligsohn, M., & Schechter, S. (1904). Japheth. En I. Singer (Ed.), *The Jewish Encyclopedia* (Vol. 7). Funk & Wagnalls. https://www.jewishencyclopedia.com/articles/8516",
+      "categories": [
+        "Textos y fuentes antiguas"
+      ]
+    },
+    {
+      "id": "bib-demsky-2023-genealogy",
+      "legacy": 16,
+      "apa": "Demsky, A. (2023). The genesis of Jewish genealogy. *Genealogy, 7*(4), Article 91. https://doi.org/10.3390/genealogy7040091",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-talmud-de-babilonia-sf-17",
+      "legacy": 17,
+      "apa": "*Talmud de Babilonia: Meguilá 9b*. (s. f.). En *The William Davidson Talmud* (edición y traducción en línea). Sefaria. https://www.sefaria.org/Megillah.9b",
+      "categories": [
+        "Textos y fuentes antiguas"
+      ]
+    },
+    {
+      "id": "bib-west-m-2007-18",
+      "legacy": 18,
+      "apa": "West, M. L. (2007). *Indo-European poetry and myth*. Oxford University Press.",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-brown-driver-briggs-1906-lexicon",
+      "legacy": 19,
+      "apa": "Brown, F., Driver, S. R., & Briggs, C. A. (1906). *A Hebrew and English lexicon of the Old Testament*. Clarendon Press.",
+      "categories": [
+        "Lenguas y lexicografía"
+      ]
+    },
+    {
+      "id": "bib-sayce-a-1899-20",
+      "legacy": 20,
+      "apa": "Sayce, A. H. (1899). *Early Israel and the surrounding nations*. Service & Paton. https://www.gutenberg.org/ebooks/12976",
+      "categories": [
+        "Historia y arqueología"
+      ]
+    },
+    {
+      "id": "bib-olbrycht-m-2000-21",
+      "legacy": 21,
+      "apa": "Olbrycht, M. J. (2000). Remarks on the presence of Iranian peoples in Europe and their Asiatic relations. En J. Pstrusińska & A. Fear (Eds.), *Collectanea Celto-Asiatica Cracoviensia* (pp. 101–140). Księgarnia Akademicka.",
+      "categories": [
+        "Historia y arqueología"
+      ]
+    },
+    {
+      "id": "bib-gowan-d-1988-23",
+      "legacy": 23,
+      "apa": "Gowan, D. E. (1988). *From Eden to Babel: A commentary on the book of Genesis 1–11*. Eerdmans.",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-block-d-1998-24",
+      "legacy": 24,
+      "apa": "Block, D. I. (1998). *The book of Ezekiel, chapters 25–48*. Eerdmans.",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-burney-c-2004-25",
+      "legacy": 25,
+      "apa": "Burney, C. (2004). *Historical dictionary of the Hittites*. Scarecrow Press.",
+      "categories": [
+        "Historia y arqueología"
+      ]
+    },
+    {
+      "id": "bib-gurney-o-1952-26",
+      "legacy": 26,
+      "apa": "Gurney, O. R. (1952). *The Hittites*. Penguin Books.",
+      "categories": [
+        "Historia y arqueología"
+      ]
+    },
+    {
+      "id": "bib-barjamovic-g-2011-27",
+      "legacy": 27,
+      "apa": "Barjamovic, G. (2011). *A historical geography of Anatolia in the Old Assyrian colony period*. Museum Tusculanum Press.",
+      "categories": [
+        "Historia y arqueología"
+      ]
+    },
+    {
+      "id": "bib-hidalgo-de-la-2008-28",
+      "legacy": 28,
+      "apa": "Hidalgo de la Vega, M. J., Sayas Abengochea, J. J., & Roldán Hervás, J. M. (2008). *Historia de la Grecia antigua* (3.ª reimpresión). Ediciones Universidad de Salamanca. https://books.google.com/books?id=lw8XTUFXelkC",
+      "categories": [
+        "Historia y arqueología"
+      ]
+    },
+    {
+      "id": "bib-josefo-f-2024-29",
+      "legacy": 29,
+      "apa": "Josefo, F. (2024). *Antigüedades judías* (J. Vara Donado, Trad.; 2 vols.). Akal. https://www.casadellibro.com/libro-antiguedades-judias-2-vols/9788446055419/16166201",
+      "categories": [
+        "Textos y fuentes antiguas"
+      ]
+    },
+    {
+      "id": "bib-weeden-2017-tabal",
+      "legacy": 31,
+      "apa": "Weeden, M. (2017). Tabal and the limits of Assyrian imperialism. En Y. Heffron, A. Stone, & M. Worthington (Eds.), *At the dawn of history: Ancient Near Eastern studies in honour of J. N. Postgate* (Vol. 2, pp. 721–736). Eisenbrauns. https://doi.org/10.1515/9781575064741-048",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-kopanias-k-2015-32",
+      "legacy": 32,
+      "apa": "Kopanias, K. (2015). The Mushki/Phrygian problem from the Near Eastern point of view. En N. C. Stampolidis, Ç. Maner, & K. Kopanias (Eds.), *Nostoi: Indigenous culture, migration and integration in the Aegean Islands and Western Anatolia during the Late Bronze and Early Iron Age* (pp. 211–225). Koç University Press. https://www.aegeussociety.org/en/new_book/nostoi-indigenous-culture-migration-and-integration-in-the-aegean-islands-and-western-anatolia-during-the-late-bronze-and-early-iron-age/",
+      "categories": [
+        "Historia y arqueología"
+      ]
+    },
+    {
+      "id": "bib-tiras-1988-33",
+      "legacy": 33,
+      "apa": "Tiras. (1988). En G. W. Bromiley (Ed.), *The International Standard Bible Encyclopedia* (ed. rev., Vol. 4, p. 859). Eerdmans.",
+      "categories": [
+        "Textos y fuentes antiguas"
+      ]
+    },
+    {
+      "id": "bib-kitchen-k-2003-34",
+      "legacy": 34,
+      "apa": "Kitchen, K. A. (2003). *On the reliability of the Old Testament*. Eerdmans.",
+      "categories": [
+        "Historia y arqueología"
+      ]
+    },
+    {
+      "id": "bib-redford-d-2001-35",
+      "legacy": 35,
+      "apa": "Redford, D. B. (Ed.). (2001). *The Oxford encyclopedia of ancient Egypt* (3 vols.). Oxford University Press.",
+      "categories": [
+        "Historia y arqueología"
+      ]
+    },
+    {
+      "id": "bib-glueck-n-1951-36",
+      "legacy": 36,
+      "apa": "Glueck, N. (1951). *Explorations in eastern Palestine: IV* (2 vols.; *Annual of the American Schools of Oriental Research*, vols. 25–28). American Schools of Oriental Research. https://archive.org/details/explorationsinea1949unse",
+      "categories": [
+        "Historia y arqueología"
+      ]
+    },
+    {
+      "id": "bib-jacobsen-1939-sumerian",
+      "legacy": 37,
+      "apa": "Jacobsen, T. (1939). *The Sumerian king list* (Assyriological Studies, 11). University of Chicago Press. https://isac.uchicago.edu/publications/sumerian-king-list",
+      "categories": [
+        "Textos y fuentes antiguas"
+      ]
+    },
+    {
+      "id": "bib-algaze-g-2013-38",
+      "legacy": 38,
+      "apa": "Algaze, G. (2013). The end of prehistory and the Uruk period. En H. Crawford (Ed.), *The Sumerian world* (pp. 68–95). Routledge.",
+      "categories": [
+        "Historia y arqueología"
+      ]
+    },
+    {
+      "id": "bib-clines-d-2026-39",
+      "legacy": 39,
+      "apa": "Clines, D. J. A. (Ed.). (2026). *The concise dictionary of Classical Hebrew revised*. Sheffield Phoenix Press.",
+      "categories": [
+        "Lenguas y lexicografía"
+      ]
+    },
+    {
+      "id": "bib-clines-d-2025-40",
+      "legacy": 40,
+      "apa": "Clines, D. J. A. (Ed.). (2025). *The shorter dictionary of Classical Hebrew revised*. Sheffield Phoenix Press.",
+      "categories": [
+        "Lenguas y lexicografía"
+      ]
+    },
+    {
+      "id": "bib-clines-d-2018-41",
+      "legacy": 41,
+      "apa": "Clines, D. J. A. (Ed.). (2018–). *The dictionary of Classical Hebrew revised* (obra multivolumen en curso). Sheffield Phoenix Press.",
+      "categories": [
+        "Lenguas y lexicografía"
+      ]
+    },
+    {
+      "id": "bib-rechenmacher-h-golinets-2020-42",
+      "legacy": 42,
+      "apa": "Rechenmacher, H., Golinets, V., & Frank, A. (Eds.). (2020–). *Datenbank Althebräische Personennamen (DAHPN)* [Base de datos en línea]. Ludwig-Maximilians-Universität München. https://doi.org/10.24344/bht-dahpn",
+      "categories": [
+        "Lenguas y lexicografía"
+      ]
+    },
+    {
+      "id": "bib-frank-a-2020-43",
+      "legacy": 43,
+      "apa": "Frank, A., & Rechenmacher, H. (2020). *Morphologie, Syntax und Semantik althebräischer Personennamen*. Ludwig-Maximilians-Universität München. https://doi.org/10.5282/ubm/epub.73364",
+      "categories": [
+        "Lenguas y lexicografía"
+      ]
+    },
+    {
+      "id": "bib-hess-r-2009-44",
+      "legacy": 44,
+      "apa": "Hess, R. S. (2009). *Studies in the personal names of Genesis 1–11* (reimpresión de la obra de 1993). Eisenbrauns.",
+      "categories": [
+        "Lenguas y lexicografía"
+      ]
+    },
+    {
+      "id": "bib-koehler-l-baumgartner-1994-45",
+      "legacy": 45,
+      "apa": "Koehler, L., Baumgartner, W., & Stamm, J. J. (1994–2000). *The Hebrew and Aramaic lexicon of the Old Testament* (HALOT, 5 vols.). Brill.",
+      "categories": [
+        "Lenguas y lexicografía"
+      ]
+    },
+    {
+      "id": "bib-hendel-r-2024-46",
+      "legacy": 46,
+      "apa": "Hendel, R. (2024). *Genesis 1–11: A new translation with introduction and commentary* (The Anchor Yale Bible, Vol. 1A). Yale University Press. https://yalebooks.yale.edu/book/9780300149739/genesis-1-11/",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-dewrell-h-2023-47",
+      "legacy": 47,
+      "apa": "Dewrell, H. D., & Garbarino, A. M. (2023). Names of God in the Hebrew Bible. En *Oxford Bibliographies in Biblical Studies*. Oxford University Press. https://doi.org/10.1093/obo/9780195393361-0318",
+      "categories": [
+        "Lenguas y lexicografía"
+      ]
+    },
+    {
+      "id": "bib-hess-r-1992-48",
+      "legacy": 48,
+      "apa": "Hess, R. S. (1992). Nephilim. En D. N. Freedman (Ed.), *The Anchor Bible dictionary* (Vol. 4, pp. 1072–1073). Doubleday.",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-day-2012-giants",
+      "legacy": 49,
+      "apa": "Day, J. (2012). The sons of God and daughters of men and the giants. *Hebrew Bible and Ancient Israel, 1*(4), 427–447.",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-doedens-j-2019-50",
+      "legacy": 50,
+      "apa": "Doedens, J. J. T. (2019). *The sons of God in Genesis 6:1–4: Analysis and history of exegesis*. Brill.",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-routledge-r-2015-51",
+      "legacy": 51,
+      "apa": "Routledge, R. (2015). The Nephilim: A tall story? *Tyndale Bulletin, 66*(1), 19–40.",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-jang-k-e-2025-52",
+      "legacy": 52,
+      "apa": "Jang, K.-E. (2025). The problems of sons of gods, daughters of humans, and the Nephilim in Genesis 6:1–4: A reassessment. *Religions, 16*(8), Article 972. https://doi.org/10.3390/rel16080972",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-embry-2011-noah",
+      "legacy": 53,
+      "apa": "Embry, B. (2011). The “naked narrative” from Noah to Leviticus: Reassessing voyeurism in the account of Noah’s nakedness in Genesis 9:22–24. *Journal for the Study of the Old Testament, 35*(4), 417–433. https://doi.org/10.1177/0309089210386345",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-bergsma-hahn-2005-noah",
+      "legacy": 54,
+      "apa": "Bergsma, J. S., & Hahn, S. W. (2005). Noah’s nakedness and the curse on Canaan (Genesis 9:20–27). *Journal of Biblical Literature, 124*(1), 25–40. https://doi.org/10.2307/30040989",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-alexander-2026-ham",
+      "legacy": 55,
+      "apa": "Alexander, T. D. (2026). Exonerating Ham: An alternative reading of Genesis 9:20–27. *Tyndale Bulletin, 77*, 27–58. https://doi.org/10.53751/001c.155114",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-nissenbaum-a-2004-56",
+      "legacy": 56,
+      "apa": "Nissenbaum, A. (2004). “…and the vale of Siddim was full of slime [= bitumen, asphalt?] pits” (Genesis 14:10). *Geochemical Society Special Publications, 9*(C), 359–364. https://doi.org/10.1016/S1873-9881(04)80025-7",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-van-seters-j-1968-57",
+      "legacy": 57,
+      "apa": "Van Seters, J. (1968). The problem of childlessness in Near Eastern law and the patriarchs of Israel. *Journal of Biblical Literature, 87*(4), 401–408. https://doi.org/10.2307/3263301",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-westbrook-r-1988-58",
+      "legacy": 58,
+      "apa": "Westbrook, R. (1988). *Old Babylonian marriage law* (Archiv für Orientforschung, Beiheft 23). Berger & Söhne.",
+      "categories": [
+        "Cultura y naturaleza"
+      ]
+    },
+    {
+      "id": "bib-white-k-2014-59",
+      "legacy": 59,
+      "apa": "White, K. (2014). The legal status of barren wives in the ancient Near East. *Priscilla Papers, 28*(4), 18–22.",
+      "categories": [
+        "Cultura y naturaleza"
+      ]
+    },
+    {
+      "id": "bib-yoo-p-2016-60",
+      "legacy": 60,
+      "apa": "Yoo, P. Y. (2016). Hagar the Egyptian: Wife, handmaid, and concubine. *The Catholic Biblical Quarterly, 78*(2), 215–235.",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-onwukwe-v-2022-61",
+      "legacy": 61,
+      "apa": "Onwukwe, V. C. (2022). Looking into Sarah’s eyes: The meaning of מְצַחֵק in Genesis 21.9. *The Bible Translator, 73*(1), 89–103. https://doi.org/10.1177/20516770211066930",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-kalimi-i-1990-62",
+      "legacy": 62,
+      "apa": "Kalimi, I. (1990). The land of Moriah, Mount Moriah, and the site of Solomon’s Temple in biblical historiography. *Harvard Theological Review, 83*(4), 345–362. https://doi.org/10.1017/S001781600002383X",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-westbrook-r-1971-63",
+      "legacy": 63,
+      "apa": "Westbrook, R. (1971). Purchase of the cave of Machpelah. *Israel Law Review, 6*(1), 29–38. https://doi.org/10.1017/S002122370000282X",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-jacobsen-l-2014-64",
+      "legacy": 64,
+      "apa": "Jacobsen, L. (2014). A mother’s legal authority over her offspring’s marriage in the ancient Near East and the Bible. En C. Hayes & A. Israel-Vleeschhouwer (Eds.), *Jewish law and its interaction with other legal systems* (Jewish Law Association Studies, Vol. 25, pp. 51–104). Deborah Charles Publications.",
+      "categories": [
+        "Cultura y naturaleza"
+      ]
+    },
+    {
+      "id": "bib-lorenzen-s-2024-65",
+      "legacy": 65,
+      "apa": "Lorenzen, S. (2024). Pursuing partners: Traveling for marital partners in the Hebrew Bible. *Religions, 15*(3), Article 324. https://doi.org/10.3390/rel15030324",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-ugwuewo-c-2024-66",
+      "legacy": 66,
+      "apa": "Ugwuewo, C. S., Obiorah, M. J., & Odo, D. O. (2024). Re-reading Genesis 24:55b–60 in the context of marriage by proxy in Awkunanaw, Enugu State. *Verbum et Ecclesia, 45*(1), a3256. https://doi.org/10.4102/ve.v45i1.3256",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-biga-m-2021-67",
+      "legacy": 67,
+      "apa": "Biga, M. G. (2021). The veil in ancient Near Eastern religions and cultures: Some remarks. En R. Del Fabbro, F. M. Fales, & H. D. Galter (Eds.), *Headscarf and veiling: Glimpses from Sumer to Islam* (pp. 73–88). Edizioni Ca’ Foscari. https://doi.org/10.30687/978-88-6969-521-6/005",
+      "categories": [
+        "Cultura y naturaleza"
+      ]
+    },
+    {
+      "id": "bib-lemos-t-2010-68",
+      "legacy": 68,
+      "apa": "Lemos, T. M. (2010). *Marriage gifts and social change in ancient Palestine: 1200 BCE to 200 CE*. Cambridge University Press. https://doi.org/10.1017/CBO9780511750564",
+      "categories": [
+        "Cultura y naturaleza"
+      ]
+    },
+    {
+      "id": "bib-day-j-2013-69",
+      "legacy": 69,
+      "apa": "Day, J. (2013). *From creation to Babel: Studies in Genesis 1–11*. T&T Clark.",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-rey-j-s-2017-70",
+      "legacy": 70,
+      "apa": "Rey, J.-S. (2017). In the garden of good and evil: Reimagining a tradition (Sir 17:1–14, 4Q303, 4QInstruction, 1QS 4:25–26, and 1QSa 1:10–11). En A. Feldman, M. Cioată, & C. Hempel (Eds.), *Is there a text in this cave? Studies in the textuality of the Dead Sea Scrolls in honour of George J. Brooke* (pp. 473–492). Brill. https://doi.org/10.1163/9789004344532_027",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-ryken-l-wilhoit-1998-71",
+      "legacy": 71,
+      "apa": "Ryken, L., Wilhoit, J. C., & Longman, T., III (Eds.). (1998). *Dictionary of biblical imagery*. InterVarsity Press.",
+      "categories": [
+        "Estudios bíblicos"
+      ]
+    },
+    {
+      "id": "bib-ivantchik-2018-scythians",
+      "legacy": 72,
+      "apa": "Ivantchik, A. (2018). Scythians I. History. *Encyclopaedia Iranica*. https://www.iranicaonline.org/articles/scythians/scythians-i-history/",
+      "categories": [
+        "Historia y arqueología"
+      ]
+    },
+    {
+      "id": "bib-zadok-2018-iskuza",
+      "legacy": 73,
+      "apa": "Zadok, R. (2018). Iškūz(a). *ARAMAZD: Armenian Journal of Near Eastern Studies, 12*(2), 49–59. https://doi.org/10.32028/ajnes.v12i2.903",
+      "categories": [
+        "Historia y arqueología"
+      ]
+    }
+  ]
+}
