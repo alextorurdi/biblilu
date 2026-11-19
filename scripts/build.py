@@ -538,4 +538,41 @@ if _note_anchor not in _music_html:raise RuntimeError('No se encontró el texto 
 _music_html=_music_html.replace(_note_anchor,_KINNOR_LINK+'<em>Kinnor</em></a> y '+_UGAB_LINK+'<em>ugab</em></a>, instrumentos musicales hebreos.',1)
 _music_scene.write_text(_music_html,encoding='utf-8')
 
+# Enlaces aprobados a las unidades bíblicas sin alterar la RVR60 ni las notas.
+# Las escenas revisadas se restauran antes de aplicar estos cambios.
+_SCENE_MEASURE_REFS={
+ '6':{(6,15),(6,16),(7,20)},
+ '18':{(18,6)}
+}
+_MEASURE_CODO_LINK='<a class="term medidas" data-entry="medidas/codo" href="../../apendices/medidas/codo/index.html">'
+_MEASURE_SEA_LINK='<a class="term medidas" data-entry="medidas/sea" href="../../apendices/medidas/sea/index.html">'
+for _scene,_target_verses in _SCENE_MEASURE_REFS.items():
+ _measure_file=OUT/'genesis'/_scene/'index.html'
+ if not _measure_file.exists():raise RuntimeError('Escena de unidades no encontrada: '+_scene)
+ _measure_html=_measure_file.read_text(encoding='utf-8')
+ _measure_seen=set()
+ def _wrap_measure_verse(_match):
+  _key=(int(_match[1]),int(_match[2]))
+  if _key not in _target_verses:return _match[0]
+  _tokens=re.split(r'(<[^>]+>)',_match[0])
+  _found=0
+  for _i in range(0,len(_tokens),2):
+   if _scene=='6':
+    _tokens[_i],_n=re.subn(r'\bcodos?\b',lambda _w:_MEASURE_CODO_LINK+_w[0]+'</a>',_tokens[_i],flags=re.I)
+   else:
+    _tokens[_i],_n=re.subn(r'\btres medidas\b',lambda _w:_MEASURE_SEA_LINK+_w[0]+'</a>',_tokens[_i],flags=re.I)
+   _found+=_n
+  if not _found:raise RuntimeError(f'Unidad no localizada en Gn {_key[0]}:{_key[1]}')
+  _measure_seen.add(_key)
+  return ''.join(_tokens)
+ _measure_html=re.sub(r'<p class="verse" id="gn-(\d+)-(\d+)"[^>]*>.*?</p>',_wrap_measure_verse,_measure_html,flags=re.S)
+ if _measure_seen!=_target_verses:raise RuntimeError(f'Versículos de medidas sin encontrar en escena {_scene}: {_target_verses-_measure_seen}')
+ if _scene=='6':
+  # Enlazar el codo en la nota 60 conservando íntegra la explicación.
+  _note=re.search(r'<li id="fn-60">.*?</li>',_measure_html,flags=re.S)
+  if not _note or '1 codo = 45 cm' not in _note[0]:raise RuntimeError('Nota 60 no encontrada para enlazar Codo')
+  _updated_note=_note[0].replace('1 codo = 45 cm','1 '+_MEASURE_CODO_LINK+'codo</a> = 45 cm',1)
+  _measure_html=_measure_html[:_note.start()]+_updated_note+_measure_html[_note.end():]
+ _measure_file.write_text(_measure_html,encoding='utf-8')
+
 print('Plantillas temáticas BIBLILU v. 0.1 restauradas.')
