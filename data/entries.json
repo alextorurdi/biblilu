@@ -4754,5 +4754,13 @@
     "name": "Asno montés",
     "title": "Asno montés (*pereʾ*)",
     "body": "Ver Onagro."
+  },
+  {
+    "id": "objetos/puerta",
+    "category": "objetos",
+    "name": "Puerta",
+    "title": "Puerta (šaʿar / petaḥ / delet)",
+    "text": "Puerta (šaʿar / petaḥ / delet). Entrada o acceso de una vivienda, recinto o ciudad; también símbolo bíblico de autoridad, justicia, protección y salvación.",
+    "body": "Entrada o acceso de una vivienda, recinto o ciudad; también símbolo bíblico de autoridad, justicia, protección y salvación."
   }
 ]
