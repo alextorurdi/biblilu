@@ -321,6 +321,17 @@ for cat,(name,desc) in C.items():
 def body_with_genealogy(e):
  body=entrybody(e,'../../../')
  if e['category']=='objetos':
+  # Insertar figuras documentadas en su posición editorial dentro del texto.
+  for illustration in OBJECT_REVISION.get('inline_images',{}).get(e['id'],[]):
+   anchor='<p>'+H(illustration['after'])+'</p>'
+   if anchor not in body:raise RuntimeError('No se encontró párrafo para imagen en '+e['id'])
+   image_url='../../../assets/'+quote(illustration['asset'])
+   fig=(
+    '<figure class="object-inline-figure"><a href="'+H(image_url)+'" target="_blank" rel="noopener noreferrer" aria-label="Ampliar esquema de '+H(e['name'])+'">'
+    +'<img src="'+H(image_url)+'" alt="'+H(illustration['alt'])+'" loading="lazy" decoding="async"></a>'
+    +'<figcaption>'+H(illustration['caption'])+'</figcaption></figure>'
+   )
+   body=body.replace(anchor,anchor+fig,1)
   related=[byid[i] for i in OBJECT_REVISION.get('related',{}).get(e['id'],[]) if i in byid]
   if related:
    links=''.join('<a href="../../../apendices/'+H(item['id'])+'/index.html">'+H(item['name'])+'</a>' for item in related)
