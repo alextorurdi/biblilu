@@ -109,13 +109,16 @@ assert scene_5.index('diluvio-arcoiris.webp') < scene_5.index('id="gn-9-1"') < s
 assert 'id="fn-66"' in scene_5 and 'id="fn-67"' in scene_5
 assert '<a href="6/index.html#gn-9-1">' in (SITE/'genesis/index.html').read_text(encoding='utf-8')
 
-# Bibliografía de Génesis 9:25: correspondencia entre la nota 67 y las fuentes.
-_bib=json.loads((ROOT/'data/bibliography.json').read_text(encoding='utf-8'))
-assert len(_bib)==68
+# Bibliografía de Génesis 9:25: identificadores permanentes y alias históricos.
+_bib=json.loads((ROOT/'data/bibliography_apa7.json').read_text(encoding='utf-8'))['entries']
+assert len(_bib)==69
 for _n,_name in ((53,'Embry'),(54,'Bergsma'),(55,'Alexander')):
- assert _name in _bib[_n-1]
- assert f'href="../../bibliografia/index.html#ref-{_n}"' in scene_5
- assert f'id="ref-{_n}"' in (SITE/'bibliografia/index.html').read_text(encoding='utf-8')
+ _ref=next(x for x in _bib if x['legacy']==_n)
+ assert _name in _ref['apa']
+ assert f'href="../../bibliografia/index.html#{_ref["id"]}"' in scene_5
+ _page=(SITE/'bibliografia/index.html').read_text(encoding='utf-8')
+ assert f'id="{_ref["id"]}"' in _page
+ assert f'id="ref-{_n}"' in _page
 assert 'id="fn-67"' in scene_5
 
 # Escena 6: texto de Gn 10, notas consecutivas y cartografía con árboles genealógicos.
