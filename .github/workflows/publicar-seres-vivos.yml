@@ -48,8 +48,8 @@ jobs:
           assert '<h2>En la lectura disponible</h2>' not in abimelec;
           assert 'genesis/20/index.html#gn-20-1' in abimelec;
           assert 'Gn 26:1-11' in abimelec;
-          serpent=(root/'animales/serpiente/index.html').read_text(encoding='utf-8');
-          assert '<h2>En la lectura disponible</h2>' in serpent"
+          mamre=(root/'lugares/mamre/index.html').read_text(encoding='utf-8');
+          assert '<h2>En la lectura disponible</h2>' in mamre"
       - name: Publicar ficheros estáticos
         run: |
           git config user.name "github-actions[bot]"
