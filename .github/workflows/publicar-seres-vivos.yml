@@ -4,6 +4,11 @@ on:
     branches: [main]
     paths:
       - 'data/entries.json'
+      - 'data/tribus_nuevas.json'
+      - 'assets/atlas/**'
+      - 'assets/app.js'
+      - 'scripts/build_atlas.py'
+      - 'scripts/check_atlas.py'
       - 'data/materiales_revision.json'
       - 'data/objetos_revision.json'
       - 'data/instrumentos_revision.json'
@@ -101,11 +106,16 @@ jobs:
           assert s.count('class=\"measure-index-mark\"') == 3;
           assert s.count('aria-label=\"Regla: unidad de medida\"') == 3;
           assert all('href=\"'+item+'/index.html\"' in s for item in ['codo','sea','siclo'])"
+      - name: Comprobar Atlas de Pueblos
+        run: |
+          python3 scripts/check_atlas.py
+          node --check assets/atlas/visor.js
+          node --check assets/app.js
       - name: Publicar ficheros estáticos
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/apendices docs/assets/entries.json docs/assets/instrumentos-kinnor.svg docs/assets/instrumentos-ugab.svg docs/bibliografia/index.html docs/assets/style.css docs/index.html docs/genesis/2/index.html docs/genesis/4/index.html docs/genesis/6/index.html docs/genesis/11/index.html docs/genesis/18/index.html docs/genesis/20/index.html docs/genesis/24/index.html
+          git add docs/apendices docs/assets/atlas docs/assets/app.js docs/assets/entries.json docs/assets/instrumentos-kinnor.svg docs/assets/instrumentos-ugab.svg docs/bibliografia/index.html docs/assets/style.css docs/index.html docs/genesis/2/index.html docs/genesis/4/index.html docs/genesis/6/index.html docs/genesis/11/index.html docs/genesis/18/index.html docs/genesis/20/index.html docs/genesis/24/index.html
           git rm -f --ignore-unmatch docs/apendices/animales/legumbres/index.html
           if ! git diff --cached --quiet; then
             git commit -m "Publicar reorganización de los apéndices de BIBLILU"
