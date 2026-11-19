@@ -71,6 +71,7 @@ def css_in_head(s,depth):
  return s.replace('</head>',tag+'</head>',1)
 # Fichas existentes: mantener su texto intacto, y añadir navegación y títulos
 # normalizados. Sus reformulaciones editoriales pendientes se publican aparte.
+template=(AP/'tribus/amonitas/index.html').read_text(encoding='utf-8')
 for e in OLD:
  slug=e['id'].split('/')[1]
  name,trans=TITLES[slug]
@@ -82,7 +83,6 @@ for e in OLD:
  file.write_text(s,encoding='utf-8')
 
 # Crear las tres fichas nuevas, partiendo de la misma plantilla de Tribus.
-template=(AP/'tribus/amonitas/index.html').read_text(encoding='utf-8')
 for e in NEW:
  slug=e['id'].split('/')[1]
  name,trans=TITLES[slug]
@@ -91,6 +91,7 @@ for e in NEW:
  s=re.sub(r'<div class="entry-body tribus">.*?</div>',lambda _: '<div class="entry-body tribus">'+render_markdown(e['body'])+'</div>',s,count=1,flags=re.S)
  s=re.sub(r'<div class="backlinks">.*?</div>', '', s, flags=re.S)
  s=add_panel(s,e['id'])
+ s=css_in_head(s,'../../../')
  (AP/'tribus'/slug).mkdir(parents=True,exist_ok=True)
  (AP/'tribus'/slug/'index.html').write_text(s,encoding='utf-8')
 
