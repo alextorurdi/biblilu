@@ -39,17 +39,17 @@
   },
   "images": {
     "instrumentos/kinnor": {
-      "local": "instrumentos.svg",
-      "alt": "Representación esquemática de una lira antigua (kinnor), junto con el instrumento ugab.",
-      "caption": "Kinnor y ugab, ilustración esquemática utilizada también en la escena Crueldad (Gn 4:21). No son reproducciones arqueológicas exactas.",
+      "local": "instrumentos-kinnor.svg",
+      "alt": "Ilustración recortada de la lira kinnor, con dos brazos, cuerdas y caja de resonancia.",
+      "caption": "Kinnor, recorte de la ilustración original de la escena Crueldad (Gn 4:21). Representación orientativa.",
       "author": "BIBLILU",
       "license": "Ilustración del proyecto",
       "source": "../../../genesis/4/index.html#gn-4-21"
     },
     "instrumentos/ugab": {
-      "local": "instrumentos.svg",
-      "alt": "Representación esquemática del ugab como instrumento de viento, junto con el kinnor.",
-      "caption": "Kinnor y ugab, ilustración esquemática utilizada también en la escena Crueldad (Gn 4:21). La forma exacta del ugab es incierta.",
+      "local": "instrumentos-ugab.svg",
+      "alt": "Ilustración recortada de un instrumento de viento identificado hipotéticamente como ugab.",
+      "caption": "Ugab, recorte de la ilustración original de la escena Crueldad (Gn 4:21). Su identificación exacta es incierta.",
       "author": "BIBLILU",
       "license": "Ilustración del proyecto",
       "source": "../../../genesis/4/index.html#gn-4-21"
