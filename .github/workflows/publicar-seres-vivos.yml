@@ -12,6 +12,9 @@ on:
       - 'editorial/approved-pages/**'
       - '.github/workflows/publicar-seres-vivos.yml'
   workflow_dispatch:
+concurrency:
+  group: publicar-apendices-main
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -29,7 +32,11 @@ jobs:
       - name: Comprobar fichas de Objetos y símbolos
         run: python3 -c "from pathlib import Path; p=Path('docs/apendices/objetos'); assert len(list(p.glob('*/index.html'))) == 7; assert all('object-photo' in q.read_text() for q in p.glob('*/index.html')); assert 'object-index-mark' in (p/'index.html').read_text()"
       - name: Comprobar ausencia de menciones duplicadas
-        run: python3 -c "from pathlib import Path; pages=list(Path('docs/apendices').glob('*/*/index.html')); duplicated=[str(p) for p in pages if '<h2>Referencias</h2>' in p.read_text(encoding='utf-8') and '<h2>Menciones bíblicas</h2>' in p.read_text(encoding='utf-8')]; assert not duplicated, 'Apartados de referencias duplicados: '+', '.join(duplicated)"
+        run: >-
+          python3 -c "from pathlib import Path;
+          pages=list(Path('docs/apendices').glob('*/*/index.html'));
+          duplicated=[str(p) for p in pages if '<h2>Referencias</h2>' in p.read_text(encoding='utf-8') and '<h2>Menciones bíblicas</h2>' in p.read_text(encoding='utf-8')];
+          assert not duplicated, 'Apartados de referencias duplicados: '+', '.join(duplicated)"
       - name: Publicar ficheros estáticos
         run: |
           git config user.name "github-actions[bot]"
