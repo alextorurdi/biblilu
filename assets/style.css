@@ -436,3 +436,10 @@
 .object-index-mark svg{display:block;flex-shrink:0}
 /* Conservar el rojo editorial en enlaces insertados dentro de palabras divinas. */
 .divine .term.objetos,.speech .divine .term.objetos{color:inherit}
+
+/* Esquemas explicativos insertados dentro de las fichas de Objetos. */
+.object-inline-figure{max-width:720px;margin:24px 0 28px}
+.object-inline-figure a{display:block;max-width:100%;width:fit-content}
+.object-inline-figure a:focus-visible{outline:3px solid var(--objetos);outline-offset:3px}
+.object-inline-figure img{display:block;width:100%;height:auto;border-radius:8px;background:#f5f3eb;border:1px solid var(--line)}
+.object-inline-figure figcaption{margin:9px 0 0;color:var(--muted);font:400 13px/1.55 Arial,Helvetica,sans-serif}
