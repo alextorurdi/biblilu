@@ -495,4 +495,21 @@ for _scene,_target_verses in _SCENE_PUERTA_REFS.items():
   _html=_html[:_note.start()]+_note[0].replace('La «puerta»','La «'+_PUERTA_LINK+'puerta</a>»',1)+_html[_note.end():]
  _file.write_text(_html,encoding='utf-8')
 
+# Conservar el texto bíblico RVR60 y enlazar los nombres traducidos y la nota 36.
+# Aplicar después de restaurar la versión editorial de «Crueldad».
+_music_scene=OUT/'genesis/4/index.html'
+_music_html=_music_scene.read_text(encoding='utf-8')
+_KINNOR_LINK='<a class="term instrumentos" data-entry="instrumentos/kinnor" href="../../apendices/instrumentos/kinnor/index.html">'
+_UGAB_LINK='<a class="term instrumentos" data-entry="instrumentos/ugab" href="../../apendices/instrumentos/ugab/index.html">'
+def _music_verse_links(_m):
+ original=_m[0]
+ if 'arpa y flauta' not in original:raise RuntimeError('No se encontró la traducción arpa y flauta en Génesis 4:21')
+ return original.replace('arpa y flauta',_KINNOR_LINK+'arpa</a> y '+_UGAB_LINK+'flauta</a>',1)
+_music_html,count=re.subn(r'<p class="verse" id="gn-4-21"[^>]*>.*?</p>',_music_verse_links,_music_html,count=1,flags=re.S)
+if count!=1:raise RuntimeError('No se encontró el versículo Génesis 4:21 para enlazar instrumentos')
+_note_anchor='<em>Kinnor</em> y <em>ugab</em>, instrumentos musicales hebreos.'
+if _note_anchor not in _music_html:raise RuntimeError('No se encontró el texto aprobado de la nota 36')
+_music_html=_music_html.replace(_note_anchor,_KINNOR_LINK+'<em>Kinnor</em></a> y '+_UGAB_LINK+'<em>ugab</em></a>, instrumentos musicales hebreos.',1)
+_music_scene.write_text(_music_html,encoding='utf-8')
+
 print('Plantillas temáticas BIBLILU v. 0.1 restauradas.')
