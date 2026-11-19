@@ -75,3 +75,21 @@
 .appendix-card.tribus .appendix-card-main h3 svg{vertical-align:middle;color:var(--tribus);margin-right:5px}
 .appendix-card.tribus .appendix-tree-link{background:#6543a00a}
 .appendix-card.tribus .appendix-tree-link:hover{background:#6543a017}
+
+/* Relieve geográfico realista (mantiene el SVG interactivo como capa superior). */
+.atlas-relief{pointer-events:none;image-rendering:auto}
+.atlas-grid path{stroke:#fef9ec;stroke-width:1;stroke-dasharray:3 6;opacity:.3;vector-effect:non-scaling-stroke}
+.atlas-geolabels text{paint-order:stroke;stroke:#faf7f0;stroke-width:2.8;stroke-opacity:.7;stroke-linejoin:round;stroke-linecap:round}
+.atlas-label{fill:#656253;opacity:.78}
+.atlas-sea-label{fill:#356b82;opacity:.75;stroke:#d4e9ef!important}
+.atlas-territory{fill:#7754b1;fill-opacity:.065;stroke:#6543a0;stroke-opacity:.82;stroke-width:1.8}
+.atlas-aproximada .atlas-territory{fill-opacity:.1;stroke-dasharray:3 4}
+.atlas-difusa .atlas-territory{fill-opacity:.045;stroke-dasharray:8 7}
+.atlas-has-selection .atlas-feature:not(.active){opacity:.17}
+.atlas-feature.active .atlas-territory{fill:#7453ac;fill-opacity:.29;stroke:#4c2388;stroke-width:3}
+.atlas-feature:hover .atlas-territory{fill-opacity:.31}
+.atlas-point-ring{fill:#f4e9ff;fill-opacity:.72}
+.atlas-places{visibility:hidden;pointer-events:none}
+.atlas-show-details .atlas-places{visibility:visible}
+.atlas-place-dot{fill:#534437;stroke:#fffdf4;stroke-width:1.2;vector-effect:non-scaling-stroke}
+.atlas-place-name{fill:#303a36;font-family:Arial,Helvetica,sans-serif;font-weight:600;paint-order:stroke;stroke:#fff9ed;stroke-width:2.7;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}
