@@ -6,12 +6,18 @@ E=json.loads((ROOT/'data/entries.json').read_text());V=json.loads((ROOT/'data/ge
 # Las revisiones aprobadas de Materiales se aplican sobre el catálogo de origen
 # antes de generar las páginas y el índice de búsqueda.
 MATERIAL_REVISION=json.loads((ROOT/'data/materiales_revision.json').read_text(encoding='utf-8'))
+OBJECT_REVISION=json.loads((ROOT/'data/objetos_revision.json').read_text(encoding='utf-8'))
 for _entry in E:
  _eid=_entry['id']
  if _eid in MATERIAL_REVISION['titles']:
   _entry['title']=MATERIAL_REVISION['titles'][_eid]
  if _eid in MATERIAL_REVISION['revised']:
   _entry.update(MATERIAL_REVISION['revised'][_eid])
+  _entry['text']=_entry['title']+'. '+_entry['body']
+ if _eid in OBJECT_REVISION['titles']:
+  _entry['title']=OBJECT_REVISION['titles'][_eid]
+ if _eid in OBJECT_REVISION['revised']:
+  _entry.update(OBJECT_REVISION['revised'][_eid])
   _entry['text']=_entry['title']+'. '+_entry['body']
 H=html.escape
 GENEALOGY_LINKS=json.loads((ROOT/'assets/genealogias/enlaces.json').read_text(encoding='utf-8'))
@@ -63,7 +69,7 @@ def rel(path):return '../'*len(Path(path).parent.parts) if str(Path(path).parent
 def page(path,title,body,kind=''):
  pre=rel(path);p=OUT/path;p.parent.mkdir(parents=True,exist_ok=True)
  # Versionado del CSS para evitar estilos antiguos cacheados en el índice de Seres Vivos.
- css_version='?v=seres-vivos-index-20261118-2' if str(path)=='apendices/animales/index.html' else '?v=materiales-lingotes-20261118' if str(path)=='apendices/materiales/index.html' else ''
+ css_version='?v=seres-vivos-index-20261118-2' if str(path)=='apendices/animales/index.html' else '?v=materiales-lingotes-20261118' if str(path)=='apendices/materiales/index.html' else '?v=objetos-revision-20261119' if str(path).startswith('apendices/objetos/') else ''
  p.write_text(f'''<!doctype html><html lang="es-ES"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="BIBLILU: una Biblia ilustrada para leer, descubrir y explorar. Génesis y sus apéndices."><title>{H(title)} · BIBLILU</title><link rel="icon" href="{pre}assets/favicon.svg"><link rel="stylesheet" href="{pre}assets/style.css{css_version}"><script src="{pre}assets/app.js" defer></script></head><body data-base="{pre}" class="{kind}"><a class="skip" href="#contenido">Saltar al contenido</a><header class="header"><a class="brand" href="{pre}index.html">BIBLILU<span>LA BIBLIA ILUSTRADA</span></a><nav aria-label="Principal"><a href="{pre}index.html#libros">Los libros</a><a href="{pre}apendices/index.html">Apéndices</a><a href="{pre}bibliografia/index.html">Bibliografía</a></nav></header><main id="contenido">{body}</main><footer><a class="brand" href="{pre}index.html">BIBLILU</a><p>Una lectura que también se contempla.</p><a href="{pre}sobre/index.html">Sobre el proyecto y créditos</a><span>Español · RVR 1960</span></footer><dialog id="entry-dialog" aria-labelledby="dialog-title"><button class="close" aria-label="Cerrar ficha">×</button><div id="dialog-content"></div></dialog></body></html>''',encoding='utf-8')
 def onomastic_card(pre):
  return f'<div class="appendix-card onomastico appendix-card-family"><a class="appendix-card-main" href="{pre}apendices/onomastico/index.html"><span class="dot"></span><h3>Onomástico</h3><p>Personas y relaciones familiares</p><span aria-hidden="true">↗</span></a><a class="appendix-tree-link" href="{pre}apendices/genealogias/index.html">Árboles genealógicos <span aria-hidden="true">↗</span></a></div>'
@@ -116,10 +122,11 @@ def heading_title(e):
 
 def living_index_title(e):
  title=heading_title(e)
- if e['category']=='materiales':
+ if e['category'] in ('materiales','objetos'):
   if ' (' in title and title.endswith(')'):
    name,term=title.rsplit(' (',1)
-   return name+' <small class="material-index-original"><em>'+term[:-1]+'</em></small>'
+   css='material-index-original' if e['category']=='materiales' else 'object-index-original'
+   return name+' <small class="'+css+'"><em>'+term[:-1]+'</em></small>'
  # El subtítulo "ser sobrenatural" es editorial, no una forma hebrea.
  if e['category']!='animales' or e['id']=='animales/serpiente':
   return title
@@ -130,10 +137,11 @@ def living_index_title(e):
 
 def entry_heading_title(e):
  title=heading_title(e)
- if e['category']=='materiales':
+ if e['category'] in ('materiales','objetos'):
   if ' (' in title and title.endswith(')'):
    name,term=title.rsplit(' (',1)
-   return name+'<span class="material-title-secondary">'+term[:-1]+'</span>'
+   css='material-title-secondary' if e['category']=='materiales' else 'object-title-secondary'
+   return name+'<span class="'+css+'">'+term[:-1]+'</span>'
  if e['category']!='animales':
   return title
  parts=re.fullmatch(r'(.+?)\s+(\(.*\))',title)
@@ -163,9 +171,23 @@ def material_figure(e):
   +'</a><figcaption>'+caption+' · <a href="'+H(source_url)+'" target="_blank" rel="noopener noreferrer">Fuente y licencia</a></figcaption></figure>'
  )
 
+def object_figure(e):
+ if e['category']!='objetos':return ''
+ photo=OBJECT_REVISION.get('images',{}).get(e['id'])
+ if not photo:return ''
+ image_url='../../../assets/'+quote(photo['local']) if 'local' in photo else 'https://commons.wikimedia.org/wiki/Special:FilePath/'+quote(photo['file'])
+ source_url=photo['source']
+ caption=H(photo['caption'])+' · '+H(photo['author'])+' · '+H(photo['license'])
+ return (
+  '<figure class="object-photo">'
+  +'<a class="object-photo-view" href="'+H(source_url)+'" aria-label="Ver fuente y licencia de '+H(e['name'])+'"' + (' target="_blank" rel="noopener noreferrer"' if source_url.startswith('http') else '') + '>'
+  +'<img src="'+H(image_url)+'" alt="'+H(photo['alt'])+'" loading="lazy" decoding="async">'
+  +'</a><figcaption>'+caption+' · <a href="'+H(source_url)+'"'+(' target="_blank" rel="noopener noreferrer"' if source_url.startswith('http') else '')+'>Fuente y licencia</a></figcaption></figure>'
+ )
+
 def entrybody(e,pre):
  raw=e['body']
- if e['category'] in ('animales','materiales') and (raw.startswith('Ver ') or '\n### ' in raw):
+ if e['category'] in ('animales','materiales','objetos') and (raw.startswith('Ver ') or '\n### ' in raw):
   def inline(v):
    v=H(v)
    v=re.sub(r'\*\*([^*]+)\*\*',r'<strong>\1</strong>',v)
@@ -272,6 +294,9 @@ for cat,(name,desc) in C.items():
    # Tres lingotes en pirámide (uno arriba, dos abajo), con el color del apéndice.
    ingots='<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 3.5h4l2.5 6.5h-9L10 3.5Z"/><path d="M4.5 12.5h4l2.5 7h-9l2.5-7Z"/><path d="M15.5 12.5h4l2.5 7h-9l2.5-7Z"/></svg>'
    suffix='<span class="entry-row-tail"><span class="material-index-mark" role="img" aria-label="Ficha con fotografía" title="Ficha con fotografía">'+ingots+'</span><span>↗</span></span>'
+  elif cat=='objetos' and e['id'] in OBJECT_REVISION.get('images',{}):
+   glyph='<svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9" r="1.6"/><path d="m5.5 17 4.5-4 3 2 3.5-4 3 4"/></svg>'
+   suffix='<span class="entry-row-tail"><span class="object-index-mark" role="img" aria-label="Ficha ilustrada" title="Ficha con imagen">'+glyph+'</span><span>↗</span></span>'
   elif cat=='animales':
    kind=SERES_VIVOS_TYPES[e['id']]
    glyph=SERES_VIVOS_ICONS[kind]
@@ -295,6 +320,12 @@ for cat,(name,desc) in C.items():
  page(f'apendices/{cat}/index.html',name,f'<section class="section directory"><p class="crumb"><a href="../index.html">Apéndices</a> / {name}</p><p class="eyebrow">{len(entries)} {count_label.upper()}</p><h1 class="{cat}">{name}</h1><p class="intro">{intro}</p>{family_link}<label class="search-label" for="entry-search">Buscar en este apéndice</label><input id="entry-search" type="search" placeholder="Escribe un nombre o término…"><p id="result-count" role="status">{len(entries)} {count_label}</p><div class="entry-list">{listing}</div></section>')
 def body_with_genealogy(e):
  body=entrybody(e,'../../../')
+ if e['category']=='objetos':
+  related=[byid[i] for i in OBJECT_REVISION.get('related',{}).get(e['id'],[]) if i in byid]
+  if related:
+   links=''.join('<a href="../../../apendices/'+H(item['id'])+'/index.html">'+H(item['name'])+'</a>' for item in related)
+   body+='<nav class="object-related" aria-label="Fichas relacionadas"><strong>Fichas relacionadas</strong><div class="object-related-links">'+links+'</div></nav>'
+  return body
  if e['category']=='materiales':
   related=[byid[i] for i in MATERIAL_REVISION['related'].get(e['id'],[]) if i in byid]
   if related:
@@ -344,7 +375,7 @@ for e in E:
   if f'data-entry="{e["id"]}"' in rendered:mentions.append(f'<a href="../../../genesis/{scene_path_for(v)}/index.html#gn-{v["chapter"]}-{v["verse"]}">Gn {v["chapter"]}:{v["verse"]}</a>')
  backlinks='<div class="backlinks"><h2>En la lectura disponible</h2>'+ ' · '.join(mentions)+'</div>' if mentions else ''
  biblical_mentions='<div class="backlinks"><h2>Menciones bíblicas</h2><p>'+ ' · '.join(H(r) for r in e.get('mentions',[]))+'</p></div>' if e.get('mentions') else ''
- page(f'apendices/{e["id"]}/index.html',e['title'],f'<article class="section entry"><p class="crumb"><a href="../../index.html">Apéndices</a> / <a href="../index.html">{C[cat][0]}</a></p><p class="eyebrow {cat}">{C[cat][0]}</p><h1>{entry_heading_title(e)}</h1>{chron}<div class="entry-body {cat}">{species_figure(e)}{material_figure(e)}{body_with_genealogy(e)}</div>{backlinks}{biblical_mentions}</article>')
+ page(f'apendices/{e["id"]}/index.html',e['title'],f'<article class="section entry"><p class="crumb"><a href="../../index.html">Apéndices</a> / <a href="../index.html">{C[cat][0]}</a></p><p class="eyebrow {cat}">{C[cat][0]}</p><h1>{entry_heading_title(e)}</h1>{chron}<div class="entry-body {cat}">{species_figure(e)}{material_figure(e)}{object_figure(e)}{body_with_genealogy(e)}</div>{backlinks}{biblical_mentions}</article>')
 page('bibliografia/index.html','Bibliografía','<section class="section bibliography"><p class="eyebrow">LAS FUENTES</p><h1>Bibliografía</h1><p class="intro">Obras y recursos que acompañan los apéndices de BIBLILU.</p><ol>'+''.join(f'<li id="ref-{i+1}">{H(b)}</li>' for i,b in enumerate(B))+'</ol></section>')
 page('sobre/index.html','Sobre BIBLILU','''<section class="section entry"><p class="eyebrow">EL PROYECTO</p><h1>Leer. Mirar. Descubrir.</h1><p class="intro">BIBLILU es una edición ilustrada de la Biblia que conecta cada relato con sus personajes, lugares y referencias.</p><h2>Una publicación en marcha</h2><p>Esta entrega contiene Génesis 1–15. Los demás capítulos y libros se incorporarán progresivamente.</p><h2>Texto e ilustraciones</h2><p>Texto base: Reina-Valera 1960, según los documentos aportados por el editor. Se conserva su redacción. Las ilustraciones fueron creadas con ChatGPT para el proyecto BIBLILU.</p><p>Reina-Valera 1960 ® © Sociedades Bíblicas en América Latina, 1960. Renovado © Sociedades Bíblicas Unidas, 1988.</p><h2>Cómo leer los colores</h2><p>Los enlaces coloreados abren los apéndices. Dios, Jehová y las palabras atribuidas a Dios aparecen en rojo, sin hipervínculos. Las criaturas celestiales se incluyen en Animales.</p><h2>La cronología de Génesis</h2><p>Las fechas de las fichas del Génesis se expresan en años desde la Creación según el propio relato; no son fechas antes de Cristo.</p></section>''')
 
