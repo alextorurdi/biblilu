@@ -474,3 +474,6 @@
 .measure-equivalences th{font-weight:700;background:rgba(90,86,94,.06)}
 .measure-equivalences td:first-child{font-weight:600;white-space:nowrap}
 .divine .term.medidas,.speech .divine .term.medidas{color:inherit}
+/* Regla graduada en el índice de Pesos, medidas y monedas. */
+.measure-index-mark{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;color:var(--medidas)}
+.measure-index-mark svg{display:block;flex-shrink:0}
