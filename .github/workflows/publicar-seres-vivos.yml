@@ -5,6 +5,7 @@ on:
     paths:
       - 'data/entries.json'
       - 'data/materiales_revision.json'
+      - 'data/objetos_revision.json'
       - 'data/bibliography.json'
       - 'scripts/build.py'
       - 'assets/style.css'
@@ -25,11 +26,13 @@ jobs:
         run: python3 scripts/build.py
       - name: Comprobar páginas del apéndice
         run: python3 -c "from pathlib import Path; p=Path('docs/apendices/animales'); assert len(list(p.glob('*/index.html'))) >= 35; assert 'Hechos bíblicos' in (p/'angeles/index.html').read_text(); assert 'species-photo' in (p/'higuera/index.html').read_text()"
+      - name: Comprobar fichas de Objetos y símbolos
+        run: python3 -c "from pathlib import Path; p=Path('docs/apendices/objetos'); assert len(list(p.glob('*/index.html'))) == 7; assert all('object-photo' in q.read_text() for q in p.glob('*/index.html')); assert 'object-index-mark' in (p/'index.html').read_text()"
       - name: Publicar ficheros estáticos
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/apendices docs/assets/entries.json docs/bibliografia/index.html docs/assets/style.css docs/index.html docs/genesis/2/index.html docs/genesis/11/index.html docs/genesis/20/index.html docs/genesis/24/index.html
+          git add docs/apendices docs/assets/entries.json docs/bibliografia/index.html docs/assets/style.css docs/index.html docs/genesis/2/index.html docs/genesis/4/index.html docs/genesis/6/index.html docs/genesis/11/index.html docs/genesis/18/index.html docs/genesis/20/index.html docs/genesis/24/index.html
           git rm -f --ignore-unmatch docs/apendices/animales/legumbres/index.html
           if ! git diff --cached --quiet; then
             git commit -m "Publicar reorganización de los apéndices de BIBLILU"
