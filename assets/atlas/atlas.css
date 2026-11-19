@@ -96,3 +96,7 @@
 
 /* Cambiar del rótulo regional a topónimos de detalle al acercar. */
 .atlas-show-details .atlas-geolabels{display:none}
+
+/* Marca de los pueblos situados en el atlas: grupo de personas en violeta. */
+.tribe-index-mark{display:inline-flex;align-items:center;color:var(--tribus)}
+.tribe-index-mark svg{display:block}
