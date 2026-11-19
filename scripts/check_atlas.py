@@ -27,6 +27,11 @@ assert set(ids)==expected, 'El atlas y el apéndice no contienen los mismos pueb
 site=R/'docs/apendices/atlas-pueblos/index.html'
 assert site.exists() and 'atlas-pueblos' in site.read_text(encoding='utf-8')
 assert (R/'docs/assets/atlas/pentateuco.geojson').read_bytes()==(R/'assets/atlas/pentateuco.geojson').read_bytes()
+relief=R/'assets/atlas/relieve.webp'
+published_relief=R/'docs/assets/atlas/relieve.webp'
+assert relief.exists() and relief.stat().st_size>10000, 'Falta el relieve del Atlas'
+assert relief.read_bytes()==published_relief.read_bytes(), 'El relieve no está publicado'
+assert relief.read_bytes()[:4]==b'RIFF' and relief.read_bytes()[8:12]==b'WEBP', 'Formato del relieve inválido'
 for p in ['visor.js','atlas.css']:
     assert (R/'docs/assets/atlas'/p).read_bytes()==(R/'assets/atlas'/p).read_bytes()
 for eid in ids:
