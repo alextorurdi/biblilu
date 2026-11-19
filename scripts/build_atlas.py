@@ -110,8 +110,11 @@ s=s.replace('25 ENTRADAS','27 ENTRADAS').replace('25 entradas','27 entradas')
 intro='<p class="intro">Pueblos de la Antigüedad</p>'
 s=s.replace(intro,intro+'<a class="button genealogy-directory-link" href="../atlas-pueblos/index.html">Explorar el Atlas de Pueblos ↗</a>',1)
 peopleglyph='<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="9" cy="8" r="3"/><path d="M2.5 20v-2a6.5 6.5 0 0 1 13 0v2M17 5a3 3 0 0 1 0 6M18 14a5 5 0 0 1 3.5 5v1"/></svg>'
+def spanish_key(label):
+ normalized=unicodedata.normalize('NFD',label.casefold()).replace('n\u0303','n~')
+ return ''.join(char for char in normalized if not unicodedata.combining(char))
 rows=[]
-for e in sorted(ENTRIES,key=lambda x:unicodedata.normalize('NFD',TITLES[x['id'].split('/')[1]][0]).casefold()):
+for e in sorted(ENTRIES,key=lambda x: (spanish_key(TITLES[x['id'].split('/')[1]][0]), x['id'])):
  slug=e['id'].split('/')[1]
  name,trans=TITLES[slug]
  label=esc(name)+' <small class="tribe-index-original"><em>'+esc(trans)+'</em></small>'
