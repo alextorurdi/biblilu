@@ -389,7 +389,7 @@ for e in E:
  # Las fichas revisadas incluyen las referencias dentro del cuerpo.
  # Evitar repetirlas automáticamente bajo «Menciones bíblicas» y conservar
  # esa sección en entradas sin apartado propio de referencias (p. ej. Onomástico).
- has_references=bool(re.search(r'<h[2-6]>\\s*Referencias(?: bíblicas)?\\s*</h[2-6]>',body_html,re.I))
+ has_references=bool(re.search(r'<h[2-6]>\s*Referencias(?: bíblicas)?\s*</h[2-6]>',body_html,re.I))
  biblical_mentions='<div class="backlinks"><h2>Menciones bíblicas</h2><p>'+ ' · '.join(H(r) for r in e.get('mentions',[]))+'</p></div>' if e.get('mentions') and not has_references else ''
  page(f'apendices/{e["id"]}/index.html',e['title'],f'<article class="section entry"><p class="crumb"><a href="../../index.html">Apéndices</a> / <a href="../index.html">{C[cat][0]}</a></p><p class="eyebrow {cat}">{C[cat][0]}</p><h1>{entry_heading_title(e)}</h1>{chron}<div class="entry-body {cat}">{species_figure(e)}{material_figure(e)}{object_figure(e)}{body_html}</div>{backlinks}{biblical_mentions}</article>')
 page('bibliografia/index.html','Bibliografía','<section class="section bibliography"><p class="eyebrow">LAS FUENTES</p><h1>Bibliografía</h1><p class="intro">Obras y recursos que acompañan los apéndices de BIBLILU.</p><ol>'+''.join(f'<li id="ref-{i+1}">{H(b)}</li>' for i,b in enumerate(B))+'</ol></section>')
