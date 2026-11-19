@@ -37,6 +37,19 @@ jobs:
           pages=list(Path('docs/apendices').glob('*/*/index.html'));
           duplicated=[str(p) for p in pages if '<h2>Referencias</h2>' in p.read_text(encoding='utf-8') and '<h2>Menciones bíblicas</h2>' in p.read_text(encoding='utf-8')];
           assert not duplicated, 'Apartados de referencias duplicados: '+', '.join(duplicated)"
+      - name: Comprobar enlaces y listas de lectura
+        run: >-
+          python3 -c "from pathlib import Path;
+          root=Path('docs/apendices');
+          pages=list(root.glob('*/*/index.html'));
+          doubled=[str(p) for p in pages if '<h2>En la lectura disponible</h2>' in p.read_text(encoding='utf-8') and ('<h2>Menciones bíblicas</h2>' in p.read_text(encoding='utf-8') or '<h2>Referencias</h2>' in p.read_text(encoding='utf-8'))];
+          assert not doubled, 'Listas de lectura repetidas: '+', '.join(doubled);
+          abimelec=(root/'onomastico/abimelec/index.html').read_text(encoding='utf-8');
+          assert '<h2>En la lectura disponible</h2>' not in abimelec;
+          assert 'genesis/20/index.html#gn-20-1' in abimelec;
+          assert 'Gn 26:1-11' in abimelec;
+          serpent=(root/'animales/serpiente/index.html').read_text(encoding='utf-8');
+          assert '<h2>En la lectura disponible</h2>' in serpent"
       - name: Publicar ficheros estáticos
         run: |
           git config user.name "github-actions[bot]"
