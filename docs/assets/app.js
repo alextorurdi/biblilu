@@ -26,6 +26,12 @@
           content.append(group);
         }).catch(()=>{});
       }
+      if(link.dataset.entry.startsWith('tribus/')){
+        const group=document.createElement('div');group.className='map-links';
+        const heading=document.createElement('strong');heading.textContent='En el Atlas de Pueblos';group.append(heading);
+        const a=document.createElement('a');a.href=base+'apendices/atlas-pueblos/index.html#pueblo='+encodeURIComponent(link.dataset.entry);
+        a.textContent='Mostrar ubicación o estado de identificación ↗';group.append(a);content.append(group);
+      }
       if(link.dataset.entry.startsWith('onomastico/')){
         const slug=link.dataset.entry.split('/')[1];
         fetch(base+'assets/genealogias/enlaces.json').then(r=>{if(!r.ok)throw Error('enlaces');return r.json()}).then(map=>{
