@@ -477,6 +477,8 @@
 /* Regla graduada en el índice de Pesos, medidas y monedas. */
 .measure-index-mark{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;color:var(--medidas)}
 .measure-index-mark svg{display:block;flex-shrink:0}
+
+
 /* Bibliografía APA 7 · 2026-11-20 */
 .bib-apa7{max-width:980px}
 .bib-apa7 .bib-count{font-size:14px;color:var(--muted);margin:1.1rem 0 1.8rem}
