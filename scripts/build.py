@@ -580,3 +580,7 @@ for _scene,_target_verses in _SCENE_MEASURE_REFS.items():
  _measure_file.write_text(_measure_html,encoding='utf-8')
 
 print('Plantillas temáticas BIBLILU v. 0.1 restauradas.')
+
+# Generar el Atlas de Pueblos después de restaurar las escenas aprobadas.
+import runpy
+runpy.run_path(str(ROOT/'scripts/build_atlas.py'),run_name='__main__')
