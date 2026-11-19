@@ -443,3 +443,19 @@
 .object-inline-figure a:focus-visible{outline:3px solid var(--objetos);outline-offset:3px}
 .object-inline-figure img{display:block;width:100%;height:auto;border-radius:8px;background:#f5f3eb;border:1px solid var(--line)}
 .object-inline-figure figcaption{margin:9px 0 0;color:var(--muted);font:400 13px/1.55 Arial,Helvetica,sans-serif}
+/* Instrumentos musicales: glosas hebreas, figuras del propio proyecto y referencias cruzadas. */
+.entry-row.instrumentos .instrument-index-original{display:inline-block;margin-left:.32em;color:var(--muted);font:400 .76em/1.45 Arial,Helvetica,sans-serif;vertical-align:baseline;overflow-wrap:anywhere}
+.entry-row.instrumentos .instrument-index-original em{font-style:italic}
+.entry h1 .instrument-title-secondary{display:block;margin-top:7px;color:var(--muted);font:italic 400 clamp(16px,2.8vw,22px)/1.45 Arial,Helvetica,sans-serif;letter-spacing:normal;overflow-wrap:anywhere}
+.entry-body.instrumentos ul{padding-left:1.4em;margin:14px 0 22px}
+.entry-body.instrumentos li{padding:4px 0}
+.instrument-photo{max-width:720px;margin:0 0 28px}
+.instrument-photo-view{display:block;width:fit-content;max-width:100%}
+.instrument-photo-view:focus-visible{outline:3px solid var(--instrumentos);outline-offset:3px}
+.instrument-photo img{display:block;width:100%;height:auto;max-height:460px;object-fit:contain;border-radius:9px;background:#f5f3eb}
+.instrument-photo figcaption{margin:10px 0 0;color:var(--muted);font:400 13px/1.6 Arial,Helvetica,sans-serif}
+.instrument-photo figcaption a{color:var(--instrumentos);text-decoration:underline}
+.instrument-related{margin:30px 0 0;padding:18px 20px;border:1px solid var(--line);border-radius:8px}
+.instrument-related strong{font:600 13px/1.5 Arial,Helvetica,sans-serif;color:var(--muted)}
+.instrument-related-links{display:flex;flex-wrap:wrap;gap:9px 14px;margin-top:12px}
+.instrument-related-links a{color:var(--instrumentos);font:500 14px/1.5 Arial,Helvetica,sans-serif;text-decoration:underline}
