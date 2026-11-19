@@ -8,6 +8,12 @@ E=json.loads((ROOT/'data/entries.json').read_text());V=json.loads((ROOT/'data/ge
 MATERIAL_REVISION=json.loads((ROOT/'data/materiales_revision.json').read_text(encoding='utf-8'))
 OBJECT_REVISION=json.loads((ROOT/'data/objetos_revision.json').read_text(encoding='utf-8'))
 INSTRUMENT_REVISION=json.loads((ROOT/'data/instrumentos_revision.json').read_text(encoding='utf-8'))
+MEASURE_REVISION=json.loads((ROOT/'data/medidas_revision.json').read_text(encoding='utf-8'))
+# Añadir entradas aprobadas no existentes en el catálogo legado.
+for _new in MEASURE_REVISION['new_entries']:
+ if any(_entry['id']==_new['id'] for _entry in E):
+  raise RuntimeError('Unidad ya existente en el catálogo: '+_new['id'])
+ E.append(_new)
 for _entry in E:
  _eid=_entry['id']
  if _eid in MATERIAL_REVISION['titles']:
@@ -24,6 +30,11 @@ for _entry in E:
   _entry['title']=INSTRUMENT_REVISION['titles'][_eid]
  if _eid in INSTRUMENT_REVISION['revised']:
   _entry.update(INSTRUMENT_REVISION['revised'][_eid])
+  _entry['text']=_entry['title']+'. '+_entry['body']
+ if _eid in MEASURE_REVISION['titles']:
+  _entry['title']=MEASURE_REVISION['titles'][_eid]
+ if _eid in MEASURE_REVISION['revised']:
+  _entry.update(MEASURE_REVISION['revised'][_eid])
   _entry['text']=_entry['title']+'. '+_entry['body']
 H=html.escape
 GENEALOGY_LINKS=json.loads((ROOT/'assets/genealogias/enlaces.json').read_text(encoding='utf-8'))
@@ -75,7 +86,7 @@ def rel(path):return '../'*len(Path(path).parent.parts) if str(Path(path).parent
 def page(path,title,body,kind=''):
  pre=rel(path);p=OUT/path;p.parent.mkdir(parents=True,exist_ok=True)
  # Versionado del CSS para evitar estilos antiguos cacheados en el índice de Seres Vivos.
- css_version='?v=seres-vivos-index-20261118-2' if str(path)=='apendices/animales/index.html' else '?v=materiales-lingotes-20261118' if str(path)=='apendices/materiales/index.html' else '?v=objetos-revision-20261119' if str(path).startswith('apendices/objetos/') else '?v=instrumentos-lira-20261119' if str(path).startswith('apendices/instrumentos/') else ''
+ css_version='?v=seres-vivos-index-20261118-2' if str(path)=='apendices/animales/index.html' else '?v=materiales-lingotes-20261118' if str(path)=='apendices/materiales/index.html' else '?v=objetos-revision-20261119' if str(path).startswith('apendices/objetos/') else '?v=instrumentos-lira-20261119' if str(path).startswith('apendices/instrumentos/') else '?v=medidas-revision-20261119' if str(path).startswith('apendices/medidas/') else ''
  p.write_text(f'''<!doctype html><html lang="es-ES"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="BIBLILU: una Biblia ilustrada para leer, descubrir y explorar. Génesis y sus apéndices."><title>{H(title)} · BIBLILU</title><link rel="icon" href="{pre}assets/favicon.svg"><link rel="stylesheet" href="{pre}assets/style.css{css_version}"><script src="{pre}assets/app.js" defer></script></head><body data-base="{pre}" class="{kind}"><a class="skip" href="#contenido">Saltar al contenido</a><header class="header"><a class="brand" href="{pre}index.html">BIBLILU<span>LA BIBLIA ILUSTRADA</span></a><nav aria-label="Principal"><a href="{pre}index.html#libros">Los libros</a><a href="{pre}apendices/index.html">Apéndices</a><a href="{pre}bibliografia/index.html">Bibliografía</a></nav></header><main id="contenido">{body}</main><footer><a class="brand" href="{pre}index.html">BIBLILU</a><p>Una lectura que también se contempla.</p><a href="{pre}sobre/index.html">Sobre el proyecto y créditos</a><span>Español · RVR 1960</span></footer><dialog id="entry-dialog" aria-labelledby="dialog-title"><button class="close" aria-label="Cerrar ficha">×</button><div id="dialog-content"></div></dialog></body></html>''',encoding='utf-8')
 def onomastic_card(pre):
  return f'<div class="appendix-card onomastico appendix-card-family"><a class="appendix-card-main" href="{pre}apendices/onomastico/index.html"><span class="dot"></span><h3>Onomástico</h3><p>Personas y relaciones familiares</p><span aria-hidden="true">↗</span></a><a class="appendix-tree-link" href="{pre}apendices/genealogias/index.html">Árboles genealógicos <span aria-hidden="true">↗</span></a></div>'
@@ -128,10 +139,10 @@ def heading_title(e):
 
 def living_index_title(e):
  title=heading_title(e)
- if e['category'] in ('materiales','objetos','instrumentos'):
+ if e['category'] in ('materiales','objetos','instrumentos','medidas'):
   if ' (' in title and title.endswith(')'):
    name,term=title.rsplit(' (',1)
-   css={'materiales':'material-index-original','objetos':'object-index-original','instrumentos':'instrument-index-original'}[e['category']]
+   css={'materiales':'material-index-original','objetos':'object-index-original','instrumentos':'instrument-index-original','medidas':'measure-index-original'}[e['category']]
    return name+' <small class="'+css+'"><em>'+term[:-1]+'</em></small>'
  # El subtítulo "ser sobrenatural" es editorial, no una forma hebrea.
  if e['category']!='animales' or e['id']=='animales/serpiente':
@@ -143,10 +154,10 @@ def living_index_title(e):
 
 def entry_heading_title(e):
  title=heading_title(e)
- if e['category'] in ('materiales','objetos','instrumentos'):
+ if e['category'] in ('materiales','objetos','instrumentos','medidas'):
   if ' (' in title and title.endswith(')'):
    name,term=title.rsplit(' (',1)
-   css={'materiales':'material-title-secondary','objetos':'object-title-secondary','instrumentos':'instrument-title-secondary'}[e['category']]
+   css={'materiales':'material-title-secondary','objetos':'object-title-secondary','instrumentos':'instrument-title-secondary','medidas':'measure-title-secondary'}[e['category']]
    return name+'<span class="'+css+'">'+term[:-1]+'</span>'
  if e['category']!='animales':
   return title
@@ -206,7 +217,7 @@ def instrument_figure(e):
 
 def entrybody(e,pre):
  raw=e['body']
- if e['category'] in ('animales','materiales','objetos','instrumentos') and (raw.startswith('Ver ') or '\n### ' in raw):
+ if e['category'] in ('animales','materiales','objetos','instrumentos','medidas') and (raw.startswith('Ver ') or '\n### ' in raw):
   def inline(v):
    v=H(v)
    v=re.sub(r'\*\*([^*]+)\*\*',r'<strong>\1</strong>',v)
@@ -217,6 +228,17 @@ def entrybody(e,pre):
     chunks.append('<h2>'+H(block[4:].strip())+'</h2>')
    elif block.startswith('- '):
     chunks.append('<ul>'+''.join('<li>'+inline(line[2:].strip())+'</li>' for line in block.splitlines() if line.startswith('- '))+'</ul>')
+   elif e['category']=='medidas' and block.startswith('|'):
+    # Tabla editorial sencilla de equivalencias, con cabecera y filas accesibles.
+    lines=[line.strip() for line in block.splitlines() if line.strip()]
+    rows=[[cell.strip() for cell in line.strip('|').split('|')] for line in lines]
+    if len(rows)<3 or len(rows[0])!=2 or not all(re.fullmatch(r':?-{3,}:?',cell) for cell in rows[1]):
+     raise RuntimeError('Tabla de equivalencias inválida en '+e['id'])
+    if any(len(row)!=2 for row in rows):
+     raise RuntimeError('Número de columnas inválido en '+e['id'])
+    head=''.join('<th scope="col">'+inline(cell)+'</th>' for cell in rows[0])
+    values=''.join('<tr>'+''.join('<td>'+inline(cell)+'</td>' for cell in row)+'</tr>' for row in rows[2:])
+    chunks.append('<div class="measure-table-scroll"><table class="measure-equivalences"><thead><tr>'+head+'</tr></thead><tbody>'+values+'</tbody></table></div>')
    else:
     chunks.append('<p>'+inline(block.replace('\n',' '))+'</p>')
   out=''.join(chunks)
