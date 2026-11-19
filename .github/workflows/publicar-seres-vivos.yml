@@ -7,6 +7,7 @@ on:
       - 'data/materiales_revision.json'
       - 'data/objetos_revision.json'
       - 'data/instrumentos_revision.json'
+      - 'data/medidas_revision.json'
       - 'data/bibliography.json'
       - 'scripts/build.py'
       - 'assets/style.css'
@@ -75,6 +76,23 @@ jobs:
           assert all((Path('docs/assets')/('instrumentos-'+n+'.svg')).read_text(encoding='utf-8').count('<g transform=')==1 for n in for_name);
           scene=Path('docs/genesis/4/index.html').read_text(encoding='utf-8');
           assert scene.count('src=\"../../assets/instrumentos.svg\"')>=1"
+      - name: Comprobar las tres fichas de Pesos, medidas y monedas
+        run: >-
+          python3 -c "from pathlib import Path;
+          root=Path('docs/apendices/medidas');
+          fichas=[root/(n+'/index.html') for n in ['codo','sea','siclo']];
+          assert all(p.exists() for p in fichas), 'Falta alguna ficha de medidas';
+          assert all(all('<h2>'+section+'</h2>' in p.read_text(encoding='utf-8') for section in ['Hechos bíblicos','Equivalencias y usos','Etimología','Referencias']) for p in fichas);
+          assert all('<h2>Menciones bíblicas</h2>' not in p.read_text(encoding='utf-8') for p in fichas);
+          assert '<table class=\"measure-equivalences\"' in fichas[2].read_text(encoding='utf-8');
+          index=(root/'index.html').read_text(encoding='utf-8');
+          assert '3 entradas' in index and index.index('href=\"codo/index.html\"') < index.index('href=\"sea/index.html\"') < index.index('href=\"siclo/index.html\"');
+          diluvio=Path('docs/genesis/6/index.html').read_text(encoding='utf-8');
+          perdicion=Path('docs/genesis/18/index.html').read_text(encoding='utf-8');
+          assert diluvio.count('data-entry=\"medidas/codo\"')==6 and 'id=\"fn-60\"' in diluvio;
+          assert perdicion.count('data-entry=\"medidas/sea\"')==1;
+          assert 'data-entry=\"medidas/siclo\"' in Path('docs/genesis/20/index.html').read_text(encoding='utf-8');
+          assert 'data-entry=\"medidas/siclo\"' in Path('docs/genesis/24/index.html').read_text(encoding='utf-8')"
       - name: Publicar ficheros estáticos
         run: |
           git config user.name "github-actions[bot]"
