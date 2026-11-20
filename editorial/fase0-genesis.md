@@ -58,6 +58,7 @@ Fuente verificable: [inventario-genesis.json](inventario-genesis.json). Reconstr
 
 - La secuencia de versículos publicados es completa para Génesis 1:1–24:67 y sus quince escenas (659 anclas canónicas); no se han detectado omisiones ni duplicaciones en el inventario efectuado.
 - Las notas forman una secuencia continua de 1 a 153 y sus marcadores coinciden con las notas de las escenas.
+- Todas las **450 rutas** del registro maestro tienen página en el repositorio: 432 fichas principales y 18 remisiones; se contabilizan 303 entidades con menciones explícitas, 245 relacionadas con genealogías y 56 con localización en los mapas catalogados. Estas relaciones no equivalen a una extracción exhaustiva de futuros capítulos.
 - Los recursos referenciados por las escenas y las rutas de archivo revisadas están presentes en el árbol del repositorio.
 - Los **15 mapas** del catálogo corresponden a las escenas, y las **8 láminas SVG** propias (01–07, 19) se utilizan en el texto. El visor incluye además otras láminas incrustadas: no confundir ambos recuentos.
 - Están publicados los artículos «Día en Génesis» y «Cosmología hebrea». La bibliografía normalizada incluye **69 referencias**.
