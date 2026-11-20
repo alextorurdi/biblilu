@@ -151,7 +151,7 @@ function buildRegistry(s) {
     proposito:"Índice técnico interno generado de las fuentes editoriales; no sustituye ni reproduce el contenido de las fichas.",
     libro:"Génesis",
     cobertura_texto:{capitulos_disponibles:chapterNos,versiculos: v.length, capitulos_pendientes:Array.from({length:50},(_,i)=>i+1).filter(n=>!chapterNos.includes(n))},
-    fuentes:files,
+    fuentes:Object.keys(s),
     totales:{rutas_registradas:ents.length,fichas_principales:ents.filter(e=>!e.es_remision).length,remisiones:ents.filter(e=>e.es_remision).length,por_categoria:totals,mapas:maps.length,arboles_svg:8,entradas_con_menciones:ents.filter(e=>e.menciones_registradas.length>0).length},
     diagnostico:{incidencias:[...new Set(errors)].sort(),identidades_no_fusionadas:"Se respetan las decisiones de editorial/criterios-identidades-genesis.md; no se infieren equivalencias por homonimia."},
     entidades:ents
