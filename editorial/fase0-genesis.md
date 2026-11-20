@@ -31,9 +31,46 @@ node scripts/build_registry.mjs --check
 
 Editar las fuentes originales, **nunca** mantener este JSON a mano. El registro es interno en la arquitectura de la web: no genera páginas visibles. Dado que el repositorio de GitHub es público, sus archivos técnicos pueden consultarse en GitHub.
 
-## Pendientes de la Fase 0
+## Inventario de escenas (auditoría del 20/11/2026)
 
-- Inventariar escena por escena lo aprobado, lo implementado y los recursos disponibles antes de abordar Gn 25–50.
-- Auditar exhaustivamente los enlaces internos de los capítulos pendientes de publicar.
-- Revisar al avanzar las menciones no indexadas y la pertinencia de ampliar las fichas existentes; no crear identidades por extracción automática sin revisión.
-- Incorporar comprobación del registro a la secuencia de integración y publicación cuando se actualice el generador general.
+Fuente verificable: [inventario-genesis.json](inventario-genesis.json). Reconstrucción/validación reproducible: `node scripts/audit_genesis_p0.mjs --write` y `node scripts/audit_genesis_p0.mjs --check`. La matriz distingue las fuentes editoriales protegidas de las salidas HTML, que el generador puede completar con enlaces aprobados.
+
+| Nº | Escena | Pasaje | Versículos | Notas | Recursos principales |
+|---:|---|---|---:|---|---|
+| 01 | Creación | 1:1–2:3 | 34 | 1–8 | Ilustración |
+| 02 | Paraíso | 2:4–3:24 | 46 | 9–22 | 3 ilustraciones |
+| 03 | Crueldad | 4:1–24 | 24 | 23–39 | Ilustración, instrumento y lámina 01 |
+| 04 | De Adán a Noé | 4:25–5:32 | 34 | 40–53 | Ilustración y lámina 02 |
+| 05 | Diluvio | 6:1–9:29 | 97 | 54–67 | 5 recursos visuales |
+| 06 | Dispersión | 10:1–32 | 32 | 68–76 | 3 mapas y láminas 03–05 |
+| 07 | Vanidad | 11:1–9 | 9 | 77–78 | Ilustración |
+| 08 | De Noé a Abram | 11:10–32 | 23 | 79–81 | Mapa y lámina 06 |
+| 09 | Viaje | 12:1–13:18 | 38 | 82–93 | Ilustración y 3 mapas |
+| 10 | Guerra | 14:1–24 | 24 | 94–103 | Ilustración y 3 mapas |
+| 11 | Promesas | 15:1–21 | 21 | 104–110 | Ilustración y mapa |
+| 12 | Legado | 16:1–17:27 | 43 | 111–121 | 2 ilustraciones y mapa |
+| 13 | Perdición | 18:1–19:38 | 71 | 122–130 | 2 ilustraciones y mapa |
+| 14 | Cumplimiento | 20:1–23:20 | 96 | 131–144 | 4 ilustraciones, mapa y lámina 07 |
+| 15 | Familia | 24:1–67 | 67 | 145–153 | 4 ilustraciones, mapa y lámina 19 |
+| **Total** | **15 escenas** | **Génesis 1–24** | **659** | **153** | **15 mapas catalogados, 8 láminas SVG propias** |
+
+### Resultado de las comprobaciones
+
+- La secuencia de versículos publicados es completa para Génesis 1:1–24:67 y sus quince escenas (659 anclas canónicas); no se han detectado omisiones ni duplicaciones en el inventario efectuado.
+- Las notas forman una secuencia continua de 1 a 153 y sus marcadores coinciden con las notas de las escenas.
+- Los recursos referenciados por las escenas y las rutas de archivo revisadas están presentes en el árbol del repositorio.
+- Los **15 mapas** del catálogo corresponden a las escenas, y las **8 láminas SVG** propias (01–07, 19) se utilizan en el texto. El visor incluye además otras láminas incrustadas: no confundir ambos recuentos.
+- Están publicados los artículos «Día en Génesis» y «Cosmología hebrea». La bibliografía normalizada incluye **69 referencias**.
+- Las escenas **03, 04, 05, 13, 14 y 15** producen una salida diferente de su fuente protegida: es **intencionado**, porque `scripts/build.py` añade después enlaces aprobados (objetos, instrumentos, medidas) y `scripts/build_bibliography.py` normaliza citas. **No copiar las salidas sobre los originales**.
+- Se han ajustado `scripts/check.py` y `scripts/check_maps.py` para aceptar los enlaces editoriales aprobados sin desactivar sus controles. Esta revisión fue estática sobre el repositorio: **no equivale todavía a una ejecución completa del pipeline**.
+
+### Límites y tareas futuras
+
+1. **Génesis 25–50:** no existen aún versículos incorporados al JSON ni escenas publicadas. La escenificación se aprobará en P1, antes de añadir texto en P2.
+2. **Identidades ambiguas:** aplicar `editorial/criterios-identidades-genesis.md` a los futuros personajes; no fusionar automáticamente homónimos ni las esposas de Esaú, Timna, Coré o los jefes edomitas.
+3. **Pruebas escalables:** al empezar P2, adaptar las verificaciones que todavía presuponen 659 versículos, 153 notas y 69 referencias, además de actualizar el mapeo versículo → escena. Conservar las pruebas históricas para Gn 1–24.
+4. **Revisión visual:** queda pendiente una comprobación en navegador de los diseños de escritorio y móvil. El inventario comprueba la presencia de los recursos, no su tamaño o posición en pantalla.
+5. **Textos heredados:** la página «Sobre BIBLILU» y algunos párrafos antiguos del README contienen cifras de entregas anteriores; actualizar sus textos descriptivos cuando se intervenga de nuevo en la publicación general.
+6. **Integración automatizada:** antes de publicar nuevos capítulos, ejecutar `node scripts/build_registry.mjs --check`, `node scripts/audit_genesis_p0.mjs --check`, `python scripts/check.py`, `python scripts/check_maps.py` y las comprobaciones de apéndices/bibliografía. Incorporar estas tareas al flujo de publicación después de probarlas en el entorno de integración.
+
+**Estado de P0:** inventario técnico y registro maestro preparados; se puede pasar a P1. La revisión visual y la modernización del pipeline se mantienen como controles de publicación, sin reabrir las escenas ya aprobadas.
