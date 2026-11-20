@@ -17,6 +17,7 @@ const registry=j("data/registro_maestro.json"),bibliography=j("data/bibliography
 const errors=[];
 const expected=new Set(text.map(v=>v.chapter+":"+v.verse));
 if(expected.size!==text.length) errors.push("Versículos duplicados en data/genesis.json");
+for(const e of registry.entidades)if(!existsSync(p(e.ruta)))errors.push("Ruta del registro maestro sin página: "+e.id);
 if(sceneIds.length!==new Set(sceneIds).size) errors.push("Escenas duplicadas en el índice");
 const found=new Set(),footnotes=new Set(),sceneData=[];
 for(const match of sceneMatches){
@@ -68,6 +69,10 @@ const result={
           mapas_catalogados:maps.length,arboles_svg:[...new Set(sceneData.flatMap(s=>s.arboles))].length,
           registros_maestros:registry.totales.rutas_registradas,
           fichas_principales:registry.totales.fichas_principales,
+          remisiones:registry.totales.remisiones,
+          entidades_con_menciones:registry.entidades.filter(e=>e.menciones_registradas?.length).length,
+          entidades_en_genealogias:registry.entidades.filter(e=>e.genealogias?.laminas?.length).length,
+          entidades_con_mapas:registry.entidades.filter(e=>e.mapas?.length).length,
           referencias_bibliograficas:bibliography.entries.length},
  escenas:sceneData,incidencias:errors
 };
