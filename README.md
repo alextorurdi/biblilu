@@ -1,4 +1,6 @@
 # BIBLILU
+
+> **Protocolo editorial aprobado para libros completos:** [10 fases P0–P9](editorial/protocolo-libros.md). Es el procedimiento permanente para preparar, revisar, implementar y publicar cada libro. Antes de continuar en un nuevo chat, leer el protocolo y el [estado de Génesis](editorial/fase0-genesis.md).
 ## Entrega v0.11 · Familia (Génesis 24)
 
 La escena 15 «Familia» ofrece los 67 versículos de Génesis 24, con nueve notas editoriales nuevas (145–153) y el texto original del manuscrito. Se mantuvo el diálogo del criado y la repetición de los sucesos ante los familiares de Rebeca. Los nombres divinos se marcan en rojo; los interlocutores, diálogos y pensamientos se distinguen mediante cursivas y guiones.
