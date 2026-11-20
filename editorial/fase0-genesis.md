@@ -1,5 +1,7 @@
 # Fase 0 — Génesis: inventario inicial
 
+**Protocolo rector:** [Fases P0–P9](protocolo-libros.md). Este informe es el estado del primer libro y no sustituye el procedimiento general.
+
 Estado: registro maestro interno generado desde los datos actuales. Este informe no aprueba por sí mismo nuevas fichas ni cambia interpretaciones.
 
 ## Alcance verificado
