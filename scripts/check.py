@@ -68,7 +68,8 @@ for verse in V:
  text=unescape(re.sub(r'<[^>]+>','',text))
  assert normalize(text.replace('— ',''))==normalize(verse['text']),(c,v,'verse text changed')
  for speech in re.findall(r'<span class="divine">([\s\S]*?)</span>',match[1]):
-  assert not re.search(r'<a(?![^>]*class="fn-link")',speech),(c,v,'divine text has hyperlink')
+  for _anchor in re.findall(r'<a\b[^>]*>',speech):
+   assert ('class="fn-link"' in _anchor or ('class="term ' in _anchor and 'data-entry=' in _anchor and 'href="../../apendices/' in _anchor)),(c,v,'unapproved link within divine speech',_anchor)
  all_text+=match[1]
 for unit,min_n,max_n in [(1,1,8),(2,9,22),(4,23,39),(5,40,53),(6,54,67),(10,68,76),('11',77,78),('11-10',79,81),('12',82,93),('14',94,103),('15',104,110),('16',111,121),('18',122,130),('20',131,144),('24',145,153)]:
  html=(SITE/f'genesis/{unit}/index.html').read_text(encoding='utf-8')
