@@ -1,0 +1,392 @@
+{
+  "version_esquema": 1,
+  "libro": "Génesis",
+  "texto": {
+    "capitulos": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "versiculos": 659,
+    "capitulos_pendientes": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  "resumen": {
+    "escenas": 15,
+    "notas": 153,
+    "mapas_catalogados": 15,
+    "arboles_svg": 8,
+    "registros_maestros": 450,
+    "fichas_principales": 432,
+    "referencias_bibliograficas": 69
+  },
+  "escenas": [
+    {
+      "numero": 1,
+      "escena": "Creación",
+      "ruta": "docs/genesis/1/index.html",
+      "inicio": "1:1",
+      "final": "2:3",
+      "versiculos": 34,
+      "notas": 8,
+      "primera_nota": 1,
+      "ultima_nota": 8,
+      "ilustraciones": [
+        "creacion.jpg"
+      ],
+      "arboles": [],
+      "mapas": [],
+      "fuente_editorial": "editorial/approved-pages/genesis/1/index.html",
+      "fuente_igual_a_salida": true
+    },
+    {
+      "numero": 2,
+      "escena": "Paraíso",
+      "ruta": "docs/genesis/2/index.html",
+      "inicio": "2:4",
+      "final": "3:24",
+      "versiculos": 46,
+      "notas": 14,
+      "primera_nota": 9,
+      "ultima_nota": 22,
+      "ilustraciones": [
+        "eden.jpg",
+        "tentación.png",
+        "espada.jpg"
+      ],
+      "arboles": [],
+      "mapas": [],
+      "fuente_editorial": "editorial/approved-pages/genesis/2/index.html",
+      "fuente_igual_a_salida": true
+    },
+    {
+      "numero": 3,
+      "escena": "Crueldad",
+      "ruta": "docs/genesis/4/index.html",
+      "inicio": "4:1",
+      "final": "4:24",
+      "versiculos": 24,
+      "notas": 17,
+      "primera_nota": 23,
+      "ultima_nota": 39,
+      "ilustraciones": [
+        "crueldad.png",
+        "instrumentos.svg"
+      ],
+      "arboles": [
+        "genealogias/01.svg"
+      ],
+      "mapas": [],
+      "fuente_editorial": "editorial/approved-pages/genesis/4/index.html",
+      "fuente_igual_a_salida": false
+    },
+    {
+      "numero": 4,
+      "escena": "De Adán a Noé",
+      "ruta": "docs/genesis/5/index.html",
+      "inicio": "4:25",
+      "final": "5:32",
+      "versiculos": 34,
+      "notas": 14,
+      "primera_nota": 40,
+      "ultima_nota": 53,
+      "ilustraciones": [
+        "enoc.svg"
+      ],
+      "arboles": [
+        "genealogias/02.svg"
+      ],
+      "mapas": [],
+      "fuente_editorial": "editorial/approved-pages/genesis/5/index.html",
+      "fuente_igual_a_salida": false
+    },
+    {
+      "numero": 5,
+      "escena": "Diluvio",
+      "ruta": "docs/genesis/6/index.html",
+      "inicio": "6:1",
+      "final": "9:29",
+      "versiculos": 97,
+      "notas": 14,
+      "primera_nota": 54,
+      "ultima_nota": 67,
+      "ilustraciones": [
+        "diluvio-construccion.webp",
+        "diluvio-medidas.svg",
+        "diluvio-tormenta.webp",
+        "diluvio-paloma.webp",
+        "diluvio-arcoiris.webp"
+      ],
+      "arboles": [],
+      "mapas": [],
+      "fuente_editorial": "editorial/approved-pages/genesis/6/index.html",
+      "fuente_igual_a_salida": false
+    },
+    {
+      "numero": 6,
+      "escena": "Dispersión",
+      "ruta": "docs/genesis/10/index.html",
+      "inicio": "10:1",
+      "final": "10:32",
+      "versiculos": 32,
+      "notas": 9,
+      "primera_nota": 68,
+      "ultima_nota": 76,
+      "ilustraciones": [],
+      "arboles": [
+        "genealogias/03.svg",
+        "genealogias/04.svg",
+        "genealogias/05.svg"
+      ],
+      "mapas": [
+        "jafet",
+        "cam",
+        "sem"
+      ],
+      "fuente_editorial": "editorial/approved-pages/genesis/10/index.html",
+      "fuente_igual_a_salida": true
+    },
+    {
+      "numero": 7,
+      "escena": "Vanidad",
+      "ruta": "docs/genesis/11/index.html",
+      "inicio": "11:1",
+      "final": "11:9",
+      "versiculos": 9,
+      "notas": 2,
+      "primera_nota": 77,
+      "ultima_nota": 78,
+      "ilustraciones": [
+        "babel-manuscrito-v05.webp"
+      ],
+      "arboles": [],
+      "mapas": [],
+      "fuente_editorial": "editorial/approved-pages/genesis/11/index.html",
+      "fuente_igual_a_salida": true
+    },
+    {
+      "numero": 8,
+      "escena": "De Noé a Abram",
+      "ruta": "docs/genesis/11-10/index.html",
+      "inicio": "11:10",
+      "final": "11:32",
+      "versiculos": 23,
+      "notas": 3,
+      "primera_nota": 79,
+      "ultima_nota": 81,
+      "ilustraciones": [],
+      "arboles": [
+        "genealogias/06.svg"
+      ],
+      "mapas": [
+        "ur-haran"
+      ],
+      "fuente_editorial": "editorial/approved-pages/genesis/11-10/index.html",
+      "fuente_igual_a_salida": true
+    },
+    {
+      "numero": 9,
+      "escena": "Viaje",
+      "ruta": "docs/genesis/12/index.html",
+      "inicio": "12:1",
+      "final": "13:18",
+      "versiculos": 38,
+      "notas": 12,
+      "primera_nota": 82,
+      "ultima_nota": 93,
+      "ilustraciones": [
+        "nomadas-v06.webp"
+      ],
+      "arboles": [],
+      "mapas": [
+        "viaje-1",
+        "viaje-2",
+        "viaje-3"
+      ],
+      "fuente_editorial": "editorial/approved-pages/genesis/12/index.html",
+      "fuente_igual_a_salida": true
+    },
+    {
+      "numero": 10,
+      "escena": "Guerra",
+      "ruta": "docs/genesis/14/index.html",
+      "inicio": "14:1",
+      "final": "14:24",
+      "versiculos": 24,
+      "notas": 10,
+      "primera_nota": 94,
+      "ultima_nota": 103,
+      "ilustraciones": [
+        "batalla-v06.webp"
+      ],
+      "arboles": [],
+      "mapas": [
+        "guerra-1",
+        "guerra-2",
+        "guerra-3"
+      ],
+      "fuente_editorial": "editorial/approved-pages/genesis/14/index.html",
+      "fuente_igual_a_salida": true
+    },
+    {
+      "numero": 11,
+      "escena": "Promesas",
+      "ruta": "docs/genesis/15/index.html",
+      "inicio": "15:1",
+      "final": "15:21",
+      "versiculos": 21,
+      "notas": 7,
+      "primera_nota": 104,
+      "ultima_nota": 110,
+      "ilustraciones": [
+        "estrellas-promesas-v07.webp"
+      ],
+      "arboles": [],
+      "mapas": [
+        "promesas"
+      ],
+      "fuente_editorial": "editorial/approved-pages/genesis/15/index.html",
+      "fuente_igual_a_salida": true
+    },
+    {
+      "numero": 12,
+      "escena": "Legado",
+      "ruta": "docs/genesis/16/index.html",
+      "inicio": "16:1",
+      "final": "17:27",
+      "versiculos": 43,
+      "notas": 11,
+      "primera_nota": 111,
+      "ultima_nota": 121,
+      "ilustraciones": [
+        "legado-agar-angel.webp",
+        "legado-instrumento.webp"
+      ],
+      "arboles": [],
+      "mapas": [
+        "legado"
+      ],
+      "fuente_editorial": "editorial/approved-pages/genesis/16/index.html",
+      "fuente_igual_a_salida": true
+    },
+    {
+      "numero": 13,
+      "escena": "Perdición",
+      "ruta": "docs/genesis/18/index.html",
+      "inicio": "18:1",
+      "final": "19:38",
+      "versiculos": 71,
+      "notas": 9,
+      "primera_nota": 122,
+      "ultima_nota": 130,
+      "ilustraciones": [
+        "perdicion-visita.webp",
+        "perdicion-mujer-lot.webp"
+      ],
+      "arboles": [],
+      "mapas": [
+        "perdicion"
+      ],
+      "fuente_editorial": "editorial/approved-pages/genesis/18/index.html",
+      "fuente_igual_a_salida": false
+    },
+    {
+      "numero": 14,
+      "escena": "Cumplimiento",
+      "ruta": "docs/genesis/20/index.html",
+      "inicio": "20:1",
+      "final": "23:20",
+      "versiculos": 96,
+      "notas": 14,
+      "primera_nota": 131,
+      "ultima_nota": 144,
+      "ilustraciones": [
+        "cumplimiento-agar.webp",
+        "cumplimiento-siete-corderas.webp",
+        "cumplimiento-obediencia.webp",
+        "cumplimiento-macpela.webp"
+      ],
+      "arboles": [
+        "genealogias/07.svg"
+      ],
+      "mapas": [
+        "cumplimiento"
+      ],
+      "fuente_editorial": "editorial/approved-pages/genesis/20/index.html",
+      "fuente_igual_a_salida": false
+    },
+    {
+      "numero": 15,
+      "escena": "Familia",
+      "ruta": "docs/genesis/24/index.html",
+      "inicio": "24:1",
+      "final": "24:67",
+      "versiculos": 67,
+      "notas": 9,
+      "primera_nota": 145,
+      "ultima_nota": 153,
+      "ilustraciones": [
+        "familia-juramento.webp",
+        "familia-pozo.webp",
+        "familia-partida.webp",
+        "familia-encuentro.webp"
+      ],
+      "arboles": [
+        "genealogias/19.svg"
+      ],
+      "mapas": [
+        "familia"
+      ],
+      "fuente_editorial": "editorial/approved-pages/genesis/24/index.html",
+      "fuente_igual_a_salida": false
+    }
+  ],
+  "incidencias": []
+}
