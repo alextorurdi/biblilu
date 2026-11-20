@@ -2,7 +2,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, parse_qs
-import json, xml.etree.ElementTree as ET
+import json, re, xml.etree.ElementTree as ET
 R=Path(__file__).resolve().parents[1]
 M=json.loads((R/'assets/mapas/catalogo.json').read_text())
 E={e['id'] for e in json.loads((R/'data/entries.json').read_text())}
@@ -33,7 +33,12 @@ for p in (R/'docs').rglob('*.html'):
 for m in M:
  scene=R/'docs/genesis'/m['scene']/'index.html'
  assert '#mapa='+m['id']+'"' in scene.read_text()
- assert scene.read_bytes()==(R/'editorial/approved-pages/genesis'/m['scene']/'index.html').read_bytes()
+ # El generador restaura la fuente aprobada y luego inserta vínculos a Puerta/Codo/Sea.
+ # Comparar tras retirar SOLO esas inserciones; cualquier otra divergencia falla.
+ rendered=scene.read_text(encoding='utf-8')
+ approved=(R/'editorial/approved-pages/genesis'/m['scene']/'index.html').read_text(encoding='utf-8')
+ without_links=re.sub(r'<a class="term (?:objetos|medidas)" data-entry="(?:objetos/puerta|medidas/(?:codo|sea))" href="../../apendices/[^\"]+">([^<]*)</a>',r'\1',rendered)
+ assert without_links==approved,(m['id'],'contenido cartográfico divergente de la fuente aprobada')
 for eid in {eid for m in M for l in m['labels'] for eid in l['entries']}:
  text=(R/'docs/apendices'/eid/'index.html').read_text()
  expected={m['id'] for m in M if any(eid in l['entries'] for l in m['labels'])}
