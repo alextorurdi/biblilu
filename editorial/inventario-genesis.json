@@ -65,6 +65,10 @@
     "arboles_svg": 8,
     "registros_maestros": 450,
     "fichas_principales": 432,
+    "remisiones": 18,
+    "entidades_con_menciones": 303,
+    "entidades_en_genealogias": 245,
+    "entidades_con_mapas": 56,
     "referencias_bibliograficas": 69
   },
   "escenas": [
