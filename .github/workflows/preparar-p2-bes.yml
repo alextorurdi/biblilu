@@ -35,6 +35,7 @@ jobs:
           python3 scripts/prepare_genesis_p2.py --check-source
           python3 scripts/prepare_genesis_p2.py --check-format
           python3 scripts/test_marcado_bes_p2.py
+          python3 scripts/test_genesis_p2.py
       - name: Generar en build/p2 los 19 borradores e índices
         run: |
           python3 scripts/prepare_genesis_p2.py --build-draft
@@ -46,6 +47,8 @@ jobs:
           assert len(p)==19, len(p)
           assert sum(x.read_text().count('<span class="verse-inline" id="gn-') for x in p)==874
           assert sum(x.read_text().count('<p class="prose-paragraph') for x in p)==387
+          assert sum(x.read_text().count('class="p2-spoken-dash"') for x in p)==299
+          assert (base/'assets/p2-prose.css').is_file()
           assert json.loads((base/'validacion.json').read_text())['parrafos']==387
           assert json.loads((base/'validacion.json').read_text())['con_formato_revisado']==0
           assert all('noindex,nofollow' in x.read_text() for x in p)
