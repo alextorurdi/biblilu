@@ -23,6 +23,28 @@ EXTRACTIONS = ROOT/"data/p3-extracciones-genesis-25-50.json"
 SUMMARY = ROOT/"editorial/p3-resumen-genesis-25-50.json"
 CATEGORIES = ["onomastico","lugares","animales","materiales","tribus","objetos","instrumentos","medidas"]
 
+# Conflictos comprobados en el primer lote onomástico (Gn 25:1–18):
+# hay una ficha con el mismo nombre, pero su identidad es OTRA.
+# La fuente BES distingue el parentesco; nunca sugerir ese ID como enlace.
+IDENTITY_CONFLICTS = {
+    (25,9,"zohar"): {
+        "excluir":"onomastico/zohar",
+        "motivo":"Zohar padre de Efrón, no Zohar hijo de Simeón (Gn 46:10)"
+    },
+    (25,15,"hadad"): {
+        "excluir":"onomastico/hadad-rey-de-edom",
+        "motivo":"Hadad hijo de Ismael, no el rey edomita hijo de Bedad (Gn 36:35)"
+    }
+}
+# Grafías alternativas de BES por estudiar: no están aprobadas como
+# equivalencias de búsqueda ni como cambios de ID histórico.
+TEXT_VARIANTS_PENDING = {
+    (25,2,"zimran"): {
+        "proponer":"onomastico/zimram",
+        "motivo":"Zimrán en BES; ficha previa Zimram, hijo de Abraham y Cetura"
+    }
+}
+
 # Son CANDIDATOS de lectura, no nuevas fichas ni identidades aprobadas.
 # La atribución de clase procede del contexto del pasaje y queda pendiente de P3.
 PROPOSED_TERMS = {
@@ -225,7 +247,19 @@ def main():
             choices=list(unique.values())
             ids=sorted(set(e["id"] for e in choices if e["id"]))
             cats=sorted(set(e["category"] for e in choices))
-            if len(ids)>1 or len(cats)>1:
+            conflict = IDENTITY_CONFLICTS.get((c,v,norm(label)))
+            spelling = TEXT_VARIANTS_PENDING.get((c,v,norm(label)))
+            if conflict:
+                assert conflict["excluir"] in ids
+                # No se puede vincular este nombre a la ficha preexistente.
+                ids = [x for x in ids if x != conflict["excluir"]]
+                state="colision_de_identidad_por_revisar"
+            elif spelling:
+                assert spelling["proponer"] in byid
+                # Sugerencia SOLO editorial, nunca enlace automático.
+                ids=[spelling["proponer"]]
+                state="variante_ortografica_por_aprobar"
+            elif len(ids)>1 or len(cats)>1:
                 state="ambiguo_desambiguar"
             elif len(ids)==1:
                 state=("flexion_por_comprobar" if
@@ -237,6 +271,8 @@ def main():
                 "ref":f"Gn {c}:{v}","chapter":c,"verse":v,
                 "start":start,"end":end,"literal":label,"contexto":short(passage,start,end),
                 "categorias":cats,"candidatos_ficha":ids,"estado":state,
+                "incidencia":(conflict["motivo"] if conflict else
+                             spelling["motivo"] if spelling else None),
                 "origen":"coincidencia_lexica_fuente_BES",
             })
         # Solapamientos internos: preferir la expresión más larga; no borrar
@@ -300,7 +336,8 @@ def main():
                           "estado":x["estado"]} for x in xs[:8]]
         }
     queue=sorted([x for x in mentions if x["estado"] in (
-        "ambiguo_desambiguar","termino_sin_ficha_por_evaluar")],
+        "ambiguo_desambiguar","termino_sin_ficha_por_evaluar",
+        "colision_de_identidad_por_revisar","variante_ortografica_por_aprobar")],
         key=lambda x:(x["chapter"],x["verse"],x["start"]))
     unknownfreq=defaultdict(list)
     for item in unmatched:
@@ -344,6 +381,13 @@ def main():
         if x.get("candidatos_ficha"):
             assert all(k in byid for k in x["candidatos_ficha"])
     assert len(visited)==874 and len(set(visited))==874
+    specific={(x["chapter"],x["verse"],norm(x["literal"])):x for x in mentions}
+    assert specific[(25,9,"zohar")]["estado"]=="colision_de_identidad_por_revisar"
+    assert "onomastico/zohar" not in specific[(25,9,"zohar")]["candidatos_ficha"]
+    assert specific[(25,15,"hadad")]["estado"]=="colision_de_identidad_por_revisar"
+    assert "onomastico/hadad-rey-de-edom" not in specific[(25,15,"hadad")]["candidatos_ficha"]
+    assert specific[(25,2,"zimran")]["estado"]=="variante_ortografica_por_aprobar"
+    assert specific[(25,2,"zimran")]["candidatos_ficha"]==["onomastico/zimram"]
     if args.check:
         assert EXTRACTIONS.exists() and SUMMARY.exists()
         prev=json.loads(EXTRACTIONS.read_text(encoding="utf-8"))
