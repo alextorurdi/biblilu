@@ -5,8 +5,9 @@
   python scripts/prepare_genesis_p2.py --check-source
   python scripts/prepare_genesis_p2.py --build-draft
 
-No descarga ni reconstruye el texto RVR1960. Exige un fichero editorial
-data/genesis_25_50.json con los versículos de una fuente autorizada.
+No descarga la fuente BES 2026 (lo hace import_bes_genesis.py). Exige
+el fichero data/genesis_25_50_bes.json producido desde su USFM oficial.
+Protege íntegramente las 15 escenas RVR1960 de Génesis 1–24.
 Nunca escribe en docs/, en data/genesis.json ni en approved-pages/.
 """
 from pathlib import Path
@@ -18,7 +19,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "editorial/catalogo-escenas-genesis-25-50.json"
-SOURCE = ROOT / "data/genesis_25_50.json"
+SOURCE = ROOT / "data/genesis_25_50_bes.json"
 OLD_INDEX = ROOT / "editorial/approved-pages/genesis/index.html"
 PREVIEW = ROOT / "build/p2"
 LENGTHS = {
@@ -83,9 +84,9 @@ def structure():
 
 def check_source(expected):
     if not SOURCE.is_file():
-        error("no existe data/genesis_25_50.json. "
-              "Se necesita una transcripción RVR1960 aportada/autorizada "
-              "editorialmente; no se sustituirá ni inventará el texto.")
+        error("no existe data/genesis_25_50_bes.json. "
+              "Se necesita importar el paquete oficial BES 2026 "
+              "desde eBible; no se sustituirá ni inventará el texto.")
     verses = json.loads(SOURCE.read_text(encoding="utf-8"))
     if not isinstance(verses, list) or len(verses) != len(expected):
         error("la fuente debe contener exactamente 874 versículos ordenados")
@@ -173,7 +174,7 @@ def make_scene_html(s, verses, scenes):
 <p class="crumb"><a href="../index.html">Génesis</a> / Escena ''' + str(n) + '''</p>
 <p class="eyebrow">GÉNESIS · ESCENA ''' + str(n) + ''' · BORRADOR P2 NO PUBLICADO</p>
 <h1>''' + esc(s["titulo"]) + '''</h1>
-<p class="subtitle">Reina-Valera 1960 · Génesis ''' + fmt(s["inicio"]) + "–" + fmt(s["fin"]) + '''</p>
+<p class="subtitle">La Biblia en Español Sencillo 2026 (BES) · Génesis ''' + fmt(s["inicio"]) + "–" + fmt(s["fin"]) + '''</p>
 <div class="reader-tools"><label>Escena <select id="chapter-select">''' +
             controls + '''</select></label></div></div>
 <div class="reading-layout"><article class="verses">''' + body + '''</article>
@@ -223,8 +224,9 @@ def index_html(scenes, expected):
                           str(c) + '-1"><b>' + str(c).zfill(2) +
                           '</b><span>Génesis ' + str(c) + '</span>' + further + '↗</a>')
     base = append_cards(base, "ÍNDICE TRADICIONAL", chapter_cards)
+    base = base.replace("<h2>Escenas del manuscrito</h2>", "<h2>Escenas del manuscrito</h2><p><strong>Traducciones:</strong> escenas 1–15 RVR1960; escenas 16–34 BES 2026. Migración de las primeras quince escenas reservada para la Etapa II.</p>")
     base = base.replace("Quince escenas disponibles · Génesis 1–24",
-                        "34 escenas previstas · Génesis 1–50 · PREVISUALIZACIÓN P2")
+                        "34 escenas previstas · Génesis 1–24: RVR1960 · Génesis 25–50: BES 2026 · PREVISUALIZACIÓN P2")
     base = base.replace("</head>", '<meta name="robots" content="noindex,nofollow"></head>', 1)
     return base
 
