@@ -118,6 +118,17 @@ Los archivos resultantes de `build/p2/` son solo borradores de estructura y text
 - **Validación automática:** [scripts/test_marcado_bes_p2.py](../scripts/test_marcado_bes_p2.py) comprueba Gn 26:2–5, 26:9, las intervenciones al principio de un versículo y la recuperación literal de la BES. [GitHub Actions: borradores actualizados](https://github.com/alextorurdi/biblilu/actions/runs/45266022438) finalizó correctamente y verificó la protección de las 15 escenas anteriores.
 
 La Fase 2 sigue abierta para revisión visual y editorial. **No se han publicado las escenas nuevas.**
+## Refinamiento del fin de diálogo y de los incisos · 23/11/2026
+
+**Aprobado e implementado.** El final de un parlamento seguido por narración independiente o por la introducción de otro hablante impone una nueva línea, además de la nueva línea inicial que ya se utiliza para cada raya. En cambio, si el narrador intercala una atribución o nota breve **y continúa hablando el mismo personaje**, el inciso se dispone entre rayas dentro de la misma línea.
+
+- **Ejemplo comprobado:** Gn 26:8–11. Tras la pregunta de Abimelec, «Isaac respondió:» comienza en otra línea y su réplica se abre también en línea propia. La intervención de Abimelec en Gn 26:10 conserva su propio inicio. No se duplica el punto ni se modifica el texto de la BES.
+- **Continuaciones expresamente identificadas:** Gn 27:36, 43:29 y 45:4; el generador también admite incisos entre comas cuando es explícito que sigue hablando la misma persona.
+- **Números y enlaces:** cuando cambia la línea al comenzar otro versículo, el superíndice y sus palabras permanecen juntos; no hay interrupciones adicionales cuando una cita simplemente continúa en otro versículo.
+- **Pruebas aprobadas:** [GitHub Actions](https://github.com/alextorurdi/biblilu/actions/runs/45268499246), con los 874 textos recuperables, 387 párrafos, 19 escenas, 299 aperturas orales y protección de los quince capítulos/escenas antiguos. [Criterio editorial documentado](p2-criterios-dialogos-bes-pendientes.md).
+
+**No publicado.** P2 continúa pendiente de la revisión visual de las 19 escenas y el control integral de las 874 lecturas.
+
 ## Condiciones para cerrar P2
 
 - [x] Pasaje, 19 escenas, títulos y distribución aprobados.
