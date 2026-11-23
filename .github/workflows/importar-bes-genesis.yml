@@ -19,7 +19,7 @@ jobs:
     timeout-minutes: 12
     steps:
       - name: Obtener repositorio
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           persist-credentials: true
       - name: Confirmar que las escenas antiguas están intactas
