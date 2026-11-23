@@ -1158,12 +1158,12 @@
   {
     "id": "onomastico/hadar",
     "category": "onomastico",
-    "name": "Hadar",
-    "title": "Hadar",
-    "text": "Hadar. Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Duma, Massa, Tema, Jetur, Nafis y Cedema. Etimología. El nombre significa «esplendor» u «honor».",
-    "body": "Relaciones familiares. Hijo de Ismael. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Duma, Massa, Tema, Jetur, Nafis y Cedema. Etimología. El nombre significa «esplendor» u «honor».",
+    "name": "Hadad (hijo de Ismael)",
+    "title": "Hadad (hijo de Ismael)",
+    "text": "Hadad (hijo de Ismael). Relaciones familiares. Hijo de Ismael y nieto de Abraham. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Duma, Massa, Tema, Jetur, Nafis y Cedema (Gn 25:13–16). Variante textual. La BES 2026 lo llama «Hadad» (Gn 25:15), mientras la RVR1960 emplea «Hadar»; se conserva su identificador histórico para no separar artificialmente a una misma persona. Identificación. No confundirlo con Hadad, rey de Edom e hijo de Bedad (Gn 36:35–36), ni con el rey edomita llamado Hadar en Gn 36:39.",
+    "body": "Relaciones familiares. Hijo de Ismael y nieto de Abraham. Hermano de Nebaiot, Cedar, Adbeel, Mibsam, Misma, Duma, Massa, Tema, Jetur, Nafis y Cedema (Gn 25:13–16). Variante textual. La BES 2026 lo llama «Hadad» (Gn 25:15), mientras la RVR1960 emplea «Hadar»; se conserva su identificador histórico para no separar artificialmente a una misma persona. Identificación. No confundirlo con Hadad, rey de Edom e hijo de Bedad (Gn 36:35–36), ni con el rey edomita llamado Hadar en Gn 36:39.",
     "mentions": [
-      "Gn 25:12–16"
+      "Gn 25:15"
     ]
   },
   {
@@ -3150,19 +3150,31 @@
     "category": "onomastico",
     "name": "Zimram",
     "title": "Zimram",
-    "text": "Zimram. Relaciones familiares. Hijo de Abraham y Cetura. Hermano de Jocsán, Medán, Madián, Isbac y Súa. Etimología. Podría relacionarse con la raíz hebrea para «cantar».",
-    "body": "Relaciones familiares. Hijo de Abraham y Cetura. Hermano de Jocsán, Medán, Madián, Isbac y Súa. Etimología. Podría relacionarse con la raíz hebrea para «cantar».",
+    "text": "Zimram. Relaciones familiares. Hijo de Abraham y Cetura. Hermano de Jocsán, Medán, Madián, Isbac y Súa (Gn 25:2). Variante textual. La BES 2026 escribe «Zimrán», mientras la RVR1960 y la entrada histórica conservan «Zimram»; ambos nombres designan aquí al mismo hijo de Abraham. Etimología. Se ha relacionado el nombre con la raíz hebrea para «cantar», aunque su explicación es discutida.",
+    "body": "Relaciones familiares. Hijo de Abraham y Cetura. Hermano de Jocsán, Medán, Madián, Isbac y Súa (Gn 25:2). Variante textual. La BES 2026 escribe «Zimrán», mientras la RVR1960 y la entrada histórica conservan «Zimram»; ambos nombres designan aquí al mismo hijo de Abraham. Etimología. Se ha relacionado el nombre con la raíz hebrea para «cantar», aunque su explicación es discutida.",
     "mentions": [
-      "Gn 25:1–2"
+      "Gn 25:2"
+    ]
+  },
+  {
+    "id": "onomastico/zohar-heteo",
+    "category": "onomastico",
+    "name": "Zohar (heteo)",
+    "title": "Zohar (heteo)",
+    "body": "Heteo mencionado en relación con la compra de la cueva de Macpela. Relaciones familiares. Padre de Efrón (Gn 23:8; 25:9). Hechos bíblicos. Su nombre identifica al Efrón con quien Abraham trató la adquisición del campo y la cueva para sepultar a Sara. El texto no atribuye a Zohar una intervención directa en la compraventa. Identificación. Es distinto de Zohar, hijo de Simeón (Gn 46:10).",
+    "text": "Zohar (heteo). Heteo mencionado en relación con la compra de la cueva de Macpela. Relaciones familiares. Padre de Efrón (Gn 23:8; 25:9). Hechos bíblicos. Su nombre identifica al Efrón con quien Abraham trató la adquisición del campo y la cueva para sepultar a Sara. El texto no atribuye a Zohar una intervención directa en la compraventa. Identificación. Es distinto de Zohar, hijo de Simeón (Gn 46:10).",
+    "mentions": [
+      "Gn 23:8",
+      "Gn 25:9"
     ]
   },
   {
     "id": "onomastico/zohar",
     "category": "onomastico",
-    "name": "Zohar",
-    "title": "Zohar",
-    "text": "Zohar. Relaciones familiares. Hijo de Simeón. Hermano de Jemuel, Jamín, Ohad y Jaquín. Etimología. Significa «resplandor» o «brillo».",
-    "body": "Relaciones familiares. Hijo de Simeón. Hermano de Jemuel, Jamín, Ohad y Jaquín. Etimología. Significa «resplandor» o «brillo».",
+    "name": "Zohar (hijo de Simeón)",
+    "title": "Zohar (hijo de Simeón)",
+    "text": "Zohar (hijo de Simeón). Relaciones familiares. Hijo de Simeón (Gn 46:10). En la enumeración aparecen también Jemuel, Jamín, Ohad, Jaquín y Saúl. Variante textual. La RVR1960 emplea «Zohar» en Gn 46:10, mientras la BES 2026 escribe «Zera» en ese versículo. No debe confundirse con el Zera hijo de Reuel (Gn 36:13), ni con Zohar el heteo, padre de Efrón (Gn 23:8; 25:9). Etimología. El nombre Zohar se ha relacionado con la idea de «resplandor» o «brillo».",
+    "body": "Relaciones familiares. Hijo de Simeón (Gn 46:10). En la enumeración aparecen también Jemuel, Jamín, Ohad, Jaquín y Saúl. Variante textual. La RVR1960 emplea «Zohar» en Gn 46:10, mientras la BES 2026 escribe «Zera» en ese versículo. No debe confundirse con el Zera hijo de Reuel (Gn 36:13), ni con Zohar el heteo, padre de Efrón (Gn 23:8; 25:9). Etimología. El nombre Zohar se ha relacionado con la idea de «resplandor» o «brillo».",
     "mentions": [
       "Gn 46:10"
     ]
@@ -4570,10 +4582,10 @@
     "category": "onomastico",
     "name": "Hadad (rey de Edom)",
     "title": "Hadad (rey de Edom)",
-    "body": "Relaciones familiares. Hijo de Bedad. Hechos bíblicos. Rey de Edom que derrotó a Madián en el campo de Moab. Su ciudad fue Avit; sucedió a Husam y fue sucedido por Samla (Gn 36:35-36).",
-    "text": "Hadad (rey de Edom). Relaciones familiares. Hijo de Bedad. Hechos bíblicos. Rey de Edom que derrotó a Madián en el campo de Moab. Su ciudad fue Avit; sucedió a Husam y fue sucedido por Samla (Gn 36:35-36).",
+    "body": "Relaciones familiares. Hijo de Bedad. Hechos bíblicos. Rey de Edom que sucedió a Husam y fue sucedido por Samla. Derrotó a los madianitas en la región de Moab y su ciudad se llamaba Avit (Gn 36:35–36). Identificación. Este rey es distinto de Hadad, hijo de Ismael (Gn 25:15), y del rey llamado Hadar que aparece en Gn 36:39.",
+    "text": "Hadad (rey de Edom). Relaciones familiares. Hijo de Bedad. Hechos bíblicos. Rey de Edom que sucedió a Husam y fue sucedido por Samla. Derrotó a los madianitas en la región de Moab y su ciudad se llamaba Avit (Gn 36:35–36). Identificación. Este rey es distinto de Hadad, hijo de Ismael (Gn 25:15), y del rey llamado Hadar que aparece en Gn 36:39.",
     "mentions": [
-      "Gn 36:35-36"
+      "Gn 36:35–36"
     ]
   },
   {
