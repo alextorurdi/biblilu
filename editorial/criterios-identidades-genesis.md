@@ -25,6 +25,18 @@ Resoluciones aceptadas para BIBLILU. Estos criterios afectan a la interpretació
 - **Varona** es la denominación común «mujer» en Gn 2:23, no un nombre propio independiente de Eva. Se mantiene la remisión desde la entrada «Varona» a «Eva».
 - **Quesed** (Gn 22:22) es la grafía principal de la RVR1960. **Kesed** permanece como variante de búsqueda y se conserva la URL histórica `onomastico/kesed`, sin crear una identidad adicional.
 
+## Resolución P3 BES · Zimram, Zohar y Hadad (23/11/2026)
+
+**Aprobado e incorporado al origen del Onomástico:**
+
+- **Zimram:** `onomastico/zimram` sigue siendo la ficha e ID principal; «Zimrán» (BES 2026, Gn 25:2) es variante de búsqueda aprobada.
+- **Zohar (heteo):** `onomastico/zohar-heteo` es la nueva ficha del padre de Efrón, citado en Gn 23:8 (RVR1960) y Gn 25:9 (BES). No enlazar a la ficha del hijo de Simeón.
+- **Zohar (hijo de Simeón):** `onomastico/zohar` conserva URL, ID y genealogías históricas. El texto RVR1960 usa «Zohar» en Gn 46:10; la BES 2026 escribe «Zera» en ese mismo versículo. **No confundir con `onomastico/zera`**, hijo de Reuel; la correspondencia de traducciones queda identificada para control P3.
+- **Hadad (hijo de Ismael):** la ficha histórica `onomastico/hadar` conservó ID y árbol, pero se presenta como **Hadad (hijo de Ismael)** en la BES; «Hadar» se conserva como variante RVR1960. No generar una identidad adicional por ese cambio de grafía.
+- **Hadad (rey de Edom):** `onomastico/hadad-rey-de-edom` permanece independiente; es hijo de Bedad, mencionado en Gn 36:35–36. No confundir con el rey posterior llamado **Hadar** en Gn 36:39, cuya ficha `onomastico/hadar-rey-de-edom` permanece separada.
+
+**Alcance:** se modifican únicamente el catálogo fuente del Onomástico, las variantes registradas, las pruebas de identidades y los listados internos P3. **Los quince capítulos RVR1960 anteriores, sus genealogías y las 19 escenas BES no se han reescrito.** No se generan conexiones personales por coincidencia literal.
+
 ## Pendiente
 - No modificar los SVG, el visor, la representación, el color, los identificadores ni las relaciones de los árboles hasta nueva indicación.
 - La futura navegación Onomástico ↔ genealogías (puntos 1, 2, 4 y 5) se implementará por separado.
