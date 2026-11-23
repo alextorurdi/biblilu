@@ -7,7 +7,7 @@
   "origen_importacion": "https://ebible.org/Scriptures/spabes_usfm.zip",
   "archivo_usfm_genesis": "02-GENspabes.usfm",
   "sha256_zip": "45c412d35fd1cbcf51ad4405ed0c3dea840cb7db39b157c0bbebd244fe51c578",
-  "fecha_importacion_utc": "2026-11-23T20:56:29.897533+00:00",
+  "fecha_importacion_utc": "2026-11-23T20:59:06.352102+00:00",
   "capitulos": 26,
   "versiculos": 874,
   "datos": "data/genesis_25_50_bes.json",
