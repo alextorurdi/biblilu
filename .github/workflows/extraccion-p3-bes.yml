@@ -1,0 +1,60 @@
+name: P3 · Extracción y clasificación BES Génesis 25–50
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/extraccion-p3-bes.yml'
+      - 'scripts/extract_genesis_p3.py'
+      - 'data/registro_maestro.json'
+      - 'data/genesis_25_50_bes.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: extraccion-p3-bes
+  cancel-in-progress: false
+jobs:
+  extraccion:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: true
+      - name: Proteger texto y fuentes editoriales existentes
+        run: |
+          sha256sum data/genesis_25_50_bes.json data/genesis.json data/registro_maestro.json > /tmp/fuentes-p3.sha
+          find editorial/approved-pages/genesis -type f -print0 | sort -z | xargs -0 sha256sum > /tmp/paginas-protegidas-p3.sha
+      - name: Extraer las ocho categorías en los 874 versículos
+        run: |
+          python3 scripts/extract_genesis_p3.py
+          python3 scripts/extract_genesis_p3.py --check
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('data/p3-extracciones-genesis-25-50.json').read_text(encoding='utf-8'))
+          s=json.loads(Path('editorial/p3-resumen-genesis-25-50.json').read_text(encoding='utf-8'))
+          assert d['versiculos_recorridos']==874
+          assert len(d['referencias_recorridas'])==len(set(d['referencias_recorridas']))==874
+          assert set(d['categorias'])=={'onomastico','lugares','animales','materiales','tribus','objetos','instrumentos','medidas'}
+          assert s['identificadores_historicos']==450
+          assert s['menciones_candidatas']>0
+          print('Primer barrido P3 verificado:',s['menciones_candidatas'],'menciones candidatas en 8 categorías')
+          print('Distribución:', {cat:row['menciones_candidatas'] for cat,row in s['por_categoria'].items()})
+          PY
+      - name: Verificar que no se han alterado las fuentes
+        run: |
+          sha256sum --check --status /tmp/fuentes-p3.sha
+          sha256sum --check --status /tmp/paginas-protegidas-p3.sha
+          test ! -d build/p2
+      - name: Guardar solo catálogos P3, sin publicar ni editar fichas
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/p3-extracciones-genesis-25-50.json editorial/p3-resumen-genesis-25-50.json
+          if ! git diff --cached --quiet; then
+            git commit -m "P3: primer catálogo de menciones BES de Génesis 25-50, pendiente de revisión"
+            git pull --rebase origin main
+            git push
+          fi
