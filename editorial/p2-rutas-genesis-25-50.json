@@ -1,0 +1,317 @@
+{
+  "libro": "Genesis",
+  "estado": "P2 estructura técnica, sin texto transcrito ni publicación",
+  "escenas": [
+    {
+      "numero": 16,
+      "titulo": "De Abraham a Isaac",
+      "referencia": "Gn 25:1–25:18",
+      "versiculos": 18,
+      "ruta": "25",
+      "primer_ancla": "gn-25-1",
+      "ultima_ancla": "gn-25-18"
+    },
+    {
+      "numero": 17,
+      "titulo": "Isaac",
+      "referencia": "Gn 25:19–26:35",
+      "versiculos": 51,
+      "ruta": "25-19",
+      "primer_ancla": "gn-25-19",
+      "ultima_ancla": "gn-26-35"
+    },
+    {
+      "numero": 18,
+      "titulo": "Bendición",
+      "referencia": "Gn 27:1–27:40",
+      "versiculos": 40,
+      "ruta": "27",
+      "primer_ancla": "gn-27-1",
+      "ultima_ancla": "gn-27-40"
+    },
+    {
+      "numero": 19,
+      "titulo": "Piedra",
+      "referencia": "Gn 27:41–28:22",
+      "versiculos": 28,
+      "ruta": "27-41",
+      "primer_ancla": "gn-27-41",
+      "ultima_ancla": "gn-28-22"
+    },
+    {
+      "numero": 20,
+      "titulo": "Trabajo",
+      "referencia": "Gn 29:1–29:30",
+      "versiculos": 30,
+      "ruta": "29",
+      "primer_ancla": "gn-29-1",
+      "ultima_ancla": "gn-29-30"
+    },
+    {
+      "numero": 21,
+      "titulo": "Nacimiento",
+      "referencia": "Gn 29:31–30:24",
+      "versiculos": 29,
+      "ruta": "29-31",
+      "primer_ancla": "gn-29-31",
+      "ultima_ancla": "gn-30-24"
+    },
+    {
+      "numero": 22,
+      "titulo": "Salario",
+      "referencia": "Gn 30:25–31:55",
+      "versiculos": 74,
+      "ruta": "30-25",
+      "primer_ancla": "gn-30-25",
+      "ultima_ancla": "gn-31-55"
+    },
+    {
+      "numero": 23,
+      "titulo": "Luchas",
+      "referencia": "Gn 32:1–33:17",
+      "versiculos": 49,
+      "ruta": "32",
+      "primer_ancla": "gn-32-1",
+      "ultima_ancla": "gn-33-17"
+    },
+    {
+      "numero": 24,
+      "titulo": "Horror",
+      "referencia": "Gn 33:18–34:31",
+      "versiculos": 34,
+      "ruta": "33-18",
+      "primer_ancla": "gn-33-18",
+      "ultima_ancla": "gn-34-31"
+    },
+    {
+      "numero": 25,
+      "titulo": "Despedidas",
+      "referencia": "Gn 35:1–35:29",
+      "versiculos": 29,
+      "ruta": "35",
+      "primer_ancla": "gn-35-1",
+      "ultima_ancla": "gn-35-29"
+    },
+    {
+      "numero": 26,
+      "titulo": "Edom",
+      "referencia": "Gn 36:1–36:43",
+      "versiculos": 43,
+      "ruta": "36",
+      "primer_ancla": "gn-36-1",
+      "ultima_ancla": "gn-36-43"
+    },
+    {
+      "numero": 27,
+      "titulo": "Venta",
+      "referencia": "Gn 37:1–37:36",
+      "versiculos": 36,
+      "ruta": "37",
+      "primer_ancla": "gn-37-1",
+      "ultima_ancla": "gn-37-36"
+    },
+    {
+      "numero": 28,
+      "titulo": "Judá",
+      "referencia": "Gn 38:1–38:30",
+      "versiculos": 30,
+      "ruta": "38",
+      "primer_ancla": "gn-38-1",
+      "ultima_ancla": "gn-38-30"
+    },
+    {
+      "numero": 29,
+      "titulo": "Sueños",
+      "referencia": "Gn 39:1–41:45",
+      "versiculos": 91,
+      "ruta": "39",
+      "primer_ancla": "gn-39-1",
+      "ultima_ancla": "gn-41-45"
+    },
+    {
+      "numero": 30,
+      "titulo": "Hambre",
+      "referencia": "Gn 41:46–45:3",
+      "versiculos": 121,
+      "ruta": "41-46",
+      "primer_ancla": "gn-41-46",
+      "ultima_ancla": "gn-45-3"
+    },
+    {
+      "numero": 31,
+      "titulo": "Reencuentro",
+      "referencia": "Gn 45:4–47:12",
+      "versiculos": 71,
+      "ruta": "45-4",
+      "primer_ancla": "gn-45-4",
+      "ultima_ancla": "gn-47-12"
+    },
+    {
+      "numero": 32,
+      "titulo": "Quinto",
+      "referencia": "Gn 47:13–47:26",
+      "versiculos": 14,
+      "ruta": "47-13",
+      "primer_ancla": "gn-47-13",
+      "ultima_ancla": "gn-47-26"
+    },
+    {
+      "numero": 33,
+      "titulo": "Testamento",
+      "referencia": "Gn 47:27–49:33",
+      "versiculos": 60,
+      "ruta": "47-27",
+      "primer_ancla": "gn-47-27",
+      "ultima_ancla": "gn-49-33"
+    },
+    {
+      "numero": 34,
+      "titulo": "Coda",
+      "referencia": "Gn 50:1–50:26",
+      "versiculos": 26,
+      "ruta": "50",
+      "primer_ancla": "gn-50-1",
+      "ultima_ancla": "gn-50-26"
+    }
+  ],
+  "indice_tradicional": [
+    {
+      "capitulo": 25,
+      "escena": 16,
+      "href": "25/index.html#gn-25-1"
+    },
+    {
+      "capitulo": 26,
+      "escena": 17,
+      "href": "25-19/index.html#gn-26-1"
+    },
+    {
+      "capitulo": 27,
+      "escena": 18,
+      "href": "27/index.html#gn-27-1"
+    },
+    {
+      "capitulo": 28,
+      "escena": 19,
+      "href": "27-41/index.html#gn-28-1"
+    },
+    {
+      "capitulo": 29,
+      "escena": 20,
+      "href": "29/index.html#gn-29-1"
+    },
+    {
+      "capitulo": 30,
+      "escena": 21,
+      "href": "29-31/index.html#gn-30-1"
+    },
+    {
+      "capitulo": 31,
+      "escena": 22,
+      "href": "30-25/index.html#gn-31-1"
+    },
+    {
+      "capitulo": 32,
+      "escena": 23,
+      "href": "32/index.html#gn-32-1"
+    },
+    {
+      "capitulo": 33,
+      "escena": 23,
+      "href": "32/index.html#gn-33-1"
+    },
+    {
+      "capitulo": 34,
+      "escena": 24,
+      "href": "33-18/index.html#gn-34-1"
+    },
+    {
+      "capitulo": 35,
+      "escena": 25,
+      "href": "35/index.html#gn-35-1"
+    },
+    {
+      "capitulo": 36,
+      "escena": 26,
+      "href": "36/index.html#gn-36-1"
+    },
+    {
+      "capitulo": 37,
+      "escena": 27,
+      "href": "37/index.html#gn-37-1"
+    },
+    {
+      "capitulo": 38,
+      "escena": 28,
+      "href": "38/index.html#gn-38-1"
+    },
+    {
+      "capitulo": 39,
+      "escena": 29,
+      "href": "39/index.html#gn-39-1"
+    },
+    {
+      "capitulo": 40,
+      "escena": 29,
+      "href": "39/index.html#gn-40-1"
+    },
+    {
+      "capitulo": 41,
+      "escena": 29,
+      "href": "39/index.html#gn-41-1"
+    },
+    {
+      "capitulo": 42,
+      "escena": 30,
+      "href": "41-46/index.html#gn-42-1"
+    },
+    {
+      "capitulo": 43,
+      "escena": 30,
+      "href": "41-46/index.html#gn-43-1"
+    },
+    {
+      "capitulo": 44,
+      "escena": 30,
+      "href": "41-46/index.html#gn-44-1"
+    },
+    {
+      "capitulo": 45,
+      "escena": 30,
+      "href": "41-46/index.html#gn-45-1"
+    },
+    {
+      "capitulo": 46,
+      "escena": 31,
+      "href": "45-4/index.html#gn-46-1"
+    },
+    {
+      "capitulo": 47,
+      "escena": 31,
+      "href": "45-4/index.html#gn-47-1"
+    },
+    {
+      "capitulo": 48,
+      "escena": 33,
+      "href": "47-27/index.html#gn-48-1"
+    },
+    {
+      "capitulo": 49,
+      "escena": 33,
+      "href": "47-27/index.html#gn-49-1"
+    },
+    {
+      "capitulo": 50,
+      "escena": 34,
+      "href": "50/index.html#gn-50-1"
+    }
+  ],
+  "validaciones": {
+    "escenas": 19,
+    "versiculos": 874,
+    "capitulos": 26,
+    "sin_huecos_ni_solapamientos": true,
+    "links_internos_compatibles_con_anclas": "gn-<capítulo>-<versículo>",
+    "slug_primer_corte_capitulo_legacy": true
+  }
+}
