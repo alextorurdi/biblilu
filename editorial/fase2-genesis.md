@@ -1,7 +1,7 @@
 # Fase 2 · Génesis 25–50 — BES 2026, marcado e índices
 
 **Fecha de inicio:** 23/11/2026. **Actualización editorial:** 23/11/2026.  
-**Estado:** **EN REVISIÓN EDITORIAL — CRITERIOS DE MARCADO APROBADOS; 19 BORRADORES BES GENERADOS Y VALIDADOS; CONTROL INTEGRAL PENDIENTE.**  
+**Estado:** **EN REVISIÓN EDITORIAL — 19 BORRADORES BES EN PROSA (387 PÁRRAFOS) GENERADOS Y VALIDADOS; CONTROL VISUAL E INTEGRAL PENDIENTE.**  
 **Alcance invariable de Etapa I:** 19 escenas, Gn 25:1–50:26, traducción **La Biblia en Español Sencillo 2026 (BES)**. Las 15 escenas de Gn 1–24 **conservan RVR1960** hasta la segunda etapa, sin cambios de texto ni notas.
 
 **Documentos rectores:** [Protocolo P0–P9](protocolo-libros.md) · [BES en dos etapas](plan-dos-etapas-bes-genesis.md) · [P1 aprobada](fase1-genesis.md) · [Distribución de recursos](plan-ubicacion-escenas-genesis-25-50.md).
@@ -79,6 +79,19 @@ Los archivos resultantes de `build/p2/` son solo borradores de estructura y text
 - **Prueba automática superada:** [GitHub Actions · P2 BES aprobado por criterios](https://github.com/alextorurdi/biblilu/actions/runs/45216746610). Se verifica integridad de los 874 textos, las 19 páginas no públicas, los dos índices, las excepciones aprobadas y la protección SHA-256 de las quince escenas anteriores.
 - La ejecución genera un nuevo paquete de borradores de trabajo. **No se han integrado páginas nuevas en el directorio público `docs/` ni alterado los 659 versículos RVR1960.**
 
+## Párrafos narrativos BES · 23/11/2026
+
+**Orden editorial:** dejar de presentar una línea independiente por versículo y volver a la lectura continua, prosaica y moderna, sin modificar una palabra de la BES. **Ejecución técnica completada**, sujeta a inspección visual de la distribución.
+
+- [Plan editorial de 387 párrafos para las 19 escenas](p2-parrafos-genesis-25-50.json): los límites se fijaron atendiendo a unidades narrativas, cambios de interlocutor, genealogías, bendiciones y la estructura de la escena; **no** se dividió mecánicamente cada cierto número de versículos.
+- En «De Abraham a Isaac» los grupos son **25:1–4, 25:5–6, 25:7–8, 25:9–10, 25:11, 25:12–16, 25:17, 25:18**. La división inicial de siete párrafos pasa a ocho porque el **Árbol 10 debe insertarse después de 25:17**; así no se rompe después el párrafo al incorporar el recurso.
+- En las 19 escenas se preservan los cortes necesarios tras versículos aprobados de P1 para **mapas, árboles e imágenes en móvil o ambos formatos**. Los lugares definitivos de los recursos continúan siendo los acordados en P1.
+- Cada versículo sigue teniendo su ancla `gn-capítulo-versículo`, un número enlazable en superíndice y el **texto BES íntegro**. La composición HTML cambia a **párrafos literarios** con fragmentos de versículo en línea; se conserva la cursiva y los resaltados divinos aprobados.
+- El generador [`scripts/prepare_genesis_p2.py`](../scripts/prepare_genesis_p2.py) incorpora el renderizado de párrafos y una hoja CSS exclusivamente en **`build/p2/assets/p2-prose.css`**, sin alterar el CSS ni las escenas públicas.
+- **Prueba correcta:** [GitHub Actions · Generación de borradores narrativos](https://github.com/alextorurdi/biblilu/actions/runs/45223416217); 19 escenas, **387 párrafos y 874 anclas** verificados. Artefacto `biblilu-borradores-bes-p2`, disponible hasta el **07/12/2026** en la sección Artifacts de dicha ejecución.
+- El flujo comprobó por SHA-256 que **Gn 1–24 RVR1960 y sus páginas originales permanecen intactos**.
+- **Aún pendiente:** inspeccionar visualmente cortes, diálogos largos, pasajes genealógicos y poemas en escritorio/móvil. La aprobación del método de agrupación no equivale a dar por revisado cada corte y los 874 registros siguen con `revisado=false`.
+
 ## Condiciones para cerrar P2
 
 - [x] Pasaje, 19 escenas, títulos y distribución aprobados.
@@ -88,7 +101,7 @@ Los archivos resultantes de `build/p2/` son solo borradores de estructura y text
 - [x] **Importación real de los 874 versículos BES 2026** y registro SHA-256 del ZIP oficial (ver [procedencia](procedencia-bes-genesis-25-50.json)).
 - [x] **Comprobación estructural:** 26 capítulos, 874 versículos únicos y ordenados, sin vacíos ni restos USFM; cotejos textuales de control con la edición HTML oficial de 25:1, 25:23, 45:3 y 50:26. **Pendiente:** revisión editorial completa del texto y de los discursos.
 - [x] Marcado reversible de diálogo, pensamiento y voz divina en los 874 versículos; **seis casos específicos y reglas generales aprobados editorialmente el 23/11/2026**; pendiente el control integral versículo por versículo.
-- [x] 19 páginas e índices generados y sometidos a controles automáticos, disponibles como artefacto no público. **Pendiente de revisión visual y editorial**.
+- [x] 19 páginas en **387 párrafos narrativos**, con 874 anclas de versículo, ambos índices y controles automáticos superados; disponibles como artefacto no público. **Pendiente de revisión visual y editorial**.
 - [x] La acción de importación verificó mediante sumas SHA-256 que el texto RVR1960 de Gn 1–24 y las quince páginas editoriales protegidas no sufrieron modificaciones. Se ha preparado la identificación de la edición mixta, aún no aplicada a páginas públicas.
 
 **No iniciar como si P2 hubiera finalizado**, ni publicar automáticamente. P3–P9 se desarrollarán secuencialmente sobre las escenas BES, siguiendo los puntos de aprobación del protocolo.
