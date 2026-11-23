@@ -105,7 +105,7 @@ def convert(blob,origin):
  if found.get((50,26)) != "José murió a los ciento diez años. Prepararon su cuerpo con especias y lo pusieron en un ataúd en Egipto.":
   fail("Gn 50:26 no coincide con la lectura BES 2026 publicada por eBible")
  for k,v in found.items():
-  if k[0] in LENGTHS and ("|strong=" in v or re.search(r'\\\\[A-Za-z]+',v)):
+  if k[0] in LENGTHS and ("|strong=" in v or re.search(r'\\[A-Za-z]+',v)):
    fail("restos de marcado USFM en "+str(k))
  verses=[{"chapter":c,"verse":v,"source_label":f"{c}-{v}",
           "text":found[(c,v)],"revisado":False} for c,v in expected]
