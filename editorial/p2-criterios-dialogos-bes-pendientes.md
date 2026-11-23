@@ -38,7 +38,9 @@ Tras revisar [Legado](tareas-legado.md), [Cumplimiento](tareas-cumplimiento.md) 
 
 **Regla de fidelidad:** la BES de `data/genesis_25_50_bes.json` y `data/genesis_25_50_bes_formato.json` debe conservar todas las comillas y versículos. Solo el **renderizado HTML no publicado** efectúa esta sustitución visual, comprobable por pruebas de recuperación del texto literal a partir de sus atributos de procedencia.
 
-La disposición en **387 párrafos** y sus **874 anclas** se conserva. El cambio de voz se indica con una raya por apertura de intervención; las citas anidadas no cuentan como un cambio de hablante. Queda pendiente la revisión visual individual, sin autorizar publicación ni cambiar los anteriores Gn 1–24.
+La disposición en **387 párrafos** y sus **874 anclas** se conserva. El cambio de voz se indica con una raya por apertura de intervención; las citas anidadas no cuentan como un cambio de hablante. **Regla posterior de líneas (23/11/2026): toda intervención que se introduce con raya debe empezar en una línea aparte**, siguiendo la presentación de una novela moderna. Si el narrador introduce las palabras dentro del mismo versículo (ejemplo **Gn 26:2**), la raya baja a la línea siguiente sin separar los restantes versículos del mismo parlamento (**Gn 26:3–5**). Si el versículo empieza directamente con el discurso, su **número y la raya** permanecen en la misma línea; no crear una línea previa vacía. Si hablan dos personajes en un versículo, cada intervención abre su propia línea. No imponer esta ruptura a pensamientos ni a citas anidadas. El salto se añade exclusivamente en HTML y no altera los 874 textos BES ni los límites editoriales de párrafo.
+
+Queda pendiente la revisión visual individual, sin autorizar publicación ni cambiar los anteriores Gn 1–24.
 
 ## Resolución editorial
 
