@@ -107,6 +107,17 @@ Los archivos resultantes de `build/p2/` son solo borradores de estructura y text
 
 **Estado:** implementación técnica verificada; el control visual individual del formato y la revisión editorial integral de los 874 versículos **siguen pendientes antes del cierre P2**. La acción de pruebas regenerará el ZIP disponible en GitHub Actions; su finalización se comprobará por separado.
 
+## Regla adicional de salto de línea antes de rayas · 23/11/2026
+
+**Instrucción editorial ejecutada:** cada intervención que comienza con raya (—) se coloca en **una línea propia**, como en una novela moderna, aunque la frase introductoria del narrador esté dentro del mismo versículo. Ejemplo: **Gn 26:2**, tras «El Señor se apareció a Isaac y le dijo:», el discurso divino comienza en la línea siguiente y continúa en **Gn 26:3–5** sin añadir nuevas rayas.
+
+- **Mismo versículo, varios hablantes:** cada parlamento nuevo con raya pasa a su propia línea, sin romper artificialmente el párrafo literario.
+- **Intervención al principio de un versículo:** número de versículo y raya van juntos en la misma línea; si abre también un párrafo, se omite un salto redundante.
+- **Pensamientos y citas dentro de otro discurso:** no se fuerzan saltos de línea ni rayas.
+- **Integridad:** se introducen saltos HTML exclusivamente en el borrador visual. Los 874 textos BES con sus comillas originales, los 387 párrafos y los enlaces no cambian.
+- **Validación automática:** [scripts/test_marcado_bes_p2.py](../scripts/test_marcado_bes_p2.py) comprueba Gn 26:2–5, 26:9, las intervenciones al principio de un versículo y la recuperación literal de la BES. [GitHub Actions: borradores actualizados](https://github.com/alextorurdi/biblilu/actions/runs/45266022438) finalizó correctamente y verificó la protección de las 15 escenas anteriores.
+
+La Fase 2 sigue abierta para revisión visual y editorial. **No se han publicado las escenas nuevas.**
 ## Condiciones para cerrar P2
 
 - [x] Pasaje, 19 escenas, títulos y distribución aprobados.
