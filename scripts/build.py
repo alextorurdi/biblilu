@@ -51,7 +51,7 @@ for cat,names in {'onomastico':['Adán','Eva','Varona'],'materiales':['Oro','Bed
 links.update({'éufrates':'lugares/eufrates','querubines':'animales/querubin','cardos':'animales/cardo','árbol de vida':'animales/arbol-de-la-vida','árbol de la vida':'animales/arbol-de-la-vida','serpiente':'animales/serpiente'})
 links.update({'abram':'onomastico/abram','abraham':'onomastico/abraham','sarai':'onomastico/sarai','sara':'onomastico/sara','agar':'onomastico/agar','ismael':'onomastico/ismael','isaac':'onomastico/isaac','shur':'lugares/shur','cades':'lugares/cades','bered':'lugares/bered','canaán':'lugares/canaan','ángel de jehová':'animales/angel-de-jehova','pozo del viviente-que-me-ve':'lugares/pozo-del-viviente-que-me-ve'})
 links.update({'lot':'onomastico/lot','moab':'onomastico/moab','ben-ammi':'onomastico/ben-ammi','mamre':'lugares/mamre','sodoma':'lugares/sodoma','gomorra':'lugares/gomorra','zoar':'lugares/zoar','ángeles':'animales/angeles','moabitas':'tribus/moabitas','amonitas':'tribus/amonitas'})
-links.update({'abimelec':'onomastico/abimelec','ficol':'onomastico/ficol','efrón':'onomastico/efron','zohar':'onomastico/zohar','gerar':'lugares/gerar','beerseba':'lugares/beerseba','parán':'lugares/paran','moriah':'lugares/moriah','hebrón':'lugares/hebron','quiriat-arba':'lugares/quiriat-arba','macpela':'lugares/macpela','filisteos':'tribus/filisteos','heteos':'tribus/heteo','carnero':'animales/carnero','tamarisco':'animales/tamarisco','siclo':'medidas/siclo','siclos':'medidas/siclo'})
+links.update({'abimelec':'onomastico/abimelec','ficol':'onomastico/ficol','efrón':'onomastico/efron','zohar':'onomastico/zohar-heteo','gerar':'lugares/gerar','beerseba':'lugares/beerseba','parán':'lugares/paran','moriah':'lugares/moriah','hebrón':'lugares/hebron','quiriat-arba':'lugares/quiriat-arba','macpela':'lugares/macpela','filisteos':'tribus/filisteos','heteos':'tribus/heteo','carnero':'animales/carnero','tamarisco':'animales/tamarisco','siclo':'medidas/siclo','siclos':'medidas/siclo'})
 links={k:v for k,v in links.items() if v in byid}
 # Las palabras de Dios prevalecen sobre los enlaces de categorías.
 aftercolon={(1,n) for n in [3,6,9,11,14,20,22,24,26,28,29]}|{(2,n) for n in [16,18]}|{(3,n) for n in [1,3,9,11,13,14,16,17,22]}
@@ -354,7 +354,7 @@ for cat,(name,desc) in C.items():
    suffix=f'<span class="entry-row-tail"><span class="living-index-mark living-index-mark--{kind}" role="img" aria-label="{kind_label}" title="{kind_label}">{glyph}</span><span>↗</span></span>'
   else:
    suffix='<span>↗</span>'
-  extras={'onomastico/jacob':'Israel','onomastico/jose':'Zafnat-panea','onomastico/eliezer':'siervo de Abraham siervo de Abram mayordomo','onomastico/abraham':'Abram','onomastico/sara':'Sarai','onomastico/benjamin':'Benoni'}
+  extras={'onomastico/jacob':'Israel','onomastico/jose':'Zafnat-panea','onomastico/eliezer':'siervo de Abraham siervo de Abram mayordomo','onomastico/abraham':'Abram','onomastico/sara':'Sarai','onomastico/benjamin':'Benoni','onomastico/zimram':'Zimrán','onomastico/hadar':'Hadar'}
   family=re.search(r'Relaciones familiares[.:]\s*(.*?)(?=Hechos bíblicos[.:]|Identificación[.:]|Etimología[.:]|$)',e['body'])
   query=' '.join([e['title'], e['name'], extras.get(e['id'],''), family.group(1)[:200] if family else '']).lower()
   return f'<a class="entry-row {cat}" data-search="{H(query)}" href="{slug}/index.html"><strong>{living_index_title(e)}</strong>{suffix}</a>'
