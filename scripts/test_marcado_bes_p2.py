@@ -124,7 +124,9 @@ assert all('class="p2-dialogue-break"' not in p2.rendered_text(by_ref[(26,n)])
 g269 = p2.rendered_text(by_ref[(26,9)])
 assert g269.count('class="p2-dialogue-break"') == 2
 assert g269.count('class="p2-spoken-dash"') == 2
-assert g269.count('class="p2-narrative-break"') == 1
+assert g269.count('class="p2-narrative-break"') == 1, (
+    g269, by_ref[(26,9)]["parts"]
+)
 assert 'Isaac respondió:' in g269
 assert 'Isaac respondió:' in recover_source(g269)
 # Caso expuesto en la captura: narración del otro interlocutor baja
