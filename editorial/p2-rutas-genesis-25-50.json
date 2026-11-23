@@ -1,6 +1,6 @@
 {
   "libro": "Genesis",
-  "estado": "P2 estructura técnica, sin texto transcrito ni publicación",
+  "estado": "rutas_e_indices_validados_en_P2_no_publicados",
   "escenas": [
     {
       "numero": 16,
@@ -317,5 +317,6 @@
   "traduccion": "BES 2026",
   "fuente": "https://ebible.org/spabes/GEN.htm",
   "etapa": "I — escenas 16–34 únicamente",
-  "convive_con": "RVR1960 en escenas 1–15, sin cambios"
+  "convive_con": "RVR1960 en escenas 1–15, sin cambios",
+  "auditoria": "editorial/p2-auditoria-final-2026-11-23.json"
 }
