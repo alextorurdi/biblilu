@@ -152,7 +152,7 @@ def esc(value):
 # BES capitaliza "Dios" y "Señor" para referirse a Dios; el caso 43:20
 # es una fórmula de tratamiento a un funcionario egipcio, no nombre divino.
 # No resaltar "señor" humano ni "dioses" / "dios" de religiones ajenas.
-DIVINE_NAMES_RE = re.compile(r"\\b(?:Dios|Señor)\\b")
+DIVINE_NAMES_RE = re.compile(r"\b(?:Dios|Señor)\b")
 NON_DIVINE_NAME_REFS = {(43, 20, "Señor")}
 
 
