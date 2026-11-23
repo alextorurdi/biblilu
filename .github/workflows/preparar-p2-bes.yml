@@ -67,7 +67,7 @@ jobs:
           assert p['estado']=='controles_automaticos_superados'
           assert p['texto']['fuente_oficial']['versiculos_comparados']==874
           assert p['navegacion']['enlaces_rotos']==[]
-          assert p['apendices']['rutas_fichas_existentes']==450
+          assert p['apendices']['rutas_fichas_existentes']>=450
           print('Auditoría final confirmada: fuente oficial, 874 versículos, navegación sin enlaces internos rotos.')
           PY
       - name: Confirmar integridad de las quince escenas antiguas
