@@ -120,6 +120,51 @@ assert all('class="p2-dialogue-break"' not in p2.rendered_text(by_ref[(26,n)])
 g269 = p2.rendered_text(by_ref[(26,9)])
 assert g269.count('class="p2-dialogue-break"') == 2
 assert g269.count('class="p2-spoken-dash"') == 2
+assert g269.count('class="p2-narrative-break"') == 1
+assert 'Isaac respondió:' in g269
+assert 'Isaac respondió:' in recover_source(g269)
+# Caso expuesto en la captura: narración del otro interlocutor baja
+# inmediatamente después de que termine la primera intervención.
+g268 = p2.rendered_text(by_ref[(26,8)])
+g2610 = p2.rendered_text(by_ref[(26,10)])
+g2611 = p2.rendered_text(by_ref[(26,11)])
+assert 'class="p2-narrative-break"' not in g268
+assert 'class="p2-narrative-break"' not in g2610
+assert 'class="p2-narrative-break"' not in g2611
+assert p2.ends_with_oral_closure(by_ref[(26,9)])
+assert p2.verse_html(by_ref[(26,10)], first_in_paragraph=False,
+                     prior_spoken_ended=True).startswith(
+                     '<br class="p2-dialogue-break" aria-hidden="true"><span class="verse-inline" id="gn-26-10"')
+assert not p2.ends_with_oral_closure(by_ref[(27,25)])
+assert p2.verse_html(by_ref[(27,26)], first_in_paragraph=False,
+                     prior_spoken_ended=False).startswith('<span class="verse-inline"')
+# Mismo hablante después de un inciso del narrador: no crear nueva línea,
+# pero mostrar el inciso delimitado por una raya editorial.
+for c,v in ((27,36),(43,29),(45,4)):
+    verse = by_ref[(c,v)]
+    quote_pos = [m.start() for m in re.finditer("«",verse["text"])]
+    assert len(quote_pos) == 2
+    assert quote_pos[1] in p2.same_speaker_positions(verse)
+    rendered = p2.rendered_text(verse)
+    assert rendered.count('class="p2-spoken-dash"') == 2
+    assert rendered.count('class="p2-dialogue-break"') == 1
+    assert rendered.count('class="p2-inline-narrator-mark"') == 1
+    assert 'class="p2-narrative-break"' not in rendered
+    assert recover_source(rendered) == verse["text"]
+# También admitir la acotación clásica de un escritor entre comas.
+synthetic = {"chapter":27, "verse":36,
+             "text": "«José no lo vio», dijo Fabián, «Tuve que recordárselo».",
+             "parts": [
+                 {"kind":"speech","text":"«José no lo vio»"},
+                 {"kind":"plain","text":", dijo Fabián, "},
+                 {"kind":"speech","text":"«Tuve que recordárselo»"},
+                 {"kind":"plain","text":"."}
+             ]}
+syn = p2.rendered_text(synthetic)
+assert len(p2.same_speaker_positions(synthetic)) == 1
+assert syn.count('class="p2-inline-narrator-mark"') == 1
+assert syn.count('class="p2-dialogue-break"') == 0
+assert recover_source(syn) == synthetic["text"]
 # Pensamientos: cursiva, sin guiones ni líneas forzadas.
 g267 = p2.rendered_text(by_ref[(26,7)])
 assert g267.count('class="p2-dialogue-break"') == 1
