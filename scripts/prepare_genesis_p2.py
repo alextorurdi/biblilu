@@ -560,12 +560,12 @@ def index_html(scenes, expected):
     return base
 
 
-def preview_stub(title, body, back, back_label="Volver al índice"):
+def preview_stub(title, body, back, asset_prefix="", back_label="Volver al índice"):
     """Páginas informativas, SIN duplicar la RVR1960 ni inventar escenas."""
     return ('<!doctype html><html lang="es"><head><meta charset="utf-8">'
             '<meta name="viewport" content="width=device-width,initial-scale=1">'
             '<meta name="robots" content="noindex,nofollow">'
-            '<link rel="stylesheet" href="' + back.split("genesis/")[0] +
+            '<link rel="stylesheet" href="' + asset_prefix +
             'assets/style.css"><title>' + esc(title) + ' · BIBLILU [BORRADOR]</title>'
             '</head><body><main class="section" style="max-width:800px;margin:5rem auto">'
             '<h1>' + esc(title) + '</h1><p>' + esc(body) + '</p>'
@@ -608,7 +608,7 @@ def legacy_bridge_pages():
                 'publicada, pero no se reproduce en este ZIP de trabajo BES. '
                 'Este enlace es un puente informativo, no la escena bíblica.')
         page.write_text(
-            preview_stub(title, body, "../index.html").replace(
+            preview_stub(title, body, "../index.html", asset_prefix="../../").replace(
                 "</main>", labels +
                 '<p><a href="' + original_url +
                 '">Consultar el archivo publicado en GitHub</a></p></main>'
@@ -634,7 +634,8 @@ def preview_support_pages():
     for relative, (title, body, back) in pages.items():
         page = PREVIEW/relative
         page.parent.mkdir(parents=True, exist_ok=True)
-        page.write_text(preview_stub(title, body, back), encoding="utf-8")
+        asset_prefix = "../" * (len(page.relative_to(PREVIEW).parts) - 1)
+        page.write_text(preview_stub(title, body, back, asset_prefix), encoding="utf-8")
 
 
 def build_draft(raw, scenes, expected, verses):
