@@ -62,6 +62,10 @@ PROSE_CSS = """
 }
 .reader .verses .prose-paragraph .speech,
 .reader .verses .prose-paragraph .thought { font-style: italic; }
+/* Cada intervención con raya comienza en una línea propia, como en prosa moderna.
+   Se usa un salto HTML real para mantener la raya y todo el discurso
+   siguiente en la MISMA línea. */
+.reader .verses .p2-dialogue-break { line-height: inherit; }
 /* Raya editorial de diálogo; aparece SOLO al comenzar un parlamento, no por versículo. */
 .reader .verses .p2-spoken-dash {
   font-style: normal;
@@ -200,7 +204,8 @@ def prose_paragraphs(scene, verses, paragraph_plan):
         poetic = scene["numero"] == 33 and first["chapter"] == 49 and 3 <= first["verse"] <= 27
         css = "prose-paragraph poetic-paragraph" if poetic else "prose-paragraph"
         return ('<p class="' + css + '" data-start="' + reference + '">' +
-                " ".join(verse_html(verse) for verse in group) + '</p>')
+                " ".join(verse_html(verse, first_in_paragraph=(idx == 0))
+                         for idx, verse in enumerate(group)) + '</p>')
     return "".join(render(group) for group in chunks)
 
 
@@ -299,7 +304,14 @@ def name_highlights(text, chapter, verse, inside_divine=False):
 # - pensamiento / frase hipotética: apertura y cierre quedan ocultos, SIN raya
 # Las comillas interiores “ ” y ‘ ’ se conservan como citas dentro del parlamento.
 # Cada sustitución expone data-source-char para hacer reversible el HTML.
-def display_piece(text, chapter, verse, kind):
+def starts_with_spoken_quote(item):
+    """La primera palabra del versículo abre una intervención oral."""
+    parts = item.get("parts") or [{"kind": "plain", "text": item["text"]}]
+    return bool(parts and parts[0]["kind"] in ("speech", "divine") and
+                parts[0]["text"].startswith("«"))
+
+
+def display_piece(text, chapter, verse, kind, source_offset=0):
     chunks = []
     buffer = []
 
@@ -310,10 +322,15 @@ def display_piece(text, chapter, verse, kind):
             ).replace("\n", " "))
             buffer.clear()
 
-    for char in text:
+    for pos, char in enumerate(text):
         if char in "«»" and kind in ("speech", "divine", "thought"):
             flush()
             if char == "«" and kind != "thought":
+                # La raya empieza SIEMPRE en una línea nueva cuando hay
+                # narración previa en el versículo; no añadir una línea vacía
+                # si la intervención arranca al inicio del propio versículo.
+                if source_offset + pos > 0:
+                    chunks.append('<br class="p2-dialogue-break" aria-hidden="true">')
                 chunks.append('<span class="p2-spoken-dash" data-source-char="«">— </span>')
             else:
                 chunks.append('<span class="p2-quote-omitted" data-source-char="' +
@@ -331,9 +348,12 @@ def rendered_text(item):
         error("el formato altera la fuente BES en " +
               str(item["chapter"]) + ":" + str(item["verse"]))
     out = []
+    offset = 0
     for p in parts:
         kind = p["kind"]
-        value = display_piece(p["text"], item["chapter"], item["verse"], kind)
+        value = display_piece(p["text"], item["chapter"], item["verse"],
+                              kind, source_offset=offset)
+        offset += len(p["text"])
         if kind == "divine":
             out.append('<em class="speech"><span class="divine">' + value + "</span></em>")
         elif kind == "speech":
@@ -345,11 +365,15 @@ def rendered_text(item):
     return "".join(out)
 
 
-def verse_html(item):
+def verse_html(item, first_in_paragraph=True):
     c, v = item["chapter"], item["verse"]
     anchor = "gn-" + str(c) + "-" + str(v)
     label = str(c) + ":" + str(v) if v == 1 else str(v)
-    return ('<span class="verse-inline" id="' + anchor +
+    # Si un versículo empieza directamente con diálogo y sigue a otro verso
+    # del mismo párrafo, la raya y SU NÚMERO pasan juntos a la nueva línea.
+    prefix = ('<br class="p2-dialogue-break" aria-hidden="true">'
+              if not first_in_paragraph and starts_with_spoken_quote(item) else "")
+    return (prefix + '<span class="verse-inline" id="' + anchor +
             '"><a class="verse-num" href="#' + anchor +
             '" aria-label="Génesis ' + str(c) + ":" + str(v) + '">' +
             label + "</a> " + rendered_text(item) + "</span>")
