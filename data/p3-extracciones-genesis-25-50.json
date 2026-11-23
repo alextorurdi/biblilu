@@ -933,8 +933,8 @@
         "candidatos_ficha": [
           "onomastico/zimram"
         ],
-        "estado": "variante_ortografica_por_aprobar",
-        "incidencia": "Zimrán en BES; ficha previa Zimram, hijo de Abraham y Cetura",
+        "estado": "variante_ortografica_aprobada",
+        "incidencia": "Zimrán en BES, Zimram en RVR1960; el editor aprobó conservar el ID histórico",
         "origen": "coincidencia_lexica_fuente_BES"
       },
       {
@@ -1372,8 +1372,8 @@
         "candidatos_ficha": [
           "onomastico/zohar-heteo"
         ],
-        "estado": "colision_de_identidad_por_revisar",
-        "incidencia": "Zohar padre de Efrón, no Zohar hijo de Simeón (Gn 46:10)",
+        "estado": "identidad_contextual_aprobada",
+        "incidencia": "Zohar heteo, padre de Efrón; no el hijo de Simeón",
         "origen": "coincidencia_lexica_fuente_BES"
       },
       {
@@ -1734,8 +1734,8 @@
         "candidatos_ficha": [
           "onomastico/hadar"
         ],
-        "estado": "colision_de_identidad_por_revisar",
-        "incidencia": "Hadad hijo de Ismael, no el rey edomita hijo de Bedad (Gn 36:35)",
+        "estado": "identidad_contextual_aprobada",
+        "incidencia": "Hadad hijo de Ismael en BES, Hadar en RVR1960; no rey de Edom",
         "origen": "coincidencia_lexica_fuente_BES"
       },
       {
@@ -13963,11 +13963,10 @@
           "onomastico"
         ],
         "candidatos_ficha": [
-          "onomastico/hadad-rey-de-edom",
-          "onomastico/hadar"
+          "onomastico/hadad-rey-de-edom"
         ],
-        "estado": "ambiguo_desambiguar",
-        "incidencia": null,
+        "estado": "identidad_contextual_aprobada",
+        "incidencia": "Hadad hijo de Bedad, rey de Edom",
         "origen": "coincidencia_lexica_fuente_BES"
       },
       {
@@ -13982,11 +13981,10 @@
           "onomastico"
         ],
         "candidatos_ficha": [
-          "onomastico/hadad-rey-de-edom",
-          "onomastico/hadar"
+          "onomastico/hadad-rey-de-edom"
         ],
-        "estado": "ambiguo_desambiguar",
-        "incidencia": null,
+        "estado": "identidad_contextual_aprobada",
+        "incidencia": "Hadad hijo de Bedad, rey de Edom",
         "origen": "coincidencia_lexica_fuente_BES"
       },
       {
@@ -14021,11 +14019,10 @@
           "onomastico"
         ],
         "candidatos_ficha": [
-          "onomastico/hadad-rey-de-edom",
-          "onomastico/hadar"
+          "onomastico/hadad-rey-de-edom"
         ],
-        "estado": "ambiguo_desambiguar",
-        "incidencia": null,
+        "estado": "identidad_contextual_aprobada",
+        "incidencia": "Continuación del rey edomita Hadad hijo de Bedad",
         "origen": "coincidencia_lexica_fuente_BES"
       },
       {
@@ -18703,10 +18700,10 @@
           "onomastico"
         ],
         "candidatos_ficha": [
-          "onomastico/zera"
+          "onomastico/zohar"
         ],
-        "estado": "ficha_existente_por_verificar",
-        "incidencia": null,
+        "estado": "variante_de_traduccion_por_contrastar",
+        "incidencia": "Hijo de Simeón llamado Zohar en RVR1960 y Zera en BES; no Zera hijo de Reuel",
         "origen": "coincidencia_lexica_fuente_BES"
       },
       {

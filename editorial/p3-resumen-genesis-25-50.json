@@ -4,22 +4,23 @@
   "estado": "primer_barrido_automatico_pendiente_de_revisión_editorial",
   "versiculos": 874,
   "apendices": 8,
-  "identificadores_historicos": 450,
+  "identificadores_historicos": 451,
   "menciones_candidatas": 1656,
   "por_estado": {
-    "ficha_existente_por_verificar": 1257,
-    "variante_ortografica_por_aprobar": 1,
-    "ambiguo_desambiguar": 95,
-    "colision_de_identidad_por_revisar": 2,
+    "ficha_existente_por_verificar": 1256,
+    "variante_ortografica_aprobada": 1,
+    "ambiguo_desambiguar": 92,
+    "identidad_contextual_aprobada": 5,
     "termino_sin_ficha_por_evaluar": 233,
-    "flexion_por_comprobar": 68
+    "flexion_por_comprobar": 68,
+    "variante_de_traduccion_por_contrastar": 1
   },
   "por_categoria": {
     "onomastico": {
       "menciones_candidatas": 1210,
       "versiculos_con_candidatos": 598,
-      "fichas_existentes_sugeridas": 181,
-      "pendientes_ambiguos": 94,
+      "fichas_existentes_sugeridas": 182,
+      "pendientes_ambiguos": 91,
       "sin_ficha_por_evaluar": 29,
       "ejemplos": [
         {
@@ -44,7 +45,7 @@
           "ids": [
             "onomastico/zimram"
           ],
-          "estado": "variante_ortografica_por_aprobar"
+          "estado": "variante_ortografica_aprobada"
         },
         {
           "literal": "Jocsán",
@@ -475,26 +476,8 @@
       ]
     }
   },
-  "pendientes_ambiguedad_y_nueva_ficha": 331,
+  "pendientes_ambiguedad_y_nueva_ficha": 326,
   "prioridad_desambiguacion": [
-    {
-      "ref": "Gn 25:2",
-      "chapter": 25,
-      "verse": 2,
-      "start": 17,
-      "end": 23,
-      "literal": "Zimrán",
-      "contexto": "Ella dio a luz a Zimrán, Jocsán, Medán, Madián, Isbac y Súa.",
-      "categorias": [
-        "onomastico"
-      ],
-      "candidatos_ficha": [
-        "onomastico/zimram"
-      ],
-      "estado": "variante_ortografica_por_aprobar",
-      "incidencia": "Zimrán en BES; ficha previa Zimram, hijo de Abraham y Cetura",
-      "origen": "coincidencia_lexica_fuente_BES"
-    },
     {
       "ref": "Gn 25:2",
       "chapter": 25,
@@ -596,24 +579,6 @@
       "ref": "Gn 25:9",
       "chapter": 25,
       "verse": 9,
-      "start": 92,
-      "end": 97,
-      "literal": "Zohar",
-      "contexto": "ltaron en la cueva de Macpela, en el campo de Efrón hijo de Zohar el hitita, cerca de Mamre.",
-      "categorias": [
-        "onomastico"
-      ],
-      "candidatos_ficha": [
-        "onomastico/zohar-heteo"
-      ],
-      "estado": "colision_de_identidad_por_revisar",
-      "incidencia": "Zohar padre de Efrón, no Zohar hijo de Simeón (Gn 46:10)",
-      "origen": "coincidencia_lexica_fuente_BES"
-    },
-    {
-      "ref": "Gn 25:9",
-      "chapter": 25,
-      "verse": 9,
       "start": 101,
       "end": 107,
       "literal": "hitita",
@@ -676,24 +641,6 @@
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
       "incidencia": null,
-      "origen": "coincidencia_lexica_fuente_BES"
-    },
-    {
-      "ref": "Gn 25:15",
-      "chapter": 25,
-      "verse": 15,
-      "start": 0,
-      "end": 5,
-      "literal": "Hadad",
-      "contexto": "Hadad, Tema, Jetur, Nafis y Cedema.",
-      "categorias": [
-        "onomastico"
-      ],
-      "candidatos_ficha": [
-        "onomastico/hadar"
-      ],
-      "estado": "colision_de_identidad_por_revisar",
-      "incidencia": "Hadad hijo de Ismael, no el rey edomita hijo de Bedad (Gn 36:35)",
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -2156,6 +2103,54 @@
       "contexto": "También mataron a Hamor y a su hijo Siquem, sacaron a Dina de la casa de Siquem y se fueron.",
       "categorias": [
         "onomastico"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 34:28",
+      "chapter": 34,
+      "verse": 28,
+      "start": 23,
+      "end": 29,
+      "literal": "ganado",
+      "contexto": "Tomaron sus ovejas, su ganado, sus asnos y todo lo que había en la ciudad y en el campo.",
+      "categorias": [
+        "animales"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 34:30",
+      "chapter": 34,
+      "verse": 30,
+      "start": 74,
+      "end": 82,
+      "literal": "cananeos",
+      "contexto": " dijo a Simeón y Leví: «Me han puesto en peligro. Ahora los cananeos y los ferezeos que viven en esta tierra me odiarán. Somos pocos, y si se unen contra mí y",
+      "categorias": [
+        "tribus"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 35:1",
+      "chapter": 35,
+      "verse": 1,
+      "start": 36,
+      "end": 41,
+      "literal": "Betel",
+      "contexto": "Dios dijo a Jacob: «Levántate, ve a Betel y vive allí. Construye un altar al Dios que se te apareció cuando huías de tu hermano Esa",
+      "categorias": [
+        "lugares"
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
