@@ -90,6 +90,9 @@ jobs:
           cp build/p2/auditoria-p2.json editorial/p2-auditoria-final-2026-11-23.json
           git add -- data/genesis_25_50_bes_formato.json editorial/p2-revision-dialogos-genesis-25-50.json editorial/p2-auditoria-final-2026-11-23.json
           if ! git diff --cached --quiet; then
-            git commit -m "Preparar 874 versículos BES con diálogo y voces divinas (borrador P2)"
+            git commit -m "Guardar control final P2 BES de Génesis 25-50 (sin publicar)"
+            # Los informes editoriales pueden cambiar durante las pruebas.
+            # Incorporar esos cambios sin forzar ni pisar otros commits.
+            git pull --rebase origin main
             git push
           fi
