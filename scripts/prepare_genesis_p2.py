@@ -547,11 +547,94 @@ def index_html(scenes, expected):
                           str(c) + '-1"><b>' + str(c).zfill(2) +
                           '</b><span>Génesis ' + str(c) + '</span>' + further + '↗</a>')
     base = append_cards(base, "ÍNDICE TRADICIONAL", chapter_cards)
+    # El índice histórico reserva 25–50 como "Próximamente"; al añadir
+    # esos capítulos reales, quitar los 26 marcadores caducados.
+    base = re.sub(r'<div class="pending">.*?</div>', "", base, flags=re.S)
     base = base.replace("<h2>Escenas del manuscrito</h2>", "<h2>Escenas del manuscrito</h2><p><strong>Traducciones:</strong> escenas 1–15 RVR1960; escenas 16–34 BES 2026. Migración de las primeras quince escenas reservada para la Etapa II.</p>")
     base = base.replace("Quince escenas disponibles · Génesis 1–24",
                         "34 escenas previstas · Génesis 1–24: RVR1960 · Génesis 25–50: BES 2026 · PREVISUALIZACIÓN P2")
+    # Versión mixta inequívoca también en el pie de página.
+    base = base.replace("Español · RVR 1960",
+                        "Español · escenas 1–15 RVR1960 / 16–34 BES 2026")
     base = base.replace("</head>", '<meta name="robots" content="noindex,nofollow"></head>', 1)
     return base
+
+
+def preview_stub(title, body, back, back_label="Volver al índice"):
+    """Páginas informativas, SIN duplicar la RVR1960 ni inventar escenas."""
+    return ('<!doctype html><html lang="es"><head><meta charset="utf-8">'
+            '<meta name="viewport" content="width=device-width,initial-scale=1">'
+            '<meta name="robots" content="noindex,nofollow">'
+            '<link rel="stylesheet" href="' + back.split("genesis/")[0] +
+            'assets/style.css"><title>' + esc(title) + ' · BIBLILU [BORRADOR]</title>'
+            '</head><body><main class="section" style="max-width:800px;margin:5rem auto">'
+            '<h1>' + esc(title) + '</h1><p>' + esc(body) + '</p>'
+            '<p><a href="' + back + '">' + esc(back_label) + '</a></p>'
+            '</main></body></html>')
+
+
+def legacy_bridge_pages():
+    """Enlaces válidos para la previsualización, sin copiar texto RVR1960.
+
+    Se extrae el mapa de 15 escenas y las primeras anclas de capítulos
+    de la fuente editorial previa; no se reescribe ninguno de sus archivos.
+    """
+    content = OLD_INDEX.read_text(encoding="utf-8")
+    grids = re.findall(r'<div class="chapter-grid">(.*?)</div>', content, flags=re.S)
+    if len(grids) != 2:
+        error("no se encuentran los dos índices antiguos para los puentes")
+    old_scenes = re.findall(
+        r'<a href="([^"]+/index.html)"><b>\d+</b><span>(.*?)</span>',
+        grids[0], flags=re.S
+    )
+    if len(old_scenes) != 15:
+        error("el índice anterior no contiene exactamente 15 escenas")
+    chapter_anchors = re.findall(
+        r'href="([^"]+/index.html)#(gn-\d+-1)"', grids[1]
+    )
+    if len(chapter_anchors) != 24:
+        error("se esperan 24 anclas iniciales del índice antiguo")
+    by_route = {}
+    for relative, anchor in chapter_anchors:
+        by_route.setdefault(relative, []).append(anchor)
+    for relative, title in old_scenes:
+        route = relative.removesuffix("/index.html")
+        page = PREVIEW/"genesis"/route/"index.html"
+        page.parent.mkdir(parents=True, exist_ok=True)
+        original_url = "https://github.com/alextorurdi/biblilu/blob/main/docs/genesis/" + relative
+        labels = "".join('<span id="' + anchor + '"></span>' for anchor in
+                         by_route.get(relative, []))
+        body = ('La escena RVR1960 «' + html.unescape(title) + '» ya está '
+                'publicada, pero no se reproduce en este ZIP de trabajo BES. '
+                'Este enlace es un puente informativo, no la escena bíblica.')
+        page.write_text(
+            preview_stub(title, body, "../index.html").replace(
+                "</main>", labels +
+                '<p><a href="' + original_url +
+                '">Consultar el archivo publicado en GitHub</a></p></main>'
+            ), encoding="utf-8"
+        )
+
+
+def preview_support_pages():
+    pages = {
+        "index.html": ("BIBLILU · vista previa BES",
+                       "Previsualización local no publicada. Las escenas RVR1960 originales permanecen en el sitio publicado.",
+                       "genesis/index.html"),
+        "apendices/index.html": ("Apéndices de BIBLILU",
+                       "Los apéndices pertenecen a la web publicada. Las referencias BES se incorporarán después de P3.",
+                       "../genesis/index.html"),
+        "bibliografia/index.html": ("Bibliografía de BIBLILU",
+                       "La bibliografía del proyecto se mantiene en la web publicada.",
+                       "../genesis/index.html"),
+        "sobre/index.html": ("Créditos de BIBLILU",
+                       "La información general del proyecto se mantiene en la web publicada.",
+                       "../genesis/index.html"),
+    }
+    for relative, (title, body, back) in pages.items():
+        page = PREVIEW/relative
+        page.parent.mkdir(parents=True, exist_ok=True)
+        page.write_text(preview_stub(title, body, back), encoding="utf-8")
 
 
 def build_draft(raw, scenes, expected, verses):
@@ -566,10 +649,12 @@ def build_draft(raw, scenes, expected, verses):
         page.parent.mkdir(parents=True,exist_ok=True)
         page.write_text(make_scene_html(s, sample, scenes), encoding="utf-8")
     (PREVIEW/"genesis"/"index.html").write_text(index_html(scenes, expected),encoding="utf-8")
+    legacy_bridge_pages()
+    preview_support_pages()
     assets = PREVIEW/"assets"
     assets.mkdir()
     (assets/"p2-prose.css").write_text(PROSE_CSS, encoding="utf-8")
-    for name in ("style.css","app.js","favicon.svg"):
+    for name in ("style.css","app.js","favicon.svg","eden.jpg"):
         src = ROOT/"docs"/"assets"/name
         if src.exists():
             shutil.copyfile(src, assets/name)
