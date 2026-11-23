@@ -7,6 +7,7 @@ on:
       - 'scripts/marcar_dialogos_bes_p2.py'
       - 'scripts/test_marcado_bes_p2.py'
       - 'scripts/prepare_genesis_p2.py'
+      - 'scripts/auditar_fase2_bes.py'
       - 'data/genesis_25_50_bes.json'
       - 'editorial/p2-parrafos-genesis-25-50.json'
   workflow_dispatch:
@@ -54,6 +55,19 @@ jobs:
           assert all('noindex,nofollow' in x.read_text() for x in p)
           assert (base/'genesis/index.html').is_file()
           print('Borradores verificados: 19 escenas, 387 párrafos y 874 versículos; solo en build/p2.')
+          PY
+      - name: Auditoría exhaustiva de BES oficial, HTML, enlaces y apéndices
+        run: |
+          python3 scripts/auditar_fase2_bes.py --online
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('build/p2/auditoria-p2.json').read_text(encoding='utf-8'))
+          assert p['estado']=='controles_automaticos_superados'
+          assert p['texto']['fuente_oficial']['versiculos_comparados']==874
+          assert p['navegacion']['enlaces_rotos']==[]
+          assert p['apendices']['rutas_fichas_existentes']==450
+          print('Auditoría final confirmada: fuente oficial, 874 versículos, navegación sin enlaces internos rotos.')
           PY
       - name: Confirmar integridad de las quince escenas antiguas
         run: |
