@@ -8,6 +8,7 @@ on:
       - 'scripts/test_marcado_bes_p2.py'
       - 'scripts/prepare_genesis_p2.py'
       - 'data/genesis_25_50_bes.json'
+      - 'editorial/p2-parrafos-genesis-25-50.json'
   workflow_dispatch:
 permissions:
   contents: write
@@ -43,11 +44,13 @@ jobs:
           base=Path('build/p2')
           p=list((base/'genesis').glob('*/index.html'))
           assert len(p)==19, len(p)
-          assert sum(x.read_text().count('<p class="verse" ') for x in p)==874
+          assert sum(x.read_text().count('<span class="verse-inline" id="gn-') for x in p)==874
+          assert sum(x.read_text().count('<p class="prose-paragraph') for x in p)==387
+          assert json.loads((base/'validacion.json').read_text())['parrafos']==387
           assert json.loads((base/'validacion.json').read_text())['con_formato_revisado']==0
           assert all('noindex,nofollow' in x.read_text() for x in p)
           assert (base/'genesis/index.html').is_file()
-          print('Borradores verificados: 19 escenas y 874 versículos; solo en build/p2.')
+          print('Borradores verificados: 19 escenas, 387 párrafos y 874 versículos; solo en build/p2.')
           PY
       - name: Confirmar integridad de las quince escenas antiguas
         run: |
