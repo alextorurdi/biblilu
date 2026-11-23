@@ -1,7 +1,7 @@
 # Fase 2 · Génesis 25–50 — BES 2026, marcado e índices
 
 **Fecha de inicio:** 23/11/2026. **Actualización editorial:** 23/11/2026.  
-**Estado:** **EN REVISIÓN EDITORIAL — 19 BORRADORES BES EN PROSA (387 PÁRRAFOS) GENERADOS Y VALIDADOS; CONTROL VISUAL E INTEGRAL PENDIENTE.**  
+**Estado:** **EN REVISIÓN EDITORIAL — 19 BORRADORES BES EN 387 PÁRRAFOS, CON DIÁLOGOS Y RAYAS SEGÚN EL ESTILO ORIGINAL; CONTROL VISUAL E INTEGRAL PENDIENTE.**  
 **Alcance invariable de Etapa I:** 19 escenas, Gn 25:1–50:26, traducción **La Biblia en Español Sencillo 2026 (BES)**. Las 15 escenas de Gn 1–24 **conservan RVR1960** hasta la segunda etapa, sin cambios de texto ni notas.
 
 **Documentos rectores:** [Protocolo P0–P9](protocolo-libros.md) · [BES en dos etapas](plan-dos-etapas-bes-genesis.md) · [P1 aprobada](fase1-genesis.md) · [Distribución de recursos](plan-ubicacion-escenas-genesis-25-50.md).
@@ -91,6 +91,21 @@ Los archivos resultantes de `build/p2/` son solo borradores de estructura y text
 - **Prueba correcta:** [GitHub Actions · Generación de borradores narrativos](https://github.com/alextorurdi/biblilu/actions/runs/45223416217); 19 escenas, **387 párrafos y 874 anclas** verificados. Artefacto `biblilu-borradores-bes-p2`, disponible hasta el **07/12/2026** en la sección Artifacts de dicha ejecución.
 - El flujo comprobó por SHA-256 que **Gn 1–24 RVR1960 y sus páginas originales permanecen intactos**.
 - **Aún pendiente:** inspeccionar visualmente cortes, diálogos largos, pasajes genealógicos y poemas en escritorio/móvil. La aprobación del método de agrupación no equivale a dar por revisado cada corte y los 874 registros siguen con `revisado=false`.
+
+## Recuperación de las rayas de diálogo originales · 23/11/2026
+
+**Instrucción editorial expresa y ejecutada:** seguir las convenciones históricas documentadas en [Legado](tareas-legado.md), [Cumplimiento](tareas-cumplimiento.md) y [Familia](tareas-familia.md).
+
+- **Diálogo humano:** cursiva, color normal y **raya «—»** al comienzo de cada intervención; no usar una raya nueva al continuar un parlamento a través de un número de versículo.
+- **Pensamiento o frase no pronunciada:** cursiva, **sin raya**; en el HTML visible se omiten las comillas externas de esta clase, mientras la fuente BES conserva todas sus comillas.
+- **Voz divina:** cursiva y rojo, con raya al inicio del parlamento directo. Los nombres divinos siguen coloreándose según el referente, por separado de las intervenciones.
+- **Ángel / adversario del Jaboc:** se mantienen las decisiones previas de cursiva y negro (Gn 31:11–13; 32:26–29), excepto las citas expresamente atribuidas a Dios, coloreadas en rojo.
+- **Citas dentro de un parlamento:** las comillas internas “ ” y ‘ ’ continúan visibles; una cita secundaria no abre una nueva raya de diálogo. **El cambio de interlocutor** en un mismo versículo sí produce una raya independiente, sin duplicar el texto de la atribución narrativa.
+- **Traducción BES intacta:** las comillas « » originales permanecen en los 874 objetos de origen y en la capa `parts`; el HTML de borrador sustituye solo la apertura externa por la raya y oculta el cierre. Se conserva la correspondencia en `data-source-char` y las pruebas recuperan **exactamente** el texto original desde el HTML, incluidas las comillas y puntuación.
+- **Cobertura verificada automáticamente:** **299 aperturas de parlamento con raya** (288 humanas y 11 divinas) y **6 pensamientos** sin raya. Las **40 comillas anidadas** de cita o atribución no generan rayas nuevas. Siguen intactos los **387 párrafos**, los **874 enlaces de versículo** y los 19 borradores.
+- **Solo borradores:** estas reglas se implementaron en [`scripts/prepare_genesis_p2.py`](../scripts/prepare_genesis_p2.py) con estilos únicamente de `build/p2/assets/p2-prose.css`. No se alteraron el texto RVR1960 de Génesis 1–24, sus fuentes aprobadas, `docs/` ni el CSS publicado.
+
+**Estado:** implementación técnica verificada; el control visual individual del formato y la revisión editorial integral de los 874 versículos **siguen pendientes antes del cierre P2**. La acción de pruebas regenerará el ZIP disponible en GitHub Actions; su finalización se comprobará por separado.
 
 ## Condiciones para cerrar P2
 
