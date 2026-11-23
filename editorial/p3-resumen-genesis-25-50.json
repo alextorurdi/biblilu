@@ -1,0 +1,2520 @@
+{
+  "fase": "P3",
+  "edicion": "BES 2026",
+  "estado": "primer_barrido_automatico_pendiente_de_revisión_editorial",
+  "versiculos": 874,
+  "apendices": 8,
+  "identificadores_historicos": 450,
+  "menciones_candidatas": 1671,
+  "por_estado": {
+    "ficha_existente_por_verificar": 1274,
+    "termino_sin_ficha_por_evaluar": 235,
+    "ambiguo_desambiguar": 94,
+    "flexion_por_comprobar": 68
+  },
+  "por_categoria": {
+    "onomastico": {
+      "menciones_candidatas": 1210,
+      "versiculos_con_candidatos": 598,
+      "fichas_existentes_sugeridas": 180,
+      "pendientes_ambiguos": 93,
+      "sin_ficha_por_evaluar": 30,
+      "ejemplos": [
+        {
+          "literal": "Abraham",
+          "ref": "Gn 25:1",
+          "ids": [
+            "onomastico/abraham"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "Cetura",
+          "ref": "Gn 25:1",
+          "ids": [
+            "onomastico/cetura"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "Zimrán",
+          "ref": "Gn 25:2",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
+        },
+        {
+          "literal": "Jocsán",
+          "ref": "Gn 25:2",
+          "ids": [
+            "onomastico/jocsan"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "Medán",
+          "ref": "Gn 25:2",
+          "ids": [
+            "onomastico/medan"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "Madián",
+          "ref": "Gn 25:2",
+          "ids": [
+            "onomastico/madian"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "Isbac",
+          "ref": "Gn 25:2",
+          "ids": [
+            "onomastico/isbac"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "Súa",
+          "ref": "Gn 25:2",
+          "ids": [
+            "onomastico/sua",
+            "onomastico/sua-suegro-de-juda"
+          ],
+          "estado": "ambiguo_desambiguar"
+        }
+      ]
+    },
+    "lugares": {
+      "menciones_candidatas": 228,
+      "versiculos_con_candidatos": 182,
+      "fichas_existentes_sugeridas": 28,
+      "pendientes_ambiguos": 55,
+      "sin_ficha_por_evaluar": 69,
+      "ejemplos": [
+        {
+          "literal": "Mamre",
+          "ref": "Gn 25:9",
+          "ids": [
+            "lugares/mamre",
+            "onomastico/mamre"
+          ],
+          "estado": "ambiguo_desambiguar"
+        },
+        {
+          "literal": "Beer-lahai-roi",
+          "ref": "Gn 25:11",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
+        },
+        {
+          "literal": "Havila",
+          "ref": "Gn 25:18",
+          "ids": [
+            "lugares/havila",
+            "onomastico/havila-i",
+            "onomastico/havila-ii"
+          ],
+          "estado": "ambiguo_desambiguar"
+        },
+        {
+          "literal": "Sur",
+          "ref": "Gn 25:18",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
+        },
+        {
+          "literal": "Egipto",
+          "ref": "Gn 25:18",
+          "ids": [
+            "lugares/egipto"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "Padán-aram",
+          "ref": "Gn 25:20",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
+        },
+        {
+          "literal": "Gerar",
+          "ref": "Gn 26:1",
+          "ids": [
+            "lugares/gerar"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "Egipto",
+          "ref": "Gn 26:2",
+          "ids": [
+            "lugares/egipto"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        }
+      ]
+    },
+    "animales": {
+      "menciones_candidatas": 115,
+      "versiculos_con_candidatos": 80,
+      "fichas_existentes_sugeridas": 10,
+      "pendientes_ambiguos": 1,
+      "sin_ficha_por_evaluar": 39,
+      "ejemplos": [
+        {
+          "literal": "ovejas",
+          "ref": "Gn 26:14",
+          "ids": [
+            "animales/oveja"
+          ],
+          "estado": "flexion_por_comprobar"
+        },
+        {
+          "literal": "ganado",
+          "ref": "Gn 26:14",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
+        },
+        {
+          "literal": "ángeles",
+          "ref": "Gn 28:12",
+          "ids": [
+            "animales/angeles"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "ovejas",
+          "ref": "Gn 29:2",
+          "ids": [
+            "animales/oveja"
+          ],
+          "estado": "flexion_por_comprobar"
+        },
+        {
+          "literal": "ovejas",
+          "ref": "Gn 29:3",
+          "ids": [
+            "animales/oveja"
+          ],
+          "estado": "flexion_por_comprobar"
+        },
+        {
+          "literal": "ovejas",
+          "ref": "Gn 29:6",
+          "ids": [
+            "animales/oveja"
+          ],
+          "estado": "flexion_por_comprobar"
+        },
+        {
+          "literal": "ganado",
+          "ref": "Gn 29:7",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
+        },
+        {
+          "literal": "ovejas",
+          "ref": "Gn 29:7",
+          "ids": [
+            "animales/oveja"
+          ],
+          "estado": "flexion_por_comprobar"
+        }
+      ]
+    },
+    "materiales": {
+      "menciones_candidatas": 25,
+      "versiculos_con_candidatos": 22,
+      "fichas_existentes_sugeridas": 4,
+      "pendientes_ambiguos": 0,
+      "sin_ficha_por_evaluar": 0,
+      "ejemplos": [
+        {
+          "literal": "oró",
+          "ref": "Gn 25:21",
+          "ids": [
+            "materiales/oro"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "piedra",
+          "ref": "Gn 28:11",
+          "ids": [
+            "materiales/piedra"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "piedra",
+          "ref": "Gn 28:18",
+          "ids": [
+            "materiales/piedra"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "piedra",
+          "ref": "Gn 28:22",
+          "ids": [
+            "materiales/piedra"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "piedra",
+          "ref": "Gn 29:2",
+          "ids": [
+            "materiales/piedra"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "piedra",
+          "ref": "Gn 29:3",
+          "ids": [
+            "materiales/piedra"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "piedra",
+          "ref": "Gn 29:3",
+          "ids": [
+            "materiales/piedra"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "piedra",
+          "ref": "Gn 29:8",
+          "ids": [
+            "materiales/piedra"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        }
+      ]
+    },
+    "tribus": {
+      "menciones_candidatas": 43,
+      "versiculos_con_candidatos": 38,
+      "fichas_existentes_sugeridas": 6,
+      "pendientes_ambiguos": 0,
+      "sin_ficha_por_evaluar": 21,
+      "ejemplos": [
+        {
+          "literal": "hitita",
+          "ref": "Gn 25:9",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
+        },
+        {
+          "literal": "hijos de Het",
+          "ref": "Gn 25:10",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
+        },
+        {
+          "literal": "filisteos",
+          "ref": "Gn 26:1",
+          "ids": [
+            "tribus/filisteos"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "filisteos",
+          "ref": "Gn 26:8",
+          "ids": [
+            "tribus/filisteos"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "filisteos",
+          "ref": "Gn 26:14",
+          "ids": [
+            "tribus/filisteos"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "filisteos",
+          "ref": "Gn 26:15",
+          "ids": [
+            "tribus/filisteos"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "filisteos",
+          "ref": "Gn 26:18",
+          "ids": [
+            "tribus/filisteos"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "hitita",
+          "ref": "Gn 26:34",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
+        }
+      ]
+    },
+    "objetos": {
+      "menciones_candidatas": 87,
+      "versiculos_con_candidatos": 71,
+      "fichas_existentes_sugeridas": 3,
+      "pendientes_ambiguos": 0,
+      "sin_ficha_por_evaluar": 70,
+      "ejemplos": [
+        {
+          "literal": "manto",
+          "ref": "Gn 25:25",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
+        },
+        {
+          "literal": "tiendas",
+          "ref": "Gn 25:27",
+          "ids": [
+            "objetos/tienda"
+          ],
+          "estado": "flexion_por_comprobar"
+        },
+        {
+          "literal": "pozos",
+          "ref": "Gn 26:15",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
+        },
+        {
+          "literal": "pozos",
+          "ref": "Gn 26:18",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
+        },
+        {
+          "literal": "pozo",
+          "ref": "Gn 26:19",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
+        },
+        {
+          "literal": "pozo",
+          "ref": "Gn 26:20",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
+        },
+        {
+          "literal": "pozo",
+          "ref": "Gn 26:21",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
+        },
+        {
+          "literal": "pozo",
+          "ref": "Gn 26:22",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
+        }
+      ]
+    },
+    "instrumentos": {
+      "menciones_candidatas": 0,
+      "versiculos_con_candidatos": 0,
+      "fichas_existentes_sugeridas": 0,
+      "pendientes_ambiguos": 0,
+      "sin_ficha_por_evaluar": 0,
+      "ejemplos": []
+    },
+    "medidas": {
+      "menciones_candidatas": 19,
+      "versiculos_con_candidatos": 17,
+      "fichas_existentes_sugeridas": 2,
+      "pendientes_ambiguos": 1,
+      "sin_ficha_por_evaluar": 6,
+      "ejemplos": [
+        {
+          "literal": "Efa",
+          "ref": "Gn 25:4",
+          "ids": [
+            "onomastico/efa"
+          ],
+          "estado": "ambiguo_desambiguar"
+        },
+        {
+          "literal": "sea",
+          "ref": "Gn 26:4",
+          "ids": [
+            "medidas/sea"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "sea",
+          "ref": "Gn 27:29",
+          "ids": [
+            "medidas/sea"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "seas",
+          "ref": "Gn 29:15",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
+        },
+        {
+          "literal": "quinto",
+          "ref": "Gn 30:17",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
+        },
+        {
+          "literal": "sea",
+          "ref": "Gn 30:33",
+          "ids": [
+            "medidas/sea"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "sea",
+          "ref": "Gn 30:33",
+          "ids": [
+            "medidas/sea"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "sea",
+          "ref": "Gn 30:34",
+          "ids": [
+            "medidas/sea"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        }
+      ]
+    }
+  },
+  "pendientes_ambiguedad_y_nueva_ficha": 329,
+  "prioridad_desambiguacion": [
+    {
+      "ref": "Gn 25:2",
+      "chapter": 25,
+      "verse": 2,
+      "start": 17,
+      "end": 23,
+      "literal": "Zimrán",
+      "contexto": "Ella dio a luz a Zimrán, Jocsán, Medán, Madián, Isbac y Súa.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 25:2",
+      "chapter": 25,
+      "verse": 2,
+      "start": 56,
+      "end": 59,
+      "literal": "Súa",
+      "contexto": "Ella dio a luz a Zimrán, Jocsán, Medán, Madián, Isbac y Súa.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "onomastico/sua",
+        "onomastico/sua-suegro-de-juda"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 25:3",
+      "chapter": 25,
+      "verse": 3,
+      "start": 20,
+      "end": 24,
+      "literal": "Seba",
+      "contexto": "Jocsán fue padre de Seba y Dedán. Los descendientes de Dedán fueron los asurim, letusim y leumim.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "onomastico/seba-hijo-de-jocsan",
+        "onomastico/seba-i",
+        "onomastico/seba-ii",
+        "onomastico/seba-iii"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 25:3",
+      "chapter": 25,
+      "verse": 3,
+      "start": 27,
+      "end": 32,
+      "literal": "Dedán",
+      "contexto": "Jocsán fue padre de Seba y Dedán. Los descendientes de Dedán fueron los asurim, letusim y leumim.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "onomastico/dedan",
+        "onomastico/dedan-hijo-de-jocsan"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 25:3",
+      "chapter": 25,
+      "verse": 3,
+      "start": 55,
+      "end": 60,
+      "literal": "Dedán",
+      "contexto": "Jocsán fue padre de Seba y Dedán. Los descendientes de Dedán fueron los asurim, letusim y leumim.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "onomastico/dedan",
+        "onomastico/dedan-hijo-de-jocsan"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 25:4",
+      "chapter": 25,
+      "verse": 4,
+      "start": 27,
+      "end": 30,
+      "literal": "Efa",
+      "contexto": "Los hijos de Madián fueron Efa, Efer, Hanoc, Abida y Elda. Todos ellos fueron descendientes de Cetura.",
+      "categorias": [
+        "medidas",
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "onomastico/efa"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 25:4",
+      "chapter": 25,
+      "verse": 4,
+      "start": 38,
+      "end": 43,
+      "literal": "Hanoc",
+      "contexto": "Los hijos de Madián fueron Efa, Efer, Hanoc, Abida y Elda. Todos ellos fueron descendientes de Cetura.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "onomastico/hanoc-hijo-de-madian",
+        "onomastico/hanoc-hijo-de-ruben"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 25:9",
+      "chapter": 25,
+      "verse": 9,
+      "start": 101,
+      "end": 107,
+      "literal": "hitita",
+      "contexto": " la cueva de Macpela, en el campo de Efrón hijo de Zohar el hitita, cerca de Mamre.",
+      "categorias": [
+        "tribus"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 25:9",
+      "chapter": 25,
+      "verse": 9,
+      "start": 118,
+      "end": 123,
+      "literal": "Mamre",
+      "contexto": "ela, en el campo de Efrón hijo de Zohar el hitita, cerca de Mamre.",
+      "categorias": [
+        "lugares",
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "lugares/mamre",
+        "onomastico/mamre"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 25:10",
+      "chapter": 25,
+      "verse": 10,
+      "start": 46,
+      "end": 58,
+      "literal": "hijos de Het",
+      "contexto": "Era el campo que Abraham había comprado a los hijos de Het. Allí fueron sepultados Abraham y su esposa Sara.",
+      "categorias": [
+        "tribus"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 25:11",
+      "chapter": 25,
+      "verse": 11,
+      "start": 84,
+      "end": 98,
+      "literal": "Beer-lahai-roi",
+      "contexto": "Abraham, Dios bendijo a su hijo Isaac. Isaac vivía cerca de Beer-lahai-roi.",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 25:18",
+      "chapter": 25,
+      "verse": 18,
+      "start": 33,
+      "end": 39,
+      "literal": "Havila",
+      "contexto": "Sus descendientes vivieron desde Havila hasta Sur, al oriente de Egipto. Se establecieron frente a todos sus hermanos.",
+      "categorias": [
+        "lugares",
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "lugares/havila",
+        "onomastico/havila-i",
+        "onomastico/havila-ii"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 25:18",
+      "chapter": 25,
+      "verse": 18,
+      "start": 46,
+      "end": 49,
+      "literal": "Sur",
+      "contexto": "Sus descendientes vivieron desde Havila hasta Sur, al oriente de Egipto. Se establecieron frente a todos sus hermanos.",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 25:20",
+      "chapter": 25,
+      "verse": 20,
+      "start": 87,
+      "end": 97,
+      "literal": "Padán-aram",
+      "contexto": "uando tomó como mujer a Rebeca, hija de Betuel el arameo de Padán-aram y hermana de Labán el arameo.",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 25:25",
+      "chapter": 25,
+      "verse": 25,
+      "start": 51,
+      "end": 56,
+      "literal": "manto",
+      "contexto": "El primero salió rojizo y cubierto de pelo como un manto. Lo llamaron Esaú.",
+      "categorias": [
+        "objetos"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:14",
+      "chapter": 26,
+      "verse": 14,
+      "start": 21,
+      "end": 27,
+      "literal": "ganado",
+      "contexto": "Tenía muchas ovejas, ganado y siervos, y los filisteos le tenían envidia.",
+      "categorias": [
+        "animales"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:15",
+      "chapter": 26,
+      "verse": 15,
+      "start": 49,
+      "end": 54,
+      "literal": "pozos",
+      "contexto": "Los filisteos habían llenado de tierra todos los pozos que los siervos de Abraham, padre de Isaac, habían cavado.",
+      "categorias": [
+        "objetos"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:18",
+      "chapter": 26,
+      "verse": 18,
+      "start": 25,
+      "end": 30,
+      "literal": "pozos",
+      "contexto": "Isaac volvió a abrir los pozos que habían sido cavados en tiempos de Abraham y que los filisteos habían tapado después d",
+      "categorias": [
+        "objetos"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:19",
+      "chapter": 26,
+      "verse": 19,
+      "start": 63,
+      "end": 67,
+      "literal": "pozo",
+      "contexto": " siervos de Isaac cavaron en el valle y encontraron allí un pozo de agua que brotaba.",
+      "categorias": [
+        "objetos"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:20",
+      "chapter": 26,
+      "verse": 20,
+      "start": 121,
+      "end": 125,
+      "literal": "pozo",
+      "contexto": "aac y dijeron: «El agua es nuestra». Por eso Isaac llamó al pozo Esec, porque habían discutido con él.",
+      "categorias": [
+        "objetos"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:20",
+      "chapter": 26,
+      "verse": 20,
+      "start": 126,
+      "end": 130,
+      "literal": "Esec",
+      "contexto": " dijeron: «El agua es nuestra». Por eso Isaac llamó al pozo Esec, porque habían discutido con él.",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:21",
+      "chapter": 26,
+      "verse": 21,
+      "start": 13,
+      "end": 17,
+      "literal": "pozo",
+      "contexto": "Cavaron otro pozo, pero también discutieron por él. Por eso Isaac lo llamó Sitna.",
+      "categorias": [
+        "objetos"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:21",
+      "chapter": 26,
+      "verse": 21,
+      "start": 75,
+      "end": 80,
+      "literal": "Sitna",
+      "contexto": "zo, pero también discutieron por él. Por eso Isaac lo llamó Sitna.",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:22",
+      "chapter": 26,
+      "verse": 22,
+      "start": 27,
+      "end": 31,
+      "literal": "pozo",
+      "contexto": "Se fue de allí y cavó otro pozo. Por este no hubo discusión, así que lo llamó Rehobot y dijo: «Ahora el Señor nos ha dado",
+      "categorias": [
+        "objetos"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:22",
+      "chapter": 26,
+      "verse": 22,
+      "start": 78,
+      "end": 85,
+      "literal": "Rehobot",
+      "contexto": "avó otro pozo. Por este no hubo discusión, así que lo llamó Rehobot y dijo: «Ahora el Señor nos ha dado espacio, y prosperaremos en esta tierra».",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:25",
+      "chapter": 26,
+      "verse": 25,
+      "start": 97,
+      "end": 101,
+      "literal": "pozo",
+      "contexto": " al Señor. Levantó allí su tienda, y sus siervos cavaron un pozo.",
+      "categorias": [
+        "objetos"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:26",
+      "chapter": 26,
+      "verse": 26,
+      "start": 55,
+      "end": 61,
+      "literal": "Ahuzat",
+      "contexto": "Abimelec fue desde Gerar a ver a Isaac, acompañado por Ahuzat, su consejero, y Ficol, jefe de su ejército.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:32",
+      "chapter": 26,
+      "verse": 32,
+      "start": 67,
+      "end": 71,
+      "literal": "pozo",
+      "contexto": "mo día, los siervos de Isaac vinieron a contarle acerca del pozo que habían cavado y dijeron: «Hemos encontrado agua».",
+      "categorias": [
+        "objetos"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:33",
+      "chapter": 26,
+      "verse": 33,
+      "start": 15,
+      "end": 19,
+      "literal": "pozo",
+      "contexto": "Isaac llamó al pozo Seba. Por eso la ciudad se llama Beerseba hasta hoy.",
+      "categorias": [
+        "objetos"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:33",
+      "chapter": 26,
+      "verse": 33,
+      "start": 20,
+      "end": 24,
+      "literal": "Seba",
+      "contexto": "Isaac llamó al pozo Seba. Por eso la ciudad se llama Beerseba hasta hoy.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "onomastico/seba-hijo-de-jocsan",
+        "onomastico/seba-i",
+        "onomastico/seba-ii",
+        "onomastico/seba-iii"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:34",
+      "chapter": 26,
+      "verse": 34,
+      "start": 68,
+      "end": 73,
+      "literal": "Beeri",
+      "contexto": "saú tenía cuarenta años, tomó como mujeres a Judit, hija de Beeri el hitita, y a Basemat, hija de Elón el hitita.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:34",
+      "chapter": 26,
+      "verse": 34,
+      "start": 77,
+      "end": 83,
+      "literal": "hitita",
+      "contexto": " cuarenta años, tomó como mujeres a Judit, hija de Beeri el hitita, y a Basemat, hija de Elón el hitita.",
+      "categorias": [
+        "tribus"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:34",
+      "chapter": 26,
+      "verse": 34,
+      "start": 89,
+      "end": 96,
+      "literal": "Basemat",
+      "contexto": "os, tomó como mujeres a Judit, hija de Beeri el hitita, y a Basemat, hija de Elón el hitita.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "onomastico/basemat-hija-de-elon",
+        "onomastico/basemat-hija-de-ismael"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:34",
+      "chapter": 26,
+      "verse": 34,
+      "start": 106,
+      "end": 110,
+      "literal": "Elón",
+      "contexto": "eres a Judit, hija de Beeri el hitita, y a Basemat, hija de Elón el hitita.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "onomastico/elon",
+        "onomastico/elon-padre-de-basemat"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 26:34",
+      "chapter": 26,
+      "verse": 34,
+      "start": 114,
+      "end": 120,
+      "literal": "hitita",
+      "contexto": "udit, hija de Beeri el hitita, y a Basemat, hija de Elón el hitita.",
+      "categorias": [
+        "tribus"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 27:3",
+      "chapter": 27,
+      "verse": 3,
+      "start": 19,
+      "end": 23,
+      "literal": "arco",
+      "contexto": "Toma tus armas, tu arco y tus flechas, y ve al campo a cazar algo para mí.",
+      "categorias": [
+        "objetos"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 27:43",
+      "chapter": 27,
+      "verse": 43,
+      "start": 44,
+      "end": 49,
+      "literal": "Harán",
+      "contexto": "Ahora, hijo mío, haz lo que te digo. Huye a Harán, a casa de mi hermano Labán.",
+      "categorias": [
+        "lugares",
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "lugares/haran",
+        "onomastico/haran"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 27:46",
+      "chapter": 27,
+      "verse": 46,
+      "start": 70,
+      "end": 77,
+      "literal": "hititas",
+      "contexto": "o a Isaac: «Estoy cansada de vivir por causa de las mujeres hititas. Si Jacob toma una mujer de entre las hititas de esta tierra, ¿para qué quiero seguir viv",
+      "categorias": [
+        "tribus"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 27:46",
+      "chapter": 27,
+      "verse": 46,
+      "start": 116,
+      "end": 123,
+      "literal": "hititas",
+      "contexto": "e las mujeres hititas. Si Jacob toma una mujer de entre las hititas de esta tierra, ¿para qué quiero seguir viviendo?».",
+      "categorias": [
+        "tribus"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 28:2",
+      "chapter": 28,
+      "verse": 2,
+      "start": 5,
+      "end": 15,
+      "literal": "Padán-aram",
+      "contexto": "Ve a Padán-aram, a la casa de Betuel, padre de tu madre. Allí toma como mujer a una de las hijas de Labán",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 28:5",
+      "chapter": 28,
+      "verse": 5,
+      "start": 36,
+      "end": 46,
+      "literal": "Padán-aram",
+      "contexto": "Así Isaac envió a Jacob, y él fue a Padán-aram, a casa de Labán, hijo de Betuel el arameo y hermano de Rebeca, madre de Jacob y Esaú.",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 28:6",
+      "chapter": 28,
+      "verse": 6,
+      "start": 65,
+      "end": 75,
+      "literal": "Padán-aram",
+      "contexto": "supo que Isaac había bendecido a Jacob y lo había enviado a Padán-aram para tomar allí una mujer, y que al bendecirlo le había ordenado que no tomara mujer de e",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 28:7",
+      "chapter": 28,
+      "verse": 7,
+      "start": 77,
+      "end": 87,
+      "literal": "Padán-aram",
+      "contexto": "Jacob había obedecido a su padre y a su madre y había ido a Padán-aram.",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 28:10",
+      "chapter": 28,
+      "verse": 10,
+      "start": 36,
+      "end": 41,
+      "literal": "Harán",
+      "contexto": "Jacob salió de Beerseba y fue hacia Harán.",
+      "categorias": [
+        "lugares",
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "lugares/haran",
+        "onomastico/haran"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 28:19",
+      "chapter": 28,
+      "verse": 19,
+      "start": 6,
+      "end": 11,
+      "literal": "Betel",
+      "contexto": "Llamó Betel a aquel lugar, aunque antes la ciudad se llamaba Luz.",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 28:19",
+      "chapter": 28,
+      "verse": 19,
+      "start": 61,
+      "end": 64,
+      "literal": "Luz",
+      "contexto": "lamó Betel a aquel lugar, aunque antes la ciudad se llamaba Luz.",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 29:2",
+      "chapter": 29,
+      "verse": 2,
+      "start": 12,
+      "end": 16,
+      "literal": "pozo",
+      "contexto": "Allí vio un pozo en el campo. Cerca del pozo descansaban tres rebaños de ovejas, porque de aquel pozo daba",
+      "categorias": [
+        "objetos"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 29:2",
+      "chapter": 29,
+      "verse": 2,
+      "start": 40,
+      "end": 44,
+      "literal": "pozo",
+      "contexto": "Allí vio un pozo en el campo. Cerca del pozo descansaban tres rebaños de ovejas, porque de aquel pozo daban de beber a los rebaños. Un",
+      "categorias": [
+        "objetos"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 29:2",
+      "chapter": 29,
+      "verse": 2,
+      "start": 97,
+      "end": 101,
+      "literal": "pozo",
+      "contexto": "el pozo descansaban tres rebaños de ovejas, porque de aquel pozo daban de beber a los rebaños. Una gran piedra cubría la boca del pozo.",
+      "categorias": [
+        "objetos"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 29:2",
+      "chapter": 29,
+      "verse": 2,
+      "start": 167,
+      "end": 171,
+      "literal": "pozo",
+      "contexto": " de beber a los rebaños. Una gran piedra cubría la boca del pozo.",
+      "categorias": [
+        "objetos"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 29:3",
+      "chapter": 29,
+      "verse": 3,
+      "start": 146,
+      "end": 150,
+      "literal": "pozo",
+      "contexto": " ovejas y luego volvían a poner la piedra sobre la boca del pozo.",
+      "categorias": [
+        "objetos"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 29:4",
+      "chapter": 29,
+      "verse": 4,
+      "start": 83,
+      "end": 88,
+      "literal": "Harán",
+      "contexto": "stores: «Hermanos, ¿de dónde son?». Ellos respondieron: «De Harán».",
+      "categorias": [
+        "lugares",
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "lugares/haran",
+        "onomastico/haran"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 29:5",
+      "chapter": 29,
+      "verse": 5,
+      "start": 40,
+      "end": 45,
+      "literal": "Nacor",
+      "contexto": "Él preguntó: «¿Conocen a Labán, hijo de Nacor?». Respondieron: «Sí».",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "onomastico/nacor-i",
+        "onomastico/nacor-ii"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 29:7",
+      "chapter": 29,
+      "verse": 7,
+      "start": 59,
+      "end": 65,
+      "literal": "ganado",
+      "contexto": "Jacob dijo: «Todavía es temprano y no es hora de reunir el ganado. Den agua a las ovejas y llévenlas otra vez a pastar».",
+      "categorias": [
+        "animales"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 29:8",
+      "chapter": 29,
+      "verse": 8,
+      "start": 112,
+      "end": 116,
+      "literal": "pozo",
+      "contexto": " reúnan todos los rebaños y quiten la piedra de la boca del pozo. Entonces podremos dar agua a las ovejas».",
+      "categorias": [
+        "objetos"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 29:10",
+      "chapter": 29,
+      "verse": 10,
+      "start": 132,
+      "end": 136,
+      "literal": "pozo",
+      "contexto": " ovejas de Labán, se acercó, quitó la piedra de la boca del pozo y dio agua al rebaño.",
+      "categorias": [
+        "objetos"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 29:15",
+      "chapter": 29,
+      "verse": 15,
+      "start": 36,
+      "end": 40,
+      "literal": "seas",
+      "contexto": "Después Labán dijo a Jacob: «Aunque seas mi pariente, no debes trabajar para mí sin recibir nada. Dime cuánto quieres que te pague",
+      "categorias": [
+        "medidas"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 30:6",
+      "chapter": 30,
+      "verse": 6,
+      "start": 101,
+      "end": 104,
+      "literal": "Dan",
+      "contexto": "Ha escuchado mi voz y me ha dado un hijo». Por eso lo llamó Dan.",
+      "categorias": [
+        "lugares",
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "lugares/dan",
+        "onomastico/dan"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 30:14",
+      "chapter": 30,
+      "verse": 14,
+      "start": 22,
+      "end": 27,
+      "literal": "trigo",
+      "contexto": "Durante la cosecha de trigo, Rubén encontró mandrágoras en el campo y se las llevó a Lea, su madre. Raquel dijo a Lea",
+      "categorias": [
+        "animales"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 30:17",
+      "chapter": 30,
+      "verse": 17,
+      "start": 59,
+      "end": 65,
+      "literal": "quinto",
+      "contexto": "Dios escuchó a Lea. Ella quedó embarazada y dio a Jacob un quinto hijo.",
+      "categorias": [
+        "medidas"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 30:29",
+      "chapter": 30,
+      "verse": 29,
+      "start": 76,
+      "end": 82,
+      "literal": "ganado",
+      "contexto": " «Tú sabes cómo he trabajado para ti y cómo ha aumentado tu ganado bajo mi cuidado.",
+      "categorias": [
+        "animales"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 31:9",
+      "chapter": 31,
+      "verse": 9,
+      "start": 21,
+      "end": 27,
+      "literal": "ganado",
+      "contexto": "Así Dios le quitó el ganado a su padre y me lo dio a mí.",
+      "categorias": [
+        "animales"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 31:13",
+      "chapter": 31,
+      "verse": 13,
+      "start": 18,
+      "end": 23,
+      "literal": "Betel",
+      "contexto": "Yo soy el Dios de Betel, donde ungiste una piedra como pilar y me hiciste un voto. Ahora levántate, sal de esta t",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 31:18",
+      "chapter": 31,
+      "verse": 18,
+      "start": 23,
+      "end": 29,
+      "literal": "ganado",
+      "contexto": "Puso en marcha todo su ganado y todos los bienes que había conseguido en Padán-aram, y se preparó para ir a Isaac, su p",
+      "categorias": [
+        "animales"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 31:18",
+      "chapter": 31,
+      "verse": 18,
+      "start": 73,
+      "end": 83,
+      "literal": "Padán-aram",
+      "contexto": "a todo su ganado y todos los bienes que había conseguido en Padán-aram, y se preparó para ir a Isaac, su padre, en la tierra de Canaán.",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 31:18",
+      "chapter": 31,
+      "verse": 18,
+      "start": 141,
+      "end": 147,
+      "literal": "Canaán",
+      "contexto": "am, y se preparó para ir a Isaac, su padre, en la tierra de Canaán.",
+      "categorias": [
+        "lugares",
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "lugares/canaan",
+        "onomastico/canaan"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 31:21",
+      "chapter": 31,
+      "verse": 21,
+      "start": 83,
+      "end": 89,
+      "literal": "Galaad",
+      "contexto": "nía, cruzó el río y se dirigió hacia la región montañosa de Galaad.",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 31:23",
+      "chapter": 31,
+      "verse": 23,
+      "start": 101,
+      "end": 107,
+      "literal": "Galaad",
+      "contexto": "ó durante siete días y lo alcanzó en la región montañosa de Galaad.",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 31:25",
+      "chapter": 31,
+      "verse": 25,
+      "start": 148,
+      "end": 154,
+      "literal": "Galaad",
+      "contexto": "bán y sus parientes también levantaron sus tiendas allí, en Galaad.",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 31:41",
+      "chapter": 31,
+      "verse": 41,
+      "start": 91,
+      "end": 97,
+      "literal": "ganado",
+      "contexto": ". Trabajé catorce años por tus dos hijas y seis años por tu ganado, y cambiaste mi salario diez veces.",
+      "categorias": [
+        "animales"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 31:47",
+      "chapter": 31,
+      "verse": 47,
+      "start": 55,
+      "end": 61,
+      "literal": "Galaad",
+      "contexto": "Labán llamó al montón Jegar-sahaduta, y Jacob lo llamó Galaad.",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 31:48",
+      "chapter": 31,
+      "verse": 48,
+      "start": 87,
+      "end": 93,
+      "literal": "Galaad",
+      "contexto": " piedras es hoy testigo entre tú y yo». Por eso fue llamado Galaad.",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 31:53",
+      "chapter": 31,
+      "verse": 53,
+      "start": 36,
+      "end": 41,
+      "literal": "Nacor",
+      "contexto": "Que el Dios de Abraham y el Dios de Nacor, el Dios de sus padres, juzgue entre nosotros». Entonces Jacob juró por el Dios a quien t",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "onomastico/nacor-i",
+        "onomastico/nacor-ii"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 32:2",
+      "chapter": 32,
+      "verse": 2,
+      "start": 87,
+      "end": 95,
+      "literal": "Mahanaim",
+      "contexto": " «Este es el ejército de Dios». Por eso llamó a aquel lugar Mahanaim.",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 32:3",
+      "chapter": 32,
+      "verse": 3,
+      "start": 71,
+      "end": 75,
+      "literal": "Seir",
+      "contexto": " mensajeros delante de él a su hermano Esaú, a la tierra de Seir, en la región de Edom.",
+      "categorias": [
+        "lugares",
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "lugares/seir",
+        "onomastico/seir-horeo"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 32:5",
+      "chapter": 32,
+      "verse": 5,
+      "start": 6,
+      "end": 12,
+      "literal": "ganado",
+      "contexto": "Tengo ganado, asnos, ovejas, siervos y siervas. Envío este mensaje a mi señor para hallar favor ante t",
+      "categorias": [
+        "animales"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 32:7",
+      "chapter": 32,
+      "verse": 7,
+      "start": 110,
+      "end": 116,
+      "literal": "ganado",
+      "contexto": "idió a la gente que estaba con él, junto con las ovejas, el ganado y los camellos, en dos grupos.",
+      "categorias": [
+        "animales"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 32:30",
+      "chapter": 32,
+      "verse": 30,
+      "start": 26,
+      "end": 32,
+      "literal": "Peniel",
+      "contexto": "Jacob llamó a aquel lugar Peniel, porque dijo: «He visto a Dios cara a cara y sigo con vida».",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 32:31",
+      "chapter": 32,
+      "verse": 31,
+      "start": 35,
+      "end": 41,
+      "literal": "Peniel",
+      "contexto": "El sol salió cuando Jacob pasó por Peniel, y caminaba cojeando por causa de su cadera.",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 33:14",
+      "chapter": 33,
+      "verse": 14,
+      "start": 73,
+      "end": 79,
+      "literal": "ganado",
+      "contexto": " delante de su siervo. Yo avanzaré poco a poco, al paso del ganado y de los niños, hasta llegar a Seir, donde está mi señor».",
+      "categorias": [
+        "animales"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 33:14",
+      "chapter": 33,
+      "verse": 14,
+      "start": 111,
+      "end": 115,
+      "literal": "Seir",
+      "contexto": "o a poco, al paso del ganado y de los niños, hasta llegar a Seir, donde está mi señor».",
+      "categorias": [
+        "lugares",
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "lugares/seir",
+        "onomastico/seir-horeo"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 33:16",
+      "chapter": 33,
+      "verse": 16,
+      "start": 43,
+      "end": 47,
+      "literal": "Seir",
+      "contexto": "Ese mismo día Esaú regresó por su camino a Seir.",
+      "categorias": [
+        "lugares",
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "lugares/seir",
+        "onomastico/seir-horeo"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 33:17",
+      "chapter": 33,
+      "verse": 17,
+      "start": 12,
+      "end": 17,
+      "literal": "Sucot",
+      "contexto": "Jacob fue a Sucot. Allí construyó una casa para sí y refugios para su ganado. Por eso llamó Sucot a aquel l",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 33:17",
+      "chapter": 33,
+      "verse": 17,
+      "start": 70,
+      "end": 76,
+      "literal": "ganado",
+      "contexto": "a Sucot. Allí construyó una casa para sí y refugios para su ganado. Por eso llamó Sucot a aquel lugar.",
+      "categorias": [
+        "animales"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 33:17",
+      "chapter": 33,
+      "verse": 17,
+      "start": 92,
+      "end": 97,
+      "literal": "Sucot",
+      "contexto": "ó una casa para sí y refugios para su ganado. Por eso llamó Sucot a aquel lugar.",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 33:18",
+      "chapter": 33,
+      "verse": 18,
+      "start": 23,
+      "end": 33,
+      "literal": "Padán-aram",
+      "contexto": "Después de regresar de Padán-aram, Jacob llegó sano y salvo a la ciudad de Siquem, en la tierra de Canaán, y levantó su cam",
+      "categorias": [
+        "lugares"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 33:18",
+      "chapter": 33,
+      "verse": 18,
+      "start": 99,
+      "end": 105,
+      "literal": "Canaán",
+      "contexto": "b llegó sano y salvo a la ciudad de Siquem, en la tierra de Canaán, y levantó su campamento frente a la ciudad.",
+      "categorias": [
+        "lugares",
+        "onomastico"
+      ],
+      "candidatos_ficha": [
+        "lugares/canaan",
+        "onomastico/canaan"
+      ],
+      "estado": "ambiguo_desambiguar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 33:19",
+      "chapter": 33,
+      "verse": 19,
+      "start": 16,
+      "end": 23,
+      "literal": "monedas",
+      "contexto": "Compró por cien monedas la parte del campo donde había levantado su tienda a los hijos de Hamor, padre de Siquem.",
+      "categorias": [
+        "medidas"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 33:19",
+      "chapter": 33,
+      "verse": 19,
+      "start": 90,
+      "end": 95,
+      "literal": "Hamor",
+      "contexto": "te del campo donde había levantado su tienda a los hijos de Hamor, padre de Siquem.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 34:2",
+      "chapter": 34,
+      "verse": 2,
+      "start": 16,
+      "end": 21,
+      "literal": "Hamor",
+      "contexto": "Siquem, hijo de Hamor el heveo y jefe de aquella región, la vio, la tomó y la violó.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 34:4",
+      "chapter": 34,
+      "verse": 4,
+      "start": 23,
+      "end": 28,
+      "literal": "Hamor",
+      "contexto": "Siquem dijo a su padre Hamor: «Consígueme a esta joven como mujer».",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 34:5",
+      "chapter": 34,
+      "verse": 5,
+      "start": 101,
+      "end": 107,
+      "literal": "ganado",
+      "contexto": "u hija Dina. Pero como sus hijos estaban en el campo con el ganado, Jacob guardó silencio hasta que regresaron.",
+      "categorias": [
+        "animales"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 34:6",
+      "chapter": 34,
+      "verse": 6,
+      "start": 0,
+      "end": 5,
+      "literal": "Hamor",
+      "contexto": "Hamor, padre de Siquem, fue a hablar con Jacob.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 34:8",
+      "chapter": 34,
+      "verse": 8,
+      "start": 0,
+      "end": 5,
+      "literal": "Hamor",
+      "contexto": "Hamor les dijo: «Mi hijo Siquem está muy enamorado de su hija. Por favor, dénsela como mujer.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 34:13",
+      "chapter": 34,
+      "verse": 13,
+      "start": 56,
+      "end": 61,
+      "literal": "Hamor",
+      "contexto": "Los hijos de Jacob respondieron con engaño a Siquem y a Hamor, su padre, porque Siquem había deshonrado a su hermana Dina.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 34:18",
+      "chapter": 34,
+      "verse": 18,
+      "start": 2,
+      "end": 7,
+      "literal": "Hamor",
+      "contexto": "A Hamor y a su hijo Siquem les pareció bien la propuesta.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 34:20",
+      "chapter": 34,
+      "verse": 20,
+      "start": 0,
+      "end": 5,
+      "literal": "Hamor",
+      "contexto": "Hamor y su hijo Siquem fueron a la puerta de la ciudad y hablaron con los hombres:",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 34:23",
+      "chapter": 34,
+      "verse": 23,
+      "start": 12,
+      "end": 18,
+      "literal": "ganado",
+      "contexto": "Entonces su ganado, sus bienes y todos sus animales serán nuestros. Aceptemos su condición y dejemos que viv",
+      "categorias": [
+        "animales"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 34:24",
+      "chapter": 34,
+      "verse": 24,
+      "start": 71,
+      "end": 76,
+      "literal": "Hamor",
+      "contexto": "ombres que se reunían a la puerta de la ciudad escucharon a Hamor y a Siquem. Entonces todos los varones de la ciudad fueron circuncidados.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 34:26",
+      "chapter": 34,
+      "verse": 26,
+      "start": 18,
+      "end": 23,
+      "literal": "Hamor",
+      "contexto": "También mataron a Hamor y a su hijo Siquem, sacaron a Dina de la casa de Siquem y se fueron.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    }
+  ],
+  "nombres_sin_match_frecuentes": [
+    {
+      "literal": "Dios",
+      "menciones": 99,
+      "referencias": [
+        "Gn 25:11",
+        "Gn 26:24",
+        "Gn 27:20",
+        "Gn 27:28",
+        "Gn 28:3",
+        "Gn 28:4",
+        "Gn 28:12",
+        "Gn 28:13",
+        "Gn 28:17",
+        "Gn 28:20",
+        "Gn 28:21",
+        "Gn 28:22",
+        "Gn 30:2",
+        "Gn 30:6"
+      ],
+      "contexto_inicial": "Después de la muerte de Abraham, Dios bendijo a su hijo Isaac. Isaac vivía cerca de Beer-lahai-roi.",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Israel",
+      "menciones": 42,
+      "referencias": [
+        "Gn 32:28",
+        "Gn 34:7",
+        "Gn 35:10",
+        "Gn 35:21",
+        "Gn 35:22",
+        "Gn 37:3",
+        "Gn 37:13",
+        "Gn 37:14",
+        "Gn 42:5",
+        "Gn 43:6",
+        "Gn 43:8",
+        "Gn 43:11",
+        "Gn 45:21"
+      ],
+      "contexto_inicial": "Entonces dijo: «Ya no te llamarás Jacob, sino Israel, porque has luchado con Dios y con los hombres y has vencido».",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Señor",
+      "menciones": 39,
+      "referencias": [
+        "Gn 25:21",
+        "Gn 25:22",
+        "Gn 25:23",
+        "Gn 26:2",
+        "Gn 26:12",
+        "Gn 26:22",
+        "Gn 26:24",
+        "Gn 26:25",
+        "Gn 26:28",
+        "Gn 26:29",
+        "Gn 27:7",
+        "Gn 27:20",
+        "Gn 27:27",
+        "Gn 28:13"
+      ],
+      "contexto_inicial": "Isaac oró al Señor por su mujer, porque ella no podía tener hijos. El Señor escuchó su oración y Rebeca qued",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "De",
+      "menciones": 16,
+      "referencias": [
+        "Gn 25:32",
+        "Gn 27:24",
+        "Gn 29:4",
+        "Gn 30:34",
+        "Gn 30:43",
+        "Gn 31:40",
+        "Gn 32:17",
+        "Gn 35:11",
+        "Gn 36:15",
+        "Gn 36:17",
+        "Gn 36:18",
+        "Gn 37:7",
+        "Gn 41:57",
+        "Gn 42:7"
+      ],
+      "contexto_inicial": "Esaú dijo: «Estoy a punto de morir. ¿De qué me sirve ese derecho?».",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "También",
+      "menciones": 16,
+      "referencias": [
+        "Gn 27:25",
+        "Gn 27:31",
+        "Gn 28:7",
+        "Gn 30:15",
+        "Gn 31:49",
+        "Gn 32:20",
+        "Gn 34:26",
+        "Gn 34:29",
+        "Gn 35:17",
+        "Gn 41:34",
+        "Gn 43:22",
+        "Gn 45:19",
+        "Gn 46:6",
+        "Gn 47:4",
+        "Gn 50:9"
+      ],
+      "contexto_inicial": "mi hijo y luego te bendiga». Jacob se la llevó, y él comió. También le llevó vino, y bebió.",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Edom",
+      "menciones": 11,
+      "referencias": [
+        "Gn 25:30",
+        "Gn 32:3",
+        "Gn 36:1",
+        "Gn 36:8",
+        "Gn 36:16",
+        "Gn 36:17",
+        "Gn 36:19",
+        "Gn 36:21",
+        "Gn 36:31",
+        "Gn 36:32",
+        "Gn 36:43"
+      ],
+      "contexto_inicial": "so rojo, porque estoy agotado». Por eso también fue llamado Edom.",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Dijo",
+      "menciones": 6,
+      "referencias": [
+        "Gn 29:33",
+        "Gn 29:34",
+        "Gn 29:35",
+        "Gn 30:23",
+        "Gn 37:9",
+        "Gn 42:28"
+      ],
+      "contexto_inicial": "Volvió a quedar embarazada y tuvo un hijo. Dijo: «El Señor ha oído que no soy amada y por eso me ha dado también este hijo». Y lo llamó S",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Er",
+      "menciones": 5,
+      "referencias": [
+        "Gn 38:3",
+        "Gn 38:6",
+        "Gn 38:7",
+        "Gn 46:12"
+      ],
+      "contexto_inicial": "Ella quedó embarazada y dio a luz un hijo, al que llamó Er.",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Déjame",
+      "menciones": 4,
+      "referencias": [
+        "Gn 30:25",
+        "Gn 32:26",
+        "Gn 33:15",
+        "Gn 38:16"
+      ],
+      "contexto_inicial": "Después del nacimiento de José, Jacob dijo a Labán: «Déjame ir a mi tierra y a mi país.",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Dime",
+      "menciones": 3,
+      "referencias": [
+        "Gn 29:15",
+        "Gn 30:28",
+        "Gn 32:29"
+      ],
+      "contexto_inicial": "as mi pariente, no debes trabajar para mí sin recibir nada. Dime cuánto quieres que te pague».",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Llegó",
+      "menciones": 3,
+      "referencias": [
+        "Gn 28:11",
+        "Gn 41:49",
+        "Gn 50:23"
+      ],
+      "contexto_inicial": "Llegó a cierto lugar y pasó allí la noche porque el sol ya se había puesto. Tomó una piedra del",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Atad",
+      "menciones": 2,
+      "referencias": [
+        "Gn 50:10",
+        "Gn 50:11"
+      ],
+      "contexto_inicial": "Cuando llegaron al lugar donde se trillaba el grano en Atad, al otro lado del Jordán, hicieron allí un gran duelo. José guardó luto por su padre dura",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Bendíceme",
+      "menciones": 2,
+      "referencias": [
+        "Gn 27:34",
+        "Gn 27:38"
+      ],
+      "contexto_inicial": "labras de su padre, dio un grito fuerte y amargo, y dijo: «¡Bendíceme también a mí, padre mío!».",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Danos",
+      "menciones": 2,
+      "referencias": [
+        "Gn 47:15",
+        "Gn 47:19"
+      ],
+      "contexto_inicial": "ipto y Canaán, todos los egipcios fueron a José y dijeron: «Danos alimento. ¿Por qué hemos de morir delante de ti? Ya no tenemos dinero».",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Del",
+      "menciones": 2,
+      "referencias": [
+        "Gn 41:2",
+        "Gn 41:18"
+      ],
+      "contexto_inicial": "Del río salieron siete vacas hermosas y gordas, que comenzaron a comer la hierba junto al río",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Digan",
+      "menciones": 2,
+      "referencias": [
+        "Gn 32:4",
+        "Gn 50:17"
+      ],
+      "contexto_inicial": "Les ordenó decir: «Digan a mi señor Esaú: “Tu siervo Jacob dice: He vivido con Labán hasta ahora.",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Dio",
+      "menciones": 2,
+      "referencias": [
+        "Gn 32:19",
+        "Gn 49:28"
+      ],
+      "contexto_inicial": "Dio las mismas instrucciones al segundo, al tercero y a todos los que iban con los animales: ",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Dos",
+      "menciones": 2,
+      "referencias": [
+        "Gn 25:23",
+        "Gn 41:1"
+      ],
+      "contexto_inicial": "El Señor le dijo: «Dos naciones están en tu vientre, y de ti saldrán dos pueblos. Uno será más fuerte que el otr",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Hijo",
+      "menciones": 2,
+      "referencias": [
+        "Gn 27:1",
+        "Gn 49:9"
+      ],
+      "contexto_inicial": "casi no podía ver, llamó a Esaú, su hijo mayor, y le dijo: «Hijo mío». Esaú respondió: «Aquí estoy».",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Padre",
+      "menciones": 2,
+      "referencias": [
+        "Gn 27:18",
+        "Gn 27:31"
+      ],
+      "contexto_inicial": "Jacob fue a su padre y dijo: «Padre mío». Isaac respondió: «Aquí estoy. ¿Quién eres, hijo mío?».",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Pon",
+      "menciones": 2,
+      "referencias": [
+        "Gn 44:2",
+        "Gn 48:18"
+      ],
+      "contexto_inicial": "Pon también mi copa de plata en la boca del saco del menor, junto con el dinero que pagó por ",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Ponlo",
+      "menciones": 2,
+      "referencias": [
+        "Gn 31:37",
+        "Gn 42:37"
+      ],
+      "contexto_inicial": " registrado todas mis cosas. ¿Qué encontraste que sea tuyo? Ponlo aquí delante de mis parientes y de los tuyos, y que ellos juzguen entre nosotros.",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Tienen",
+      "menciones": 2,
+      "referencias": [
+        "Gn 43:7",
+        "Gn 44:19"
+      ],
+      "contexto_inicial": "de nuestra familia. Nos preguntó: “¿Vive todavía su padre? ¿Tienen otro hermano?”. Nosotros solo respondimos a sus preguntas. ¿Cómo íbamos a saber que nos d",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Tuvo",
+      "menciones": 2,
+      "referencias": [
+        "Gn 28:17",
+        "Gn 30:43"
+      ],
+      "contexto_inicial": "Tuvo miedo y dijo: «¡Qué impresionante es este lugar! No es otra cosa que la casa de Dios y la",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Únete",
+      "menciones": 2,
+      "referencias": [
+        "Gn 30:3",
+        "Gn 38:8"
+      ],
+      "contexto_inicial": "Ella dijo: «Aquí está mi sierva Bilha. Únete a ella para que tenga hijos para mí, y así pueda formar una familia por medio de ella».",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Acbor",
+      "menciones": 1,
+      "referencias": [
+        "Gn 36:38"
+      ],
+      "contexto_inicial": "Cuando Saúl murió, Baal-hanán, hijo de Acbor, reinó en su lugar.",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Alón-bacut",
+      "menciones": 1,
+      "referencias": [
+        "Gn 35:8"
+      ],
+      "contexto_inicial": "ajo de una encina cerca de Betel. Por eso llamaron al lugar Alón-bacut.",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Bedad",
+      "menciones": 1,
+      "referencias": [
+        "Gn 36:35"
+      ],
+      "contexto_inicial": "Cuando Husam murió, Hadad, hijo de Bedad, reinó en su lugar. Hadad había derrotado a los madianitas en la región de Moab, y su ciu",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Beor",
+      "menciones": 1,
+      "referencias": [
+        "Gn 36:32"
+      ],
+      "contexto_inicial": "Bela, hijo de Beor, fue rey de Edom, y su ciudad se llamaba Dinaba.",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "El-Betel",
+      "menciones": 1,
+      "referencias": [
+        "Gn 35:7"
+      ],
+      "contexto_inicial": "Allí construyó un altar y llamó al lugar El-Betel, porque allí Dios se le había aparecido cuando huía de su hermano.",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "El-Elohe-Israel",
+      "menciones": 1,
+      "referencias": [
+        "Gn 33:20"
+      ],
+      "contexto_inicial": "Allí construyó un altar y lo llamó El-Elohe-Israel.",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Jegar-sahaduta",
+      "menciones": 1,
+      "referencias": [
+        "Gn 31:47"
+      ],
+      "contexto_inicial": "Labán llamó al montón Jegar-sahaduta, y Jacob lo llamó Galaad.",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Matred",
+      "menciones": 1,
+      "referencias": [
+        "Gn 36:39"
+      ],
+      "contexto_inicial": "udad se llamaba Pau. Su mujer se llamaba Mehetabel, hija de Matred y nieta de Mezaab.",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Migdal-eder",
+      "menciones": 1,
+      "referencias": [
+        "Gn 35:21"
+      ],
+      "contexto_inicial": "Israel siguió su viaje y levantó su tienda más allá de Migdal-eder.",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Mizpa",
+      "menciones": 1,
+      "referencias": [
+        "Gn 31:49"
+      ],
+      "contexto_inicial": "También fue llamado Mizpa, porque Labán dijo: «Que el Señor nos vigile cuando estemos lejos el uno del otro.",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    },
+    {
+      "literal": "Ramesés",
+      "menciones": 1,
+      "referencias": [
+        "Gn 47:11"
+      ],
+      "contexto_inicial": "les dio tierras en la mejor parte del país, en la región de Ramesés, como el faraón había ordenado.",
+      "estado": "nombre_no_correspondido_por_clasificar"
+    }
+  ],
+  "nota": "Primer barrido literal. La revisión contextual del Onomástico y demás categorías continúa. No publicar, no redactar fichas, no fusionar identidades."
+}
