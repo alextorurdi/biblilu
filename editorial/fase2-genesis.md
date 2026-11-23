@@ -1,7 +1,7 @@
 # Fase 2 · Génesis 25–50 — BES 2026, marcado e índices
 
 **Fecha de inicio:** 23/11/2026. **Actualización editorial:** 23/11/2026.  
-**Estado:** **EN REVISIÓN EDITORIAL — 19 BORRADORES BES EN 387 PÁRRAFOS, CON DIÁLOGOS Y RAYAS SEGÚN EL ESTILO ORIGINAL; CONTROL VISUAL E INTEGRAL PENDIENTE.**  
+**Estado:** **REVISIÓN VISUAL APROBADA — 19 BORRADORES BES EN 387 PÁRRAFOS; CONTROL TEXTUAL/EDITORIAL INTEGRAL Y VÍNCULOS DE FICHAS PENDIENTES.**  
 **Alcance invariable de Etapa I:** 19 escenas, Gn 25:1–50:26, traducción **La Biblia en Español Sencillo 2026 (BES)**. Las 15 escenas de Gn 1–24 **conservan RVR1960** hasta la segunda etapa, sin cambios de texto ni notas.
 
 **Documentos rectores:** [Protocolo P0–P9](protocolo-libros.md) · [BES en dos etapas](plan-dos-etapas-bes-genesis.md) · [P1 aprobada](fase1-genesis.md) · [Distribución de recursos](plan-ubicacion-escenas-genesis-25-50.md).
@@ -129,6 +129,14 @@ La Fase 2 sigue abierta para revisión visual y editorial. **No se han publicado
 
 **No publicado.** P2 continúa pendiente de la revisión visual de las 19 escenas y el control integral de las 874 lecturas.
 
+## Aprobación visual comunicada por el editor · 23/11/2026
+
+El editor ha confirmado expresamente **«revisión visual completada»** para los borradores de las 19 escenas BES (Génesis 25–50), después de las correcciones de párrafos, guiones, cambios de interlocutor y continuidad narrativa. **La revisión visual se considera terminada y aprobada.**
+
+Se mantienen por separado los controles de integridad automáticos que ya superó el flujo, y la **revisión editorial integral de las 874 lecturas/atribuciones** que el registro anterior todavía marca como pendiente. Esta confirmación visual no permite cambiar automáticamente los 874 indicadores `revisado=false` a `true`, ni presupone que los vínculos de apéndices estén listos. Las referencias a apéndices se podrán completar con los identificadores comprobados en P3.
+
+**Siguiente actividad del protocolo:** iniciar **P3, extracción y clasificación única** de las ocho categorías en Gn 25–50, distinguiendo entidades nuevas y nuevas menciones de fichas existentes. No publicar las escenas ni migrar Gn 1–24 (Etapa II).
+
 ## Condiciones para cerrar P2
 
 - [x] Pasaje, 19 escenas, títulos y distribución aprobados.
@@ -138,7 +146,7 @@ La Fase 2 sigue abierta para revisión visual y editorial. **No se han publicado
 - [x] **Importación real de los 874 versículos BES 2026** y registro SHA-256 del ZIP oficial (ver [procedencia](procedencia-bes-genesis-25-50.json)).
 - [x] **Comprobación estructural:** 26 capítulos, 874 versículos únicos y ordenados, sin vacíos ni restos USFM; cotejos textuales de control con la edición HTML oficial de 25:1, 25:23, 45:3 y 50:26. **Pendiente:** revisión editorial completa del texto y de los discursos.
 - [x] Marcado reversible de diálogo, pensamiento y voz divina en los 874 versículos; **seis casos específicos y reglas generales aprobados editorialmente el 23/11/2026**; pendiente el control integral versículo por versículo.
-- [x] 19 páginas en **387 párrafos narrativos**, con 874 anclas de versículo, ambos índices y controles automáticos superados; disponibles como artefacto no público. **Pendiente de revisión visual y editorial**.
+- [x] 19 páginas en **387 párrafos narrativos**, con 874 anclas de versículo, ambos índices y controles automáticos superados; disponibles como artefacto no público. **Revisión visual completada y aprobada por el editor; pendiente el control textual/editorial integral de las 874 lecturas y las referencias definitivas a fichas.**
 - [x] La acción de importación verificó mediante sumas SHA-256 que el texto RVR1960 de Gn 1–24 y las quince páginas editoriales protegidas no sufrieron modificaciones. Se ha preparado la identificación de la edición mixta, aún no aplicada a páginas públicas.
 
 **No iniciar como si P2 hubiera finalizado**, ni publicar automáticamente. P3–P9 se desarrollarán secuencialmente sobre las escenas BES, siguiendo los puntos de aprobación del protocolo.
