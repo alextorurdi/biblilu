@@ -313,5 +313,9 @@
     "sin_huecos_ni_solapamientos": true,
     "links_internos_compatibles_con_anclas": "gn-<capítulo>-<versículo>",
     "slug_primer_corte_capitulo_legacy": true
-  }
+  },
+  "traduccion": "BES 2026",
+  "fuente": "https://ebible.org/spabes/GEN.htm",
+  "etapa": "I — escenas 16–34 únicamente",
+  "convive_con": "RVR1960 en escenas 1–15, sin cambios"
 }
