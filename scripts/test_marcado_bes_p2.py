@@ -72,6 +72,15 @@ if marks.OUTPUT.is_file():
     assert [(x["chapter"],x["verse"],x["text"],x["parts"]) for x in on_disk] == [
         (x["chapter"],x["verse"],x["text"],x["parts"]) for x in marked]
 catalog,scenes,expected,_=p2.structure()
+plan, nparagraphs = p2.validate_paragraph_plan(scenes,expected)
+assert nparagraphs == 387
+assert len(plan) == 19
+assert plan[16]["limites_parrafo"][:5] == ["25:1","25:5","25:7","25:9","25:11"]
+assert "25:18" in plan[16]["limites_obligatorios_recursos"]
+assert "41:53" in plan[30]["limites_obligatorios_recursos"]
+assert "46:30" in plan[31]["limites_parrafo"]
+assert all(set(row["limites_obligatorios_recursos"]).issubset(set(row["limites_parrafo"]))
+           for row in plan.values())
 assert len(scenes)==19 and expected[-1]==(50,26)
 assert p2.check_source(expected)[0]["text"]==src[0]["text"]
 assert p2.check_format(expected,src)[-1]["text"]==src[-1]["text"]
@@ -80,4 +89,12 @@ assert index.count('href="')>40
 assert '25/index.html#gn-25-1' in index
 assert '50/index.html#gn-50-1' in index
 assert 'BES 2026' in index and 'RVR1960' in index
+first_scene = p2.make_scene_html(scenes[0],
+    [v for v in marked if v["chapter"]==25 and v["verse"]<=18],scenes)
+assert first_scene.count('<p class="prose-paragraph') == 8
+assert first_scene.count('<span class="verse-inline" id="gn-') == 18
+assert '<span class="verse-inline" id="gn-25-4"' in first_scene
+assert '<span class="verse-inline" id="gn-25-5"' in first_scene
+assert '<p class="verse"' not in first_scene
+assert 'p2-prose.css' in first_scene
 print("P2 real BES: 874 versículos intactos, segmentos reversibles, voces divinas y dos índices. APTO PARA REVISIÓN.")
