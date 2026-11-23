@@ -92,7 +92,11 @@ function buildRegistry(s) {
   const manualVariants={
     "onomastico/jacob":["Israel"],"onomastico/esau":["Edom"],
     "onomastico/jose":["Zafnat-panea"],"onomastico/benjamin":["Benoni"],
-    "onomastico/kesed":["Kesed","Quesed"]
+    "onomastico/kesed":["Kesed","Quesed"],
+    // Dos decisiones editoriales P3 (BES 2026) sin cambiar identificadores
+    // históricos ni introducir identidades nuevas por diferencias de grafía.
+    "onomastico/zimram":["Zimrán"],
+    "onomastico/hadar":["Hadar"]
   };
   const related={};
   for(const path of revPaths){
