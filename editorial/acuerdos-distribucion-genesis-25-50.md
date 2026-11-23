@@ -104,8 +104,14 @@ Un panel visible a la vez, alternando al pasar los límites entre grupos; el cam
 
 **Criterio de estilo:** conservar el mismo sistema de lateral adhesivo e imágenes por cortes usado en las escenas anteriores, sin reducir la última imagen; respetar el orden narrativo, y no crear duplicados de un recurso en el mismo dispositivo.
 
-## D. Estado y siguientes acciones
+## D. Cierre de la fase P1 — 23/11/2026
 
-Estos acuerdos resuelven únicamente las modificaciones y aclaraciones confirmadas por el editor. Para los restantes recursos, conservar las decisiones de color y tachados del archivo `Contrapropuesta.wps`, sin reincorporar propuestas descartadas ni inventar aprobación de opcionales. No modificar todavía las 15 escenas ya publicadas ni los archivos de salida de la web.
+- El editor confirmó que la referencia «Mapa 13» en «Despedidas» significa **Árbol 13**, insertado al final de la escena en ambos formatos.
+- Con esta confirmación se da por **aprobada y cerrada la Fase 1 de Génesis 25–50**, que comprende los títulos, límites y planificación preliminar de recursos de las 19 escenas.
+- Este acuerdo no implica que las imágenes, mapas, árboles nuevos, artículos ni las escenas estén generados, implementados o publicados. Su ejecución y revisión detallada corresponde a fases posteriores.
 
-**Siguiente paso editorial:** cerrar el registro completo de P1 y, conforme al protocolo, pasar a integración del texto de Gn 25–50 en P2 una vez aprobada formalmente la escenificación. Las decisiones de creación artística y composición final aún pueden revisarse en P5/P6.
+## E. Estado y siguientes acciones
+
+Estos acuerdos se integran en el cierre de P1 y resuelven las modificaciones y aclaraciones confirmadas por el editor. Para los restantes recursos, conservar las decisiones de color y tachados del archivo `Contrapropuesta.wps`, sin reincorporar propuestas descartadas ni inventar aprobación de opcionales. No modificar todavía las 15 escenas ya publicadas ni los archivos de salida de la web.
+
+**Siguiente paso editorial:** iniciar **P2**, integrando el texto de Gn 25–50 en las 19 escenas aprobadas y preparando su formato, índices y anclas. Las decisiones de creación artística y composición final aún pueden revisarse en P5/P6.
