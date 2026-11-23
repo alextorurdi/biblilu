@@ -9,7 +9,7 @@
 
 ## Regla aprobada
 
-Mantener literalmente la ortografía, los signos « » y “ ”, y los cortes de versículo de la BES. Aplicar cursiva a los discursos y pensamientos con una capa reversible; no añadir ni sustituir comillas por guiones en el archivo de texto base. **Marcar en rojo solamente las intervenciones atribuidas a Dios o las citas textuales explícitas de esas intervenciones**, no todas las palabras de una persona que menciona a Dios.
+Mantener literalmente la ortografía, los signos « » y “ ”, y los cortes de versículo de la BES **en el archivo de texto base y en la capa estructurada `parts`**. **Decisión de presentación posterior (23/11/2026): recuperar las rayas de diálogo del estilo original de BIBLILU**: en el HTML visible, cada apertura de parlamento oral « se muestra como **—**, su cierre » no se muestra; esto ocurre **solo una vez por intervención**, aunque abarque varios versículos. Los pensamientos y frases hipotéticas aparecen en cursiva **sin raya**. Las citas interiores “ ” y ‘ ’ se conservan como citas de segundo o tercer nivel. La transformación es reversible (las comillas originales se registran en atributos `data-source-char` y se recuperan en las pruebas). **Marcar en rojo solamente las intervenciones atribuidas a Dios o las citas textuales explícitas de esas intervenciones**, no todas las palabras de una persona que menciona a Dios.
 
 En la versión web existente de Génesis 1–24 también se resaltan nombres divinos. Se aprueba conservar ese criterio de identificación visual en las nuevas escenas, pero comprobando las apariciones de «Señor» que puedan ser tratamientos humanos. No debe resaltarse automáticamente «Señor» en Gn 43:20 como si se refiriera a Dios, pues se habla a un funcionario de Egipto. El resaltado de nombres debe comprobar el referente y utilizar una capa visual distinta de la marca de discurso divino; las comprobaciones técnicas siguen vigentes.
 
@@ -27,10 +27,18 @@ En la versión web existente de Génesis 1–24 también se resaltan nombres div
 ## Cuestiones de formato aprobadas (sin alterar el texto)
 
 1. **Menciones de Dios y Señor:** en capítulos 1–24, los nombres divinos aparecen habitualmente en rojo aunque el narrador los mencione. Para la BES, comprobar el referente de cada «Señor» antes de resaltarlo, y evitar pintar de rojo tratamientos humanos o referencias a «dioses» ajenos. Criterio aprobado: registrar estos resaltados visuales separadamente de `parts.kind=divine`, que debe significar únicamente intervención de Dios.
-2. **Cita anidada:** conservar las comillas BES intactas y expresar el énfasis por CSS, no reescribiendo el texto.
+2. **Cita anidada:** conservar las comillas BES intactas en los datos. En la web, transformar exclusivamente las comillas externas de intervenciones o pensamientos; mantener visibles las comillas **interiores** “ ” y ‘ ’ cuando reproducen un discurso dentro de otro. La raya sustituye solo la apertura del parlamento oral principal, no se añade una raya a cada versículo ni a una cita de segundo nivel.
 3. **Cortes entre versículos:** las comillas que comienzan en un versículo y terminan en el siguiente deben permanecer en cursiva en todo el tramo y salir del estilo en el versículo de cierre.
 4. **Disposición:** la previsualización actual no incluye ilustraciones, mapas o árboles; corresponden a P5 y deben respetar el plan de P1. Las notas nuevas, referencias y fichas se elaboran en las fases posteriores.
 5. **Puntos de lectura:** cada página BES y ambos índices deben identificar la traducción en uso. El enlace de ida desde «Familia» se añadirá al preparar publicación, sin cambiar su texto ni sus notas RVR1960.
+
+## Aplicación de las convenciones históricas de diálogo · 23/11/2026
+
+Tras revisar [Legado](tareas-legado.md), [Cumplimiento](tareas-cumplimiento.md) y [Familia](tareas-familia.md), el editor ordenó restaurar estas convenciones en **las 19 escenas nuevas**: discurso humano en **cursiva y negro, con raya (—)**; pensamientos en **cursiva sin raya**; palabras de Dios en **rojo y cursiva**; palabras del ángel en **negro** salvo cita explícita de Dios; narrador en redonda; cambio de interlocutor identificado por una nueva raya.
+
+**Regla de fidelidad:** la BES de `data/genesis_25_50_bes.json` y `data/genesis_25_50_bes_formato.json` debe conservar todas las comillas y versículos. Solo el **renderizado HTML no publicado** efectúa esta sustitución visual, comprobable por pruebas de recuperación del texto literal a partir de sus atributos de procedencia.
+
+La disposición en **387 párrafos** y sus **874 anclas** se conserva. El cambio de voz se indica con una raya por apertura de intervención; las citas anidadas no cuentan como un cambio de hablante. Queda pendiente la revisión visual individual, sin autorizar publicación ni cambiar los anteriores Gn 1–24.
 
 ## Resolución editorial
 
