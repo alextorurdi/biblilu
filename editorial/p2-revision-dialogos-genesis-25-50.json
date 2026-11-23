@@ -1,7 +1,7 @@
 {
   "edicion": "BES 2026",
   "fase": "P2",
-  "estado": "borrador automático, no aprobado",
+  "estado": "criterios de marcado aprobados; aplicación automática pendiente de revisión integral",
   "versiculos": 874,
   "con_partes": 874,
   "texto_literal_igual_fuente": true,
@@ -121,33 +121,41 @@
       "motivo": "cita_interna_de_dios"
     }
   ],
-  "casos_a_revisar": [
+  "casos_resueltos_por_el_editor": [
+    {
+      "ref": "26:7",
+      "decision": "Mantener diálogo real; frase temida como discurso hipotético y pensamiento final como pensamiento."
+    },
     {
       "ref": "31:11–13",
-      "motivo": "El ángel de Dios habla en un sueño y se identifica como el Dios de Betel. Determinar si la intervención se marca como divina o de mensajero."
+      "decision": "Mensajero de Betel: intervención en cursiva SIN rojo; no imponer identificación teológica."
     },
     {
       "ref": "31:29",
-      "motivo": "Labán reproduce palabras de Dios dentro de su propio diálogo; se ha marcado la cita interna en rojo provisionalmente."
+      "decision": "Labán cita las palabras de Dios: rojo únicamente en la cita interna."
     },
     {
       "ref": "32:9",
-      "motivo": "Jacob recuerda en su oración palabras anteriores de Dios, entre comillas internas. Marca divina provisional."
+      "decision": "Jacob recuerda palabras de Dios: rojo únicamente en la cita interna."
     },
     {
       "ref": "32:26–29",
-      "motivo": "El adversario del Jaboc no se nombra explícitamente como Dios al introducir sus intervenciones. Se mantiene diálogo sin rojo hasta revisar la identificación."
+      "decision": "Adversario del Jaboc: intervención en cursiva SIN rojo; no anticipar identificación."
     },
     {
       "ref": "48:4",
-      "motivo": "Jacob cita directamente las palabras atribuidas a Dios, en segundo nivel. Se han marcado en rojo provisionalmente."
-    },
-    {
-      "ref": "26:7",
-      "motivo": "Isaac enuncia una frase real, una respuesta hipotética y un pensamiento; la clasificación automática depende del contexto de cada apertura."
+      "decision": "Jacob cita palabras de Dios: rojo únicamente en la cita interna."
     }
   ],
-  "criterio": "No convertir menciones de Dios en palabras divinas. Mantener comillas BES y marcas literales. Las citas internas requieren revisión; revisar todas las etiquetas antes de declararlas aprobadas.",
+  "nombres_divinos": {
+    "referencias_Dios_y_Senor_en_mayuscula": 138,
+    "exclusion_referente_humano": [
+      "43:20 Señor"
+    ],
+    "marcas_visualizadas_fuera_de_discurso_divino": "según renderer P2",
+    "pendiente": "control textual integral antes de aprobar todos los versículos"
+  },
+  "criterio": "APROBADO: distinguir nombres divinos de voz divina; conservar comillas y BES literales; cursiva en discursos humanos y casos ambiguos; rojo en discursos de Dios y en citas atribuidas a Dios.",
   "fuente": "data/genesis_25_50_bes.json",
   "borrador": "data/genesis_25_50_bes_formato.json",
   "cobertura": "Génesis 25:1–50:26"
