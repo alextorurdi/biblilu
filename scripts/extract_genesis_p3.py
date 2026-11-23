@@ -23,25 +23,43 @@ EXTRACTIONS = ROOT/"data/p3-extracciones-genesis-25-50.json"
 SUMMARY = ROOT/"editorial/p3-resumen-genesis-25-50.json"
 CATEGORIES = ["onomastico","lugares","animales","materiales","tribus","objetos","instrumentos","medidas"]
 
-# Conflictos comprobados en el primer lote onomástico (Gn 25:1–18):
-# hay una ficha con el mismo nombre, pero su identidad es OTRA.
-# La fuente BES distingue el parentesco; nunca sugerir ese ID como enlace.
-IDENTITY_CONFLICTS = {
-    (25,9,"zohar"): {
-        "excluir":"onomastico/zohar",
-        "motivo":"Zohar padre de Efrón, no Zohar hijo de Simeón (Gn 46:10)"
+# Resoluciones de identidad explícitamente aprobadas en P3, lote Gn 25:1–18.
+# El ID legado de Hadar se preserva para el hijo de Ismael; la BES dice Hadad.
+IDENTITY_RESOLUTIONS = {
+    (25, 9, "zohar"): {
+        "id": "onomastico/zohar-heteo",
+        "estado": "identidad_contextual_aprobada",
+        "motivo": "Zohar heteo, padre de Efrón; no el hijo de Simeón"
     },
-    (25,15,"hadad"): {
-        "excluir":"onomastico/hadad-rey-de-edom",
-        "motivo":"Hadad hijo de Ismael, no el rey edomita hijo de Bedad (Gn 36:35)"
+    (25, 15, "hadad"): {
+        "id": "onomastico/hadar",
+        "estado": "identidad_contextual_aprobada",
+        "motivo": "Hadad hijo de Ismael en BES, Hadar en RVR1960; no rey de Edom"
+    },
+    (36, 35, "hadad"): {
+        "id": "onomastico/hadad-rey-de-edom",
+        "estado": "identidad_contextual_aprobada",
+        "motivo": "Hadad hijo de Bedad, rey de Edom"
+    },
+    (36, 36, "hadad"): {
+        "id": "onomastico/hadad-rey-de-edom",
+        "estado": "identidad_contextual_aprobada",
+        "motivo": "Continuación del rey edomita Hadad hijo de Bedad"
+    },
+    # La BES dice Zera donde la RVR1960 dice Zohar en Gn 46:10.
+    # La relación familiar orienta la ficha, pero la equivalencia textual
+    # permanece identificada expresamente para revisión posterior.
+    (46, 10, "zera"): {
+        "id": "onomastico/zohar",
+        "estado": "variante_de_traduccion_por_contrastar",
+        "motivo": "Hijo de Simeón llamado Zohar en RVR1960 y Zera en BES; no Zera hijo de Reuel"
     }
 }
-# Grafías alternativas de BES por estudiar: no están aprobadas como
-# equivalencias de búsqueda ni como cambios de ID histórico.
-TEXT_VARIANTS_PENDING = {
+TEXT_VARIANTS_APPROVED = {
     (25,2,"zimran"): {
-        "proponer":"onomastico/zimram",
-        "motivo":"Zimrán en BES; ficha previa Zimram, hijo de Abraham y Cetura"
+        "id":"onomastico/zimram",
+        "estado":"variante_ortografica_aprobada",
+        "motivo":"Zimrán en BES, Zimram en RVR1960; el editor aprobó conservar el ID histórico"
     }
 }
 
@@ -247,18 +265,19 @@ def main():
             choices=list(unique.values())
             ids=sorted(set(e["id"] for e in choices if e["id"]))
             cats=sorted(set(e["category"] for e in choices))
-            conflict = IDENTITY_CONFLICTS.get((c,v,norm(label)))
-            spelling = TEXT_VARIANTS_PENDING.get((c,v,norm(label)))
-            if conflict:
-                assert conflict["excluir"] in ids
-                # No se puede vincular este nombre a la ficha preexistente.
-                ids = [x for x in ids if x != conflict["excluir"]]
-                state="colision_de_identidad_por_revisar"
+            resolution = IDENTITY_RESOLUTIONS.get((c,v,norm(label)))
+            spelling = TEXT_VARIANTS_APPROVED.get((c,v,norm(label)))
+            if resolution:
+                assert resolution["id"] in byid
+                # Conservar solamente la ficha del contexto genealógico;
+                # ni homónimos ni traducciones similares se fusionan.
+                ids=[resolution["id"]]
+                cats=["onomastico"]
+                state=resolution["estado"]
             elif spelling:
-                assert spelling["proponer"] in byid
-                # Sugerencia SOLO editorial, nunca enlace automático.
-                ids=[spelling["proponer"]]
-                state="variante_ortografica_por_aprobar"
+                assert spelling["id"] in byid
+                ids=[spelling["id"]]
+                state=spelling["estado"]
             elif len(ids)>1 or len(cats)>1:
                 state="ambiguo_desambiguar"
             elif len(ids)==1:
@@ -271,7 +290,7 @@ def main():
                 "ref":f"Gn {c}:{v}","chapter":c,"verse":v,
                 "start":start,"end":end,"literal":label,"contexto":short(passage,start,end),
                 "categorias":cats,"candidatos_ficha":ids,"estado":state,
-                "incidencia":(conflict["motivo"] if conflict else
+                "incidencia":(resolution["motivo"] if resolution else
                              spelling["motivo"] if spelling else None),
                 "origen":"coincidencia_lexica_fuente_BES",
             })
@@ -337,7 +356,7 @@ def main():
         }
     queue=sorted([x for x in mentions if x["estado"] in (
         "ambiguo_desambiguar","termino_sin_ficha_por_evaluar",
-        "colision_de_identidad_por_revisar","variante_ortografica_por_aprobar")],
+        "variante_de_traduccion_por_contrastar")],
         key=lambda x:(x["chapter"],x["verse"],x["start"]))
     unknownfreq=defaultdict(list)
     for item in unmatched:
@@ -364,7 +383,7 @@ def main():
     }
     summary={
       "fase":"P3","edicion":"BES 2026","estado":output["estado"],
-      "versiculos":874,"apendices":8,"identificadores_historicos":450,
+      "versiculos":874,"apendices":8,"identificadores_historicos":len(registered),
       "menciones_candidatas":len(mentions),
       "por_estado":dict(statuses),"por_categoria":summary_by_category,
       "pendientes_ambiguedad_y_nueva_ficha":len(queue),
@@ -382,12 +401,17 @@ def main():
             assert all(k in byid for k in x["candidatos_ficha"])
     assert len(visited)==874 and len(set(visited))==874
     specific={(x["chapter"],x["verse"],norm(x["literal"])):x for x in mentions}
-    assert specific[(25,9,"zohar")]["estado"]=="colision_de_identidad_por_revisar"
-    assert "onomastico/zohar" not in specific[(25,9,"zohar")]["candidatos_ficha"]
-    assert specific[(25,15,"hadad")]["estado"]=="colision_de_identidad_por_revisar"
-    assert "onomastico/hadad-rey-de-edom" not in specific[(25,15,"hadad")]["candidatos_ficha"]
-    assert specific[(25,2,"zimran")]["estado"]=="variante_ortografica_por_aprobar"
-    assert specific[(25,2,"zimran")]["candidatos_ficha"]==["onomastico/zimram"]
+    approved = {
+        (25,9,"zohar"):("onomastico/zohar-heteo","identidad_contextual_aprobada"),
+        (25,15,"hadad"):("onomastico/hadar","identidad_contextual_aprobada"),
+        (36,35,"hadad"):("onomastico/hadad-rey-de-edom","identidad_contextual_aprobada"),
+        (36,36,"hadad"):("onomastico/hadad-rey-de-edom","identidad_contextual_aprobada"),
+        (25,2,"zimran"):("onomastico/zimram","variante_ortografica_aprobada"),
+        (46,10,"zera"):("onomastico/zohar","variante_de_traduccion_por_contrastar")
+    }
+    for key,(expected_id,expected_status) in approved.items():
+        assert specific[key]["estado"]==expected_status, key
+        assert specific[key]["candidatos_ficha"]==[expected_id],key
     if args.check:
         assert EXTRACTIONS.exists() and SUMMARY.exists()
         prev=json.loads(EXTRACTIONS.read_text(encoding="utf-8"))
