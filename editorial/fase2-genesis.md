@@ -1,7 +1,7 @@
 # Fase 2 · Génesis 25–50 — BES 2026, marcado e índices
 
 **Fecha de inicio:** 23/11/2026. **Actualización editorial:** 23/11/2026.  
-**Estado:** **EN REVISIÓN EDITORIAL — 19 BORRADORES GENERADOS; FORMATO AUTOMÁTICO BES VALIDADO SIN APROBACIÓN DEFINITIVA.**  
+**Estado:** **EN REVISIÓN EDITORIAL — CRITERIOS DE MARCADO APROBADOS; 19 BORRADORES BES GENERADOS Y VALIDADOS; CONTROL INTEGRAL PENDIENTE.**  
 **Alcance invariable de Etapa I:** 19 escenas, Gn 25:1–50:26, traducción **La Biblia en Español Sencillo 2026 (BES)**. Las 15 escenas de Gn 1–24 **conservan RVR1960** hasta la segunda etapa, sin cambios de texto ni notas.
 
 **Documentos rectores:** [Protocolo P0–P9](protocolo-libros.md) · [BES en dos etapas](plan-dos-etapas-bes-genesis.md) · [P1 aprobada](fase1-genesis.md) · [Distribución de recursos](plan-ubicacion-escenas-genesis-25-50.md).
@@ -64,12 +64,20 @@ Los archivos resultantes de `build/p2/` son solo borradores de estructura y text
 - **Marcado provisional:** 325 aperturas de discurso humano, 14 de discurso divino o citas textuales atribuidas a Dios, 6 de pensamiento. En total, 491 segmentos de diálogo, 21 segmentos divinos (incluidas continuaciones entre versículos) y 6 segmentos de pensamiento.
 - **Alcance de la atribución:** las palabras de Dios en Gn 25:23; 26:2–5, 26:24; 28:13–15; 31:3, 31:24; 35:1, 35:10–12; 46:2–4, y las citas directas atribuidas a Dios en 31:29, 32:9 y 48:4 están marcadas provisionalmente en rojo. Las intervenciones del adversario de Gn 32:26–29 y el ángel del sueño de Gn 31:11–13 se dejan en diálogo no divino mientras se revisa su identificación.
 - **Control de ambigüedades:** [`editorial/p2-revision-dialogos-genesis-25-50.json`](p2-revision-dialogos-genesis-25-50.json) registra los casos pendientes. El informe no declara revisada la atribución teológica ni el estilo.
-- **Propuesta para aprobación editorial:** [p2-criterios-dialogos-bes-pendientes.md](p2-criterios-dialogos-bes-pendientes.md) expone los seis pasajes que requieren decisión o comprobación y el criterio de nombres divinos, sin alterar la fuente.
+- **Criterios aprobados por el editor:** [p2-criterios-dialogos-bes-pendientes.md](p2-criterios-dialogos-bes-pendientes.md) recoge la aprobación expresa de los seis pasajes (26:7; 31:11–13 y 31:29; 32:9 y 32:26–29; 48:4) y la separación entre el rojo de nombres divinos y el rojo de intervenciones divinas. El adversario del Jaboc y el mensajero de Gn 31 permanecen en cursiva sin rojo.
 - **Generación de las 19 escenas BES:** páginas HTML, encabezados con identificación **BES 2026**, navegación anterior/siguiente, anclas de los 874 versículos y **dos índices** creados exclusivamente en `build/p2/`. Los borradores se guardaron como **artefacto de GitHub Actions** llamado `biblilu-borradores-bes-p2` durante 14 días; [abrir ejecución para obtener el artefacto](https://github.com/alextorurdi/biblilu/actions/runs/45213289258).
 - **Pruebas P2:** [`scripts/test_marcado_bes_p2.py`](../scripts/test_marcado_bes_p2.py) y pruebas de páginas/índices superadas. Las quince escenas anteriores quedaron protegidas por comparaciones SHA-256 y no se alteraron.
 - **Nota de presentación:** la BES conserva en el borrador sus comillas « » y “ ” originales en cursiva. No se han añadido guiones nuevos que cambien la literalidad del texto. El tratamiento gráfico definitivo de los recursos corresponde a fases posteriores.
 
-**Condiciones antes de declarar P2 completamente aprobada:** revisión editorial de la clasificación de pensamientos y citas divinas, de las citas internas y del formato de los nombres divinos; control visual de las escenas y de la navegación (sobre todo el enlace con «Familia»); y decisión expresa del editor en el punto de aprobación. **Nada de esto implica publicación.**
+**Condiciones antes de declarar P2 completamente cerrada:** los **criterios** de pensamiento, discursos, citas divinas y nombres divinos **están aprobados**. Falta el control editorial y visual integral de los 874 versículos y las 19 páginas, la revisión de sus enlaces y navegación y la aprobación de cierre. Todos los versículos conservan `revisado=false` hasta ese control. **Nada de esto implica publicación.**
+
+## Aprobación del formato y nueva prueba · 23/11/2026
+
+- El editor aprobó **todos los criterios** propuestos para las seis situaciones de Gn 26, 31, 32 y 48, incluidos la cursiva **sin rojo** en las palabras del ángel en Gn 31:11–13 y del adversario en Gn 32:26–29, y el rojo en las citas internas de Dios (31:29, 32:9, 48:4).
+- Se ha actualizado el registro [`p2-criterios-dialogos-bes-pendientes.md`](p2-criterios-dialogos-bes-pendientes.md) para reflejar aprobación, sin confundirla con revisión integral de los 874 versículos.
+- Se aplicó una **capa visual independiente de nombres divinos**, conservando el significado de `parts.kind=divine` para la **voz de Dios**. La BES contiene **99 apariciones de «Dios» y 39 de «Señor»**, de las que se excluye **Gn 43:20 «Señor»**, tratamiento de un funcionario egipcio; los 27 «señor» minúsculos y los «dioses» no se clasifican como nombre divino. Se registran 137 apariciones candidatas en esta fase; su control editorial completo sigue pendiente.
+- **Prueba automática superada:** [GitHub Actions · P2 BES aprobado por criterios](https://github.com/alextorurdi/biblilu/actions/runs/45216746610). Se verifica integridad de los 874 textos, las 19 páginas no públicas, los dos índices, las excepciones aprobadas y la protección SHA-256 de las quince escenas anteriores.
+- La ejecución genera un nuevo paquete de borradores de trabajo. **No se han integrado páginas nuevas en el directorio público `docs/` ni alterado los 659 versículos RVR1960.**
 
 ## Condiciones para cerrar P2
 
@@ -79,7 +87,7 @@ Los archivos resultantes de `build/p2/` son solo borradores de estructura y text
 - [x] Importador, comprobador y generador de borradores preparados en el repositorio.
 - [x] **Importación real de los 874 versículos BES 2026** y registro SHA-256 del ZIP oficial (ver [procedencia](procedencia-bes-genesis-25-50.json)).
 - [x] **Comprobación estructural:** 26 capítulos, 874 versículos únicos y ordenados, sin vacíos ni restos USFM; cotejos textuales de control con la edición HTML oficial de 25:1, 25:23, 45:3 y 50:26. **Pendiente:** revisión editorial completa del texto y de los discursos.
-- [x] Marcado automático reversible de diálogo, pensamiento y voz divina sobre 874 versículos; **pendiente de validación editorial** de los casos ambiguos y del estilo.
+- [x] Marcado reversible de diálogo, pensamiento y voz divina en los 874 versículos; **seis casos específicos y reglas generales aprobados editorialmente el 23/11/2026**; pendiente el control integral versículo por versículo.
 - [x] 19 páginas e índices generados y sometidos a controles automáticos, disponibles como artefacto no público. **Pendiente de revisión visual y editorial**.
 - [x] La acción de importación verificó mediante sumas SHA-256 que el texto RVR1960 de Gn 1–24 y las quince páginas editoriales protegidas no sufrieron modificaciones. Se ha preparado la identificación de la edición mixta, aún no aplicada a páginas públicas.
 
