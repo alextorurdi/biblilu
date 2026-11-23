@@ -45,7 +45,8 @@ jobs:
           from pathlib import Path
           base=Path('build/p2')
           p=list((base/'genesis').glob('*/index.html'))
-          assert len(p)==19, len(p)
+          assert len(p)==34, len(p)  # 19 BES + 15 puentes informativos RVR1960
+          assert sum('class="verse-inline"' in x.read_text() for x in p)==19
           assert sum(x.read_text().count('<span class="verse-inline" id="gn-') for x in p)==874
           assert sum(x.read_text().count('<p class="prose-paragraph') for x in p)==387
           assert sum(x.read_text().count('class="p2-spoken-dash"') for x in p)==299
