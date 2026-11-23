@@ -51,3 +51,12 @@ La referencia al posible corte 41:46–43:14 / 43:15–45:3 queda conservada com
 - El bloque de «Hambre» **ya está resuelto y aprobado sin subdivisión**; completar las previsiones de recursos de P1 y cerrar la estructura general al confirmar el editor las restantes decisiones.
 - Una vez aprobadas todas las escenas, fijar numeración, añadir un catálogo estructurado de P1 y comenzar P2.
 - No tocar todavía las quince escenas anteriores, sus notas, fichas o páginas publicadas.
+
+## Acuerdos de recursos y distribución (23/11/2026)
+
+Se han documentado las decisiones posteriores a la contrapropuesta del editor, distinguiendo las posiciones de **escritorio**, **móvil** y **ambos formatos**:
+
+- [Acuerdos aprobados y correcciones](acuerdos-distribucion-genesis-25-50.md).
+- [Cuadro consolidado de recursos y cortes por escena](plan-ubicacion-escenas-genesis-25-50.md).
+
+Estos documentos prevalecen sobre los cortes erróneos o propuestas tachadas de versiones anteriores. Permanecen pendientes la ejecución del flujo editorial, la integración del texto y los elementos todavía sujetos a revisión.
