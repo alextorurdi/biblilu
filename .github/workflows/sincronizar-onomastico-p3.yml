@@ -1,0 +1,49 @@
+name: Sincronizar Onomástico P3 · identidades aprobadas (sin publicar)
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/entries.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sincronizar-onomastico-p3
+  cancel-in-progress: false
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Obtener fuentes
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: true
+      - name: Proteger el texto de las escenas antiguas y la BES
+        run: |
+          sha256sum data/genesis.json data/genesis_25_50_bes.json > /tmp/textos-inmutables.sha
+          find editorial/approved-pages/genesis -type f -print0 | sort -z | xargs -0 sha256sum > /tmp/escenas-inmutables.sha
+      - name: Regenerar registro maestro interno desde fichas aprobadas
+        run: |
+          node scripts/build_registry.mjs
+          node scripts/build_registry.mjs --check
+      - name: Actualizar catálogo P3 con las identidades aprobadas
+        run: |
+          python3 scripts/extract_genesis_p3.py
+          python3 scripts/extract_genesis_p3.py --check
+      - name: Verificar dos Zohar, dos Hadad y variante Zimrán sin cruces
+        run: |
+          python3 scripts/test_p3_onomastico_approved.py
+          sha256sum --check --status /tmp/textos-inmutables.sha
+          sha256sum --check --status /tmp/escenas-inmutables.sha
+          git diff --exit-code -- data/genesis.json data/genesis_25_50_bes.json
+      - name: Guardar únicamente registro y catálogos internos (no publicar)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/registro_maestro.json data/p3-extracciones-genesis-25-50.json editorial/p3-resumen-genesis-25-50.json
+          if ! git diff --cached --quiet; then
+            git commit -m "P3: incorporar decisiones aprobadas Zohar, Hadad y Zimrán al registro"
+            git pull --rebase origin main
+            git push
+          fi
