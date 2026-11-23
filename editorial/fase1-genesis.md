@@ -61,6 +61,10 @@ Se han documentado las decisiones posteriores a la contrapropuesta del editor, d
 
 Estos documentos prevalecen sobre los cortes erróneos o propuestas tachadas de versiones anteriores. La **planificación P1 está aprobada**; permanecen pendientes las siguientes fases de ejecución, creación, revisión y publicación.
 
+## Decisión posterior sobre traducción (23/11/2026)
+
+La fase P1 conserva intactos sus títulos, límites y recursos aprobados. Por decisión editorial posterior, las escenas **16–34 utilizarán BES 2026** durante P2–P9, mientras las quince escenas publicadas **1–15 seguirán en RVR1960** hasta una segunda etapa. Véase [el plan BES en dos etapas](plan-dos-etapas-bes-genesis.md).
+
 ## Continuación en Fase 2
 
 La **Fase 1 está cerrada**. El trabajo de integración del texto está documentado en [Fase 2 de Génesis](fase2-genesis.md). Sus avances técnicos no equivalen a texto incorporado ni a publicación: la fuente RVR1960 de Gn 25–50 sigue pendiente de aportación/verificación.
