@@ -100,6 +100,8 @@ def check_source(expected):
         text = item.get("text")
         if not isinstance(text, str) or not text.strip() or "<" in text or ">" in text:
             error("texto vacío o con HTML incorporado en " + str(c) + ":" + str(v))
+        if re.search(r'\|[a-zA-Z][a-zA-Z0-9-]*="', text) or re.search(r'\\\\[a-zA-Z]+', text):
+            error("marcador USFM o atributo léxico sin limpiar en " + str(c) + ":" + str(v))
         if "parts" in item:
             pieces = item["parts"]
             if not isinstance(pieces, list) or not pieces:
