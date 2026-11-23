@@ -635,7 +635,10 @@ def preview_support_pages():
         page = PREVIEW/relative
         page.parent.mkdir(parents=True, exist_ok=True)
         asset_prefix = "../" * (len(page.relative_to(PREVIEW).parts) - 1)
-        page.write_text(preview_stub(title, body, back, asset_prefix), encoding="utf-8")
+        content = preview_stub(title, body, back, asset_prefix)
+        if relative == "index.html":
+            content = content.replace("</main>", '<span id="libros"></span></main>')
+        page.write_text(content, encoding="utf-8")
 
 
 def build_draft(raw, scenes, expected, verses):
