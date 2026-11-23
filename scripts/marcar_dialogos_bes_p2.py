@@ -30,13 +30,15 @@ DIVINE_OPENINGS = {
 # Citas textuales de palabras atribuidas a Dios, dentro de un parlamento humano.
 # Mantener fuente y guillemets. Revisión editorial especialmente en 32:9.
 DIVINE_NESTED = {(31,29,1),(32,9,1),(48,4,1)}
-AMBIGUITIES = [
- {"ref":"31:11–13","motivo":"El ángel de Dios habla en un sueño y se identifica como el Dios de Betel. Determinar si la intervención se marca como divina o de mensajero."},
- {"ref":"31:29","motivo":"Labán reproduce palabras de Dios dentro de su propio diálogo; se ha marcado la cita interna en rojo provisionalmente."},
- {"ref":"32:9","motivo":"Jacob recuerda en su oración palabras anteriores de Dios, entre comillas internas. Marca divina provisional."},
- {"ref":"32:26–29","motivo":"El adversario del Jaboc no se nombra explícitamente como Dios al introducir sus intervenciones. Se mantiene diálogo sin rojo hasta revisar la identificación."},
- {"ref":"48:4","motivo":"Jacob cita directamente las palabras atribuidas a Dios, en segundo nivel. Se han marcado en rojo provisionalmente."},
- {"ref":"26:7","motivo":"Isaac enuncia una frase real, una respuesta hipotética y un pensamiento; la clasificación automática depende del contexto de cada apertura."},
+# Criterios aprobados explícitamente por el editor el 23/11/2026.
+# La aprobación de reglas NO marca revisados los 874 versículos por separado.
+EDITORIAL_DECISIONS = [
+ {"ref":"26:7","decision":"Mantener diálogo real; frase temida como discurso hipotético y pensamiento final como pensamiento."},
+ {"ref":"31:11–13","decision":"Mensajero de Betel: intervención en cursiva SIN rojo; no imponer identificación teológica."},
+ {"ref":"31:29","decision":"Labán cita las palabras de Dios: rojo únicamente en la cita interna."},
+ {"ref":"32:9","decision":"Jacob recuerda palabras de Dios: rojo únicamente en la cita interna."},
+ {"ref":"32:26–29","decision":"Adversario del Jaboc: intervención en cursiva SIN rojo; no anticipar identificación."},
+ {"ref":"48:4","decision":"Jacob cita palabras de Dios: rojo únicamente en la cita interna."}
 ]
 
 
@@ -123,15 +125,19 @@ def main():
             if p["kind"]!="plain":
                 counts[p["kind"]]=counts.get(p["kind"],0)+1
     report={
-        "edicion":"BES 2026","fase":"P2","estado":"borrador automático, no aprobado",
+        "edicion":"BES 2026","fase":"P2","estado":"criterios de marcado aprobados; aplicación automática pendiente de revisión integral",
         "versiculos":len(marked),"con_partes":len(marked),
         "texto_literal_igual_fuente":True,
         "aperturas_por_tipo":dict(opened),
         "segmentos_por_tipo":counts,
         "caracteres_por_tipo":dict(occupied),
         "aperturas_atribuidas_a_dios":[x for x in evidence if x["tipo"]=="divine"],
-        "casos_a_revisar":AMBIGUITIES,
-        "criterio":"No convertir menciones de Dios en palabras divinas. Mantener comillas BES y marcas literales. Las citas internas requieren revisión; revisar todas las etiquetas antes de declararlas aprobadas.",
+        "casos_resueltos_por_el_editor":EDITORIAL_DECISIONS,
+        "nombres_divinos":{"referencias_Dios_y_Senor_en_mayuscula":138,
+                           "exclusion_referente_humano":["43:20 Señor"],
+                           "marcas_visualizadas_fuera_de_discurso_divino":"según renderer P2",
+                           "pendiente":"control textual integral antes de aprobar todos los versículos"},
+        "criterio":"APROBADO: distinguir nombres divinos de voz divina; conservar comillas y BES literales; cursiva en discursos humanos y casos ambiguos; rojo en discursos de Dios y en citas atribuidas a Dios.",
         "fuente":"data/genesis_25_50_bes.json",
         "borrador":"data/genesis_25_50_bes_formato.json",
         "cobertura":"Génesis 25:1–50:26"
@@ -139,7 +145,7 @@ def main():
     OUTPUT.write_text(json.dumps(marked,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("Marcado P2:",len(marked),"versículos,","aperturas",dict(opened),
-          "segmentos",counts,"incidencias",len(AMBIGUITIES))
+          "segmentos",counts,"decisiones_aprobadas",len(EDITORIAL_DECISIONS))
 
 
 if __name__=="__main__":
