@@ -20,7 +20,7 @@ Fuente de las correcciones aprobadas: [acuerdos-distribucion-genesis-25-50.md](a
 | **22 Salario** (30:25–31:55) | Rebaños de Jacob desde inicio hasta **31:33**; Labán busca los ídolos con Raquel sentada **desde 31:34** hasta fin | Rebaños tras **30:43**; búsqueda de ídolos tras **31:32** | Mapa Harán–Galaad al **final** |
 | **23 Luchas** (32:1–33:17) | Mapa inicial hasta **32:23**; lucha nocturna desde **32:24**; reconciliación desde **33:4** hasta fin | Mapa tras **32:3**; lucha tras **32:28**; reconciliación tras **33:4** | Sin árbol nuevo |
 | **24 Horror** (33:18–34:31) | **Imagen sustitutiva aprobada:** negociación entre la familia de Jacob/Israel y la de Siquem, durante toda la escena | Imagen tras **34:12** | Mapa de Siquem tras **33:20** (**no** 33:1) |
-| **25 Despedidas** (35:1–29) | Mapa Siquem–Bet-el–Efrata–Hebrón desde inicio hasta **35:16**; nacimiento de Benjamín/muerte de Raquel desde **35:17** hasta fin | Mapa tras **35:3**; imagen tras **35:18** | Lámina de la familia de Jacob al **final**. La fuente la rotula «Mapa 13»: probablemente **Árbol 13**; **confirmación pendiente** antes de implementar |
+| **25 Despedidas** (35:1–29) | Mapa Siquem–Bet-el–Efrata–Hebrón desde inicio hasta **35:16**; nacimiento de Benjamín/muerte de Raquel desde **35:17** hasta fin | Mapa tras **35:3**; imagen tras **35:18** | **Árbol 13** (familia de Jacob, cuatro madres) al **final**. Corrección confirmada por el editor el 23/11/2026; la denominación original «Mapa 13» era errónea |
 
 ## Escenas 26–34
 
@@ -43,9 +43,11 @@ Fuente de las correcciones aprobadas: [acuerdos-distribucion-genesis-25-50.md](a
 3. Las indicaciones verdes y rojas no exigen repetir idéntica disposición en ambos dispositivos. Los recursos **azules** sí se insertan en el centro del flujo de lectura de **ambos** formatos.
 4. Hay que conservar anclas, leyenda de mapas, búsqueda y enlaces al atlas o visor genealógico; panel lateral debe alternar también al subir, ajustarse al tamaño de la pantalla y no encoger la última imagen.
 5. El paso **P1** registra necesidades y colocaciones preliminares. La aprobación de estas posiciones no autoriza aún generar imágenes, publicar artículos ni alterar el texto bíblico. La implementación depende de las fases y aprobaciones correspondientes.
-6. La única duda nueva identificada al consolidar el archivo es la mención azul **«Mapa 13»** en «Despedidas», asociada a una genealogía. La equivalencia con **Árbol 13** es probable, pero no se modifica automáticamente sin confirmación del editor.
+6. **Duda resuelta:** en «Despedidas», «Mapa 13» significa **Árbol 13**, confirmado expresamente por el editor el 23/11/2026.
 
 ## Historial
+
+- **23/11/2026:** confirmado **Árbol 13** en «Despedidas»; cerrada y aprobada la planificación P1 de las 19 escenas. Los detalles de elaboración y disposición fina se trabajarán en P5/P6.
 
 - **23/11/2026:** propuesta completa del editor en `Contrapropuesta.wps`. 
 - **23/11/2026:** aceptadas las seis correcciones de referencias/cortes (2A), reorganización de Edom, aclaración de Árboles 14–18 y cortes móviles de Reencuentro, ilustración sustitutiva de Horror, cambio de lateral en Coda y plan completo de Hambre. Documentadas en [acuerdos](acuerdos-distribucion-genesis-25-50.md).
