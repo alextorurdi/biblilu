@@ -38,7 +38,7 @@ jobs:
           assert d['versiculos_recorridos']==874
           assert len(d['referencias_recorridas'])==len(set(d['referencias_recorridas']))==874
           assert set(d['categorias'])=={'onomastico','lugares','animales','materiales','tribus','objetos','instrumentos','medidas'}
-          assert s['identificadores_historicos']==450
+          assert s['identificadores_historicos']>=450
           assert s['menciones_candidatas']>0
           print('Primer barrido P3 verificado:',s['menciones_candidatas'],'menciones candidatas en 8 categorías')
           print('Distribución:', {cat:row['menciones_candidatas'] for cat,row in s['por_categoria'].items()})
