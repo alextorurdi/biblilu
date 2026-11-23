@@ -1,6 +1,6 @@
 # Fase 3 · Onomástico, lote 1: Génesis 25:1–18 (BES 2026)
 
-**Estado:** **PROPUESTA PARA REVISIÓN**, sin modificación de fichas.  
+**Estado:** **APROBACIÓN PARCIAL IMPLEMENTADA**: Zimram/Zimrán, dos Zohar y dos Hadad aprobados por el editor; los demás casos del lote siguen a revisión P3. Las fichas fuente han sido actualizadas, sin publicación de escenas BES.  
 **Fuente:** [BES 2026, datos base](../data/genesis_25_50_bes.json), Gn 25:1–18.  
 **Registro:** [IDs aprobados hasta Génesis 24](../data/registro_maestro.json), con 450 identificadores.  
 **Criterios:** [homónimos, variantes y equivalencias](criterios-identidades-genesis.md).
@@ -13,7 +13,7 @@ Esta es la primera **revisión contextual** de las coincidencias del barrido gen
 |---|---|---|---|
 | Abraham | 25:1 | `onomastico/abraham` | Persona ya registrada |
 | Cetura | 25:1,4 | `onomastico/cetura` | Persona ya registrada |
-| **Zimrán** | 25:2 | `onomastico/zimram` **(variante pendiente)** | La ficha histórica usa «Zimram». Conservar su ID y proponer «Zimrán» como variante de búsqueda BES, sin renombrar la ficha |
+| **Zimrán** | 25:2 | `onomastico/zimram` **(aprobado)** | Variante de búsqueda BES registrada; la ficha histórica conserva Zimram y su ID |
 | Jocsán | 25:2–3 | `onomastico/jocsan` | Registrado |
 | Medán | 25:2 | `onomastico/medan` | Registrado |
 | Madián | 25:2,4 | `onomastico/madian` | Registrado |
@@ -35,15 +35,15 @@ Esta es la primera **revisión contextual** de las coincidencias del barrido gen
 | Isaac | 25:5,9,11 | `onomastico/isaac` |
 | Ismael | 25:9,12–17 | `onomastico/ismael` |
 | Efrón | 25:9 | `onomastico/efron`, hijo del Zohar hitita de este pasaje |
-| **Zohar** | **25:9** | **NO vincular a `onomastico/zohar`**: esa ficha documenta al **hijo de Simeón (Gn 46:10)**, mientras aquí se nombra al padre de Efrón. **Proponer ficha independiente** en P4: `onomastico/zohar-padre-de-efron` (ID provisional) |
+| **Zohar (heteo)** | **25:9** | **Nueva ficha `onomastico/zohar-heteo`, aprobada e incorporada al catálogo fuente.** Padre de Efrón (Gn 23:8; 25:9); distinta de `onomastico/zohar`, ahora presentada como **Zohar (hijo de Simeón)** |
 | Sara | 25:10,12 | `onomastico/sara` |
 | Agar | 25:12 | `onomastico/agar` |
 | Nebaiot, Cedar, Adbeel, Mibsam | 25:13 | `onomastico/nebaiot`, `onomastico/cedar`, `onomastico/adbeel`, `onomastico/mibsam` |
 | Misma, Duma, Massa | 25:14 | `onomastico/misma`, `onomastico/duma`, `onomastico/massa` |
-| **Hadad** | **25:15** | **NO vincular a `onomastico/hadad-rey-de-edom`**: esa ficha es el hijo de Bedad de Gn 36:35; aquí es **un hijo de Ismael**. Proponer ficha independiente en P4: `onomastico/hadad-hijo-de-ismael` (ID provisional) |
+| **Hadad (hijo de Ismael)** | **25:15** | **Ficha existente `onomastico/hadar`**, que ya describía al mismo hijo de Ismael con la grafía RVR1960 **Hadar**; nombre visible actualizado a **Hadad (hijo de Ismael)** y Hadar conservado como variante. Separado de **Hadad (rey de Edom)**, `onomastico/hadad-rey-de-edom` |
 | Tema, Jetur, Nafis, Cedema | 25:15 | `onomastico/tema`, `onomastico/jetur`, `onomastico/nafis`, `onomastico/cedema` |
 
-**Nota sobre nombres homónimos:** la clasificación automática ha reconocido «Hadad» y «Zohar» como nombres que ya existen en fichas, pero **el contexto familiar de BES demuestra que esos identificadores existentes no son adecuados** para los individuos de 25:9 y 25:15. Estos casos deben impedirse específicamente al generar enlaces en P4/P6, sin reescribir ni fusionar las fichas antiguas.
+**Nota sobre nombres homónimos:** la clasificación P3 ahora asigna expresamente **Gn 25:9 a `onomastico/zohar-heteo`** y **Gn 25:15 a `onomastico/hadar`**. Para **Gn 36:35–36** conserva `onomastico/hadad-rey-de-edom`. Las diferencias de traducción **Zera/Zohar** en Gn 46:10 y **Hadar/Hadad** en Gn 25:15 están documentadas; no se confunde Zera hijo de Simeón con Zera hijo de Reuel.
 
 ## 3. Lugares y pueblos detectados en el mismo tramo (para sus lotes P3)
 
@@ -56,10 +56,10 @@ Esta es la primera **revisión contextual** de las coincidencias del barrido gen
 
 ## 4. Propuestas para resolución editorial
 
-1. **Mantener** la ficha `onomastico/zimram` y **añadir «Zimrán» como variante BES** de búsqueda (solo tras aprobar la propuesta).
-2. **Crear posteriormente dos fichas separadas** para **Zohar (padre de Efrón)** y **Hadad (hijo de Ismael)**, sin alterar las fichas preexistentes de los homónimos. Identificadores provisionales indicados arriba.
+1. **APROBADO E IMPLEMENTADO:** conservar `onomastico/zimram` y registrar «Zimrán» como variante BES de búsqueda.
+2. **APROBADO E IMPLEMENTADO:** crear **Zohar (heteo)** y distinguirla de **Zohar (hijo de Simeón)**. Presentar **Hadad (hijo de Ismael)** mediante la ficha histórica de Hadar, sin duplicar la identidad; conservar **Hadad (rey de Edom)** en su ficha existente.
 3. Resolver por contexto los homónimos ya registrados: Súa de Cetura; Seba y Dedán de Jocsán; Hanoc hijo de Madián; Efa como persona; Mamre como lugar.
 4. Conservar Asurim, Letusim y Leumim **como fichas personales independientes**, conforme a la decisión editorial previa.
 5. Pasar topónimos y gentilicios a los lotes propios de **Lugares** y **Tribus**, sin fusionar identidades por semejanza de nombres.
 
-**No se ha creado ninguna ficha ni se ha modificado ningún enlace.** Los resultados del análisis automático de los 874 versículos siguen siendo candidatos; esta tabla es una primera propuesta contextualizada del Onomástico para revisión y aprobación.
+**Resultado:** tres registros existentes actualizados (Zimram, Zohar hijo de Simeón y Hadar/Hadad hijo de Ismael), una ficha nueva (Zohar heteo) y precisión en Hadad rey de Edom. El registro maestro contiene ahora **451 identificadores** y mantiene intactos los ID antiguos y sus genealogías. **Las 19 escenas BES y sus enlaces siguen sin publicarse.** Las otras identificaciones del lote requieren revisión independiente.
