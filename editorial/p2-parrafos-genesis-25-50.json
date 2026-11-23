@@ -2,7 +2,7 @@
   "libro": "Génesis",
   "edicion": "BES 2026",
   "fase": "P2",
-  "estado": "distribucion_editorial_de_parrafos_propuesta_para_revision_visual",
+  "estado": "revision_visual_aprobada_y_control_integral_P2_superado",
   "version": "2026-11-23",
   "criterios": [
     "Límites elegidos por unidad de narración, discurso, cambios de escena y enumeraciones; nunca cada N versículos",
@@ -612,5 +612,7 @@
         "50:15"
       ]
     }
-  ]
+  ],
+  "fecha_aprobacion_visual": "2026-11-23",
+  "auditoria": "editorial/p2-auditoria-final-2026-11-23.json"
 }
