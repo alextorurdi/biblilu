@@ -519,7 +519,7 @@ def append_cards(index, marker, cards):
     # Buscar su cierre REAL, no el primer </div> de una tarjeta pendiente.
     depth = 0
     end = None
-    for match in re.finditer(r"</?div\\b[^>]*>", index[begin:], flags=re.I):
+    for match in re.finditer(r"</?div\b[^>]*>", index[begin:], flags=re.I):
         if match.group(0).lower().startswith("</div"):
             depth -= 1
             if depth == 0:
