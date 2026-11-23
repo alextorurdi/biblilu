@@ -44,7 +44,7 @@
 
 ## P2 · Texto bíblico y formato
 
-1. Incorporar el texto RVR1960 desde las fuentes editoriales autorizadas y distribuirlo según las escenas aprobadas.
+1. Incorporar el texto de la **traducción aprobada para cada tramo** desde su fuente autorizada y distribuirlo según las escenas aprobadas. En la Etapa I de Génesis 25–50 se aplica **BES 2026**; las escenas existentes de Gn 1–24 conservan **RVR1960** hasta la migración posterior. Mantener ambas fuentes separadas y registrar licencia, procedencia y versión.
 2. Aplicar diálogos, guiones, cursivas, pensamientos, intervenciones divinas en rojo y convenciones establecidas.
 3. Conectar los índices de escenas y capítulos tradicionales, navegación anterior/siguiente y anclas de versículos.
 4. Preparar referencias a los apéndices mediante identificadores estables, conservando la redacción original.
