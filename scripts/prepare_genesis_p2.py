@@ -24,6 +24,7 @@ SOURCE = ROOT / "data/genesis_25_50_bes.json"
 FORMATTED_SOURCE = ROOT / "data/genesis_25_50_bes_formato.json"
 OLD_INDEX = ROOT / "editorial/approved-pages/genesis/index.html"
 PREVIEW = ROOT / "build/p2"
+PARAGRAPH_PLAN = ROOT / "editorial/p2-parrafos-genesis-25-50.json"
 LENGTHS = {
     25:34,26:35,27:46,28:22,29:35,30:43,31:55,32:32,33:20,
     34:31,35:29,36:43,37:36,38:30,39:23,40:23,41:57,42:38,
@@ -31,6 +32,44 @@ LENGTHS = {
 }
 KINDS = {"plain", "speech", "divine", "thought"}
 
+
+PROSE_CSS = """
+/* Únicamente en borradores P2; el sitio publicado conserva su CSS original. */
+.reader .verses .prose-paragraph {
+  display: block;
+  margin: 0 0 1.38em;
+  line-height: 1.86;
+  text-wrap: pretty;
+}
+.reader .verses .prose-paragraph.poetic-paragraph { margin-bottom: 1.28em; }
+.reader .verses .verse-inline {
+  display: inline;
+  scroll-margin-top: 4rem;
+  border-radius: .13em;
+}
+.reader .verses .verse-inline:target {
+  background: #e9eedf;
+  box-shadow: 0 0 0 3px #e9eedf;
+}
+.reader .verses .verse-inline .verse-num {
+  white-space: nowrap;
+  vertical-align: super;
+  font-size: 10px;
+  line-height: 0;
+  margin-left: .12em;
+  margin-right: .2em;
+  text-decoration: none;
+}
+.reader .verses .prose-paragraph .speech,
+.reader .verses .prose-paragraph .thought { font-style: italic; }
+@media(max-width:700px) {
+  .reader .verses .prose-paragraph { margin-bottom: 1.25em; }
+  .reader .verses .verse-inline { scroll-margin-top: 5rem; }
+}
+@media print {
+  .reader .verses .prose-paragraph { orphans: 2; widows: 2; }
+}
+"""
 
 def error(message):
     raise SystemExit("P2: " + message)
@@ -81,7 +120,78 @@ def structure():
     assert coverage == expected, "Hueco, solapamiento o cambio de orden en P1"
     assert sum(s["versiculos"] for s in scenes) == 874
     assert raw["versiculos_totales"] == 1533
+    validate_paragraph_plan(scenes, expected)
     return raw, scenes, expected, chapters
+
+
+def validate_paragraph_plan(scenes, expected):
+    """Validar cortes editoriales sin reconstruir ni reescribir el texto bíblico."""
+    if not PARAGRAPH_PLAN.is_file():
+        error("falta el plan editorial P2 de párrafos")
+    plan = json.loads(PARAGRAPH_PLAN.read_text(encoding="utf-8"))
+    if plan.get("edicion") != "BES 2026" or len(plan.get("escenas", [])) != 19:
+        error("plan de párrafos BES inválido")
+    by_number = {row["numero"]: row for row in plan["escenas"]}
+    if len(by_number) != 19:
+        error("escenas duplicadas en el plan de párrafos")
+    indices = {c + ":" + v: i for i, (c, v) in enumerate(
+        (str(c), str(v)) for c,v in expected
+    )}
+    total = 0
+    for scene in scenes:
+        number = scene["numero"]
+        if number not in by_number:
+            error("falta plan de párrafos para escena " + str(number))
+        row = by_number[number]
+        begin = fmt(scene["inicio"])
+        end = fmt(scene["fin"])
+        starts = row["limites_parrafo"]
+        required = row["limites_obligatorios_recursos"]
+        if not starts or starts[0] != begin or len(starts) != len(set(starts)):
+            error("inicios de párrafo duplicados o incorrectos en escena " + str(number))
+        if not set(required).issubset(set(starts)):
+            error("falta límite obligatorio de mapa, árbol o imagen: escena " + str(number))
+        keys = []
+        for start in starts:
+            if start not in indices:
+                error("inicio de párrafo no canónico: " + start)
+            keys.append(indices[start])
+        first, last = indices[begin], indices[end]
+        if keys != sorted(keys) or keys[0] != first or keys[-1] > last:
+            error("párrafos fuera del pasaje o desordenados: escena " + str(number))
+        lengths = [b-a for a,b in zip(keys, keys[1:] + [last + 1])]
+        if any(length < 1 or length > 12 for length in lengths):
+            error("párrafo vacío o excesivamente largo: escena " + str(number))
+        total += len(starts)
+    return by_number, total
+
+
+def prose_paragraphs(scene, verses, paragraph_plan):
+    """Un <p> real por unidad narrativa; ancla inline por cada versículo."""
+    start_refs = set(paragraph_plan[scene["numero"]]["limites_parrafo"])
+    chunks = []
+    group = []
+    for verse in verses:
+        r = str(verse["chapter"]) + ":" + str(verse["verse"])
+        if r in start_refs:
+            if group:
+                chunks.append(group)
+            group = []
+        if not group and r not in start_refs:
+            error("párrafo no delimitado en Gn " + r)
+        group.append(verse)
+    if group:
+        chunks.append(group)
+    if sum(len(g) for g in chunks) != len(verses):
+        error("el renderizado por párrafos ha omitido algún versículo")
+    def render(group):
+        first = group[0]
+        reference = str(first["chapter"]) + ":" + str(first["verse"])
+        poetic = scene["numero"] == 33 and first["chapter"] == 49 and 3 <= first["verse"] <= 27
+        css = "prose-paragraph poetic-paragraph" if poetic else "prose-paragraph"
+        return ('<p class="' + css + '" data-start="' + reference + '">' +
+                " ".join(verse_html(verse) for verse in group) + '</p>')
+    return "".join(render(group) for group in chunks)
 
 
 def check_source(expected):
@@ -195,10 +305,11 @@ def rendered_text(item):
 def verse_html(item):
     c, v = item["chapter"], item["verse"]
     anchor = "gn-" + str(c) + "-" + str(v)
-    return ('<p class="verse" id="' + anchor +
+    label = str(c) + ":" + str(v) if v == 1 else str(v)
+    return ('<span class="verse-inline" id="' + anchor +
             '"><a class="verse-num" href="#' + anchor +
             '" aria-label="Génesis ' + str(c) + ":" + str(v) + '">' +
-            str(c) + ":" + str(v) + "</a> " + rendered_text(item) + "</p>")
+            label + "</a> " + rendered_text(item) + "</span>")
 
 
 def make_scene_html(s, verses, scenes):
@@ -214,12 +325,14 @@ def make_scene_html(s, verses, scenes):
                        (' selected' if s2["numero"] == n else "") + '>' +
                        str(s2["numero"]) + " · " + esc(s2["titulo"]) +
                        "</option>" for s2 in scenes)
-    body = "".join(verse_html(item) for item in verses)
+    plan, _ = validate_paragraph_plan(scenes, all_refs())
+    body = prose_paragraphs(s, verses, plan)
     return ('''<!doctype html><html lang="es-ES"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <title>''' + esc(s["titulo"]) + ''' · Génesis · BIBLILU [BORRADOR P2]</title>
 <link rel="stylesheet" href="../../assets/style.css">
+<link rel="stylesheet" href="../../assets/p2-prose.css">
 <script src="../../assets/app.js" defer></script>
 </head><body data-base="../../" class="reader v05-scene">
 <a class="skip" href="#contenido">Saltar al contenido</a>
@@ -300,6 +413,7 @@ def build_draft(raw, scenes, expected, verses):
     (PREVIEW/"genesis"/"index.html").write_text(index_html(scenes, expected),encoding="utf-8")
     assets = PREVIEW/"assets"
     assets.mkdir()
+    (assets/"p2-prose.css").write_text(PROSE_CSS, encoding="utf-8")
     for name in ("style.css","app.js","favicon.svg"):
         src = ROOT/"docs"/"assets"/name
         if src.exists():
@@ -307,6 +421,7 @@ def build_draft(raw, scenes, expected, verses):
     validation = {
         "fase": "P2", "estado": "borrador_no_publicado", "escenas": len(scenes),
         "versiculos": len(verses),
+        "parrafos": sum(len(validate_paragraph_plan(scenes, expected)[0][s["numero"]]["limites_parrafo"]) for s in scenes),
         "traduccion": "BES 2026",
         "formato": "borrador_automatico_pendiente_revision",
         "con_formato_revisado": sum(1 for x in verses if x.get("revisado") is True),
