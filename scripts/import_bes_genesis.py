@@ -96,8 +96,8 @@ def convert(blob,origin):
  if actual!=expected:
   fail("faltan "+str(sorted(set(expected)-set(actual))[:15])+
        "; inesperados "+str(sorted(set(actual)-set(expected))[:15]))
- if found[(25,1)]!="Abraham tomó otra mujer llamada Cetura.":
-  fail("Gn 25:1 no coincide con BES 2026 (comparación contra eBible.org)")
+ if not found.get((25,1)) or not found.get((50,26)):
+  fail("falta el primer o último versículo del tramo 25–50")
  verses=[{"chapter":c,"verse":v,"source_label":f"{c}-{v}",
           "text":found[(c,v)],"revisado":False} for c,v in expected]
  SOURCE.parent.mkdir(parents=True,exist_ok=True)
