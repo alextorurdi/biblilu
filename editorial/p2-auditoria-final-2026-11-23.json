@@ -1,0 +1,168 @@
+{
+  "fase": "P2",
+  "fecha": "2026-11-23",
+  "modo": "integridad global y enlaces con cotejo USFM opcional",
+  "estado": "controles_automaticos_superados",
+  "edicion": "BES 2026",
+  "cobertura": {
+    "escenas_bes": 19,
+    "escenas_rvr_protegidas": 15,
+    "versiculos_bes": 874,
+    "capitulos_bes": 26,
+    "parrafos": 387,
+    "anclas_unicas": 874,
+    "rayas_de_dialogo": 299,
+    "pensamientos_aper": 6,
+    "discursos_divinos_aper": 14
+  },
+  "texto": {
+    "formato_reversible": true,
+    "fuente_completa": true,
+    "marcas_coinciden_con_generador": true,
+    "fuente_oficial": {
+      "fuente": "https://ebible.org/Scriptures/spabes_usfm.zip",
+      "sha256": "45c412d35fd1cbcf51ad4405ed0c3dea840cb7db39b157c0bbebd244fe51c578",
+      "archivo_genesis": "02-GENspabes.usfm",
+      "versiculos_comparados": 874,
+      "resultado": "identicos"
+    },
+    "marcado_individual_revisado": 0,
+    "observacion": "validación automática exhaustiva ≠ verificación humana de toda atribución"
+  },
+  "navegacion": {
+    "paginas_html": 39,
+    "enlaces_locales_verificados": 1217,
+    "enlaces_rotos": [],
+    "indice_escenas": 34,
+    "indice_tradicional": 50,
+    "puentes_rvr60": "15 informativos; no duplican escenas ni reemplazan la web publicada"
+  },
+  "apendices": {
+    "ids_existentes": 450,
+    "ids_unicos": 450,
+    "rutas_fichas_existentes": 450,
+    "menciones_bes": "por identificar en P3, sin inventar correspondencias"
+  },
+  "escenas": [
+    {
+      "numero": 16,
+      "ruta": "25",
+      "versiculos": 18,
+      "parrafos": 8
+    },
+    {
+      "numero": 17,
+      "ruta": "25-19",
+      "versiculos": 51,
+      "parrafos": 18
+    },
+    {
+      "numero": 18,
+      "ruta": "27",
+      "versiculos": 40,
+      "parrafos": 17
+    },
+    {
+      "numero": 19,
+      "ruta": "27-41",
+      "versiculos": 28,
+      "parrafos": 11
+    },
+    {
+      "numero": 20,
+      "ruta": "29",
+      "versiculos": 30,
+      "parrafos": 13
+    },
+    {
+      "numero": 21,
+      "ruta": "29-31",
+      "versiculos": 29,
+      "parrafos": 12
+    },
+    {
+      "numero": 22,
+      "ruta": "30-25",
+      "versiculos": 74,
+      "parrafos": 31
+    },
+    {
+      "numero": 23,
+      "ruta": "32",
+      "versiculos": 49,
+      "parrafos": 24
+    },
+    {
+      "numero": 24,
+      "ruta": "33-18",
+      "versiculos": 34,
+      "parrafos": 15
+    },
+    {
+      "numero": 25,
+      "ruta": "35",
+      "versiculos": 29,
+      "parrafos": 14
+    },
+    {
+      "numero": 26,
+      "ruta": "36",
+      "versiculos": 43,
+      "parrafos": 17
+    },
+    {
+      "numero": 27,
+      "ruta": "37",
+      "versiculos": 36,
+      "parrafos": 16
+    },
+    {
+      "numero": 28,
+      "ruta": "38",
+      "versiculos": 30,
+      "parrafos": 13
+    },
+    {
+      "numero": 29,
+      "ruta": "39",
+      "versiculos": 91,
+      "parrafos": 35
+    },
+    {
+      "numero": 30,
+      "ruta": "41-46",
+      "versiculos": 121,
+      "parrafos": 58
+    },
+    {
+      "numero": 31,
+      "ruta": "45-4",
+      "versiculos": 71,
+      "parrafos": 33
+    },
+    {
+      "numero": 32,
+      "ruta": "47-13",
+      "versiculos": 14,
+      "parrafos": 7
+    },
+    {
+      "numero": 33,
+      "ruta": "47-27",
+      "versiculos": 60,
+      "parrafos": 29
+    },
+    {
+      "numero": 34,
+      "ruta": "50",
+      "versiculos": 26,
+      "parrafos": 16
+    }
+  ],
+  "limites": [
+    "Pendiente P3: asignar entidades BES a IDs y enlazarlas.",
+    "Pendiente P6/P9: integración real de escenas con Gn 24 y apéndices.",
+    "Este informe no convierte 874 revisado=false en aprobación humana."
+  ],
+  "publicacion": "no_publicado"
+}
