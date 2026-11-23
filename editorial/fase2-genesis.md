@@ -1,68 +1,60 @@
-# Fase 2 · Génesis 25–50 — Texto, marcado e índices
+# Fase 2 · Génesis 25–50 — BES 2026, marcado e índices
 
-**Fecha de inicio:** 23/11/2026.  
-**Estado:** **EN CURSO — ESTRUCTURA PREPARADA, TRANSCRIPCIÓN PENDIENTE.**  
-**No publicado:** todas las páginas y datos públicos siguen limitados a Génesis 1–24.
+**Fecha de inicio:** 23/11/2026. **Actualización editorial:** 23/11/2026.  
+**Estado:** **EN CURSO — INFRAESTRUCTURA PREPARADA; IMPORTACIÓN BES Y REVISIÓN DEL TEXTO PENDIENTES.**  
+**Alcance invariable de Etapa I:** 19 escenas, Gn 25:1–50:26, traducción **La Biblia en Español Sencillo 2026 (BES)**. Las 15 escenas de Gn 1–24 **conservan RVR1960** hasta la segunda etapa, sin cambios de texto ni notas.
 
-Documentos rectores: [Protocolo P0–P9](protocolo-libros.md) · [Escenificación aprobada P1](fase1-genesis.md) · [Plan de distribución de recursos](plan-ubicacion-escenas-genesis-25-50.md).
+**Documentos rectores:** [Protocolo P0–P9](protocolo-libros.md) · [BES en dos etapas](plan-dos-etapas-bes-genesis.md) · [P1 aprobada](fase1-genesis.md) · [Distribución de recursos](plan-ubicacion-escenas-genesis-25-50.md).
 
-## Trabajo ejecutado en GitHub
+## Derechos y fuente oficial comprobados
 
-1. **Escenificación y rutas.** Se han fijado técnicamente las 19 rutas de lectura y sus anclas de versículo, comprobando la secuencia completa de **874 versículos** en los **26 capítulos** de Gn 25–50, sin cortes dobles ni vacíos. El total previsto de Génesis es de 34 escenas y 1.533 versículos. Archivo: [p2-rutas-genesis-25-50.json](p2-rutas-genesis-25-50.json).
-2. **Generador de trabajo.** [prepare_genesis_p2.py](../scripts/prepare_genesis_p2.py) valida el catálogo, controla las 874 referencias de la fuente y puede generar, **solo cuando el texto autorizado esté disponible**, 19 páginas de **previsualización no pública** con referencias canónicas y navegación.
-3. **Dos índices.** El generador prepara las entradas para el índice por escenas y el tradicional por capítulos 25–50, tomando como base el índice editorial protegido de Génesis 1–24; **no reescribe el índice público ni los 15 relatos aprobados**. Los capítulos divididos entre varias escenas tendrán aviso de continuidad.
-4. **Integridad de los versículos.** La fuente requiere un registro por versículo, con `chapter`, `verse`, `text` y opcionalmente `source_label`. Pueden añadirse `parts` para marcar discurso humano, pensamiento o palabras divinas; el validador comprueba que la concatenación de los segmentos sea **idéntica al texto literal**. No se añaden frases, se altera la ortografía ni se infieren intervenciones divinas automáticamente.
-5. **Prueba reproducible sin texto bíblico.** [test_genesis_p2.py](../scripts/test_genesis_p2.py) comprueba la estructura, la creación de borradores, 874 anclas, índice por escenas y tradicional y rechazo de marcas que cambian el texto usando 874 **cadenas sintéticas**. El test se ha incorporado al repositorio para su ejecución; **no se afirma su ejecución satisfactoria en el entorno GitHub**.
-6. **Esquema de importación:** [esquema-fuente-genesis-25-50.json](esquema-fuente-genesis-25-50.json), para no depender de una transcripción manual en la interfaz de GitHub.
+- **Edición:** *La Biblia en Español Sencillo 2026*, publicada en eBible, traducción y edición de **Irma Flores**, AudioBiblia.org, fecha de la fuente **30/10/2026**.
+- **Licencia declarada:** **dominio público**, según [página de derechos oficial de eBible](https://ebible.org/spabes/copyright.htm).
+- **Génesis por capítulos:** [https://ebible.org/spabes/GEN.htm](https://ebible.org/spabes/GEN.htm).
+- **Paquete USFM oficial:** [https://ebible.org/Scriptures/spabes_usfm.zip](https://ebible.org/Scriptures/spabes_usfm.zip); enlazado desde la [ficha de descargas](https://www.ebible.org/find/details.php?id=spabes).
+- La declaración de dominio público permite trabajar sobre esta versión según la información del distribuidor; conservar atribución y procedencia documental aun cuando no se imponga una licencia de atribución.
+- La traducción **no será homogeneizada con la RVR1960**: respetar literalmente los cambios de vocabulario y los nombres propios de la BES, anotando variantes y diferencias donde tengan repercusión editorial.
 
-## Fuente textual pendiente y derechos
+## Trabajo efectivamente registrado
 
-- **Fuente actual real:** `data/genesis.json` contiene solamente los **659 versículos de Gn 1–24**. No hay en el repositorio una fuente íntegra aprobada para Gn 25–50; no introducir 874 versículos inventados ni copiar una edición diferente.
-- **RVR1960 está sujeta a derechos.** La información de derechos de American Bible Society y de Sociedades Bíblicas Unidas indica condiciones para citas limitadas y necesidad de tramitar el uso excedente. Referencias: https://www.americanbible.org/rights-and-permissions/ y https://www.ubscopyrights.org/index.php/pages/view/rules. El texto completo propuesto para esta fase supera las condiciones generales de citas sin autorización. Registrar la fuente y verificar la autorización de reproducción antes de publicarlo.
-- El archivo **`data/genesis_25_50.json` todavía NO existe**. Se creará únicamente con texto que proporcione el editor desde una fuente adecuada y con situación de derechos verificada.
-- Una fuente aportada en DOCX, TXT o similar puede convertirse en el JSON requerido, preservando literalmente el texto y las 874 anclas, siempre que se establezca la procedencia y se revise cualquier diferencia con los capítulos publicados.
+1. **Catálogo P1:** [19 escenas aprobadas](catalogo-escenas-genesis-25-50.json), 874 versículos distribuidos sin solapamientos. Texto anterior de Gn 1–24: 659 versículos.
+2. **Rutas y anclas:** [p2-rutas-genesis-25-50.json](p2-rutas-genesis-25-50.json) describe las 19 rutas y el índice tradicional de los 26 capítulos, con enlaces `gn-<capítulo>-<versículo>`.
+3. **Validador y previsualizador:** [prepare_genesis_p2.py](../scripts/prepare_genesis_p2.py) exige datos con textos completos y admite marcar discursos/pensamientos/palabras divinas de modo reversible. Genera previsualizaciones en **`build/p2/`**, nunca en `docs/`.
+4. **Importador para BES 2026:** [import_bes_genesis.py](../scripts/import_bes_genesis.py) descarga o acepta el ZIP USFM de eBible; selecciona Génesis, extrae sus versos, comprueba la cobertura exacta de 874 y verifica un versículo testigo (25:1). Escribe **`data/genesis_25_50_bes.json`** y **`editorial/procedencia-bes-genesis-25-50.json`** con hash de la fuente. **El script está incorporado, todavía no consta una importación ejecutada del ZIP oficial.**
+5. **Prueba sintética:** [test_genesis_p2.py](../scripts/test_genesis_p2.py) prepara textos de prueba y comprueba las 874 anclas y que el marcado no cambie el texto; está incorporada pero su ejecución en el repositorio todavía no ha sido verificada.
+6. **Esquema de datos:** [esquema-fuente-genesis-25-50.json](esquema-fuente-genesis-25-50.json). El fichero BES debe mantenerse separado del `data/genesis.json` histórico de RVR60.
+7. **Cabeceras por traducción:** las 19 futuras escenas estarán identificadas **BES 2026**. Durante Etapa I, los índices tendrán una nota inequívoca del régimen mixto **1–15 RVR1960 / 16–34 BES 2026**, evitando anunciar todo Génesis como una única traducción.
 
-## Formato previsto
-
-El generador de **borradores** admite registros como este ejemplo **ficticio, no bíblico**:
-
-```json
-{
-  "chapter": 25,
-  "verse": 1,
-  "source_label": "25-1",
-  "text": "TEXTO AUTORIZADO DE EJEMPLO",
-  "parts": [
-    {"kind": "plain", "text": "TEXTO AUTORIZADO DE EJEMPLO"}
-  ],
-  "revisado": false
-}
-```
-
-Los segmentos `plain`, `speech`, `divine` y `thought` permiten preservar exactamente la cadena `text`. La marcación final requiere revisión editorial verso a verso; la propiedad `revisado` es solo un seguimiento editorial, **no** una autorización legal de reproducción.
-
-### Instrucciones reproducibles
+## Instrucciones de la importación
 
 ```bash
+# Paso I: importar desde el paquete USFM oficial BES 2026
+python scripts/import_bes_genesis.py --download
+
+# Alternativa: descargar primero el ZIP desde eBible
+python scripts/import_bes_genesis.py --zip /ruta/spabes_usfm.zip
+
+# Paso II: validar los datos y la estructura P1
 python scripts/prepare_genesis_p2.py --structure
-python scripts/test_genesis_p2.py
-# Cuando se haya incorporado data/genesis_25_50.json desde fuente autorizada:
 python scripts/prepare_genesis_p2.py --check-source
+python scripts/test_genesis_p2.py
+
+# Paso III: generar páginas e índices de borrador, NO publicables
 python scripts/prepare_genesis_p2.py --build-draft
 ```
 
-El resultado opcional se construye únicamente en **`build/p2/`**, fuera de la web pública. Las futuras páginas integradas en `docs/` y las fuentes protegidas en `editorial/approved-pages/` se establecerán después de validar fuente y marcado, y siguiendo las fases de aprobación, control y publicación.
+Los archivos resultantes de `build/p2/` son solo borradores de estructura y texto. La edición narrativa y tipográfica final —diálogos, cursivas, pensamientos, guiones y las palabras de Dios en rojo— requiere revisión textual según las decisiones de BIBLILU. Las herramientas automáticas **no deben adjudicar todas las palabras de «Dios» o «Señor» a un discurso divino**.
 
-## Pendientes reales para cerrar P2
+## Condiciones para cerrar P2
 
-- [x] 19 escenas aprobadas y anclas canónicas previstas.
-- [x] Rutas P2 y plan de los dos índices.
-- [x] Validador de cobertura y preservación literal preparado.
-- [x] Generación de borradores no públicos preparada.
-- [ ] Proporcionar / localizar la transcripción **RVR1960 autorizada** de Gn 25:1–50:26.
-- [ ] Incorporar y comprobar los 874 textos literales, sin omisiones, duplicados ni modificaciones.
-- [ ] Marcar intervenciones de Dios en rojo, intervenciones humanas y pensamientos conforme al estilo aprobado (revisión editorial).
-- [ ] Generar borradores y revisar los 19 relatos, índices y navegación.
-- [ ] Confirmar las condiciones de reproducción para la versión completa antes de hacerla pública.
+- [x] Pasaje, 19 escenas, títulos y distribución aprobados.
+- [x] Rutas y diseño de los dos índices definidos.
+- [x] BES 2026 localizada y licencia declarada como dominio público por el distribuidor.
+- [x] Importador, comprobador y generador de borradores preparados en el repositorio.
+- [ ] Importación real de los 874 versículos de BES 2026 y registro SHA-256 del ZIP.
+- [ ] Comprobación de integridad textual y de los 26 capítulos frente a la fuente oficial, más allá del primer versículo testigo.
+- [ ] Marcado y control de todas las intervenciones humanas y divinas, diálogo y pensamiento, con revisión editorial de la redacción BES.
+- [ ] Borradores de 19 escenas generados, revisados, índices y navegación probados.
+- [ ] Protección verificada de 15 escenas RVR1960 y correcta identificación de la edición mixta.
 
-**Estado de entrega:** estructura técnica P2 adelantada, NO P2 completada y NO publicación. No iniciar fases posteriores como si el nuevo texto ya estuviera integrado.
+**No iniciar como si P2 hubiera finalizado**, ni publicar automáticamente. P3–P9 se desarrollarán secuencialmente sobre las escenas BES, siguiendo los puntos de aprobación del protocolo.
