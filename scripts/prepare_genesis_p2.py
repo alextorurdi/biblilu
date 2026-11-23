@@ -515,9 +515,20 @@ def append_cards(index, marker, cards):
     begin = index.find('<div class="chapter-grid">', pos)
     if begin < 0:
         error("rejilla del índice no localizada: " + marker)
-    end = index.find("</div>", begin)
-    if end < 0:
-        error("cierre de índice no localizado")
+    # La rejilla tradicional contiene 26 <div class="pending"> anidados.
+    # Buscar su cierre REAL, no el primer </div> de una tarjeta pendiente.
+    depth = 0
+    end = None
+    for match in re.finditer(r"</?div\\b[^>]*>", index[begin:], flags=re.I):
+        if match.group(0).lower().startswith("</div"):
+            depth -= 1
+            if depth == 0:
+                end = begin + match.start()
+                break
+        else:
+            depth += 1
+    if end is None:
+        error("cierre del índice equilibrado no localizado")
     return index[:end] + cards + index[end:]
 
 
