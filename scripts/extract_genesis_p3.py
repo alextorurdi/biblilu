@@ -61,7 +61,7 @@ PROPOSED_TERMS = {
  ),
  "medidas": (
    "codo", "codos", "siclo", "siclos", "seá", "seas", "efa",
-   "efas", "quinta parte", "quinto", "monedas", "pesos"
+   "efas", "quinta parte", "monedas", "pesos"
  )
 }
 # Flexiones y sustituciones léxicas de alta confianza: solo sugerencias de ficha.
@@ -89,23 +89,23 @@ INFLECTIONS = {
 STOPWORDS = set("""
 A Acaso Acércate Acabo Acuéstate Ahora Al Algo Algunas Algunos Allí Así Aunque
 Además Antes Apenas Aquellos Aquí Aquel Aquella Aquelos Ay
-Bien Cada Casi Cerca Ciertamente Como Con Conocen Cuando Cuanto Cualquiera Cuál
-Dame Dan Den Dentro Desde Después Durante
+Bien Bendíceme Cada Casi Cerca Ciertamente Como Con Conocen Cuando Cuanto Cualquiera Cuál
+Dame Dan De Del Den Dentro Desde Después Durante Dije Dijo Dime Dio Digan Dos
 El Él Ella Ellas Ellos En Entonces Entre Entró Era Eran Es Esa Ese Esas Esos
 Escuchen Estoy Este Esta Esto Estos Estas
 Finalmente Fue Fueron
-Ha Había Habían Han Haré Has Hasta Haz He Hemos Hoy Hubo Huyó
+Ha Había Habían Han Haré Has Hasta Haz He Hemos Hoy Hubo Huyó Hijo Hijos Hijas
 Iré
-La Las Le Les Levantémonos Lo Los Luego
+La Las Le Les Levantémonos Lo Los Luego Llegó
 Maldito Me Mi Mira Miren Mis Más Mientras Murió
 Nada Nadie Ni No Nos Nosotros Nuestra Nuestro Nunca
 O Otra Otras Otro Otros
-Para Pero Pensaba Porque Por Primero Pronto Preguntó Puso Puedes Pues
+Padre Para Pero Pensaba Porque Por Pon Ponlo Primero Pronto Preguntó Puso Puedes Pues
 Qué Que Quién Quiénes Quédate
 Respondieron Reúnanse
 Se Según Sería Si Sí Siendo Siéntate Sin Solo Son Somos Soy Su Sus
-Te Ten Tenía Tengo Termina Toda Todas Todavía Todo Todos Toma Tomó
-Traigan Traiganme Tráeme Tráiganlo Tomen Tu Tus Tuve
+Te Ten Tenía Tengo Termina Tienen Toda Todas Todavía Todo Todos Toma Tomó Tuvo
+Traigan Traiganme Tráeme Tráiganlo Tomen Tu Tus Tuve Únete
 Un Una Uno Unas Unos Ustedes
 Vayan Ve Veo Verdad Verdaderamente Vi Vida Vio Vive Vivirás Vivan Volveré
 Volvió Vamos Vete Vuelve Vuelvan
@@ -154,13 +154,14 @@ def main():
     assert len(byid)==450
 
     lexicon=defaultdict(list)
+    stopwords_normalized={norm(word) for word in STOPWORDS}
     for e in registered:
         # Los calificadores de paréntesis son pistas desambiguadoras,
         # pero la forma literal antes del paréntesis sí se puede buscar.
         candidate=re.sub(r"\s+\([^)]*\)$","",e["nombre"]).strip()
         if len(candidate)<3:continue
         lexicon[norm(candidate)].append({
-            "id":e["id"],"category":e["categoria"],
+            "id":e["id"],"category":e["categoria"],"forma_diccionario":candidate,
             "ruta":e["ruta"],"tipo":"nombre_registrado",
             "remision":e["es_remision"],"principal":e["ficha_principal"]
         })
@@ -170,14 +171,14 @@ def main():
         e=byid[id]
         for word in words:
             lexicon[norm(word)].append({
-                "id":id,"category":e["categoria"],"ruta":e["ruta"],
+                "id":id,"category":e["categoria"],"ruta":e["ruta"],"forma_diccionario":word,
                 "tipo":"flexion_sugerida","remision":e["es_remision"],
                 "principal":e["ficha_principal"]
             })
     for category,terms in PROPOSED_TERMS.items():
         for term in terms:
             lexicon[norm(term)].append({
-                "id":None,"category":category,"ruta":None,
+                "id":None,"category":category,"ruta":None,"forma_diccionario":term,
                 "tipo":"clase_propuesta_por_contexto",
                 "remision":False,"principal":None
             })
@@ -203,8 +204,18 @@ def main():
             # Los nombres de personas y lugares se reconocen en su grafía
             # propia; los sustantivos de materiales y animales sí minúsculos.
             valid=[
-                e for e in candidates if e["category"] not in ("onomastico","lugares")
-                or label[0].isupper()
+                e for e in candidates
+                if (
+                    (e["category"] not in ("onomastico","lugares")
+                     or label[0].isupper())
+                    # No confundir "oró" con "oro" ni "sea" con "seá".
+                    and (e["category"] not in ("materiales","medidas")
+                         or unicodedata.normalize("NFC", e["forma_diccionario"]).casefold()
+                         == unicodedata.normalize("NFC", label).casefold())
+                    # Efa en Gn 25:4 es nombre propio; no una medida.
+                    and not (e["category"]=="medidas" and
+                             norm(label)=="efa" and label[0].isupper())
+                )
             ]
             if not valid:continue
             unique={}
@@ -245,7 +256,7 @@ def main():
         covered=[(x["start"],x["end"]) for x in kept]
         for m in CAPITAL_TOKEN.finditer(passage):
             term=m.group(0)
-            if norm(term) in {norm(x) for x in STOPWORDS}:continue
+            if norm(term) in stopwords_normalized or norm(term) in {"dios","senor","jehova"}:continue
             if any(a<=m.start()<b for a,b in covered):continue
             # Nombres no catalogados y términos nuevos: señales, NO fichas.
             # Los tokens iniciales habituales se filtran después de contar,
