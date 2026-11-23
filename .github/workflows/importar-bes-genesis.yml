@@ -5,8 +5,6 @@ on:
     paths:
       - '.github/workflows/importar-bes-genesis.yml'
       - 'scripts/import_bes_genesis.py'
-      - 'scripts/prepare_genesis_p2.py'
-      - 'scripts/test_genesis_p2.py'
   workflow_dispatch:
 permissions:
   contents: write
