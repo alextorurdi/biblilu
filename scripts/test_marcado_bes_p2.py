@@ -41,6 +41,19 @@ assert any(k=="divine" and "Te haré fecundo" in s for k,s in kinds(48,4))
 assert any(k=="thought" and "Si Esaú ataca" in s for k,s in kinds(32,8))
 assert all(k!="divine" for k,s in kinds(32,28))
 assert all(k=="plain" for k,s in kinds(36,5))
+# Aprobación editorial: Gn 31:11-13 y 32:26-29 en cursiva, SIN voz divina.
+assert all(kind!="divine" for verse in range(11,14) for kind,part in kinds(31,verse))
+assert all(kind!="divine" for verse in range(26,30) for kind,part in kinds(32,verse))
+# Los nombres propios de Dios tienen color propio, pero "Señor" (43:20)
+# es una fórmula de respeto a un funcionario egipcio.
+assert '<span class="divine">Dios</span>' in p2.rendered_text(by_ref[(32,28)])
+assert '<span class="divine">Señor</span>' in p2.rendered_text(by_ref[(25,21)])
+assert '<span class="divine">Señor</span>' not in p2.rendered_text(by_ref[(43,20)])
+assert '<span class="divine">señor</span>' not in p2.rendered_text(by_ref[(44,18)])
+assert '<span class="divine">dioses</span>' not in p2.rendered_text(by_ref[(35,2)])
+assert sum(1 for v in src for m in re.finditer(r"\b(?:Dios|Señor)\b",v["text"])
+           if (v["chapter"],v["verse"],m.group(0)) not in p2.NON_DIVINE_NAME_REFS) == 137
+
 
 def flatten_html(fragment):
     stripped=re.sub(r"<[^>]*>","",fragment)
