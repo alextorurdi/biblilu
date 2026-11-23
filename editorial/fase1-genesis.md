@@ -1,14 +1,14 @@
 # Fase 1 · Génesis 25–50 — Propuesta de escenificación y acuerdos
 
 **Fecha de revisión:** 23 de noviembre de 2026.  
-**Estado:** P1 en revisión. El editor **no ha aprobado aún la estructura completa** ni resuelto la posible subdivisión de «Hambre». Ninguna escena nueva se ha implementado o publicado.
+**Estado:** P1 en revisión. **Decisión estructural aprobada el 23/11/2026:** mantener «Hambre» como una sola escena larga (Gn 41:46–45:3, 121 versículos), sin dividirla. Ninguna escena nueva se ha implementado ni publicado.
 
 Documento rector: [Protocolo editorial P0–P9](protocolo-libros.md).  
 Base de trabajo: [Fase 0 de Génesis](fase0-genesis.md).
 
 ## Propuesta editorial del usuario, con los títulos más recientes
 
-Se conservan todos los límites originales hasta que el editor apruebe cualquier modificación.
+Se conservan **todos los límites originales propuestos por el editor**, incluida la extensión de «Hambre» confirmada el 23/11/2026. Se mantiene la numeración provisional 16–34.
 
 | Escena futura (provisional) | Versículos | Título actual | Estado del título |
 |---:|---|---|---|
@@ -26,22 +26,19 @@ Se conservan todos los límites originales hasta que el editor apruebe cualquier
 | 27 | Gn 37:1–37:36 | Venta | Propuesto inicialmente |
 | 28 | Gn 38:1–38:30 | Judá | Propuesto inicialmente |
 | 29 | Gn 39:1–41:45 | Sueños | Propuesto inicialmente |
-| 30 | Gn 41:46–45:3 | Hambre | Propuesto inicialmente; **división en dos escenas aún por decidir** |
+| 30 | Gn 41:46–45:3 | **Hambre** | **Confirmado el 23/11/2026:** una sola escena de 121 versículos |
 | 31 | Gn 45:4–47:12 | **Reencuentro** | **Aprobado por el editor el 23/11/2026**; sustituye «Tribus» |
 | 32 | Gn 47:13–47:26 | **Quinto** | **Elegido por el editor el 23/11/2026**; sustituye «Egipto» |
 | 33 | Gn 47:27–49:33 | **Testamento** | **Aprobado por el editor el 23/11/2026**; sustituye «Profecía» |
 | 34 | Gn 50:1–50:26 | Coda | Propuesto inicialmente |
 
-**Los números 16–34 son provisionales.** Si el editor acepta una nueva escena dentro de «Hambre», las posteriores se desplazarán una posición y Génesis terminará con 35 escenas.
+**Los números 16–34 se mantienen provisionales hasta el cierre formal de P1.** La escenificación elegida consta de **19 escenas nuevas**, para un total de **34 escenas** en todo Génesis.
 
-## Cuestión estructural pendiente
+## Decisión estructural sobre «Hambre» — RESUELTA
 
-Dividir **«Hambre»** (Gn 41:46–45:3; 121 versículos), propuesta del asistente que **todavía no ha sido aprobada**:
+El editor confirmó el **23 de noviembre de 2026** que «Hambre» (Gn 41:46–45:3) permanece como **una única escena de 121 versículos**, aunque sea más extensa que «Diluvio» (97 versículos). No crear «Prueba» ni dividir en Gn 43:14/15.
 
-- **Hambre**: Gn 41:46–43:14 (64 versículos), del gobierno de José durante la abundancia y la escasez hasta el consentimiento de Jacob para enviar a Benjamín.
-- **Prueba**: Gn 43:15–45:3 (57 versículos), segunda visita, prueba de los hermanos, intervención de Judá y revelación de José.
-
-Alternativa válida: mantener el bloque unido y el título «Hambre».
+La referencia al posible corte 41:46–43:14 / 43:15–45:3 queda conservada como propuesta **descartada**, exclusivamente a efectos históricos.
 
 ## Valoración del título «Horror»
 
@@ -51,6 +48,6 @@ Alternativa válida: mantener el bloque unido y el título «Hambre».
 
 - No cambiar los versículos iniciales y finales sin aprobación explícita.
 - Registrar los acuerdos de títulos de forma independiente de la aprobación final de la escenificación.
-- La próxima tarea es resolver el bloque de «Hambre» y cerrar «Horror» si el editor desea confirmarlo.
+- El bloque de «Hambre» **ya está resuelto y aprobado sin subdivisión**; completar las previsiones de recursos de P1 y cerrar la estructura general al confirmar el editor las restantes decisiones.
 - Una vez aprobadas todas las escenas, fijar numeración, añadir un catálogo estructurado de P1 y comenzar P2.
 - No tocar todavía las quince escenas anteriores, sus notas, fichas o páginas publicadas.
