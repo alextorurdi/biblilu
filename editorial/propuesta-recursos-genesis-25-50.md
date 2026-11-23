@@ -133,3 +133,12 @@ Referencias: [Protocolo P0–P9](protocolo-libros.md) y [estado de la escenifica
 ## Revisión editorial pendiente
 
 El editor puede aprobar por escena o por componente (imágenes / mapas / árboles / artículos). Tras esas decisiones se cerrará P1; P5/P6 detallarán encuadres, posición y dispositivos. Ninguna entrada de este documento representa una decisión ya aprobada salvo el pasaje y carácter indiviso de «Hambre».
+
+## Actualización editorial: respuesta del editor y correcciones
+
+**Esta propuesta inicial no es la versión más reciente de las ubicaciones y elecciones de recursos.** Para implementar, leer primero los documentos que recogen la contrapropuesta del editor y los cambios aprobados el 23/11/2026:
+
+- [Acuerdos y rectificaciones aprobadas](acuerdos-distribucion-genesis-25-50.md).
+- [Plan de ubicación por escena, escritorio y móvil](plan-ubicacion-escenas-genesis-25-50.md).
+
+No reincorporar ilustraciones ni artículos que el editor haya tachado. El tratamiento de «Hambre» queda específicamente aprobado como escena única con cinco ilustraciones, un árbol y un mapa.
