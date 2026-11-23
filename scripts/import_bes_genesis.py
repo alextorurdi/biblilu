@@ -41,6 +41,9 @@ def fail(reason):
 def clean(text):
  text=NOTES.sub("",text)
  text=re.sub(r"\\(?:fig|jmp)\b.*?\\(?:fig|jmp)\*","",text,flags=re.S)
+ # La separación entre \w y su palabra es sintaxis USFM, no espacio editorial.
+ # P. ej. «\w Dos ... \w* corresponde a «Dos, sin blanco extra.
+ text=re.sub(r'\\\+?w[ \t]+',"",text)
  text=MARKERS.sub("",text)
  # El USFM conserva atributos léxicos como |strong="H3947" después de quitar \\w.
  # Son metadatos, no palabras del versículo.
@@ -104,6 +107,13 @@ def convert(blob,origin):
   fail("Gn 25:1 no coincide con la lectura BES 2026 publicada por eBible")
  if found.get((50,26)) != "José murió a los ciento diez años. Prepararon su cuerpo con especias y lo pusieron en un ataúd en Egipto.":
   fail("Gn 50:26 no coincide con la lectura BES 2026 publicada por eBible")
+ if found.get((25,23)) != "El Señor le dijo: «Dos naciones están en tu vientre, y de ti saldrán dos pueblos. Uno será más fuerte que el otro, y el mayor servirá al menor».":
+  fail("Gn 25:23 contiene separadores USFM o diferencias con eBible")
+ if found.get((45,3)) != "José dijo a sus hermanos: «Yo soy José. ¿Vive todavía mi padre?». Pero sus hermanos no pudieron responder, porque estaban aterrados delante de él.":
+  fail("Gn 45:3 contiene separadores USFM o diferencias con eBible")
+ for k,v in found.items():
+  if k[0] in LENGTHS and re.search(r'[«¿¡]\\s',v):
+   fail("espacio de sintaxis USFM detrás de puntuación en "+str(k))
  for k,v in found.items():
   if k[0] in LENGTHS and ("|strong=" in v or re.search(r'\\[A-Za-z]+',v)):
    fail("restos de marcado USFM en "+str(k))
