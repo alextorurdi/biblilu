@@ -3,6 +3,7 @@
 
   python scripts/prepare_genesis_p2.py --structure
   python scripts/prepare_genesis_p2.py --check-source
+  python scripts/prepare_genesis_p2.py --check-format
   python scripts/prepare_genesis_p2.py --build-draft
 
 No descarga la fuente BES 2026 (lo hace import_bes_genesis.py). Exige
@@ -20,6 +21,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "editorial/catalogo-escenas-genesis-25-50.json"
 SOURCE = ROOT / "data/genesis_25_50_bes.json"
+FORMATTED_SOURCE = ROOT / "data/genesis_25_50_bes_formato.json"
 OLD_INDEX = ROOT / "editorial/approved-pages/genesis/index.html"
 PREVIEW = ROOT / "build/p2"
 LENGTHS = {
@@ -116,6 +118,30 @@ def check_source(expected):
         if "revisado" in item and type(item["revisado"]) is not bool:
             error("revisado debe ser booleano en " + str(c) + ":" + str(v))
     return verses
+
+
+def check_format(expected, original):
+    if not FORMATTED_SOURCE.is_file():
+        error("falta el marcado BES: ejecutar scripts/marcar_dialogos_bes_p2.py")
+    marked = json.loads(FORMATTED_SOURCE.read_text(encoding="utf-8"))
+    if len(marked) != len(original):
+        error("el marcado debe contener exactamente 874 versículos")
+    for i, (m, o) in enumerate(zip(marked, original)):
+        if (m.get("chapter"), m.get("verse")) != (o["chapter"], o["verse"]):
+            error("marcado fuera de orden en la posición " + str(i))
+        if m.get("text") != o["text"]:
+            error("marcado altera texto BES en Génesis " + str(o["chapter"]) +
+                  ":" + str(o["verse"]))
+        parts = m.get("parts")
+        if not isinstance(parts, list) or not parts:
+            error("versículo sin partes formateadas: " + str((m["chapter"], m["verse"])))
+        if any(p.get("kind") not in KINDS for p in parts):
+            error("tipo de marcado no reconocido en " + str((m["chapter"], m["verse"])))
+        if "".join(p["text"] for p in parts) != o["text"]:
+            error("marcado no reversible en " + str((m["chapter"], m["verse"])))
+        if m.get("revisado") is not False:
+            error("el marcado automático no puede declararse revisado")
+    return marked
 
 
 def esc(value):
@@ -254,6 +280,8 @@ def build_draft(raw, scenes, expected, verses):
     validation = {
         "fase": "P2", "estado": "borrador_no_publicado", "escenas": len(scenes),
         "versiculos": len(verses),
+        "traduccion": "BES 2026",
+        "formato": "borrador_automatico_pendiente_revision",
         "con_formato_revisado": sum(1 for x in verses if x.get("revisado") is True),
         "sin_formato_revisado": sum(1 for x in verses if x.get("revisado") is not True),
         "advertencia": "No usar estas páginas como fuentes aprobadas ni publicar automáticamente."
@@ -265,8 +293,8 @@ def build_draft(raw, scenes, expected, verses):
 
 def main():
     mode = sys.argv[1] if len(sys.argv) == 2 else "--help"
-    if mode not in ("--structure","--check-source","--build-draft"):
-        error("uso: --structure | --check-source | --build-draft")
+    if mode not in ("--structure","--check-source","--check-format","--build-draft"):
+        error("uso: --structure | --check-source | --check-format | --build-draft")
     raw, scenes, expected, _ = structure()
     if mode == "--structure":
         print("P1 válido:",len(scenes),"escenas,",len(expected),
@@ -279,7 +307,12 @@ def main():
     if mode == "--check-source":
         print("Fuente íntegra:",len(verses),"versículos; textos y marcas consistentes.")
         return
-    build_draft(raw, scenes, expected, verses)
+    marked = check_format(expected, verses)
+    if mode == "--check-format":
+        print("Formato reversible validado:",len(marked),
+              "versículos; texto BES intacto; todo pendiente de aprobación editorial.")
+        return
+    build_draft(raw, scenes, expected, marked)
 
 
 if __name__ == "__main__":
