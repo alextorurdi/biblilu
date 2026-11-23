@@ -70,7 +70,7 @@ PROSE_CSS = """
 }
 .reader .verses .p2-quote-omitted { display: none; }
 .reader .verses .prose-paragraph em.speech { color: inherit; }
-.reader .verses .prose-paragraph em.speech .divine { color: var(--red, #a62b28); }
+/* El color de .divine y el control de ocultar colores los aporta style.css. */
 .reader .verses .prose-paragraph em.thought { color: inherit; }
 @media(max-width:700px) {
   .reader .verses .prose-paragraph { margin-bottom: 1.25em; }
@@ -307,7 +307,7 @@ def display_piece(text, chapter, verse, kind):
         if buffer:
             chunks.append(name_highlights(
                 "".join(buffer), chapter, verse, inside_divine=kind == "divine"
-            ).replace("\\n", " "))
+            ).replace("\n", " "))
             buffer.clear()
 
     for char in text:
