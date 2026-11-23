@@ -6,6 +6,7 @@ on:
       - '.github/workflows/preparar-p2-bes.yml'
       - 'scripts/marcar_dialogos_bes_p2.py'
       - 'scripts/test_marcado_bes_p2.py'
+      - 'scripts/prepare_genesis_p2.py'
       - 'data/genesis_25_50_bes.json'
   workflow_dispatch:
 permissions:
