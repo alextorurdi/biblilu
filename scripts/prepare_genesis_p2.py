@@ -62,6 +62,16 @@ PROSE_CSS = """
 }
 .reader .verses .prose-paragraph .speech,
 .reader .verses .prose-paragraph .thought { font-style: italic; }
+/* Raya editorial de diálogo; aparece SOLO al comenzar un parlamento, no por versículo. */
+.reader .verses .p2-spoken-dash {
+  font-style: normal;
+  white-space: nowrap;
+  letter-spacing: 0;
+}
+.reader .verses .p2-quote-omitted { display: none; }
+.reader .verses .prose-paragraph em.speech { color: inherit; }
+.reader .verses .prose-paragraph em.speech .divine { color: var(--red, #a62b28); }
+.reader .verses .prose-paragraph em.thought { color: inherit; }
 @media(max-width:700px) {
   .reader .verses .prose-paragraph { margin-bottom: 1.25em; }
   .reader .verses .verse-inline { scroll-margin-top: 5rem; }
@@ -283,14 +293,47 @@ def name_highlights(text, chapter, verse, inside_divine=False):
     return "".join(result)
 
 
+# La BES original se mantiene INALTERADA en data/*.json.
+# En la visualización se sustituyen solo las comillas EXTERNAS « »:
+# - discurso oral humano / divino: apertura « -> raya — ; cierre » -> nada
+# - pensamiento / frase hipotética: apertura y cierre quedan ocultos, SIN raya
+# Las comillas interiores “ ” y ‘ ’ se conservan como citas dentro del parlamento.
+# Cada sustitución expone data-source-char para hacer reversible el HTML.
+def display_piece(text, chapter, verse, kind):
+    chunks = []
+    buffer = []
+
+    def flush():
+        if buffer:
+            chunks.append(name_highlights(
+                "".join(buffer), chapter, verse, inside_divine=kind == "divine"
+            ).replace("\\n", " "))
+            buffer.clear()
+
+    for char in text:
+        if char in "«»" and kind in ("speech", "divine", "thought"):
+            flush()
+            if char == "«" and kind != "thought":
+                chunks.append('<span class="p2-spoken-dash" data-source-char="«">— </span>')
+            else:
+                chunks.append('<span class="p2-quote-omitted" data-source-char="' +
+                              char + '"></span>')
+        else:
+            buffer.append(char)
+    flush()
+    return "".join(chunks)
+
+
 def rendered_text(item):
+    """Formato editorial visible, con cita original restaurable sin pérdida."""
     parts = item.get("parts") or [{"kind": "plain", "text": item["text"]}]
+    if "".join(p["text"] for p in parts) != item["text"]:
+        error("el formato altera la fuente BES en " +
+              str(item["chapter"]) + ":" + str(item["verse"]))
     out = []
     for p in parts:
         kind = p["kind"]
-        value = name_highlights(
-            p["text"], item["chapter"], item["verse"], inside_divine=kind == "divine"
-        ).replace("\n", " ")
+        value = display_piece(p["text"], item["chapter"], item["verse"], kind)
         if kind == "divine":
             out.append('<em class="speech"><span class="divine">' + value + "</span></em>")
         elif kind == "speech":
