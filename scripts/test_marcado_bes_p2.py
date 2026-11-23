@@ -95,7 +95,12 @@ for a,b in zip(src,marked):
     thought_count += sum(1 for p in b["parts"] if p["kind"]=="thought" and "«" in p["text"])
     assert f'id="gn-{a["chapter"]}-{a["verse"]}"' in p2.verse_html(b)
 
-assert speaker_count == opens["speech"] + opens["divine"], (speaker_count, opens)
+expected_speaker_dashes = sum(
+    p["text"].count("«") for verse in marked for p in verse["parts"]
+    if p["kind"] in ("speech","divine")
+)
+assert speaker_count == expected_speaker_dashes, (speaker_count,expected_speaker_dashes)
+assert speaker_count > 250
 assert thought_count == opens["thought"]
 assert p2.rendered_text(by_ref[(26,9)]).count('class="p2-spoken-dash"') == 2
 assert p2.rendered_text(by_ref[(46,2)]).count('class="p2-spoken-dash"') == 2
