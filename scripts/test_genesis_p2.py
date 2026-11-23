@@ -40,14 +40,23 @@ with TemporaryDirectory(prefix="biblilu-p2-test-") as directory:
     scene_paths = [p2.PREVIEW / "genesis" / s["ruta_p2"] / "index.html"
                    for s in scenes]
     assert all(path.is_file() for path in scene_paths)
-    assert sum(path.read_text(encoding="utf-8").count('<p class="verse" ')
+    assert sum(path.read_text(encoding="utf-8").count('<span class="verse-inline" id="gn-')
                for path in scene_paths) == 874
+    assert sum(path.read_text(encoding="utf-8").count('<p class="prose-paragraph')
+               for path in scene_paths) == 387
     first = scene_paths[0].read_text(encoding="utf-8")
     assert 'id="gn-25-1"' in first
+    assert 'data-start="25:1"' in first
+    assert 'data-start="25:5"' in first
+    assert 'id="gn-25-4"' in first
+    assert 'class="verse-inline"' in first
+    assert '<p class="verse"' not in first
+    assert (p2.PREVIEW / "assets/p2-prose.css").is_file()
     assert 'Biblia en Español Sencillo 2026 (BES)' in first
     assert '<span class="divine">25:1</span>' in first
     last = scene_paths[-1].read_text(encoding="utf-8")
     assert 'id="gn-50-26"' in last
+    assert '<p class="prose-paragraph' in last
     book_index = (p2.PREVIEW / "genesis/index.html").read_text(encoding="utf-8")
     assert 'href="25/index.html#gn-25-1"' in book_index
     assert 'href="50/index.html#gn-50-1"' in book_index
