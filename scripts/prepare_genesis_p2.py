@@ -159,7 +159,7 @@ def make_scene_html(s, verses, scenes):
                        str(s2["numero"]) + " · " + esc(s2["titulo"]) +
                        "</option>" for s2 in scenes)
     body = "".join(verse_html(item) for item in verses)
-    return '''<!doctype html><html lang="es-ES"><head>
+    return ('''<!doctype html><html lang="es-ES"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <title>''' + esc(s["titulo"]) + ''' · Génesis · BIBLILU [BORRADOR P2]</title>
@@ -181,7 +181,7 @@ def make_scene_html(s, verses, scenes):
 </main><nav class="chapter-nav"><a href="''' + prev + '">← ' + esc(previous_title) +
             '</a><a href="' + nxt + '">' + esc(next_title) +
             ''' →</a></nav><footer><a class="brand" href="../../index.html">BIBLILU</a>
-<p>Borrador editorial. No publicado.</p></footer></body></html>'''
+<p>Borrador editorial. No publicado.</p></footer></body></html>''')
 
 
 def append_cards(index, marker, cards):
