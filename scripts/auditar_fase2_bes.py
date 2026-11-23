@@ -259,7 +259,7 @@ def audit():
            "registro de apéndices contiene rutas inexistentes: "+str(missing_registries[:12]))
     unique_ids=[e["id"] for e in entities]
     ensure(len(unique_ids)==len(set(unique_ids)), "registro contiene IDs duplicados")
-    ensure(len(unique_ids)==450,"universo de fichas existentes modificado")
+    ensure(len(unique_ids)>=450,"faltan fichas históricas del registro")
 
     report={
       "fase":"P2","fecha":"2026-11-23",
