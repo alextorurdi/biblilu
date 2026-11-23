@@ -336,10 +336,11 @@ def same_speaker_positions(item):
     """
     result = set()
     text = item["text"]
-    previous_close = -1
     for number, match in enumerate(re.finditer("«", text), 1):
         position = match.start()
         ref = (item["chapter"], item["verse"], number)
+        # Buscar el cierre anterior ANTES de clasificar esta apertura.
+        previous_close = text.rfind("»", 0, position)
         interlude = text[previous_close + 1:position] if previous_close >= 0 else ""
         if ref in SAME_SPEAKER_CONTINUATIONS or (
             previous_close >= 0 and re.fullmatch(
@@ -348,10 +349,6 @@ def same_speaker_positions(item):
             )
         ):
             result.add(position)
-        # Este cierre debe ser el último » anterior a la apertura actual,
-        # incluso si la anterior cita no se cerró dentro del mismo versículo.
-        # Buscar directamente en el prefijo evita confundir comillas interiores.
-        previous_close = text.rfind("»", 0, position)
     return result
 
 
