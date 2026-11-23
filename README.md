@@ -1,6 +1,7 @@
 # BIBLILU
 
 > **Protocolo editorial aprobado para libros completos:** [10 fases P0–P9](editorial/protocolo-libros.md). Es el procedimiento permanente para preparar, revisar, implementar y publicar cada libro. Antes de continuar en un nuevo chat, leer el protocolo y el [estado de Génesis](editorial/fase0-genesis.md).
+> **Decisión editorial vigente (23/11/2026):** [BES 2026 en dos etapas](editorial/plan-dos-etapas-bes-genesis.md). **Etapa I:** escenas 16–34 de Gn 25–50 con BES 2026 (fases P2–P9); **Etapa II:** conversión posterior, todavía no autorizada, de las escenas 1–15. La web pública existente conserva por ahora RVR1960.
 ## Entrega v0.11 · Familia (Génesis 24)
 
 La escena 15 «Familia» ofrece los 67 versículos de Génesis 24, con nueve notas editoriales nuevas (145–153) y el texto original del manuscrito. Se mantuvo el diálogo del criado y la repetición de los sucesos ante los familiares de Rebeca. Los nombres divinos se marcan en rojo; los interlocutores, diálogos y pensamientos se distinguen mediante cursivas y guiones.
