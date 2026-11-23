@@ -7,9 +7,11 @@
   "identificadores_historicos": 450,
   "menciones_candidatas": 1656,
   "por_estado": {
-    "ficha_existente_por_verificar": 1261,
-    "termino_sin_ficha_por_evaluar": 234,
+    "ficha_existente_por_verificar": 1259,
+    "variante_ortografica_por_aprobar": 1,
     "ambiguo_desambiguar": 93,
+    "colision_de_identidad_por_revisar": 2,
+    "termino_sin_ficha_por_evaluar": 233,
     "flexion_por_comprobar": 68
   },
   "por_categoria": {
@@ -18,7 +20,7 @@
       "versiculos_con_candidatos": 598,
       "fichas_existentes_sugeridas": 180,
       "pendientes_ambiguos": 92,
-      "sin_ficha_por_evaluar": 30,
+      "sin_ficha_por_evaluar": 29,
       "ejemplos": [
         {
           "literal": "Abraham",
@@ -39,8 +41,10 @@
         {
           "literal": "Zimrán",
           "ref": "Gn 25:2",
-          "ids": [],
-          "estado": "termino_sin_ficha_por_evaluar"
+          "ids": [
+            "onomastico/zimram"
+          ],
+          "estado": "variante_ortografica_por_aprobar"
         },
         {
           "literal": "Jocsán",
@@ -471,7 +475,7 @@
       ]
     }
   },
-  "pendientes_ambiguedad_y_nueva_ficha": 327,
+  "pendientes_ambiguedad_y_nueva_ficha": 329,
   "prioridad_desambiguacion": [
     {
       "ref": "Gn 25:2",
@@ -484,8 +488,11 @@
       "categorias": [
         "onomastico"
       ],
-      "candidatos_ficha": [],
-      "estado": "termino_sin_ficha_por_evaluar",
+      "candidatos_ficha": [
+        "onomastico/zimram"
+      ],
+      "estado": "variante_ortografica_por_aprobar",
+      "incidencia": "Zimrán en BES; ficha previa Zimram, hijo de Abraham y Cetura",
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -504,6 +511,7 @@
         "onomastico/sua-suegro-de-juda"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -524,6 +532,7 @@
         "onomastico/seba-iii"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -542,6 +551,7 @@
         "onomastico/dedan-hijo-de-jocsan"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -560,6 +570,7 @@
         "onomastico/dedan-hijo-de-jocsan"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -578,6 +589,23 @@
         "onomastico/hanoc-hijo-de-ruben"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 25:9",
+      "chapter": 25,
+      "verse": 9,
+      "start": 92,
+      "end": 97,
+      "literal": "Zohar",
+      "contexto": "ltaron en la cueva de Macpela, en el campo de Efrón hijo de Zohar el hitita, cerca de Mamre.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [],
+      "estado": "colision_de_identidad_por_revisar",
+      "incidencia": "Zohar padre de Efrón, no Zohar hijo de Simeón (Gn 46:10)",
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -593,6 +621,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -612,6 +641,7 @@
         "onomastico/mamre"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -627,6 +657,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -642,6 +673,23 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 25:15",
+      "chapter": 25,
+      "verse": 15,
+      "start": 0,
+      "end": 5,
+      "literal": "Hadad",
+      "contexto": "Hadad, Tema, Jetur, Nafis y Cedema.",
+      "categorias": [
+        "onomastico"
+      ],
+      "candidatos_ficha": [],
+      "estado": "colision_de_identidad_por_revisar",
+      "incidencia": "Hadad hijo de Ismael, no el rey edomita hijo de Bedad (Gn 36:35)",
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -662,6 +710,7 @@
         "onomastico/havila-ii"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -677,6 +726,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -692,6 +742,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -707,6 +758,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -722,6 +774,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -737,6 +790,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -752,6 +806,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -767,6 +822,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -782,6 +838,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -797,6 +854,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -812,6 +870,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -827,6 +886,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -842,6 +902,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -857,6 +918,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -872,6 +934,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -887,6 +950,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -902,6 +966,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -917,6 +982,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -937,6 +1003,7 @@
         "onomastico/seba-iii"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -952,6 +1019,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -967,6 +1035,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -985,6 +1054,7 @@
         "onomastico/basemat-hija-de-ismael"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1003,6 +1073,7 @@
         "onomastico/elon-padre-de-basemat"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1018,6 +1089,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1033,6 +1105,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1052,6 +1125,7 @@
         "onomastico/haran"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1067,6 +1141,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1082,6 +1157,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1097,6 +1173,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1112,6 +1189,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1127,6 +1205,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1142,6 +1221,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1161,6 +1241,7 @@
         "onomastico/haran"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1176,6 +1257,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1191,6 +1273,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1206,6 +1289,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1221,6 +1305,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1236,6 +1321,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1251,6 +1337,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1266,6 +1353,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1285,6 +1373,7 @@
         "onomastico/haran"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1303,6 +1392,7 @@
         "onomastico/nacor-ii"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1318,6 +1408,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1333,6 +1424,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1348,6 +1440,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1363,6 +1456,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1382,6 +1476,7 @@
         "onomastico/dan"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1397,6 +1492,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1412,6 +1508,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1427,6 +1524,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1442,6 +1540,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1457,6 +1556,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1472,6 +1572,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1491,6 +1592,7 @@
         "onomastico/canaan"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1506,6 +1608,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1521,6 +1624,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1536,6 +1640,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1551,6 +1656,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1566,6 +1672,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1581,6 +1688,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1599,6 +1707,7 @@
         "onomastico/nacor-ii"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1614,6 +1723,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1633,6 +1743,7 @@
         "onomastico/seir-horeo"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1648,6 +1759,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1663,6 +1775,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1678,6 +1791,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1693,6 +1807,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1708,6 +1823,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1727,6 +1843,7 @@
         "onomastico/seir-horeo"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1746,6 +1863,7 @@
         "onomastico/seir-horeo"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1761,6 +1879,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1776,6 +1895,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1791,6 +1911,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1806,6 +1927,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1825,6 +1947,7 @@
         "onomastico/canaan"
       ],
       "estado": "ambiguo_desambiguar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1840,6 +1963,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1855,6 +1979,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1870,6 +1995,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1885,6 +2011,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1900,6 +2027,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1915,6 +2043,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1930,6 +2059,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1945,6 +2075,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1960,6 +2091,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1975,6 +2107,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -1990,6 +2123,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -2005,6 +2139,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
@@ -2020,36 +2155,7 @@
       ],
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
-      "origen": "coincidencia_lexica_fuente_BES"
-    },
-    {
-      "ref": "Gn 34:28",
-      "chapter": 34,
-      "verse": 28,
-      "start": 23,
-      "end": 29,
-      "literal": "ganado",
-      "contexto": "Tomaron sus ovejas, su ganado, sus asnos y todo lo que había en la ciudad y en el campo.",
-      "categorias": [
-        "animales"
-      ],
-      "candidatos_ficha": [],
-      "estado": "termino_sin_ficha_por_evaluar",
-      "origen": "coincidencia_lexica_fuente_BES"
-    },
-    {
-      "ref": "Gn 34:30",
-      "chapter": 34,
-      "verse": 30,
-      "start": 74,
-      "end": 82,
-      "literal": "cananeos",
-      "contexto": " dijo a Simeón y Leví: «Me han puesto en peligro. Ahora los cananeos y los ferezeos que viven en esta tierra me odiarán. Somos pocos, y si se unen contra mí y",
-      "categorias": [
-        "tribus"
-      ],
-      "candidatos_ficha": [],
-      "estado": "termino_sin_ficha_por_evaluar",
+      "incidencia": null,
       "origen": "coincidencia_lexica_fuente_BES"
     }
   ],
