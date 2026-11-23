@@ -422,7 +422,7 @@ def rendered_text(item):
             # Conservar el punto/coma que la BES coloca FUERA de las comillas
             # en la misma línea que el parlamento. La narración comienza
             # inmediatamente en la línea siguiente, salvo inciso del mismo.
-            m = re.match(r"^([.,;:!?…]*\s*)(\S[\s\S]*)$", p["text"])
+            m = re.match(r"^([.,;:!?…]*\s*)([^\s.,;:!?…][\s\S]*)$", p["text"])
             if m:
                 prefix, narrative = m.group(1), m.group(2)
                 next_idx = i + 1
