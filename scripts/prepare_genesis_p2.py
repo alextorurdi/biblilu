@@ -65,7 +65,13 @@ PROSE_CSS = """
 /* Cada intervención con raya comienza en una línea propia, como en prosa moderna.
    Se usa un salto HTML real para mantener la raya y todo el discurso
    siguiente en la MISMA línea. */
-.reader .verses .p2-dialogue-break { line-height: inherit; }
+.reader .verses .p2-dialogue-break,
+.reader .verses .p2-narrative-break { line-height: inherit; }
+/* Inciso del narrador cuando el MISMO interlocutor reanuda su parlamento. */
+.reader .verses .p2-inline-narrator-mark::before {
+  content: "— ";
+  font-style: normal;
+}
 /* Raya editorial de diálogo; aparece SOLO al comenzar un parlamento, no por versículo. */
 .reader .verses .p2-spoken-dash {
   font-style: normal;
@@ -204,7 +210,9 @@ def prose_paragraphs(scene, verses, paragraph_plan):
         poetic = scene["numero"] == 33 and first["chapter"] == 49 and 3 <= first["verse"] <= 27
         css = "prose-paragraph poetic-paragraph" if poetic else "prose-paragraph"
         return ('<p class="' + css + '" data-start="' + reference + '">' +
-                " ".join(verse_html(verse, first_in_paragraph=(idx == 0))
+                " ".join(verse_html(verse, first_in_paragraph=(idx == 0),
+                                    prior_spoken_ended=(idx > 0 and
+                                        ends_with_oral_closure(group[idx - 1])))
                          for idx, verse in enumerate(group)) + '</p>')
     return "".join(render(group) for group in chunks)
 
@@ -304,14 +312,66 @@ def name_highlights(text, chapter, verse, inside_divine=False):
 # - pensamiento / frase hipotética: apertura y cierre quedan ocultos, SIN raya
 # Las comillas interiores “ ” y ‘ ’ se conservan como citas dentro del parlamento.
 # Cada sustitución expone data-source-char para hacer reversible el HTML.
+# Continuaciones del MISMO personaje separadas por una acotación en BES.
+# Ordinal = apertura de comillas « en el versículo (no citas “ ” internas).
+# Se revisaron los 37 pares de intervenciones de un mismo versículo.
+SAME_SPEAKER_CONTINUATIONS = {(27, 36, 2), (43, 29, 2), (45, 4, 2)}
+ORAL_KINDS = {"speech", "divine"}
+DIALOGUE_BREAK = '<br class="p2-dialogue-break" aria-hidden="true">'
+NARRATIVE_BREAK = '<br class="p2-narrative-break" aria-hidden="true">'
+
+
 def starts_with_spoken_quote(item):
-    """La primera palabra del versículo abre una intervención oral."""
+    """El texto del versículo abre directamente un parlamento (sin narración previa)."""
     parts = item.get("parts") or [{"kind": "plain", "text": item["text"]}]
-    return bool(parts and parts[0]["kind"] in ("speech", "divine") and
+    return bool(parts and parts[0]["kind"] in ORAL_KINDS and
                 parts[0]["text"].startswith("«"))
 
 
-def display_piece(text, chapter, verse, kind, source_offset=0):
+def same_speaker_positions(item):
+    """Aperturas que RETOMAN la misma voz tras una acotación, sin línea nueva.
+
+    Las tres BES están documentadas editorialmente. Una acotación clásica
+    entre comas (», dijo Fabián, «) se reconoce también sin cambiar la fuente.
+    """
+    result = set()
+    text = item["text"]
+    previous_close = -1
+    for number, match in enumerate(re.finditer("«", text), 1):
+        position = match.start()
+        ref = (item["chapter"], item["verse"], number)
+        interlude = text[previous_close + 1:position] if previous_close >= 0 else ""
+        if ref in SAME_SPEAKER_CONTINUATIONS or (
+            previous_close >= 0 and re.fullmatch(
+                r"\s*,\s*(?:dijo|preguntó|añadió|comentó|respondió)\b[^«»]{1,85},\s*",
+                interlude, flags=re.I
+            )
+        ):
+            result.add(position)
+        # Este cierre debe ser el último » anterior a la apertura actual,
+        # incluso si la anterior cita no se cerró dentro del mismo versículo.
+        # Buscar directamente en el prefijo evita confundir comillas interiores.
+        previous_close = text.rfind("»", 0, position)
+    return result
+
+
+def ends_with_oral_closure(item):
+    """El último acto del verso fue terminar un diálogo, no una acción narrada."""
+    parts = item.get("parts") or [{"kind": "plain", "text": item["text"]}]
+    for i in range(len(parts) - 1, -1, -1):
+        last = parts[i]["text"].rfind("»")
+        if last >= 0:
+            tail = parts[i]["text"][last + 1:] + "".join(
+                p["text"] for p in parts[i + 1:]
+            )
+            return parts[i]["kind"] in ORAL_KINDS and (
+                not tail.strip(" \t\n.,;:!?…")
+            )
+    return False
+
+
+def display_piece(text, chapter, verse, kind, source_offset=0,
+                  inline_positions=frozenset()):
     chunks = []
     buffer = []
 
@@ -326,11 +386,9 @@ def display_piece(text, chapter, verse, kind, source_offset=0):
         if char in "«»" and kind in ("speech", "divine", "thought"):
             flush()
             if char == "«" and kind != "thought":
-                # La raya empieza SIEMPRE en una línea nueva cuando hay
-                # narración previa en el versículo; no añadir una línea vacía
-                # si la intervención arranca al inicio del propio versículo.
-                if source_offset + pos > 0:
-                    chunks.append('<br class="p2-dialogue-break" aria-hidden="true">')
+                offset = source_offset + pos
+                if offset > 0 and offset not in inline_positions:
+                    chunks.append(DIALOGUE_BREAK)
                 chunks.append('<span class="p2-spoken-dash" data-source-char="«">— </span>')
             else:
                 chunks.append('<span class="p2-quote-omitted" data-source-char="' +
@@ -342,18 +400,51 @@ def display_piece(text, chapter, verse, kind, source_offset=0):
 
 
 def rendered_text(item):
-    """Formato editorial visible, con cita original restaurable sin pérdida."""
+    """Restituir estilo novelístico y poder recuperar literalmente la BES."""
     parts = item.get("parts") or [{"kind": "plain", "text": item["text"]}]
     if "".join(p["text"] for p in parts) != item["text"]:
         error("el formato altera la fuente BES en " +
               str(item["chapter"]) + ":" + str(item["verse"]))
-    out = []
+    inline_positions = same_speaker_positions(item)
+    offsets = []
     offset = 0
-    for p in parts:
+    for part in parts:
+        offsets.append(offset)
+        offset += len(part["text"])
+    out = []
+    for i, p in enumerate(parts):
         kind = p["kind"]
-        value = display_piece(p["text"], item["chapter"], item["verse"],
-                              kind, source_offset=offset)
-        offset += len(p["text"])
+        begins_after_speech = (
+            kind == "plain" and i > 0 and parts[i - 1]["kind"] in ORAL_KINDS
+            and parts[i - 1]["text"].endswith("»")
+        )
+        if begins_after_speech:
+            # Conservar el punto/coma que la BES coloca FUERA de las comillas
+            # en la misma línea que el parlamento. La narración comienza
+            # inmediatamente en la línea siguiente, salvo inciso del mismo.
+            m = re.match(r"^([.,;:!?…]*\s*)(\S[\s\S]*)$", p["text"])
+            if m:
+                prefix, narrative = m.group(1), m.group(2)
+                next_idx = i + 1
+                inline_incise = (
+                    next_idx < len(parts)
+                    and parts[next_idx]["kind"] in ORAL_KINDS
+                    and parts[next_idx]["text"].startswith("«")
+                    and offsets[next_idx] in inline_positions
+                )
+                marker = (
+                    '<span class="p2-inline-narrator-mark" aria-hidden="true"></span>'
+                    if inline_incise else NARRATIVE_BREAK
+                )
+                value = (name_highlights(prefix, item["chapter"], item["verse"]) +
+                         marker +
+                         name_highlights(narrative, item["chapter"], item["verse"]))
+            else:
+                value = display_piece(p["text"], item["chapter"], item["verse"],
+                                      kind, offsets[i], inline_positions)
+        else:
+            value = display_piece(p["text"], item["chapter"], item["verse"],
+                                  kind, offsets[i], inline_positions)
         if kind == "divine":
             out.append('<em class="speech"><span class="divine">' + value + "</span></em>")
         elif kind == "speech":
@@ -365,14 +456,14 @@ def rendered_text(item):
     return "".join(out)
 
 
-def verse_html(item, first_in_paragraph=True):
+def verse_html(item, first_in_paragraph=True, prior_spoken_ended=False):
     c, v = item["chapter"], item["verse"]
     anchor = "gn-" + str(c) + "-" + str(v)
     label = str(c) + ":" + str(v) if v == 1 else str(v)
-    # Si un versículo empieza directamente con diálogo y sigue a otro verso
-    # del mismo párrafo, la raya y SU NÚMERO pasan juntos a la nueva línea.
-    prefix = ('<br class="p2-dialogue-break" aria-hidden="true">'
-              if not first_in_paragraph and starts_with_spoken_quote(item) else "")
+    # Poner el número del verso y las palabras en la MISMA línea nueva.
+    # No duplicar el salto al empezar un párrafo.
+    prefix = (DIALOGUE_BREAK if not first_in_paragraph and
+              (starts_with_spoken_quote(item) or prior_spoken_ended) else "")
     return (prefix + '<span class="verse-inline" id="' + anchor +
             '"><a class="verse-num" href="#' + anchor +
             '" aria-label="Génesis ' + str(c) + ":" + str(v) + '">' +
