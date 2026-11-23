@@ -1,0 +1,154 @@
+{
+  "edicion": "BES 2026",
+  "fase": "P2",
+  "estado": "borrador automático, no aprobado",
+  "versiculos": 874,
+  "con_partes": 874,
+  "texto_literal_igual_fuente": true,
+  "aperturas_por_tipo": {
+    "speech": 325,
+    "divine": 14,
+    "thought": 6
+  },
+  "segmentos_por_tipo": {
+    "speech": 491,
+    "divine": 21,
+    "thought": 6
+  },
+  "caracteres_por_tipo": {
+    "plain": 53158,
+    "speech": 42049,
+    "divine": 2258,
+    "thought": 388
+  },
+  "aperturas_atribuidas_a_dios": [
+    {
+      "ref": "25:23",
+      "tipo": "divine",
+      "apertura": "«",
+      "ordinal": 1,
+      "motivo": "atribucion_explicita"
+    },
+    {
+      "ref": "26:2",
+      "tipo": "divine",
+      "apertura": "«",
+      "ordinal": 1,
+      "motivo": "atribucion_explicita"
+    },
+    {
+      "ref": "26:24",
+      "tipo": "divine",
+      "apertura": "«",
+      "ordinal": 1,
+      "motivo": "atribucion_explicita"
+    },
+    {
+      "ref": "28:13",
+      "tipo": "divine",
+      "apertura": "«",
+      "ordinal": 1,
+      "motivo": "atribucion_explicita"
+    },
+    {
+      "ref": "31:3",
+      "tipo": "divine",
+      "apertura": "«",
+      "ordinal": 1,
+      "motivo": "atribucion_explicita"
+    },
+    {
+      "ref": "31:24",
+      "tipo": "divine",
+      "apertura": "«",
+      "ordinal": 1,
+      "motivo": "atribucion_explicita"
+    },
+    {
+      "ref": "31:29",
+      "tipo": "divine",
+      "apertura": "“",
+      "ordinal": 1,
+      "motivo": "cita_interna_de_dios"
+    },
+    {
+      "ref": "32:9",
+      "tipo": "divine",
+      "apertura": "“",
+      "ordinal": 1,
+      "motivo": "cita_interna_de_dios"
+    },
+    {
+      "ref": "35:1",
+      "tipo": "divine",
+      "apertura": "«",
+      "ordinal": 1,
+      "motivo": "atribucion_explicita"
+    },
+    {
+      "ref": "35:10",
+      "tipo": "divine",
+      "apertura": "«",
+      "ordinal": 1,
+      "motivo": "atribucion_explicita"
+    },
+    {
+      "ref": "35:11",
+      "tipo": "divine",
+      "apertura": "«",
+      "ordinal": 1,
+      "motivo": "atribucion_explicita"
+    },
+    {
+      "ref": "46:2",
+      "tipo": "divine",
+      "apertura": "«",
+      "ordinal": 1,
+      "motivo": "atribucion_explicita"
+    },
+    {
+      "ref": "46:3",
+      "tipo": "divine",
+      "apertura": "«",
+      "ordinal": 1,
+      "motivo": "atribucion_explicita"
+    },
+    {
+      "ref": "48:4",
+      "tipo": "divine",
+      "apertura": "“",
+      "ordinal": 1,
+      "motivo": "cita_interna_de_dios"
+    }
+  ],
+  "casos_a_revisar": [
+    {
+      "ref": "31:11–13",
+      "motivo": "El ángel de Dios habla en un sueño y se identifica como el Dios de Betel. Determinar si la intervención se marca como divina o de mensajero."
+    },
+    {
+      "ref": "31:29",
+      "motivo": "Labán reproduce palabras de Dios dentro de su propio diálogo; se ha marcado la cita interna en rojo provisionalmente."
+    },
+    {
+      "ref": "32:9",
+      "motivo": "Jacob recuerda en su oración palabras anteriores de Dios, entre comillas internas. Marca divina provisional."
+    },
+    {
+      "ref": "32:26–29",
+      "motivo": "El adversario del Jaboc no se nombra explícitamente como Dios al introducir sus intervenciones. Se mantiene diálogo sin rojo hasta revisar la identificación."
+    },
+    {
+      "ref": "48:4",
+      "motivo": "Jacob cita directamente las palabras atribuidas a Dios, en segundo nivel. Se han marcado en rojo provisionalmente."
+    },
+    {
+      "ref": "26:7",
+      "motivo": "Isaac enuncia una frase real, una respuesta hipotética y un pensamiento; la clasificación automática depende del contexto de cada apertura."
+    }
+  ],
+  "criterio": "No convertir menciones de Dios en palabras divinas. Mantener comillas BES y marcas literales. Las citas internas requieren revisión; revisar todas las etiquetas antes de declararlas aprobadas.",
+  "fuente": "data/genesis_25_50_bes.json",
+  "borrador": "data/genesis_25_50_bes_formato.json",
+  "cobertura": "Génesis 25:1–50:26"
+}
