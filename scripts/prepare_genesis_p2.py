@@ -148,12 +148,39 @@ def esc(value):
     return html.escape(str(value), quote=True)
 
 
+# El nombre divino es un criterio visual distinto de la voz divina.
+# BES capitaliza "Dios" y "Señor" para referirse a Dios; el caso 43:20
+# es una fórmula de tratamiento a un funcionario egipcio, no nombre divino.
+# No resaltar "señor" humano ni "dioses" / "dios" de religiones ajenas.
+DIVINE_NAMES_RE = re.compile(r"\\b(?:Dios|Señor)\\b")
+NON_DIVINE_NAME_REFS = {(43, 20, "Señor")}
+
+
+def name_highlights(text, chapter, verse, inside_divine=False):
+    if inside_divine:
+        return esc(text)
+    result = []
+    previous = 0
+    for match in DIVINE_NAMES_RE.finditer(text):
+        token = match.group(0)
+        result.append(esc(text[previous:match.start()]))
+        if (chapter, verse, token) in NON_DIVINE_NAME_REFS:
+            result.append(esc(token))
+        else:
+            result.append('<span class="divine">' + esc(token) + '</span>')
+        previous = match.end()
+    result.append(esc(text[previous:]))
+    return "".join(result)
+
+
 def rendered_text(item):
     parts = item.get("parts") or [{"kind": "plain", "text": item["text"]}]
     out = []
     for p in parts:
-        value = esc(p["text"]).replace("\n", " ")
         kind = p["kind"]
+        value = name_highlights(
+            p["text"], item["chapter"], item["verse"], inside_divine=kind == "divine"
+        ).replace("\n", " ")
         if kind == "divine":
             out.append('<em class="speech"><span class="divine">' + value + "</span></em>")
         elif kind == "speech":
