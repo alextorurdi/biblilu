@@ -44,6 +44,7 @@ with TemporaryDirectory(prefix="biblilu-p2-test-") as directory:
                for path in scene_paths) == 874
     first = scene_paths[0].read_text(encoding="utf-8")
     assert 'id="gn-25-1"' in first
+    assert 'Biblia en Español Sencillo 2026 (BES)' in first
     assert '<span class="divine">25:1</span>' in first
     last = scene_paths[-1].read_text(encoding="utf-8")
     assert 'id="gn-50-26"' in last
@@ -52,6 +53,7 @@ with TemporaryDirectory(prefix="biblilu-p2-test-") as directory:
     assert 'href="50/index.html#gn-50-1"' in book_index
     assert book_index.count("Continúa en escena") >= 1
     assert 'noindex,nofollow' in book_index
+    assert 'escenas 1–15 RVR1960; escenas 16–34 BES 2026' in book_index
     assert json.loads((p2.PREVIEW / "validacion.json").read_text(encoding="utf-8"))["versiculos"] == 874
     verses[0]["parts"][1]["text"] = "VERSÍCULO MODIFICADO"
     source.write_text(json.dumps(verses, ensure_ascii=False), encoding="utf-8")
