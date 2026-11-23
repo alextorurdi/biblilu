@@ -1,7 +1,7 @@
 # Fase 2 · Génesis 25–50 — BES 2026, marcado e índices
 
 **Fecha de inicio:** 23/11/2026. **Actualización editorial:** 23/11/2026.  
-**Estado:** **REVISIÓN VISUAL APROBADA — 19 BORRADORES BES EN 387 PÁRRAFOS; CONTROL TEXTUAL/EDITORIAL INTEGRAL Y VÍNCULOS DE FICHAS PENDIENTES.**  
+**Estado:** **P2 CERRADA PARA PASO A P3 — AUDITORÍA GLOBAL AUTOMÁTICA COMPLETA Y REVISIÓN VISUAL APROBADA; REFERENCIAS INDIVIDUALES A FICHAS, NOTAS Y REVISIÓN EDITORIAL DE CADA ESCENA SE COMPLETARÁN EN P3–P6. NO PUBLICADO.**  
 **Alcance invariable de Etapa I:** 19 escenas, Gn 25:1–50:26, traducción **La Biblia en Español Sencillo 2026 (BES)**. Las 15 escenas de Gn 1–24 **conservan RVR1960** hasta la segunda etapa, sin cambios de texto ni notas.
 
 **Documentos rectores:** [Protocolo P0–P9](protocolo-libros.md) · [BES en dos etapas](plan-dos-etapas-bes-genesis.md) · [P1 aprobada](fase1-genesis.md) · [Distribución de recursos](plan-ubicacion-escenas-genesis-25-50.md).
@@ -137,6 +137,23 @@ Se mantienen por separado los controles de integridad automáticos que ya super�
 
 **Siguiente actividad del protocolo:** iniciar **P3, extracción y clasificación única** de las ocho categorías en Gn 25–50, distinguiendo entidades nuevas y nuevas menciones de fichas existentes. No publicar las escenas ni migrar Gn 1–24 (Etapa II).
 
+## Cierre de los controles P2 · 23/11/2026
+
+**Fase P2 completada en su alcance definido por el protocolo**: incorporación íntegra y distribución de la BES 2026, marcado tipográfico conforme a los criterios aprobados, índices y anclas preparados, verificación visual aprobada por el editor y pruebas de integridad y de navegación. **El contenido NO está publicado.**
+
+**Registro probatorio permanente:** [Auditoría final P2 BES](p2-auditoria-final-2026-11-23.json). [GitHub Actions · control integral aprobado](https://github.com/alextorurdi/biblilu/actions/runs/45272127487) (también actualizado y archivado posteriormente por la acción de borradores).
+
+- Se volvió a descargar el **USFM oficial** y se contrastó la **huella SHA-256 exacta** con la importación aprobada: **874/874 textos BES idénticos** a la fuente, sin desviaciones.
+- Se analizó el **HTML de cada versículo** de las 19 escenas, se reconstruyó el texto BES incluyendo las comillas originales ocultas en la presentación y se comparó literalmente con los 874 registros: sin diferencias, huecos ni duplicaciones.
+- **387 párrafos**, **874 anclas**, **299 rayas** y **26 capítulos BES** verificados. Los dos índices listan 34 escenas y 50 capítulos, sin tarjetas caducadas «Próximamente».
+- **1.217 enlaces locales comprobados y cero rotos**, incluidos los fragmentos de versículo. Los enlaces a las **15 escenas RVR60** dentro del ZIP se resuelven a páginas **informativas**, no copias de su contenido ni sustitutos del sitio publicado. La navegación auténtica entre «Familia» y «De Abraham a Isaac» se conectará al integrar el sitio en P9.
+- Se verificaron los **450 identificadores y rutas de fichas existentes** de los ocho apéndices, sin duplicados ni rutas faltantes. **La correspondencia entre menciones BES y fichas, los enlaces reales en el texto y las entidades nuevas corresponden a la extracción P3 y a P4/P6**, no se han supuesto automáticamente.
+- Los archivos RVR1960 originales y las 15 escenas anteriores se comprobaron contra sus SHA-256 antes y después de la ejecución, sin modificaciones.
+- La aprobación visual fue expresamente comunicada por el editor. La marca `revisado=false` en los registros de la capa de formato **no se ha convertido falsamente en 874 aprobaciones humanas por versículo**: acredita que queda la revisión de escena con fichas, notas y recursos propia de **P6**, no la falta de las comprobaciones de integridad P2.
+- El reporte `editorial/p2-auditoria-final-2026-11-23.json` deja trazabilidad de la fuente, los conteos, las rutas y las limitaciones de integración.
+
+**Resolución de transición:** P2 puede considerarse cerrada y se habilita **P3 (extracción y clasificación única)**. La migración de Gn 1–24 a BES sigue aplazada a la Etapa II. No iniciar publicación ni actualizar enlaces públicos hasta cumplir P3–P9.
+
 ## Condiciones para cerrar P2
 
 - [x] Pasaje, 19 escenas, títulos y distribución aprobados.
@@ -144,9 +161,9 @@ Se mantienen por separado los controles de integridad automáticos que ya super�
 - [x] BES 2026 localizada y licencia declarada como dominio público por el distribuidor.
 - [x] Importador, comprobador y generador de borradores preparados en el repositorio.
 - [x] **Importación real de los 874 versículos BES 2026** y registro SHA-256 del ZIP oficial (ver [procedencia](procedencia-bes-genesis-25-50.json)).
-- [x] **Comprobación estructural:** 26 capítulos, 874 versículos únicos y ordenados, sin vacíos ni restos USFM; cotejos textuales de control con la edición HTML oficial de 25:1, 25:23, 45:3 y 50:26. **Pendiente:** revisión editorial completa del texto y de los discursos.
-- [x] Marcado reversible de diálogo, pensamiento y voz divina en los 874 versículos; **seis casos específicos y reglas generales aprobados editorialmente el 23/11/2026**; pendiente el control integral versículo por versículo.
-- [x] 19 páginas en **387 párrafos narrativos**, con 874 anclas de versículo, ambos índices y controles automáticos superados; disponibles como artefacto no público. **Revisión visual completada y aprobada por el editor; pendiente el control textual/editorial integral de las 874 lecturas y las referencias definitivas a fichas.**
+- [x] **Integridad completa:** 26 capítulos y 874 versículos únicos, ordenados y sin residuos USFM; comparación literal de los **874 versículos contra el ZIP oficial** con verificación SHA-256, y reconstrucción de los 874 desde su HTML. La revisión de notas, recursos y enlaces de cada escena se realizará en P6.
+- [x] Marcado reversible de diálogo, pensamiento y voz divina en los 874 versículos; **seis casos y reglas aprobados**, y **los 874 HTML comprobados literalmente** contra BES. Revisión interpretativa contextual ampliada prevista en P6.
+- [x] 19 páginas en **387 párrafos narrativos**, con 874 anclas, 34 entradas de escenas y 50 de capítulos; **revisión visual aprobada** y auditoría de **1.217 enlaces internos** superada. Las referencias de menciones BES a fichas se asignarán con P3.
 - [x] La acción de importación verificó mediante sumas SHA-256 que el texto RVR1960 de Gn 1–24 y las quince páginas editoriales protegidas no sufrieron modificaciones. Se ha preparado la identificación de la edición mixta, aún no aplicada a páginas públicas.
 
-**No iniciar como si P2 hubiera finalizado**, ni publicar automáticamente. P3–P9 se desarrollarán secuencialmente sobre las escenas BES, siguiendo los puntos de aprobación del protocolo.
+**P2 cerrada para proceder a P3, sin publicación.** P3–P9 se desarrollarán secuencialmente sobre las escenas BES, siguiendo los puntos de aprobación del protocolo. Mantener `revisado=false` como indicador de ausencia de validación humana versículo por versículo en P6, sin confundirlo con los controles íntegros y completados de P2.
