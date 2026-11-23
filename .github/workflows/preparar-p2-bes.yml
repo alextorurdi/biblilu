@@ -87,7 +87,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- data/genesis_25_50_bes_formato.json editorial/p2-revision-dialogos-genesis-25-50.json
+          cp build/p2/auditoria-p2.json editorial/p2-auditoria-final-2026-11-23.json
+          git add -- data/genesis_25_50_bes_formato.json editorial/p2-revision-dialogos-genesis-25-50.json editorial/p2-auditoria-final-2026-11-23.json
           if ! git diff --cached --quiet; then
             git commit -m "Preparar 874 versículos BES con diálogo y voces divinas (borrador P2)"
             git push
