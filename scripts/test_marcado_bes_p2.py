@@ -55,17 +55,57 @@ assert sum(1 for v in src for m in re.finditer(r"\b(?:Dios|Señor)\b",v["text"])
            if (v["chapter"],v["verse"],m.group(0)) not in p2.NON_DIVINE_NAME_REFS) == 137
 
 
-def flatten_html(fragment):
-    stripped=re.sub(r"<[^>]*>","",fragment)
-    return html.unescape(stripped)
+# Restituye los signos originales BES a partir de las marcas reversibles
+# del HTML visual, independientemente del estilo o de las rayas de diálogo.
+from html.parser import HTMLParser
 
+class SourceRecovery(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.text=[]
+        self.skip=0
+    def handle_starttag(self,tag,attrs):
+        if self.skip:
+            self.skip+=1
+        elif tag=="span" and (original:=dict(attrs).get("data-source-char")):
+            self.text.append(original)
+            self.skip=1
+    def handle_endtag(self,tag):
+        if self.skip:
+            self.skip-=1
+    def handle_data(self,data):
+        if not self.skip:
+            self.text.append(data)
+
+def recover_source(rendered):
+    reader=SourceRecovery()
+    reader.feed(rendered)
+    assert reader.skip==0
+    return "".join(reader.text)
+
+speaker_count=0
+thought_count=0
 for a,b in zip(src,marked):
     assert a["text"]==b["text"]
     assert "".join(part["text"] for part in b["parts"])==a["text"]
     assert b["revisado"] is False
     rendered=p2.rendered_text(b)
-    assert flatten_html(rendered)==a["text"],(a["chapter"],a["verse"])
+    assert recover_source(rendered)==a["text"],(a["chapter"],a["verse"])
+    speaker_count += rendered.count('class="p2-spoken-dash"')
+    thought_count += sum(1 for p in b["parts"] if p["kind"]=="thought" and "«" in p["text"])
     assert f'id="gn-{a["chapter"]}-{a["verse"]}"' in p2.verse_html(b)
+
+assert speaker_count == opens["speech"] + opens["divine"], (speaker_count, opens)
+assert thought_count == opens["thought"]
+assert p2.rendered_text(by_ref[(26,9)]).count('class="p2-spoken-dash"') == 2
+assert p2.rendered_text(by_ref[(46,2)]).count('class="p2-spoken-dash"') == 2
+assert p2.rendered_text(by_ref[(31,13)]).count('class="p2-spoken-dash"') == 0
+assert p2.rendered_text(by_ref[(32,9)]).count('class="p2-spoken-dash"') == 1
+assert "“Vuelve" in p2.rendered_text(by_ref[(32,9)])
+assert "<em class=\"thought\">" in p2.rendered_text(by_ref[(26,7)])
+assert p2.rendered_text(by_ref[(26,7)]).count('class="p2-spoken-dash"') == 1
+assert 'class="p2-quote-omitted" data-source-char="«"' in p2.rendered_text(by_ref[(26,7)])
+assert 'class="p2-spoken-dash"' not in p2.rendered_text(by_ref[(32,8)])
 
 if marks.OUTPUT.is_file():
     on_disk=json.loads(marks.OUTPUT.read_text(encoding="utf-8"))
@@ -97,4 +137,4 @@ assert '<span class="verse-inline" id="gn-25-4"' in first_scene
 assert '<span class="verse-inline" id="gn-25-5"' in first_scene
 assert '<p class="verse"' not in first_scene
 assert 'p2-prose.css' in first_scene
-print("P2 real BES: 874 versículos intactos, segmentos reversibles, voces divinas y dos índices. APTO PARA REVISIÓN.")
+print("P2 real BES: 874 versículos y 387 párrafos, comillas recuperables, rayas por intervención, pensamientos sin raya, voces divinas y dos índices.")
