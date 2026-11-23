@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "BIBLILU P2 – Fuente editorial Génesis 25–50",
-  "description": "874 versículos RVR1960 aportados desde una fuente editorial autorizada; el texto no se obtiene ni completa automáticamente.",
+  "title": "BIBLILU P2 – Fuente BES 2026 Génesis 25–50",
+  "description": "874 versículos de La Biblia en Español Sencillo 2026 (BES; dominio público según eBible.org), importados de la distribución oficial spabes de 2026-10-30. No utilizar RVR1960.",
   "type": "array",
   "minItems": 874,
   "maxItems": 874,
