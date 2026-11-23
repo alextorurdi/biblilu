@@ -47,5 +47,6 @@ jobs:
           git add -- data/genesis_25_50_bes.json editorial/procedencia-bes-genesis-25-50.json
           if ! git diff --cached --quiet; then
             git commit -m "Importar 874 versículos BES 2026 de Génesis 25-50 (sin publicar)"
+            git pull --rebase origin main
             git push
           fi
