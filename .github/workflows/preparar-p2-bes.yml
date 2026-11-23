@@ -21,7 +21,7 @@ jobs:
     timeout-minutes: 12
     steps:
       - name: Obtener fuentes
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           persist-credentials: true
       - name: Proteger RVR1960 y escenas publicadas
@@ -61,7 +61,7 @@ jobs:
           sha256sum --check --status /tmp/escenas-rvr1960.sha
           sha256sum --check --status /tmp/docs-genesis.sha
       - name: Guardar revisión y páginas como artefacto privado, no sitio
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: biblilu-borradores-bes-p2
           path: |
