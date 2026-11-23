@@ -1,0 +1,49 @@
+name: Importar BES 2026 · Génesis 25–50 (sin publicar)
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/importar-bes-genesis.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: importar-bes-genesis
+  cancel-in-progress: false
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Confirmar que las escenas antiguas están intactas
+        run: |
+          test -f data/genesis.json
+          test -d editorial/approved-pages/genesis
+          sha256sum data/genesis.json > /tmp/genesis-rvr1960.sha
+          find editorial/approved-pages/genesis -type f -print0 | sort -z | xargs -0 sha256sum > /tmp/escenas-rvr1960.sha
+      - name: Importar 26 capítulos desde eBible.org, edición BES 2026
+        run: |
+          python3 scripts/import_bes_genesis.py --download
+      - name: Validar referencias, integridad y maquetación de pruebas
+        run: |
+          python3 scripts/prepare_genesis_p2.py --structure
+          python3 scripts/prepare_genesis_p2.py --check-source
+          python3 scripts/test_genesis_p2.py
+      - name: Comprobar que no se han alterado los originales de Génesis 1–24
+        run: |
+          sha256sum --check --status /tmp/genesis-rvr1960.sha
+          sha256sum --check --status /tmp/escenas-rvr1960.sha
+          test ! -d build/p2
+      - name: Guardar únicamente la nueva fuente BES y su trazabilidad
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/genesis_25_50_bes.json editorial/procedencia-bes-genesis-25-50.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Importar 874 versículos BES 2026 de Génesis 25-50 (sin publicar)"
+            git push
+          fi
