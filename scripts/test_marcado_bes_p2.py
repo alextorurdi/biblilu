@@ -101,6 +101,39 @@ expected_speaker_dashes = sum(
 )
 assert speaker_count == expected_speaker_dashes, (speaker_count,expected_speaker_dashes)
 assert speaker_count > 250
+# Regla novelística adicional: cada apertura de diálogo con raya comienza
+# en otra línea, sin repetirla en las continuaciones de versículos.
+# Solo dos versículos empiezan directamente con comillas de diálogo, y
+# ambos abren un párrafo (34:21 y 42:30): no se introduce línea vacía.
+break_count = sum(p2.rendered_text(v).count('class="p2-dialogue-break"')
+                  for v in marked)
+leading_speech = [v for v in marked if p2.starts_with_spoken_quote(v)]
+assert {(v["chapter"],v["verse"]) for v in leading_speech} == {(34,21),(42,30)}
+assert break_count == speaker_count-len(leading_speech), (break_count,speaker_count)
+# Caso mostrado por el editor: narrador Gn 26:2 y parlamento divino 26:2–5.
+g26 = p2.rendered_text(by_ref[(26,2)])
+assert 'le dijo: ' in g26
+assert 'le dijo: <em class="speech"><span class="divine"><br class="p2-dialogue-break" aria-hidden="true"><span class="p2-spoken-dash"' in g26
+assert all('class="p2-dialogue-break"' not in p2.rendered_text(by_ref[(26,n)])
+           for n in (3,4,5))
+# Conversación con dos voces dentro del mismo versículo: cada raya en su línea.
+g269 = p2.rendered_text(by_ref[(26,9)])
+assert g269.count('class="p2-dialogue-break"') == 2
+assert g269.count('class="p2-spoken-dash"') == 2
+# Pensamientos: cursiva, sin guiones ni líneas forzadas.
+g267 = p2.rendered_text(by_ref[(26,7)])
+assert g267.count('class="p2-dialogue-break"') == 1
+assert g267.count('class="p2-spoken-dash"') == 1
+# Una intervención que comienza en el primer carácter del versículo:
+# si continúa un párrafo previo, su ancla y raya cambian juntas de línea.
+start_quote = by_ref[(34,21)]
+assert not p2.verse_html(start_quote,first_in_paragraph=True).startswith("<br")
+assert p2.verse_html(start_quote,first_in_paragraph=False).startswith(
+    '<br class="p2-dialogue-break" aria-hidden="true"><span class="verse-inline" id="gn-34-21"'
+)
+assert p2.verse_html(start_quote,first_in_paragraph=False).count(
+    'class="p2-dialogue-break"') == 1
+
 assert thought_count == opens["thought"]
 assert p2.rendered_text(by_ref[(26,9)]).count('class="p2-spoken-dash"') == 2
 assert p2.rendered_text(by_ref[(46,2)]).count('class="p2-spoken-dash"') == 2
