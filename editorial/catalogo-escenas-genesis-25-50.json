@@ -1,0 +1,291 @@
+{
+  "libro": "Génesis",
+  "cobertura": "25:1–50:26",
+  "fase": "P1",
+  "estado": "aprobada",
+  "fecha_aprobacion": "2026-11-23",
+  "escenas_previas_aprobadas": 15,
+  "escenas_nuevas": 19,
+  "versiculos_nuevos": 874,
+  "versiculos_previos": 659,
+  "escenas_totales": 34,
+  "versiculos_totales": 1533,
+  "referencias_editoriales": [
+    "editorial/fase1-genesis.md",
+    "editorial/acuerdos-distribucion-genesis-25-50.md",
+    "editorial/plan-ubicacion-escenas-genesis-25-50.md"
+  ],
+  "notas": [
+    "Escena Hambre se mantiene indivisa.",
+    "En Despedidas es Árbol 13, no Mapa 13.",
+    "Los contenidos y recursos aún no están implementados ni publicados."
+  ],
+  "escenas": [
+    {
+      "numero": 16,
+      "titulo": "De Abraham a Isaac",
+      "inicio": {
+        "capitulo": 25,
+        "versiculo": 1
+      },
+      "fin": {
+        "capitulo": 25,
+        "versiculo": 18
+      },
+      "versiculos": 18,
+      "estado": "aprobado_p1"
+    },
+    {
+      "numero": 17,
+      "titulo": "Isaac",
+      "inicio": {
+        "capitulo": 25,
+        "versiculo": 19
+      },
+      "fin": {
+        "capitulo": 26,
+        "versiculo": 35
+      },
+      "versiculos": 51,
+      "estado": "aprobado_p1"
+    },
+    {
+      "numero": 18,
+      "titulo": "Bendición",
+      "inicio": {
+        "capitulo": 27,
+        "versiculo": 1
+      },
+      "fin": {
+        "capitulo": 27,
+        "versiculo": 40
+      },
+      "versiculos": 40,
+      "estado": "aprobado_p1"
+    },
+    {
+      "numero": 19,
+      "titulo": "Piedra",
+      "inicio": {
+        "capitulo": 27,
+        "versiculo": 41
+      },
+      "fin": {
+        "capitulo": 28,
+        "versiculo": 22
+      },
+      "versiculos": 28,
+      "estado": "aprobado_p1"
+    },
+    {
+      "numero": 20,
+      "titulo": "Trabajo",
+      "inicio": {
+        "capitulo": 29,
+        "versiculo": 1
+      },
+      "fin": {
+        "capitulo": 29,
+        "versiculo": 30
+      },
+      "versiculos": 30,
+      "estado": "aprobado_p1"
+    },
+    {
+      "numero": 21,
+      "titulo": "Nacimiento",
+      "inicio": {
+        "capitulo": 29,
+        "versiculo": 31
+      },
+      "fin": {
+        "capitulo": 30,
+        "versiculo": 24
+      },
+      "versiculos": 29,
+      "estado": "aprobado_p1"
+    },
+    {
+      "numero": 22,
+      "titulo": "Salario",
+      "inicio": {
+        "capitulo": 30,
+        "versiculo": 25
+      },
+      "fin": {
+        "capitulo": 31,
+        "versiculo": 55
+      },
+      "versiculos": 74,
+      "estado": "aprobado_p1"
+    },
+    {
+      "numero": 23,
+      "titulo": "Luchas",
+      "inicio": {
+        "capitulo": 32,
+        "versiculo": 1
+      },
+      "fin": {
+        "capitulo": 33,
+        "versiculo": 17
+      },
+      "versiculos": 49,
+      "estado": "aprobado_p1"
+    },
+    {
+      "numero": 24,
+      "titulo": "Horror",
+      "inicio": {
+        "capitulo": 33,
+        "versiculo": 18
+      },
+      "fin": {
+        "capitulo": 34,
+        "versiculo": 31
+      },
+      "versiculos": 34,
+      "estado": "aprobado_p1"
+    },
+    {
+      "numero": 25,
+      "titulo": "Despedidas",
+      "inicio": {
+        "capitulo": 35,
+        "versiculo": 1
+      },
+      "fin": {
+        "capitulo": 35,
+        "versiculo": 29
+      },
+      "versiculos": 29,
+      "estado": "aprobado_p1"
+    },
+    {
+      "numero": 26,
+      "titulo": "Edom",
+      "inicio": {
+        "capitulo": 36,
+        "versiculo": 1
+      },
+      "fin": {
+        "capitulo": 36,
+        "versiculo": 43
+      },
+      "versiculos": 43,
+      "estado": "aprobado_p1"
+    },
+    {
+      "numero": 27,
+      "titulo": "Venta",
+      "inicio": {
+        "capitulo": 37,
+        "versiculo": 1
+      },
+      "fin": {
+        "capitulo": 37,
+        "versiculo": 36
+      },
+      "versiculos": 36,
+      "estado": "aprobado_p1"
+    },
+    {
+      "numero": 28,
+      "titulo": "Judá",
+      "inicio": {
+        "capitulo": 38,
+        "versiculo": 1
+      },
+      "fin": {
+        "capitulo": 38,
+        "versiculo": 30
+      },
+      "versiculos": 30,
+      "estado": "aprobado_p1"
+    },
+    {
+      "numero": 29,
+      "titulo": "Sueños",
+      "inicio": {
+        "capitulo": 39,
+        "versiculo": 1
+      },
+      "fin": {
+        "capitulo": 41,
+        "versiculo": 45
+      },
+      "versiculos": 91,
+      "estado": "aprobado_p1"
+    },
+    {
+      "numero": 30,
+      "titulo": "Hambre",
+      "inicio": {
+        "capitulo": 41,
+        "versiculo": 46
+      },
+      "fin": {
+        "capitulo": 45,
+        "versiculo": 3
+      },
+      "versiculos": 121,
+      "estado": "aprobado_p1"
+    },
+    {
+      "numero": 31,
+      "titulo": "Reencuentro",
+      "inicio": {
+        "capitulo": 45,
+        "versiculo": 4
+      },
+      "fin": {
+        "capitulo": 47,
+        "versiculo": 12
+      },
+      "versiculos": 71,
+      "estado": "aprobado_p1"
+    },
+    {
+      "numero": 32,
+      "titulo": "Quinto",
+      "inicio": {
+        "capitulo": 47,
+        "versiculo": 13
+      },
+      "fin": {
+        "capitulo": 47,
+        "versiculo": 26
+      },
+      "versiculos": 14,
+      "estado": "aprobado_p1"
+    },
+    {
+      "numero": 33,
+      "titulo": "Testamento",
+      "inicio": {
+        "capitulo": 47,
+        "versiculo": 27
+      },
+      "fin": {
+        "capitulo": 49,
+        "versiculo": 33
+      },
+      "versiculos": 60,
+      "estado": "aprobado_p1"
+    },
+    {
+      "numero": 34,
+      "titulo": "Coda",
+      "inicio": {
+        "capitulo": 50,
+        "versiculo": 1
+      },
+      "fin": {
+        "capitulo": 50,
+        "versiculo": 26
+      },
+      "versiculos": 26,
+      "estado": "aprobado_p1"
+    }
+  ]
+}
