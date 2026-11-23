@@ -109,7 +109,11 @@ break_count = sum(p2.rendered_text(v).count('class="p2-dialogue-break"')
                   for v in marked)
 leading_speech = [v for v in marked if p2.starts_with_spoken_quote(v)]
 assert {(v["chapter"],v["verse"]) for v in leading_speech} == {(34,21),(42,30)}
-assert break_count == speaker_count-len(leading_speech), (break_count,speaker_count)
+inline_count = sum(len(p2.same_speaker_positions(v)) for v in marked)
+assert inline_count == 3, inline_count
+assert break_count == speaker_count-len(leading_speech)-inline_count, (
+    break_count,speaker_count,inline_count
+)
 # Caso mostrado por el editor: narrador Gn 26:2 y parlamento divino 26:2–5.
 g26 = p2.rendered_text(by_ref[(26,2)])
 assert 'le dijo: ' in g26
