@@ -1117,13 +1117,12 @@
         "literal": "Efa",
         "contexto": "Los hijos de Madián fueron Efa, Efer, Hanoc, Abida y Elda. Todos ellos fueron descendientes de Cetura.",
         "categorias": [
-          "medidas",
           "onomastico"
         ],
         "candidatos_ficha": [
           "onomastico/efa"
         ],
-        "estado": "ambiguo_desambiguar",
+        "estado": "ficha_existente_por_verificar",
         "origen": "coincidencia_lexica_fuente_BES"
       },
       {
@@ -27286,23 +27285,6 @@
     ],
     "materiales": [
       {
-        "ref": "Gn 25:21",
-        "chapter": 25,
-        "verse": 21,
-        "start": 6,
-        "end": 9,
-        "literal": "oró",
-        "contexto": "Isaac oró al Señor por su mujer, porque ella no podía tener hijos. El Señor escuchó su oración y Re",
-        "categorias": [
-          "materiales"
-        ],
-        "candidatos_ficha": [
-          "materiales/oro"
-        ],
-        "estado": "ficha_existente_por_verificar",
-        "origen": "coincidencia_lexica_fuente_BES"
-      },
-      {
         "ref": "Gn 28:11",
         "chapter": 28,
         "verse": 11,
@@ -27538,23 +27520,6 @@
           "materiales/piedra"
         ],
         "estado": "flexion_por_comprobar",
-        "origen": "coincidencia_lexica_fuente_BES"
-      },
-      {
-        "ref": "Gn 32:9",
-        "chapter": 32,
-        "verse": 9,
-        "start": 15,
-        "end": 18,
-        "literal": "oró",
-        "contexto": "Entonces Jacob oró: «Dios de mi padre Abraham y Dios de mi padre Isaac, Señor, tú me dijiste: “Vuelve a tu t",
-        "categorias": [
-          "materiales"
-        ],
-        "candidatos_ficha": [
-          "materiales/oro"
-        ],
-        "estado": "ficha_existente_por_verificar",
         "origen": "coincidencia_lexica_fuente_BES"
       },
       {
@@ -29746,58 +29711,6 @@
     "instrumentos": [],
     "medidas": [
       {
-        "ref": "Gn 25:4",
-        "chapter": 25,
-        "verse": 4,
-        "start": 27,
-        "end": 30,
-        "literal": "Efa",
-        "contexto": "Los hijos de Madián fueron Efa, Efer, Hanoc, Abida y Elda. Todos ellos fueron descendientes de Cetura.",
-        "categorias": [
-          "medidas",
-          "onomastico"
-        ],
-        "candidatos_ficha": [
-          "onomastico/efa"
-        ],
-        "estado": "ambiguo_desambiguar",
-        "origen": "coincidencia_lexica_fuente_BES"
-      },
-      {
-        "ref": "Gn 26:4",
-        "chapter": 26,
-        "verse": 4,
-        "start": 25,
-        "end": 28,
-        "literal": "sea",
-        "contexto": "Haré que tu descendencia sea tan numerosa como las estrellas del cielo. Le daré todas estas tierras, y por medio de tu",
-        "categorias": [
-          "medidas"
-        ],
-        "candidatos_ficha": [
-          "medidas/sea"
-        ],
-        "estado": "ficha_existente_por_verificar",
-        "origen": "coincidencia_lexica_fuente_BES"
-      },
-      {
-        "ref": "Gn 27:29",
-        "chapter": 27,
-        "verse": 29,
-        "start": 145,
-        "end": 148,
-        "literal": "sea",
-        "contexto": "s, y que los hijos de tu madre se inclinen ante ti. Maldito sea el que te maldiga y bendito el que te bendiga».",
-        "categorias": [
-          "medidas"
-        ],
-        "candidatos_ficha": [
-          "medidas/sea"
-        ],
-        "estado": "ficha_existente_por_verificar",
-        "origen": "coincidencia_lexica_fuente_BES"
-      },
-      {
         "ref": "Gn 29:15",
         "chapter": 29,
         "verse": 15,
@@ -29810,123 +29723,6 @@
         ],
         "candidatos_ficha": [],
         "estado": "termino_sin_ficha_por_evaluar",
-        "origen": "coincidencia_lexica_fuente_BES"
-      },
-      {
-        "ref": "Gn 30:17",
-        "chapter": 30,
-        "verse": 17,
-        "start": 59,
-        "end": 65,
-        "literal": "quinto",
-        "contexto": "Dios escuchó a Lea. Ella quedó embarazada y dio a Jacob un quinto hijo.",
-        "categorias": [
-          "medidas"
-        ],
-        "candidatos_ficha": [],
-        "estado": "termino_sin_ficha_por_evaluar",
-        "origen": "coincidencia_lexica_fuente_BES"
-      },
-      {
-        "ref": "Gn 30:33",
-        "chapter": 30,
-        "verse": 33,
-        "start": 116,
-        "end": 119,
-        "literal": "sea",
-        "contexto": "ises lo que me pertenece, si encuentras alguna cabra que no sea manchada o moteada, o alguna oveja que no sea de color oscuro, podrás considerarla robada",
-        "categorias": [
-          "medidas"
-        ],
-        "candidatos_ficha": [
-          "medidas/sea"
-        ],
-        "estado": "ficha_existente_por_verificar",
-        "origen": "coincidencia_lexica_fuente_BES"
-      },
-      {
-        "ref": "Gn 30:33",
-        "chapter": 30,
-        "verse": 33,
-        "start": 162,
-        "end": 165,
-        "literal": "sea",
-        "contexto": " cabra que no sea manchada o moteada, o alguna oveja que no sea de color oscuro, podrás considerarla robada».",
-        "categorias": [
-          "medidas"
-        ],
-        "candidatos_ficha": [
-          "medidas/sea"
-        ],
-        "estado": "ficha_existente_por_verificar",
-        "origen": "coincidencia_lexica_fuente_BES"
-      },
-      {
-        "ref": "Gn 30:34",
-        "chapter": 30,
-        "verse": 34,
-        "start": 34,
-        "end": 37,
-        "literal": "sea",
-        "contexto": "Labán respondió: «De acuerdo. Que sea como has dicho».",
-        "categorias": [
-          "medidas"
-        ],
-        "candidatos_ficha": [
-          "medidas/sea"
-        ],
-        "estado": "ficha_existente_por_verificar",
-        "origen": "coincidencia_lexica_fuente_BES"
-      },
-      {
-        "ref": "Gn 31:32",
-        "chapter": 31,
-        "verse": 32,
-        "start": 127,
-        "end": 130,
-        "literal": "sea",
-        "contexto": "persona morirá. Delante de nuestros parientes, busca lo que sea tuyo y tómalo». Jacob no sabía que Raquel los había robado.",
-        "categorias": [
-          "medidas"
-        ],
-        "candidatos_ficha": [
-          "medidas/sea"
-        ],
-        "estado": "ficha_existente_por_verificar",
-        "origen": "coincidencia_lexica_fuente_BES"
-      },
-      {
-        "ref": "Gn 31:37",
-        "chapter": 31,
-        "verse": 37,
-        "start": 53,
-        "end": 56,
-        "literal": "sea",
-        "contexto": "Has registrado todas mis cosas. ¿Qué encontraste que sea tuyo? Ponlo aquí delante de mis parientes y de los tuyos, y que ellos juzguen entre nosot",
-        "categorias": [
-          "medidas"
-        ],
-        "candidatos_ficha": [
-          "medidas/sea"
-        ],
-        "estado": "ficha_existente_por_verificar",
-        "origen": "coincidencia_lexica_fuente_BES"
-      },
-      {
-        "ref": "Gn 32:12",
-        "chapter": 32,
-        "verse": 12,
-        "start": 65,
-        "end": 68,
-        "literal": "sea",
-        "contexto": "jiste: “Ciertamente te haré bien y haré que tu descendencia sea como la arena del mar, que no se puede contar”».",
-        "categorias": [
-          "medidas"
-        ],
-        "candidatos_ficha": [
-          "medidas/sea"
-        ],
-        "estado": "ficha_existente_por_verificar",
         "origen": "coincidencia_lexica_fuente_BES"
       },
       {
@@ -29945,40 +29741,6 @@
         "origen": "coincidencia_lexica_fuente_BES"
       },
       {
-        "ref": "Gn 38:11",
-        "chapter": 38,
-        "verse": 11,
-        "start": 114,
-        "end": 117,
-        "literal": "sea",
-        "contexto": "a de tu padre y vive allí como viuda hasta que mi hijo Sela sea adulto». Pero Judá pensaba: «No sea que él también muera como sus hermanos». Así Tamar vo",
-        "categorias": [
-          "medidas"
-        ],
-        "candidatos_ficha": [
-          "medidas/sea"
-        ],
-        "estado": "ficha_existente_por_verificar",
-        "origen": "coincidencia_lexica_fuente_BES"
-      },
-      {
-        "ref": "Gn 38:11",
-        "chapter": 38,
-        "verse": 11,
-        "start": 150,
-        "end": 153,
-        "literal": "sea",
-        "contexto": " hasta que mi hijo Sela sea adulto». Pero Judá pensaba: «No sea que él también muera como sus hermanos». Así Tamar volvió a la casa de su padre.",
-        "categorias": [
-          "medidas"
-        ],
-        "candidatos_ficha": [
-          "medidas/sea"
-        ],
-        "estado": "ficha_existente_por_verificar",
-        "origen": "coincidencia_lexica_fuente_BES"
-      },
-      {
         "ref": "Gn 41:34",
         "chapter": 41,
         "verse": 34,
@@ -29991,23 +29753,6 @@
         ],
         "candidatos_ficha": [],
         "estado": "termino_sin_ficha_por_evaluar",
-        "origen": "coincidencia_lexica_fuente_BES"
-      },
-      {
-        "ref": "Gn 41:36",
-        "chapter": 41,
-        "verse": 36,
-        "start": 106,
-        "end": 109,
-        "literal": "sea",
-        "contexto": "ños de hambre que vendrán sobre Egipto, para que el país no sea destruido por el hambre».",
-        "categorias": [
-          "medidas"
-        ],
-        "candidatos_ficha": [
-          "medidas/sea"
-        ],
-        "estado": "ficha_existente_por_verificar",
         "origen": "coincidencia_lexica_fuente_BES"
       },
       {
@@ -30039,105 +29784,10 @@
         "candidatos_ficha": [],
         "estado": "termino_sin_ficha_por_evaluar",
         "origen": "coincidencia_lexica_fuente_BES"
-      },
-      {
-        "ref": "Gn 49:7",
-        "chapter": 49,
-        "verse": 7,
-        "start": 8,
-        "end": 11,
-        "literal": "sea",
-        "contexto": "Maldita sea su ira, porque fue feroz, y su furia, porque fue cruel. Los dividiré entre los descendien",
-        "categorias": [
-          "medidas"
-        ],
-        "candidatos_ficha": [
-          "medidas/sea"
-        ],
-        "estado": "ficha_existente_por_verificar",
-        "origen": "coincidencia_lexica_fuente_BES"
       }
     ]
   },
   "nombres_capitalizados_sin_match": [
-    {
-      "ref": "Gn 25:11",
-      "chapter": 25,
-      "verse": 11,
-      "literal": "Dios",
-      "start": 33,
-      "end": 37,
-      "contexto": "Después de la muerte de Abraham, Dios bendijo a su hijo Isaac. Isaac vivía cerca de Beer-lahai-roi.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 25:21",
-      "chapter": 25,
-      "verse": 21,
-      "literal": "Señor",
-      "start": 13,
-      "end": 18,
-      "contexto": "Isaac oró al Señor por su mujer, porque ella no podía tener hijos. El Señor escuchó su oración y Rebeca qued",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 25:21",
-      "chapter": 25,
-      "verse": 21,
-      "literal": "Señor",
-      "start": 70,
-      "end": 75,
-      "contexto": "al Señor por su mujer, porque ella no podía tener hijos. El Señor escuchó su oración y Rebeca quedó embarazada.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 25:22",
-      "chapter": 25,
-      "verse": 22,
-      "literal": "Señor",
-      "start": 117,
-      "end": 122,
-      "contexto": "o es así, ¿por qué me sucede?». Entonces fue a consultar al Señor.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 25:23",
-      "chapter": 25,
-      "verse": 23,
-      "literal": "Señor",
-      "start": 3,
-      "end": 8,
-      "contexto": "El Señor le dijo: «Dos naciones están en tu vientre, y de ti saldrán dos pueblos. Uno será más fue",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 25:23",
-      "chapter": 25,
-      "verse": 23,
-      "literal": "Dos",
-      "start": 19,
-      "end": 22,
-      "contexto": "El Señor le dijo: «Dos naciones están en tu vientre, y de ti saldrán dos pueblos. Uno será más fuerte que el otr",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
     {
       "ref": "Gn 25:30",
       "chapter": 25,
@@ -30149,201 +29799,6 @@
       "indice_contextual": true,
       "inicio_oracion": false,
       "repeticiones": 11,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 25:32",
-      "chapter": 25,
-      "verse": 32,
-      "literal": "De",
-      "start": 37,
-      "end": 39,
-      "contexto": "Esaú dijo: «Estoy a punto de morir. ¿De qué me sirve ese derecho?».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 16,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 26:2",
-      "chapter": 26,
-      "verse": 2,
-      "literal": "Señor",
-      "start": 3,
-      "end": 8,
-      "contexto": "El Señor se apareció a Isaac y le dijo: «No bajes a Egipto. Quédate en la tierra que yo te mostrar",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 26:12",
-      "chapter": 26,
-      "verse": 12,
-      "literal": "Señor",
-      "start": 83,
-      "end": 88,
-      "contexto": " tierra y ese año cosechó cien veces lo sembrado, porque el Señor lo bendijo.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 26:22",
-      "chapter": 26,
-      "verse": 22,
-      "literal": "Señor",
-      "start": 104,
-      "end": 109,
-      "contexto": " hubo discusión, así que lo llamó Rehobot y dijo: «Ahora el Señor nos ha dado espacio, y prosperaremos en esta tierra».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 26:24",
-      "chapter": 26,
-      "verse": 24,
-      "literal": "Señor",
-      "start": 19,
-      "end": 24,
-      "contexto": "Esa misma noche el Señor se le apareció y le dijo: «Yo soy el Dios de tu padre Abraham. No tengas miedo, porque yo",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 26:24",
-      "chapter": 26,
-      "verse": 24,
-      "literal": "Dios",
-      "start": 62,
-      "end": 66,
-      "contexto": "a misma noche el Señor se le apareció y le dijo: «Yo soy el Dios de tu padre Abraham. No tengas miedo, porque yo estoy contigo. Te bendeciré y haré numero",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 26:25",
-      "chapter": 26,
-      "verse": 25,
-      "literal": "Señor",
-      "start": 41,
-      "end": 46,
-      "contexto": "Isaac construyó allí un altar y adoró al Señor. Levantó allí su tienda, y sus siervos cavaron un pozo.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 26:28",
-      "chapter": 26,
-      "verse": 28,
-      "literal": "Señor",
-      "start": 51,
-      "end": 56,
-      "contexto": "Ellos respondieron: «Hemos visto claramente que el Señor está contigo. Por eso pensamos que debemos hacer un juramento entre nosotros y hacer un p",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 26:29",
-      "chapter": 26,
-      "verse": 29,
-      "literal": "Señor",
-      "start": 150,
-      "end": 155,
-      "contexto": "bien y te dejamos ir en paz. Ahora tú eres bendecido por el Señor».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 27:1",
-      "chapter": 27,
-      "verse": 1,
-      "literal": "Hijo",
-      "start": 90,
-      "end": 94,
-      "contexto": "casi no podía ver, llamó a Esaú, su hijo mayor, y le dijo: «Hijo mío». Esaú respondió: «Aquí estoy».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 27:7",
-      "chapter": 27,
-      "verse": 7,
-      "literal": "Señor",
-      "start": 88,
-      "end": 93,
-      "contexto": "e una comida sabrosa para que coma y te bendiga delante del Señor antes de morir”.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 27:18",
-      "chapter": 27,
-      "verse": 18,
-      "literal": "Padre",
-      "start": 30,
-      "end": 35,
-      "contexto": "Jacob fue a su padre y dijo: «Padre mío». Isaac respondió: «Aquí estoy. ¿Quién eres, hijo mío?».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 27:20",
-      "chapter": 27,
-      "verse": 20,
-      "literal": "Señor",
-      "start": 90,
-      "end": 95,
-      "contexto": "ntraste tan pronto, hijo mío?». Jacob respondió: «Porque el Señor tu Dios hizo que lo encontrara».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 27:20",
-      "chapter": 27,
-      "verse": 20,
-      "literal": "Dios",
-      "start": 99,
-      "end": 103,
-      "contexto": "an pronto, hijo mío?». Jacob respondió: «Porque el Señor tu Dios hizo que lo encontrara».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 27:24",
-      "chapter": 27,
-      "verse": 24,
-      "literal": "De",
-      "start": 28,
-      "end": 30,
-      "contexto": "Isaac volvió a preguntar: «¿De verdad eres mi hijo Esaú?». Jacob respondió: «Sí».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 16,
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
@@ -30360,32 +29815,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 27:27",
-      "chapter": 27,
-      "verse": 27,
-      "literal": "Señor",
-      "start": 140,
-      "end": 145,
-      "contexto": "lor de mi hijo es como el olor de un campo bendecido por el Señor.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 27:28",
-      "chapter": 27,
-      "verse": 28,
-      "literal": "Dios",
-      "start": 4,
-      "end": 8,
-      "contexto": "Que Dios te dé el rocío del cielo, la riqueza de la tierra y abundancia de grano y vino.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 27:31",
       "chapter": 27,
       "verse": 31,
@@ -30396,71 +29825,6 @@
       "indice_contextual": false,
       "inicio_oracion": true,
       "repeticiones": 16,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 27:31",
-      "chapter": 27,
-      "verse": 31,
-      "literal": "Padre",
-      "start": 68,
-      "end": 73,
-      "contexto": "preparó una comida sabrosa, se la llevó a su padre y dijo: «Padre mío, levántate y come de lo que ha cazado tu hijo, para que me bendigas».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 27:34",
-      "chapter": 27,
-      "verse": 34,
-      "literal": "Bendíceme",
-      "start": 82,
-      "end": 91,
-      "contexto": "labras de su padre, dio un grito fuerte y amargo, y dijo: «¡Bendíceme también a mí, padre mío!».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 27:38",
-      "chapter": 27,
-      "verse": 38,
-      "literal": "Bendíceme",
-      "start": 52,
-      "end": 61,
-      "contexto": "Esaú dijo: «¿Solo tienes una bendición, padre mío? ¡Bendíceme también a mí!». Y Esaú comenzó a llorar.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 28:3",
-      "chapter": 28,
-      "verse": 3,
-      "literal": "Dios",
-      "start": 4,
-      "end": 8,
-      "contexto": "Que Dios, el que gobierna sobre todo, te bendiga, te haga fecundo y multiplique tu descendencia, h",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 28:4",
-      "chapter": 28,
-      "verse": 4,
-      "literal": "Dios",
-      "start": 144,
-      "end": 148,
-      "contexto": "rencia la tierra donde vives como extranjero, la tierra que Dios dio a Abraham».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
@@ -30477,331 +29841,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 28:11",
-      "chapter": 28,
-      "verse": 11,
-      "literal": "Llegó",
-      "start": 0,
-      "end": 5,
-      "contexto": "Llegó a cierto lugar y pasó allí la noche porque el sol ya se había puesto. Tomó una piedra del",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 3,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 28:12",
-      "chapter": 28,
-      "verse": 12,
-      "literal": "Dios",
-      "start": 95,
-      "end": 99,
-      "contexto": " tierra cuyo extremo llegaba hasta el cielo. Los ángeles de Dios subían y bajaban por ella.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 28:13",
-      "chapter": 28,
-      "verse": 13,
-      "literal": "Señor",
-      "start": 3,
-      "end": 8,
-      "contexto": "El Señor estaba sobre ella y dijo: «Yo soy el Señor, el Dios de Abraham tu padre y el Dios de Isaa",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 28:13",
-      "chapter": 28,
-      "verse": 13,
-      "literal": "Señor",
-      "start": 46,
-      "end": 51,
-      "contexto": "El Señor estaba sobre ella y dijo: «Yo soy el Señor, el Dios de Abraham tu padre y el Dios de Isaac. La tierra donde estás acostado te la dar",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 28:13",
-      "chapter": 28,
-      "verse": 13,
-      "literal": "Dios",
-      "start": 56,
-      "end": 60,
-      "contexto": "El Señor estaba sobre ella y dijo: «Yo soy el Señor, el Dios de Abraham tu padre y el Dios de Isaac. La tierra donde estás acostado te la daré a ti y ",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 28:13",
-      "chapter": 28,
-      "verse": 13,
-      "literal": "Dios",
-      "start": 86,
-      "end": 90,
-      "contexto": " y dijo: «Yo soy el Señor, el Dios de Abraham tu padre y el Dios de Isaac. La tierra donde estás acostado te la daré a ti y a tu descendencia.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 28:16",
-      "chapter": 28,
-      "verse": 16,
-      "literal": "Señor",
-      "start": 37,
-      "end": 42,
-      "contexto": "Jacob despertó y dijo: «En verdad el Señor está en este lugar, y yo no lo sabía».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 28:17",
-      "chapter": 28,
-      "verse": 17,
-      "literal": "Tuvo",
-      "start": 0,
-      "end": 4,
-      "contexto": "Tuvo miedo y dijo: «¡Qué impresionante es este lugar! No es otra cosa que la casa de Dios y la",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 28:17",
-      "chapter": 28,
-      "verse": 17,
-      "literal": "Dios",
-      "start": 85,
-      "end": 89,
-      "contexto": "impresionante es este lugar! No es otra cosa que la casa de Dios y la puerta del cielo».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 28:20",
-      "chapter": 28,
-      "verse": 20,
-      "literal": "Dios",
-      "start": 33,
-      "end": 37,
-      "contexto": "Entonces Jacob hizo un voto: «Si Dios está conmigo, me cuida en este viaje, me da alimento para comer y ropa para vestir,",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 28:21",
-      "chapter": 28,
-      "verse": 21,
-      "literal": "Señor",
-      "start": 59,
-      "end": 64,
-      "contexto": "y me hace volver en paz a la casa de mi padre, entonces el Señor será mi Dios.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 28:21",
-      "chapter": 28,
-      "verse": 21,
-      "literal": "Dios",
-      "start": 73,
-      "end": 77,
-      "contexto": "ver en paz a la casa de mi padre, entonces el Señor será mi Dios.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 28:22",
-      "chapter": 28,
-      "verse": 22,
-      "literal": "Dios",
-      "start": 53,
-      "end": 57,
-      "contexto": "Esta piedra que he levantado como pilar será casa de Dios, y de todo lo que me des te daré la décima parte».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 29:4",
-      "chapter": 29,
-      "verse": 4,
-      "literal": "De",
-      "start": 80,
-      "end": 82,
-      "contexto": " pastores: «Hermanos, ¿de dónde son?». Ellos respondieron: «De Harán».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 16,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 29:15",
-      "chapter": 29,
-      "verse": 15,
-      "literal": "Dime",
-      "start": 98,
-      "end": 102,
-      "contexto": "as mi pariente, no debes trabajar para mí sin recibir nada. Dime cuánto quieres que te pague».",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 3,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 29:31",
-      "chapter": 29,
-      "verse": 31,
-      "literal": "Señor",
-      "start": 10,
-      "end": 15,
-      "contexto": "Cuando el Señor vio que Lea no era amada, hizo que pudiera tener hijos, pero Raquel no podía tenerlos.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 29:32",
-      "chapter": 29,
-      "verse": 32,
-      "literal": "Señor",
-      "start": 75,
-      "end": 80,
-      "contexto": "azada y dio a luz un hijo. Lo llamó Rubén, porque dijo: «El Señor ha visto mi aflicción. Ahora mi esposo me amará».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 29:33",
-      "chapter": 29,
-      "verse": 33,
-      "literal": "Dijo",
-      "start": 43,
-      "end": 47,
-      "contexto": "Volvió a quedar embarazada y tuvo un hijo. Dijo: «El Señor ha oído que no soy amada y por eso me ha dado también este hijo». Y lo llamó S",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 6,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 29:33",
-      "chapter": 29,
-      "verse": 33,
-      "literal": "Señor",
-      "start": 53,
-      "end": 58,
-      "contexto": "Volvió a quedar embarazada y tuvo un hijo. Dijo: «El Señor ha oído que no soy amada y por eso me ha dado también este hijo». Y lo llamó Simeón.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 29:34",
-      "chapter": 29,
-      "verse": 34,
-      "literal": "Dijo",
-      "start": 43,
-      "end": 47,
-      "contexto": "Volvió a quedar embarazada y tuvo un hijo. Dijo: «Ahora mi esposo se unirá más a mí, porque le he dado tres hijos». Por eso lo llamó Leví",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 6,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 29:35",
-      "chapter": 29,
-      "verse": 35,
-      "literal": "Dijo",
-      "start": 42,
-      "end": 46,
-      "contexto": "Quedó embarazada otra vez y tuvo un hijo. Dijo: «Esta vez alabaré al Señor». Por eso lo llamó Judá. Después dejó de tener hijos por un t",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 6,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 29:35",
-      "chapter": 29,
-      "verse": 35,
-      "literal": "Señor",
-      "start": 69,
-      "end": 74,
-      "contexto": "arazada otra vez y tuvo un hijo. Dijo: «Esta vez alabaré al Señor». Por eso lo llamó Judá. Después dejó de tener hijos por un tiempo.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 30:2",
-      "chapter": 30,
-      "verse": 2,
-      "literal": "Dios",
-      "start": 68,
-      "end": 72,
-      "contexto": " enojó con Raquel y respondió: «¿Acaso estoy yo en lugar de Dios, que no te ha permitido tener hijos?».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 30:3",
-      "chapter": 30,
-      "verse": 3,
-      "literal": "Únete",
-      "start": 39,
-      "end": 44,
-      "contexto": "Ella dijo: «Aquí está mi sierva Bilha. Únete a ella para que tenga hijos para mí, y así pueda formar una familia por medio de ella».",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 30:6",
-      "chapter": 30,
-      "verse": 6,
-      "literal": "Dios",
-      "start": 14,
-      "end": 18,
-      "contexto": "Raquel dijo: «Dios me ha hecho justicia. Ha escuchado mi voz y me ha dado un hijo». Por eso lo llamó Dan.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 30:15",
       "chapter": 30,
       "verse": 15,
@@ -30815,97 +29854,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 30:17",
-      "chapter": 30,
-      "verse": 17,
-      "literal": "Dios",
-      "start": 0,
-      "end": 4,
-      "contexto": "Dios escuchó a Lea. Ella quedó embarazada y dio a Jacob un quinto hijo.",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 30:18",
-      "chapter": 30,
-      "verse": 18,
-      "literal": "Dios",
-      "start": 11,
-      "end": 15,
-      "contexto": "Lea dijo: «Dios me ha dado mi recompensa por haber dado mi sierva a mi esposo». Y llamó al niño Isacar.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 30:20",
-      "chapter": 30,
-      "verse": 20,
-      "literal": "Dios",
-      "start": 11,
-      "end": 15,
-      "contexto": "Lea dijo: «Dios me ha dado un buen regalo. Ahora mi esposo me respetará, porque le he dado seis hijos». Y",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 30:22",
-      "chapter": 30,
-      "verse": 22,
-      "literal": "Dios",
-      "start": 9,
-      "end": 13,
-      "contexto": "Entonces Dios se acordó de Raquel, escuchó su oración y le permitió tener hijos.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 30:23",
-      "chapter": 30,
-      "verse": 23,
-      "literal": "Dijo",
-      "start": 43,
-      "end": 47,
-      "contexto": "Ella quedó embarazada y dio a luz un hijo. Dijo: «Dios ha quitado mi vergüenza».",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 6,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 30:23",
-      "chapter": 30,
-      "verse": 23,
-      "literal": "Dios",
-      "start": 50,
-      "end": 54,
-      "contexto": "Ella quedó embarazada y dio a luz un hijo. Dijo: «Dios ha quitado mi vergüenza».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 30:24",
-      "chapter": 30,
-      "verse": 24,
-      "literal": "Señor",
-      "start": 30,
-      "end": 35,
-      "contexto": "Lo llamó José y dijo: «Que el Señor me dé otro hijo».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 30:25",
       "chapter": 30,
       "verse": 25,
@@ -30916,292 +29864,6 @@
       "indice_contextual": false,
       "inicio_oracion": false,
       "repeticiones": 4,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 30:27",
-      "chapter": 30,
-      "verse": 27,
-      "literal": "Señor",
-      "start": 80,
-      "end": 85,
-      "contexto": " cuento con tu favor, quédate. He sabido por señales que el Señor me ha bendecido por causa de ti.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 30:28",
-      "chapter": 30,
-      "verse": 28,
-      "literal": "Dime",
-      "start": 0,
-      "end": 4,
-      "contexto": "Dime cuánto quieres que te pague y te lo daré».",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 3,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 30:30",
-      "chapter": 30,
-      "verse": 30,
-      "literal": "Señor",
-      "start": 65,
-      "end": 70,
-      "contexto": " de que yo llegara tenías poco, pero ahora tienes mucho. El Señor te ha bendecido por medio de mi trabajo. Pero ¿cuándo podré hacer algo también por mi pro",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 30:34",
-      "chapter": 30,
-      "verse": 34,
-      "literal": "De",
-      "start": 18,
-      "end": 20,
-      "contexto": "Labán respondió: «De acuerdo. Que sea como has dicho».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 16,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 30:43",
-      "chapter": 30,
-      "verse": 43,
-      "literal": "De",
-      "start": 0,
-      "end": 2,
-      "contexto": "De esta manera Jacob llegó a ser muy rico. Tuvo grandes rebaños, siervos y siervas, camellos",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 16,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 30:43",
-      "chapter": 30,
-      "verse": 43,
-      "literal": "Tuvo",
-      "start": 43,
-      "end": 47,
-      "contexto": "De esta manera Jacob llegó a ser muy rico. Tuvo grandes rebaños, siervos y siervas, camellos y asnos.",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:3",
-      "chapter": 31,
-      "verse": 3,
-      "literal": "Señor",
-      "start": 12,
-      "end": 17,
-      "contexto": "Entonces el Señor dijo a Jacob: «Vuelve a la tierra de tus padres y a tu familia, y yo estaré contigo».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:5",
-      "chapter": 31,
-      "verse": 5,
-      "literal": "Dios",
-      "start": 63,
-      "end": 67,
-      "contexto": " dijo: «Veo que su padre ya no me trata como antes, pero el Dios de mi padre ha estado conmigo.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:7",
-      "chapter": 31,
-      "verse": 7,
-      "literal": "Dios",
-      "start": 79,
-      "end": 83,
-      "contexto": "re me ha engañado y ha cambiado mi salario diez veces. Pero Dios no le permitió hacerme daño.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:9",
-      "chapter": 31,
-      "verse": 9,
-      "literal": "Dios",
-      "start": 4,
-      "end": 8,
-      "contexto": "Así Dios le quitó el ganado a su padre y me lo dio a mí.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:11",
-      "chapter": 31,
-      "verse": 11,
-      "literal": "Dios",
-      "start": 25,
-      "end": 29,
-      "contexto": "En el sueño, el ángel de Dios me llamó: “¡Jacob!”. Yo respondí: “Aquí estoy”.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:13",
-      "chapter": 31,
-      "verse": 13,
-      "literal": "Dios",
-      "start": 10,
-      "end": 14,
-      "contexto": "Yo soy el Dios de Betel, donde ungiste una piedra como pilar y me hiciste un voto. Ahora levántate, sal ",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:16",
-      "chapter": 31,
-      "verse": 16,
-      "literal": "Dios",
-      "start": 20,
-      "end": 24,
-      "contexto": "Toda la riqueza que Dios le quitó a nuestro padre es nuestra y de nuestros hijos. Haz, pues, todo lo que Dios te h",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:16",
-      "chapter": 31,
-      "verse": 16,
-      "literal": "Dios",
-      "start": 105,
-      "end": 109,
-      "contexto": "adre es nuestra y de nuestros hijos. Haz, pues, todo lo que Dios te ha dicho».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:24",
-      "chapter": 31,
-      "verse": 24,
-      "literal": "Dios",
-      "start": 5,
-      "end": 9,
-      "contexto": "Pero Dios vino a Labán el arameo en un sueño durante la noche y le dijo: «Ten cuidado de no decir a",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:29",
-      "chapter": 31,
-      "verse": 29,
-      "literal": "Dios",
-      "start": 46,
-      "end": 50,
-      "contexto": "Tengo poder para hacerte daño, pero anoche el Dios de tu padre me dijo: “Ten cuidado de no decir a Jacob nada bueno ni malo”.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:37",
-      "chapter": 31,
-      "verse": 37,
-      "literal": "Ponlo",
-      "start": 63,
-      "end": 68,
-      "contexto": " registrado todas mis cosas. ¿Qué encontraste que sea tuyo? Ponlo aquí delante de mis parientes y de los tuyos, y que ellos juzguen entre nosotros.",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:40",
-      "chapter": 31,
-      "verse": 40,
-      "literal": "De",
-      "start": 0,
-      "end": 2,
-      "contexto": "De día me consumía el calor y de noche el frío, y muchas veces no podía dormir.",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 16,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:42",
-      "chapter": 31,
-      "verse": 42,
-      "literal": "Dios",
-      "start": 6,
-      "end": 10,
-      "contexto": "Si el Dios de mi padre, el Dios de Abraham y el Dios a quien Isaac teme, no hubiera estado conmigo, ",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:42",
-      "chapter": 31,
-      "verse": 42,
-      "literal": "Dios",
-      "start": 27,
-      "end": 31,
-      "contexto": "Si el Dios de mi padre, el Dios de Abraham y el Dios a quien Isaac teme, no hubiera estado conmigo, seguramente me habría",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:42",
-      "chapter": 31,
-      "verse": 42,
-      "literal": "Dios",
-      "start": 48,
-      "end": 52,
-      "contexto": "Si el Dios de mi padre, el Dios de Abraham y el Dios a quien Isaac teme, no hubiera estado conmigo, seguramente me habrías enviado con las man",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:42",
-      "chapter": 31,
-      "verse": 42,
-      "literal": "Dios",
-      "start": 158,
-      "end": 162,
-      "contexto": ", seguramente me habrías enviado con las manos vacías. Pero Dios vio mi sufrimiento y el trabajo de mis manos, y anoche te reprendió».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
@@ -31244,110 +29906,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 31:49",
-      "chapter": 31,
-      "verse": 49,
-      "literal": "Señor",
-      "start": 54,
-      "end": 59,
-      "contexto": "También fue llamado Mizpa, porque Labán dijo: «Que el Señor nos vigile cuando estemos lejos el uno del otro.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:50",
-      "chapter": 31,
-      "verse": 50,
-      "literal": "Dios",
-      "start": 109,
-      "end": 113,
-      "contexto": "emás de ellas, aunque nadie esté con nosotros, recuerda que Dios es testigo entre tú y yo».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:53",
-      "chapter": 31,
-      "verse": 53,
-      "literal": "Dios",
-      "start": 7,
-      "end": 11,
-      "contexto": "Que el Dios de Abraham y el Dios de Nacor, el Dios de sus padres, juzgue entre nosotros». Entonces Ja",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:53",
-      "chapter": 31,
-      "verse": 53,
-      "literal": "Dios",
-      "start": 28,
-      "end": 32,
-      "contexto": "Que el Dios de Abraham y el Dios de Nacor, el Dios de sus padres, juzgue entre nosotros». Entonces Jacob juró por el Dios ",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:53",
-      "chapter": 31,
-      "verse": 53,
-      "literal": "Dios",
-      "start": 46,
-      "end": 50,
-      "contexto": "Que el Dios de Abraham y el Dios de Nacor, el Dios de sus padres, juzgue entre nosotros». Entonces Jacob juró por el Dios a quien temía su p",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 31:53",
-      "chapter": 31,
-      "verse": 53,
-      "literal": "Dios",
-      "start": 117,
-      "end": 121,
-      "contexto": " padres, juzgue entre nosotros». Entonces Jacob juró por el Dios a quien temía su padre Isaac.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 32:1",
-      "chapter": 32,
-      "verse": 1,
-      "literal": "Dios",
-      "start": 41,
-      "end": 45,
-      "contexto": "Jacob siguió su camino, y los ángeles de Dios salieron a su encuentro.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 32:2",
-      "chapter": 32,
-      "verse": 2,
-      "literal": "Dios",
-      "start": 52,
-      "end": 56,
-      "contexto": "Cuando Jacob los vio, dijo: «Este es el ejército de Dios». Por eso llamó a aquel lugar Mahanaim.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 32:3",
       "chapter": 32,
       "verse": 3,
@@ -31358,97 +29916,6 @@
       "indice_contextual": true,
       "inicio_oracion": false,
       "repeticiones": 11,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 32:4",
-      "chapter": 32,
-      "verse": 4,
-      "literal": "Digan",
-      "start": 19,
-      "end": 24,
-      "contexto": "Les ordenó decir: «Digan a mi señor Esaú: “Tu siervo Jacob dice: He vivido con Labán hasta ahora.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 32:9",
-      "chapter": 32,
-      "verse": 9,
-      "literal": "Dios",
-      "start": 21,
-      "end": 25,
-      "contexto": "Entonces Jacob oró: «Dios de mi padre Abraham y Dios de mi padre Isaac, Señor, tú me dijiste: “Vuelve a tu tierra y",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 32:9",
-      "chapter": 32,
-      "verse": 9,
-      "literal": "Dios",
-      "start": 48,
-      "end": 52,
-      "contexto": "Entonces Jacob oró: «Dios de mi padre Abraham y Dios de mi padre Isaac, Señor, tú me dijiste: “Vuelve a tu tierra y a tu familia, y yo te haré",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 32:9",
-      "chapter": 32,
-      "verse": 9,
-      "literal": "Señor",
-      "start": 72,
-      "end": 77,
-      "contexto": "ob oró: «Dios de mi padre Abraham y Dios de mi padre Isaac, Señor, tú me dijiste: “Vuelve a tu tierra y a tu familia, y yo te haré bien”.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 32:17",
-      "chapter": 32,
-      "verse": 17,
-      "literal": "De",
-      "start": 76,
-      "end": 78,
-      "contexto": "denó: «Cuando mi hermano Esaú te encuentre y te pregunte: “¿De quién eres? ¿Adónde vas? ¿De quién son estos animales?”,",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 16,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 32:17",
-      "chapter": 32,
-      "verse": 17,
-      "literal": "De",
-      "start": 105,
-      "end": 107,
-      "contexto": " te encuentre y te pregunte: “¿De quién eres? ¿Adónde vas? ¿De quién son estos animales?”,",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 16,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 32:19",
-      "chapter": 32,
-      "verse": 19,
-      "literal": "Dio",
-      "start": 0,
-      "end": 3,
-      "contexto": "Dio las mismas instrucciones al segundo, al tercero y a todos los que iban con los animales: ",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 2,
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
@@ -31488,84 +29955,6 @@
       "indice_contextual": false,
       "inicio_oracion": false,
       "repeticiones": 42,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 32:28",
-      "chapter": 32,
-      "verse": 28,
-      "literal": "Dios",
-      "start": 77,
-      "end": 81,
-      "contexto": "a no te llamarás Jacob, sino Israel, porque has luchado con Dios y con los hombres y has vencido».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 32:29",
-      "chapter": 32,
-      "verse": 29,
-      "literal": "Dime",
-      "start": 20,
-      "end": 24,
-      "contexto": "Jacob le preguntó: «Dime, por favor, ¿cómo te llamas?». Él respondió: «¿Por qué me preguntas mi nombre?». Y allí l",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 3,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 32:30",
-      "chapter": 32,
-      "verse": 30,
-      "literal": "Dios",
-      "start": 59,
-      "end": 63,
-      "contexto": "Jacob llamó a aquel lugar Peniel, porque dijo: «He visto a Dios cara a cara y sigo con vida».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 33:5",
-      "chapter": 33,
-      "verse": 5,
-      "literal": "Dios",
-      "start": 145,
-      "end": 149,
-      "contexto": "s que vienen contigo?». Jacob respondió: «Son los hijos que Dios ha dado a tu siervo por su bondad».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 33:10",
-      "chapter": 33,
-      "verse": 10,
-      "literal": "Dios",
-      "start": 138,
-      "end": 142,
-      "contexto": "regalo. Ver tu rostro ha sido para mí como ver el rostro de Dios, porque me has recibido con bondad.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 33:11",
-      "chapter": 33,
-      "verse": 11,
-      "literal": "Dios",
-      "start": 54,
-      "end": 58,
-      "contexto": "Acepta, por favor, el regalo que te he traído, porque Dios ha sido muy bueno conmigo y tengo suficiente». Jacob insistió tanto que Esaú lo aceptó.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
@@ -31634,58 +30023,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 35:1",
-      "chapter": 35,
-      "verse": 1,
-      "literal": "Dios",
-      "start": 0,
-      "end": 4,
-      "contexto": "Dios dijo a Jacob: «Levántate, ve a Betel y vive allí. Construye un altar al Dios que se te ap",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 35:1",
-      "chapter": 35,
-      "verse": 1,
-      "literal": "Dios",
-      "start": 77,
-      "end": 81,
-      "contexto": ": «Levántate, ve a Betel y vive allí. Construye un altar al Dios que se te apareció cuando huías de tu hermano Esaú».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 35:3",
-      "chapter": 35,
-      "verse": 3,
-      "literal": "Dios",
-      "start": 60,
-      "end": 64,
-      "contexto": "Levantémonos y vayamos a Betel. Allí construiré un altar al Dios que me respondió cuando estaba en dificultad y que estuvo conmigo en todo mi camino».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 35:5",
-      "chapter": 35,
-      "verse": 5,
-      "literal": "Dios",
-      "start": 30,
-      "end": 34,
-      "contexto": "Cuando emprendieron el viaje, Dios hizo que las ciudades de alrededor sintieran un gran temor, y nadie persiguió a los hijos",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 35:7",
       "chapter": 35,
       "verse": 7,
@@ -31699,19 +30036,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 35:7",
-      "chapter": 35,
-      "verse": 7,
-      "literal": "Dios",
-      "start": 63,
-      "end": 67,
-      "contexto": "í construyó un altar y llamó al lugar El-Betel, porque allí Dios se le había aparecido cuando huía de su hermano.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 35:8",
       "chapter": 35,
       "verse": 8,
@@ -31722,32 +30046,6 @@
       "indice_contextual": false,
       "inicio_oracion": false,
       "repeticiones": 1,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 35:9",
-      "chapter": 35,
-      "verse": 9,
-      "literal": "Dios",
-      "start": 36,
-      "end": 40,
-      "contexto": "Cuando Jacob regresó de Padán-aram, Dios se le apareció otra vez y lo bendijo.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 35:10",
-      "chapter": 35,
-      "verse": 10,
-      "literal": "Dios",
-      "start": 0,
-      "end": 4,
-      "contexto": "Dios le dijo: «Tu nombre es Jacob, pero ya no te llamarás Jacob. Tu nombre será Israel». Y lo ",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 99,
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
@@ -31774,84 +30072,6 @@
       "indice_contextual": false,
       "inicio_oracion": false,
       "repeticiones": 42,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 35:11",
-      "chapter": 35,
-      "verse": 11,
-      "literal": "Dios",
-      "start": 0,
-      "end": 4,
-      "contexto": "Dios también le dijo: «Yo soy Dios, el que gobierna sobre todo. Sé fecundo y multiplícate. De ",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 35:11",
-      "chapter": 35,
-      "verse": 11,
-      "literal": "Dios",
-      "start": 30,
-      "end": 34,
-      "contexto": "Dios también le dijo: «Yo soy Dios, el que gobierna sobre todo. Sé fecundo y multiplícate. De ti saldrán una nación y un gru",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 35:11",
-      "chapter": 35,
-      "verse": 11,
-      "literal": "De",
-      "start": 91,
-      "end": 93,
-      "contexto": "ios, el que gobierna sobre todo. Sé fecundo y multiplícate. De ti saldrán una nación y un grupo de naciones, y reyes vendrán de tu descendencia.",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 16,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 35:13",
-      "chapter": 35,
-      "verse": 13,
-      "literal": "Dios",
-      "start": 9,
-      "end": 13,
-      "contexto": "Entonces Dios se alejó del lugar donde había hablado con Jacob.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 35:14",
-      "chapter": 35,
-      "verse": 14,
-      "literal": "Dios",
-      "start": 51,
-      "end": 55,
-      "contexto": "Jacob levantó un pilar de piedra en el lugar donde Dios había hablado con él. Derramó sobre él una ofrenda líquida y aceite.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 35:15",
-      "chapter": 35,
-      "verse": 15,
-      "literal": "Dios",
-      "start": 33,
-      "end": 37,
-      "contexto": "Jacob llamó Betel al lugar donde Dios había hablado con él.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
@@ -31946,19 +30166,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 36:15",
-      "chapter": 36,
-      "verse": 15,
-      "literal": "De",
-      "start": 56,
-      "end": 58,
-      "contexto": "Estos fueron los jefes entre los descendientes de Esaú. De Elifaz, hijo mayor de Esaú, vinieron los jefes Temán, Omar, Zefo, Cenaz,",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 16,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 36:16",
       "chapter": 36,
       "verse": 16,
@@ -31975,19 +30182,6 @@
       "ref": "Gn 36:17",
       "chapter": 36,
       "verse": 17,
-      "literal": "De",
-      "start": 0,
-      "end": 2,
-      "contexto": "De Reuel, hijo de Esaú, vinieron los jefes Nahat, Zera, Sama y Miza. Estos fueron los jefes ",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 16,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 36:17",
-      "chapter": 36,
-      "verse": 17,
       "literal": "Edom",
       "start": 131,
       "end": 135,
@@ -31995,19 +30189,6 @@
       "indice_contextual": false,
       "inicio_oracion": false,
       "repeticiones": 11,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 36:18",
-      "chapter": 36,
-      "verse": 18,
-      "literal": "De",
-      "start": 0,
-      "end": 2,
-      "contexto": "De Aholibama, mujer de Esaú, vinieron los jefes Jeús, Jaalam y Coré. Estos fueron los jefes ",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 16,
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
@@ -32141,32 +30322,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 37:7",
-      "chapter": 37,
-      "verse": 7,
-      "literal": "De",
-      "start": 47,
-      "end": 49,
-      "contexto": "Estábamos en el campo atando manojos de grano. De pronto mi manojo se levantó y quedó derecho, y los manojos de ustedes se reunieron alrede",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 16,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 37:9",
-      "chapter": 37,
-      "verse": 9,
-      "literal": "Dijo",
-      "start": 62,
-      "end": 66,
-      "contexto": "spués tuvo otro sueño y también se lo contó a sus hermanos. Dijo: «Tuve otro sueño. El sol, la luna y once estrellas se inclinaban ante mí».",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 6,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 37:13",
       "chapter": 37,
       "verse": 13,
@@ -32232,58 +30387,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 38:7",
-      "chapter": 38,
-      "verse": 7,
-      "literal": "Señor",
-      "start": 39,
-      "end": 44,
-      "contexto": "Pero Er hizo lo malo ante los ojos del Señor, y el Señor le quitó la vida.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 38:7",
-      "chapter": 38,
-      "verse": 7,
-      "literal": "Señor",
-      "start": 51,
-      "end": 56,
-      "contexto": "Pero Er hizo lo malo ante los ojos del Señor, y el Señor le quitó la vida.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 38:8",
-      "chapter": 38,
-      "verse": 8,
-      "literal": "Únete",
-      "start": 28,
-      "end": 33,
-      "contexto": "Entonces Judá dijo a Onán: «Únete a la mujer de tu hermano y cumple con tu deber como hermano del esposo muerto, para darle",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 38:10",
-      "chapter": 38,
-      "verse": 10,
-      "literal": "Señor",
-      "start": 40,
-      "end": 45,
-      "contexto": "Lo que hacía era malo ante los ojos del Señor, y también a él le quitó la vida.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 38:16",
       "chapter": 38,
       "verse": 16,
@@ -32297,201 +30400,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 39:2",
-      "chapter": 39,
-      "verse": 2,
-      "literal": "Señor",
-      "start": 3,
-      "end": 8,
-      "contexto": "El Señor estaba con José, y todo le iba bien. José vivía en la casa de su amo egipcio.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 39:3",
-      "chapter": 39,
-      "verse": 3,
-      "literal": "Señor",
-      "start": 18,
-      "end": 23,
-      "contexto": "Su amo vio que el Señor estaba con José y que hacía prosperar todo lo que él hacía.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 39:5",
-      "chapter": 39,
-      "verse": 5,
-      "literal": "Señor",
-      "start": 77,
-      "end": 82,
-      "contexto": "en que lo puso a cargo de su casa y de todos sus bienes, el Señor bendijo la casa del egipcio por causa de José. La bendición del Señor estaba sobre todo l",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 39:5",
-      "chapter": 39,
-      "verse": 5,
-      "literal": "Señor",
-      "start": 147,
-      "end": 152,
-      "contexto": "ijo la casa del egipcio por causa de José. La bendición del Señor estaba sobre todo lo que tenía, tanto en la casa como en el campo.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 39:9",
-      "chapter": 39,
-      "verse": 9,
-      "literal": "Dios",
-      "start": 155,
-      "end": 159,
-      "contexto": "s su mujer. ¿Cómo podría hacer algo tan malo y pecar contra Dios?».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 39:21",
-      "chapter": 39,
-      "verse": 21,
-      "literal": "Señor",
-      "start": 8,
-      "end": 13,
-      "contexto": "Pero el Señor estaba con José, le mostró bondad e hizo que hallara favor ante el jefe de la prisión.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 39:23",
-      "chapter": 39,
-      "verse": 23,
-      "literal": "Señor",
-      "start": 105,
-      "end": 110,
-      "contexto": "e por nada que estuviera bajo el cuidado de José, porque el Señor estaba con él y hacía prosperar todo lo que hacía.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 40:8",
-      "chapter": 40,
-      "verse": 8,
-      "literal": "Dios",
-      "start": 113,
-      "end": 117,
-      "contexto": "hay nadie que los interprete». José dijo: «¿No pertenecen a Dios las interpretaciones? Cuéntenme sus sueños».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 41:1",
-      "chapter": 41,
-      "verse": 1,
-      "literal": "Dos",
-      "start": 0,
-      "end": 3,
-      "contexto": "Dos años después, el faraón tuvo un sueño. Estaba de pie junto al río Nilo.",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 41:2",
-      "chapter": 41,
-      "verse": 2,
-      "literal": "Del",
-      "start": 0,
-      "end": 3,
-      "contexto": "Del río salieron siete vacas hermosas y gordas, que comenzaron a comer la hierba junto al río",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 41:16",
-      "chapter": 41,
-      "verse": 16,
-      "literal": "Dios",
-      "start": 56,
-      "end": 60,
-      "contexto": "José respondió: «Yo no puedo hacerlo por mí mismo, pero Dios dará al faraón una respuesta favorable».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 41:18",
-      "chapter": 41,
-      "verse": 18,
-      "literal": "Del",
-      "start": 0,
-      "end": 3,
-      "contexto": "Del río salieron siete vacas gordas y hermosas, que comenzaron a comer la hierba junto al río",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 41:25",
-      "chapter": 41,
-      "verse": 25,
-      "literal": "Dios",
-      "start": 58,
-      "end": 62,
-      "contexto": "José dijo al faraón: «Los dos sueños significan lo mismo. Dios ha mostrado al faraón lo que está por hacer.",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 41:28",
-      "chapter": 41,
-      "verse": 28,
-      "literal": "Dios",
-      "start": 31,
-      "end": 35,
-      "contexto": "Esto es lo que dije al faraón: Dios le ha mostrado lo que está por hacer.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 41:32",
-      "chapter": 41,
-      "verse": 32,
-      "literal": "Dios",
-      "start": 37,
-      "end": 41,
-      "contexto": "El sueño se repitió dos veces porque Dios ha decidido hacerlo, y pronto lo llevará a cabo.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 41:34",
       "chapter": 41,
       "verse": 34,
@@ -32499,84 +30407,6 @@
       "start": 0,
       "end": 7,
       "contexto": "También debe nombrar funcionarios sobre el país para guardar la quinta parte de las cosechas dura",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 16,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 41:38",
-      "chapter": 41,
-      "verse": 38,
-      "literal": "Dios",
-      "start": 112,
-      "end": 116,
-      "contexto": "contrar otro hombre como este, en quien esté el Espíritu de Dios?».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 41:39",
-      "chapter": 41,
-      "verse": 39,
-      "literal": "Dios",
-      "start": 31,
-      "end": 35,
-      "contexto": "El faraón dijo a José: «Ya que Dios te ha mostrado todo esto, no hay nadie tan sabio y prudente como tú.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 41:49",
-      "chapter": 41,
-      "verse": 49,
-      "literal": "Llegó",
-      "start": 49,
-      "end": 54,
-      "contexto": "José almacenó tanto grano como la arena del mar. Llegó un momento en que dejó de medirlo porque era imposible calcular cuánto había.",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 3,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 41:51",
-      "chapter": 41,
-      "verse": 51,
-      "literal": "Dios",
-      "start": 45,
-      "end": 49,
-      "contexto": "José llamó Manasés al primero, porque dijo: «Dios me ha hecho olvidar todo mi sufrimiento y la casa de mi padre».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 41:52",
-      "chapter": 41,
-      "verse": 52,
-      "literal": "Dios",
-      "start": 42,
-      "end": 46,
-      "contexto": "Al segundo lo llamó Efraín, porque dijo: «Dios me ha hecho fecundo en la tierra de mi aflicción».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 41:57",
-      "chapter": 41,
-      "verse": 57,
-      "literal": "De",
-      "start": 0,
-      "end": 2,
-      "contexto": "De todas las tierras venían a Egipto para comprar grano a José, porque el hambre era muy fue",
       "indice_contextual": false,
       "inicio_oracion": true,
       "repeticiones": 16,
@@ -32596,84 +30426,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 42:7",
-      "chapter": 42,
-      "verse": 7,
-      "literal": "De",
-      "start": 101,
-      "end": 103,
-      "contexto": "os vio, pero fingió no conocerlos y les habló con dureza: «¿De dónde vienen?». Ellos respondieron: «De la tierra de Canaán, para comprar alimento».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 16,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 42:7",
-      "chapter": 42,
-      "verse": 7,
-      "literal": "De",
-      "start": 141,
-      "end": 143,
-      "contexto": "habló con dureza: «¿De dónde vienen?». Ellos respondieron: «De la tierra de Canaán, para comprar alimento».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 16,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 42:18",
-      "chapter": 42,
-      "verse": 18,
-      "literal": "Dios",
-      "start": 69,
-      "end": 73,
-      "contexto": " día José les dijo: «Hagan esto y vivirán, porque yo temo a Dios.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 42:28",
-      "chapter": 42,
-      "verse": 28,
-      "literal": "Dijo",
-      "start": 0,
-      "end": 4,
-      "contexto": "Dijo a sus hermanos: «¡Me devolvieron el dinero! Aquí está en mi saco». Sus corazones se llena",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 6,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 42:28",
-      "chapter": 42,
-      "verse": 28,
-      "literal": "Dios",
-      "start": 169,
-      "end": 173,
-      "contexto": " temblando, se preguntaban unos a otros: «¿Qué nos ha hecho Dios?».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 42:37",
-      "chapter": 42,
-      "verse": 37,
-      "literal": "Ponlo",
-      "start": 83,
-      "end": 88,
-      "contexto": "«Puedes matar a mis dos hijos si no te devuelvo a Benjamín. Ponlo bajo mi cuidado y yo te lo traeré de regreso».",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 43:6",
       "chapter": 43,
       "verse": 6,
@@ -32684,19 +30436,6 @@
       "indice_contextual": false,
       "inicio_oracion": true,
       "repeticiones": 42,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 43:7",
-      "chapter": 43,
-      "verse": 7,
-      "literal": "Tienen",
-      "start": 141,
-      "end": 147,
-      "contexto": "de nuestra familia. Nos preguntó: “¿Vive todavía su padre? ¿Tienen otro hermano?”. Nosotros solo respondimos a sus preguntas. ¿Cómo íbamos a saber que nos d",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 2,
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
@@ -32726,32 +30465,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 43:14",
-      "chapter": 43,
-      "verse": 14,
-      "literal": "Dios",
-      "start": 4,
-      "end": 8,
-      "contexto": "Que Dios, el que gobierna sobre todo, haga que aquel hombre tenga misericordia de ustedes y deje v",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 43:20",
-      "chapter": 43,
-      "verse": 20,
-      "literal": "Señor",
-      "start": 10,
-      "end": 15,
-      "contexto": "Dijeron: «Señor, la primera vez bajamos aquí para comprar alimento.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 43:22",
       "chapter": 43,
       "verse": 22,
@@ -32762,136 +30475,6 @@
       "indice_contextual": false,
       "inicio_oracion": true,
       "repeticiones": 16,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 43:23",
-      "chapter": 43,
-      "verse": 23,
-      "literal": "Dios",
-      "start": 66,
-      "end": 70,
-      "contexto": "argado respondió: «Quédense tranquilos. No tengan miedo. Su Dios y el Dios de su padre les dio ese tesoro en sus sacos. Yo recibí su dinero». Luego les ll",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 43:23",
-      "chapter": 43,
-      "verse": 23,
-      "literal": "Dios",
-      "start": 76,
-      "end": 80,
-      "contexto": "pondió: «Quédense tranquilos. No tengan miedo. Su Dios y el Dios de su padre les dio ese tesoro en sus sacos. Yo recibí su dinero». Luego les llevó a Sime",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 43:29",
-      "chapter": 43,
-      "verse": 29,
-      "literal": "Dios",
-      "start": 141,
-      "end": 145,
-      "contexto": "te su hermano menor, de quien me hablaron?». Y añadió: «Que Dios te muestre su favor, hijo mío».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 44:2",
-      "chapter": 44,
-      "verse": 2,
-      "literal": "Pon",
-      "start": 0,
-      "end": 3,
-      "contexto": "Pon también mi copa de plata en la boca del saco del menor, junto con el dinero que pagó por ",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 44:16",
-      "chapter": 44,
-      "verse": 16,
-      "literal": "Dios",
-      "start": 105,
-      "end": 109,
-      "contexto": "r? ¿Cómo podemos defendernos o demostrar nuestra inocencia? Dios ha puesto al descubierto la culpa de tus siervos. Ahora somos esclavos de mi señor, tanto",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 44:19",
-      "chapter": 44,
-      "verse": 19,
-      "literal": "Tienen",
-      "start": 35,
-      "end": 41,
-      "contexto": "Mi señor preguntó a sus siervos: “¿Tienen padre o hermano?”.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 45:5",
-      "chapter": 45,
-      "verse": 5,
-      "literal": "Dios",
-      "start": 85,
-      "end": 89,
-      "contexto": "ni se enojen con ustedes mismos por haberme vendido, porque Dios me envió delante de ustedes para salvar vidas.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 45:7",
-      "chapter": 45,
-      "verse": 7,
-      "literal": "Dios",
-      "start": 0,
-      "end": 4,
-      "contexto": "Dios me envió delante de ustedes para conservarles vida en la tierra y salvar a muchos.",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 45:8",
-      "chapter": 45,
-      "verse": 8,
-      "literal": "Dios",
-      "start": 57,
-      "end": 61,
-      "contexto": "Así que no fueron ustedes quienes me enviaron aquí, sino Dios. Él me ha hecho como padre del faraón, señor de toda su casa y gobernador de toda la tier",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 45:9",
-      "chapter": 45,
-      "verse": 9,
-      "literal": "Dios",
-      "start": 58,
-      "end": 62,
-      "contexto": "Regresen pronto a mi padre y díganle: “Tu hijo José dice: Dios me ha hecho señor de todo Egipto. Baja a verme sin demora.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
@@ -32947,32 +30530,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 46:1",
-      "chapter": 46,
-      "verse": 1,
-      "literal": "Dios",
-      "start": 84,
-      "end": 88,
-      "contexto": "o que tenía y llegó a Beerseba. Allí ofreció sacrificios al Dios de su padre Isaac.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 46:2",
-      "chapter": 46,
-      "verse": 2,
-      "literal": "Dios",
-      "start": 0,
-      "end": 4,
-      "contexto": "Dios habló a Israel en una visión durante la noche: «¡Jacob, Jacob!». Él respondió: «Aquí esto",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 46:2",
       "chapter": 46,
       "verse": 2,
@@ -32983,45 +30540,6 @@
       "indice_contextual": false,
       "inicio_oracion": false,
       "repeticiones": 42,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 46:3",
-      "chapter": 46,
-      "verse": 3,
-      "literal": "Dios",
-      "start": 0,
-      "end": 4,
-      "contexto": "Dios dijo: «Yo soy Dios, el Dios de tu padre. No tengas miedo de bajar a Egipto, porque allí h",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 46:3",
-      "chapter": 46,
-      "verse": 3,
-      "literal": "Dios",
-      "start": 19,
-      "end": 23,
-      "contexto": "Dios dijo: «Yo soy Dios, el Dios de tu padre. No tengas miedo de bajar a Egipto, porque allí haré de ti una gran ",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 46:3",
-      "chapter": 46,
-      "verse": 3,
-      "literal": "Dios",
-      "start": 28,
-      "end": 32,
-      "contexto": "Dios dijo: «Yo soy Dios, el Dios de tu padre. No tengas miedo de bajar a Egipto, porque allí haré de ti una gran nación.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
@@ -33220,19 +30738,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 48:3",
-      "chapter": 48,
-      "verse": 3,
-      "literal": "Dios",
-      "start": 20,
-      "end": 24,
-      "contexto": "Jacob dijo a José: «Dios, el que gobierna sobre todo, se me apareció en Luz, en la tierra de Canaán, y me bendijo.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 48:8",
       "chapter": 48,
       "verse": 8,
@@ -33243,19 +30748,6 @@
       "indice_contextual": false,
       "inicio_oracion": false,
       "repeticiones": 42,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 48:9",
-      "chapter": 48,
-      "verse": 9,
-      "literal": "Dios",
-      "start": 51,
-      "end": 55,
-      "contexto": "José respondió a su padre: «Son mis hijos, los que Dios me ha dado aquí». Israel dijo: «Acércalos a mí, por favor, para que los bendiga».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
@@ -33311,19 +30803,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 48:11",
-      "chapter": 48,
-      "verse": 11,
-      "literal": "Dios",
-      "start": 65,
-      "end": 69,
-      "contexto": "l dijo a José: «No esperaba volver a ver tu rostro, y ahora Dios me ha permitido ver también a tus hijos».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 48:13",
       "chapter": 48,
       "verse": 13,
@@ -33363,45 +30842,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 48:15",
-      "chapter": 48,
-      "verse": 15,
-      "literal": "Dios",
-      "start": 42,
-      "end": 46,
-      "contexto": "Entonces bendijo a José diciendo: «Que el Dios en cuya presencia vivieron mis padres Abraham e Isaac, el Dios que me ha guiado toda mi v",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 48:15",
-      "chapter": 48,
-      "verse": 15,
-      "literal": "Dios",
-      "start": 105,
-      "end": 109,
-      "contexto": "s en cuya presencia vivieron mis padres Abraham e Isaac, el Dios que me ha guiado toda mi vida hasta hoy,",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 48:18",
-      "chapter": 48,
-      "verse": 18,
-      "literal": "Pon",
-      "start": 60,
-      "end": 63,
-      "contexto": "José dijo a su padre: «Así no, padre mío. Este es el mayor. Pon tu mano derecha sobre su cabeza».",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 48:20",
       "chapter": 48,
       "verse": 20,
@@ -33415,19 +30855,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 48:20",
-      "chapter": 48,
-      "verse": 20,
-      "literal": "Dios",
-      "start": 88,
-      "end": 92,
-      "contexto": ": «Cuando el pueblo de Israel bendiga a alguien, dirá: “Que Dios te haga como Efraín y Manasés”». Así puso a Efraín antes que a Manasés.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 48:21",
       "chapter": 48,
       "verse": 21,
@@ -33438,19 +30865,6 @@
       "indice_contextual": false,
       "inicio_oracion": true,
       "repeticiones": 42,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 48:21",
-      "chapter": 48,
-      "verse": 21,
-      "literal": "Dios",
-      "start": 46,
-      "end": 50,
-      "contexto": "Israel dijo a José: «Yo estoy por morir, pero Dios estará con ustedes y los hará volver a la tierra de sus padres.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
@@ -33480,19 +30894,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 49:9",
-      "chapter": 49,
-      "verse": 9,
-      "literal": "Hijo",
-      "start": 34,
-      "end": 38,
-      "contexto": "Judá es como un cachorro de león. Hijo mío, vuelves después de cazar. Se agacha y se echa como un león. ¿Quién se atreverá a des",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 49:16",
       "chapter": 49,
       "verse": 16,
@@ -33503,19 +30904,6 @@
       "indice_contextual": false,
       "inicio_oracion": false,
       "repeticiones": 42,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 49:18",
-      "chapter": 49,
-      "verse": 18,
-      "literal": "Señor",
-      "start": 21,
-      "end": 26,
-      "contexto": "Espero tu salvación, Señor.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 39,
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
@@ -33532,32 +30920,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 49:25",
-      "chapter": 49,
-      "verse": 25,
-      "literal": "Dios",
-      "start": 7,
-      "end": 11,
-      "contexto": "por el Dios de tu padre, que te ayudará, y por Dios, el que gobierna sobre todo, que te bendecirá con",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 49:25",
-      "chapter": 49,
-      "verse": 25,
-      "literal": "Dios",
-      "start": 47,
-      "end": 51,
-      "contexto": "por el Dios de tu padre, que te ayudará, y por Dios, el que gobierna sobre todo, que te bendecirá con bendiciones del cielo, de las aguas pro",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 49:28",
       "chapter": 49,
       "verse": 28,
@@ -33568,19 +30930,6 @@
       "indice_contextual": false,
       "inicio_oracion": false,
       "repeticiones": 42,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 49:28",
-      "chapter": 49,
-      "verse": 28,
-      "literal": "Dio",
-      "start": 91,
-      "end": 94,
-      "contexto": "rael. Esto fue lo que su padre les dijo cuando los bendijo. Dio a cada uno la bendición que le correspondía.",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 2,
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
@@ -33623,71 +30972,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 50:17",
-      "chapter": 50,
-      "verse": 17,
-      "literal": "Digan",
-      "start": 1,
-      "end": 6,
-      "contexto": "“Digan a José: Por favor, perdona la maldad de tus hermanos y el mal que te hicieron”. Ahora te ",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 2,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 50:17",
-      "chapter": 50,
-      "verse": 17,
-      "literal": "Dios",
-      "start": 146,
-      "end": 150,
-      "contexto": " Ahora te pedimos que perdones el pecado de los siervos del Dios de tu padre». José lloró cuando recibió este mensaje.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 50:19",
-      "chapter": 50,
-      "verse": 19,
-      "literal": "Dios",
-      "start": 62,
-      "end": 66,
-      "contexto": "sé respondió: «No tengan miedo. ¿Acaso estoy yo en lugar de Dios?",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 50:20",
-      "chapter": 50,
-      "verse": 20,
-      "literal": "Dios",
-      "start": 35,
-      "end": 39,
-      "contexto": "Ustedes pensaron hacerme mal, pero Dios lo convirtió en bien para conservar con vida a mucha gente, como sucede hoy.",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 50:23",
-      "chapter": 50,
-      "verse": 23,
-      "literal": "Llegó",
-      "start": 0,
-      "end": 5,
-      "contexto": "Llegó a ver a los hijos de Efraín hasta la tercera generación. También recibió como suyos a los",
-      "indice_contextual": false,
-      "inicio_oracion": true,
-      "repeticiones": 3,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 50:23",
       "chapter": 50,
       "verse": 23,
@@ -33701,19 +30985,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "ref": "Gn 50:24",
-      "chapter": 50,
-      "verse": 24,
-      "literal": "Dios",
-      "start": 52,
-      "end": 56,
-      "contexto": "José dijo a sus hermanos: «Yo estoy por morir, pero Dios ciertamente cuidará de ustedes y los hará salir de esta tierra para llevarlos a la tierra",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "ref": "Gn 50:25",
       "chapter": 50,
       "verse": 25,
@@ -33724,19 +30995,6 @@
       "indice_contextual": true,
       "inicio_oracion": false,
       "repeticiones": 42,
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "ref": "Gn 50:25",
-      "chapter": 50,
-      "verse": 25,
-      "literal": "Dios",
-      "start": 56,
-      "end": 60,
-      "contexto": "Entonces José hizo jurar a los hijos de Israel: «Cuando Dios venga a ayudarlos, lleven mis huesos de aquí».",
-      "indice_contextual": false,
-      "inicio_oracion": false,
-      "repeticiones": 99,
       "estado": "nombre_no_correspondido_por_clasificar"
     }
   ],

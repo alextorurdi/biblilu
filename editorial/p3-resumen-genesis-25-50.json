@@ -5,11 +5,11 @@
   "versiculos": 874,
   "apendices": 8,
   "identificadores_historicos": 450,
-  "menciones_candidatas": 1671,
+  "menciones_candidatas": 1656,
   "por_estado": {
-    "ficha_existente_por_verificar": 1274,
-    "termino_sin_ficha_por_evaluar": 235,
-    "ambiguo_desambiguar": 94,
+    "ficha_existente_por_verificar": 1261,
+    "termino_sin_ficha_por_evaluar": 234,
+    "ambiguo_desambiguar": 93,
     "flexion_por_comprobar": 68
   },
   "por_categoria": {
@@ -17,7 +17,7 @@
       "menciones_candidatas": 1210,
       "versiculos_con_candidatos": 598,
       "fichas_existentes_sugeridas": 180,
-      "pendientes_ambiguos": 93,
+      "pendientes_ambiguos": 92,
       "sin_ficha_por_evaluar": 30,
       "ejemplos": [
         {
@@ -225,20 +225,12 @@
       ]
     },
     "materiales": {
-      "menciones_candidatas": 25,
-      "versiculos_con_candidatos": 22,
+      "menciones_candidatas": 23,
+      "versiculos_con_candidatos": 20,
       "fichas_existentes_sugeridas": 4,
       "pendientes_ambiguos": 0,
       "sin_ficha_por_evaluar": 0,
       "ejemplos": [
-        {
-          "literal": "oró",
-          "ref": "Gn 25:21",
-          "ids": [
-            "materiales/oro"
-          ],
-          "estado": "ficha_existente_por_verificar"
-        },
         {
           "literal": "piedra",
           "ref": "Gn 28:11",
@@ -290,6 +282,14 @@
         {
           "literal": "piedra",
           "ref": "Gn 29:8",
+          "ids": [
+            "materiales/piedra"
+          ],
+          "estado": "ficha_existente_por_verificar"
+        },
+        {
+          "literal": "piedra",
+          "ref": "Gn 29:10",
           "ids": [
             "materiales/piedra"
           ],
@@ -432,36 +432,12 @@
       "ejemplos": []
     },
     "medidas": {
-      "menciones_candidatas": 19,
-      "versiculos_con_candidatos": 17,
-      "fichas_existentes_sugeridas": 2,
-      "pendientes_ambiguos": 1,
-      "sin_ficha_por_evaluar": 6,
+      "menciones_candidatas": 5,
+      "versiculos_con_candidatos": 5,
+      "fichas_existentes_sugeridas": 0,
+      "pendientes_ambiguos": 0,
+      "sin_ficha_por_evaluar": 5,
       "ejemplos": [
-        {
-          "literal": "Efa",
-          "ref": "Gn 25:4",
-          "ids": [
-            "onomastico/efa"
-          ],
-          "estado": "ambiguo_desambiguar"
-        },
-        {
-          "literal": "sea",
-          "ref": "Gn 26:4",
-          "ids": [
-            "medidas/sea"
-          ],
-          "estado": "ficha_existente_por_verificar"
-        },
-        {
-          "literal": "sea",
-          "ref": "Gn 27:29",
-          "ids": [
-            "medidas/sea"
-          ],
-          "estado": "ficha_existente_por_verificar"
-        },
         {
           "literal": "seas",
           "ref": "Gn 29:15",
@@ -469,39 +445,33 @@
           "estado": "termino_sin_ficha_por_evaluar"
         },
         {
-          "literal": "quinto",
-          "ref": "Gn 30:17",
+          "literal": "monedas",
+          "ref": "Gn 33:19",
           "ids": [],
           "estado": "termino_sin_ficha_por_evaluar"
         },
         {
-          "literal": "sea",
-          "ref": "Gn 30:33",
-          "ids": [
-            "medidas/sea"
-          ],
-          "estado": "ficha_existente_por_verificar"
+          "literal": "quinta parte",
+          "ref": "Gn 41:34",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
         },
         {
-          "literal": "sea",
-          "ref": "Gn 30:33",
-          "ids": [
-            "medidas/sea"
-          ],
-          "estado": "ficha_existente_por_verificar"
+          "literal": "quinta parte",
+          "ref": "Gn 47:24",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
         },
         {
-          "literal": "sea",
-          "ref": "Gn 30:34",
-          "ids": [
-            "medidas/sea"
-          ],
-          "estado": "ficha_existente_por_verificar"
+          "literal": "quinta parte",
+          "ref": "Gn 47:26",
+          "ids": [],
+          "estado": "termino_sin_ficha_por_evaluar"
         }
       ]
     }
   },
-  "pendientes_ambiguedad_y_nueva_ficha": 329,
+  "pendientes_ambiguedad_y_nueva_ficha": 327,
   "prioridad_desambiguacion": [
     {
       "ref": "Gn 25:2",
@@ -588,24 +558,6 @@
       "candidatos_ficha": [
         "onomastico/dedan",
         "onomastico/dedan-hijo-de-jocsan"
-      ],
-      "estado": "ambiguo_desambiguar",
-      "origen": "coincidencia_lexica_fuente_BES"
-    },
-    {
-      "ref": "Gn 25:4",
-      "chapter": 25,
-      "verse": 4,
-      "start": 27,
-      "end": 30,
-      "literal": "Efa",
-      "contexto": "Los hijos de Madián fueron Efa, Efer, Hanoc, Abida y Elda. Todos ellos fueron descendientes de Cetura.",
-      "categorias": [
-        "medidas",
-        "onomastico"
-      ],
-      "candidatos_ficha": [
-        "onomastico/efa"
       ],
       "estado": "ambiguo_desambiguar",
       "origen": "coincidencia_lexica_fuente_BES"
@@ -1448,21 +1400,6 @@
       "origen": "coincidencia_lexica_fuente_BES"
     },
     {
-      "ref": "Gn 30:17",
-      "chapter": 30,
-      "verse": 17,
-      "start": 59,
-      "end": 65,
-      "literal": "quinto",
-      "contexto": "Dios escuchó a Lea. Ella quedó embarazada y dio a Jacob un quinto hijo.",
-      "categorias": [
-        "medidas"
-      ],
-      "candidatos_ficha": [],
-      "estado": "termino_sin_ficha_por_evaluar",
-      "origen": "coincidencia_lexica_fuente_BES"
-    },
-    {
       "ref": "Gn 30:29",
       "chapter": 30,
       "verse": 29,
@@ -2084,31 +2021,39 @@
       "candidatos_ficha": [],
       "estado": "termino_sin_ficha_por_evaluar",
       "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 34:28",
+      "chapter": 34,
+      "verse": 28,
+      "start": 23,
+      "end": 29,
+      "literal": "ganado",
+      "contexto": "Tomaron sus ovejas, su ganado, sus asnos y todo lo que había en la ciudad y en el campo.",
+      "categorias": [
+        "animales"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
+    },
+    {
+      "ref": "Gn 34:30",
+      "chapter": 34,
+      "verse": 30,
+      "start": 74,
+      "end": 82,
+      "literal": "cananeos",
+      "contexto": " dijo a Simeón y Leví: «Me han puesto en peligro. Ahora los cananeos y los ferezeos que viven en esta tierra me odiarán. Somos pocos, y si se unen contra mí y",
+      "categorias": [
+        "tribus"
+      ],
+      "candidatos_ficha": [],
+      "estado": "termino_sin_ficha_por_evaluar",
+      "origen": "coincidencia_lexica_fuente_BES"
     }
   ],
   "nombres_sin_match_frecuentes": [
-    {
-      "literal": "Dios",
-      "menciones": 99,
-      "referencias": [
-        "Gn 25:11",
-        "Gn 26:24",
-        "Gn 27:20",
-        "Gn 27:28",
-        "Gn 28:3",
-        "Gn 28:4",
-        "Gn 28:12",
-        "Gn 28:13",
-        "Gn 28:17",
-        "Gn 28:20",
-        "Gn 28:21",
-        "Gn 28:22",
-        "Gn 30:2",
-        "Gn 30:6"
-      ],
-      "contexto_inicial": "Después de la muerte de Abraham, Dios bendijo a su hijo Isaac. Isaac vivía cerca de Beer-lahai-roi.",
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
     {
       "literal": "Israel",
       "menciones": 42,
@@ -2128,50 +2073,6 @@
         "Gn 45:21"
       ],
       "contexto_inicial": "Entonces dijo: «Ya no te llamarás Jacob, sino Israel, porque has luchado con Dios y con los hombres y has vencido».",
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "literal": "Señor",
-      "menciones": 39,
-      "referencias": [
-        "Gn 25:21",
-        "Gn 25:22",
-        "Gn 25:23",
-        "Gn 26:2",
-        "Gn 26:12",
-        "Gn 26:22",
-        "Gn 26:24",
-        "Gn 26:25",
-        "Gn 26:28",
-        "Gn 26:29",
-        "Gn 27:7",
-        "Gn 27:20",
-        "Gn 27:27",
-        "Gn 28:13"
-      ],
-      "contexto_inicial": "Isaac oró al Señor por su mujer, porque ella no podía tener hijos. El Señor escuchó su oración y Rebeca qued",
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "literal": "De",
-      "menciones": 16,
-      "referencias": [
-        "Gn 25:32",
-        "Gn 27:24",
-        "Gn 29:4",
-        "Gn 30:34",
-        "Gn 30:43",
-        "Gn 31:40",
-        "Gn 32:17",
-        "Gn 35:11",
-        "Gn 36:15",
-        "Gn 36:17",
-        "Gn 36:18",
-        "Gn 37:7",
-        "Gn 41:57",
-        "Gn 42:7"
-      ],
-      "contexto_inicial": "Esaú dijo: «Estoy a punto de morir. ¿De qué me sirve ese derecho?».",
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
@@ -2217,20 +2118,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "literal": "Dijo",
-      "menciones": 6,
-      "referencias": [
-        "Gn 29:33",
-        "Gn 29:34",
-        "Gn 29:35",
-        "Gn 30:23",
-        "Gn 37:9",
-        "Gn 42:28"
-      ],
-      "contexto_inicial": "Volvió a quedar embarazada y tuvo un hijo. Dijo: «El Señor ha oído que no soy amada y por eso me ha dado también este hijo». Y lo llamó S",
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "literal": "Er",
       "menciones": 5,
       "referencias": [
@@ -2255,28 +2142,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "literal": "Dime",
-      "menciones": 3,
-      "referencias": [
-        "Gn 29:15",
-        "Gn 30:28",
-        "Gn 32:29"
-      ],
-      "contexto_inicial": "as mi pariente, no debes trabajar para mí sin recibir nada. Dime cuánto quieres que te pague».",
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "literal": "Llegó",
-      "menciones": 3,
-      "referencias": [
-        "Gn 28:11",
-        "Gn 41:49",
-        "Gn 50:23"
-      ],
-      "contexto_inicial": "Llegó a cierto lugar y pasó allí la noche porque el sol ya se había puesto. Tomó una piedra del",
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "literal": "Atad",
       "menciones": 2,
       "referencias": [
@@ -2287,16 +2152,6 @@
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
-      "literal": "Bendíceme",
-      "menciones": 2,
-      "referencias": [
-        "Gn 27:34",
-        "Gn 27:38"
-      ],
-      "contexto_inicial": "labras de su padre, dio un grito fuerte y amargo, y dijo: «¡Bendíceme también a mí, padre mío!».",
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
       "literal": "Danos",
       "menciones": 2,
       "referencias": [
@@ -2304,116 +2159,6 @@
         "Gn 47:19"
       ],
       "contexto_inicial": "ipto y Canaán, todos los egipcios fueron a José y dijeron: «Danos alimento. ¿Por qué hemos de morir delante de ti? Ya no tenemos dinero».",
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "literal": "Del",
-      "menciones": 2,
-      "referencias": [
-        "Gn 41:2",
-        "Gn 41:18"
-      ],
-      "contexto_inicial": "Del río salieron siete vacas hermosas y gordas, que comenzaron a comer la hierba junto al río",
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "literal": "Digan",
-      "menciones": 2,
-      "referencias": [
-        "Gn 32:4",
-        "Gn 50:17"
-      ],
-      "contexto_inicial": "Les ordenó decir: «Digan a mi señor Esaú: “Tu siervo Jacob dice: He vivido con Labán hasta ahora.",
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "literal": "Dio",
-      "menciones": 2,
-      "referencias": [
-        "Gn 32:19",
-        "Gn 49:28"
-      ],
-      "contexto_inicial": "Dio las mismas instrucciones al segundo, al tercero y a todos los que iban con los animales: ",
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "literal": "Dos",
-      "menciones": 2,
-      "referencias": [
-        "Gn 25:23",
-        "Gn 41:1"
-      ],
-      "contexto_inicial": "El Señor le dijo: «Dos naciones están en tu vientre, y de ti saldrán dos pueblos. Uno será más fuerte que el otr",
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "literal": "Hijo",
-      "menciones": 2,
-      "referencias": [
-        "Gn 27:1",
-        "Gn 49:9"
-      ],
-      "contexto_inicial": "casi no podía ver, llamó a Esaú, su hijo mayor, y le dijo: «Hijo mío». Esaú respondió: «Aquí estoy».",
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "literal": "Padre",
-      "menciones": 2,
-      "referencias": [
-        "Gn 27:18",
-        "Gn 27:31"
-      ],
-      "contexto_inicial": "Jacob fue a su padre y dijo: «Padre mío». Isaac respondió: «Aquí estoy. ¿Quién eres, hijo mío?».",
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "literal": "Pon",
-      "menciones": 2,
-      "referencias": [
-        "Gn 44:2",
-        "Gn 48:18"
-      ],
-      "contexto_inicial": "Pon también mi copa de plata en la boca del saco del menor, junto con el dinero que pagó por ",
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "literal": "Ponlo",
-      "menciones": 2,
-      "referencias": [
-        "Gn 31:37",
-        "Gn 42:37"
-      ],
-      "contexto_inicial": " registrado todas mis cosas. ¿Qué encontraste que sea tuyo? Ponlo aquí delante de mis parientes y de los tuyos, y que ellos juzguen entre nosotros.",
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "literal": "Tienen",
-      "menciones": 2,
-      "referencias": [
-        "Gn 43:7",
-        "Gn 44:19"
-      ],
-      "contexto_inicial": "de nuestra familia. Nos preguntó: “¿Vive todavía su padre? ¿Tienen otro hermano?”. Nosotros solo respondimos a sus preguntas. ¿Cómo íbamos a saber que nos d",
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "literal": "Tuvo",
-      "menciones": 2,
-      "referencias": [
-        "Gn 28:17",
-        "Gn 30:43"
-      ],
-      "contexto_inicial": "Tuvo miedo y dijo: «¡Qué impresionante es este lugar! No es otra cosa que la casa de Dios y la",
-      "estado": "nombre_no_correspondido_por_clasificar"
-    },
-    {
-      "literal": "Únete",
-      "menciones": 2,
-      "referencias": [
-        "Gn 30:3",
-        "Gn 38:8"
-      ],
-      "contexto_inicial": "Ella dijo: «Aquí está mi sierva Bilha. Únete a ella para que tenga hijos para mí, y así pueda formar una familia por medio de ella».",
       "estado": "nombre_no_correspondido_por_clasificar"
     },
     {
