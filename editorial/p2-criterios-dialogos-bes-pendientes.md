@@ -42,6 +42,18 @@ La disposición en **387 párrafos** y sus **874 anclas** se conserva. El cambio
 
 Queda pendiente la revisión visual individual, sin autorizar publicación ni cambiar los anteriores Gn 1–24.
 
+## Afinamiento de turnos: fin del diálogo e inciso del mismo hablante · 23/11/2026
+
+**Regla editorial adicional aplicada a los 19 borradores BES:**
+
+1. **Al terminar un parlamento** (cierre de « »), si la narración prosigue con una acción o introduce a **otro interlocutor**, pasar inmediatamente a **línea nueva**, conservando el punto u otros signos que la BES sitúa fuera del cierre de comillas junto a la frase anterior. Si ocurre entre dos versículos del mismo párrafo, el número del siguiente versículo y su texto comienzan juntos en la nueva línea.
+2. **Inciso de narrador con continuidad del mismo interlocutor:** no hacer salto de línea entre los dos tramos hablados. El inciso va delimitado por rayas editoriales y el hablante continúa a continuación. No confundir la frase «Isaac respondió» tras la voz de Abimelec con un inciso: ahí **cambia el hablante** y corresponde nueva línea.
+3. **Casos BES identificados y comprobados como misma voz:** **Gn 27:36** («Luego preguntó» continúa Esaú), **Gn 43:29** («Y añadió» continúa José), y **Gn 45:4** («ellos se acercaron, y él dijo» continúa José). El renderizador admite también incisos clásicos separados por comas, como «..., dijo Fabián, ...», sin aplicar la regla a todas las atribuciones de voz.
+4. **Pensamientos, citas anidadas y discursos que continúan de un versículo a otro:** conservan las convenciones ya aprobadas; el fin de un versículo por sí solo **no** indica cambio de hablante.
+5. **Integridad:** el ajuste añade únicamente saltos HTML y marcas tipográficas de presentación; los versículos originales BES y sus partes siguen literales, las anclas se conservan y no se reabren párrafos editoriales.
+
+**Prueba de referencia:** [Génesis 26:8–11](https://ebible.org/spabes/GEN26.htm). El cierre de «¿Por qué dijiste que era tu hermana?» queda en una línea, «Isaac respondió:» comienza en otra y la respuesta de Isaac se abre a continuación con su raya. Otro salto corresponde al comienzo de la intervención de Abimelec en 26:10. [Verificación de borradores en GitHub Actions](https://github.com/alextorurdi/biblilu/actions/runs/45268499246): **superada**. Los 874 versículos y 387 párrafos conservan sus datos y estructura; la revisión visual editorial sigue pendiente y no se ha publicado el material.
+
 ## Resolución editorial
 
 El editor **aprobó íntegramente los criterios y las seis decisiones**. Se mantiene el texto BES literal, las comillas originales, la diferenciación entre discurso y nombres divinos, los criterios de casos particulares y la cautela en la identificación del ángel y del adversario del Jaboc. **No se cierra aún P2**, pues siguen pendientes el control editorial integral y la revisión visual de los borradores. `revisado=false` no deberá cambiar automáticamente por esta aprobación de criterios.
