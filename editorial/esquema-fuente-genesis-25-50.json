@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BIBLILU P2 – Fuente editorial Génesis 25–50",
+  "description": "874 versículos RVR1960 aportados desde una fuente editorial autorizada; el texto no se obtiene ni completa automáticamente.",
+  "type": "array",
+  "minItems": 874,
+  "maxItems": 874,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "chapter",
+      "verse",
+      "text"
+    ],
+    "properties": {
+      "chapter": {
+        "type": "integer",
+        "minimum": 25,
+        "maximum": 50
+      },
+      "verse": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 57
+      },
+      "source_label": {
+        "type": "string",
+        "description": "Opcional; si está, ha de coincidir con capítulo-versículo."
+      },
+      "text": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Texto íntegro, exacto y no marcado del versículo. No admite HTML."
+      },
+      "parts": {
+        "type": "array",
+        "minItems": 1,
+        "description": "Marcado literal opcional por segmentos; concatenar todos sus textos debe reconstruir exactamente text.",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "text"
+          ],
+          "properties": {
+            "kind": {
+              "enum": [
+                "plain",
+                "speech",
+                "divine",
+                "thought"
+              ]
+            },
+            "text": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "revisado": {
+        "type": "boolean",
+        "description": "Aprobación manual del marcado de este versículo. No implica autorización legal de reproducción."
+      }
+    }
+  },
+  "examples": [
+    [
+      {
+        "chapter": 25,
+        "verse": 1,
+        "source_label": "25-1",
+        "text": "[Introducir aquí el texto autorizado del versículo 25:1]",
+        "parts": [
+          {
+            "kind": "plain",
+            "text": "[Introducir aquí el texto autorizado del versículo 25:1]"
+          }
+        ],
+        "revisado": false
+      }
+    ]
+  ]
+}
