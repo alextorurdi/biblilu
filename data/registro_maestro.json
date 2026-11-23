@@ -72,8 +72,8 @@
     "data/genesis.json"
   ],
   "totales": {
-    "rutas_registradas": 450,
-    "fichas_principales": 432,
+    "rutas_registradas": 451,
+    "fichas_principales": 433,
     "remisiones": 18,
     "por_categoria": {
       "animales": 35,
@@ -82,12 +82,12 @@
       "materiales": 12,
       "medidas": 3,
       "objetos": 7,
-      "onomastico": 290,
+      "onomastico": 291,
       "tribus": 28
     },
     "mapas": 15,
     "arboles_svg": 8,
-    "entradas_con_menciones": 303
+    "entradas_con_menciones": 304
   },
   "diagnostico": {
     "incidencias": [],
@@ -6317,7 +6317,7 @@
         "data/entries.json"
       ],
       "menciones_registradas": [
-        "Gn 36:35-36"
+        "Gn 36:35–36"
       ],
       "relaciones_fichas": [],
       "genealogias": null,
@@ -6327,18 +6327,20 @@
     {
       "id": "onomastico/hadar",
       "categoria": "onomastico",
-      "nombre": "Hadar",
-      "titulo": "Hadar",
+      "nombre": "Hadad (hijo de Ismael)",
+      "titulo": "Hadad (hijo de Ismael)",
       "ficha_principal": "onomastico/hadar",
       "es_remision": false,
       "remisiones_entrantes": [],
-      "variantes_aprobadas": [],
+      "variantes_aprobadas": [
+        "Hadar"
+      ],
       "ruta": "docs/apendices/onomastico/hadar/index.html",
       "fuentes": [
         "data/entries.json"
       ],
       "menciones_registradas": [
-        "Gn 25:12–16"
+        "Gn 25:15"
       ],
       "relaciones_fichas": [],
       "genealogias": {
@@ -11296,13 +11298,15 @@
       "ficha_principal": "onomastico/zimram",
       "es_remision": false,
       "remisiones_entrantes": [],
-      "variantes_aprobadas": [],
+      "variantes_aprobadas": [
+        "Zimrán"
+      ],
       "ruta": "docs/apendices/onomastico/zimram/index.html",
       "fuentes": [
         "data/entries.json"
       ],
       "menciones_registradas": [
-        "Gn 25:1–2"
+        "Gn 25:2"
       ],
       "relaciones_fichas": [],
       "genealogias": {
@@ -11318,8 +11322,8 @@
     {
       "id": "onomastico/zohar",
       "categoria": "onomastico",
-      "nombre": "Zohar",
-      "titulo": "Zohar",
+      "nombre": "Zohar (hijo de Simeón)",
+      "titulo": "Zohar (hijo de Simeón)",
       "ficha_principal": "onomastico/zohar",
       "es_remision": false,
       "remisiones_entrantes": [],
@@ -11339,6 +11343,28 @@
           "general"
         ]
       },
+      "mapas": [],
+      "atlas_pueblos": null
+    },
+    {
+      "id": "onomastico/zohar-heteo",
+      "categoria": "onomastico",
+      "nombre": "Zohar (heteo)",
+      "titulo": "Zohar (heteo)",
+      "ficha_principal": "onomastico/zohar-heteo",
+      "es_remision": false,
+      "remisiones_entrantes": [],
+      "variantes_aprobadas": [],
+      "ruta": "docs/apendices/onomastico/zohar-heteo/index.html",
+      "fuentes": [
+        "data/entries.json"
+      ],
+      "menciones_registradas": [
+        "Gn 23:8",
+        "Gn 25:9"
+      ],
+      "relaciones_fichas": [],
+      "genealogias": null,
       "mapas": [],
       "atlas_pueblos": null
     },

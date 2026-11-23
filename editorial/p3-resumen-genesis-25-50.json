@@ -7,9 +7,9 @@
   "identificadores_historicos": 450,
   "menciones_candidatas": 1656,
   "por_estado": {
-    "ficha_existente_por_verificar": 1259,
+    "ficha_existente_por_verificar": 1257,
     "variante_ortografica_por_aprobar": 1,
-    "ambiguo_desambiguar": 93,
+    "ambiguo_desambiguar": 95,
     "colision_de_identidad_por_revisar": 2,
     "termino_sin_ficha_por_evaluar": 233,
     "flexion_por_comprobar": 68
@@ -18,8 +18,8 @@
     "onomastico": {
       "menciones_candidatas": 1210,
       "versiculos_con_candidatos": 598,
-      "fichas_existentes_sugeridas": 180,
-      "pendientes_ambiguos": 92,
+      "fichas_existentes_sugeridas": 181,
+      "pendientes_ambiguos": 94,
       "sin_ficha_por_evaluar": 29,
       "ejemplos": [
         {
@@ -475,7 +475,7 @@
       ]
     }
   },
-  "pendientes_ambiguedad_y_nueva_ficha": 329,
+  "pendientes_ambiguedad_y_nueva_ficha": 331,
   "prioridad_desambiguacion": [
     {
       "ref": "Gn 25:2",
@@ -603,7 +603,9 @@
       "categorias": [
         "onomastico"
       ],
-      "candidatos_ficha": [],
+      "candidatos_ficha": [
+        "onomastico/zohar-heteo"
+      ],
       "estado": "colision_de_identidad_por_revisar",
       "incidencia": "Zohar padre de Efrón, no Zohar hijo de Simeón (Gn 46:10)",
       "origen": "coincidencia_lexica_fuente_BES"
@@ -687,7 +689,9 @@
       "categorias": [
         "onomastico"
       ],
-      "candidatos_ficha": [],
+      "candidatos_ficha": [
+        "onomastico/hadar"
+      ],
       "estado": "colision_de_identidad_por_revisar",
       "incidencia": "Hadad hijo de Ismael, no el rey edomita hijo de Bedad (Gn 36:35)",
       "origen": "coincidencia_lexica_fuente_BES"

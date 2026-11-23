@@ -1369,7 +1369,9 @@
         "categorias": [
           "onomastico"
         ],
-        "candidatos_ficha": [],
+        "candidatos_ficha": [
+          "onomastico/zohar-heteo"
+        ],
         "estado": "colision_de_identidad_por_revisar",
         "incidencia": "Zohar padre de Efrón, no Zohar hijo de Simeón (Gn 46:10)",
         "origen": "coincidencia_lexica_fuente_BES"
@@ -1729,7 +1731,9 @@
         "categorias": [
           "onomastico"
         ],
-        "candidatos_ficha": [],
+        "candidatos_ficha": [
+          "onomastico/hadar"
+        ],
         "estado": "colision_de_identidad_por_revisar",
         "incidencia": "Hadad hijo de Ismael, no el rey edomita hijo de Bedad (Gn 36:35)",
         "origen": "coincidencia_lexica_fuente_BES"
@@ -13959,9 +13963,10 @@
           "onomastico"
         ],
         "candidatos_ficha": [
-          "onomastico/hadad-rey-de-edom"
+          "onomastico/hadad-rey-de-edom",
+          "onomastico/hadar"
         ],
-        "estado": "ficha_existente_por_verificar",
+        "estado": "ambiguo_desambiguar",
         "incidencia": null,
         "origen": "coincidencia_lexica_fuente_BES"
       },
@@ -13977,9 +13982,10 @@
           "onomastico"
         ],
         "candidatos_ficha": [
-          "onomastico/hadad-rey-de-edom"
+          "onomastico/hadad-rey-de-edom",
+          "onomastico/hadar"
         ],
-        "estado": "ficha_existente_por_verificar",
+        "estado": "ambiguo_desambiguar",
         "incidencia": null,
         "origen": "coincidencia_lexica_fuente_BES"
       },
@@ -14015,9 +14021,10 @@
           "onomastico"
         ],
         "candidatos_ficha": [
-          "onomastico/hadad-rey-de-edom"
+          "onomastico/hadad-rey-de-edom",
+          "onomastico/hadar"
         ],
-        "estado": "ficha_existente_por_verificar",
+        "estado": "ambiguo_desambiguar",
         "incidencia": null,
         "origen": "coincidencia_lexica_fuente_BES"
       },
@@ -14143,10 +14150,9 @@
           "onomastico"
         ],
         "candidatos_ficha": [
-          "onomastico/hadar",
           "onomastico/hadar-rey-de-edom"
         ],
-        "estado": "ambiguo_desambiguar",
+        "estado": "ficha_existente_por_verificar",
         "incidencia": null,
         "origen": "coincidencia_lexica_fuente_BES"
       },
