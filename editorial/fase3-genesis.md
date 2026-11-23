@@ -1,6 +1,6 @@
 # Fase 3 · Extracción y clasificación de Génesis 25–50
 
-**Inicio:** 23/11/2026. **Texto base:** BES 2026. **Estado:** **EN CURSO — primer barrido de candidatos y revisión por categorías**.
+**Inicio:** 23/11/2026. **Texto base:** BES 2026. **Estado:** **EN CURSO — primer barrido de 874 versículos realizado, catálogos guardados y primer lote onomástico preparado para aprobación**.
 
 **Alcance:** Gn 25:1–50:26, 874 versículos, 19 escenas BES aprobadas en P1 y maquetadas en P2. Se preservan íntegramente las 15 escenas anteriores RVR1960.
 
@@ -21,6 +21,39 @@
 - [Catálogo de menciones por categoría](../data/p3-extracciones-genesis-25-50.json): referencias exactas, texto encontrado y posibles fichas.
 - [Resumen y cola priorizada](p3-resumen-genesis-25-50.json): estadísticas, casos ambiguos y nombres nuevos por cotejar.
 - [Ejecuciones del extractor](https://github.com/alextorurdi/biblilu/actions/workflows/extraccion-p3-bes.yml): generación automática y comprobación reproducible.
+
+## Resultados efectivos del primer barrido · 23/11/2026
+
+**Ejecución verificada:** [GitHub Actions · P3 BES](https://github.com/alextorurdi/biblilu/actions/runs/45274695280), **success**. Se recorrieron exactamente los **874 versículos BES**, con la fuente y el registro histórico protegidos.
+
+**Inventario provisional:** **1.656 menciones candidatas únicas**, que incluyen **1.259** coincidencias con fichas previas por verificar, **68** flexiones, **93** ambigüedades, **233** términos sin ficha por evaluar, **2** colisiones de identidad y **1** variante de grafía BES pendiente de aprobación.
+
+| Apéndice | Coincidencias candidatas |
+|---|---:|
+| Onomástico | 1.210 |
+| Lugares | 228 |
+| Seres Vivos (clave `animales`) | 115 |
+| Materiales | 23 |
+| Tribus | 43 |
+| Objetos | 87 |
+| Instrumentos Musicales | 0 |
+| Medidas | 5 |
+
+**Importante:** un término ambiguo puede aparecer en más de una categoría, por lo que la suma de estas filas supera las 1.656 menciones únicas. Cero coincidencias instrumentales **no equivale a certificar ausencia**, hasta completar revisión contextual. Ninguna coincidencia automática se da por validada y no hay nuevas fichas ni enlaces publicados.
+
+**Depuración verificada:** se rechazaron homografías erróneas como «oró» → «oro» y «sea» → «seá», y se separó «Efa» como nombre personal de Gn 25:4, no como medida. La revisión mantiene en cola expresiones ambivalentes como «Israel», «Edom», pueblos, topónimos y personas homónimas.
+
+### Primer lote de revisión: Onomástico, Génesis 25:1–18
+
+[**Abrir propuesta editorial completa**](p3-onomastico-lote1-genesis-25-1-18.md).
+
+- **«Zimrán» (Gn 25:2):** propuesta de variante BES para la ficha anterior `onomastico/zimram`, sin cambiar su URL ni su identidad.
+- **«Zohar» (Gn 25:9):** padre de Efrón, diferente del Zohar hijo de Simeón de Gn 46:10. Se ha impedido proponer el ID histórico erróneo; posible ficha independiente en P4.
+- **«Hadad» (Gn 25:15):** hijo de Ismael, diferente del rey edomita hijo de Bedad (Gn 36:35). Se ha impedido proponer el ID del rey; posible ficha independiente en P4.
+- **Súa, Seba, Dedán, Hanoc y Efa:** la propuesta resuelve estos casos por su parentesco explícito, respetando los IDs diferenciados existentes.
+- **Asurim, Letusim, Leumim:** se conservan fichas personales independientes, de acuerdo con la decisión editorial previa.
+
+**Estado del lote:** propuestas de asignación y nuevas fichas **pendientes de aprobación**. No se han modificado ni vinculado fichas históricas.
 
 ## Precauciones específicas
 
