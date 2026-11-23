@@ -62,4 +62,4 @@ Esta es la primera **revisión contextual** de las coincidencias del barrido gen
 4. Conservar Asurim, Letusim y Leumim **como fichas personales independientes**, conforme a la decisión editorial previa.
 5. Pasar topónimos y gentilicios a los lotes propios de **Lugares** y **Tribus**, sin fusionar identidades por semejanza de nombres.
 
-**Resultado:** tres registros existentes actualizados (Zimram, Zohar hijo de Simeón y Hadar/Hadad hijo de Ismael), una ficha nueva (Zohar heteo) y precisión en Hadad rey de Edom. El registro maestro contiene ahora **451 identificadores** y mantiene intactos los ID antiguos y sus genealogías. **Las 19 escenas BES y sus enlaces siguen sin publicarse.** Las otras identificaciones del lote requieren revisión independiente.
+**Resultado:** cuatro registros existentes actualizados (Zimram, Zohar hijo de Simeón, Hadar/Hadad hijo de Ismael y Hadad rey de Edom) y una ficha nueva (Zohar heteo). El registro maestro contiene ahora **451 identificadores** y mantiene intactos los ID antiguos y sus genealogías. **Las 19 escenas BES y sus enlaces siguen sin publicarse.** Las otras identificaciones del lote requieren revisión independiente.
