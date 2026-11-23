@@ -171,9 +171,9 @@ def main():
     registry=json.loads(REGISTRY.read_text(encoding="utf-8"))
     assert len(verses)==874 and len({(x["chapter"],x["verse"]) for x in verses})==874
     registered=registry["entidades"]
-    assert len(registered)==450
+    assert len(registered)>=450  # Identificadores crecen con fichas aprobadas
     byid={x["id"]:x for x in registered}
-    assert len(byid)==450
+    assert len(byid)==len(registered)
 
     lexicon=defaultdict(list)
     stopwords_normalized={norm(word) for word in STOPWORDS}
