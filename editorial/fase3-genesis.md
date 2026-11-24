@@ -107,6 +107,12 @@ Se conserva el barrido automático como inventario bruto para auditoría. No se 
 
 **Alcance:** cierre **editorial** de P3 Materiales; la redacción e implementación de las nuevas fichas y enlaces corresponde a P4 y fases siguientes. La **Fase 3 global de Génesis** continúa abierta para las demás categorías.
 
+### Tribus · Génesis 48–49 — TR-29 y lista definitiva de fichas (24/11/2026)
+
+[**TR-29 y acuerdo de 13 fichas tribales**](p3-tribus-tr29-genesis-48-49.md): aprobado el **criterio mixto contextual** para Gn 48–49 y una lista definitiva de **13** fichas de los grupos descendientes de Jacob: Rubén, Simeón, Judá, Gad, Aser, Dan, Neftalí, Isacar, Zabulón, Benjamín, Efraín, Manasés y Levitas. La ficha colectiva de José **no se creará**; permanece José como persona en Onomástico y sus descendencias se documentan mediante Efraín y Manasés. La ficha Levitas representa al colectivo y no sustituye a Leví como individuo.
+
+**Alcance:** 13 fichas nuevas **aprobadas para preparación en P4**, no implementadas ni publicadas. La cifra no equivale a trece asignaciones territoriales: Leví posee un régimen distinto (Jos 14:4). El resto de grupos/pueblos (como Israelitas) son entidades separadas y no se cuentan entre estas 13.
+
 ## Precauciones específicas
 
 - **Abimelec / Ficol:** mantener las fichas y sus menciones, sin resolver por automatismo la identidad personal entre generaciones.
