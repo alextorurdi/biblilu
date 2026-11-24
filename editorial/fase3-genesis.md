@@ -81,6 +81,14 @@ El [extractor P3](../scripts/extract_genesis_p3.py) asigna los casos aprobados e
 
 **Alcance del acuerdo:** clasificaciones editoriales aprobadas, **no** fichas nuevas implementadas ni cambios publicados. P3 continúa para las demás categorías y P4 debe elaborar las fichas y relaciones correspondientes.
 
+### Lugares · Génesis 25–50 — revisión aprobada (24/11/2026)
+
+[**Acuerdos editoriales completos**](p3-lugares-decisiones-genesis-25-50.md): las **34 incidencias** de la revisión de Lugares quedan aprobadas, incluidas las reglas contextuales para falsos positivos y **27 pruebas de regresión especificadas** (aún pendientes de automatización). Las **31 propuestas de fichas** son altas aprobadas para preparar en P4, no entradas creadas o publicadas.
+
+**Excepción expresa respecto de la columna «Acción editorial» inicial:** la mención de **Edom en Gn 36:32 se clasifica en Lugares** (`lugares/edom`), junto a Gn 32:3; 36:16–17,21,31. Solo «jefes de Edom» en Gn 36:43 se remite a Tribus (`tribus/edomitas`), mientras que «Esaú» en el mismo versículo es personal (`onomastico/esau`).
+
+Se conserva el barrido automático como inventario bruto para auditoría. No se han modificado las escenas BES, fichas fuente ni el sitio publicado. **La Fase 3 global continúa** para las otras categorías.
+
 ## Precauciones específicas
 
 - **Abimelec / Ficol:** mantener las fichas y sus menciones, sin resolver por automatismo la identidad personal entre generaciones.
