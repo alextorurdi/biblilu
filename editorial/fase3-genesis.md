@@ -97,11 +97,15 @@ Se conserva el barrido automático como inventario bruto para auditoría. No se 
 
 **Alcance:** aprobación documental P3; fichas, remisiones, enlaces y publicación todavía pendientes. Los falsos positivos y omisiones del extractor siguen como controles para una implementación técnica futura. La Fase 3 del Génesis continúa con los apéndices restantes.
 
-### Materiales · Génesis 25–50 — acuerdos parciales (24/11/2026)
+### Materiales · Génesis 25–50 — revisión editorial aprobada (24/11/2026)
 
-[**Registro de decisiones y fichas editoriales**](p3-materiales-acuerdos-parciales-genesis-25-50.md): **Agua** y **Rocío** aprobadas como fichas **independientes** y redactadas en [Agua](borradores/materiales-agua.md) y [Rocío](borradores/materiales-rocio.md). **Corteza** y **Ofrenda líquida** descartadas como fichas. **Madera** y **Sangre** no constan aprobadas en el catálogo ni en las decisiones recibidas; la propuesta MAT-24 de excluir Sangre tampoco es una decisión aprobada.
+[**Acuerdos editoriales definitivos**](p3-materiales-acuerdos-parciales-genesis-25-50.md): tras recuperar la aprobación completa del editor, las **30 incidencias originales y sus resoluciones finales** están cerradas, sin decisiones pendientes. **Madera (incluyendo leña)** y **Sangre** figuran expresamente **aprobadas**, pese a que sus fichas todavía no se han implementado. De las propuestas originales se trasladó **Cilicio a Objetos**, y se descartaron Hilo, Especias aromáticas y Tierra (suelo).
 
-El Excel actualizado de Materiales contiene **71** menciones auditadas, **12** altas propuestas en total (dos aprobadas, diez pendientes) y **36** incidencias, con cuatro decisiones nuevas y dos comprobaciones pendientes. Las 30 incidencias originales permanecen pendientes de aprobación editorial. **No se modifica el inventario P3 automático ni se publican fichas en la web**, cuyo tratamiento corresponde a P4 y fases posteriores.
+**Balance del acuerdo inicial:** 12 fichas existentes + 13 nuevas aprobadas = **25**. **Revisión posterior:** aprobación de dos fichas independientes más, [Agua](borradores/materiales-agua.md) y [Rocío](borradores/materiales-rocio.md); descarte de Corteza y Ofrenda líquida. **Balance vigente: 12 existentes + 15 nuevas aprobadas = 27 fichas previstas en Materiales**, no publicadas todas.
+
+**Reglas explícitas:** Gn 14:3 «Mar Salado» solo Lugares; Gn 19:26 «sal» a Materiales/Sal; Gn 31:13 «sal» imperativo, no enlazar; «vino» verbal no enlazar. Revisar retrospectivamente Génesis 1–24 para los enlaces de las nuevas fichas durante la fase adecuada. El Excel original mantiene algunos estados de «pendiente» obsoletos frente a las decisiones finales, que prevalecen.
+
+**Alcance:** cierre **editorial** de P3 Materiales; la redacción e implementación de las nuevas fichas y enlaces corresponde a P4 y fases siguientes. La **Fase 3 global de Génesis** continúa abierta para las demás categorías.
 
 ## Precauciones específicas
 
