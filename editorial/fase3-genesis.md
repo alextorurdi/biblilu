@@ -89,6 +89,14 @@ El [extractor P3](../scripts/extract_genesis_p3.py) asigna los casos aprobados e
 
 Se conserva el barrido automático como inventario bruto para auditoría. No se han modificado las escenas BES, fichas fuente ni el sitio publicado. **La Fase 3 global continúa** para las otras categorías.
 
+### Seres Vivos · Génesis 25–50 — revisión aprobada (24/11/2026)
+
+[**Acuerdos editoriales completos**](p3-seres-vivos-decisiones-genesis-25-50.md): las **30 incidencias** SV-01–SV-30 quedan aprobadas, con **10 nuevas fichas** para redactar en P4. El Excel consolidado registra **158** menciones de término-versículo, incluidas pruebas contextuales sin enlace.
+
+**Decisiones que prevalecen:** no marcar «ganado» en ningún versículo; Gn 40:17,19 «aves» → `animales/aves-de-rapina`; Gn 31:11 y 48:16 → `animales/angel-de-jehova` por decisión editorial (sin atribuir al texto el título); descartar Nueces por ahora; remisión «Almendra» → Almendro y corrección de la ficha Vaca → Ganado Bovino durante P4. Las diez altas y el resto de clasificaciones están aprobados cuando no contradicen la columna «Acción editorial» aportada por el editor.
+
+**Alcance:** aprobación documental P3; fichas, remisiones, enlaces y publicación todavía pendientes. Los falsos positivos y omisiones del extractor siguen como controles para una implementación técnica futura. La Fase 3 del Génesis continúa con los apéndices restantes.
+
 ## Precauciones específicas
 
 - **Abimelec / Ficol:** mantener las fichas y sus menciones, sin resolver por automatismo la identidad personal entre generaciones.
