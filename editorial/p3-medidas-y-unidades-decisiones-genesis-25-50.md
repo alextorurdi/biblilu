@@ -1,6 +1,6 @@
-# Fase 3 · Medidas y Unidades — respuestas editoriales recibidas (Génesis 25–50)
+# Fase 3 · Medidas y Unidades — decisiones editoriales cerradas (Génesis 25–50)
 
-**Fecha de registro:** 25/11/2026. **Texto base:** BES 2026, `data/genesis_25_50_bes.json` (874 versículos). **Fuente de autoridad:** archivo del editor `BIBLILU_Genesis_P3_Medidas_y_Unidades_25-50_Revision(1).xlsx`, pestaña **Incidencias**, columna «Acción editorial». **Estado:** decisiones **parcialmente consolidadas**; **21 interpretables y 9 celdas con el valor no explicado «355»**. NO cerrar P3 Medidas y Unidades ni interpretar «355» como aprobación o rechazo.
+**Fecha de registro:** 25/11/2026. **Texto base:** BES 2026, `data/genesis_25_50_bes.json` (874 versículos). **Fuente de autoridad:** archivo del editor `BIBLILU_Genesis_P3_Medidas_y_Unidades_25-50_Revision(1).xlsx`, pestaña **Incidencias**, columna «Acción editorial». **Estado:** revisión de **30 incidencias cerrada editorialmente**: **21 respuestas expresas** y **9 celdas originalmente no contestadas («355»), resueltas por inferencia** a partir de las demás respuestas explícitas y acuerdos ya aprobados. El editor ha confirmado que «355» no era una acción editorial. Se preserva el dato original en el Excel, sin presentarlo como una respuesta escrita por el editor.
 
 ## Altas decididas expresamente para P4
 
@@ -41,16 +41,31 @@ El análisis del original hebreo confirma que «siclo» es una unidad contextual
 - **No enlazar**: MU-16 (**Efa**, persona Gn 25:4), MU-17 (**Gera**, persona Gn 46:21), MU-18 (**seas**, verbo Gn 29:15), MU-19 (**sea**, verbo), MU-20 (**cabo** en «al cabo de»).
 - Estos descartes no borran sus menciones de las hojas de auditoría, ni anulan las altas expresas de **Diezmo y Quinto**.
 
-## Nueve celdas ambiguas: «355»
+## Nueve celdas sin respuesta, resueltas por coherencia editorial
 
-En el Excel recibido, las siguientes incidencias muestran **solo «355»** en «Acción editorial»: **MU-02, MU-04, MU-10, MU-21, MU-22, MU-23, MU-28, MU-29, MU-30**.
+El editor aclaró que **«355» representa una celda que no había rellenado** (sin afirmar que sea un código universal de Excel) y autorizó inferir las resoluciones a partir de las otras respuestas. La columna «Acción editorial» original **no se reescribe** ni se interpreta como aceptación literal. Se documenta por separado la inferencia y su fundamento:
 
-Su significado **no se puede inferir** y no equivale a aprobado, descartado o «sin cambios». En `Altas_propuestas` aparece también «355» en las tres filas originales; para Qesitá, Kibrá y Semana prevalecen las instrucciones expresas de MU-01, MU-03 y MU-05/06. Las nueve incidencias ambiguas **siguen pendientes de aclaración** aunque algunas sean coherentes con criterios aprobados.
+| Código | Resolución por inferencia | Fundamento expreso |
+|---|---|---|
+| **MU-02** | Qesitá posee valor desconocido, sin conversión segura a siclos ni identificación monetaria exacta | **MU-01**: alta de Qesitá, con valor desconocido |
+| **MU-04** | Mantener BES «cierta distancia» y RVR1960 «media legua», sin conversión métrica; nota Kibrá | **MU-03**: ficha y nota Kibrá |
+| **MU-10** | Explicar que las otras cuatro quintas partes son 80 %; sin alta propia | **MU-09**: ficha Quinto |
+| **MU-21** | Conservar Siclo; no atribuirle mención literal en BES 25–50; asociar notas Plata/Siclo de Gn 37:28 y 45:22 | **MU-11 y MU-12**, además de ficha previa |
+| **MU-22** | Conservar la ficha Codo previamente aprobada, sin nueva referencia literal en Gn 25–50 | Aprobación de Codo en revisión anterior |
+| **MU-23** | Conservar la ficha Seá previamente aprobada, sin vincular falsos positivos «sea/seas» | Aprobación de Seá y **MU-18/19** |
+| **MU-28** | Tarea técnica posterior: clasificar «monedas» Gn 33:19 como Qesitá, reconocer Kibrá en Gn 35:16 y 48:7, excluir homógrafos | **MU-01**, **MU-03**, **MU-16–20** |
+| **MU-29** | Gn 33:19 → Qesitá; **no** deducir Plata ni Siclo: el versículo BES solo dice «monedas» y la unidad original no equivale automáticamente al siclo | **MU-01** y distinción con **MU-11/12** |
+| **MU-30** | Separar semana nupcial, tres días de camino y Kibrá; solo Kibrá requiere ficha; ninguna longitud moderna fija | **MU-03**, **MU-05–07**, **MU-24** |
+
+**Precisión técnica MU-28:** la extracción automática inicial **sí contiene** «monedas» de Gn 33:19, pero no lo clasifica como *qesitá*. La mejora es semántica/contextual, además de incorporar Kibrá y eliminar coincidencias erróneas. Las pruebas y la ejecución técnica siguen pendientes para la fase apropiada.
+
+El Excel de cierre preserva las nueve celdas originales y consigna en columnas separadas cada **resolución inferida** y su **fundamento**, manteniendo la distinción con las 21 respuestas explícitas.
 
 ## Estado y entrega
 
-- 30 incidencias recibidas; **21 interpretables**, **9 por aclarar**.
-- 4 altas nuevas autorizadas para preparar en P4: Qesitá, Kibrá, Diezmo, Quinto. Semana descartada.
-- 3 notas editoriales autorizadas: Kibrá (Gn 35:16 y 48:7), Plata/Siclo (Gn 37:28), Plata/Siclo (Gn 45:22).
-- Excel consolidado en la conversación: `BIBLILU_Genesis_P3_Medidas_y_Unidades_25-50_Respuestas_Consolidadas.xlsx`, con acciones originales preservadas, resultados de incidencia, fichas y notas.
-- **Sin cambios en `data/entries.json`, escenas o web publicada.** No cerrar editorialmente esta categoría hasta resolver las nueve celdas.
+- **30/30 incidencias de Medidas y Unidades resueltas editorialmente**: 21 por respuesta explícita y 9 por deducción aprobada de decisiones anteriores; **0 pendientes de aclaración**.
+- **4 altas expresamente autorizadas para P4:** Qesitá, Kibrá, Diezmo y Quinto. Semana descartada.
+- **3 notas editoriales expresamente autorizadas:** Kibrá (Gn 35:16 y 48:7), Plata/Siclo (Gn 37:28) y Plata/Siclo (Gn 45:22), con sus textos literales preservados arriba.
+- Mantener **Siclo** (existente), **Codo** y **Seá** (aprobados anteriormente, por crear o consolidar en P4).
+- Excel de cierre de la conversación: `BIBLILU_Genesis_P3_Medidas_y_Unidades_25-50_Cierre_Aprobado.xlsx`; conserva las 11 hojas de la consolidación anterior, con resolución y fundamento separados del texto original de cada respuesta.
+- **La P3 de Medidas y Unidades queda cerrada editorialmente.** Sigue pendiente la creación de fichas, inserción de notas, enlaces, ajustes del extractor y publicación en las fases correspondientes. **No se han modificado `data/entries.json`, las escenas ni la web publicada.**
