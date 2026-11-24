@@ -54,6 +54,8 @@
 
 Se conserva la **revisión retrospectiva de Génesis 1–24** para incorporar enlaces a las fichas nuevas de Materiales, siempre respetando el texto RVR1960.
 
+[**Revisión retrospectiva de Agua y Rocío (Génesis 1–24)**](p3-materiales-agua-rocio-enlaces-genesis-1-24.md): 52 apariciones literales de «agua/aguas» en 42 versículos, 0 de «rocío». Enlaces candidatos inventariados para P4; no aplicados todavía.
+
 ## Estado de implementación
 
 El Excel original conserva columnas `Estado` que dicen «Pendiente de aprobación» aunque sus acciones editoriales y aprobación final ya las superaron. **No reabrir esas decisiones.** La aprobación es documental; **las fichas nuevas todavía no están implementadas en `data/entries.json` ni publicadas**, salvo las 12 entradas antiguas ya existentes.
