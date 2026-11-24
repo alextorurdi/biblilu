@@ -119,13 +119,15 @@ Se conserva el barrido automático como inventario bruto para auditoría. No se 
 
 **Balance:** 2 fichas existentes (Kinnor y Ugab) + 1 alta aprobada (Tof) = **3 fichas previstas**; Ugab sin menciones en Gn 25–50. Redacción de la ficha, nota funcional y publicación reservadas para P4/P9; P3 global continúa abierta para las categorías restantes.
 
-### Medidas y Unidades · Génesis 25–50 — decisiones parciales registradas (25/11/2026)
+### Medidas y Unidades · Génesis 25–50 — revisión editorial cerrada (25/11/2026)
 
-[**Registro editorial y notas aprobadas**](p3-medidas-y-unidades-decisiones-genesis-25-50.md): de las **30** incidencias del Excel recibido, **21** tienen acción interpretable, y **9** contienen el valor aislado «355», pendiente de explicación (MU-02,04,10,21–23,28–30). Por tanto, **no se ha cerrado** todavía esta categoría.
+[**Registro definitivo de acuerdos**](p3-medidas-y-unidades-decisiones-genesis-25-50.md): **30/30 incidencias cerradas**. Hay **21 respuestas explícitas** del editor y **9 celdas sin rellenar (valor «355»)** que, por autorización posterior del editor, se han resuelto **por inferencia documentada** a partir de los otros acuerdos. No se confunden con aprobaciones escritas en el Excel. **0 incidencias pendientes**.
 
-**Cuatro nuevas fichas aprobadas para P4:** **Qesitá** (Gn 33:19), **Kibrá** (Gn 35:16 y 48:7), **Diezmo** (Gn 28:22) y **Quinto** (Gn 41:34; 47:24,26). **Semana** descartada, así como su conversión en una ficha metrológica; los días de camino tampoco generan nueva unidad. **Notas editoriales aprobadas:** Kibrá y los casos «veinte de plata» (Gn 37:28) y «trescientos de plata» (Gn 45:22), estos últimos con enlaces a Plata y Siclo desde las notas, preservando la BES. Se mantienen los falsos positivos como controles técnicos.
+**Cuatro nuevas fichas aprobadas para P4:** **Qesitá** (Gn 33:19), **Kibrá** (Gn 35:16; 48:7), **Diezmo** (Gn 28:22) y **Quinto** (Gn 41:34; 47:24,26). **Semana** descartada, al igual que fichas para tiempo cotidiano o días de camino; las cuatro quintas partes de Gn 47:24 se explicarán dentro de Quinto. **Notas editoriales aprobadas:** Kibrá; Gn 37:28 («veinte de plata») y Gn 45:22 («trescientos de plata»), con enlaces a Plata y Siclo desde sus notas. Gn 33:19 no genera un enlace a Plata o Siclo: es Qesitá de equivalencia desconocida. Preservar Codo y Seá, aprobados anteriormente, y Siclo, ya existente.
 
-**Estado de implementación:** documental únicamente; ninguna ficha o nota publicada.
+**Precaución MU-28:** la coincidencia «monedas» de Gn 33:19 ya está en el barrido P3; falta clasificarla como Qesitá. La actualización técnica del extractor se reserva para la fase pertinente.
+
+**Estado:** P3 de Medidas y Unidades **cerrada editorialmente**; fichas, notas, enlaces, correcciones técnicas y publicación **todavía pendientes**. La Fase 3 global sigue su curso para las demás categorías.
 
 ## Precauciones específicas
 
