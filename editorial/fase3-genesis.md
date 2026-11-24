@@ -119,6 +119,14 @@ Se conserva el barrido automático como inventario bruto para auditoría. No se 
 
 **Balance:** 2 fichas existentes (Kinnor y Ugab) + 1 alta aprobada (Tof) = **3 fichas previstas**; Ugab sin menciones en Gn 25–50. Redacción de la ficha, nota funcional y publicación reservadas para P4/P9; P3 global continúa abierta para las categorías restantes.
 
+### Medidas y Unidades · Génesis 25–50 — decisiones parciales registradas (25/11/2026)
+
+[**Registro editorial y notas aprobadas**](p3-medidas-y-unidades-decisiones-genesis-25-50.md): de las **30** incidencias del Excel recibido, **21** tienen acción interpretable, y **9** contienen el valor aislado «355», pendiente de explicación (MU-02,04,10,21–23,28–30). Por tanto, **no se ha cerrado** todavía esta categoría.
+
+**Cuatro nuevas fichas aprobadas para P4:** **Qesitá** (Gn 33:19), **Kibrá** (Gn 35:16 y 48:7), **Diezmo** (Gn 28:22) y **Quinto** (Gn 41:34; 47:24,26). **Semana** descartada, así como su conversión en una ficha metrológica; los días de camino tampoco generan nueva unidad. **Notas editoriales aprobadas:** Kibrá y los casos «veinte de plata» (Gn 37:28) y «trescientos de plata» (Gn 45:22), estos últimos con enlaces a Plata y Siclo desde las notas, preservando la BES. Se mantienen los falsos positivos como controles técnicos.
+
+**Estado de implementación:** documental únicamente; ninguna ficha o nota publicada.
+
 ## Precauciones específicas
 
 - **Abimelec / Ficol:** mantener las fichas y sus menciones, sin resolver por automatismo la identidad personal entre generaciones.
