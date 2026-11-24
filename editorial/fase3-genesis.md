@@ -1,6 +1,6 @@
 # Fase 3 · Extracción y clasificación de Génesis 25–50
 
-**Inicio:** 23/11/2026. **Texto base:** BES 2026. **Estado:** **EN CURSO — primer barrido de 874 versículos realizado, catálogos guardados y primer lote onomástico preparado para aprobación**.
+**Inicio:** 23/11/2026. **Texto base:** BES 2026. **Estado:** **EN CURSO — barrido inicial de 874 versículos y revisión contextual del Onomástico por lotes. Lote 1 aprobado parcialmente; lotes 2 y 3 preparados para revisión editorial.**
 
 **Alcance:** Gn 25:1–50:26, 874 versículos, 19 escenas BES aprobadas en P1 y maquetadas en P2. Se preservan íntegramente las 15 escenas anteriores RVR1960.
 
@@ -64,6 +64,16 @@ Se han actualizado [las entradas fuente](../data/entries.json) y el [registro ma
 El [extractor P3](../scripts/extract_genesis_p3.py) asigna los casos aprobados en Gn 25:2, 25:9, 25:15 y 36:35–36, impidiendo cruces con sus homónimos. La BES usa **«Zera» en Gn 46:10** para el hijo de Simeón que se llama **Zohar** en RVR1960: se registra aparte como **diferencia textual que debe contrastarse** con la ficha histórica, sin dirigirla a `onomastico/zera` (hijo de Reuel).
 
 [Detalle del primer lote aprobado parcialmente](p3-onomastico-lote1-genesis-25-1-18.md). **P3 sigue abierta:** no se interpretan como aprobadas las demás identificaciones ni se publican las escenas nuevas.
+
+### Seguimiento de lotes onomásticos
+
+| Lote | Tramo | Estado | Documento |
+|---|---|---|---|
+| 1 | Gn 25:1–18 | Aprobación parcial; Zimram, Zohar y Hadad incorporados | [Lote 1](p3-onomastico-lote1-genesis-25-1-18.md) |
+| 2 | Gn 25:19–34 | Propuesta pendiente de aprobación; siete personas y Edom como sobrenombre de Esaú | [Lote 2](p3-onomastico-lote2-genesis-25-19-34.md) |
+| 3 | Gn 26:1–35 | Propuesta pendiente de aprobación; Ahuzat y Beeri requieren nuevas fichas en P4 | [Lote 3](p3-onomastico-lote3-genesis-26.md) |
+
+**Incidencia nueva del lote 3:** en Gn 26:33 «Seba» nombra un **pozo**, no una persona; la salida automática P3 lo considera erróneamente un candidato onomástico. La reclasificación está propuesta, pero el extractor aún no se ha corregido. No se han cambiado fichas ni contenido publicado por este lote.
 
 ## Precauciones específicas
 
