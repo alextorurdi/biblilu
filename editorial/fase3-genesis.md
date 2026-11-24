@@ -75,6 +75,12 @@ El [extractor P3](../scripts/extract_genesis_p3.py) asigna los casos aprobados e
 
 **Incidencia nueva del lote 3:** en Gn 26:33 «Seba» nombra un **pozo**, no una persona; la salida automática P3 lo considera erróneamente un candidato onomástico. La reclasificación está propuesta, pero el extractor aún no se ha corregido. No se han cambiado fichas ni contenido publicado por este lote.
 
+### Lote único Gn 27–50 · decisiones editoriales aprobadas (24/11/2026)
+
+[Registro de acuerdos](p3-onomastico-decisiones-genesis-27-50.md): están cerradas las incidencias de identidad del lote, incluidas las asignaciones de Israel y Edom, la prohibición de crear fichas separadas de jefaturas y las correcciones de Basemat, familiares horeos, Aná y Potifar/Potifera. El Excel consolidado mantiene la columna «Acción» del editor y un cruce por apéndices.
+
+**Alcance del acuerdo:** clasificaciones editoriales aprobadas, **no** fichas nuevas implementadas ni cambios publicados. P3 continúa para las demás categorías y P4 debe elaborar las fichas y relaciones correspondientes.
+
 ## Precauciones específicas
 
 - **Abimelec / Ficol:** mantener las fichas y sus menciones, sin resolver por automatismo la identidad personal entre generaciones.
