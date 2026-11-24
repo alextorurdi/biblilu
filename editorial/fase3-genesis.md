@@ -97,6 +97,12 @@ Se conserva el barrido automático como inventario bruto para auditoría. No se 
 
 **Alcance:** aprobación documental P3; fichas, remisiones, enlaces y publicación todavía pendientes. Los falsos positivos y omisiones del extractor siguen como controles para una implementación técnica futura. La Fase 3 del Génesis continúa con los apéndices restantes.
 
+### Materiales · Génesis 25–50 — acuerdos parciales (24/11/2026)
+
+[**Registro de decisiones y fichas editoriales**](p3-materiales-acuerdos-parciales-genesis-25-50.md): **Agua** y **Rocío** aprobadas como fichas **independientes** y redactadas en [Agua](borradores/materiales-agua.md) y [Rocío](borradores/materiales-rocio.md). **Corteza** y **Ofrenda líquida** descartadas como fichas. **Madera** y **Sangre** no constan aprobadas en el catálogo ni en las decisiones recibidas; la propuesta MAT-24 de excluir Sangre tampoco es una decisión aprobada.
+
+El Excel actualizado de Materiales contiene **71** menciones auditadas, **12** altas propuestas en total (dos aprobadas, diez pendientes) y **36** incidencias, con cuatro decisiones nuevas y dos comprobaciones pendientes. Las 30 incidencias originales permanecen pendientes de aprobación editorial. **No se modifica el inventario P3 automático ni se publican fichas en la web**, cuyo tratamiento corresponde a P4 y fases posteriores.
+
 ## Precauciones específicas
 
 - **Abimelec / Ficol:** mantener las fichas y sus menciones, sin resolver por automatismo la identidad personal entre generaciones.
