@@ -129,6 +129,14 @@ Se conserva el barrido automático como inventario bruto para auditoría. No se 
 
 **Estado:** P3 de Medidas y Unidades **cerrada editorialmente**; fichas, notas, enlaces, correcciones técnicas y publicación **todavía pendientes**. La Fase 3 global sigue su curso para las demás categorías.
 
+### Objetos · Génesis 25–50 — propuesta pendiente de aprobación (25/11/2026)
+
+[**Propuesta y revisión contextual de Objetos**](p3-objetos-propuesta-genesis-25-50.md): el extractor P3 original aporta **87 coincidencias en 71 versículos**, pero omite objetos relevantes. El inventario ampliado contiene **147 registros por candidato/versículo** y **40 incidencias editoriales** preparadas en el Excel `BIBLILU_Genesis_P3_Objetos_25-50_Revision.xlsx`, con **15 fichas nuevas propuestas** y **16 casos secundarios** de valoración. No son altas aprobadas.
+
+**Precedencia:** conservar las siete fichas ya existentes. La ficha **Cilicio** en Objetos **sí está aprobada** por acuerdo anterior de Materiales, aunque todavía no se haya creado. Los pozos con nombre siguen en Lugares; piedra, oro, plata, sangre y lino siguen en Materiales. Pozo de agua y cisterna seca deben separarse conceptualmente (Gn 26–29 frente a Gn 37); la Espada encendida no se confunde con espadas comunes ni el Arco iris con las armas.
+
+**Estado:** estudio P3 preparado, **pendiente de la columna de acciones del editor**; no se han redactado ni publicado fichas, notas o enlaces.
+
 ## Precauciones específicas
 
 - **Abimelec / Ficol:** mantener las fichas y sus menciones, sin resolver por automatismo la identidad personal entre generaciones.
