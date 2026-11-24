@@ -21,9 +21,9 @@ Las **11 incidencias** del Excel quedan resueltas conforme a estas instrucciones
 
 ## Texto propuesto de la nota editorial para Gn 31:27
 
-> La expresión «cantos y música» de la BES 2026 resume dos instrumentos mencionados expresamente en el texto hebreo: el *tōf*, traducido «tamborín», y el *kinnôr*, traducido «arpa» en la RVR1960. Se trata de la despedida que Labán afirma que **habría podido ofrecer** a Jacob, no de una celebración que el relato diga que ocurrió. Véanse las fichas [[instrumentos/tof|Tof]] y [[instrumentos/kinnor|Kinnor]].
+> La expresión «cantos y música» de la BES 2026 resume dos instrumentos mencionados expresamente en el texto hebreo: el *tōf*, y el *kinnôr*, traducido como traducido «tamborín» y «arpa» respectivamente en la RVR1960.
 
-**Anclaje editorial:** Gn 31:27, asociado a la cláusula «cantos y música». El enlace a cada ficha se encuentra **dentro de la nota**, no sobre el término genérico del texto BES. El estilo y código exactos de la nota deben adaptarse al sistema de notas de la web al implementarla.
+**Anclaje editorial:** Gn 31:27, asociado a la cláusula «cantos y música». Al implementar la nota, enlazar los términos *tōf* y *kinnôr* a `instrumentos/tof` y `instrumentos/kinnor` respectivamente, **sin añadir ni cambiar palabras** del texto aprobado y sin enlazar la palabra genérica «música» de la BES. Los enlaces son metadatos/maquetación, no contenido adicional. El texto de la nota se conserva **literalmente**, incluso la reiteración «traducido como traducido».
 
 ## Inventario final de Instrumentos Musicales (Génesis)
 
