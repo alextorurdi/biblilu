@@ -113,6 +113,12 @@ Se conserva el barrido automático como inventario bruto para auditoría. No se 
 
 **Alcance:** 13 fichas nuevas **aprobadas para preparación en P4**, no implementadas ni publicadas. La cifra no equivale a trece asignaciones territoriales: Leví posee un régimen distinto (Jos 14:4). El resto de grupos/pueblos (como Israelitas) son entidades separadas y no se cuentan entre estas 13.
 
+### Instrumentos Musicales · Génesis 25–50 — revisión aprobada (24/11/2026)
+
+[**Acuerdos editoriales de Instrumentos Musicales**](p3-instrumentos-musicales-decisiones-genesis-25-50.md): revisión del tramo BES de 874 versículos completada y **11 incidencias resueltas**. Gn 31:27 es la única referencia relevante; la BES emplea «cantos y música», mientras que el hebreo y RVR1960 mencionan **Tof** (tamborín) y **Kinnor** (lira/«arpa»). Se **aprueba la nueva ficha `instrumentos/tof`** y una **nota editorial** en ese versículo con enlaces a Tof y Kinnor; no convertir «música» en un enlace directo ni reescribir la BES. Labán formula una despedida hipotética, no una actuación celebrada.
+
+**Balance:** 2 fichas existentes (Kinnor y Ugab) + 1 alta aprobada (Tof) = **3 fichas previstas**; Ugab sin menciones en Gn 25–50. Redacción de la ficha, nota funcional y publicación reservadas para P4/P9; P3 global continúa abierta para las categorías restantes.
+
 ## Precauciones específicas
 
 - **Abimelec / Ficol:** mantener las fichas y sus menciones, sin resolver por automatismo la identidad personal entre generaciones.
