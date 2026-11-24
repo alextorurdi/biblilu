@@ -37,4 +37,4 @@
 
 La lista se obtuvo mediante una búsqueda de palabras completas con límites de letras y comprobación de los textos por capítulo en la fuente RVR1960 del repositorio. Se preserva la diferencia entre **versículos** y **apariciones literales**.
 
-**Estado:** revisión retrospectiva de referencias terminada. **Pendiente:** implementación de las fichas y de los enlaces, sin volver a abrir la decisión de crear Agua y Rocío.
+**Estado:** revisión retrospectiva de referencias **APROBADA por el editor**. **Pendiente:** únicamente la implementación de las fichas y de los enlaces, sin volver a abrir la decisión de crear Agua y Rocío.
