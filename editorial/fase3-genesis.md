@@ -53,7 +53,7 @@
 - **Súa, Seba, Dedán, Hanoc y Efa:** la propuesta resuelve estos casos por su parentesco explícito, respetando los IDs diferenciados existentes.
 - **Asurim, Letusim, Leumim:** se conservan fichas personales independientes, de acuerdo con la decisión editorial previa.
 
-**Estado del lote:** propuestas de asignación y nuevas fichas **pendientes de aprobación**. No se han modificado ni vinculado fichas históricas.
+**Estado del lote:** asignaciones y nuevas fichas **aprobadas editorialmente** (25/11/2026); las implementaciones aprobadas anteriormente se conservan. No se han modificado ni vinculado fichas históricas.
 
 ### Resolución editorial aplicada · Primer lote del Onomástico
 
@@ -63,7 +63,7 @@ Se han actualizado [las entradas fuente](../data/entries.json) y el [registro ma
 
 El [extractor P3](../scripts/extract_genesis_p3.py) asigna los casos aprobados en Gn 25:2, 25:9, 25:15 y 36:35–36, impidiendo cruces con sus homónimos. La BES usa **«Zera» en Gn 46:10** para el hijo de Simeón que se llama **Zohar** en RVR1960: se registra aparte como **diferencia textual que debe contrastarse** con la ficha histórica, sin dirigirla a `onomastico/zera` (hijo de Reuel).
 
-[Detalle del primer lote aprobado parcialmente](p3-onomastico-lote1-genesis-25-1-18.md). **P3 sigue abierta:** no se interpretan como aprobadas las demás identificaciones ni se publican las escenas nuevas.
+[Detalle del primer lote aprobado parcialmente](p3-onomastico-lote1-genesis-25-1-18.md). **P3 pendiente del control transversal:** las demás identificaciones onomásticas de este lote se aprobaron el 25/11/2026; las escenas nuevas siguen sin publicarse.
 
 ### Cierre editorial Onomástico · 25/11/2026
 
@@ -79,7 +79,7 @@ El [extractor P3](../scripts/extract_genesis_p3.py) asigna los casos aprobados e
 | 2 | Gn 25:19–34 | Aprobado (25/11); siete personas y Edom como sobrenombre de Esaú | [Lote 2](p3-onomastico-lote2-genesis-25-19-34.md) |
 | 3 | Gn 26:1–35 | Aprobado (25/11); Ahuzat y Beeri aprobados para P4 | [Lote 3](p3-onomastico-lote3-genesis-26.md) |
 
-**Incidencia nueva del lote 3:** en Gn 26:33 «Seba» nombra un **pozo**, no una persona; la salida automática P3 lo considera erróneamente un candidato onomástico. La reclasificación está propuesta, pero el extractor aún no se ha corregido. No se han cambiado fichas ni contenido publicado por este lote.
+**Incidencia técnica conocida del lote 3:** en Gn 26:33 «Seba» nombra un **pozo**, no una persona; la salida automática P3 lo considera erróneamente un candidato onomástico. La reclasificación está aprobada (25/11/2026), pero el extractor aún no se ha corregido. No se han cambiado fichas ni contenido publicado por este lote.
 
 ### Lote único Gn 27–50 · decisiones editoriales aprobadas (24/11/2026)
 
