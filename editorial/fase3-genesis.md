@@ -1,6 +1,6 @@
 # Fase 3 · Extracción y clasificación de Génesis 25–50
 
-**Inicio:** 23/11/2026. **Texto base:** BES 2026. **Estado:** **EN CURSO — barrido inicial de 874 versículos y revisión contextual del Onomástico por lotes. Lote 1 aprobado parcialmente; lotes 2 y 3 preparados para revisión editorial.**
+**Inicio:** 23/11/2026. **Texto base:** BES 2026. **Estado:** **REVISIONES EDITORIALES P3 APROBADAS EN LAS OCHO CATEGORÍAS (25/11/2026)**. Pendiente control transversal de cierre y ejecución técnica posterior en P4–P9; no equivale a publicación.
 
 **Alcance:** Gn 25:1–50:26, 874 versículos, 19 escenas BES aprobadas en P1 y maquetadas en P2. Se preservan íntegramente las 15 escenas anteriores RVR1960.
 
@@ -65,13 +65,19 @@ El [extractor P3](../scripts/extract_genesis_p3.py) asigna los casos aprobados e
 
 [Detalle del primer lote aprobado parcialmente](p3-onomastico-lote1-genesis-25-1-18.md). **P3 sigue abierta:** no se interpretan como aprobadas las demás identificaciones ni se publican las escenas nuevas.
 
+### Cierre editorial Onomástico · 25/11/2026
+
+**Las diez decisiones finales del editor sobre Gn 25–26 están aprobadas** y documentadas en los tres registros de lotes. Lote 1: Súa, Seba y Dedán, Hanoc, Efa, Mamre, menciones restantes, Asurim/Letusim/Leumim y remisiones; lote 2: Edom como sobrenombre de Esaú (25:30); lote 3: Abimelec y Ficol con identidad intergeneracional no determinada, dos fichas nuevas **Ahuzat** y **Beeri** aprobadas para P4, desambiguación de la familia de Esaú y falsa clasificación de Seba (26:33) como persona.
+
+**Sin decisiones onomásticas por aprobar** en Gn 25–50. No confundir las tareas de implementación pendientes con decisiones editoriales abiertas. El control transversal final de P3 debe comprobar coherencia entre categorías y registrar cualquier incidencia nueva si apareciera.
+
 ### Seguimiento de lotes onomásticos
 
 | Lote | Tramo | Estado | Documento |
 |---|---|---|---|
-| 1 | Gn 25:1–18 | Aprobación parcial; Zimram, Zohar y Hadad incorporados | [Lote 1](p3-onomastico-lote1-genesis-25-1-18.md) |
-| 2 | Gn 25:19–34 | Propuesta pendiente de aprobación; siete personas y Edom como sobrenombre de Esaú | [Lote 2](p3-onomastico-lote2-genesis-25-19-34.md) |
-| 3 | Gn 26:1–35 | Propuesta pendiente de aprobación; Ahuzat y Beeri requieren nuevas fichas en P4 | [Lote 3](p3-onomastico-lote3-genesis-26.md) |
+| 1 | Gn 25:1–18 | Aprobado completo (25/11); Zimram, Zohar y Hadad incorporados anteriormente | [Lote 1](p3-onomastico-lote1-genesis-25-1-18.md) |
+| 2 | Gn 25:19–34 | Aprobado (25/11); siete personas y Edom como sobrenombre de Esaú | [Lote 2](p3-onomastico-lote2-genesis-25-19-34.md) |
+| 3 | Gn 26:1–35 | Aprobado (25/11); Ahuzat y Beeri aprobados para P4 | [Lote 3](p3-onomastico-lote3-genesis-26.md) |
 
 **Incidencia nueva del lote 3:** en Gn 26:33 «Seba» nombra un **pozo**, no una persona; la salida automática P3 lo considera erróneamente un candidato onomástico. La reclasificación está propuesta, pero el extractor aún no se ha corregido. No se han cambiado fichas ni contenido publicado por este lote.
 
@@ -151,6 +157,15 @@ Se conserva el barrido automático como inventario bruto para auditoría. No se 
 
 ## Criterio de cierre de P3
 
-**No está cerrada aún.** Requiere extraer todas las categorías, revisar el catálogo contextualizado, separar fichas existentes de fichas futuras y aprobar el conjunto de incidencias editoriales. Las fichas no se redactan hasta P4.
+**Las revisiones editoriales por categoría están aprobadas.** Falta ejecutar y registrar el **control transversal de cierre P3** de extracción, duplicidades y clasificaciones cruzadas. Las fichas y vínculos nuevos corresponden a P4 y fases posteriores. Las fichas no se redactan hasta P4.
 
 El informe automático valida **cobertura y literalidad de los candidatos** pero no reemplaza la revisión de nombres o identidades por una persona.
+
+
+## Casos separados para control posterior · 25/11/2026
+
+- **Sin aprobaciones editoriales pendientes conocidas** de los lotes Onomástico 1–3: las diez decisiones expresas están registradas.
+- **Control transversal P3, no nueva aprobación:** verificar que Edom/Israel y homónimos se clasifiquen según contexto y que el inventario de las ocho categorías no deje omisiones o duplicidades.
+- **Corrección técnica posterior:** eliminar falso positivo onomástico «Seba» de Gn 26:33 y asegurar su tratamiento como pozo/topónimo; revisar pruebas de regresión y correcciones automáticas del extractor.
+- **P4:** crear fichas Ahuzat y Beeri, preparar enlaces y relaciones aprobados; no afirmar identidad de Abimelec o Ficol entre generaciones.
+- **P4–P9:** completar las restantes fichas aprobadas, notas, enlaces, pruebas y publicación. Ninguna de estas tareas representa una aprobación editorial aún no concedida.
