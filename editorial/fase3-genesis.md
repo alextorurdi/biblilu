@@ -1,6 +1,6 @@
 # Fase 3 · Extracción y clasificación de Génesis 25–50
 
-**Inicio:** 23/11/2026. **Texto base:** BES 2026. **Estado:** **REVISIONES EDITORIALES P3 APROBADAS EN LAS OCHO CATEGORÍAS (25/11/2026)**. Pendiente control transversal de cierre y ejecución técnica posterior en P4–P9; no equivale a publicación.
+**Inicio:** 23/11/2026. **Texto base:** BES 2026. **Estado actual:** **P3 CERRADA el 25/11/2026**, tras aprobación editorial de las ocho categorías y GitHub Actions #37 en verde (commit `5ef657a`). Véase [acta definitiva](p3-cierre-definitivo-genesis-25-50-2026-11-25.md). Fichas, notas, enlaces, mapas y publicación corresponden a P4–P9. Las menciones históricas de «pendiente» que aparecen más abajo describen estados anteriores y quedan superadas por el acta final.
 
 **Alcance:** Gn 25:1–50:26, 874 versículos, 19 escenas BES aprobadas en P1 y maquetadas en P2. Se preservan íntegramente las 15 escenas anteriores RVR1960.
 
@@ -203,3 +203,8 @@ El [generador reproducible](../scripts/build_p3_catalogo_reconciliado.py) permit
 - [CT-31: auditoría de integridad tras D-04](p3-ct31-control-integridad-25-11-2026.md): 874 versículos, 1.711 registros brutos (1.656 posiciones únicas), 55 cruces y 1.918 reglas contextuales examinadas sin errores de posición ni duplicaciones de regla. Catálogo derivado regenerado con **1.973 menciones**. **D-04 opción A aprobada:** ficha futura independiente Débora, nodriza de Rebeca (`onomastico/debora-nodriza-rebeca`), sin enlace material hasta P4.
 - [CT-32: regresión léxica y cribado de nombres](p3-ct32-cobertura-lexica-y-nombres-genesis-25-50.md): 24 familias y **230 apariciones** contrastadas, sin omisiones en ese conjunto; prueba automatizada incorporada a `control-p3-reconciliacion.yml`. El cribado de mayúsculas no confirmó antropónimos o topónimos nuevos. Títulos teológicos de Gn 49:24 reservados para tratamiento editorial de escena (P6).
 - **Estado prudente:** reglas y coberturas dirigidas verificadas en lectura directa, pero GitHub Actions no ha aportado aún una ejecución confirmada y quedan por verificar en CI `check_p3_reconciliacion.py`, `check_p3_cobertura_lexica.py` y `build_p3_catalogo_reconciliado.py --check`. Por tanto, **P3 sigue sin certificarse cerrada**, aunque no hay una nueva decisión editorial pendiente conocida. No se ha publicado contenido nuevo.
+
+
+## Cierre definitivo y traspaso a P4 · 25/11/2026
+
+**[Acta definitiva de cierre P3](p3-cierre-definitivo-genesis-25-50-2026-11-25.md).** GitHub Actions, ejecución **#37**, confirmada verde mediante captura aportada por el editor: commit `5ef657a` en `main`, duración 9 s. Validación de reconciliación contextual, cobertura léxica CT-32, reproducibilidad del catálogo y protección de fuentes. **Fase P3 cerrada**, sin reclamar exhaustividad semántica absoluta ni adelantar fichas o publicación. La redacción de fichas y relaciones pendientes pasa a **P4** conforme al protocolo. Esta entrada final prevalece sobre los párrafos históricos que describen la fase como abierta.
