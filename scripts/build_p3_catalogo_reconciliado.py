@@ -40,7 +40,7 @@ def generate():
     for x in rules["correcciones_contextuales"]:
         k=key(x)
         if k not in entries:
-            ch,ve=map(int,re.match(r"Gn (\\d+):(\\d+)",x["ref"]).groups())
+            ch,ve=map(int,re.match(r"Gn (\d+):(\d+)",x["ref"]).groups())
             entries[k]={"ref":x["ref"],"chapter":ch,"verse":ve,
                 "start":x["start"],"end":x["end"],"literal":x["literal"],
                 "categorias_brutas":[],"candidatos_brutos":[],
@@ -91,7 +91,7 @@ def main():
     assert len(verses)==len(text)==874
     for x in result["menciones"]:
         assert text[x["ref"]][x["start"]:x["end"]]==x["literal"],x
-    encoded=json.dumps(result,ensure_ascii=False,indent=2)+"\\n"
+    encoded=json.dumps(result,ensure_ascii=False,indent=2)+"\n"
     if args.check:
         assert output.read_text(encoding="utf-8")==encoded,"Catalogo no reproducible"
         print("Catalogo P3 OK:",len(result["menciones"]),"registros")
