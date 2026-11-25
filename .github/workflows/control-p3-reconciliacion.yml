@@ -1,0 +1,30 @@
+name: P3 · Control de reconciliación Génesis 25–50
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/control-p3-reconciliacion.yml'
+      - 'scripts/check_p3_reconciliacion.py'
+      - 'scripts/build_p3_catalogo_reconciliado.py'
+      - 'data/p3-reconciliacion-genesis-25-50.json'
+      - 'data/p3-catalogo-reconciliado-genesis-25-50.json'
+      - 'data/p3-extracciones-genesis-25-50.json'
+      - 'data/genesis_25_50_bes.json'
+      - 'data/registro_maestro.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  control-p3:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v4
+      - name: Validar reconciliación contextual
+        run: python3 scripts/check_p3_reconciliacion.py
+      - name: Verificar reproducibilidad del catálogo derivado
+        run: python3 scripts/build_p3_catalogo_reconciliado.py --check
+      - name: Asegurar que solo se validan archivos
+        run: |
+          git diff --exit-code -- data/genesis_25_50_bes.json data/p3-extracciones-genesis-25-50.json data/registro_maestro.json
