@@ -49,7 +49,7 @@ def generate():
         y=entries[k]
         if y["accion"] and y["accion"]!=x["accion"]:
             raise ValueError("Acciones incompatibles: "+k)
-        states={"excluir":"excluido_aprobado","nota_contextual":"nota_contextual_aprobada",
+        states={"clasificar_sin_id":"clasificado_sin_id","homonimo_no_identificado":"homonimo_no_identificado","excluir":"excluido_aprobado","nota_contextual":"nota_contextual_aprobada",
             "asociacion_contextual":"asociacion_contextual_aprobada",
             "no_enlazar_como_persona":"exclusion_personal_aprobada"}
         y.update(categoria=x["categoria"],id=x["id"],accion=x["accion"],
