@@ -1,6 +1,6 @@
 # BIBLILU · Génesis 25–50 · Fase 4: elaboración y actualización de fichas
 
-**Inicio:** 25/11/2026, tras cierre de P3 y GitHub Actions #37 en verde. **Estado:** PREPARACIÓN EDITORIAL; sin publicación ni fichas nuevas en catálogo.
+**Inicio:** 25/11/2026, tras cierre de P3 y GitHub Actions #37 en verde. **Estado:** P4 INICIADA; primer lote de borradores presentado para aprobación textual, sin publicación ni fichas nuevas en catálogo.
 
 ## Principio de trabajo
 
@@ -14,7 +14,7 @@
 
 | Apéndice | Altas P3 aprobadas | Prioridades P4 | Estado |
 |---|---:|---|---|
-| Onomástico | Varias; número total aún por depurar contra registro histórico | Primer lote: Ahuzat, Beeri (heteo), Débora (nodriza de Rebeca); luego Hamor, Siquem persona, Hira, Potifar/Potifera, genealogías horeas/edomitas | Borradores primer lote |
+| Onomástico | Varias; número total aún por depurar contra registro histórico | Primer lote: Ahuzat, Beeri (heteo), Débora (nodriza de Rebeca); luego Hamor, Siquem persona, Hira, Potifar/Potifera, genealogías horeas/edomitas | 3 borradores redactados, a aprobar |
 | Lugares | 31 propuestas aprobadas | Pozos de Isaac; Alón-bacut; lugares de Jacob; Egipto y regiones | Pendiente |
 | Seres Vivos | 10 | Mandrágora y especies; remisión Almendra → Almendro; corregir Vaca → Ganado Bovino | Pendiente |
 | Materiales | 15 | Agua, Rocío, Madera (incluye leña), Sangre y restantes fichas aprobadas; revisión retrospectiva Gn 1–24 | Pendiente |
@@ -37,4 +37,4 @@
 - Las notas sobre Gn 31:27, 37:24, 37:28, 45:22, Kibrá, etc., están aprobadas conceptualmente; su integración visual y los enlaces se revisarán con las escenas en P6.
 - Abimelec/Ficol, Basemat/Ada/Judit, Aná, Siquem, Zera, Israel/Edom: conservar las decisiones contextuales de P3, sin fusionar fichas por coincidencia literal.
 
-**Próximo hito:** revisión y aprobación de la redacción de P4-ON-01 a P4-ON-03. Ninguna acción de publicación autorizada por este plan.
+**[Borradores completos del primer lote](p4-onomastico-lote1-propuestas-ahuzat-beeri-debora.md):** P4-ON-01 a P4-ON-03. Identidades ya autorizadas en P3; solo está pendiente la aprobación de los nuevos textos. Las etimologías se han cotejado en fuentes léxicas, citadas por separado. **Próximo hito:** revisión editorial de estas redacciones; ninguna acción de publicación autorizada por este plan.
