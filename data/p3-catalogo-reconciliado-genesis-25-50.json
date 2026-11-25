@@ -7,12 +7,12 @@
   "inventario_original": "data/p3-extracciones-genesis-25-50.json",
   "reglas": "data/p3-reconciliacion-genesis-25-50.json",
   "resumen": {
-    "total": 1966,
+    "total": 1972,
     "brutos": 1438,
-    "reconciliados": 1966,
+    "reconciliados": 1972,
     "por_estado": {
-      "clasificado_por_contexto": 1846,
-      "excluido_aprobado": 39,
+      "clasificado_por_contexto": 1847,
+      "excluido_aprobado": 44,
       "nota_contextual_aprobada": 1,
       "clasificado_sin_id": 72,
       "exclusion_personal_aprobada": 1,
@@ -5611,6 +5611,25 @@
       "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
+      "ref": "Gn 27:35",
+      "chapter": 27,
+      "verse": 35,
+      "start": 29,
+      "end": 33,
+      "literal": "vino",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "excluido_aprobado",
+      "categoria": "materiales",
+      "id": null,
+      "accion": "excluir",
+      "fuentes": [
+        "CT-29"
+      ],
+      "motivo": "Forma del verbo venir, no material vino."
+    },
+    {
       "ref": "Gn 27:36",
       "chapter": 27,
       "verse": 36,
@@ -6959,6 +6978,25 @@
       ],
       "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
       "id_futuro": true
+    },
+    {
+      "ref": "Gn 28:14",
+      "chapter": 28,
+      "verse": 14,
+      "start": 102,
+      "end": 105,
+      "literal": "sur",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "excluido_aprobado",
+      "categoria": "lugares",
+      "id": null,
+      "accion": "excluir",
+      "fuentes": [
+        "CT-29"
+      ],
+      "motivo": "Punto cardinal, no topónimo Sur (Shur), de acuerdo con revisión Lugares."
     },
     {
       "ref": "Gn 28:16",
@@ -10420,6 +10458,25 @@
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
     },
     {
+      "ref": "Gn 30:17",
+      "chapter": 30,
+      "verse": 17,
+      "start": 59,
+      "end": 65,
+      "literal": "quinto",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "excluido_aprobado",
+      "categoria": "medidas",
+      "id": null,
+      "accion": "excluir",
+      "fuentes": [
+        "CT-29"
+      ],
+      "motivo": "Ordinal del quinto hijo, no unidad tributaria Quinto."
+    },
+    {
       "ref": "Gn 30:18",
       "chapter": 30,
       "verse": 18,
@@ -11748,6 +11805,25 @@
       "id_futuro": true
     },
     {
+      "ref": "Gn 31:13",
+      "chapter": 31,
+      "verse": 13,
+      "start": 100,
+      "end": 103,
+      "literal": "sal",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "excluido_aprobado",
+      "categoria": "materiales",
+      "id": null,
+      "accion": "excluir",
+      "fuentes": [
+        "CT-29"
+      ],
+      "motivo": "Imperativo del verbo salir, no sal como materia."
+    },
+    {
       "ref": "Gn 31:14",
       "chapter": 31,
       "verse": 14,
@@ -12152,6 +12228,25 @@
       ],
       "motivo": "Topónimo según contexto",
       "id_futuro": true
+    },
+    {
+      "ref": "Gn 31:24",
+      "chapter": 31,
+      "verse": 24,
+      "start": 10,
+      "end": 14,
+      "literal": "vino",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "excluido_aprobado",
+      "categoria": "materiales",
+      "id": null,
+      "accion": "excluir",
+      "fuentes": [
+        "CT-29"
+      ],
+      "motivo": "Forma del verbo venir, no material vino."
     },
     {
       "ref": "Gn 31:24",
@@ -40270,6 +40365,26 @@
         "CT-26"
       ],
       "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
+    },
+    {
+      "ref": "Gn 48:7",
+      "chapter": 48,
+      "verse": 7,
+      "start": 23,
+      "end": 28,
+      "literal": "Padán",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-29"
+      ],
+      "motivo": "Forma abreviada de Padán-aram en contexto del viaje de regreso de Jacob, según alta geográfica aprobada.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 48:7",
