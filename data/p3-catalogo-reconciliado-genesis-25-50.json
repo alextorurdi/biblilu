@@ -9,13 +9,13 @@
   "resumen": {
     "total": 1682,
     "brutos": 1438,
-    "reconciliados": 351,
+    "reconciliados": 380,
     "por_estado": {
-      "candidato_unico_no_validado": 1331,
-      "clasificado_por_contexto": 279,
+      "candidato_unico_no_validado": 1302,
+      "clasificado_por_contexto": 292,
       "excluido_aprobado": 38,
       "nota_contextual_aprobada": 1,
-      "clasificado_sin_id": 29,
+      "clasificado_sin_id": 45,
       "exclusion_personal_aprobada": 1,
       "asociacion_contextual_aprobada": 2,
       "homonimo_no_identificado": 1
@@ -58,6 +58,7 @@
       "objetos/tumba",
       "objetos/tunica",
       "onomastico/ahuzat",
+      "onomastico/ana-hijo-de-zibeon",
       "onomastico/beeri-heteo",
       "tribus/dan",
       "tribus/edomitas",
@@ -13139,11 +13140,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "lugares",
-      "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Siquem, hijo de Hamor; ficha individual sin ID histórico registrado. No asociar a la ciudad."
     },
     {
       "ref": "Gn 33:20",
@@ -13258,11 +13262,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "lugares",
-      "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Siquem, hijo de Hamor; ficha individual sin ID histórico registrado. No asociar a la ciudad."
     },
     {
       "ref": "Gn 34:2",
@@ -13359,11 +13366,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "lugares",
-      "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Siquem, hijo de Hamor; ficha individual sin ID histórico registrado. No asociar a la ciudad."
     },
     {
       "ref": "Gn 34:4",
@@ -13420,11 +13430,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "lugares",
-      "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Siquem, hijo de Hamor; ficha individual sin ID histórico registrado. No asociar a la ciudad."
     },
     {
       "ref": "Gn 34:5",
@@ -13522,11 +13535,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "lugares",
-      "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Siquem, hijo de Hamor; ficha individual sin ID histórico registrado. No asociar a la ciudad."
     },
     {
       "ref": "Gn 34:6",
@@ -13582,11 +13598,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "lugares",
-      "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Siquem, hijo de Hamor; ficha individual sin ID histórico registrado. No asociar a la ciudad."
     },
     {
       "ref": "Gn 34:7",
@@ -13662,11 +13681,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "lugares",
-      "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Siquem, hijo de Hamor; ficha individual sin ID histórico registrado. No asociar a la ciudad."
     },
     {
       "ref": "Gn 34:11",
@@ -13682,11 +13704,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "lugares",
-      "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Siquem, hijo de Hamor; ficha individual sin ID histórico registrado. No asociar a la ciudad."
     },
     {
       "ref": "Gn 34:11",
@@ -13742,11 +13767,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "lugares",
-      "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Siquem, hijo de Hamor; ficha individual sin ID histórico registrado. No asociar a la ciudad."
     },
     {
       "ref": "Gn 34:13",
@@ -13783,11 +13811,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "lugares",
-      "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Siquem, hijo de Hamor; ficha individual sin ID histórico registrado. No asociar a la ciudad."
     },
     {
       "ref": "Gn 34:13",
@@ -13844,11 +13875,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "lugares",
-      "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Siquem, hijo de Hamor; ficha individual sin ID histórico registrado. No asociar a la ciudad."
     },
     {
       "ref": "Gn 34:19",
@@ -13905,11 +13939,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "lugares",
-      "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Siquem, hijo de Hamor; ficha individual sin ID histórico registrado. No asociar a la ciudad."
     },
     {
       "ref": "Gn 34:20",
@@ -14007,11 +14044,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "lugares",
-      "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Siquem, hijo de Hamor; ficha individual sin ID histórico registrado. No asociar a la ciudad."
     },
     {
       "ref": "Gn 34:25",
@@ -14128,11 +14168,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "lugares",
-      "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Siquem, hijo de Hamor; ficha individual sin ID histórico registrado. No asociar a la ciudad."
     },
     {
       "ref": "Gn 34:26",
@@ -14168,11 +14211,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "lugares",
-      "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Siquem, hijo de Hamor; ficha individual sin ID histórico registrado. No asociar a la ciudad."
     },
     {
       "ref": "Gn 34:27",
@@ -16117,11 +16163,15 @@
         "onomastico/ana-hijo-de-seir"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
-      "id": "onomastico/ana-hijo-de-seir",
-      "accion": null,
-      "fuentes": []
+      "id": "onomastico/ana-hijo-de-zibeon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Hijo de Zibeón, distinto del Aná hijo de Seir; alta/ID futura pendiente de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 36:2",
@@ -17155,11 +17205,14 @@
         "onomastico/zera"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/zera",
-      "accion": null,
-      "fuentes": []
+      "accion": "asignar",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Zera hijo de Reuel, ficha existente."
     },
     {
       "ref": "Gn 36:13",
@@ -17298,11 +17351,15 @@
         "onomastico/ana-hijo-de-seir"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
-      "id": "onomastico/ana-hijo-de-seir",
-      "accion": null,
-      "fuentes": []
+      "id": "onomastico/ana-hijo-de-zibeon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Hijo de Zibeón, distinto del Aná hijo de Seir; alta/ID futura pendiente de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 36:14",
@@ -17720,11 +17777,14 @@
         "onomastico/zera"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/zera",
-      "accion": null,
-      "fuentes": []
+      "accion": "asignar",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Zera hijo de Reuel, ficha existente."
     },
     {
       "ref": "Gn 36:17",
@@ -17982,11 +18042,15 @@
         "onomastico/ana-hijo-de-seir"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
-      "id": "onomastico/ana-hijo-de-seir",
-      "accion": null,
-      "fuentes": []
+      "id": "onomastico/ana-hijo-de-zibeon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Hijo de Zibeón, distinto del Aná hijo de Seir; alta/ID futura pendiente de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 36:19",
@@ -18124,11 +18188,14 @@
         "onomastico/ana-hijo-de-seir"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/ana-hijo-de-seir",
-      "accion": null,
-      "fuentes": []
+      "accion": "asignar",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Aná hijo de Seir, ficha existente."
     },
     {
       "ref": "Gn 36:21",
@@ -18370,11 +18437,15 @@
         "onomastico/ana-hijo-de-seir"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
-      "id": "onomastico/ana-hijo-de-seir",
-      "accion": null,
-      "fuentes": []
+      "id": "onomastico/ana-hijo-de-zibeon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Hijo de Zibeón, distinto del Aná hijo de Seir; alta/ID futura pendiente de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 36:24",
@@ -18390,11 +18461,15 @@
         "onomastico/ana-hijo-de-seir"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
-      "id": "onomastico/ana-hijo-de-seir",
-      "accion": null,
-      "fuentes": []
+      "id": "onomastico/ana-hijo-de-zibeon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Hijo de Zibeón, distinto del Aná hijo de Seir; alta/ID futura pendiente de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 36:24",
@@ -18450,11 +18525,15 @@
         "onomastico/ana-hijo-de-seir"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
-      "id": "onomastico/ana-hijo-de-seir",
-      "accion": null,
-      "fuentes": []
+      "id": "onomastico/ana-hijo-de-zibeon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Hijo de Zibeón, distinto del Aná hijo de Seir; alta/ID futura pendiente de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 36:25",
@@ -18510,11 +18589,15 @@
         "onomastico/ana-hijo-de-seir"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
-      "id": "onomastico/ana-hijo-de-seir",
-      "accion": null,
-      "fuentes": []
+      "id": "onomastico/ana-hijo-de-zibeon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Hijo de Zibeón, distinto del Aná hijo de Seir; alta/ID futura pendiente de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 36:26",
@@ -18670,11 +18753,14 @@
         "onomastico/ana-hijo-de-seir"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/ana-hijo-de-seir",
-      "accion": null,
-      "fuentes": []
+      "accion": "asignar",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Aná hijo de Seir, ficha existente."
     },
     {
       "ref": "Gn 36:30",
@@ -18905,11 +18991,14 @@
         "onomastico/zera"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_sin_id",
       "categoria": "onomastico",
-      "id": "onomastico/zera",
-      "accion": null,
-      "fuentes": []
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Zera, padre de Jobab rey de Edom; no equiparar sin base con el hijo de Reuel."
     },
     {
       "ref": "Gn 36:34",
@@ -21814,11 +21903,14 @@
         "onomastico/zera"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
-      "id": "onomastico/zera",
-      "accion": null,
-      "fuentes": []
+      "id": "onomastico/zara",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Zera hijo de Judá y Tamar = Zara en RVR/registro histórico."
     },
     {
       "ref": "Gn 39:1",
@@ -28116,11 +28208,14 @@
         "onomastico/zera"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
-      "id": "onomastico/zera",
-      "accion": null,
-      "fuentes": []
+      "id": "onomastico/zara",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-14"
+      ],
+      "motivo": "Zera hijo de Judá y Tamar = Zara en RVR/registro histórico."
     },
     {
       "ref": "Gn 46:12",
