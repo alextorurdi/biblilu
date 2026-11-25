@@ -9,15 +9,16 @@
   "resumen": {
     "total": 1682,
     "brutos": 1438,
-    "reconciliados": 316,
+    "reconciliados": 351,
     "por_estado": {
       "candidato_unico_no_validado": 1331,
-      "clasificado_por_contexto": 274,
+      "clasificado_por_contexto": 279,
       "excluido_aprobado": 38,
       "nota_contextual_aprobada": 1,
-      "candidato_no_reconciliado": 35,
+      "clasificado_sin_id": 29,
       "exclusion_personal_aprobada": 1,
-      "asociacion_contextual_aprobada": 2
+      "asociacion_contextual_aprobada": 2,
+      "homonimo_no_identificado": 1
     },
     "ids_futuros": [
       "animales/trigo",
@@ -13115,11 +13116,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 33:19",
@@ -13272,11 +13276,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 34:2",
@@ -13370,11 +13377,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 34:5",
@@ -13489,11 +13499,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 34:6",
@@ -13626,11 +13639,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 34:8",
@@ -13744,11 +13760,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 34:13",
@@ -13802,11 +13821,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 34:18",
@@ -13860,11 +13882,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 34:20",
@@ -13959,11 +13984,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 34:24",
@@ -14077,11 +14105,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 34:26",
@@ -15022,11 +15053,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/benjamin",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Variante de nombre de ficha histórica existente"
     },
     {
       "ref": "Gn 35:18",
@@ -18992,11 +19026,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "tribus",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 36:35",
@@ -19244,11 +19281,14 @@
         "onomastico/timna-hija-de-seir"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "homonimo_no_identificado",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "homonimo_no_identificado",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Jefatura homónima; no afirmar identidad con ninguna Timna personal ni crear ficha separada"
     },
     {
       "ref": "Gn 36:41",
@@ -20075,11 +20115,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "tribus",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 37:25",
@@ -20175,11 +20218,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "tribus",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 37:28",
@@ -20193,11 +20239,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "tribus",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 37:28",
@@ -20252,11 +20301,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "tribus",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 37:28",
@@ -20595,11 +20647,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "tribus",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 37:36",
@@ -20633,11 +20688,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 38:1",
@@ -20692,11 +20750,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 38:2",
@@ -21117,11 +21178,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 38:12",
@@ -21441,11 +21505,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 38:20",
@@ -21459,11 +21526,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 38:21",
@@ -21498,11 +21568,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 38:22",
@@ -21718,11 +21791,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/fares",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Variante de nombre de ficha histórica existente"
     },
     {
       "ref": "Gn 38:30",
@@ -21796,11 +21872,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 39:1",
@@ -21814,11 +21893,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "tribus",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 39:2",
@@ -21912,11 +21994,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 39:5",
@@ -21950,11 +22035,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 39:6",
@@ -23638,11 +23726,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jose",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Variante de nombre de ficha histórica existente"
     },
     {
       "ref": "Gn 41:45",
@@ -23676,11 +23767,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 41:45",
@@ -23895,11 +23989,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 41:50",
@@ -27996,11 +28093,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/fares",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Variante de nombre de ficha histórica existente"
     },
     {
       "ref": "Gn 46:12",
@@ -28078,11 +28178,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/fares",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Variante de nombre de ficha histórica existente"
     },
     {
       "ref": "Gn 46:12",
@@ -28946,11 +29049,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-13"
+      ],
+      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
       "ref": "Gn 46:20",
