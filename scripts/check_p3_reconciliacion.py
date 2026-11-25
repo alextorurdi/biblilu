@@ -144,11 +144,19 @@ def main():
     # D-03: Ismaelitas y Madianitas, dos pueblos distintos.
     assert rules["d03"]["opcion"] == "A"
     assert rules["d03"]["fichas_principales"] == ["tribus/ismaelitas","tribus/madianitas"]
-    d03_mentions = [x for x in records if "D-03" in x["fuentes"]]
-    assert len(d03_mentions) == 7
+    # Las siete reglas proceden de CT-13, mientras D-03 guarda la decisión
+    # editorial. No exigir "D-03" en fuentes: no es un código de regla.
+    d03_ids = set(rules["d03"]["fichas_principales"])
+    d03_rules = [x for x in corrections if x["id"] in d03_ids
+                 and x["categoria"] == "tribus" and x["accion"] == "asignar"]
+    assert len(d03_rules) == 7
+    assert [x["ref"] for x in d03_rules] == rules["d03"]["refs"]
+    d03_mentions = [indexed[(x["ref"], x["start"], x["end"])] for x in d03_rules]
+    assert all(x["codigo"] in y["fuentes"] and x["id"] == y["id"]
+               for x, y in zip(d03_rules, d03_mentions))
     assert sum(x["id"] == "tribus/ismaelitas" for x in d03_mentions) == 4
     assert sum(x["id"] == "tribus/madianitas" for x in d03_mentions) == 3
-    assert all(x["id_futuro"] and x["categoria"] == "tribus" for x in d03_mentions)
+    assert all(x.get("id_futuro") and x["categoria"] == "tribus" for x in d03_mentions)
     # CT-24: nombres personales del relato/genealogías y Egipto como lugar.
     ct24 = [x for x in corrections if x["codigo"] == "CT-24"]
     assert len(ct24) == 368
