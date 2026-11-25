@@ -20,3 +20,8 @@ Las tres soluciones son posibles sin alterar las menciones personales de José o
 
 ## Situación
 **1.761 menciones**; **1.290** candidatas de identificación única todavía sin validación contextual. P3 abierta hasta la decisión editorial y los controles restantes. Sin cambios en la web publicada.
+
+
+## Resolución D-01 — 25/11/2026
+
+**APROBADA LA OPCIÓN A:** «Hebreo/Hebreos» será variante histórica y remisión de **Israelitas** (`tribus/israelitas`). Se han actualizado las cinco menciones del catálogo como destino previsto P4, sin creación de ficha separada ni enlaces publicados. Las reglas CT-17/CT-20 conservan su procedencia y se añade D-01 en la ficha derivada.
