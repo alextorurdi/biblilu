@@ -7,19 +7,28 @@
   "inventario_original": "data/p3-extracciones-genesis-25-50.json",
   "reglas": "data/p3-reconciliacion-genesis-25-50.json",
   "resumen": {
-    "total": 1882,
+    "total": 1966,
     "brutos": 1438,
-    "reconciliados": 1882,
+    "reconciliados": 1966,
     "por_estado": {
-      "clasificado_por_contexto": 1765,
+      "clasificado_por_contexto": 1846,
       "excluido_aprobado": 39,
       "nota_contextual_aprobada": 1,
-      "clasificado_sin_id": 69,
+      "clasificado_sin_id": 72,
       "exclusion_personal_aprobada": 1,
       "asociacion_contextual_aprobada": 6,
       "homonimo_no_identificado": 1
     },
     "ids_futuros": [
+      "animales/alamo",
+      "animales/almendro",
+      "animales/caballo",
+      "animales/ciervo",
+      "animales/encina",
+      "animales/leon",
+      "animales/lobo",
+      "animales/mandragora",
+      "animales/platano-oriental",
       "animales/trigo",
       "lugares/abel-mizraim",
       "lugares/adulam",
@@ -52,9 +61,18 @@
       "lugares/sitna",
       "lugares/sucot-jacob",
       "lugares/timnat",
+      "materiales/aceite",
       "materiales/agua",
+      "materiales/balsamo",
+      "materiales/leche",
+      "materiales/lino",
+      "materiales/miel",
+      "materiales/perfume",
+      "materiales/piel-animal",
+      "materiales/polvo",
       "materiales/rocio",
       "materiales/sangre",
+      "materiales/vino",
       "medidas/kibra",
       "medidas/qesita",
       "medidas/quinto",
@@ -68,13 +86,21 @@
       "objetos/cetro",
       "objetos/cisterna",
       "objetos/copa",
+      "objetos/escalera-de-jacob",
+      "objetos/espada",
+      "objetos/estela",
+      "objetos/idolo",
+      "objetos/majano",
       "objetos/manto",
       "objetos/mesa",
       "objetos/pozo",
       "objetos/saco",
       "objetos/sello-y-cordon",
+      "objetos/terafin",
       "objetos/tumba",
       "objetos/tunica",
+      "objetos/velo",
+      "objetos/yugo",
       "onomastico/ahuzat",
       "onomastico/ana-hijo-de-zibeon",
       "onomastico/beeri-heteo",
@@ -4466,6 +4492,25 @@
       "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
+      "ref": "Gn 27:9",
+      "chapter": 27,
+      "verse": 9,
+      "start": 33,
+      "end": 41,
+      "literal": "cabritos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/cabra",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4."
+    },
+    {
       "ref": "Gn 27:11",
       "chapter": 27,
       "verse": 11,
@@ -4535,6 +4580,45 @@
       "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
+      "ref": "Gn 27:11",
+      "chapter": 27,
+      "verse": 11,
+      "start": 83,
+      "end": 87,
+      "literal": "piel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/piel-animal",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 27:13",
+      "chapter": 27,
+      "verse": 13,
+      "start": 106,
+      "end": 114,
+      "literal": "cabritos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/cabra",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4."
+    },
+    {
       "ref": "Gn 27:14",
       "chapter": 27,
       "verse": 14,
@@ -4556,6 +4640,25 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 27:14",
+      "chapter": 27,
+      "verse": 14,
+      "start": 20,
+      "end": 28,
+      "literal": "cabritos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/cabra",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4."
     },
     {
       "ref": "Gn 27:15",
@@ -4648,6 +4751,45 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 27:16",
+      "chapter": 27,
+      "verse": 16,
+      "start": 67,
+      "end": 73,
+      "literal": "pieles",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/piel-animal",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 27:16",
+      "chapter": 27,
+      "verse": 16,
+      "start": 81,
+      "end": 89,
+      "literal": "cabritos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/cabra",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4."
     },
     {
       "ref": "Gn 27:17",
@@ -5110,6 +5252,26 @@
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
     },
     {
+      "ref": "Gn 27:25",
+      "chapter": 27,
+      "verse": 25,
+      "start": 136,
+      "end": 140,
+      "literal": "vino",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/vino",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 27:26",
       "chapter": 27,
       "verse": 26,
@@ -5196,6 +5358,26 @@
         "CT-17"
       ],
       "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 27:28",
+      "chapter": 27,
+      "verse": 28,
+      "start": 83,
+      "end": 87,
+      "literal": "vino",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/vino",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
       "id_futuro": true
     },
     {
@@ -5498,6 +5680,26 @@
       "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
+      "ref": "Gn 27:37",
+      "chapter": 27,
+      "verse": 37,
+      "start": 136,
+      "end": 140,
+      "literal": "vino",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/vino",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 27:38",
       "chapter": 27,
       "verse": 38,
@@ -5584,6 +5786,46 @@
         "CT-17"
       ],
       "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 27:40",
+      "chapter": 27,
+      "verse": 40,
+      "start": 15,
+      "end": 21,
+      "literal": "espada",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/espada",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 27:40",
+      "chapter": 27,
+      "verse": 40,
+      "start": 93,
+      "end": 97,
+      "literal": "yugo",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/yugo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
       "id_futuro": true
     },
     {
@@ -6613,6 +6855,26 @@
       "ref": "Gn 28:12",
       "chapter": 28,
       "verse": 12,
+      "start": 13,
+      "end": 21,
+      "literal": "escalera",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/escalera-de-jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 28:12",
+      "chapter": 28,
+      "verse": 12,
       "start": 84,
       "end": 91,
       "literal": "ángeles",
@@ -6677,6 +6939,26 @@
         "CT-23"
       ],
       "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
+    },
+    {
+      "ref": "Gn 28:14",
+      "chapter": 28,
+      "verse": 14,
+      "start": 29,
+      "end": 34,
+      "literal": "polvo",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/polvo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 28:16",
@@ -6771,6 +7053,46 @@
       "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
+      "ref": "Gn 28:18",
+      "chapter": 28,
+      "verse": 18,
+      "start": 108,
+      "end": 113,
+      "literal": "pilar",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/estela",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 28:18",
+      "chapter": 28,
+      "verse": 18,
+      "start": 124,
+      "end": 130,
+      "literal": "aceite",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/aceite",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 28:19",
       "chapter": 28,
       "verse": 19,
@@ -6855,6 +7177,26 @@
         "CT-25"
       ],
       "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
+    },
+    {
+      "ref": "Gn 28:22",
+      "chapter": 28,
+      "verse": 22,
+      "start": 34,
+      "end": 39,
+      "literal": "pilar",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/estela",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 29:1",
@@ -9728,6 +10070,26 @@
       "ref": "Gn 30:14",
       "chapter": 30,
       "verse": 14,
+      "start": 44,
+      "end": 55,
+      "literal": "mandrágoras",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/mandragora",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 30:14",
+      "chapter": 30,
+      "verse": 14,
       "start": 85,
       "end": 88,
       "literal": "Lea",
@@ -9794,6 +10156,26 @@
       "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
+      "ref": "Gn 30:14",
+      "chapter": 30,
+      "verse": 14,
+      "start": 152,
+      "end": 163,
+      "literal": "mandrágoras",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/mandragora",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 30:15",
       "chapter": 30,
       "verse": 15,
@@ -9815,6 +10197,26 @@
         "CT-23"
       ],
       "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
+    },
+    {
+      "ref": "Gn 30:15",
+      "chapter": 30,
+      "verse": 15,
+      "start": 91,
+      "end": 102,
+      "literal": "mandrágoras",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/mandragora",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 30:15",
@@ -9863,6 +10265,26 @@
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
     },
     {
+      "ref": "Gn 30:15",
+      "chapter": 30,
+      "verse": 15,
+      "start": 189,
+      "end": 200,
+      "literal": "mandrágoras",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/mandragora",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 30:16",
       "chapter": 30,
       "verse": 16,
@@ -9907,6 +10329,26 @@
         "CT-23"
       ],
       "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
+    },
+    {
+      "ref": "Gn 30:16",
+      "chapter": 30,
+      "verse": 16,
+      "start": 132,
+      "end": 143,
+      "literal": "mandrágoras",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/mandragora",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 30:16",
@@ -10508,6 +10950,25 @@
       "ref": "Gn 30:35",
       "chapter": 30,
       "verse": 35,
+      "start": 38,
+      "end": 52,
+      "literal": "machos cabríos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/cabra",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4."
+    },
+    {
+      "ref": "Gn 30:35",
+      "chapter": 30,
+      "verse": 35,
       "start": 84,
       "end": 90,
       "literal": "cabras",
@@ -10641,6 +11102,66 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 30:37",
+      "chapter": 30,
+      "verse": 37,
+      "start": 27,
+      "end": 32,
+      "literal": "álamo",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/alamo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 30:37",
+      "chapter": 30,
+      "verse": 37,
+      "start": 34,
+      "end": 42,
+      "literal": "almendro",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/almendro",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 30:37",
+      "chapter": 30,
+      "verse": 37,
+      "start": 45,
+      "end": 52,
+      "literal": "plátano",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/platano-oriental",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 30:38",
@@ -11207,6 +11728,26 @@
       "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
+      "ref": "Gn 31:13",
+      "chapter": 31,
+      "verse": 13,
+      "start": 55,
+      "end": 60,
+      "literal": "pilar",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/estela",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 31:14",
       "chapter": 31,
       "verse": 14,
@@ -11455,6 +11996,26 @@
         "CT-23"
       ],
       "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
+    },
+    {
+      "ref": "Gn 31:19",
+      "chapter": 31,
+      "verse": 19,
+      "start": 71,
+      "end": 77,
+      "literal": "ídolos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/terafin",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "La BES utiliza «ídolos», pero el contexto de Raquel corresponde a terafines, según acuerdo OB-06.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 31:20",
@@ -12170,6 +12731,26 @@
       "ref": "Gn 31:34",
       "chapter": 31,
       "verse": 34,
+      "start": 24,
+      "end": 30,
+      "literal": "ídolos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/terafin",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "La BES utiliza «ídolos», pero el contexto de Raquel corresponde a terafines, según acuerdo OB-06.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 31:34",
+      "chapter": 31,
+      "verse": 34,
       "start": 73,
       "end": 80,
       "literal": "camello",
@@ -12280,6 +12861,26 @@
         "CT-23"
       ],
       "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
+    },
+    {
+      "ref": "Gn 31:35",
+      "chapter": 31,
+      "verse": 35,
+      "start": 157,
+      "end": 163,
+      "literal": "ídolos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/terafin",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "La BES utiliza «ídolos», pero el contexto de Raquel corresponde a terafines, según acuerdo OB-06.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 31:36",
@@ -12556,6 +13157,26 @@
       "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
+      "ref": "Gn 31:45",
+      "chapter": 31,
+      "verse": 45,
+      "start": 49,
+      "end": 54,
+      "literal": "pilar",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/estela",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 31:46",
       "chapter": 31,
       "verse": 46,
@@ -12716,6 +13337,26 @@
       "ref": "Gn 31:48",
       "chapter": 31,
       "verse": 48,
+      "start": 18,
+      "end": 35,
+      "literal": "montón de piedras",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/majano",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 31:48",
+      "chapter": 31,
+      "verse": 48,
       "start": 28,
       "end": 35,
       "literal": "piedras",
@@ -12850,6 +13491,26 @@
       "ref": "Gn 31:51",
       "chapter": 31,
       "verse": 51,
+      "start": 38,
+      "end": 55,
+      "literal": "montón de piedras",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/majano",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 31:51",
+      "chapter": 31,
+      "verse": 51,
       "start": 48,
       "end": 55,
       "literal": "piedras",
@@ -12868,6 +13529,46 @@
         "CT-25"
       ],
       "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
+    },
+    {
+      "ref": "Gn 31:51",
+      "chapter": 31,
+      "verse": 51,
+      "start": 63,
+      "end": 68,
+      "literal": "pilar",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/estela",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 31:52",
+      "chapter": 31,
+      "verse": 52,
+      "start": 19,
+      "end": 24,
+      "literal": "pilar",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/estela",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 31:53",
@@ -13690,6 +14391,25 @@
       "ref": "Gn 32:14",
       "chapter": 32,
       "verse": 14,
+      "start": 27,
+      "end": 41,
+      "literal": "machos cabríos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/cabra",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4."
+    },
+    {
+      "ref": "Gn 32:14",
+      "chapter": 32,
+      "verse": 14,
       "start": 54,
       "end": 60,
       "literal": "ovejas",
@@ -13736,6 +14456,25 @@
       "ref": "Gn 32:15",
       "chapter": 32,
       "verse": 15,
+      "start": 8,
+      "end": 16,
+      "literal": "camellas",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/camello",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4."
+    },
+    {
+      "ref": "Gn 32:15",
+      "chapter": 32,
+      "verse": 15,
       "start": 41,
       "end": 46,
       "literal": "vacas",
@@ -13754,6 +14493,44 @@
         "CT-25"
       ],
       "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
+    },
+    {
+      "ref": "Gn 32:15",
+      "chapter": 32,
+      "verse": 15,
+      "start": 54,
+      "end": 59,
+      "literal": "toros",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/vaca",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Toros, ganado bovino: usar ficha histórica Vaca con corrección editorial P4 a Ganado Bovino."
+    },
+    {
+      "ref": "Gn 32:15",
+      "chapter": 32,
+      "verse": 15,
+      "start": 68,
+      "end": 73,
+      "literal": "asnas",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/asno",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4."
     },
     {
       "ref": "Gn 32:15",
@@ -16298,6 +17075,26 @@
       "motivo": "Cotejo contextual de nombre individual explícito o topónimo Egipto con registro histórico preexistente. No cambiar el texto BES ni las fichas P4."
     },
     {
+      "ref": "Gn 34:25",
+      "chapter": 34,
+      "verse": 25,
+      "start": 116,
+      "end": 123,
+      "literal": "espadas",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/espada",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 34:26",
       "chapter": 34,
       "verse": 26,
@@ -16679,6 +17476,26 @@
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
     },
     {
+      "ref": "Gn 35:2",
+      "chapter": 35,
+      "verse": 2,
+      "start": 79,
+      "end": 97,
+      "literal": "dioses extranjeros",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/idolo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 35:3",
       "chapter": 35,
       "verse": 3,
@@ -16748,6 +17565,26 @@
       "ref": "Gn 35:4",
       "chapter": 35,
       "verse": 4,
+      "start": 35,
+      "end": 53,
+      "literal": "dioses extranjeros",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/idolo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 35:4",
+      "chapter": 35,
+      "verse": 4,
       "start": 71,
       "end": 77,
       "literal": "aretes",
@@ -16786,6 +17623,26 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 35:4",
+      "chapter": 35,
+      "verse": 4,
+      "start": 124,
+      "end": 130,
+      "literal": "encina",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/encina",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 35:4",
@@ -17004,6 +17861,26 @@
         "CT-23"
       ],
       "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
+    },
+    {
+      "ref": "Gn 35:8",
+      "chapter": 35,
+      "verse": 8,
+      "start": 66,
+      "end": 72,
+      "literal": "encina",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/encina",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 35:8",
@@ -17269,6 +18146,26 @@
       "ref": "Gn 35:14",
       "chapter": 35,
       "verse": 14,
+      "start": 17,
+      "end": 22,
+      "literal": "pilar",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/estela",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 35:14",
+      "chapter": 35,
+      "verse": 14,
       "start": 26,
       "end": 32,
       "literal": "piedra",
@@ -17287,6 +18184,26 @@
         "CT-25"
       ],
       "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
+    },
+    {
+      "ref": "Gn 35:14",
+      "chapter": 35,
+      "verse": 14,
+      "start": 117,
+      "end": 123,
+      "literal": "aceite",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/aceite",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 35:15",
@@ -17574,6 +18491,26 @@
       "ref": "Gn 35:20",
       "chapter": 35,
       "verse": 20,
+      "start": 17,
+      "end": 22,
+      "literal": "pilar",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/estela",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 35:20",
+      "chapter": 35,
+      "verse": 20,
       "start": 32,
       "end": 37,
       "literal": "tumba",
@@ -17589,6 +18526,26 @@
       "fuentes": [
         "CT-11"
       ],
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 35:20",
+      "chapter": 35,
+      "verse": 20,
+      "start": 49,
+      "end": 54,
+      "literal": "pilar",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/estela",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
       "id_futuro": true
     },
     {
@@ -24312,6 +25269,25 @@
       "ref": "Gn 37:31",
       "chapter": 37,
       "verse": 31,
+      "start": 20,
+      "end": 27,
+      "literal": "cabrito",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/cabra",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4."
+    },
+    {
+      "ref": "Gn 37:31",
+      "chapter": 37,
+      "verse": 31,
       "start": 40,
       "end": 46,
       "literal": "túnica",
@@ -25349,6 +26325,26 @@
       "ref": "Gn 38:14",
       "chapter": 38,
       "verse": 14,
+      "start": 53,
+      "end": 57,
+      "literal": "velo",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/velo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 38:14",
+      "chapter": 38,
+      "verse": 14,
       "start": 78,
       "end": 83,
       "literal": "Enaim",
@@ -25455,6 +26451,25 @@
         "CT-24"
       ],
       "motivo": "Cotejo contextual de nombre individual explícito o topónimo Egipto con registro histórico preexistente. No cambiar el texto BES ni las fichas P4."
+    },
+    {
+      "ref": "Gn 38:17",
+      "chapter": 38,
+      "verse": 17,
+      "start": 31,
+      "end": 38,
+      "literal": "cabrito",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/cabra",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4."
     },
     {
       "ref": "Gn 38:18",
@@ -25608,6 +26623,26 @@
       "motivo": "Cotejo contextual de nombre individual explícito o topónimo Egipto con registro histórico preexistente. No cambiar el texto BES ni las fichas P4."
     },
     {
+      "ref": "Gn 38:19",
+      "chapter": 38,
+      "verse": 19,
+      "start": 34,
+      "end": 38,
+      "literal": "velo",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/velo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 38:20",
       "chapter": 38,
       "verse": 20,
@@ -25629,6 +26664,25 @@
         "CT-24"
       ],
       "motivo": "Cotejo contextual de nombre individual explícito o topónimo Egipto con registro histórico preexistente. No cambiar el texto BES ni las fichas P4."
+    },
+    {
+      "ref": "Gn 38:20",
+      "chapter": 38,
+      "verse": 20,
+      "start": 14,
+      "end": 21,
+      "literal": "cabrito",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/cabra",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4."
     },
     {
       "ref": "Gn 38:20",
@@ -25759,6 +26813,25 @@
         "CT-24"
       ],
       "motivo": "Cotejo contextual de nombre individual explícito o topónimo Egipto con registro histórico preexistente. No cambiar el texto BES ni las fichas P4."
+    },
+    {
+      "ref": "Gn 38:23",
+      "chapter": 38,
+      "verse": 23,
+      "start": 90,
+      "end": 97,
+      "literal": "cabrito",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/cabra",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4."
     },
     {
       "ref": "Gn 38:24",
@@ -27215,6 +28288,26 @@
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
     },
     {
+      "ref": "Gn 40:16",
+      "chapter": 40,
+      "verse": 16,
+      "start": 117,
+      "end": 125,
+      "literal": "canastas",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/canasta",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 40:17",
       "chapter": 40,
       "verse": 17,
@@ -27317,6 +28410,26 @@
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
     },
     {
+      "ref": "Gn 40:18",
+      "chapter": 40,
+      "verse": 18,
+      "start": 53,
+      "end": 61,
+      "literal": "canastas",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/canasta",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 40:19",
       "chapter": 40,
       "verse": 19,
@@ -27334,6 +28447,25 @@
         "CT-22"
       ],
       "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 40:19",
+      "chapter": 40,
+      "verse": 19,
+      "start": 74,
+      "end": 79,
+      "literal": "árbol",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "animales",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Término genérico sin nueva especie ni ficha, según SV-11 y SV-13/14; se registra en P3 sin enlazado."
     },
     {
       "ref": "Gn 40:19",
@@ -27522,6 +28654,25 @@
         "CT-25"
       ],
       "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
+    },
+    {
+      "ref": "Gn 41:2",
+      "chapter": 41,
+      "verse": 2,
+      "start": 74,
+      "end": 80,
+      "literal": "hierba",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "animales",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Término genérico sin nueva especie ni ficha, según SV-11 y SV-13/14; se registra en P3 sin enlazado."
     },
     {
       "ref": "Gn 41:3",
@@ -28045,6 +29196,25 @@
         "CT-25"
       ],
       "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
+    },
+    {
+      "ref": "Gn 41:18",
+      "chapter": 41,
+      "verse": 18,
+      "start": 74,
+      "end": 80,
+      "literal": "hierba",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "animales",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Término genérico sin nueva especie ni ficha, según SV-11 y SV-13/14; se registra en P3 sin enlazado."
     },
     {
       "ref": "Gn 41:19",
@@ -28700,6 +29870,26 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 41:42",
+      "chapter": 41,
+      "verse": 42,
+      "start": 108,
+      "end": 112,
+      "literal": "lino",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/lino",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 41:42",
@@ -30308,6 +31498,26 @@
       "ref": "Gn 42:25",
       "chapter": 42,
       "verse": 25,
+      "start": 29,
+      "end": 34,
+      "literal": "sacos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 42:25",
+      "chapter": 42,
+      "verse": 25,
       "start": 96,
       "end": 100,
       "literal": "saco",
@@ -30504,6 +31714,26 @@
       "fuentes": [
         "CT-10"
       ]
+    },
+    {
+      "ref": "Gn 42:35",
+      "chapter": 42,
+      "verse": 35,
+      "start": 20,
+      "end": 25,
+      "literal": "sacos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 42:36",
@@ -30793,6 +32023,106 @@
       "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
     },
     {
+      "ref": "Gn 43:11",
+      "chapter": 43,
+      "verse": 11,
+      "start": 187,
+      "end": 194,
+      "literal": "bálsamo",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/balsamo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 43:11",
+      "chapter": 43,
+      "verse": 11,
+      "start": 196,
+      "end": 200,
+      "literal": "miel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/miel",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 43:11",
+      "chapter": 43,
+      "verse": 11,
+      "start": 212,
+      "end": 219,
+      "literal": "perfume",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/perfume",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 43:11",
+      "chapter": 43,
+      "verse": 11,
+      "start": 230,
+      "end": 239,
+      "literal": "almendras",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/almendro",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 43:12",
+      "chapter": 43,
+      "verse": 12,
+      "start": 86,
+      "end": 91,
+      "literal": "sacos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 43:14",
       "chapter": 43,
       "verse": 14,
@@ -31003,6 +32333,26 @@
       "ref": "Gn 43:18",
       "chapter": 43,
       "verse": 18,
+      "start": 127,
+      "end": 132,
+      "literal": "sacos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 43:18",
+      "chapter": 43,
+      "verse": 18,
       "start": 231,
       "end": 236,
       "literal": "asnos",
@@ -31049,6 +32399,26 @@
       "ref": "Gn 43:21",
       "chapter": 43,
       "verse": 21,
+      "start": 71,
+      "end": 76,
+      "literal": "sacos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 43:21",
+      "chapter": 43,
+      "verse": 21,
       "start": 130,
       "end": 134,
       "literal": "saco",
@@ -31064,6 +32434,46 @@
       "fuentes": [
         "CT-11"
       ],
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 43:22",
+      "chapter": 43,
+      "verse": 22,
+      "start": 99,
+      "end": 104,
+      "literal": "sacos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 43:23",
+      "chapter": 43,
+      "verse": 23,
+      "start": 119,
+      "end": 124,
+      "literal": "sacos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
       "id_futuro": true
     },
     {
@@ -31545,6 +32955,26 @@
       "ref": "Gn 44:1",
       "chapter": 44,
       "verse": 1,
+      "start": 56,
+      "end": 61,
+      "literal": "sacos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 44:1",
+      "chapter": 44,
+      "verse": 1,
       "start": 163,
       "end": 167,
       "literal": "saco",
@@ -31740,6 +33170,26 @@
       "fuentes": [
         "CT-10"
       ]
+    },
+    {
+      "ref": "Gn 44:8",
+      "chapter": 44,
+      "verse": 8,
+      "start": 74,
+      "end": 79,
+      "literal": "sacos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 44:8",
@@ -33066,6 +34516,25 @@
         "CT-24"
       ],
       "motivo": "Cotejo contextual de nombre individual explícito o topónimo Egipto con registro histórico preexistente. No cambiar el texto BES ni las fichas P4."
+    },
+    {
+      "ref": "Gn 45:23",
+      "chapter": 45,
+      "verse": 23,
+      "start": 79,
+      "end": 84,
+      "literal": "asnas",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/asno",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4."
     },
     {
       "ref": "Gn 45:25",
@@ -37597,6 +39066,26 @@
       "ref": "Gn 47:17",
       "chapter": 47,
       "verse": 17,
+      "start": 71,
+      "end": 79,
+      "literal": "caballos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/caballo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 47:17",
+      "chapter": 47,
+      "verse": 17,
       "start": 81,
       "end": 87,
       "literal": "ovejas",
@@ -39704,6 +41193,26 @@
       "ref": "Gn 48:22",
       "chapter": 48,
       "verse": 22,
+      "start": 91,
+      "end": 97,
+      "literal": "espada",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/espada",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 48:22",
+      "chapter": 48,
+      "verse": 22,
       "start": 103,
       "end": 107,
       "literal": "arco",
@@ -39896,6 +41405,26 @@
       "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
+      "ref": "Gn 49:5",
+      "chapter": 49,
+      "verse": 5,
+      "start": 32,
+      "end": 39,
+      "literal": "espadas",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/espada",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 49:7",
       "chapter": 49,
       "verse": 7,
@@ -39982,6 +41511,46 @@
         "CT-26"
       ],
       "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
+    },
+    {
+      "ref": "Gn 49:9",
+      "chapter": 49,
+      "verse": 9,
+      "start": 28,
+      "end": 32,
+      "literal": "león",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/leon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 49:9",
+      "chapter": 49,
+      "verse": 9,
+      "start": 98,
+      "end": 102,
+      "literal": "león",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/leon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 49:10",
@@ -40098,6 +41667,26 @@
       "ref": "Gn 49:11",
       "chapter": 49,
       "verse": 11,
+      "start": 68,
+      "end": 72,
+      "literal": "vino",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/vino",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 49:11",
+      "chapter": 49,
+      "verse": 11,
       "start": 78,
       "end": 83,
       "literal": "manto",
@@ -40133,6 +41722,46 @@
         "CT-17"
       ],
       "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 49:12",
+      "chapter": 49,
+      "verse": 12,
+      "start": 32,
+      "end": 36,
+      "literal": "vino",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/vino",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 49:12",
+      "chapter": 49,
+      "verse": 12,
+      "start": 66,
+      "end": 71,
+      "literal": "leche",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/leche",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
       "id_futuro": true
     },
     {
@@ -40323,6 +41952,26 @@
       ]
     },
     {
+      "ref": "Gn 49:17",
+      "chapter": 49,
+      "verse": 17,
+      "start": 101,
+      "end": 108,
+      "literal": "caballo",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/caballo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 49:19",
       "chapter": 49,
       "verse": 19,
@@ -40392,6 +42041,26 @@
         "CT-15"
       ],
       "motivo": "Proyección colectiva/territorial de la bendición de Génesis 49; TR-29, sin fusionar con la ficha personal.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 49:21",
+      "chapter": 49,
+      "verse": 21,
+      "start": 20,
+      "end": 26,
+      "literal": "cierva",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/ciervo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
       "id_futuro": true
     },
     {
@@ -40525,6 +42194,26 @@
         "CT-15"
       ],
       "motivo": "Proyección colectiva/territorial de la bendición de Génesis 49; TR-29, sin fusionar con la ficha personal.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 49:27",
+      "chapter": 49,
+      "verse": 27,
+      "start": 20,
+      "end": 24,
+      "literal": "lobo",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/lobo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-28"
+      ],
+      "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4.",
       "id_futuro": true
     },
     {
