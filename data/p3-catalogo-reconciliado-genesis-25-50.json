@@ -7,14 +7,14 @@
   "inventario_original": "data/p3-extracciones-genesis-25-50.json",
   "reglas": "data/p3-reconciliacion-genesis-25-50.json",
   "resumen": {
-    "total": 1835,
+    "total": 1882,
     "brutos": 1438,
-    "reconciliados": 1835,
+    "reconciliados": 1882,
     "por_estado": {
-      "clasificado_por_contexto": 1726,
+      "clasificado_por_contexto": 1765,
       "excluido_aprobado": 39,
       "nota_contextual_aprobada": 1,
-      "clasificado_sin_id": 61,
+      "clasificado_sin_id": 69,
       "exclusion_personal_aprobada": 1,
       "asociacion_contextual_aprobada": 6,
       "homonimo_no_identificado": 1
@@ -669,6 +669,25 @@
         "CT-24"
       ],
       "motivo": "Cotejo contextual de nombre individual explícito o topónimo Egipto con registro histórico preexistente. No cambiar el texto BES ni las fichas P4."
+    },
+    {
+      "ref": "Gn 25:9",
+      "chapter": 25,
+      "verse": 9,
+      "start": 54,
+      "end": 61,
+      "literal": "Macpela",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/macpela",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Topónimo Macpela, ficha existente."
     },
     {
       "ref": "Gn 25:9",
@@ -12609,6 +12628,26 @@
       "ref": "Gn 31:47",
       "chapter": 31,
       "verse": 47,
+      "start": 22,
+      "end": 36,
+      "literal": "Jegar-sahaduta",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/pacto-jacob-laban",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Topónimo o nombre ceremonial del lugar del pacto Jacob-Labán: remisión aprobada a futura ficha del lugar del pacto.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 31:47",
+      "chapter": 31,
+      "verse": 47,
       "start": 40,
       "end": 45,
       "literal": "Jacob",
@@ -12716,6 +12755,26 @@
         "CT-12"
       ],
       "motivo": "Nombre del majano del pacto, no la región",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 31:49",
+      "chapter": 31,
+      "verse": 49,
+      "start": 20,
+      "end": 25,
+      "literal": "Mizpa",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/pacto-jacob-laban",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Topónimo o nombre ceremonial del lugar del pacto Jacob-Labán: remisión aprobada a futura ficha del lugar del pacto.",
       "id_futuro": true
     },
     {
@@ -14037,6 +14096,25 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 32:28",
+      "chapter": 32,
+      "verse": 28,
+      "start": 46,
+      "end": 52,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
     },
     {
       "ref": "Gn 32:29",
@@ -17058,6 +17136,44 @@
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
     },
     {
+      "ref": "Gn 35:10",
+      "chapter": 35,
+      "verse": 10,
+      "start": 80,
+      "end": 86,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
+      "ref": "Gn 35:10",
+      "chapter": 35,
+      "verse": 10,
+      "start": 100,
+      "end": 106,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
       "ref": "Gn 35:12",
       "chapter": 35,
       "verse": 12,
@@ -17523,6 +17639,25 @@
       "ref": "Gn 35:21",
       "chapter": 35,
       "verse": 21,
+      "start": 0,
+      "end": 6,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
+      "ref": "Gn 35:21",
+      "chapter": 35,
+      "verse": 21,
       "start": 36,
       "end": 42,
       "literal": "tienda",
@@ -17561,6 +17696,25 @@
       ],
       "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4",
       "id_futuro": true
+    },
+    {
+      "ref": "Gn 35:22",
+      "chapter": 35,
+      "verse": 22,
+      "start": 9,
+      "end": 15,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
     },
     {
       "ref": "Gn 35:22",
@@ -17607,6 +17761,25 @@
         "CT-24"
       ],
       "motivo": "Cotejo contextual de nombre individual explícito o topónimo Egipto con registro histórico preexistente. No cambiar el texto BES ni las fichas P4."
+    },
+    {
+      "ref": "Gn 35:22",
+      "chapter": 35,
+      "verse": 22,
+      "start": 93,
+      "end": 99,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
     },
     {
       "ref": "Gn 35:23",
@@ -20944,6 +21117,44 @@
       "ref": "Gn 36:22",
       "chapter": 36,
       "verse": 22,
+      "start": 26,
+      "end": 30,
+      "literal": "Hori",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Alta onomástica aprobada para P4, sin ID histórico existente; preservar filiación y evitar atribuciones inferidas."
+    },
+    {
+      "ref": "Gn 36:22",
+      "chapter": 36,
+      "verse": 22,
+      "start": 33,
+      "end": 38,
+      "literal": "Hemam",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Alta onomástica aprobada para P4, sin ID histórico existente; preservar filiación y evitar atribuciones inferidas."
+    },
+    {
+      "ref": "Gn 36:22",
+      "chapter": 36,
+      "verse": 22,
       "start": 54,
       "end": 59,
       "literal": "Lotán",
@@ -21873,6 +22084,25 @@
       "ref": "Gn 36:32",
       "chapter": 36,
       "verse": 32,
+      "start": 14,
+      "end": 18,
+      "literal": "Beor",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Alta onomástica aprobada para P4, sin ID histórico existente; preservar filiación y evitar atribuciones inferidas."
+    },
+    {
+      "ref": "Gn 36:32",
+      "chapter": 36,
+      "verse": 32,
       "start": 31,
       "end": 35,
       "literal": "Edom",
@@ -22090,6 +22320,25 @@
         "CT-24"
       ],
       "motivo": "Cotejo contextual de nombre individual explícito o topónimo Egipto con registro histórico preexistente. No cambiar el texto BES ni las fichas P4."
+    },
+    {
+      "ref": "Gn 36:35",
+      "chapter": 36,
+      "verse": 35,
+      "start": 35,
+      "end": 40,
+      "literal": "Bedad",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Alta onomástica aprobada para P4, sin ID histórico existente; preservar filiación y evitar atribuciones inferidas."
     },
     {
       "ref": "Gn 36:35",
@@ -22361,6 +22610,25 @@
       "motivo": "Cotejo contextual de nombre individual explícito o topónimo Egipto con registro histórico preexistente. No cambiar el texto BES ni las fichas P4."
     },
     {
+      "ref": "Gn 36:38",
+      "chapter": 36,
+      "verse": 38,
+      "start": 39,
+      "end": 44,
+      "literal": "Acbor",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Alta onomástica aprobada para P4, sin ID histórico existente; preservar filiación y evitar atribuciones inferidas."
+    },
+    {
       "ref": "Gn 36:39",
       "chapter": 36,
       "verse": 39,
@@ -22425,6 +22693,63 @@
       ],
       "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4",
       "id_futuro": true
+    },
+    {
+      "ref": "Gn 36:39",
+      "chapter": 36,
+      "verse": 39,
+      "start": 96,
+      "end": 105,
+      "literal": "Mehetabel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Alta onomástica aprobada para P4, sin ID histórico existente; preservar filiación y evitar atribuciones inferidas."
+    },
+    {
+      "ref": "Gn 36:39",
+      "chapter": 36,
+      "verse": 39,
+      "start": 115,
+      "end": 121,
+      "literal": "Matred",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Alta onomástica aprobada para P4, sin ID histórico existente; preservar filiación y evitar atribuciones inferidas."
+    },
+    {
+      "ref": "Gn 36:39",
+      "chapter": 36,
+      "verse": 39,
+      "start": 133,
+      "end": 139,
+      "literal": "Mezaab",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Alta onomástica aprobada para P4, sin ID histórico existente; preservar filiación y evitar atribuciones inferidas."
     },
     {
       "ref": "Gn 36:40",
@@ -22927,6 +23252,25 @@
       "ref": "Gn 37:3",
       "chapter": 37,
       "verse": 3,
+      "start": 0,
+      "end": 6,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
+      "ref": "Gn 37:3",
+      "chapter": 37,
+      "verse": 3,
       "start": 15,
       "end": 19,
       "literal": "José",
@@ -23063,6 +23407,25 @@
       "ref": "Gn 37:13",
       "chapter": 37,
       "verse": 13,
+      "start": 0,
+      "end": 6,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
+      "ref": "Gn 37:13",
+      "chapter": 37,
+      "verse": 13,
       "start": 14,
       "end": 18,
       "literal": "José",
@@ -23150,6 +23513,25 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 37:14",
+      "chapter": 37,
+      "verse": 14,
+      "start": 0,
+      "end": 6,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
     },
     {
       "ref": "Gn 37:14",
@@ -24366,6 +24748,25 @@
       ]
     },
     {
+      "ref": "Gn 38:3",
+      "chapter": 38,
+      "verse": 3,
+      "start": 56,
+      "end": 58,
+      "literal": "Er",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/er",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Er, hijo de Judá y Tamar; ficha histórica en Onomástico."
+    },
+    {
       "ref": "Gn 38:4",
       "chapter": 38,
       "verse": 4,
@@ -24481,6 +24882,25 @@
       "ref": "Gn 38:6",
       "chapter": 38,
       "verse": 6,
+      "start": 15,
+      "end": 17,
+      "literal": "Er",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/er",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Er, hijo de Judá y Tamar; ficha histórica en Onomástico."
+    },
+    {
+      "ref": "Gn 38:6",
+      "chapter": 38,
+      "verse": 6,
       "start": 52,
       "end": 57,
       "literal": "Tamar",
@@ -24499,6 +24919,25 @@
         "CT-24"
       ],
       "motivo": "Cotejo contextual de nombre individual explícito o topónimo Egipto con registro histórico preexistente. No cambiar el texto BES ni las fichas P4."
+    },
+    {
+      "ref": "Gn 38:7",
+      "chapter": 38,
+      "verse": 7,
+      "start": 5,
+      "end": 7,
+      "literal": "Er",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/er",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Er, hijo de Judá y Tamar; ficha histórica en Onomástico."
     },
     {
       "ref": "Gn 38:8",
@@ -30274,6 +30713,25 @@
       "motivo": "Cotejo contextual de nombre individual explícito o topónimo Egipto con registro histórico preexistente. No cambiar el texto BES ni las fichas P4."
     },
     {
+      "ref": "Gn 43:6",
+      "chapter": 43,
+      "verse": 6,
+      "start": 0,
+      "end": 6,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
       "ref": "Gn 43:8",
       "chapter": 43,
       "verse": 8,
@@ -30295,6 +30753,44 @@
         "CT-24"
       ],
       "motivo": "Cotejo contextual de nombre individual explícito o topónimo Egipto con registro histórico preexistente. No cambiar el texto BES ni las fichas P4."
+    },
+    {
+      "ref": "Gn 43:8",
+      "chapter": 43,
+      "verse": 8,
+      "start": 21,
+      "end": 27,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
+      "ref": "Gn 43:11",
+      "chapter": 43,
+      "verse": 11,
+      "start": 9,
+      "end": 15,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
     },
     {
       "ref": "Gn 43:14",
@@ -32781,6 +33277,25 @@
       "ref": "Gn 45:28",
       "chapter": 45,
       "verse": 28,
+      "start": 9,
+      "end": 15,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
+      "ref": "Gn 45:28",
+      "chapter": 45,
+      "verse": 28,
       "start": 47,
       "end": 51,
       "literal": "José",
@@ -32799,6 +33314,25 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 46:1",
+      "chapter": 46,
+      "verse": 1,
+      "start": 0,
+      "end": 6,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
     },
     {
       "ref": "Gn 46:1",
@@ -32845,6 +33379,25 @@
         "CT-23"
       ],
       "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
+    },
+    {
+      "ref": "Gn 46:2",
+      "chapter": 46,
+      "verse": 2,
+      "start": 13,
+      "end": 19,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
     },
     {
       "ref": "Gn 46:2",
@@ -33643,6 +34196,25 @@
       "ref": "Gn 46:12",
       "chapter": 46,
       "verse": 12,
+      "start": 25,
+      "end": 27,
+      "literal": "Er",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/er",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Er, hijo de Judá y Tamar; ficha histórica en Onomástico."
+    },
+    {
+      "ref": "Gn 46:12",
+      "chapter": 46,
+      "verse": 12,
       "start": 29,
       "end": 33,
       "literal": "Onán",
@@ -33728,6 +34300,25 @@
         "CT-14"
       ],
       "motivo": "Zera hijo de Judá y Tamar = Zara en RVR/registro histórico."
+    },
+    {
+      "ref": "Gn 46:12",
+      "chapter": 46,
+      "verse": 12,
+      "start": 55,
+      "end": 57,
+      "literal": "Er",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/er",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Er, hijo de Judá y Tamar; ficha histórica en Onomástico."
     },
     {
       "ref": "Gn 46:12",
@@ -35742,6 +36333,44 @@
       "id_futuro": true
     },
     {
+      "ref": "Gn 46:29",
+      "chapter": 46,
+      "verse": 29,
+      "start": 51,
+      "end": 57,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
+      "ref": "Gn 46:30",
+      "chapter": 46,
+      "verse": 30,
+      "start": 0,
+      "end": 6,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
       "ref": "Gn 46:30",
       "chapter": 46,
       "verse": 30,
@@ -37583,6 +38212,25 @@
       "ref": "Gn 47:29",
       "chapter": 47,
       "verse": 29,
+      "start": 44,
+      "end": 50,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
+      "ref": "Gn 47:29",
+      "chapter": 47,
+      "verse": 29,
       "start": 67,
       "end": 71,
       "literal": "José",
@@ -37675,6 +38323,25 @@
       "ref": "Gn 47:31",
       "chapter": 47,
       "verse": 31,
+      "start": 0,
+      "end": 6,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
+      "ref": "Gn 47:31",
+      "chapter": 47,
+      "verse": 31,
       "start": 25,
       "end": 29,
       "literal": "José",
@@ -37693,6 +38360,25 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 47:31",
+      "chapter": 47,
+      "verse": 31,
+      "start": 44,
+      "end": 50,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
     },
     {
       "ref": "Gn 47:31",
@@ -37851,6 +38537,25 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 48:2",
+      "chapter": 48,
+      "verse": 2,
+      "start": 61,
+      "end": 67,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
     },
     {
       "ref": "Gn 48:2",
@@ -38211,6 +38916,25 @@
       "ref": "Gn 48:8",
       "chapter": 48,
       "verse": 8,
+      "start": 7,
+      "end": 13,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
+      "ref": "Gn 48:8",
+      "chapter": 48,
+      "verse": 8,
       "start": 33,
       "end": 37,
       "literal": "José",
@@ -38254,6 +38978,44 @@
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
     },
     {
+      "ref": "Gn 48:9",
+      "chapter": 48,
+      "verse": 9,
+      "start": 74,
+      "end": 80,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
+      "ref": "Gn 48:10",
+      "chapter": 48,
+      "verse": 10,
+      "start": 12,
+      "end": 18,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
       "ref": "Gn 48:10",
       "chapter": 48,
       "verse": 10,
@@ -38275,6 +39037,44 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 48:10",
+      "chapter": 48,
+      "verse": 10,
+      "start": 95,
+      "end": 101,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
+      "ref": "Gn 48:11",
+      "chapter": 48,
+      "verse": 11,
+      "start": 0,
+      "end": 6,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
     },
     {
       "ref": "Gn 48:11",
@@ -38372,6 +39172,25 @@
       "ref": "Gn 48:13",
       "chapter": 48,
       "verse": 13,
+      "start": 74,
+      "end": 80,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
+      "ref": "Gn 48:13",
+      "chapter": 48,
+      "verse": 13,
       "start": 86,
       "end": 93,
       "literal": "Manasés",
@@ -38390,6 +39209,44 @@
         "CT-26"
       ],
       "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
+    },
+    {
+      "ref": "Gn 48:13",
+      "chapter": 48,
+      "verse": 13,
+      "start": 137,
+      "end": 143,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
+      "ref": "Gn 48:14",
+      "chapter": 48,
+      "verse": 14,
+      "start": 5,
+      "end": 11,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
     },
     {
       "ref": "Gn 48:14",
@@ -38782,6 +39639,25 @@
       "ref": "Gn 48:21",
       "chapter": 48,
       "verse": 21,
+      "start": 0,
+      "end": 6,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
+    },
+    {
+      "ref": "Gn 48:21",
+      "chapter": 48,
+      "verse": 21,
       "start": 14,
       "end": 18,
       "literal": "José",
@@ -38890,6 +39766,25 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 49:2",
+      "chapter": 49,
+      "verse": 2,
+      "start": 48,
+      "end": 54,
+      "literal": "Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-27"
+      ],
+      "motivo": "Israel, nombre personal de Jacob; los usos colectivos ya poseen reglas independientes."
     },
     {
       "ref": "Gn 49:3",
