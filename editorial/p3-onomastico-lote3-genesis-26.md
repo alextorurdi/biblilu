@@ -49,3 +49,13 @@
 **Sin cambios en las fichas fuente, los árboles o el texto bíblico.** Pendientes de aprobación: dos altas onomásticas, asignaciones contextuales del lote y corrección de la falsa clasificación «Seba» (Gn 26:33).
 
 **Siguiente lote:** Génesis 27, con especial atención a la identidad personal de Esaú/Jacob, los nombres familiares en la bendición, y la separación entre menciones personales y gentilicios.
+
+
+## Cierre editorial aprobado · 25/11/2026
+
+7. **Abimelec y Ficol (Gn 26) — APROBADO:** Mantener las fichas compartidas con Gn 20–21 sin afirmar ni negar identidad biográfica entre los episodios.
+8. **Ahuzat (26:26) — APROBADO:** Aprobada nueva ficha `onomastico/ahuzat` para elaborar en P4.
+9. **Beeri (26:34) — APROBADO:** Aprobada nueva ficha `onomastico/beeri-heteo` para elaborar en P4.
+10. **Familia de Esaú y Seba (Gn 26) — APROBADO:** Distinguir Judit, Basemat hija de Elón y Elón padre de Basemat; Seba (26:33) es pozo, excluido del Onomástico y remitido a Lugares.
+
+**Estado final del lote 3: aprobado editorialmente.** Ahuzat y Beeri son **altas de fichas autorizadas para P4**, no fichas creadas ni publicadas. El registro de Seba (Gn 26:33) en el extractor es un **falso positivo técnico conocido**, pendiente de corrección y prueba de regresión; no constituye una decisión editorial abierta. Permanecen como tareas de P4 y fases siguientes las fichas, los vínculos, la actualización técnica del extractor y la publicación. Las posibles identificaciones personales entre episodios de Abimelec y Ficol quedan expresamente indeterminadas por criterio aprobado, no pendientes de aprobación.
