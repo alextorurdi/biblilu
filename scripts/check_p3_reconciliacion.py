@@ -155,6 +155,11 @@ def main():
     assert sum(x["id"] == "lugares/egipto" for x in ct24) == 66
     assert all(x["id"] in historical_ids and x["accion"] == "validar_identidad" for x in ct24)
     assert all(indexed[(x["ref"], x["start"], x["end"])]["id"] == x["id"] for x in ct24)
+    # CT-25: menciones directas contextuales en seis categorías.
+    ct25 = [x for x in corrections if x["codigo"] == "CT-25"]
+    assert len(ct25) == 155
+    assert all(x["id"] in historical_ids and x["accion"] == "validar_identidad" for x in ct25)
+    assert all(indexed[(x["ref"], x["start"], x["end"])]["id"] == x["id"] for x in ct25)
     assert rules["r01"]["ficha_principal"] == "tribus/israelitas"
     assert rules["r01"]["remision_futura"] == "tribus/israel"
     assert rules["r01"]["persona_distinta"] == "onomastico/jacob"

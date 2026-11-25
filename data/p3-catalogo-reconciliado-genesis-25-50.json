@@ -9,10 +9,10 @@
   "resumen": {
     "total": 1835,
     "brutos": 1438,
-    "reconciliados": 1636,
+    "reconciliados": 1791,
     "por_estado": {
-      "clasificado_por_contexto": 1527,
-      "candidato_unico_no_validado": 199,
+      "clasificado_por_contexto": 1682,
+      "candidato_unico_no_validado": 44,
       "excluido_aprobado": 39,
       "nota_contextual_aprobada": 1,
       "clasificado_sin_id": 61,
@@ -1845,11 +1845,14 @@
         "objetos/tienda"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "objetos",
       "id": "objetos/tienda",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 25:28",
@@ -2297,11 +2300,14 @@
         "lugares/gerar"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/gerar",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 26:1",
@@ -2337,11 +2343,14 @@
         "tribus/filisteos"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/filisteos",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 26:2",
@@ -2472,11 +2481,14 @@
         "lugares/gerar"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/gerar",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 26:7",
@@ -2535,11 +2547,14 @@
         "tribus/filisteos"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/filisteos",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 26:8",
@@ -2753,11 +2768,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 26:14",
@@ -2794,11 +2812,14 @@
         "tribus/filisteos"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/filisteos",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 26:15",
@@ -2814,11 +2835,14 @@
         "tribus/filisteos"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/filisteos",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 26:15",
@@ -2967,11 +2991,14 @@
         "lugares/gerar"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/gerar",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 26:18",
@@ -3054,11 +3081,14 @@
         "tribus/filisteos"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/filisteos",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 26:18",
@@ -3161,11 +3191,14 @@
         "lugares/gerar"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/gerar",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 26:20",
@@ -3419,11 +3452,14 @@
         "lugares/beerseba"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/beerseba",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 26:24",
@@ -3508,11 +3544,14 @@
         "objetos/altar"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "objetos",
       "id": "objetos/altar",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 26:25",
@@ -3528,11 +3567,14 @@
         "objetos/tienda"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "objetos",
       "id": "objetos/tienda",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 26:25",
@@ -3589,11 +3631,14 @@
         "lugares/gerar"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/gerar",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 26:26",
@@ -3879,11 +3924,14 @@
         "lugares/beerseba"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/beerseba",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 26:34",
@@ -6466,11 +6514,14 @@
         "lugares/beerseba"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/beerseba",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 28:10",
@@ -6510,11 +6561,14 @@
         "materiales/piedra"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/piedra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 28:12",
@@ -6530,11 +6584,14 @@
         "animales/angeles"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/angeles",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 28:13",
@@ -6662,11 +6719,14 @@
         "materiales/piedra"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/piedra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 28:19",
@@ -6745,11 +6805,14 @@
         "materiales/piedra"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/piedra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 29:1",
@@ -6830,11 +6893,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 29:2",
@@ -6871,11 +6937,14 @@
         "materiales/piedra"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/piedra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 29:2",
@@ -6912,11 +6981,14 @@
         "materiales/piedra"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/piedra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 29:3",
@@ -6952,11 +7024,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 29:3",
@@ -6972,11 +7047,14 @@
         "materiales/piedra"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/piedra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 29:3",
@@ -7152,11 +7230,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 29:7",
@@ -7236,11 +7317,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 29:8",
@@ -7256,11 +7340,14 @@
         "materiales/piedra"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/piedra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 29:8",
@@ -7317,11 +7404,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 29:9",
@@ -7383,11 +7473,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 29:10",
@@ -7472,11 +7565,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 29:10",
@@ -7515,11 +7611,14 @@
         "materiales/piedra"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/piedra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 29:10",
@@ -10239,11 +10338,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 30:32",
@@ -10259,11 +10361,14 @@
         "animales/cabra"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/cabra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 30:33",
@@ -10279,11 +10384,14 @@
         "animales/cabra"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/cabra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 30:33",
@@ -10299,11 +10407,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 30:34",
@@ -10365,11 +10476,14 @@
         "animales/cabra"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/cabra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 30:35",
@@ -10385,11 +10499,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 30:36",
@@ -10698,11 +10815,14 @@
         "animales/camello"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/camello",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 30:43",
@@ -10718,11 +10838,14 @@
         "animales/asno"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/asno",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 31:1",
@@ -11032,11 +11155,14 @@
         "materiales/piedra"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/piedra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 31:14",
@@ -11121,11 +11247,14 @@
         "animales/camello"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/camello",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 31:18",
@@ -11253,11 +11382,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 31:19",
@@ -11547,11 +11679,14 @@
         "objetos/tienda"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "objetos",
       "id": "objetos/tienda",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 31:25",
@@ -11590,11 +11725,14 @@
         "objetos/tienda"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "objetos",
       "id": "objetos/tienda",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 31:25",
@@ -11839,11 +11977,14 @@
         "objetos/tienda"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "objetos",
       "id": "objetos/tienda",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 31:33",
@@ -11905,11 +12046,14 @@
         "objetos/tienda"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "objetos",
       "id": "objetos/tienda",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 31:33",
@@ -11994,11 +12138,14 @@
         "animales/camello"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/camello",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 31:34",
@@ -12037,11 +12184,14 @@
         "objetos/tienda"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "objetos",
       "id": "objetos/tienda",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 31:35",
@@ -12149,11 +12299,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 31:38",
@@ -12169,11 +12322,14 @@
         "animales/cabra"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/cabra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 31:38",
@@ -12189,11 +12345,14 @@
         "animales/carnero"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/carnero",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 31:41",
@@ -12345,11 +12504,14 @@
         "materiales/piedra"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/piedra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 31:46",
@@ -12365,11 +12527,14 @@
         "materiales/piedra"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/piedra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 31:46",
@@ -12385,11 +12550,14 @@
         "materiales/piedra"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/piedra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 31:47",
@@ -12496,11 +12664,14 @@
         "materiales/piedra"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/piedra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 31:48",
@@ -12607,11 +12778,14 @@
         "materiales/piedra"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/piedra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 31:53",
@@ -12788,11 +12962,14 @@
         "animales/angeles"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/angeles",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 32:2",
@@ -13032,11 +13209,14 @@
         "animales/asno"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/asno",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 32:5",
@@ -13052,11 +13232,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 32:6",
@@ -13118,11 +13301,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 32:7",
@@ -13159,11 +13345,14 @@
         "animales/camello"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/camello",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 32:8",
@@ -13271,11 +13460,14 @@
         "lugares/jordan"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/jordan",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 32:10",
@@ -13334,11 +13526,14 @@
         "materiales/arena"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/arena",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 32:13",
@@ -13400,11 +13595,14 @@
         "animales/cabra"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/cabra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 32:14",
@@ -13420,11 +13618,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 32:14",
@@ -13440,11 +13641,14 @@
         "animales/carnero"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/carnero",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 32:15",
@@ -13460,11 +13664,14 @@
         "animales/vaca"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/vaca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 32:15",
@@ -13480,11 +13687,14 @@
         "animales/asno"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/asno",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 32:17",
@@ -14479,11 +14689,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 33:13",
@@ -14499,11 +14712,14 @@
         "animales/vaca"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/vaca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 33:14",
@@ -14787,11 +15003,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 33:18",
@@ -14852,11 +15071,14 @@
         "objetos/tienda"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "objetos",
       "id": "objetos/tienda",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 33:19",
@@ -14916,11 +15138,14 @@
         "objetos/altar"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "objetos",
       "id": "objetos/altar",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 33:20",
@@ -15087,11 +15312,14 @@
         "tribus/heveo"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/heveo",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 34:3",
@@ -15779,11 +16007,14 @@
         "objetos/puerta"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "objetos",
       "id": "objetos/puerta",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 34:23",
@@ -15820,11 +16051,14 @@
         "objetos/puerta"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "objetos",
       "id": "objetos/puerta",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 34:24",
@@ -16089,11 +16323,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 34:28",
@@ -16130,11 +16367,14 @@
         "animales/asno"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/asno",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 34:30",
@@ -16282,11 +16522,14 @@
         "objetos/altar"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "objetos",
       "id": "objetos/altar",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 35:1",
@@ -16368,11 +16611,14 @@
         "objetos/altar"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "objetos",
       "id": "objetos/altar",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 35:4",
@@ -16454,11 +16700,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 35:5",
@@ -16584,11 +16833,14 @@
         "objetos/altar"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "objetos",
       "id": "objetos/altar",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 35:7",
@@ -16888,11 +17140,14 @@
         "materiales/piedra"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/piedra",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 35:15",
@@ -17255,11 +17510,14 @@
         "objetos/tienda"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "objetos",
       "id": "objetos/tienda",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 35:21",
@@ -17916,11 +18174,14 @@
         "lugares/quiriat-arba"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/quiriat-arba",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 35:27",
@@ -17936,11 +18197,14 @@
         "lugares/hebron"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/hebron",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 35:27",
@@ -18295,11 +18559,14 @@
         "tribus/heveo"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/heveo",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 36:3",
@@ -19850,11 +20117,14 @@
         "onomastico/gatam"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/gatam",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 36:16",
@@ -19870,11 +20140,14 @@
         "onomastico/amalec"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/amalec",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 36:16",
@@ -19890,11 +20163,14 @@
         "onomastico/elifaz"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/elifaz",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 36:16",
@@ -20566,11 +20842,14 @@
         "tribus/horeos"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/horeos",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 36:21",
@@ -20906,11 +21185,14 @@
         "animales/asno"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/asno",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 36:24",
@@ -21283,11 +21565,14 @@
         "tribus/horeos"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/horeos",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 36:29",
@@ -21464,11 +21749,14 @@
         "tribus/horeos"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/horeos",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 36:30",
@@ -22534,11 +22822,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 37:2",
@@ -22713,11 +23004,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 37:12",
@@ -22733,11 +23027,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 37:13",
@@ -22776,11 +23073,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 37:13",
@@ -22796,11 +23096,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 37:13",
@@ -22860,11 +23163,14 @@
         "lugares/hebron"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/hebron",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 37:14",
@@ -22903,11 +23209,14 @@
         "lugares/siquem"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/siquem",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 37:16",
@@ -23293,11 +23602,14 @@
         "animales/camello"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/camello",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 37:26",
@@ -23469,11 +23781,14 @@
         "materiales/plata"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/plata",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 37:28",
@@ -23995,11 +24310,14 @@
         "tribus/cananeo"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/cananeo",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 38:2",
@@ -24447,11 +24765,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 38:12",
@@ -24553,11 +24874,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 38:14",
@@ -26169,11 +26493,14 @@
         "animales/vid"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/vid",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 40:10",
@@ -26189,11 +26516,14 @@
         "animales/vid"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/vid",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 40:11",
@@ -26722,11 +27052,14 @@
         "animales/vaca"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/vaca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 41:3",
@@ -26742,11 +27075,14 @@
         "animales/vaca"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/vaca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 41:4",
@@ -26762,11 +27098,14 @@
         "animales/vaca"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/vaca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 41:4",
@@ -26782,11 +27121,14 @@
         "animales/vaca"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/vaca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 41:4",
@@ -27233,11 +27575,14 @@
         "animales/vaca"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/vaca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 41:19",
@@ -27253,11 +27598,14 @@
         "animales/vaca"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/vaca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 41:19",
@@ -27273,11 +27621,14 @@
         "animales/vaca"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/vaca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 41:19",
@@ -27316,11 +27667,14 @@
         "animales/vaca"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/vaca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 41:20",
@@ -27336,11 +27690,14 @@
         "animales/vaca"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/vaca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 41:22",
@@ -27909,11 +28266,14 @@
         "materiales/oro"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/oro",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 41:43",
@@ -28384,11 +28744,14 @@
         "materiales/arena"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/arena",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 41:50",
@@ -28672,11 +29035,14 @@
         "tribus/egipcios"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/egipcios",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 41:55",
@@ -28738,11 +29104,14 @@
         "tribus/egipcios"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/egipcios",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 41:56",
@@ -29502,11 +29871,14 @@
         "animales/asno"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/asno",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 42:27",
@@ -29543,11 +29915,14 @@
         "animales/asno"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/asno",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 42:27",
@@ -30113,11 +30488,14 @@
         "animales/asno"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/asno",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 43:19",
@@ -30243,11 +30621,14 @@
         "animales/asno"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/asno",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 43:25",
@@ -30447,11 +30828,14 @@
         "tribus/egipcios"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/egipcios",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 43:32",
@@ -30467,11 +30851,14 @@
         "tribus/egipcios"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/egipcios",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 43:32",
@@ -30685,11 +31072,14 @@
         "materiales/plata"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/plata",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 44:2",
@@ -30749,11 +31139,14 @@
         "animales/asno"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/asno",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 44:4",
@@ -30837,11 +31230,14 @@
         "materiales/plata"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/plata",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 44:8",
@@ -30857,11 +31253,14 @@
         "materiales/oro"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/oro",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 44:9",
@@ -31005,11 +31404,14 @@
         "animales/asno"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/asno",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 44:14",
@@ -31293,11 +31695,14 @@
         "tribus/egipcios"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/egipcios",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 45:2",
@@ -31556,11 +31961,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 45:10",
@@ -32079,11 +32487,14 @@
         "materiales/plata"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "materiales",
       "id": "materiales/plata",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 45:23",
@@ -32099,11 +32510,14 @@
         "animales/asno"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/asno",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 45:23",
@@ -32371,11 +32785,14 @@
         "lugares/beerseba"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/beerseba",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 46:1",
@@ -32552,11 +32969,14 @@
         "lugares/beerseba"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/beerseba",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 46:5",
@@ -35416,11 +35836,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 46:32",
@@ -35436,11 +35859,14 @@
         "animales/vaca"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/vaca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 46:33",
@@ -35517,11 +35943,14 @@
         "tribus/egipcios"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/egipcios",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 47:1",
@@ -35603,11 +36032,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 47:1",
@@ -36383,11 +36815,14 @@
         "tribus/egipcios"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/egipcios",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 47:15",
@@ -36514,11 +36949,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 47:17",
@@ -36534,11 +36972,14 @@
         "animales/vaca"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/vaca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 47:17",
@@ -36554,11 +36995,14 @@
         "animales/asno"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/asno",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 47:17",
@@ -36679,11 +37123,14 @@
         "tribus/egipcios"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/egipcios",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 47:20",
@@ -39491,11 +39938,14 @@
         "tribus/egipcios"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/egipcios",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 50:3",
@@ -39768,11 +40218,14 @@
         "animales/oveja"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/oveja",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 50:8",
@@ -39850,11 +40303,14 @@
         "lugares/jordan"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/jordan",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 50:10",
@@ -39937,11 +40393,14 @@
         "tribus/egipcios"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/egipcios",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 50:11",
@@ -40000,11 +40459,14 @@
         "lugares/jordan"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/jordan",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 50:12",
@@ -40067,11 +40529,14 @@
         "lugares/macpela"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/macpela",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-25"
+      ],
+      "motivo": "Cotejo de mención directa con ficha existente y sentido literal del contexto; usos figurados o colectivos más complejos reservados."
     },
     {
       "ref": "Gn 50:13",
