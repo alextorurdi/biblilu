@@ -43,3 +43,8 @@
 - No actualizar genealogías, escenas ni web publicada antes de sus fases respectivas.
 
 **Registro editorial:** el libro de cálculo «BIBLILU_Genesis_P3_Onomastico_27-50_Decisiones.xlsx» es el informe consolidado de los acuerdos del lote; su hoja «Incidencias» conserva las 39 decisiones y «Cruces de apéndices» recoge la separación Israel/Edom.
+
+
+## R-01 · Decisión editorial definitiva (25/11/2026)
+
+**Aprobado:** la ficha tribal principal será **Israelitas** (`tribus/israelitas`). «Israel» será variante de búsqueda y remisión colectiva mediante `tribus/israel` (no segunda ficha principal); no afecta al Israel personal `onomastico/jacob`. **Solo registro de P3:** las rutas/fichas no se crean en esta fase.
