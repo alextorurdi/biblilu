@@ -21384,11 +21384,11 @@
       "ref": "Gn 35:8",
       "literal": "Débora",
       "categoria": "onomastico",
-      "id": null,
-      "accion": "clasificar_sin_id",
+      "id": "onomastico/debora-nodriza-rebeca",
+      "accion": "asignar",
       "start": 0,
       "end": 6,
-      "motivo": "Débora, nodriza de Rebeca, identificada explícitamente en BES; ficha individual en Onomástico pendiente de resolución D-04. No confundir con la profetisa/jueza Débora."
+      "motivo": "D-04 opción A aprobada expresamente el 25/11/2026: futura ficha independiente Débora (nodriza de Rebeca), vinculada a Rebeca y Alón-bacut; no confundir con la profetisa/jueza. Redacción y creación material de ficha en P4, sin publicar."
     }
   ],
   "nota": "Esta capa conserva intacto el barrido bruto; los IDs futuros no son rutas publicadas. Excluir y nota_contextual no equivalen a enlaces literales.\nCT-17 (25/11/2026): 39 apariciones recuperadas por auditoría dirigida; sin cambios en fichas ni texto BES. Los gentilicios hebreos y cadena se clasifican sin ID; P4 establecerá enlaces autorizados.",
@@ -21444,15 +21444,19 @@
     ]
   },
   "d04": {
-    "estado": "pendiente_editor",
+    "estado": "aprobada",
+    "opcion": "A",
     "entidad": "Débora (nodriza de Rebeca)",
     "referencia": "Gn 35:8",
     "categoria": "onomastico",
-    "opciones": {
-      "A": "Ficha onomástica independiente, diferenciada de otras Déboras",
-      "B": "Mención solo contextual en las fichas de Rebeca y Alón-bacut, sin ficha propia"
-    },
-    "id": null,
-    "implementacion_ficha": "P4"
+    "id": "onomastico/debora-nodriza-rebeca",
+    "relaciones": [
+      "onomastico/rebeca",
+      "lugares/alon-bacut"
+    ],
+    "diferenciar_de": "Débora profetisa y jueza (Jueces 4–5)",
+    "implementacion_ficha": "P4",
+    "publicacion": "pendiente_P9",
+    "origen": "Aprobación expresa del editor 25/11/2026"
   }
 }
