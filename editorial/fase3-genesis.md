@@ -129,13 +129,17 @@ Se conserva el barrido automático como inventario bruto para auditoría. No se 
 
 **Estado:** P3 de Medidas y Unidades **cerrada editorialmente**; fichas, notas, enlaces, correcciones técnicas y publicación **todavía pendientes**. La Fase 3 global sigue su curso para las demás categorías.
 
-### Objetos · Génesis 25–50 — propuesta pendiente de aprobación (25/11/2026)
+### Objetos · Génesis 25–50 — revisión editorial cerrada (25/11/2026)
 
-[**Propuesta y revisión contextual de Objetos**](p3-objetos-propuesta-genesis-25-50.md): el extractor P3 original aporta **87 coincidencias en 71 versículos**, pero omite objetos relevantes. El inventario ampliado contiene **147 registros por candidato/versículo** y **40 incidencias editoriales** preparadas en el Excel `BIBLILU_Genesis_P3_Objetos_25-50_Revision.xlsx`, con **15 fichas nuevas propuestas** y **16 casos secundarios** de valoración. No son altas aprobadas.
+[**Registro de las 40 decisiones de Objetos**](p3-objetos-decisiones-genesis-25-50.md): **39 respuestas expresas del editor** y la celda OB-05 con el valor «38» (sin decisión nueva; **Cilicio ya estaba aprobado** por Materiales). **40/40 incidencias resueltas, sin decisiones pendientes de P3 Objetos**. La [propuesta de revisión original](p3-objetos-propuesta-genesis-25-50.md) sigue disponible como auditoría, pero las decisiones posteriores prevalecen.
 
-**Precedencia:** conservar las siete fichas ya existentes. La ficha **Cilicio** en Objetos **sí está aprobada** por acuerdo anterior de Materiales, aunque todavía no se haya creado. Los pozos con nombre siguen en Lugares; piedra, oro, plata, sangre y lino siguen en Materiales. Pozo de agua y cisterna seca deben separarse conceptualmente (Gn 26–29 frente a Gn 37); la Espada encendida no se confunde con espadas comunes ni el Arco iris con las armas.
+**Altas aprobadas:** **26 nuevas** (Pozo, Cisterna, Túnica, Terafín, Ídolo, Estela, Majano, Escalera de Jacob, Arco y flechas, Espada, Yugo, Bastón, Cetro, Sello y Cordón, Velo, Copa, Saco, Canasta, Carro, Anillo, Aretes, Manto, Tumba, Cabaña, Cama, Mesa) **+ Cilicio previamente aprobada** = **27 altas a implementar en P4**. Permanecen las **7 fichas existentes**; total proyectado: **34 fichas de Objetos**. El editor solicita expresamente **Sello y Cordón como ficha única**, separa **Terafín/Ídolo** y **Estela/Majano**, y descarta Bolsa (remisión a Saco), Silla de camello y Vestimenta genérica. No se crean fichas independientes de Cadena, Piedra, Oro, Plata, Lino o Adivinación por esta revisión.
 
-**Estado:** estudio P3 preparado, **pendiente de la columna de acciones del editor**; no se han redactado ni publicado fichas, notas o enlaces.
+**Nota conceptual aprobada:** Gn 37:24 sobre «pozo» BES / *bôr* (Cisterna) frente a *bəʾēr* (Pozo de agua). La redacción exacta del borrador asistido **no está aprobada literalmente**: reservar para P4. La BES permanece inalterada.
+
+**Retrospectiva aprobada y auditada inicialmente:** Gn 1–24, con candidatos para Túnica, Pozo, Arco y flechas, Velo, Tumba y una posible variante de Aretes; excluir falsos positivos como Gn 10:30 «Mesa» (lugar), Gn 3:24 (Espada encendida), Gn 9:13–16 (Arco iris) y Gn 14:10 (pozos de asfalto). Los enlaces aún no se han aplicado.
+
+**Estado:** P3 Objetos **cerrada editorialmente**, pero **sin** fichas nuevas, notas ni enlaces publicados. El extractor requiere correcciones técnicas y el sitio no cambia hasta la implementación y publicación en fases posteriores.
 
 ## Precauciones específicas
 
