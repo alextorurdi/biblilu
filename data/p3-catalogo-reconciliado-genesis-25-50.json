@@ -7,15 +7,15 @@
   "inventario_original": "data/p3-extracciones-genesis-25-50.json",
   "reglas": "data/p3-reconciliacion-genesis-25-50.json",
   "resumen": {
-    "total": 1758,
+    "total": 1761,
     "brutos": 1438,
-    "reconciliados": 468,
+    "reconciliados": 471,
     "por_estado": {
       "candidato_unico_no_validado": 1290,
       "clasificado_por_contexto": 350,
       "excluido_aprobado": 39,
       "nota_contextual_aprobada": 1,
-      "clasificado_sin_id": 70,
+      "clasificado_sin_id": 73,
       "exclusion_personal_aprobada": 1,
       "asociacion_contextual_aprobada": 6,
       "homonimo_no_identificado": 1
@@ -23451,6 +23451,25 @@
       "fuentes": []
     },
     {
+      "ref": "Gn 39:14",
+      "chapter": 39,
+      "verse": 14,
+      "start": 83,
+      "end": 89,
+      "literal": "hebreo",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "tribus",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-20"
+      ],
+      "motivo": "Gentilicio «hebreo» singular: uso étnico/colectivo confirmado, sin fijar nueva identidad ni remisión antes de decisión del editor sobre Hebreos / Israelitas."
+    },
+    {
       "ref": "Gn 39:16",
       "chapter": 39,
       "verse": 16,
@@ -23469,6 +23488,25 @@
       "id": "onomastico/jose",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 39:17",
+      "chapter": 39,
+      "verse": 17,
+      "start": 49,
+      "end": 55,
+      "literal": "hebreo",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "tribus",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-20"
+      ],
+      "motivo": "Gentilicio «hebreo» singular: uso étnico/colectivo confirmado, sin fijar nueva identidad ni remisión antes de decisión del editor sobre Hebreos / Israelitas."
     },
     {
       "ref": "Gn 39:19",
@@ -24314,6 +24352,25 @@
       "id": "lugares/egipto",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 41:12",
+      "chapter": 41,
+      "verse": 12,
+      "start": 34,
+      "end": 40,
+      "literal": "hebreo",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "tribus",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-20"
+      ],
+      "motivo": "Gentilicio «hebreo» singular: uso étnico/colectivo confirmado, sin fijar nueva identidad ni remisión antes de decisión del editor sobre Hebreos / Israelitas."
     },
     {
       "ref": "Gn 41:14",
