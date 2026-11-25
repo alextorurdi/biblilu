@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/control-p3-reconciliacion.yml'
       - 'scripts/check_p3_reconciliacion.py'
+      - 'scripts/check_p3_cobertura_lexica.py'
       - 'scripts/build_p3_catalogo_reconciliado.py'
       - 'data/p3-reconciliacion-genesis-25-50.json'
       - 'data/p3-catalogo-reconciliado-genesis-25-50.json'
@@ -27,6 +28,8 @@ jobs:
         uses: actions/checkout@v7
       - name: Validar reconciliación contextual
         run: python3 scripts/check_p3_reconciliacion.py
+      - name: Control de cobertura léxica dirigida CT-32
+        run: python3 scripts/check_p3_cobertura_lexica.py
       - name: Verificar reproducibilidad del catálogo derivado
         run: |
           python3 scripts/build_p3_catalogo_reconciliado.py --check
