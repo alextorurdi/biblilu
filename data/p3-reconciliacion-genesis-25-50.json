@@ -3289,11 +3289,11 @@
       "ref": "Gn 36:35",
       "literal": "madianitas",
       "categoria": "tribus",
-      "id": null,
-      "accion": "clasificar_sin_id",
+      "id": "tribus/madianitas",
+      "accion": "asignar",
       "start": 89,
       "end": 99,
-      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
+      "motivo": "D-03 opción A aprobada: ficha tribal independiente madianitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4."
     },
     {
       "codigo": "CT-13",
@@ -3311,55 +3311,55 @@
       "ref": "Gn 37:25",
       "literal": "ismaelitas",
       "categoria": "tribus",
-      "id": null,
-      "accion": "clasificar_sin_id",
+      "id": "tribus/ismaelitas",
+      "accion": "asignar",
       "start": 72,
       "end": 82,
-      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
+      "motivo": "D-03 opción A aprobada: ficha tribal independiente ismaelitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4."
     },
     {
       "codigo": "CT-13",
       "ref": "Gn 37:27",
       "literal": "ismaelitas",
       "categoria": "tribus",
-      "id": null,
-      "accion": "clasificar_sin_id",
+      "id": "tribus/ismaelitas",
+      "accion": "asignar",
       "start": 17,
       "end": 27,
-      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
+      "motivo": "D-03 opción A aprobada: ficha tribal independiente ismaelitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4."
     },
     {
       "codigo": "CT-13",
       "ref": "Gn 37:28",
       "literal": "madianitas",
       "categoria": "tribus",
-      "id": null,
-      "accion": "clasificar_sin_id",
+      "id": "tribus/madianitas",
+      "accion": "asignar",
       "start": 33,
       "end": 43,
-      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
+      "motivo": "D-03 opción A aprobada: ficha tribal independiente madianitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4."
     },
     {
       "codigo": "CT-13",
       "ref": "Gn 37:28",
       "literal": "ismaelitas",
       "categoria": "tribus",
-      "id": null,
-      "accion": "clasificar_sin_id",
+      "id": "tribus/ismaelitas",
+      "accion": "asignar",
       "start": 90,
       "end": 100,
-      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
+      "motivo": "D-03 opción A aprobada: ficha tribal independiente ismaelitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4."
     },
     {
       "codigo": "CT-13",
       "ref": "Gn 37:36",
       "literal": "madianitas",
       "categoria": "tribus",
-      "id": null,
-      "accion": "clasificar_sin_id",
+      "id": "tribus/madianitas",
+      "accion": "asignar",
       "start": 31,
       "end": 41,
-      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
+      "motivo": "D-03 opción A aprobada: ficha tribal independiente madianitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4."
     },
     {
       "codigo": "CT-13",
@@ -3454,11 +3454,11 @@
       "ref": "Gn 39:1",
       "literal": "ismaelitas",
       "categoria": "tribus",
-      "id": null,
-      "accion": "clasificar_sin_id",
+      "id": "tribus/ismaelitas",
+      "accion": "asignar",
       "start": 100,
       "end": 110,
-      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
+      "motivo": "D-03 opción A aprobada: ficha tribal independiente ismaelitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4."
     },
     {
       "codigo": "CT-13",
@@ -13664,5 +13664,28 @@
     "menciones": 74,
     "origen": "Solicitud explícita del editor: ya existe una ficha Faraón en Onomástico, úsala",
     "no_atribucion_individual": true
+  },
+  "d03": {
+    "estado": "aprobada",
+    "opcion": "A",
+    "fichas_principales": [
+      "tribus/ismaelitas",
+      "tribus/madianitas"
+    ],
+    "distintas_de": [
+      "onomastico/ismael",
+      "onomastico/madian"
+    ],
+    "sin_sinonimia": true,
+    "implementacion": "P4",
+    "refs": [
+      "Gn 36:35",
+      "Gn 37:25",
+      "Gn 37:27",
+      "Gn 37:28",
+      "Gn 37:28",
+      "Gn 37:36",
+      "Gn 39:1"
+    ]
   }
 }
