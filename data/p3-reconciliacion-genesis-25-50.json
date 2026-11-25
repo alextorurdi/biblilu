@@ -4548,6 +4548,116 @@
       "start": 84,
       "end": 89,
       "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente."
+    },
+    {
+      "codigo": "CT-18",
+      "ref": "Gn 36:40",
+      "literal": "Alva",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 95,
+      "end": 99,
+      "motivo": "Nombre de jefatura de Edom (Gn 36:40-43) no recogido por el extractor: sin ficha independiente por acuerdo editorial; no inventar identidad ni enlace."
+    },
+    {
+      "codigo": "CT-18",
+      "ref": "Gn 36:40",
+      "literal": "Jetet",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 101,
+      "end": 106,
+      "motivo": "Nombre de jefatura de Edom (Gn 36:40-43) no recogido por el extractor: sin ficha independiente por acuerdo editorial; no inventar identidad ni enlace."
+    },
+    {
+      "codigo": "CT-18",
+      "ref": "Gn 36:41",
+      "literal": "Ela",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 11,
+      "end": 14,
+      "motivo": "Nombre de jefatura de Edom (Gn 36:40-43) no recogido por el extractor: sin ficha independiente por acuerdo editorial; no inventar identidad ni enlace."
+    },
+    {
+      "codigo": "CT-18",
+      "ref": "Gn 36:41",
+      "literal": "Pinón",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 16,
+      "end": 21,
+      "motivo": "Nombre de jefatura de Edom (Gn 36:40-43) no recogido por el extractor: sin ficha independiente por acuerdo editorial; no inventar identidad ni enlace."
+    },
+    {
+      "codigo": "CT-18",
+      "ref": "Gn 36:42",
+      "literal": "Mibzar",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 14,
+      "end": 20,
+      "motivo": "Nombre de jefatura de Edom (Gn 36:40-43) no recogido por el extractor: sin ficha independiente por acuerdo editorial; no inventar identidad ni enlace."
+    },
+    {
+      "codigo": "CT-18",
+      "ref": "Gn 36:43",
+      "literal": "Magdiel",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 0,
+      "end": 7,
+      "motivo": "Nombre de jefatura de Edom (Gn 36:40-43) no recogido por el extractor: sin ficha independiente por acuerdo editorial; no inventar identidad ni enlace."
+    },
+    {
+      "codigo": "CT-18",
+      "ref": "Gn 36:43",
+      "literal": "Iram",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 10,
+      "end": 14,
+      "motivo": "Nombre de jefatura de Edom (Gn 36:40-43) no recogido por el extractor: sin ficha independiente por acuerdo editorial; no inventar identidad ni enlace."
+    },
+    {
+      "codigo": "CT-18",
+      "ref": "Gn 36:41",
+      "literal": "Aholibama",
+      "categoria": "onomastico",
+      "id": "onomastico/aholibama-mujer-de-esau",
+      "accion": "asociacion_contextual",
+      "start": 0,
+      "end": 9,
+      "motivo": "Mención a jefatura homónima en ficha personal existente, por acuerdo editorial; NO implica identidad biográfica demostrada y NO genera ficha de jefatura separada."
+    },
+    {
+      "codigo": "CT-18",
+      "ref": "Gn 36:42",
+      "literal": "Cenaz",
+      "categoria": "onomastico",
+      "id": "onomastico/cenaz-hijo-de-elifaz",
+      "accion": "asociacion_contextual",
+      "start": 0,
+      "end": 5,
+      "motivo": "Mención a jefatura homónima en ficha personal existente, por acuerdo editorial; NO implica identidad biográfica demostrada y NO genera ficha de jefatura separada."
+    },
+    {
+      "codigo": "CT-18",
+      "ref": "Gn 36:42",
+      "literal": "Temán",
+      "categoria": "onomastico",
+      "id": "onomastico/teman-hijo-de-elifaz",
+      "accion": "asociacion_contextual",
+      "start": 7,
+      "end": 12,
+      "motivo": "Mención a jefatura homónima en ficha personal existente, por acuerdo editorial; NO implica identidad biográfica demostrada y NO genera ficha de jefatura separada."
     }
   ],
   "nota": "Esta capa conserva intacto el barrido bruto; los IDs futuros no son rutas publicadas. Excluir y nota_contextual no equivalen a enlaces literales.\nCT-17 (25/11/2026): 39 apariciones recuperadas por auditoría dirigida; sin cambios en fichas ni texto BES. Los gentilicios hebreos y cadena se clasifican sin ID; P4 establecerá enlaces autorizados."
