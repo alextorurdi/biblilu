@@ -1,0 +1,1120 @@
+{
+  "fase": "P3",
+  "fecha": "2026-11-25",
+  "estado": "reglas_contextuales_aprobadas_para_reconciliacion",
+  "fuente": "data/genesis_25_50_bes.json",
+  "inventario_bruto": "data/p3-extracciones-genesis-25-50.json",
+  "r01": {
+    "ficha_principal": "tribus/israelitas",
+    "titulo": "Israelitas",
+    "variante": "Israel",
+    "remision_futura": "tribus/israel",
+    "persona_distinta": "onomastico/jacob",
+    "implementacion_fichas": "P4"
+  },
+  "cruces_onomastico_lugares": [
+    {
+      "ref": "Gn 25:9",
+      "literal": "Mamre",
+      "categoria": "lugares",
+      "id": "lugares/mamre",
+      "start": 118,
+      "end": 123,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 25:18",
+      "literal": "Havila",
+      "categoria": "lugares",
+      "id": "lugares/havila",
+      "start": 33,
+      "end": 39,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 27:43",
+      "literal": "Harán",
+      "categoria": "lugares",
+      "id": "lugares/haran",
+      "start": 44,
+      "end": 49,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 28:10",
+      "literal": "Harán",
+      "categoria": "lugares",
+      "id": "lugares/haran",
+      "start": 36,
+      "end": 41,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 29:4",
+      "literal": "Harán",
+      "categoria": "lugares",
+      "id": "lugares/haran",
+      "start": 83,
+      "end": 88,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 30:6",
+      "literal": "Dan",
+      "categoria": "onomastico",
+      "id": "onomastico/dan",
+      "start": 101,
+      "end": 104,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 31:18",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 141,
+      "end": 147,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 32:3",
+      "literal": "Seir",
+      "categoria": "lugares",
+      "id": "lugares/seir",
+      "start": 71,
+      "end": 75,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 33:14",
+      "literal": "Seir",
+      "categoria": "lugares",
+      "id": "lugares/seir",
+      "start": 111,
+      "end": 115,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 33:16",
+      "literal": "Seir",
+      "categoria": "lugares",
+      "id": "lugares/seir",
+      "start": 43,
+      "end": 47,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 33:18",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 99,
+      "end": 105,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 35:6",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 89,
+      "end": 95,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 35:25",
+      "literal": "Dan",
+      "categoria": "onomastico",
+      "id": "onomastico/dan",
+      "start": 45,
+      "end": 48,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 35:27",
+      "literal": "Mamre",
+      "categoria": "lugares",
+      "id": "lugares/mamre",
+      "start": 46,
+      "end": 51,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 36:2",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 21,
+      "end": 27,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 36:5",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 103,
+      "end": 109,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 36:6",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 140,
+      "end": 146,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 36:8",
+      "literal": "Seir",
+      "categoria": "lugares",
+      "id": "lugares/seir",
+      "start": 53,
+      "end": 57,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 36:9",
+      "literal": "Seir",
+      "categoria": "lugares",
+      "id": "lugares/seir",
+      "start": 86,
+      "end": 90,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 36:20",
+      "literal": "Seir",
+      "categoria": "onomastico",
+      "id": "onomastico/seir-horeo",
+      "start": 26,
+      "end": 30,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 36:21",
+      "literal": "Seir",
+      "categoria": "onomastico",
+      "id": "onomastico/seir-horeo",
+      "start": 76,
+      "end": 80,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 36:30",
+      "literal": "Seir",
+      "categoria": "lugares",
+      "id": "lugares/seir",
+      "start": 82,
+      "end": 86,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 36:32",
+      "literal": "Bela",
+      "categoria": "onomastico",
+      "id": "onomastico/bela-rey-de-edom",
+      "start": 0,
+      "end": 4,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 36:33",
+      "literal": "Bela",
+      "categoria": "onomastico",
+      "id": "onomastico/bela-rey-de-edom",
+      "start": 7,
+      "end": 11,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 36:35",
+      "literal": "Moab",
+      "categoria": "lugares",
+      "id": "lugares/moab",
+      "start": 116,
+      "end": 120,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 37:1",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 28,
+      "end": 34,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 42:5",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 118,
+      "end": 124,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 42:7",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 157,
+      "end": 163,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 42:13",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 95,
+      "end": 101,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 42:29",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 31,
+      "end": 37,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 42:32",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 118,
+      "end": 124,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 44:8",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 29,
+      "end": 35,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 45:17",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 100,
+      "end": 106,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 45:25",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 51,
+      "end": 57,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 46:6",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 83,
+      "end": 89,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 46:12",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 95,
+      "end": 101,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 46:21",
+      "literal": "Bela",
+      "categoria": "onomastico",
+      "id": "onomastico/bela",
+      "start": 29,
+      "end": 33,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 46:23",
+      "literal": "Dan",
+      "categoria": "onomastico",
+      "id": "onomastico/dan",
+      "start": 11,
+      "end": 14,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 46:31",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 154,
+      "end": 160,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 47:1",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 84,
+      "end": 90,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 47:4",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 113,
+      "end": 119,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 47:13",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 73,
+      "end": 79,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 47:14",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 49,
+      "end": 55,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 47:15",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 38,
+      "end": 44,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 48:3",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 93,
+      "end": 99,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 48:7",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 69,
+      "end": 75,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 49:13",
+      "literal": "Sidón",
+      "categoria": "lugares",
+      "id": "lugares/sidon",
+      "start": 82,
+      "end": 87,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 49:16",
+      "literal": "Dan",
+      "categoria": "tribus",
+      "id": "tribus/dan",
+      "start": 0,
+      "end": 3,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 49:17",
+      "literal": "Dan",
+      "categoria": "tribus",
+      "id": "tribus/dan",
+      "start": 0,
+      "end": 3,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 49:30",
+      "literal": "Mamre",
+      "categoria": "lugares",
+      "id": "lugares/mamre",
+      "start": 43,
+      "end": 48,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 49:30",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 66,
+      "end": 72,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 50:5",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 99,
+      "end": 105,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 50:11",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 25,
+      "end": 31,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 50:13",
+      "literal": "Canaán",
+      "categoria": "lugares",
+      "id": "lugares/canaan",
+      "start": 27,
+      "end": 33,
+      "estado": "clasificacion_contextual_aprobada"
+    },
+    {
+      "ref": "Gn 50:13",
+      "literal": "Mamre",
+      "categoria": "lugares",
+      "id": "lugares/mamre",
+      "start": 93,
+      "end": 98,
+      "estado": "clasificacion_contextual_aprobada"
+    }
+  ],
+  "correcciones_contextuales": [
+    {
+      "codigo": "CT-01",
+      "ref": "Gn 26:33",
+      "literal": "Seba",
+      "categoria": "lugares",
+      "id": "lugares/seba-pozo",
+      "accion": "asignar",
+      "start": 20,
+      "end": 24
+    },
+    {
+      "codigo": "CT-02",
+      "ref": "Gn 29:15",
+      "literal": "seas",
+      "categoria": "medidas",
+      "id": null,
+      "accion": "excluir",
+      "start": 36,
+      "end": 40,
+      "motivo": "forma verbal"
+    },
+    {
+      "codigo": "CT-03",
+      "ref": "Gn 31:27",
+      "literal": "cantos y música",
+      "categoria": "instrumentos",
+      "id": null,
+      "accion": "nota_contextual",
+      "start": 88,
+      "end": 103,
+      "destinos": [
+        "instrumentos/tof",
+        "instrumentos/kinnor"
+      ],
+      "motivo": "instrumentos presentes en hebreo/RVR1960, no palabras literales BES"
+    },
+    {
+      "codigo": "CT-04",
+      "ref": "Gn 42:5",
+      "literal": "Israel",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "start": 17,
+      "end": 23
+    },
+    {
+      "codigo": "CT-04",
+      "ref": "Gn 45:21",
+      "literal": "Israel",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "start": 13,
+      "end": 19
+    },
+    {
+      "codigo": "CT-04",
+      "ref": "Gn 46:8",
+      "literal": "Israel",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "start": 38,
+      "end": 44
+    },
+    {
+      "codigo": "CT-04",
+      "ref": "Gn 50:25",
+      "literal": "Israel",
+      "categoria": "onomastico",
+      "id": "onomastico/jacob",
+      "accion": "asignar",
+      "start": 40,
+      "end": 46
+    },
+    {
+      "codigo": "CT-05",
+      "ref": "Gn 25:30",
+      "literal": "Edom",
+      "categoria": "onomastico",
+      "id": "onomastico/esau",
+      "accion": "asignar",
+      "start": 104,
+      "end": 108
+    },
+    {
+      "codigo": "CT-05",
+      "ref": "Gn 36:1",
+      "literal": "Edom",
+      "categoria": "onomastico",
+      "id": "onomastico/esau",
+      "accion": "asignar",
+      "start": 47,
+      "end": 51
+    },
+    {
+      "codigo": "CT-05",
+      "ref": "Gn 36:8",
+      "literal": "Edom",
+      "categoria": "onomastico",
+      "id": "onomastico/esau",
+      "accion": "asignar",
+      "start": 67,
+      "end": 71
+    },
+    {
+      "codigo": "CT-05",
+      "ref": "Gn 36:19",
+      "literal": "Edom",
+      "categoria": "onomastico",
+      "id": "onomastico/esau",
+      "accion": "asignar",
+      "start": 42,
+      "end": 46
+    },
+    {
+      "codigo": "CT-05",
+      "ref": "Gn 32:3",
+      "literal": "Edom",
+      "categoria": "lugares",
+      "id": "lugares/edom",
+      "accion": "asignar",
+      "start": 93,
+      "end": 97
+    },
+    {
+      "codigo": "CT-05",
+      "ref": "Gn 36:16",
+      "literal": "Edom",
+      "categoria": "lugares",
+      "id": "lugares/edom",
+      "accion": "asignar",
+      "start": 85,
+      "end": 89
+    },
+    {
+      "codigo": "CT-05",
+      "ref": "Gn 36:17",
+      "literal": "Edom",
+      "categoria": "lugares",
+      "id": "lugares/edom",
+      "accion": "asignar",
+      "start": 131,
+      "end": 135
+    },
+    {
+      "codigo": "CT-05",
+      "ref": "Gn 36:21",
+      "literal": "Edom",
+      "categoria": "lugares",
+      "id": "lugares/edom",
+      "accion": "asignar",
+      "start": 98,
+      "end": 102
+    },
+    {
+      "codigo": "CT-05",
+      "ref": "Gn 36:31",
+      "literal": "Edom",
+      "categoria": "lugares",
+      "id": "lugares/edom",
+      "accion": "asignar",
+      "start": 51,
+      "end": 55
+    },
+    {
+      "codigo": "CT-05",
+      "ref": "Gn 36:32",
+      "literal": "Edom",
+      "categoria": "lugares",
+      "id": "lugares/edom",
+      "accion": "asignar",
+      "start": 31,
+      "end": 35
+    },
+    {
+      "codigo": "CT-05",
+      "ref": "Gn 36:43",
+      "literal": "Edom",
+      "categoria": "tribus",
+      "id": "tribus/edomitas",
+      "accion": "asignar",
+      "start": 42,
+      "end": 46
+    },
+    {
+      "codigo": "CT-06",
+      "ref": "Gn 33:19",
+      "literal": "monedas",
+      "categoria": "medidas",
+      "id": "medidas/qesita",
+      "accion": "asignar",
+      "start": 16,
+      "end": 23
+    },
+    {
+      "codigo": "CT-07",
+      "ref": "Gn 35:16",
+      "literal": "cierta distancia",
+      "categoria": "medidas",
+      "id": "medidas/kibra",
+      "accion": "asociacion_contextual",
+      "start": 52,
+      "end": 68,
+      "motivo": "la BES parafrasea la medida; no presenta el término kibrá"
+    },
+    {
+      "codigo": "CT-07",
+      "ref": "Gn 48:7",
+      "literal": "cierta distancia",
+      "categoria": "medidas",
+      "id": "medidas/kibra",
+      "accion": "asociacion_contextual",
+      "start": 100,
+      "end": 116,
+      "motivo": "la BES parafrasea la medida; no presenta el término kibrá"
+    },
+    {
+      "codigo": "CT-08",
+      "ref": "Gn 37:24",
+      "literal": "pozo",
+      "categoria": "objetos",
+      "id": "objetos/cisterna",
+      "accion": "asignar",
+      "start": 30,
+      "end": 34
+    },
+    {
+      "codigo": "CT-08",
+      "ref": "Gn 37:24",
+      "literal": "pozo",
+      "categoria": "objetos",
+      "id": "objetos/cisterna",
+      "accion": "asignar",
+      "start": 39,
+      "end": 43
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 26:14",
+      "literal": "ganado",
+      "start": 21,
+      "end": 27,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 29:7",
+      "literal": "ganado",
+      "start": 59,
+      "end": 65,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 30:29",
+      "literal": "ganado",
+      "start": 76,
+      "end": 82,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 31:9",
+      "literal": "ganado",
+      "start": 21,
+      "end": 27,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 31:18",
+      "literal": "ganado",
+      "start": 23,
+      "end": 29,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 31:41",
+      "literal": "ganado",
+      "start": 91,
+      "end": 97,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 32:5",
+      "literal": "ganado",
+      "start": 6,
+      "end": 12,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 32:7",
+      "literal": "ganado",
+      "start": 110,
+      "end": 116,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 33:14",
+      "literal": "ganado",
+      "start": 73,
+      "end": 79,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 33:17",
+      "literal": "ganado",
+      "start": 70,
+      "end": 76,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 34:5",
+      "literal": "ganado",
+      "start": 101,
+      "end": 107,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 34:23",
+      "literal": "ganado",
+      "start": 12,
+      "end": 18,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 34:28",
+      "literal": "ganado",
+      "start": 23,
+      "end": 29,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 36:6",
+      "literal": "ganado",
+      "start": 76,
+      "end": 82,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 36:7",
+      "literal": "ganado",
+      "start": 37,
+      "end": 43,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 37:14",
+      "literal": "ganado",
+      "start": 62,
+      "end": 68,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 45:10",
+      "literal": "ganado",
+      "start": 86,
+      "end": 92,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 46:6",
+      "literal": "ganado",
+      "start": 20,
+      "end": 26,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 46:32",
+      "literal": "ganado",
+      "start": 35,
+      "end": 41,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 46:34",
+      "literal": "ganado",
+      "start": 38,
+      "end": 44,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 47:1",
+      "literal": "ganado",
+      "start": 110,
+      "end": 116,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 47:6",
+      "literal": "ganado",
+      "start": 200,
+      "end": 206,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 47:16",
+      "literal": "ganado",
+      "start": 28,
+      "end": 34,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 47:17",
+      "literal": "ganado",
+      "start": 18,
+      "end": 24,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 47:17",
+      "literal": "ganado",
+      "start": 159,
+      "end": 165,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "CT-09",
+      "ref": "Gn 50:8",
+      "literal": "ganado",
+      "start": 138,
+      "end": 144,
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "motivo": "no enlazar ganado por acuerdo editorial"
+    },
+    {
+      "codigo": "R-01",
+      "ref": "Gn 34:7",
+      "literal": "Israel",
+      "categoria": "tribus",
+      "id": "tribus/israelitas",
+      "accion": "asignar",
+      "start": 155,
+      "end": 161
+    },
+    {
+      "codigo": "R-01",
+      "ref": "Gn 47:27",
+      "literal": "Israel",
+      "categoria": "tribus",
+      "id": "tribus/israelitas",
+      "accion": "asignar",
+      "start": 0,
+      "end": 6
+    },
+    {
+      "codigo": "R-01",
+      "ref": "Gn 48:20",
+      "literal": "Israel",
+      "categoria": "tribus",
+      "id": "tribus/israelitas",
+      "accion": "asignar",
+      "start": 51,
+      "end": 57
+    },
+    {
+      "codigo": "R-01",
+      "ref": "Gn 49:7",
+      "literal": "Israel",
+      "categoria": "tribus",
+      "id": "tribus/israelitas",
+      "accion": "asignar",
+      "start": 137,
+      "end": 143
+    },
+    {
+      "codigo": "R-01",
+      "ref": "Gn 49:16",
+      "literal": "Israel",
+      "categoria": "tribus",
+      "id": "tribus/israelitas",
+      "accion": "asignar",
+      "start": 50,
+      "end": 56
+    },
+    {
+      "codigo": "R-01",
+      "ref": "Gn 49:24",
+      "literal": "Israel",
+      "categoria": "tribus",
+      "id": "tribus/israelitas",
+      "accion": "asignar",
+      "start": 115,
+      "end": 121
+    },
+    {
+      "codigo": "R-01",
+      "ref": "Gn 49:28",
+      "literal": "Israel",
+      "categoria": "tribus",
+      "id": "tribus/israelitas",
+      "accion": "asignar",
+      "start": 29,
+      "end": 35
+    },
+    {
+      "codigo": "CT-04",
+      "ref": "Gn 33:20",
+      "literal": "Israel",
+      "categoria": "objetos",
+      "id": null,
+      "accion": "no_enlazar_como_persona",
+      "start": 44,
+      "end": 50,
+      "motivo": "elemento del nombre compuesto El-Elohe-Israel"
+    }
+  ],
+  "nota": "Esta capa conserva intacto el barrido bruto; los IDs futuros no son rutas publicadas. Excluir y nota_contextual no equivalen a enlaces literales."
+}
