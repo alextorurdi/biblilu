@@ -173,6 +173,13 @@ def main():
     assert sum(x["literal"] == "Er" for x in ct27) == 5
     assert any(x["literal"] == "Jegar-sahaduta" and x["id"] == "lugares/pacto-jacob-laban" for x in ct27)
     assert any(x["literal"] == "Mizpa" and x["id"] == "lugares/pacto-jacob-laban" for x in ct27)
+    # CT-28: cobertura de seres vivos, objetos, materiales y genéricos.
+    ct28 = [x for x in corrections if x["codigo"] == "CT-28"]
+    assert len(ct28) == 84
+    assert not any(x["ref"] in ("Gn 27:35", "Gn 31:24") and x["id"] == "materiales/vino" for x in ct28)
+    assert any(x["ref"] == "Gn 30:14" and x["id"] == "animales/mandragora" for x in ct28)
+    assert any(x["ref"] == "Gn 31:19" and x["id"] == "objetos/terafin" for x in ct28)
+    assert any(x["ref"] == "Gn 49:27" and x["id"] == "animales/lobo" for x in ct28)
     assert rules["r01"]["ficha_principal"] == "tribus/israelitas"
     assert rules["r01"]["remision_futura"] == "tribus/israel"
     assert rules["r01"]["persona_distinta"] == "onomastico/jacob"
