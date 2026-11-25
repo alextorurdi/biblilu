@@ -9,13 +9,13 @@
   "resumen": {
     "total": 1682,
     "brutos": 1438,
-    "reconciliados": 308,
+    "reconciliados": 316,
     "por_estado": {
       "candidato_unico_no_validado": 1331,
-      "clasificado_por_contexto": 267,
-      "excluido_aprobado": 37,
-      "candidato_no_reconciliado": 43,
+      "clasificado_por_contexto": 274,
+      "excluido_aprobado": 38,
       "nota_contextual_aprobada": 1,
+      "candidato_no_reconciliado": 35,
       "exclusion_personal_aprobada": 1,
       "asociacion_contextual_aprobada": 2
     },
@@ -27,9 +27,12 @@
       "lugares/edom",
       "lugares/enaim",
       "lugares/esec",
+      "lugares/galaad",
       "lugares/gosen",
+      "lugares/mahanaim",
       "lugares/nilo",
       "lugares/on",
+      "lugares/pacto-jacob-laban",
       "lugares/padan-aram",
       "lugares/peniel",
       "lugares/rehobot-del-rio",
@@ -9948,11 +9951,15 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/galaad",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-12"
+      ],
+      "motivo": "Topónimo según contexto",
+      "id_futuro": true
     },
     {
       "ref": "Gn 31:22",
@@ -10006,11 +10013,15 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/galaad",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-12"
+      ],
+      "motivo": "Topónimo según contexto",
+      "id_futuro": true
     },
     {
       "ref": "Gn 31:24",
@@ -10184,11 +10195,15 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/galaad",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-12"
+      ],
+      "motivo": "Topónimo según contexto",
+      "id_futuro": true
     },
     {
       "ref": "Gn 31:26",
@@ -10946,11 +10961,15 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/pacto-jacob-laban",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-12"
+      ],
+      "motivo": "Nombre del majano del pacto, no la región",
+      "id_futuro": true
     },
     {
       "ref": "Gn 31:48",
@@ -11004,11 +11023,15 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/pacto-jacob-laban",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-12"
+      ],
+      "motivo": "Nombre del majano del pacto, no la región",
+      "id_futuro": true
     },
     {
       "ref": "Gn 31:49",
@@ -11285,11 +11308,15 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/mahanaim",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-12"
+      ],
+      "motivo": "Topónimo según contexto",
+      "id_futuro": true
     },
     {
       "ref": "Gn 32:3",
@@ -20066,11 +20093,15 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/galaad",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-12"
+      ],
+      "motivo": "Topónimo según contexto",
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:25",
@@ -21666,11 +21697,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "excluido_aprobado",
+      "categoria": "objetos",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "excluir",
+      "fuentes": [
+        "CT-12"
+      ],
+      "motivo": "Verbo «sacar», no objeto Saco"
     },
     {
       "ref": "Gn 38:29",
