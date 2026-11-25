@@ -21,3 +21,8 @@
 ## Estado general
 
 La decisión D-02 quedó resuelta al verificar la ficha Onomástica histórica `onomastico/faraon`. CT-22 añadió sus 74 menciones, y CT-23 verificó 330 menciones de siete personas ya documentadas. Catálogo a esta fecha: **1.835 registros**, con **567 candidatos únicos sin validar**. P3 permanece abierta por auditoría semántica, cobertura y D-03.
+
+
+## Resolución editorial definitiva D-03 (25/11/2026)
+
+**Aprobada la opción A:** dos fichas principales independientes en Tribus, **Ismaelitas** (`tribus/ismaelitas`) y **Madianitas** (`tribus/madianitas`). Se distinguen respectivamente de Ismael y Madián personales. Se han reconciliado sus **siete menciones**: cuatro de Ismaelitas y tres de Madianitas. Gn 37:28 conserva ambas denominaciones sin fusionarlas. Las dos fichas nuevas se elaborarán en P4; la P3 no publica enlaces.
