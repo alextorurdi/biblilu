@@ -7,12 +7,12 @@
   "inventario_original": "data/p3-extracciones-genesis-25-50.json",
   "reglas": "data/p3-reconciliacion-genesis-25-50.json",
   "resumen": {
-    "total": 1761,
+    "total": 1835,
     "brutos": 1438,
-    "reconciliados": 864,
+    "reconciliados": 938,
     "por_estado": {
       "candidato_unico_no_validado": 897,
-      "clasificado_por_contexto": 748,
+      "clasificado_por_contexto": 822,
       "excluido_aprobado": 39,
       "nota_contextual_aprobada": 1,
       "clasificado_sin_id": 68,
@@ -22426,6 +22426,25 @@
       "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
     },
     {
+      "ref": "Gn 37:36",
+      "chapter": 37,
+      "verse": 36,
+      "start": 94,
+      "end": 100,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
       "ref": "Gn 38:1",
       "chapter": 38,
       "verse": 1,
@@ -23719,6 +23738,25 @@
       "ref": "Gn 39:1",
       "chapter": 39,
       "verse": 1,
+      "start": 76,
+      "end": 82,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 39:1",
+      "chapter": 39,
+      "verse": 1,
       "start": 100,
       "end": 110,
       "literal": "ismaelitas",
@@ -24307,6 +24345,25 @@
       "ref": "Gn 40:1",
       "chapter": 40,
       "verse": 1,
+      "start": 72,
+      "end": 78,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 40:1",
+      "chapter": 40,
+      "verse": 1,
       "start": 120,
       "end": 126,
       "literal": "Egipto",
@@ -24322,6 +24379,25 @@
       "id": "lugares/egipto",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 40:2",
+      "chapter": 40,
+      "verse": 2,
+      "start": 3,
+      "end": 9,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 40:3",
@@ -24436,6 +24512,25 @@
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
     },
     {
+      "ref": "Gn 40:7",
+      "chapter": 40,
+      "verse": 7,
+      "start": 32,
+      "end": 38,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
       "ref": "Gn 40:8",
       "chapter": 40,
       "verse": 8,
@@ -24546,6 +24641,25 @@
       "ref": "Gn 40:11",
       "chapter": 40,
       "verse": 11,
+      "start": 32,
+      "end": 38,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 40:11",
+      "chapter": 40,
+      "verse": 11,
       "start": 73,
       "end": 77,
       "literal": "copa",
@@ -24585,6 +24699,25 @@
       "id_futuro": true
     },
     {
+      "ref": "Gn 40:11",
+      "chapter": 40,
+      "verse": 11,
+      "start": 108,
+      "end": 114,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
       "ref": "Gn 40:12",
       "chapter": 40,
       "verse": 12,
@@ -24611,6 +24744,25 @@
       "ref": "Gn 40:13",
       "chapter": 40,
       "verse": 13,
+      "start": 24,
+      "end": 30,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 40:13",
+      "chapter": 40,
+      "verse": 13,
       "start": 75,
       "end": 79,
       "literal": "copa",
@@ -24627,6 +24779,25 @@
         "CT-11"
       ],
       "id_futuro": true
+    },
+    {
+      "ref": "Gn 40:14",
+      "chapter": 40,
+      "verse": 14,
+      "start": 71,
+      "end": 77,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 40:15",
@@ -24696,6 +24867,25 @@
       "ref": "Gn 40:17",
       "chapter": 40,
       "verse": 17,
+      "start": 68,
+      "end": 74,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 40:17",
+      "chapter": 40,
+      "verse": 17,
       "start": 85,
       "end": 89,
       "literal": "aves",
@@ -24759,6 +24949,25 @@
       "ref": "Gn 40:19",
       "chapter": 40,
       "verse": 19,
+      "start": 24,
+      "end": 30,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 40:19",
+      "chapter": 40,
+      "verse": 19,
       "start": 85,
       "end": 89,
       "literal": "aves",
@@ -24774,6 +24983,25 @@
       "fuentes": [
         "CT-11"
       ]
+    },
+    {
+      "ref": "Gn 40:20",
+      "chapter": 40,
+      "verse": 20,
+      "start": 36,
+      "end": 42,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 40:21",
@@ -24795,6 +25023,25 @@
         "CT-11"
       ],
       "id_futuro": true
+    },
+    {
+      "ref": "Gn 40:21",
+      "chapter": 40,
+      "verse": 21,
+      "start": 87,
+      "end": 93,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 40:22",
@@ -24841,6 +25088,25 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 41:1",
+      "chapter": 41,
+      "verse": 1,
+      "start": 21,
+      "end": 27,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 41:1",
@@ -24944,6 +25210,25 @@
       "fuentes": []
     },
     {
+      "ref": "Gn 41:4",
+      "chapter": 41,
+      "verse": 4,
+      "start": 91,
+      "end": 97,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
       "ref": "Gn 41:5",
       "chapter": 41,
       "verse": 5,
@@ -25024,6 +25309,25 @@
       ]
     },
     {
+      "ref": "Gn 41:7",
+      "chapter": 41,
+      "verse": 7,
+      "start": 88,
+      "end": 94,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
       "ref": "Gn 41:8",
       "chapter": 41,
       "verse": 8,
@@ -25042,6 +25346,44 @@
       "id": "lugares/egipto",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 41:9",
+      "chapter": 41,
+      "verse": 9,
+      "start": 37,
+      "end": 43,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 41:10",
+      "chapter": 41,
+      "verse": 10,
+      "start": 10,
+      "end": 16,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 41:12",
@@ -25063,6 +25405,25 @@
       ],
       "motivo": "D-01 opción A aprobada por el editor: Hebreo(s) como variante histórica de Israelitas, sin ficha tribal independiente; implementación en P4.",
       "id_futuro": true
+    },
+    {
+      "ref": "Gn 41:14",
+      "chapter": 41,
+      "verse": 14,
+      "start": 12,
+      "end": 18,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 41:14",
@@ -25111,6 +25472,44 @@
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
     },
     {
+      "ref": "Gn 41:14",
+      "chapter": 41,
+      "verse": 14,
+      "start": 134,
+      "end": 140,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 41:15",
+      "chapter": 41,
+      "verse": 15,
+      "start": 3,
+      "end": 9,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
       "ref": "Gn 41:15",
       "chapter": 41,
       "verse": 15,
@@ -25155,6 +25554,44 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 41:16",
+      "chapter": 41,
+      "verse": 16,
+      "start": 69,
+      "end": 75,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 41:17",
+      "chapter": 41,
+      "verse": 17,
+      "start": 12,
+      "end": 18,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 41:17",
@@ -25424,6 +25861,44 @@
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
     },
     {
+      "ref": "Gn 41:25",
+      "chapter": 41,
+      "verse": 25,
+      "start": 13,
+      "end": 19,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 41:25",
+      "chapter": 41,
+      "verse": 25,
+      "start": 78,
+      "end": 84,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
       "ref": "Gn 41:26",
       "chapter": 41,
       "verse": 26,
@@ -25504,6 +25979,25 @@
       ]
     },
     {
+      "ref": "Gn 41:28",
+      "chapter": 41,
+      "verse": 28,
+      "start": 23,
+      "end": 29,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
       "ref": "Gn 41:29",
       "chapter": 41,
       "verse": 29,
@@ -25522,6 +26016,25 @@
       "id": "lugares/egipto",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 41:33",
+      "chapter": 41,
+      "verse": 33,
+      "start": 9,
+      "end": 15,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 41:33",
@@ -25565,6 +26078,25 @@
       "id_futuro": true
     },
     {
+      "ref": "Gn 41:35",
+      "chapter": 41,
+      "verse": 35,
+      "start": 97,
+      "end": 103,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
       "ref": "Gn 41:36",
       "chapter": 41,
       "verse": 36,
@@ -25583,6 +26115,63 @@
       "id": "lugares/egipto",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 41:37",
+      "chapter": 41,
+      "verse": 37,
+      "start": 23,
+      "end": 29,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 41:38",
+      "chapter": 41,
+      "verse": 38,
+      "start": 12,
+      "end": 18,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 41:39",
+      "chapter": 41,
+      "verse": 39,
+      "start": 3,
+      "end": 9,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 41:39",
@@ -25606,6 +26195,25 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 41:41",
+      "chapter": 41,
+      "verse": 41,
+      "start": 3,
+      "end": 9,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 41:41",
@@ -25755,6 +26363,25 @@
       "ref": "Gn 41:44",
       "chapter": 41,
       "verse": 44,
+      "start": 3,
+      "end": 9,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 41:44",
+      "chapter": 41,
+      "verse": 44,
       "start": 17,
       "end": 21,
       "literal": "José",
@@ -25778,6 +26405,25 @@
       "ref": "Gn 41:44",
       "chapter": 41,
       "verse": 44,
+      "start": 34,
+      "end": 40,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 41:44",
+      "chapter": 41,
+      "verse": 44,
       "start": 97,
       "end": 103,
       "literal": "Egipto",
@@ -25793,6 +26439,25 @@
       "id": "lugares/egipto",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 41:45",
+      "chapter": 41,
+      "verse": 45,
+      "start": 3,
+      "end": 9,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 41:45",
@@ -25970,6 +26635,25 @@
       "ref": "Gn 41:46",
       "chapter": 41,
       "verse": 46,
+      "start": 51,
+      "end": 57,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 41:46",
+      "chapter": 41,
+      "verse": 46,
       "start": 66,
       "end": 72,
       "literal": "Egipto",
@@ -25985,6 +26669,25 @@
       "id": "lugares/egipto",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 41:46",
+      "chapter": 41,
+      "verse": 46,
+      "start": 108,
+      "end": 114,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 41:46",
@@ -26302,6 +27005,25 @@
       "id": "lugares/egipto",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 41:55",
+      "chapter": 41,
+      "verse": 55,
+      "start": 85,
+      "end": 91,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 41:55",
@@ -26891,6 +27613,44 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 42:15",
+      "chapter": 42,
+      "verse": 15,
+      "start": 64,
+      "end": 70,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 42:16",
+      "chapter": 42,
+      "verse": 16,
+      "start": 137,
+      "end": 143,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 42:18",
@@ -28738,6 +29498,25 @@
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
     },
     {
+      "ref": "Gn 44:18",
+      "chapter": 44,
+      "verse": 18,
+      "start": 146,
+      "end": 152,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
       "ref": "Gn 45:1",
       "chapter": 45,
       "verse": 1,
@@ -28802,6 +29581,25 @@
       "id": "tribus/egipcios",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 45:2",
+      "chapter": 45,
+      "verse": 2,
+      "start": 82,
+      "end": 88,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 45:3",
@@ -28914,6 +29712,25 @@
       "id": "lugares/egipto",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 45:8",
+      "chapter": 45,
+      "verse": 8,
+      "start": 93,
+      "end": 99,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 45:8",
@@ -29213,6 +30030,63 @@
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
     },
     {
+      "ref": "Gn 45:16",
+      "chapter": 45,
+      "verse": 16,
+      "start": 74,
+      "end": 80,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 45:16",
+      "chapter": 45,
+      "verse": 16,
+      "start": 85,
+      "end": 91,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 45:17",
+      "chapter": 45,
+      "verse": 17,
+      "start": 12,
+      "end": 18,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
       "ref": "Gn 45:17",
       "chapter": 45,
       "verse": 17,
@@ -29401,6 +30275,25 @@
         "CT-11"
       ],
       "id_futuro": true
+    },
+    {
+      "ref": "Gn 45:21",
+      "chapter": 45,
+      "verse": 21,
+      "start": 63,
+      "end": 69,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 45:22",
@@ -29917,6 +30810,25 @@
         "CT-11"
       ],
       "id_futuro": true
+    },
+    {
+      "ref": "Gn 46:5",
+      "chapter": 46,
+      "verse": 5,
+      "start": 114,
+      "end": 120,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 46:6",
@@ -32422,6 +33334,25 @@
       "ref": "Gn 46:31",
       "chapter": 46,
       "verse": 31,
+      "start": 72,
+      "end": 78,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 46:31",
+      "chapter": 46,
+      "verse": 31,
       "start": 154,
       "end": 160,
       "literal": "Canaán",
@@ -32502,6 +33433,25 @@
       "id": "animales/vaca",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 46:33",
+      "chapter": 46,
+      "verse": 33,
+      "start": 10,
+      "end": 16,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 46:34",
@@ -32587,6 +33537,25 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 47:1",
+      "chapter": 47,
+      "verse": 1,
+      "start": 23,
+      "end": 29,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 47:1",
@@ -32698,6 +33667,44 @@
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
     },
     {
+      "ref": "Gn 47:2",
+      "chapter": 47,
+      "verse": 2,
+      "start": 52,
+      "end": 58,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 47:3",
+      "chapter": 47,
+      "verse": 3,
+      "start": 3,
+      "end": 9,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
       "ref": "Gn 47:4",
       "chapter": 47,
       "verse": 4,
@@ -32741,6 +33748,25 @@
         "CT-11"
       ],
       "id_futuro": true
+    },
+    {
+      "ref": "Gn 47:5",
+      "chapter": 47,
+      "verse": 5,
+      "start": 3,
+      "end": 9,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 47:5",
@@ -32877,6 +33903,25 @@
       "ref": "Gn 47:7",
       "chapter": 47,
       "verse": 7,
+      "start": 44,
+      "end": 50,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 47:7",
+      "chapter": 47,
+      "verse": 7,
       "start": 54,
       "end": 59,
       "literal": "Jacob",
@@ -32895,6 +33940,44 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 47:7",
+      "chapter": 47,
+      "verse": 7,
+      "start": 71,
+      "end": 77,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 47:8",
+      "chapter": 47,
+      "verse": 8,
+      "start": 3,
+      "end": 9,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 47:8",
@@ -32966,6 +34049,25 @@
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
     },
     {
+      "ref": "Gn 47:10",
+      "chapter": 47,
+      "verse": 10,
+      "start": 27,
+      "end": 33,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
       "ref": "Gn 47:11",
       "chapter": 47,
       "verse": 11,
@@ -33027,6 +34129,25 @@
       ],
       "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4",
       "id_futuro": true
+    },
+    {
+      "ref": "Gn 47:11",
+      "chapter": 47,
+      "verse": 11,
+      "start": 130,
+      "end": 136,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 47:12",
@@ -33161,6 +34282,25 @@
       "fuentes": [
         "CT-10"
       ]
+    },
+    {
+      "ref": "Gn 47:14",
+      "chapter": 47,
+      "verse": 14,
+      "start": 122,
+      "end": 128,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 47:15",
@@ -33419,6 +34559,25 @@
       "motivo": "no enlazar ganado por acuerdo editorial"
     },
     {
+      "ref": "Gn 47:19",
+      "chapter": 47,
+      "verse": 19,
+      "start": 176,
+      "end": 182,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
       "ref": "Gn 47:20",
       "chapter": 47,
       "verse": 20,
@@ -33440,6 +34599,25 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 47:20",
+      "chapter": 47,
+      "verse": 20,
+      "start": 24,
+      "end": 30,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 47:20",
@@ -33482,6 +34660,25 @@
       "fuentes": []
     },
     {
+      "ref": "Gn 47:20",
+      "chapter": 47,
+      "verse": 20,
+      "start": 156,
+      "end": 162,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
       "ref": "Gn 47:21",
       "chapter": 47,
       "verse": 21,
@@ -33508,6 +34705,25 @@
       "ref": "Gn 47:21",
       "chapter": 47,
       "verse": 21,
+      "start": 59,
+      "end": 65,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 47:21",
+      "chapter": 47,
+      "verse": 21,
       "start": 75,
       "end": 81,
       "literal": "Egipto",
@@ -33523,6 +34739,25 @@
       "id": "lugares/egipto",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 47:22",
+      "chapter": 47,
+      "verse": 22,
+      "start": 81,
+      "end": 87,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 47:23",
@@ -33548,6 +34783,25 @@
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
     },
     {
+      "ref": "Gn 47:23",
+      "chapter": 47,
+      "verse": 23,
+      "start": 83,
+      "end": 89,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
       "ref": "Gn 47:24",
       "chapter": 47,
       "verse": 24,
@@ -33567,6 +34821,44 @@
         "CT-11"
       ],
       "id_futuro": true
+    },
+    {
+      "ref": "Gn 47:24",
+      "chapter": 47,
+      "verse": 24,
+      "start": 52,
+      "end": 58,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 47:25",
+      "chapter": 47,
+      "verse": 25,
+      "start": 106,
+      "end": 112,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 47:26",
@@ -33631,6 +34923,44 @@
         "CT-11"
       ],
       "id_futuro": true
+    },
+    {
+      "ref": "Gn 47:26",
+      "chapter": 47,
+      "verse": 26,
+      "start": 122,
+      "end": 128,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 47:26",
+      "chapter": 47,
+      "verse": 26,
+      "start": 186,
+      "end": 192,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 47:27",
@@ -36137,6 +37467,44 @@
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
     },
     {
+      "ref": "Gn 50:4",
+      "chapter": 50,
+      "verse": 4,
+      "start": 71,
+      "end": 77,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
+      "ref": "Gn 50:4",
+      "chapter": 50,
+      "verse": 4,
+      "start": 113,
+      "end": 119,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
       "ref": "Gn 50:5",
       "chapter": 50,
       "verse": 5,
@@ -36182,6 +37550,25 @@
       ]
     },
     {
+      "ref": "Gn 50:6",
+      "chapter": 50,
+      "verse": 6,
+      "start": 3,
+      "end": 9,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
+    },
+    {
       "ref": "Gn 50:7",
       "chapter": 50,
       "verse": 7,
@@ -36203,6 +37590,25 @@
         "CT-21"
       ],
       "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+    },
+    {
+      "ref": "Gn 50:7",
+      "chapter": 50,
+      "verse": 7,
+      "start": 73,
+      "end": 79,
+      "literal": "faraón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/faraon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-22"
+      ],
+      "motivo": "D-02 resuelta: ficha histórica existente Faraón (título), sin identificar al monarca concreto. No crear nueva ficha."
     },
     {
       "ref": "Gn 50:7",
