@@ -149,6 +149,12 @@ def main():
     assert sum(x["id"] == "tribus/ismaelitas" for x in d03_mentions) == 4
     assert sum(x["id"] == "tribus/madianitas" for x in d03_mentions) == 3
     assert all(x["id_futuro"] and x["categoria"] == "tribus" for x in d03_mentions)
+    # CT-24: nombres personales del relato/genealogías y Egipto como lugar.
+    ct24 = [x for x in corrections if x["codigo"] == "CT-24"]
+    assert len(ct24) == 368
+    assert sum(x["id"] == "lugares/egipto" for x in ct24) == 66
+    assert all(x["id"] in historical_ids and x["accion"] == "validar_identidad" for x in ct24)
+    assert all(indexed[(x["ref"], x["start"], x["end"])]["id"] == x["id"] for x in ct24)
     assert rules["r01"]["ficha_principal"] == "tribus/israelitas"
     assert rules["r01"]["remision_futura"] == "tribus/israel"
     assert rules["r01"]["persona_distinta"] == "onomastico/jacob"
