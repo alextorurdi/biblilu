@@ -25,7 +25,7 @@ on:
   workflow_dispatch:
 concurrency:
   group: publicar-apendices-main
-  cancel-in-progress: true
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -136,6 +136,19 @@ jobs:
           git rm -f --ignore-unmatch docs/apendices/animales/legumbres/index.html
           if ! git diff --cached --quiet; then
             git commit -m "Publicar reorganización de los apéndices de BIBLILU"
-            git pull --rebase origin main
-            git push
+            # No forzar ni sobreescribir cambios editoriales ajenos.
+            # Rebasar siempre sobre la punta más reciente y reintentar
+            # cuando otro proceso publique entre fetch y push.
+            for intento in 1 2 3 4 5; do
+              git fetch origin main
+              git rebase origin/main
+              if git push origin HEAD:main; then
+                echo "Publicación sincronizada en el intento $intento"
+                exit 0
+              fi
+              echo "La rama main cambió durante el push (intento $intento); reintentando..."
+              sleep 3
+            done
+            echo "::error::No se pudo sincronizar la publicación tras cinco intentos"
+            exit 1
           fi

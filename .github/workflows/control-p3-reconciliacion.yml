@@ -12,6 +12,10 @@ on:
       - 'data/genesis_25_50_bes.json'
       - 'data/registro_maestro.json'
   workflow_dispatch:
+# Evitar controles simultáneos sobre distintas revisiones de reglas/catálogo.
+concurrency:
+  group: p3-reconciliacion-${{ github.ref }}
+  cancel-in-progress: true
 permissions:
   contents: read
 jobs:
@@ -20,11 +24,14 @@ jobs:
     timeout-minutes: 8
     steps:
       - name: Obtener repositorio
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Validar reconciliación contextual
         run: python3 scripts/check_p3_reconciliacion.py
       - name: Verificar reproducibilidad del catálogo derivado
-        run: python3 scripts/build_p3_catalogo_reconciliado.py --check
+        run: |
+          python3 scripts/build_p3_catalogo_reconciliado.py --check
+          # Si divergen reglas y catálogo, indicar la solución en el log.
+          echo "Catálogo y reglas reproducibles: P3 OK"
       - name: Asegurar que solo se validan archivos
         run: |
           git diff --exit-code -- data/genesis_25_50_bes.json data/p3-extracciones-genesis-25-50.json data/registro_maestro.json
