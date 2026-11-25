@@ -166,6 +166,13 @@ def main():
     assert sum(x["accion"] == "asociacion_contextual" for x in ct26) >= 7
     assert not any(x["estado"] == "candidato_unico_no_validado" for x in records)
     assert all("CT-26" in indexed[(x["ref"], x["start"], x["end"])]["fuentes"] for x in ct26)
+    # CT-27: cobertura de Israel personal, Er, familiares edomitas y topónimos del pacto.
+    ct27 = [x for x in corrections if x["codigo"] == "CT-27"]
+    assert len(ct27) == 47
+    assert sum(x["literal"] == "Israel" for x in ct27) == 31
+    assert sum(x["literal"] == "Er" for x in ct27) == 5
+    assert any(x["literal"] == "Jegar-sahaduta" and x["id"] == "lugares/pacto-jacob-laban" for x in ct27)
+    assert any(x["literal"] == "Mizpa" and x["id"] == "lugares/pacto-jacob-laban" for x in ct27)
     assert rules["r01"]["ficha_principal"] == "tribus/israelitas"
     assert rules["r01"]["remision_futura"] == "tribus/israel"
     assert rules["r01"]["persona_distinta"] == "onomastico/jacob"
