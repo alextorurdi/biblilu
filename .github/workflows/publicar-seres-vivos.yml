@@ -32,7 +32,7 @@ jobs:
   generar:
     # Los cambios editoriales de la Fase 3 no se publican automáticamente.
     # La publicación explícita continúa disponible en workflow_dispatch.
-    if: github.event_name == 'workflow_dispatch' || !startsWith(github.event.head_commit.message, 'P3:')
+    if: github.event_name == 'workflow_dispatch' || !startsWith(github.event.head_commit.message, 'P3')
     runs-on: ubuntu-latest
     steps:
       - name: Obtener repositorio
