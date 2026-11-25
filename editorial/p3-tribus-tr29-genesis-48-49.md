@@ -64,3 +64,8 @@ El editor **aprueba 13 fichas tribales** para los grupos descendientes de Jacob,
 1. Incorporar a la matriz de P3 Tribus las trece altas y las referencias de Gn 48–49, preservando las distinciones Israel persona/pueblo.
 2. En P4, redactar las fichas necesarias y establecer vínculos recíprocos entre individuos y colectivos.
 3. No alterar las escenas BES ni generar enlaces rotos antes de que existan las fichas.
+
+
+## R-01 · Decisión editorial definitiva (25/11/2026)
+
+**Aprobado:** la ficha tribal principal será **Israelitas** (`tribus/israelitas`). «Israel» será variante de búsqueda y remisión colectiva mediante `tribus/israel` (no segunda ficha principal); no afecta al Israel personal `onomastico/jacob`. **Solo registro de P3:** las rutas/fichas no se crean en esta fase.
