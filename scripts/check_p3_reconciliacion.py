@@ -116,7 +116,17 @@ def main():
     assert len(ct20) == 3
     assert {x["ref"] for x in ct20} == {"Gn 39:14", "Gn 39:17", "Gn 41:12"}
     assert all(x["literal"] == "hebreo" and x["categoria"] == "tribus"
-               and x["id"] is None and x["accion"] == "clasificar_sin_id" for x in ct20)
+               and x["id"] == "tribus/israelitas" and x["accion"] == "asignar" for x in ct20)
+    # D-01 y CT-21: variantes históricas y validación contextual por nombre propio.
+    assert rules["d01"]["estado"] == "aprobada" and rules["d01"]["opcion"] == "A"
+    hebreos = [x for x in records if x["literal"].lower() in ("hebreo", "hebreos")]
+    assert len(hebreos) == 5 and all(x["id"] == "tribus/israelitas" for x in hebreos)
+    ct21 = [x for x in corrections if x["codigo"] == "CT-21"]
+    assert len(ct21) == 393
+    for x in ct21:
+        y = indexed[(x["ref"], x["start"], x["end"])]
+        assert y["categoria"] == "onomastico" and y["id"] == x["id"]
+        assert "CT-21" in y["fuentes"]
     assert rules["r01"]["ficha_principal"] == "tribus/israelitas"
     assert rules["r01"]["remision_futura"] == "tribus/israel"
     assert rules["r01"]["persona_distinta"] == "onomastico/jacob"
