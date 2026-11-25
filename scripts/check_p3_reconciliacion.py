@@ -127,6 +127,13 @@ def main():
         y = indexed[(x["ref"], x["start"], x["end"])]
         assert y["categoria"] == "onomastico" and y["id"] == x["id"]
         assert "CT-21" in y["fuentes"]
+    # CT-22: «Faraón» usa ficha histórica ya existente, sin identificar monarca.
+    ct22 = [x for x in corrections if x["codigo"] == "CT-22"]
+    assert len(ct22) == 74
+    assert rules["d02"]["ficha"] == "onomastico/faraon"
+    assert "onomastico/faraon" in historical_ids
+    assert all(x["id"] == "onomastico/faraon" and x["categoria"] == "onomastico" for x in ct22)
+    assert sum("CT-22" in x["fuentes"] for x in records) == 74
     assert rules["r01"]["ficha_principal"] == "tribus/israelitas"
     assert rules["r01"]["remision_futura"] == "tribus/israel"
     assert rules["r01"]["persona_distinta"] == "onomastico/jacob"

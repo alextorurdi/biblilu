@@ -19,3 +19,8 @@ La D-01 ya aprobada establece que «Hebreos» es variante de Israelitas y **no r
 ## Estado al detenerse ante D-02
 
 Tras D-01 y CT-21: **1.761 menciones** catalogadas, **897** candidatas únicas por validar; **393** menciones nominales de Jacob/José verificadas por CT-21 y cuatro casos poético/colectivos de Génesis 49 reservados. La Fase 3 sigue abierta; el presente bloqueo es exclusivamente una decisión editorial de alcance.
+
+
+## Resolución aprobada posteriormente
+
+**D-02 RESUELTA por indicación del editor:** ya existe la ficha `onomastico/faraon` en el registro histórico y en `data/entries.json`. Se utilizará esa ficha para las 74 menciones literales BES de Gn 37–50, sin crear otra ni atribuir una identidad histórica individual. CT-22 añade las 74 apariciones al catálogo P3. Este apartado reemplaza las alternativas pendientes anteriores.
