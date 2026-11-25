@@ -187,6 +187,13 @@ def main():
     assert any(x["ref"] == "Gn 48:7" and x["literal"] == "Padán"
                and x["id"] == "lugares/padan-aram" for x in ct29)
     assert all(indexed[(x["ref"],x["start"],x["end"])]["id"] == x["id"] for x in ct29)
+    # CT-30 y D-04: Débora, nodriza de Rebeca, no confundir con otra Débora.
+    ct30 = [x for x in corrections if x["codigo"] == "CT-30"]
+    assert len(ct30) == 1
+    assert ct30[0]["ref"] == "Gn 35:8" and ct30[0]["literal"] == "Débora"
+    assert ct30[0]["id"] is None and ct30[0]["categoria"] == "onomastico"
+    assert rules["d04"]["estado"] == "pendiente_editor"
+    assert indexed[("Gn 35:8", 0, 6)]["id"] is None
     assert rules["r01"]["ficha_principal"] == "tribus/israelitas"
     assert rules["r01"]["remision_futura"] == "tribus/israel"
     assert rules["r01"]["persona_distinta"] == "onomastico/jacob"
