@@ -91,6 +91,16 @@ def main():
     assert covered("Gn 40:17","canasta",2)
     assert covered("Gn 47:31","cama") and covered("Gn 32:32","israelitas")
     assert covered("Gn 27:28","rocío") and covered("Gn 37:31","sangre")
+    # CT-18: jefaturas edomitas sin nuevas identidades personales ni enlaces inventados.
+    ct18 = [x for x in corrections if x["codigo"] == "CT-18"]
+    assert len(ct18) == 10
+    for x in ct18:
+        assert x["ref"] in ("Gn 36:40", "Gn 36:41", "Gn 36:42", "Gn 36:43")
+        assert x["accion"] in ("clasificar_sin_id", "asociacion_contextual")
+        assert any(y["ref"] == x["ref"] and y["start"] == x["start"] and y["end"] == x["end"]
+                   and "CT-18" in y["fuentes"] and y["id"] == x["id"] for y in records)
+    assert sum(x["accion"] == "clasificar_sin_id" for x in ct18) == 7
+    assert sum(x["accion"] == "asociacion_contextual" for x in ct18) == 3
     assert rules["r01"]["ficha_principal"] == "tribus/israelitas"
     assert rules["r01"]["remision_futura"] == "tribus/israel"
     assert rules["r01"]["persona_distinta"] == "onomastico/jacob"
