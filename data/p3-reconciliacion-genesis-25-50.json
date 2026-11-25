@@ -21384,11 +21384,11 @@
       "ref": "Gn 35:8",
       "literal": "Débora",
       "categoria": "onomastico",
-      "id": "onomastico/debora-nodriza-rebeca",
-      "accion": "asignar",
+      "id": null,
+      "accion": "clasificar_sin_id",
       "start": 0,
       "end": 6,
-      "motivo": "D-04 opción A aprobada expresamente el 25/11/2026: futura ficha independiente Débora (nodriza de Rebeca), vinculada a Rebeca y Alón-bacut; no confundir con la profetisa/jueza. Redacción y creación material de ficha en P4, sin publicar."
+      "motivo": "D-04 opción A aprobada el 25/11/2026: Débora, nodriza de Rebeca, tendrá ficha independiente en P4 con identificador reservado onomastico/debora-nodriza-rebeca. Hasta materializar la ficha, la mención permanece clasificada sin ID enlazable; no confundir con la profetisa/jueza."
     }
   ],
   "nota": "Esta capa conserva intacto el barrido bruto; los IDs futuros no son rutas publicadas. Excluir y nota_contextual no equivalen a enlaces literales.\nCT-17 (25/11/2026): 39 apariciones recuperadas por auditoría dirigida; sin cambios en fichas ni texto BES. Los gentilicios hebreos y cadena se clasifican sin ID; P4 establecerá enlaces autorizados.",
