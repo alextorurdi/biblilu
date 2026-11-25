@@ -1,7 +1,7 @@
 {
   "fase": "P3",
   "fecha": "2026-11-25",
-  "estado": "reglas_contextuales_aprobadas_para_reconciliacion",
+  "estado": "reconciliacion_contextual_ampliada",
   "fuente": "data/genesis_25_50_bes.json",
   "inventario_bruto": "data/p3-extracciones-genesis-25-50.json",
   "r01": {
@@ -1114,6 +1114,1966 @@
       "start": 44,
       "end": 50,
       "motivo": "elemento del nombre compuesto El-Elohe-Israel"
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 25:2",
+      "literal": "Súa",
+      "categoria": "onomastico",
+      "id": "onomastico/sua",
+      "accion": "asignar",
+      "start": 56,
+      "end": 59
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 25:3",
+      "literal": "Seba",
+      "categoria": "onomastico",
+      "id": "onomastico/seba-hijo-de-jocsan",
+      "accion": "asignar",
+      "start": 20,
+      "end": 24
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 25:3",
+      "literal": "Dedán",
+      "categoria": "onomastico",
+      "id": "onomastico/dedan-hijo-de-jocsan",
+      "accion": "asignar",
+      "start": 27,
+      "end": 32
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 25:3",
+      "literal": "Dedán",
+      "categoria": "onomastico",
+      "id": "onomastico/dedan-hijo-de-jocsan",
+      "accion": "asignar",
+      "start": 55,
+      "end": 60
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 25:4",
+      "literal": "Hanoc",
+      "categoria": "onomastico",
+      "id": "onomastico/hanoc-hijo-de-madian",
+      "accion": "asignar",
+      "start": 38,
+      "end": 43
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 25:9",
+      "literal": "hitita",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "start": 101,
+      "end": 107
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 25:10",
+      "literal": "hijos de Het",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "start": 46,
+      "end": 58
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 25:11",
+      "literal": "Beer-lahai-roi",
+      "categoria": "lugares",
+      "id": "lugares/pozo-del-viviente-que-me-ve",
+      "accion": "asignar",
+      "start": 84,
+      "end": 98
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 25:18",
+      "literal": "Sur",
+      "categoria": "lugares",
+      "id": "lugares/shur",
+      "accion": "asignar",
+      "start": 46,
+      "end": 49
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 25:20",
+      "literal": "Padán-aram",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "start": 87,
+      "end": 97
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 25:25",
+      "literal": "manto",
+      "categoria": "objetos",
+      "id": "objetos/manto",
+      "accion": "asignar",
+      "start": 51,
+      "end": 56
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 26:15",
+      "literal": "pozos",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "start": 49,
+      "end": 54
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 26:18",
+      "literal": "pozos",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "start": 25,
+      "end": 30
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 26:19",
+      "literal": "pozo",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "start": 63,
+      "end": 67
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 26:20",
+      "literal": "pozo",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "start": 121,
+      "end": 125
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 26:20",
+      "literal": "Esec",
+      "categoria": "lugares",
+      "id": "lugares/esec",
+      "accion": "asignar",
+      "start": 126,
+      "end": 130
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 26:21",
+      "literal": "pozo",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "start": 13,
+      "end": 17
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 26:21",
+      "literal": "Sitna",
+      "categoria": "lugares",
+      "id": "lugares/sitna",
+      "accion": "asignar",
+      "start": 75,
+      "end": 80
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 26:22",
+      "literal": "pozo",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "start": 27,
+      "end": 31
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 26:22",
+      "literal": "Rehobot",
+      "categoria": "lugares",
+      "id": "lugares/rehobot-pozo",
+      "accion": "asignar",
+      "start": 78,
+      "end": 85
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 26:25",
+      "literal": "pozo",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "start": 97,
+      "end": 101
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 26:26",
+      "literal": "Ahuzat",
+      "categoria": "onomastico",
+      "id": "onomastico/ahuzat",
+      "accion": "asignar",
+      "start": 55,
+      "end": 61
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 26:32",
+      "literal": "pozo",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "start": 67,
+      "end": 71
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 26:33",
+      "literal": "pozo",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "start": 15,
+      "end": 19
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 26:34",
+      "literal": "Beeri",
+      "categoria": "onomastico",
+      "id": "onomastico/beeri-heteo",
+      "accion": "asignar",
+      "start": 68,
+      "end": 73
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 26:34",
+      "literal": "hitita",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "start": 77,
+      "end": 83
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 26:34",
+      "literal": "Basemat",
+      "categoria": "onomastico",
+      "id": "onomastico/basemat-hija-de-elon",
+      "accion": "asignar",
+      "start": 89,
+      "end": 96
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 26:34",
+      "literal": "Elón",
+      "categoria": "onomastico",
+      "id": "onomastico/elon-padre-de-basemat",
+      "accion": "asignar",
+      "start": 106,
+      "end": 110
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 26:34",
+      "literal": "hitita",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "start": 114,
+      "end": 120
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 27:3",
+      "literal": "arco",
+      "categoria": "objetos",
+      "id": "objetos/arco-y-flechas",
+      "accion": "asignar",
+      "start": 19,
+      "end": 23
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 27:46",
+      "literal": "hititas",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "start": 70,
+      "end": 77
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 27:46",
+      "literal": "hititas",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "start": 116,
+      "end": 123
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 28:2",
+      "literal": "Padán-aram",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "start": 5,
+      "end": 15
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 28:5",
+      "literal": "Padán-aram",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "start": 36,
+      "end": 46
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 28:6",
+      "literal": "Padán-aram",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "start": 65,
+      "end": 75
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 28:7",
+      "literal": "Padán-aram",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "start": 77,
+      "end": 87
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 28:19",
+      "literal": "Betel",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "start": 6,
+      "end": 11
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 28:19",
+      "literal": "Luz",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "start": 61,
+      "end": 64
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 29:2",
+      "literal": "pozo",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "start": 12,
+      "end": 16
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 29:2",
+      "literal": "pozo",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "start": 40,
+      "end": 44
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 29:2",
+      "literal": "pozo",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "start": 97,
+      "end": 101
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 29:2",
+      "literal": "pozo",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "start": 167,
+      "end": 171
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 29:3",
+      "literal": "pozo",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "start": 146,
+      "end": 150
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 29:5",
+      "literal": "Nacor",
+      "categoria": "onomastico",
+      "id": "onomastico/nacor-ii",
+      "accion": "asignar",
+      "start": 40,
+      "end": 45
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 29:8",
+      "literal": "pozo",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "start": 112,
+      "end": 116
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 29:10",
+      "literal": "pozo",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "start": 132,
+      "end": 136
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 30:14",
+      "literal": "trigo",
+      "categoria": "animales",
+      "id": "animales/trigo",
+      "accion": "asignar",
+      "start": 22,
+      "end": 27
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 31:13",
+      "literal": "Betel",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "start": 18,
+      "end": 23
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 31:18",
+      "literal": "Padán-aram",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "start": 73,
+      "end": 83
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 31:53",
+      "literal": "Nacor",
+      "categoria": "onomastico",
+      "id": "onomastico/nacor-ii",
+      "accion": "asignar",
+      "start": 36,
+      "end": 41
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 32:30",
+      "literal": "Peniel",
+      "categoria": "lugares",
+      "id": "lugares/peniel",
+      "accion": "asignar",
+      "start": 26,
+      "end": 32
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 32:31",
+      "literal": "Peniel",
+      "categoria": "lugares",
+      "id": "lugares/peniel",
+      "accion": "asignar",
+      "start": 35,
+      "end": 41
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 33:17",
+      "literal": "Sucot",
+      "categoria": "lugares",
+      "id": "lugares/sucot-jacob",
+      "accion": "asignar",
+      "start": 12,
+      "end": 17
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 33:17",
+      "literal": "Sucot",
+      "categoria": "lugares",
+      "id": "lugares/sucot-jacob",
+      "accion": "asignar",
+      "start": 92,
+      "end": 97
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 33:18",
+      "literal": "Padán-aram",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "start": 23,
+      "end": 33
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 34:30",
+      "literal": "cananeos",
+      "categoria": "tribus",
+      "id": "tribus/cananeo",
+      "accion": "asignar",
+      "start": 74,
+      "end": 82
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 35:1",
+      "literal": "Betel",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "start": 36,
+      "end": 41
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 35:3",
+      "literal": "Betel",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "start": 25,
+      "end": 30
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 35:6",
+      "literal": "Luz",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "start": 51,
+      "end": 54
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 35:6",
+      "literal": "Betel",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "start": 66,
+      "end": 71
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 35:7",
+      "literal": "Betel",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "start": 44,
+      "end": 49
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 35:8",
+      "literal": "Betel",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "start": 82,
+      "end": 87
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 35:9",
+      "literal": "Padán-aram",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "start": 24,
+      "end": 34
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 35:15",
+      "literal": "Betel",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "start": 12,
+      "end": 17
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 35:16",
+      "literal": "Betel",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "start": 20,
+      "end": 25
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 35:16",
+      "literal": "Efrata",
+      "categoria": "lugares",
+      "id": "lugares/belen",
+      "accion": "asignar",
+      "start": 72,
+      "end": 78
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 35:19",
+      "literal": "Efrata",
+      "categoria": "lugares",
+      "id": "lugares/belen",
+      "accion": "asignar",
+      "start": 44,
+      "end": 50
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 35:19",
+      "literal": "Belén",
+      "categoria": "lugares",
+      "id": "lugares/belen",
+      "accion": "asignar",
+      "start": 62,
+      "end": 67
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 35:20",
+      "literal": "tumba",
+      "categoria": "objetos",
+      "id": "objetos/tumba",
+      "accion": "asignar",
+      "start": 32,
+      "end": 37
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 35:20",
+      "literal": "tumba",
+      "categoria": "objetos",
+      "id": "objetos/tumba",
+      "accion": "asignar",
+      "start": 61,
+      "end": 66
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 35:26",
+      "literal": "Padán-aram",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "start": 97,
+      "end": 107
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:2",
+      "literal": "Ada",
+      "categoria": "onomastico",
+      "id": "onomastico/ada-mujer-de-esau",
+      "accion": "asignar",
+      "start": 29,
+      "end": 32
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:2",
+      "literal": "Elón",
+      "categoria": "onomastico",
+      "id": "onomastico/elon-padre-de-basemat",
+      "accion": "asignar",
+      "start": 42,
+      "end": 46
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:2",
+      "literal": "hitita",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "start": 50,
+      "end": 56
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:3",
+      "literal": "Basemat",
+      "categoria": "onomastico",
+      "id": "onomastico/basemat-hija-de-ismael",
+      "accion": "asignar",
+      "start": 2,
+      "end": 9
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:4",
+      "literal": "Ada",
+      "categoria": "onomastico",
+      "id": "onomastico/ada-mujer-de-esau",
+      "accion": "asignar",
+      "start": 0,
+      "end": 3
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:4",
+      "literal": "Basemat",
+      "categoria": "onomastico",
+      "id": "onomastico/basemat-hija-de-ismael",
+      "accion": "asignar",
+      "start": 41,
+      "end": 48
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:9",
+      "literal": "edomitas",
+      "categoria": "tribus",
+      "id": "tribus/edomitas",
+      "accion": "asignar",
+      "start": 50,
+      "end": 58
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:10",
+      "literal": "Ada",
+      "categoria": "onomastico",
+      "id": "onomastico/ada-mujer-de-esau",
+      "accion": "asignar",
+      "start": 60,
+      "end": 63
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:10",
+      "literal": "Basemat",
+      "categoria": "onomastico",
+      "id": "onomastico/basemat-hija-de-ismael",
+      "accion": "asignar",
+      "start": 97,
+      "end": 104
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:12",
+      "literal": "Timna",
+      "categoria": "onomastico",
+      "id": "onomastico/timna-concubina-de-elifaz",
+      "accion": "asignar",
+      "start": 0,
+      "end": 5
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:12",
+      "literal": "Ada",
+      "categoria": "onomastico",
+      "id": "onomastico/ada-mujer-de-esau",
+      "accion": "asignar",
+      "start": 97,
+      "end": 100
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:13",
+      "literal": "Basemat",
+      "categoria": "onomastico",
+      "id": "onomastico/basemat-hija-de-ismael",
+      "accion": "asignar",
+      "start": 82,
+      "end": 89
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:16",
+      "literal": "Ada",
+      "categoria": "onomastico",
+      "id": "onomastico/ada-mujer-de-esau",
+      "accion": "asignar",
+      "start": 115,
+      "end": 118
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:17",
+      "literal": "Basemat",
+      "categoria": "onomastico",
+      "id": "onomastico/basemat-hija-de-ismael",
+      "accion": "asignar",
+      "start": 161,
+      "end": 168
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:22",
+      "literal": "Timna",
+      "categoria": "onomastico",
+      "id": "onomastico/timna-hija-de-seir",
+      "accion": "asignar",
+      "start": 64,
+      "end": 69
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:33",
+      "literal": "Jobab",
+      "categoria": "onomastico",
+      "id": "onomastico/jobab-rey-de-edom",
+      "accion": "asignar",
+      "start": 19,
+      "end": 24
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:34",
+      "literal": "Jobab",
+      "categoria": "onomastico",
+      "id": "onomastico/jobab-rey-de-edom",
+      "accion": "asignar",
+      "start": 7,
+      "end": 12
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:37",
+      "literal": "Saúl",
+      "categoria": "onomastico",
+      "id": "onomastico/saul-rey-de-edom",
+      "accion": "asignar",
+      "start": 20,
+      "end": 24
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:37",
+      "literal": "Rehobot",
+      "categoria": "lugares",
+      "id": "lugares/rehobot-del-rio",
+      "accion": "asignar",
+      "start": 28,
+      "end": 35
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:38",
+      "literal": "Saúl",
+      "categoria": "onomastico",
+      "id": "onomastico/saul-rey-de-edom",
+      "accion": "asignar",
+      "start": 7,
+      "end": 11
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 36:43",
+      "literal": "edomitas",
+      "categoria": "tribus",
+      "id": "tribus/edomitas",
+      "accion": "asignar",
+      "start": 129,
+      "end": 137
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 37:3",
+      "literal": "túnica",
+      "categoria": "objetos",
+      "id": "objetos/tunica",
+      "accion": "asignar",
+      "start": 103,
+      "end": 109
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 37:17",
+      "literal": "Dotán",
+      "categoria": "lugares",
+      "id": "lugares/dotan",
+      "accion": "asignar",
+      "start": 62,
+      "end": 67
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 37:17",
+      "literal": "Dotán",
+      "categoria": "lugares",
+      "id": "lugares/dotan",
+      "accion": "asignar",
+      "start": 125,
+      "end": 130
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 37:20",
+      "literal": "pozos",
+      "categoria": "objetos",
+      "id": "objetos/cisterna",
+      "accion": "asignar",
+      "start": 44,
+      "end": 49
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 37:22",
+      "literal": "pozos",
+      "categoria": "objetos",
+      "id": "objetos/cisterna",
+      "accion": "asignar",
+      "start": 59,
+      "end": 64
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 37:23",
+      "literal": "túnica",
+      "categoria": "objetos",
+      "id": "objetos/tunica",
+      "accion": "asignar",
+      "start": 47,
+      "end": 53
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 37:28",
+      "literal": "pozo",
+      "categoria": "objetos",
+      "id": "objetos/cisterna",
+      "accion": "asignar",
+      "start": 64,
+      "end": 68
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 37:29",
+      "literal": "pozo",
+      "categoria": "objetos",
+      "id": "objetos/cisterna",
+      "accion": "asignar",
+      "start": 23,
+      "end": 27
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 37:31",
+      "literal": "túnica",
+      "categoria": "objetos",
+      "id": "objetos/tunica",
+      "accion": "asignar",
+      "start": 40,
+      "end": 46
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 37:32",
+      "literal": "túnica",
+      "categoria": "objetos",
+      "id": "objetos/tunica",
+      "accion": "asignar",
+      "start": 12,
+      "end": 18
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 37:32",
+      "literal": "túnica",
+      "categoria": "objetos",
+      "id": "objetos/tunica",
+      "accion": "asignar",
+      "start": 74,
+      "end": 80
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 37:33",
+      "literal": "túnica",
+      "categoria": "objetos",
+      "id": "objetos/tunica",
+      "accion": "asignar",
+      "start": 34,
+      "end": 40
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 38:1",
+      "literal": "Adulam",
+      "categoria": "lugares",
+      "id": "lugares/adulam",
+      "accion": "asignar",
+      "start": 84,
+      "end": 90
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 38:2",
+      "literal": "Súa",
+      "categoria": "onomastico",
+      "id": "onomastico/sua-suegro-de-juda",
+      "accion": "asignar",
+      "start": 41,
+      "end": 44
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 38:12",
+      "literal": "Súa",
+      "categoria": "onomastico",
+      "id": "onomastico/sua-suegro-de-juda",
+      "accion": "asignar",
+      "start": 55,
+      "end": 58
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 38:12",
+      "literal": "Timnat",
+      "categoria": "lugares",
+      "id": "lugares/timnat",
+      "accion": "asignar",
+      "start": 100,
+      "end": 106
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 38:12",
+      "literal": "Adulam",
+      "categoria": "lugares",
+      "id": "lugares/adulam",
+      "accion": "asignar",
+      "start": 162,
+      "end": 168
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 38:13",
+      "literal": "Timnat",
+      "categoria": "lugares",
+      "id": "lugares/timnat",
+      "accion": "asignar",
+      "start": 42,
+      "end": 48
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 38:14",
+      "literal": "Enaim",
+      "categoria": "lugares",
+      "id": "lugares/enaim",
+      "accion": "asignar",
+      "start": 78,
+      "end": 83
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 38:14",
+      "literal": "Timnat",
+      "categoria": "lugares",
+      "id": "lugares/timnat",
+      "accion": "asignar",
+      "start": 100,
+      "end": 106
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 38:18",
+      "literal": "sello",
+      "categoria": "objetos",
+      "id": "objetos/sello-y-cordon",
+      "accion": "asignar",
+      "start": 58,
+      "end": 63
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 38:18",
+      "literal": "sello",
+      "categoria": "objetos",
+      "id": "objetos/sello-y-cordon",
+      "accion": "asignar",
+      "start": 79,
+      "end": 84
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 38:21",
+      "literal": "Enaim",
+      "categoria": "lugares",
+      "id": "lugares/enaim",
+      "accion": "asignar",
+      "start": 98,
+      "end": 103
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 38:25",
+      "literal": "sello",
+      "categoria": "objetos",
+      "id": "objetos/sello-y-cordon",
+      "accion": "asignar",
+      "start": 150,
+      "end": 155
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 40:11",
+      "literal": "copa",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "start": 23,
+      "end": 27
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 40:11",
+      "literal": "copa",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "start": 73,
+      "end": 77
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 40:11",
+      "literal": "copa",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "start": 88,
+      "end": 92
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 40:13",
+      "literal": "copa",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "start": 75,
+      "end": 79
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 40:17",
+      "literal": "aves",
+      "categoria": "animales",
+      "id": "animales/aves-de-rapina",
+      "accion": "asignar",
+      "start": 85,
+      "end": 89
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 40:19",
+      "literal": "aves",
+      "categoria": "animales",
+      "id": "animales/aves-de-rapina",
+      "accion": "asignar",
+      "start": 85,
+      "end": 89
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 40:21",
+      "literal": "copa",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "start": 67,
+      "end": 71
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 41:1",
+      "literal": "Nilo",
+      "categoria": "lugares",
+      "id": "lugares/nilo",
+      "accion": "asignar",
+      "start": 70,
+      "end": 74
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 41:5",
+      "literal": "espigas",
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "start": 47,
+      "end": 54
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 41:6",
+      "literal": "espigas",
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "start": 23,
+      "end": 30
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 41:7",
+      "literal": "espigas",
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "start": 10,
+      "end": 17
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 41:7",
+      "literal": "espigas",
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "start": 51,
+      "end": 58
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 41:17",
+      "literal": "Nilo",
+      "categoria": "lugares",
+      "id": "lugares/nilo",
+      "accion": "asignar",
+      "start": 71,
+      "end": 75
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 41:22",
+      "literal": "espigas",
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "start": 34,
+      "end": 41
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 41:23",
+      "literal": "espigas",
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "start": 21,
+      "end": 28
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 41:24",
+      "literal": "espigas",
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "start": 4,
+      "end": 11
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 41:24",
+      "literal": "espigas",
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "start": 45,
+      "end": 52
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 41:26",
+      "literal": "espigas",
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "start": 51,
+      "end": 58
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 41:27",
+      "literal": "espigas",
+      "categoria": "animales",
+      "id": null,
+      "accion": "excluir",
+      "start": 79,
+      "end": 86
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 41:34",
+      "literal": "quinta parte",
+      "categoria": "medidas",
+      "id": "medidas/quinto",
+      "accion": "asignar",
+      "start": 64,
+      "end": 76
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 41:42",
+      "literal": "anillo",
+      "categoria": "objetos",
+      "id": "objetos/anillo",
+      "accion": "asignar",
+      "start": 21,
+      "end": 27
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 41:43",
+      "literal": "carro",
+      "categoria": "objetos",
+      "id": "objetos/carro",
+      "accion": "asignar",
+      "start": 28,
+      "end": 33
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 41:45",
+      "literal": "On",
+      "categoria": "lugares",
+      "id": "lugares/on",
+      "accion": "asignar",
+      "start": 105,
+      "end": 107
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 41:50",
+      "literal": "On",
+      "categoria": "lugares",
+      "id": "lugares/on",
+      "accion": "asignar",
+      "start": 83,
+      "end": 85
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 42:25",
+      "literal": "saco",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "start": 96,
+      "end": 100
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 42:27",
+      "literal": "saco",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "start": 29,
+      "end": 33
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 42:27",
+      "literal": "saco",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "start": 127,
+      "end": 131
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 42:28",
+      "literal": "saco",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "start": 65,
+      "end": 69
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 43:21",
+      "literal": "saco",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "start": 130,
+      "end": 134
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 44:1",
+      "literal": "saco",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "start": 163,
+      "end": 167
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 44:2",
+      "literal": "copa",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "start": 15,
+      "end": 19
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 44:2",
+      "literal": "saco",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "start": 44,
+      "end": 48
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 44:5",
+      "literal": "copa",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "start": 15,
+      "end": 19
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 44:9",
+      "literal": "copa",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "start": 34,
+      "end": 38
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 44:10",
+      "literal": "copa",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "start": 62,
+      "end": 66
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 44:11",
+      "literal": "saco",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "start": 29,
+      "end": 33
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 44:12",
+      "literal": "copa",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "start": 64,
+      "end": 68
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 44:12",
+      "literal": "saco",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "start": 90,
+      "end": 94
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 44:16",
+      "literal": "copa",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "start": 230,
+      "end": 234
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 44:17",
+      "literal": "copa",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "start": 62,
+      "end": 66
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 45:10",
+      "literal": "Gosén",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "start": 24,
+      "end": 29
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 45:19",
+      "literal": "carros",
+      "categoria": "objetos",
+      "id": "objetos/carro",
+      "accion": "asignar",
+      "start": 22,
+      "end": 28
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 45:21",
+      "literal": "carros",
+      "categoria": "objetos",
+      "id": "objetos/carro",
+      "accion": "asignar",
+      "start": 47,
+      "end": 53
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 45:27",
+      "literal": "carros",
+      "categoria": "objetos",
+      "id": "objetos/carro",
+      "accion": "asignar",
+      "start": 63,
+      "end": 69
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 46:5",
+      "literal": "carros",
+      "categoria": "objetos",
+      "id": "objetos/carro",
+      "accion": "asignar",
+      "start": 100,
+      "end": 106
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 46:9",
+      "literal": "Hanoc",
+      "categoria": "onomastico",
+      "id": "onomastico/hanoc-hijo-de-ruben",
+      "accion": "asignar",
+      "start": 26,
+      "end": 31
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 46:9",
+      "literal": "Hezrón",
+      "categoria": "onomastico",
+      "id": "onomastico/hezron-hijo-de-ruben",
+      "accion": "asignar",
+      "start": 39,
+      "end": 45
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 46:10",
+      "literal": "Saúl",
+      "categoria": "onomastico",
+      "id": "onomastico/saul",
+      "accion": "asignar",
+      "start": 63,
+      "end": 67
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 46:12",
+      "literal": "Hezrón",
+      "categoria": "onomastico",
+      "id": "onomastico/hezron-hijo-de-fares",
+      "accion": "asignar",
+      "start": 129,
+      "end": 135
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 46:14",
+      "literal": "Elón",
+      "categoria": "onomastico",
+      "id": "onomastico/elon",
+      "accion": "asignar",
+      "start": 35,
+      "end": 39
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 46:15",
+      "literal": "Padán-aram",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "start": 46,
+      "end": 56
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 46:17",
+      "literal": "Heber",
+      "categoria": "onomastico",
+      "id": "onomastico/heber-hijo-de-beria",
+      "accion": "asignar",
+      "start": 96,
+      "end": 101
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 46:20",
+      "literal": "On",
+      "categoria": "lugares",
+      "id": "lugares/on",
+      "accion": "asignar",
+      "start": 50,
+      "end": 52
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 46:28",
+      "literal": "Gosén",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "start": 91,
+      "end": 96
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 46:28",
+      "literal": "Gosén",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "start": 126,
+      "end": 131
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 46:29",
+      "literal": "carro",
+      "categoria": "objetos",
+      "id": "objetos/carro",
+      "accion": "asignar",
+      "start": 16,
+      "end": 21
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 46:29",
+      "literal": "Gosén",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "start": 30,
+      "end": 35
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 46:34",
+      "literal": "Gosén",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "start": 137,
+      "end": 142
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 47:1",
+      "literal": "Gosén",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "start": 167,
+      "end": 172
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 47:4",
+      "literal": "Gosén",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "start": 208,
+      "end": 213
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 47:6",
+      "literal": "Gosén",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "start": 124,
+      "end": 129
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 47:24",
+      "literal": "quinta parte",
+      "categoria": "medidas",
+      "id": "medidas/quinto",
+      "accion": "asignar",
+      "start": 36,
+      "end": 48
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 47:26",
+      "literal": "quinta parte",
+      "categoria": "medidas",
+      "id": "medidas/quinto",
+      "accion": "asignar",
+      "start": 82,
+      "end": 94
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 47:27",
+      "literal": "Gosén",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "start": 53,
+      "end": 58
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 48:3",
+      "literal": "Luz",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "start": 72,
+      "end": 75
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 48:7",
+      "literal": "Efrata",
+      "categoria": "lugares",
+      "id": "lugares/belen",
+      "accion": "asignar",
+      "start": 131,
+      "end": 137
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 48:7",
+      "literal": "Efrata",
+      "categoria": "lugares",
+      "id": "lugares/belen",
+      "accion": "asignar",
+      "start": 174,
+      "end": 180
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 48:7",
+      "literal": "Belén",
+      "categoria": "lugares",
+      "id": "lugares/belen",
+      "accion": "asignar",
+      "start": 192,
+      "end": 197
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 48:22",
+      "literal": "arco",
+      "categoria": "objetos",
+      "id": "objetos/arco-y-flechas",
+      "accion": "asignar",
+      "start": 103,
+      "end": 107
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 49:10",
+      "literal": "cetro",
+      "categoria": "objetos",
+      "id": "objetos/cetro",
+      "accion": "asignar",
+      "start": 3,
+      "end": 8
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 49:11",
+      "literal": "manto",
+      "categoria": "objetos",
+      "id": "objetos/manto",
+      "accion": "asignar",
+      "start": 78,
+      "end": 83
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 49:17",
+      "literal": "serpiente",
+      "categoria": "animales",
+      "id": "animales/serpiente-natural",
+      "accion": "asignar",
+      "start": 18,
+      "end": 27
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 49:24",
+      "literal": "arco",
+      "categoria": "objetos",
+      "id": "objetos/arco-y-flechas",
+      "accion": "asignar",
+      "start": 8,
+      "end": 12
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 49:29",
+      "literal": "hitita",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "start": 132,
+      "end": 138
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 49:30",
+      "literal": "hitita",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "start": 110,
+      "end": 116
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 49:32",
+      "literal": "hijos de Het",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "start": 43,
+      "end": 55
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 50:5",
+      "literal": "tumba",
+      "categoria": "objetos",
+      "id": "objetos/tumba",
+      "accion": "asignar",
+      "start": 57,
+      "end": 62
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 50:8",
+      "literal": "Gosén",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "start": 103,
+      "end": 108
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 50:9",
+      "literal": "carros",
+      "categoria": "objetos",
+      "id": "objetos/carro",
+      "accion": "asignar",
+      "start": 15,
+      "end": 21
+    },
+    {
+      "codigo": "CT-11",
+      "ref": "Gn 50:13",
+      "literal": "hitita",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "start": 147,
+      "end": 153
     }
   ],
   "nota": "Esta capa conserva intacto el barrido bruto; los IDs futuros no son rutas publicadas. Excluir y nota_contextual no equivalen a enlaces literales."
