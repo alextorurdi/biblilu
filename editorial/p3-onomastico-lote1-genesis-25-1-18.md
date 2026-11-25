@@ -63,3 +63,15 @@ Esta es la primera **revisión contextual** de las coincidencias del barrido gen
 5. Pasar topónimos y gentilicios a los lotes propios de **Lugares** y **Tribus**, sin fusionar identidades por semejanza de nombres.
 
 **Resultado:** cuatro registros existentes actualizados (Zimram, Zohar hijo de Simeón, Hadar/Hadad hijo de Ismael y Hadad rey de Edom) y una ficha nueva (Zohar heteo). El registro maestro contiene ahora **451 identificadores** y mantiene intactos los ID antiguos y sus genealogías. **Las 19 escenas BES y sus enlaces siguen sin publicarse.** Las otras identificaciones del lote requieren revisión independiente.
+
+
+## Cierre editorial aprobado · 25/11/2026
+
+Las decisiones 1–5 del editor quedan **aprobadas**: 
+1. **Súa (25:2):** Hijo de Cetura; mantener `onomastico/sua`, no el suegro de Judá.
+2. **Seba y Dedán (25:3):** Hijos de Jocsán; remitir a sus fichas diferenciadas de los homónimos de Gn 10.
+3. **Hanoc y Efa (25:4):** Hanoc hijo de Madián; Efa persona, no medida.
+4. **Mamre (25:9):** Mención geográfica, no el individuo amorreo.
+5. **Resto de Gn 25:1–18:** Ratificadas asignaciones contextuales del inventario; Asurim, Letusim y Leumim conservan fichas personales individuales; lugares y gentilicios a sus categorías.
+
+**Estado final del lote 1: aprobado editorialmente.** Ya estaban aprobadas e incorporadas las decisiones sobre Zimram/Zimrán, los dos Zohar y los dos Hadad. Las otras asignaciones y remisiones del lote quedan ratificadas. No se crean nuevas fichas por este cierre ni se publican escenas o enlaces. Las referencias cruzadas se realizarán en las fases de implementación.
