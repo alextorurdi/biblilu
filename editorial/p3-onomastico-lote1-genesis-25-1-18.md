@@ -1,6 +1,6 @@
 # Fase 3 · Onomástico, lote 1: Génesis 25:1–18 (BES 2026)
 
-**Estado:** **APROBACIÓN PARCIAL IMPLEMENTADA**: Zimram/Zimrán, dos Zohar y dos Hadad aprobados por el editor; los demás casos del lote siguen a revisión P3. Las fichas fuente han sido actualizadas, sin publicación de escenas BES.  
+**Estado:** **LOTE APROBADO EDITORIALMENTE (25/11/2026)**. Zimram/Zimrán, dos Zohar y dos Hadad estaban implementados anteriormente; las demás asignaciones están ratificadas. No se han publicado las escenas BES. Las fichas fuente han sido actualizadas, sin publicación de escenas BES.  
 **Fuente:** [BES 2026, datos base](../data/genesis_25_50_bes.json), Gn 25:1–18.  
 **Registro:** [IDs aprobados hasta Génesis 24](../data/registro_maestro.json), con 450 identificadores.  
 **Criterios:** [homónimos, variantes y equivalencias](criterios-identidades-genesis.md).
@@ -58,11 +58,11 @@ Esta es la primera **revisión contextual** de las coincidencias del barrido gen
 
 1. **APROBADO E IMPLEMENTADO:** conservar `onomastico/zimram` y registrar «Zimrán» como variante BES de búsqueda.
 2. **APROBADO E IMPLEMENTADO:** crear **Zohar (heteo)** y distinguirla de **Zohar (hijo de Simeón)**. Presentar **Hadad (hijo de Ismael)** mediante la ficha histórica de Hadar, sin duplicar la identidad; conservar **Hadad (rey de Edom)** en su ficha existente.
-3. Resolver por contexto los homónimos ya registrados: Súa de Cetura; Seba y Dedán de Jocsán; Hanoc hijo de Madián; Efa como persona; Mamre como lugar.
-4. Conservar Asurim, Letusim y Leumim **como fichas personales independientes**, conforme a la decisión editorial previa.
-5. Pasar topónimos y gentilicios a los lotes propios de **Lugares** y **Tribus**, sin fusionar identidades por semejanza de nombres.
+3. **APROBADO (25/11):** Resolver por contexto los homónimos ya registrados: Súa de Cetura; Seba y Dedán de Jocsán; Hanoc hijo de Madián; Efa como persona; Mamre como lugar.
+4. **APROBADO (25/11):** Conservar Asurim, Letusim y Leumim **como fichas personales independientes**, conforme a la decisión editorial previa.
+5. **APROBADO (25/11):** Pasar topónimos y gentilicios a los lotes propios de **Lugares** y **Tribus**, sin fusionar identidades por semejanza de nombres.
 
-**Resultado:** cuatro registros existentes actualizados (Zimram, Zohar hijo de Simeón, Hadar/Hadad hijo de Ismael y Hadad rey de Edom) y una ficha nueva (Zohar heteo). El registro maestro contiene ahora **451 identificadores** y mantiene intactos los ID antiguos y sus genealogías. **Las 19 escenas BES y sus enlaces siguen sin publicarse.** Las otras identificaciones del lote requieren revisión independiente.
+**Resultado:** cuatro registros existentes actualizados (Zimram, Zohar hijo de Simeón, Hadar/Hadad hijo de Ismael y Hadad rey de Edom) y una ficha nueva (Zohar heteo). El registro maestro contiene ahora **451 identificadores** y mantiene intactos los ID antiguos y sus genealogías. **Las 19 escenas BES y sus enlaces siguen sin publicarse.** Las demás identificaciones del lote quedaron aprobadas el 25/11/2026.
 
 
 ## Cierre editorial aprobado · 25/11/2026
