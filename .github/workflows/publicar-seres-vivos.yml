@@ -141,7 +141,9 @@ jobs:
             # cuando otro proceso publique entre fetch y push.
             for intento in 1 2 3 4 5; do
               git fetch origin main
-              git rebase origin/main
+              # El generador puede dejar archivos rastreados sin preparar.
+              # Git guarda y recupera esos cambios durante el rebase.
+              git -c rebase.autoStash=true rebase origin/main
               if git push origin HEAD:main; then
                 echo "Publicación sincronizada en el intento $intento"
                 exit 0
