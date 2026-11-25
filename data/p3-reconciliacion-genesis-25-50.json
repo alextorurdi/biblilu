@@ -3943,6 +3943,182 @@
       "start": 0,
       "end": 8,
       "motivo": "Proyección colectiva/territorial de la bendición de Génesis 49; TR-29, sin fusionar con la ficha personal."
+    },
+    {
+      "codigo": "CT-16",
+      "ref": "Gn 32:22",
+      "literal": "Jaboc",
+      "categoria": "lugares",
+      "id": "lugares/jaboc",
+      "accion": "asignar",
+      "start": 107,
+      "end": 112,
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4"
+    },
+    {
+      "codigo": "CT-16",
+      "ref": "Gn 35:8",
+      "literal": "Alón-bacut",
+      "categoria": "lugares",
+      "id": "lugares/alon-bacut",
+      "accion": "asignar",
+      "start": 115,
+      "end": 125,
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4"
+    },
+    {
+      "codigo": "CT-16",
+      "ref": "Gn 36:32",
+      "literal": "Dinaba",
+      "categoria": "lugares",
+      "id": "lugares/dinaba",
+      "accion": "asignar",
+      "start": 60,
+      "end": 66,
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4"
+    },
+    {
+      "codigo": "CT-16",
+      "ref": "Gn 36:33",
+      "literal": "Bosra",
+      "categoria": "lugares",
+      "id": "lugares/bosra",
+      "accion": "asignar",
+      "start": 42,
+      "end": 47,
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4"
+    },
+    {
+      "codigo": "CT-16",
+      "ref": "Gn 38:5",
+      "literal": "Quezib",
+      "categoria": "lugares",
+      "id": "lugares/quezib",
+      "accion": "asignar",
+      "start": 55,
+      "end": 61,
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4"
+    },
+    {
+      "codigo": "CT-16",
+      "ref": "Gn 50:11",
+      "literal": "Abel-mizraim",
+      "categoria": "lugares",
+      "id": "lugares/abel-mizraim",
+      "accion": "asignar",
+      "start": 142,
+      "end": 154,
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4"
+    },
+    {
+      "codigo": "CT-16",
+      "ref": "Gn 50:10",
+      "literal": "Atad",
+      "categoria": "lugares",
+      "id": "lugares/abel-mizraim",
+      "accion": "asignar",
+      "start": 55,
+      "end": 59,
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4"
+    },
+    {
+      "codigo": "CT-16",
+      "ref": "Gn 50:11",
+      "literal": "Atad",
+      "categoria": "lugares",
+      "id": "lugares/abel-mizraim",
+      "accion": "asignar",
+      "start": 51,
+      "end": 55,
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4"
+    },
+    {
+      "codigo": "CT-16",
+      "ref": "Gn 47:11",
+      "literal": "Ramesés",
+      "categoria": "lugares",
+      "id": "lugares/rameses",
+      "accion": "asignar",
+      "start": 113,
+      "end": 120,
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4"
+    },
+    {
+      "codigo": "CT-16",
+      "ref": "Gn 35:21",
+      "literal": "Migdal-eder",
+      "categoria": "lugares",
+      "id": "lugares/migdal-eder",
+      "accion": "asignar",
+      "start": 55,
+      "end": 66,
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4"
+    },
+    {
+      "codigo": "CT-16",
+      "ref": "Gn 36:35",
+      "literal": "Avit",
+      "categoria": "lugares",
+      "id": "lugares/avit",
+      "accion": "asignar",
+      "start": 145,
+      "end": 149,
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4"
+    },
+    {
+      "codigo": "CT-16",
+      "ref": "Gn 36:36",
+      "literal": "Masreca",
+      "categoria": "lugares",
+      "id": "lugares/masreca",
+      "accion": "asignar",
+      "start": 29,
+      "end": 36,
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4"
+    },
+    {
+      "codigo": "CT-16",
+      "ref": "Gn 36:39",
+      "literal": "Pau",
+      "categoria": "lugares",
+      "id": "lugares/pau",
+      "accion": "asignar",
+      "start": 71,
+      "end": 74,
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4"
+    },
+    {
+      "codigo": "CT-16",
+      "ref": "Gn 35:7",
+      "literal": "El-Betel",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "start": 41,
+      "end": 49,
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4"
+    },
+    {
+      "codigo": "CT-16",
+      "ref": "Gn 33:20",
+      "literal": "El-Elohe-Israel",
+      "categoria": "objetos",
+      "id": "objetos/altar",
+      "accion": "asignar",
+      "start": 35,
+      "end": 50,
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4"
+    },
+    {
+      "codigo": "CT-16",
+      "ref": "Gn 50:11",
+      "literal": "Abel",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "excluir",
+      "start": 142,
+      "end": 146,
+      "motivo": "Prefijo de topónimo Abel-mizraim, no persona Abel"
     }
   ],
   "nota": "Esta capa conserva intacto el barrido bruto; los IDs futuros no son rutas publicadas. Excluir y nota_contextual no equivalen a enlaces literales."

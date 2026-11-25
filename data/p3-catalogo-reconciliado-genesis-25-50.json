@@ -7,13 +7,13 @@
   "inventario_original": "data/p3-extracciones-genesis-25-50.json",
   "reglas": "data/p3-reconciliacion-genesis-25-50.json",
   "resumen": {
-    "total": 1682,
+    "total": 1697,
     "brutos": 1438,
-    "reconciliados": 387,
+    "reconciliados": 403,
     "por_estado": {
-      "candidato_unico_no_validado": 1295,
-      "clasificado_por_contexto": 299,
-      "excluido_aprobado": 38,
+      "candidato_unico_no_validado": 1294,
+      "clasificado_por_contexto": 314,
+      "excluido_aprobado": 39,
       "nota_contextual_aprobada": 1,
       "clasificado_sin_id": 45,
       "exclusion_personal_aprobada": 1,
@@ -22,20 +22,31 @@
     },
     "ids_futuros": [
       "animales/trigo",
+      "lugares/abel-mizraim",
       "lugares/adulam",
+      "lugares/alon-bacut",
+      "lugares/avit",
       "lugares/belen",
+      "lugares/bosra",
+      "lugares/dinaba",
       "lugares/dotan",
       "lugares/edom",
       "lugares/enaim",
       "lugares/esec",
       "lugares/galaad",
       "lugares/gosen",
+      "lugares/jaboc",
       "lugares/mahanaim",
+      "lugares/masreca",
+      "lugares/migdal-eder",
       "lugares/nilo",
       "lugares/on",
       "lugares/pacto-jacob-laban",
       "lugares/padan-aram",
+      "lugares/pau",
       "lugares/peniel",
+      "lugares/quezib",
+      "lugares/rameses",
       "lugares/rehobot-del-rio",
       "lugares/rehobot-pozo",
       "lugares/seba-pozo",
@@ -12053,6 +12064,26 @@
       "fuentes": []
     },
     {
+      "ref": "Gn 32:22",
+      "chapter": 32,
+      "verse": 22,
+      "start": 107,
+      "end": 112,
+      "literal": "Jaboc",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/jaboc",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-16"
+      ],
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 32:24",
       "chapter": 32,
       "verse": 24,
@@ -13175,6 +13206,25 @@
       "id": "objetos/altar",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 33:20",
+      "chapter": 33,
+      "verse": 20,
+      "start": 35,
+      "end": 50,
+      "literal": "El-Elohe-Israel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/altar",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-16"
+      ],
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4"
     },
     {
       "ref": "Gn 33:20",
@@ -14716,6 +14766,25 @@
       "ref": "Gn 35:7",
       "chapter": 35,
       "verse": 7,
+      "start": 41,
+      "end": 49,
+      "literal": "El-Betel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-16"
+      ],
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4"
+    },
+    {
+      "ref": "Gn 35:7",
+      "chapter": 35,
+      "verse": 7,
       "start": 44,
       "end": 49,
       "literal": "Betel",
@@ -14771,6 +14840,26 @@
       "fuentes": [
         "CT-11"
       ]
+    },
+    {
+      "ref": "Gn 35:8",
+      "chapter": 35,
+      "verse": 8,
+      "start": 115,
+      "end": 125,
+      "literal": "Alón-bacut",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/alon-bacut",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-16"
+      ],
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4",
+      "id_futuro": true
     },
     {
       "ref": "Gn 35:9",
@@ -15298,6 +15387,26 @@
       "id": "objetos/tienda",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 35:21",
+      "chapter": 35,
+      "verse": 21,
+      "start": 55,
+      "end": 66,
+      "literal": "Migdal-eder",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/migdal-eder",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-16"
+      ],
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4",
+      "id_futuro": true
     },
     {
       "ref": "Gn 35:22",
@@ -18937,6 +19046,26 @@
       "id_futuro": true
     },
     {
+      "ref": "Gn 36:32",
+      "chapter": 36,
+      "verse": 32,
+      "start": 60,
+      "end": 66,
+      "literal": "Dinaba",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/dinaba",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-16"
+      ],
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 36:33",
       "chapter": 36,
       "verse": 33,
@@ -19006,6 +19135,26 @@
         "CT-14"
       ],
       "motivo": "Zera, padre de Jobab rey de Edom; no equiparar sin base con el hijo de Reuel."
+    },
+    {
+      "ref": "Gn 36:33",
+      "chapter": 36,
+      "verse": 33,
+      "start": 42,
+      "end": 47,
+      "literal": "Bosra",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/bosra",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-16"
+      ],
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4",
+      "id_futuro": true
     },
     {
       "ref": "Gn 36:34",
@@ -19156,6 +19305,26 @@
       ]
     },
     {
+      "ref": "Gn 36:35",
+      "chapter": 36,
+      "verse": 35,
+      "start": 145,
+      "end": 149,
+      "literal": "Avit",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/avit",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-16"
+      ],
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 36:36",
       "chapter": 36,
       "verse": 36,
@@ -19194,6 +19363,26 @@
       "id": "onomastico/samla-rey-de-edom",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 36:36",
+      "chapter": 36,
+      "verse": 36,
+      "start": 29,
+      "end": 36,
+      "literal": "Masreca",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/masreca",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-16"
+      ],
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4",
+      "id_futuro": true
     },
     {
       "ref": "Gn 36:37",
@@ -19341,6 +19530,26 @@
       "id": "onomastico/hadar-rey-de-edom",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 36:39",
+      "chapter": 36,
+      "verse": 39,
+      "start": 71,
+      "end": 74,
+      "literal": "Pau",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/pau",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-16"
+      ],
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4",
+      "id_futuro": true
     },
     {
       "ref": "Gn 36:40",
@@ -20957,6 +21166,26 @@
       "id": "onomastico/juda",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 38:5",
+      "chapter": 38,
+      "verse": 5,
+      "start": 55,
+      "end": 61,
+      "literal": "Quezib",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/quezib",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-16"
+      ],
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4",
+      "id_futuro": true
     },
     {
       "ref": "Gn 38:6",
@@ -30615,6 +30844,26 @@
       "fuentes": []
     },
     {
+      "ref": "Gn 47:11",
+      "chapter": 47,
+      "verse": 11,
+      "start": 113,
+      "end": 120,
+      "literal": "Ramesés",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/rameses",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-16"
+      ],
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 47:12",
       "chapter": 47,
       "verse": 12,
@@ -33666,6 +33915,26 @@
       "ref": "Gn 50:10",
       "chapter": 50,
       "verse": 10,
+      "start": 55,
+      "end": 59,
+      "literal": "Atad",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/abel-mizraim",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-16"
+      ],
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 50:10",
+      "chapter": 50,
+      "verse": 10,
       "start": 78,
       "end": 84,
       "literal": "Jordán",
@@ -33730,6 +33999,26 @@
       "ref": "Gn 50:11",
       "chapter": 50,
       "verse": 11,
+      "start": 51,
+      "end": 55,
+      "literal": "Atad",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/abel-mizraim",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-16"
+      ],
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 50:11",
+      "chapter": 50,
+      "verse": 11,
       "start": 71,
       "end": 79,
       "literal": "egipcios",
@@ -33760,11 +34049,34 @@
         "onomastico/abel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "excluido_aprobado",
       "categoria": "onomastico",
-      "id": "onomastico/abel",
-      "accion": null,
-      "fuentes": []
+      "id": null,
+      "accion": "excluir",
+      "fuentes": [
+        "CT-16"
+      ],
+      "motivo": "Prefijo de topónimo Abel-mizraim, no persona Abel"
+    },
+    {
+      "ref": "Gn 50:11",
+      "chapter": 50,
+      "verse": 11,
+      "start": 142,
+      "end": 154,
+      "literal": "Abel-mizraim",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/abel-mizraim",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-16"
+      ],
+      "motivo": "Topónimo o altar aprobado en P3 Lugares; ficha o enlace P4",
+      "id_futuro": true
     },
     {
       "ref": "Gn 50:11",
