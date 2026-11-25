@@ -111,6 +111,12 @@ def main():
         assert any(y["ref"]==x["ref"] and y["start"]==x["start"] and y["end"]==x["end"]
                    and y["literal"]==x["literal"] and y["id"]==x["id"] and "CT-19" in y["fuentes"]
                    for y in records)
+    # CT-20: tres usos del gentilicio «hebreo» sin adscripción editorial prematura.
+    ct20 = [x for x in corrections if x["codigo"] == "CT-20"]
+    assert len(ct20) == 3
+    assert {x["ref"] for x in ct20} == {"Gn 39:14", "Gn 39:17", "Gn 41:12"}
+    assert all(x["literal"] == "hebreo" and x["categoria"] == "tribus"
+               and x["id"] is None and x["accion"] == "clasificar_sin_id" for x in ct20)
     assert rules["r01"]["ficha_principal"] == "tribus/israelitas"
     assert rules["r01"]["remision_futura"] == "tribus/israel"
     assert rules["r01"]["persona_distinta"] == "onomastico/jacob"

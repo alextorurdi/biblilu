@@ -4834,6 +4834,39 @@
       "start": 0,
       "end": 4,
       "motivo": "Jefatura homónima que se recoge en la ficha de Coré hijo de Esaú sin identificar biográficamente a ambos; acuerdo explícito del Onomástico."
+    },
+    {
+      "codigo": "CT-20",
+      "ref": "Gn 39:14",
+      "literal": "hebreo",
+      "categoria": "tribus",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 83,
+      "end": 89,
+      "motivo": "Gentilicio «hebreo» singular: uso étnico/colectivo confirmado, sin fijar nueva identidad ni remisión antes de decisión del editor sobre Hebreos / Israelitas."
+    },
+    {
+      "codigo": "CT-20",
+      "ref": "Gn 39:17",
+      "literal": "hebreo",
+      "categoria": "tribus",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 49,
+      "end": 55,
+      "motivo": "Gentilicio «hebreo» singular: uso étnico/colectivo confirmado, sin fijar nueva identidad ni remisión antes de decisión del editor sobre Hebreos / Israelitas."
+    },
+    {
+      "codigo": "CT-20",
+      "ref": "Gn 41:12",
+      "literal": "hebreo",
+      "categoria": "tribus",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 34,
+      "end": 40,
+      "motivo": "Gentilicio «hebreo» singular: uso étnico/colectivo confirmado, sin fijar nueva identidad ni remisión antes de decisión del editor sobre Hebreos / Israelitas."
     }
   ],
   "nota": "Esta capa conserva intacto el barrido bruto; los IDs futuros no son rutas publicadas. Excluir y nota_contextual no equivalen a enlaces literales.\nCT-17 (25/11/2026): 39 apariciones recuperadas por auditoría dirigida; sin cambios en fichas ni texto BES. Los gentilicios hebreos y cadena se clasifican sin ID; P4 establecerá enlaces autorizados."
