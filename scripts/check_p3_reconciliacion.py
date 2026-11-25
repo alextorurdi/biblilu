@@ -160,6 +160,12 @@ def main():
     assert len(ct25) == 155
     assert all(x["id"] in historical_ids and x["accion"] == "validar_identidad" for x in ct25)
     assert all(indexed[(x["ref"], x["start"], x["end"])]["id"] == x["id"] for x in ct25)
+    # CT-26: 44 últimos candidatos, preservando homónimos y simbolismo.
+    ct26 = [x for x in corrections if x["codigo"] == "CT-26"]
+    assert len(ct26) == 44
+    assert sum(x["accion"] == "asociacion_contextual" for x in ct26) >= 7
+    assert not any(x["estado"] == "candidato_unico_no_validado" for x in records)
+    assert all("CT-26" in indexed[(x["ref"], x["start"], x["end"])]["fuentes"] for x in ct26)
     assert rules["r01"]["ficha_principal"] == "tribus/israelitas"
     assert rules["r01"]["remision_futura"] == "tribus/israel"
     assert rules["r01"]["persona_distinta"] == "onomastico/jacob"
