@@ -11,11 +11,11 @@
     "brutos": 1438,
     "reconciliados": 1268,
     "por_estado": {
-      "clasificado_por_contexto": 1152,
+      "clasificado_por_contexto": 1159,
       "candidato_unico_no_validado": 567,
       "excluido_aprobado": 39,
       "nota_contextual_aprobada": 1,
-      "clasificado_sin_id": 68,
+      "clasificado_sin_id": 61,
       "exclusion_personal_aprobada": 1,
       "asociacion_contextual_aprobada": 6,
       "homonimo_no_identificado": 1
@@ -85,8 +85,10 @@
       "tribus/edomitas",
       "tribus/gad",
       "tribus/isacar",
+      "tribus/ismaelitas",
       "tribus/israelitas",
       "tribus/juda",
+      "tribus/madianitas",
       "tribus/neftali",
       "tribus/zabulon"
     ]
@@ -21327,14 +21329,16 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "clasificado_sin_id",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
-      "id": null,
-      "accion": "clasificar_sin_id",
+      "id": "tribus/madianitas",
+      "accion": "asignar",
       "fuentes": [
-        "CT-13"
+        "CT-13",
+        "D-03"
       ],
-      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
+      "motivo": "D-03 opción A aprobada: ficha tribal independiente madianitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 36:35",
@@ -22703,14 +22707,16 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "clasificado_sin_id",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
-      "id": null,
-      "accion": "clasificar_sin_id",
+      "id": "tribus/ismaelitas",
+      "accion": "asignar",
       "fuentes": [
-        "CT-13"
+        "CT-13",
+        "D-03"
       ],
-      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
+      "motivo": "D-03 opción A aprobada: ficha tribal independiente ismaelitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:25",
@@ -22826,14 +22832,16 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "clasificado_sin_id",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
-      "id": null,
-      "accion": "clasificar_sin_id",
+      "id": "tribus/ismaelitas",
+      "accion": "asignar",
       "fuentes": [
-        "CT-13"
+        "CT-13",
+        "D-03"
       ],
-      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
+      "motivo": "D-03 opción A aprobada: ficha tribal independiente ismaelitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:28",
@@ -22847,14 +22855,16 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "clasificado_sin_id",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
-      "id": null,
-      "accion": "clasificar_sin_id",
+      "id": "tribus/madianitas",
+      "accion": "asignar",
       "fuentes": [
-        "CT-13"
+        "CT-13",
+        "D-03"
       ],
-      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
+      "motivo": "D-03 opción A aprobada: ficha tribal independiente madianitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:28",
@@ -22912,14 +22922,16 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "clasificado_sin_id",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
-      "id": null,
-      "accion": "clasificar_sin_id",
+      "id": "tribus/ismaelitas",
+      "accion": "asignar",
       "fuentes": [
-        "CT-13"
+        "CT-13",
+        "D-03"
       ],
-      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
+      "motivo": "D-03 opción A aprobada: ficha tribal independiente ismaelitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:28",
@@ -23299,14 +23311,16 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "clasificado_sin_id",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
-      "id": null,
-      "accion": "clasificar_sin_id",
+      "id": "tribus/madianitas",
+      "accion": "asignar",
       "fuentes": [
-        "CT-13"
+        "CT-13",
+        "D-03"
       ],
-      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
+      "motivo": "D-03 opción A aprobada: ficha tribal independiente madianitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:36",
@@ -24692,14 +24706,16 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "clasificado_sin_id",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
-      "id": null,
-      "accion": "clasificar_sin_id",
+      "id": "tribus/ismaelitas",
+      "accion": "asignar",
       "fuentes": [
-        "CT-13"
+        "CT-13",
+        "D-03"
       ],
-      "motivo": "Categoría/identidad textual reconocida; ID de ficha y decisiones de alta se resolverán contra el Excel editorial antes de P4; no crear enlaces automáticamente"
+      "motivo": "D-03 opción A aprobada: ficha tribal independiente ismaelitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 39:2",

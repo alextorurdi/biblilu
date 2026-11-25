@@ -141,6 +141,14 @@ def main():
         "onomastico/laban", "onomastico/raquel", "onomastico/lea",
         "onomastico/abraham", "onomastico/rebeca"}
     assert all(x["accion"] == "validar_identidad" and x["id"] in historical_ids for x in ct23)
+    # D-03: Ismaelitas y Madianitas, dos pueblos distintos.
+    assert rules["d03"]["opcion"] == "A"
+    assert rules["d03"]["fichas_principales"] == ["tribus/ismaelitas","tribus/madianitas"]
+    d03_mentions = [x for x in records if "D-03" in x["fuentes"]]
+    assert len(d03_mentions) == 7
+    assert sum(x["id"] == "tribus/ismaelitas" for x in d03_mentions) == 4
+    assert sum(x["id"] == "tribus/madianitas" for x in d03_mentions) == 3
+    assert all(x["id_futuro"] and x["categoria"] == "tribus" for x in d03_mentions)
     assert rules["r01"]["ficha_principal"] == "tribus/israelitas"
     assert rules["r01"]["remision_futura"] == "tribus/israel"
     assert rules["r01"]["persona_distinta"] == "onomastico/jacob"
