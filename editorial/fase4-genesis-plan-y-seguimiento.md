@@ -2,6 +2,10 @@
 
 **Inicio:** 25/11/2026, tras cierre de P3 y GitHub Actions #37 en verde. **Estado:** P4 INICIADA; primer lote de borradores presentado para aprobación textual, sin publicación ni fichas nuevas en catálogo.
 
+## Registro maestro completo de altas · 25/11/2026
+
+**[Consultar el inventario tabulado de las 137 altas](p4-registro-maestro-altas-genesis-25-50.md)** · [Datos estructurados para seguimiento](p4-registro-maestro-altas-genesis-25-50.json). Recuento: Onomástico 32, Lugares 31, Seres Vivos 10, Materiales 15, Tribus 17, Objetos 27, Instrumentos 1 y Medidas 4. De las 137 fichas, 109 tienen ID propuesto, 28 del Onomástico requieren fijarlo y cinco de estas necesitan cotejo documental (Hamor, Hira, Potifar, Potifera, Siquem persona). **Zera (padre de Jobab)** queda excluido del total por falta de aprobación inequívoca de nueva ficha; podría elevarlo a 138. Se han localizado cinco borradores (Ahuzat, Beeri, Débora, Agua y Rocío); ningún borrador implica publicación.
+
 ## Principio de trabajo
 
 1. Partir de los acuerdos aprobados de P3 y del registro maestro de 451 identificadores; no contar una mención nueva como alta de ficha.
@@ -14,11 +18,11 @@
 
 | Apéndice | Altas P3 aprobadas | Prioridades P4 | Estado |
 |---|---:|---|---|
-| Onomástico | Varias; número total aún por depurar contra registro histórico | Primer lote: Ahuzat, Beeri (heteo), Débora (nodriza de Rebeca); luego Hamor, Siquem persona, Hira, Potifar/Potifera, genealogías horeas/edomitas | 3 borradores redactados, a aprobar |
+| Onomástico | 32 previstas; 28 ID por fijar y 5 cotejos de soporte | Primer lote: Ahuzat, Beeri (heteo), Débora (nodriza de Rebeca); luego Hamor, Siquem persona, Hira, Potifar/Potifera, genealogías horeas/edomitas | 3 borradores redactados, a aprobar |
 | Lugares | 31 propuestas aprobadas | Pozos de Isaac; Alón-bacut; lugares de Jacob; Egipto y regiones | Pendiente |
 | Seres Vivos | 10 | Mandrágora y especies; remisión Almendra → Almendro; corregir Vaca → Ganado Bovino | Pendiente |
 | Materiales | 15 | Agua, Rocío, Madera (incluye leña), Sangre y restantes fichas aprobadas; revisión retrospectiva Gn 1–24 | Pendiente |
-| Tribus | 13 fichas del conjunto de Jacob, además de decisiones Israelitas, Ismaelitas y Madianitas | Distinguir individuo/colectivo en Gn 48–49; R-01/D-01/D-03 | Pendiente |
+| Tribus | 17 (13 de Jacob, Israelitas, Edomitas, Ismaelitas, Madianitas) | Distinguir individuo/colectivo en Gn 48–49; R-01/D-01/D-03 | Pendiente |
 | Objetos y Símbolos | 27 | Pozo/Cisterna, Terafín/Ídolo, Estela/Majano, Sello y Cordón y resto de altas; Cilicio incluido | Pendiente |
 | Instrumentos Musicales | 1 | Tof; nota interversional Gn 31:27 con Kinnor; sin alterar BES | Pendiente |
 | Medidas y Unidades | 4 | Qesitá, Kibrá, Diezmo, Quinto; notas plata/siclo y Kibrá | Pendiente |
