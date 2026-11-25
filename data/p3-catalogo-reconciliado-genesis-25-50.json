@@ -7,17 +7,17 @@
   "inventario_original": "data/p3-extracciones-genesis-25-50.json",
   "reglas": "data/p3-reconciliacion-genesis-25-50.json",
   "resumen": {
-    "total": 1743,
+    "total": 1758,
     "brutos": 1438,
-    "reconciliados": 452,
+    "reconciliados": 468,
     "por_estado": {
-      "candidato_unico_no_validado": 1291,
+      "candidato_unico_no_validado": 1290,
       "clasificado_por_contexto": 350,
       "excluido_aprobado": 39,
       "nota_contextual_aprobada": 1,
-      "clasificado_sin_id": 55,
+      "clasificado_sin_id": 70,
       "exclusion_personal_aprobada": 1,
-      "asociacion_contextual_aprobada": 5,
+      "asociacion_contextual_aprobada": 6,
       "homonimo_no_identificado": 1
     },
     "ids_futuros": [
@@ -18019,11 +18019,14 @@
         "onomastico/core-hijo-de-esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/core-hijo-de-esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-19"
+      ],
+      "motivo": "Jefatura homónima que se recoge en la ficha de Coré hijo de Esaú sin identificar biográficamente a ambos; acuerdo explícito del Onomástico."
     },
     {
       "ref": "Gn 36:16",
@@ -18828,6 +18831,101 @@
       "fuentes": []
     },
     {
+      "ref": "Gn 36:23",
+      "chapter": 36,
+      "verse": 23,
+      "start": 26,
+      "end": 31,
+      "literal": "Alván",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-19"
+      ],
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "ref": "Gn 36:23",
+      "chapter": 36,
+      "verse": 23,
+      "start": 33,
+      "end": 40,
+      "literal": "Manahat",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-19"
+      ],
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "ref": "Gn 36:23",
+      "chapter": 36,
+      "verse": 23,
+      "start": 42,
+      "end": 46,
+      "literal": "Ebal",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-19"
+      ],
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "ref": "Gn 36:23",
+      "chapter": 36,
+      "verse": 23,
+      "start": 48,
+      "end": 52,
+      "literal": "Sefo",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-19"
+      ],
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "ref": "Gn 36:23",
+      "chapter": 36,
+      "verse": 23,
+      "start": 55,
+      "end": 59,
+      "literal": "Onam",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-19"
+      ],
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
       "ref": "Gn 36:24",
       "chapter": 36,
       "verse": 24,
@@ -18846,6 +18944,25 @@
       "id": "onomastico/zibeon-hijo-de-seir",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 36:24",
+      "chapter": 36,
+      "verse": 24,
+      "start": 27,
+      "end": 30,
+      "literal": "Aja",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-19"
+      ],
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
     },
     {
       "ref": "Gn 36:24",
@@ -19044,6 +19161,82 @@
       "fuentes": []
     },
     {
+      "ref": "Gn 36:26",
+      "chapter": 36,
+      "verse": 26,
+      "start": 26,
+      "end": 32,
+      "literal": "Hemdán",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-19"
+      ],
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "ref": "Gn 36:26",
+      "chapter": 36,
+      "verse": 26,
+      "start": 34,
+      "end": 39,
+      "literal": "Esbán",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-19"
+      ],
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "ref": "Gn 36:26",
+      "chapter": 36,
+      "verse": 26,
+      "start": 41,
+      "end": 46,
+      "literal": "Itrán",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-19"
+      ],
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "ref": "Gn 36:26",
+      "chapter": 36,
+      "verse": 26,
+      "start": 49,
+      "end": 55,
+      "literal": "Querán",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-19"
+      ],
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
       "ref": "Gn 36:27",
       "chapter": 36,
       "verse": 27,
@@ -19064,6 +19257,63 @@
       "fuentes": []
     },
     {
+      "ref": "Gn 36:27",
+      "chapter": 36,
+      "verse": 27,
+      "start": 25,
+      "end": 31,
+      "literal": "Bilhán",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-19"
+      ],
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "ref": "Gn 36:27",
+      "chapter": 36,
+      "verse": 27,
+      "start": 33,
+      "end": 39,
+      "literal": "Zaaván",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-19"
+      ],
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "ref": "Gn 36:27",
+      "chapter": 36,
+      "verse": 27,
+      "start": 42,
+      "end": 46,
+      "literal": "Acán",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-19"
+      ],
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
       "ref": "Gn 36:28",
       "chapter": 36,
       "verse": 28,
@@ -19082,6 +19332,44 @@
       "id": "onomastico/disan-hijo-de-seir",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 36:28",
+      "chapter": 36,
+      "verse": 28,
+      "start": 26,
+      "end": 28,
+      "literal": "Uz",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-19"
+      ],
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "ref": "Gn 36:28",
+      "chapter": 36,
+      "verse": 28,
+      "start": 31,
+      "end": 35,
+      "literal": "Arán",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-19"
+      ],
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
     },
     {
       "ref": "Gn 36:29",

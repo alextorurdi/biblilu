@@ -101,6 +101,16 @@ def main():
                    and "CT-18" in y["fuentes"] and y["id"] == x["id"] for y in records)
     assert sum(x["accion"] == "clasificar_sin_id" for x in ct18) == 7
     assert sum(x["accion"] == "asociacion_contextual" for x in ct18) == 3
+    # CT-19: 15 hijos horeos sin cobertura y una jefatura homónima.
+    ct19 = [x for x in corrections if x["codigo"] == "CT-19"]
+    assert len(ct19) == 16
+    assert sum(x["accion"] == "clasificar_sin_id" for x in ct19) == 15
+    assert sum(x["accion"] == "asociacion_contextual" for x in ct19) == 1
+    assert any(x["ref"]=="Gn 36:16" and x["literal"]=="Coré" and x["id"]=="onomastico/core-hijo-de-esau" for x in ct19)
+    for x in ct19:
+        assert any(y["ref"]==x["ref"] and y["start"]==x["start"] and y["end"]==x["end"]
+                   and y["literal"]==x["literal"] and y["id"]==x["id"] and "CT-19" in y["fuentes"]
+                   for y in records)
     assert rules["r01"]["ficha_principal"] == "tribus/israelitas"
     assert rules["r01"]["remision_futura"] == "tribus/israel"
     assert rules["r01"]["persona_distinta"] == "onomastico/jacob"

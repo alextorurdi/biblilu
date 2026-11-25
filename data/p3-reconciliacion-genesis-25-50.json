@@ -4658,6 +4658,182 @@
       "start": 7,
       "end": 12,
       "motivo": "Mención a jefatura homónima en ficha personal existente, por acuerdo editorial; NO implica identidad biográfica demostrada y NO genera ficha de jefatura separada."
+    },
+    {
+      "codigo": "CT-19",
+      "ref": "Gn 36:23",
+      "literal": "Alván",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 26,
+      "end": 31,
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "codigo": "CT-19",
+      "ref": "Gn 36:23",
+      "literal": "Manahat",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 33,
+      "end": 40,
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "codigo": "CT-19",
+      "ref": "Gn 36:23",
+      "literal": "Ebal",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 42,
+      "end": 46,
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "codigo": "CT-19",
+      "ref": "Gn 36:23",
+      "literal": "Sefo",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 48,
+      "end": 52,
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "codigo": "CT-19",
+      "ref": "Gn 36:23",
+      "literal": "Onam",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 55,
+      "end": 59,
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "codigo": "CT-19",
+      "ref": "Gn 36:24",
+      "literal": "Aja",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 27,
+      "end": 30,
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "codigo": "CT-19",
+      "ref": "Gn 36:26",
+      "literal": "Hemdán",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 26,
+      "end": 32,
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "codigo": "CT-19",
+      "ref": "Gn 36:26",
+      "literal": "Esbán",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 34,
+      "end": 39,
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "codigo": "CT-19",
+      "ref": "Gn 36:26",
+      "literal": "Itrán",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 41,
+      "end": 46,
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "codigo": "CT-19",
+      "ref": "Gn 36:26",
+      "literal": "Querán",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 49,
+      "end": 55,
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "codigo": "CT-19",
+      "ref": "Gn 36:27",
+      "literal": "Bilhán",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 25,
+      "end": 31,
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "codigo": "CT-19",
+      "ref": "Gn 36:27",
+      "literal": "Zaaván",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 33,
+      "end": 39,
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "codigo": "CT-19",
+      "ref": "Gn 36:27",
+      "literal": "Acán",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 42,
+      "end": 46,
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "codigo": "CT-19",
+      "ref": "Gn 36:28",
+      "literal": "Uz",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 26,
+      "end": 28,
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "codigo": "CT-19",
+      "ref": "Gn 36:28",
+      "literal": "Arán",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 31,
+      "end": 35,
+      "motivo": "Hijo o descendiente horeo mencionado explícitamente en el texto BES; alta onomástica editorial ya aprobada donde corresponda, ID y ficha a fijar en P4 sin inventar destinos."
+    },
+    {
+      "codigo": "CT-19",
+      "ref": "Gn 36:16",
+      "literal": "Coré",
+      "categoria": "onomastico",
+      "id": "onomastico/core-hijo-de-esau",
+      "accion": "asociacion_contextual",
+      "start": 0,
+      "end": 4,
+      "motivo": "Jefatura homónima que se recoge en la ficha de Coré hijo de Esaú sin identificar biográficamente a ambos; acuerdo explícito del Onomástico."
     }
   ],
   "nota": "Esta capa conserva intacto el barrido bruto; los IDs futuros no son rutas publicadas. Excluir y nota_contextual no equivalen a enlaces literales.\nCT-17 (25/11/2026): 39 apariciones recuperadas por auditoría dirigida; sin cambios en fichas ni texto BES. Los gentilicios hebreos y cadena se clasifican sin ID; P4 establecerá enlaces autorizados."
