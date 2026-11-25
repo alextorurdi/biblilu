@@ -9,10 +9,10 @@
   "resumen": {
     "total": 1835,
     "brutos": 1438,
-    "reconciliados": 938,
+    "reconciliados": 1268,
     "por_estado": {
-      "candidato_unico_no_validado": 897,
-      "clasificado_por_contexto": 822,
+      "clasificado_por_contexto": 1152,
+      "candidato_unico_no_validado": 567,
       "excluido_aprobado": 39,
       "nota_contextual_aprobada": 1,
       "clasificado_sin_id": 68,
@@ -106,11 +106,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:1",
@@ -503,11 +506,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:5",
@@ -523,11 +529,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:6",
@@ -543,11 +552,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:7",
@@ -563,11 +575,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:9",
@@ -583,11 +598,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:9",
@@ -707,11 +725,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:10",
@@ -747,11 +768,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:10",
@@ -787,11 +811,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:11",
@@ -807,11 +834,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:11",
@@ -827,11 +857,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:11",
@@ -887,11 +920,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:12",
@@ -1312,11 +1348,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:19",
@@ -1332,11 +1371,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:20",
@@ -1352,11 +1394,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:20",
@@ -1372,11 +1417,14 @@
         "onomastico/rebeca"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/rebeca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:20",
@@ -1433,11 +1481,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:21",
@@ -1453,11 +1504,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:21",
@@ -1473,11 +1527,14 @@
         "onomastico/rebeca"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/rebeca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:22",
@@ -1493,11 +1550,14 @@
         "onomastico/rebeca"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/rebeca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:25",
@@ -1534,11 +1594,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:26",
@@ -1554,11 +1617,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:26",
@@ -1597,11 +1663,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:27",
@@ -1617,11 +1686,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:27",
@@ -1680,11 +1752,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:28",
@@ -1700,11 +1775,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:28",
@@ -1720,11 +1798,14 @@
         "onomastico/rebeca"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/rebeca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:28",
@@ -1786,11 +1867,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:30",
@@ -1806,11 +1890,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:30",
@@ -1890,11 +1977,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:33",
@@ -1933,11 +2023,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:33",
@@ -1999,11 +2092,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 25:34",
@@ -2019,11 +2115,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:1",
@@ -2039,11 +2138,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:1",
@@ -2059,11 +2161,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:1",
@@ -2139,11 +2244,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:2",
@@ -2179,11 +2287,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:5",
@@ -2199,11 +2310,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:6",
@@ -2219,11 +2333,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:6",
@@ -2259,11 +2376,14 @@
         "onomastico/rebeca"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/rebeca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:8",
@@ -2319,11 +2439,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:8",
@@ -2339,11 +2462,14 @@
         "onomastico/rebeca"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/rebeca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:9",
@@ -2379,11 +2505,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:9",
@@ -2399,11 +2528,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:10",
@@ -2459,11 +2591,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:13",
@@ -2479,11 +2614,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:14",
@@ -2601,11 +2739,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:15",
@@ -2621,11 +2762,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:16",
@@ -2661,11 +2805,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:17",
@@ -2681,11 +2828,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:17",
@@ -2721,11 +2871,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:18",
@@ -2762,11 +2915,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:18",
@@ -2802,11 +2958,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:19",
@@ -2822,11 +2981,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:19",
@@ -2903,11 +3065,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:20",
@@ -2943,11 +3108,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:20",
@@ -3026,11 +3194,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:21",
@@ -3109,11 +3280,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:23",
@@ -3149,11 +3323,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:24",
@@ -3169,11 +3346,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:25",
@@ -3189,11 +3369,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:25",
@@ -3310,11 +3493,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:26",
@@ -3371,11 +3557,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:30",
@@ -3391,11 +3580,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:31",
@@ -3411,11 +3603,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:32",
@@ -3431,11 +3626,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:32",
@@ -3492,11 +3690,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:33",
@@ -3579,11 +3780,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:34",
@@ -3726,11 +3930,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 26:35",
@@ -3746,11 +3953,14 @@
         "onomastico/rebeca"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/rebeca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:1",
@@ -3766,11 +3976,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:1",
@@ -3786,11 +3999,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:1",
@@ -3806,11 +4022,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:2",
@@ -3826,11 +4045,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:3",
@@ -3887,11 +4109,14 @@
         "onomastico/rebeca"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/rebeca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:5",
@@ -3907,11 +4132,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:5",
@@ -3927,11 +4155,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:5",
@@ -3947,11 +4178,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:6",
@@ -3967,11 +4201,14 @@
         "onomastico/rebeca"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/rebeca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:6",
@@ -4010,11 +4247,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:11",
@@ -4053,11 +4293,14 @@
         "onomastico/rebeca"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/rebeca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:11",
@@ -4073,11 +4316,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:14",
@@ -4116,11 +4362,14 @@
         "onomastico/rebeca"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/rebeca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:15",
@@ -4136,11 +4385,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:15",
@@ -4248,11 +4500,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:19",
@@ -4291,11 +4546,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:20",
@@ -4311,11 +4569,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:20",
@@ -4354,11 +4615,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:21",
@@ -4374,11 +4638,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:22",
@@ -4417,11 +4684,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:22",
@@ -4437,11 +4707,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:22",
@@ -4480,11 +4753,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:23",
@@ -4500,11 +4776,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:24",
@@ -4520,11 +4799,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:24",
@@ -4540,11 +4822,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:24",
@@ -4583,11 +4868,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:25",
@@ -4626,11 +4914,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:27",
@@ -4669,11 +4960,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:28",
@@ -4709,11 +5003,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:30",
@@ -4775,11 +5072,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:32",
@@ -4795,11 +5095,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:32",
@@ -4815,11 +5118,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:32",
@@ -4835,11 +5141,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:33",
@@ -4855,11 +5164,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:34",
@@ -4875,11 +5187,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:35",
@@ -4895,11 +5210,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:36",
@@ -4915,11 +5233,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:36",
@@ -4958,11 +5279,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:38",
@@ -4978,11 +5302,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:38",
@@ -4998,11 +5325,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:39",
@@ -5018,11 +5348,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:39",
@@ -5058,11 +5391,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:41",
@@ -5124,11 +5460,14 @@
         "onomastico/rebeca"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/rebeca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:42",
@@ -5144,11 +5483,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:42",
@@ -5187,11 +5529,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:43",
@@ -5231,11 +5576,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:46",
@@ -5251,11 +5599,14 @@
         "onomastico/rebeca"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/rebeca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:46",
@@ -5271,11 +5622,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 27:46",
@@ -5354,11 +5708,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 28:1",
@@ -5438,11 +5795,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 28:4",
@@ -5458,11 +5818,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 28:4",
@@ -5478,11 +5841,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 28:5",
@@ -5498,11 +5864,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 28:5",
@@ -5562,11 +5931,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 28:5",
@@ -5602,11 +5974,14 @@
         "onomastico/rebeca"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/rebeca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 28:5",
@@ -5645,11 +6020,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 28:6",
@@ -5665,11 +6043,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 28:6",
@@ -5685,11 +6066,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 28:6",
@@ -5793,11 +6177,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 28:8",
@@ -5813,11 +6200,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 28:9",
@@ -6020,11 +6410,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 28:13",
@@ -6040,11 +6433,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 28:16",
@@ -6524,11 +6920,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:5",
@@ -6590,11 +6989,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:6",
@@ -6818,11 +7220,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:9",
@@ -6881,11 +7286,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:10",
@@ -6901,11 +7309,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:10",
@@ -6941,11 +7352,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:10",
@@ -7045,11 +7459,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:12",
@@ -7088,11 +7505,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:12",
@@ -7108,11 +7528,14 @@
         "onomastico/rebeca"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/rebeca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:13",
@@ -7128,11 +7551,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:13",
@@ -7194,11 +7620,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:14",
@@ -7237,11 +7666,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:15",
@@ -7301,11 +7733,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:16",
@@ -7321,11 +7756,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:16",
@@ -7341,11 +7779,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:17",
@@ -7361,11 +7802,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:17",
@@ -7381,11 +7825,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:18",
@@ -7424,11 +7871,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:18",
@@ -7444,11 +7894,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:19",
@@ -7464,11 +7917,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:20",
@@ -7507,11 +7963,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:21",
@@ -7550,11 +8009,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:22",
@@ -7570,11 +8032,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:23",
@@ -7590,11 +8055,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:23",
@@ -7633,11 +8101,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:24",
@@ -7673,11 +8144,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:25",
@@ -7716,11 +8190,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:25",
@@ -7736,11 +8213,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:25",
@@ -7756,11 +8236,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:26",
@@ -7776,11 +8259,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:28",
@@ -7819,11 +8305,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:28",
@@ -7839,11 +8328,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:28",
@@ -7859,11 +8351,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:29",
@@ -7879,11 +8374,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:29",
@@ -7919,11 +8417,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:30",
@@ -7962,11 +8463,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:30",
@@ -7982,11 +8486,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:30",
@@ -8002,11 +8509,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:31",
@@ -8022,11 +8532,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:31",
@@ -8042,11 +8555,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:32",
@@ -8062,11 +8578,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 29:32",
@@ -8162,11 +8681,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:1",
@@ -8251,11 +8773,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:3",
@@ -8291,11 +8816,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:4",
@@ -8397,11 +8925,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:6",
@@ -8461,11 +8992,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:7",
@@ -8504,11 +9038,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:8",
@@ -8544,11 +9081,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:9",
@@ -8627,11 +9167,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:10",
@@ -8670,11 +9213,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:11",
@@ -8730,11 +9276,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:12",
@@ -8773,11 +9322,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:13",
@@ -8854,11 +9406,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:14",
@@ -8874,11 +9429,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:14",
@@ -8894,11 +9452,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:15",
@@ -8914,11 +9475,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:15",
@@ -8934,11 +9498,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:15",
@@ -9000,11 +9567,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:16",
@@ -9043,11 +9613,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:17",
@@ -9086,11 +9659,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:18",
@@ -9126,11 +9702,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:19",
@@ -9169,11 +9748,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:20",
@@ -9229,11 +9811,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:24",
@@ -9318,11 +9903,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:27",
@@ -9338,11 +9926,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:29",
@@ -9402,11 +9993,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:31",
@@ -9525,11 +10119,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:35",
@@ -9545,11 +10142,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:35",
@@ -9651,11 +10251,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:37",
@@ -9737,11 +10340,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:40",
@@ -9757,11 +10363,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:41",
@@ -9820,11 +10429,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 30:42",
@@ -9949,11 +10561,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:1",
@@ -10015,11 +10630,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:3",
@@ -10081,11 +10699,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:4",
@@ -10101,11 +10722,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:9",
@@ -10165,11 +10789,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:13",
@@ -10225,11 +10852,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:14",
@@ -10245,11 +10875,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:17",
@@ -10350,11 +10983,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:18",
@@ -10394,11 +11030,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:19",
@@ -10434,11 +11073,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:20",
@@ -10477,11 +11119,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:21",
@@ -10519,11 +11164,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:22",
@@ -10584,11 +11232,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:24",
@@ -10627,11 +11278,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:25",
@@ -10713,11 +11367,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:25",
@@ -10775,11 +11432,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:26",
@@ -10887,11 +11547,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:32",
@@ -10930,11 +11593,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:33",
@@ -10950,11 +11616,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:33",
@@ -11013,11 +11682,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:33",
@@ -11053,11 +11725,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:33",
@@ -11073,11 +11748,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:34",
@@ -11093,11 +11771,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:34",
@@ -11133,11 +11814,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:34",
@@ -11173,11 +11857,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:35",
@@ -11193,11 +11880,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:36",
@@ -11236,11 +11926,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:38",
@@ -11337,11 +12030,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:42",
@@ -11357,11 +12053,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:43",
@@ -11377,11 +12076,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:43",
@@ -11503,11 +12205,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:47",
@@ -11568,11 +12273,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:48",
@@ -11630,11 +12338,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:51",
@@ -11650,11 +12361,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:51",
@@ -11713,11 +12427,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:53",
@@ -11779,11 +12496,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 31:54",
@@ -11822,11 +12542,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 32:1",
@@ -11953,11 +12676,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 32:3",
@@ -12016,11 +12742,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 32:4",
@@ -12059,11 +12788,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 32:5",
@@ -12140,11 +12872,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 32:7",
@@ -12244,11 +12979,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 32:9",
@@ -12287,11 +13025,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 32:9",
@@ -12307,11 +13048,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 32:10",
@@ -12367,11 +13111,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 32:12",
@@ -12430,11 +13177,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 32:14",
@@ -12550,11 +13300,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 32:18",
@@ -12593,11 +13346,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 32:19",
@@ -12613,11 +13369,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 32:20",
@@ -13037,11 +13796,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 33:1",
@@ -13057,11 +13819,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 33:1",
@@ -13077,11 +13842,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 33:2",
@@ -13097,11 +13865,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 33:2",
@@ -13117,11 +13888,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 33:2",
@@ -13183,11 +13957,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 33:5",
@@ -13203,11 +13980,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 33:5",
@@ -13246,11 +14026,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 33:7",
@@ -13289,11 +14072,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 33:8",
@@ -13309,11 +14095,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 33:8",
@@ -13352,11 +14141,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 33:10",
@@ -13418,11 +14210,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 33:12",
@@ -13438,11 +14233,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 33:13",
@@ -13566,11 +14364,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 33:15",
@@ -13609,11 +14410,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 33:16",
@@ -13990,11 +14794,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 34:1",
@@ -15262,11 +16069,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 35:2",
@@ -15600,11 +16410,14 @@
         "onomastico/rebeca"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/rebeca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 35:8",
@@ -15750,11 +16563,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 35:12",
@@ -15770,11 +16586,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 35:13",
@@ -15960,11 +16779,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 35:18",
@@ -15980,11 +16802,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 35:18",
@@ -16041,11 +16866,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 35:19",
@@ -16168,11 +16996,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 35:21",
@@ -16291,11 +17122,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 35:23",
@@ -16454,11 +17288,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 35:24",
@@ -16537,11 +17374,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 35:25",
@@ -16621,11 +17461,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 35:26",
@@ -16748,11 +17591,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 35:27",
@@ -16832,11 +17678,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 35:27",
@@ -16852,11 +17701,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 35:28",
@@ -16872,11 +17724,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 35:29",
@@ -16892,11 +17747,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 35:29",
@@ -16935,11 +17793,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:1",
@@ -16973,11 +17834,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:2",
@@ -17253,11 +18117,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:4",
@@ -17416,11 +18283,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:5",
@@ -17460,11 +18330,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:6",
@@ -17569,11 +18442,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:8",
@@ -17613,11 +18489,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:8",
@@ -17651,11 +18530,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:9",
@@ -17716,11 +18598,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:10",
@@ -17779,11 +18664,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:10",
@@ -17842,11 +18730,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:11",
@@ -18025,11 +18916,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:12",
@@ -18088,11 +18982,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:13",
@@ -18234,11 +19131,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:14",
@@ -18274,11 +19174,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:14",
@@ -18398,11 +19301,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:15",
@@ -18438,11 +19344,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:15",
@@ -18683,11 +19592,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:17",
@@ -18848,11 +19760,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:18",
@@ -18888,11 +19803,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:18",
@@ -19012,11 +19930,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:19",
@@ -20700,11 +21621,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:40",
@@ -20965,11 +21889,14 @@
         "onomastico/esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 36:43",
@@ -30632,11 +31559,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 46:2",
@@ -31760,11 +32690,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 46:15",
@@ -32207,11 +33140,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 46:18",
@@ -32227,11 +33163,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 46:18",
@@ -32270,11 +33209,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 46:19",
@@ -32726,11 +33668,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 46:22",
@@ -32933,11 +33878,14 @@
         "onomastico/laban"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/laban",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 46:25",
@@ -32953,11 +33901,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 46:25",
@@ -35550,11 +36501,14 @@
         "onomastico/raquel"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/raquel",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 48:7",
@@ -35918,11 +36872,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 48:15",
@@ -35938,11 +36895,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 48:16",
@@ -35958,11 +36918,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 48:16",
@@ -35978,11 +36941,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 48:17",
@@ -37145,11 +38111,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 49:30",
@@ -37205,11 +38174,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 49:31",
@@ -37245,11 +38217,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 49:31",
@@ -37265,11 +38240,14 @@
         "onomastico/rebeca"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/rebeca",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 49:31",
@@ -37285,11 +38263,14 @@
         "onomastico/lea"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/lea",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 49:32",
@@ -38031,11 +39012,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 50:13",
@@ -38398,11 +39382,14 @@
         "onomastico/abraham"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abraham",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 50:24",
@@ -38418,11 +39405,14 @@
         "onomastico/isaac"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/isaac",
-      "accion": null,
-      "fuentes": []
+      "accion": "validar_identidad",
+      "fuentes": [
+        "CT-23"
+      ],
+      "motivo": "Identidad nominal personal confirmada por el contexto de Génesis 25–50: figura ya presente en Onomástico; no equivale a ficha nueva."
     },
     {
       "ref": "Gn 50:24",
