@@ -21378,6 +21378,17 @@
       "start": 59,
       "end": 65,
       "motivo": "Ordinal del quinto hijo, no unidad tributaria Quinto."
+    },
+    {
+      "codigo": "CT-30",
+      "ref": "Gn 35:8",
+      "literal": "Débora",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "start": 0,
+      "end": 6,
+      "motivo": "Débora, nodriza de Rebeca, identificada explícitamente en BES; ficha individual en Onomástico pendiente de resolución D-04. No confundir con la profetisa/jueza Débora."
     }
   ],
   "nota": "Esta capa conserva intacto el barrido bruto; los IDs futuros no son rutas publicadas. Excluir y nota_contextual no equivalen a enlaces literales.\nCT-17 (25/11/2026): 39 apariciones recuperadas por auditoría dirigida; sin cambios en fichas ni texto BES. Los gentilicios hebreos y cadena se clasifican sin ID; P4 establecerá enlaces autorizados.",
@@ -21431,5 +21442,17 @@
       "Gn 37:36",
       "Gn 39:1"
     ]
+  },
+  "d04": {
+    "estado": "pendiente_editor",
+    "entidad": "Débora (nodriza de Rebeca)",
+    "referencia": "Gn 35:8",
+    "categoria": "onomastico",
+    "opciones": {
+      "A": "Ficha onomástica independiente, diferenciada de otras Déboras",
+      "B": "Mención solo contextual en las fichas de Rebeca y Alón-bacut, sin ficha propia"
+    },
+    "id": null,
+    "implementacion_ficha": "P4"
   }
 }
