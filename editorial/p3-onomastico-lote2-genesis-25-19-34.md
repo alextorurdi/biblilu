@@ -32,3 +32,10 @@
 4. Pendiente de aprobación editorial del lote. No modificar aún escenas, genealogías ni enlaces.
 
 **Siguiente bloque onomástico:** Génesis 26, con revisión específica de Abimelec y Ficol y la cuestión de su identidad respecto de las menciones anteriores.
+
+
+## Cierre editorial aprobado · 25/11/2026
+
+**Decisión 6 — APROBADA:** Sobrenombre de Esaú en este contexto, `onomastico/esau`, sin extender criterio a otras menciones de Edom. Quedan ratificadas Abraham, Isaac, Rebeca, Betuel, Labán, Esaú y Jacob en sus fichas históricas; no hay nuevas identidades onomásticas en este tramo.
+
+**Estado final del lote 2: aprobado editorialmente.** Las menciones de topónimos, gentilicios y objetos siguen sujetas a los criterios aprobados de sus categorías; no quedan incidencias onomásticas por aprobar ni se han publicado fichas o enlaces.
