@@ -3074,6 +3074,94 @@
       "accion": "asignar",
       "start": 147,
       "end": 153
+    },
+    {
+      "codigo": "CT-12",
+      "ref": "Gn 31:21",
+      "literal": "Galaad",
+      "categoria": "lugares",
+      "id": "lugares/galaad",
+      "accion": "asignar",
+      "start": 83,
+      "end": 89,
+      "motivo": "Topónimo según contexto"
+    },
+    {
+      "codigo": "CT-12",
+      "ref": "Gn 31:23",
+      "literal": "Galaad",
+      "categoria": "lugares",
+      "id": "lugares/galaad",
+      "accion": "asignar",
+      "start": 101,
+      "end": 107,
+      "motivo": "Topónimo según contexto"
+    },
+    {
+      "codigo": "CT-12",
+      "ref": "Gn 31:25",
+      "literal": "Galaad",
+      "categoria": "lugares",
+      "id": "lugares/galaad",
+      "accion": "asignar",
+      "start": 148,
+      "end": 154,
+      "motivo": "Topónimo según contexto"
+    },
+    {
+      "codigo": "CT-12",
+      "ref": "Gn 31:47",
+      "literal": "Galaad",
+      "categoria": "lugares",
+      "id": "lugares/pacto-jacob-laban",
+      "accion": "asignar",
+      "start": 55,
+      "end": 61,
+      "motivo": "Nombre del majano del pacto, no la región"
+    },
+    {
+      "codigo": "CT-12",
+      "ref": "Gn 31:48",
+      "literal": "Galaad",
+      "categoria": "lugares",
+      "id": "lugares/pacto-jacob-laban",
+      "accion": "asignar",
+      "start": 87,
+      "end": 93,
+      "motivo": "Nombre del majano del pacto, no la región"
+    },
+    {
+      "codigo": "CT-12",
+      "ref": "Gn 32:2",
+      "literal": "Mahanaim",
+      "categoria": "lugares",
+      "id": "lugares/mahanaim",
+      "accion": "asignar",
+      "start": 87,
+      "end": 95,
+      "motivo": "Topónimo según contexto"
+    },
+    {
+      "codigo": "CT-12",
+      "ref": "Gn 37:25",
+      "literal": "Galaad",
+      "categoria": "lugares",
+      "id": "lugares/galaad",
+      "accion": "asignar",
+      "start": 96,
+      "end": 102,
+      "motivo": "Topónimo según contexto"
+    },
+    {
+      "codigo": "CT-12",
+      "ref": "Gn 38:28",
+      "literal": "sacó",
+      "categoria": "objetos",
+      "id": null,
+      "accion": "excluir",
+      "start": 31,
+      "end": 35,
+      "motivo": "Verbo «sacar», no objeto Saco"
     }
   ],
   "nota": "Esta capa conserva intacto el barrido bruto; los IDs futuros no son rutas publicadas. Excluir y nota_contextual no equivalen a enlaces literales."
