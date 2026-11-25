@@ -169,3 +169,8 @@ El informe automático valida **cobertura y literalidad de los candidatos** pero
 - **Corrección técnica posterior:** eliminar falso positivo onomástico «Seba» de Gn 26:33 y asegurar su tratamiento como pozo/topónimo; revisar pruebas de regresión y correcciones automáticas del extractor.
 - **P4:** crear fichas Ahuzat y Beeri, preparar enlaces y relaciones aprobados; no afirmar identidad de Abimelec o Ficol entre generaciones.
 - **P4–P9:** completar las restantes fichas aprobadas, notas, enlaces, pruebas y publicación. Ninguna de estas tareas representa una aprobación editorial aún no concedida.
+
+
+### Control transversal de P3 · 25/11/2026
+
+[**Auditoría transversal documentada**](p3-control-transversal-genesis-25-50.md): integridad estructural verificada para 874 versículos y 1.711 registros de categoría (1.656 menciones únicas). **0 referencias, posiciones textuales, identificadores o registros internos duplicados erróneos** detectados en los controles formales. Se identifican **55 coincidencias Onomástico/Lugares** todavía candidatas en el inventario bruto y **10 grupos de actuaciones de reconciliación técnica (CT-01–CT-10)**: Seba (pozo), «seas» verbal, instrumentos de Gn 31:27, Israel/Edom, Qesitá, Kibrá, Cisterna y exclusión de «ganado», entre otros. **Las ocho categorías están aprobadas editorialmente; no se certifica aún cierre técnico total P3.** Ninguna ficha ni escena web se publica por esta auditoría.
