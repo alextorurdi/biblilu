@@ -1,6 +1,6 @@
 # Fase 3 · Onomástico, lote 3: Génesis 26 (BES 2026)
 
-**Estado editorial: PROPUESTA DE CLASIFICACIÓN, NO APROBADA.** El texto base es `data/genesis_25_50_bes.json` (Gn 26:1–35). Se contrasta con `data/entries.json`, `data/registro_maestro.json` y los acuerdos de `editorial/criterios-identidades-genesis.md`.
+**Estado editorial: CLASIFICACIÓN APROBADA (25/11/2026).** El texto base es `data/genesis_25_50_bes.json` (Gn 26:1–35). Se contrasta con `data/entries.json`, `data/registro_maestro.json` y los acuerdos de `editorial/criterios-identidades-genesis.md`.
 
 ## Inventario de personas (once nombres, dos pendientes de ficha)
 
@@ -11,10 +11,10 @@
 | Rebeca | 26:7–8,35 | `onomastico/rebeca` | Esposa de Isaac, ficha ya existente |
 | Abimelec | 26:1,8–11,16,26 | `onomastico/abimelec` | Rey de Gerar; conservar la ficha compartida con Gn 20–21 **sin afirmar identidad individual entre episodios** |
 | Ficol | 26:26 | `onomastico/ficol` | Jefe del ejército; conservar la ficha compartida con Gn 21 **sin afirmar identidad individual entre episodios** |
-| **Ahuzat** | **26:26** | **Nueva ficha propuesta `onomastico/ahuzat`** | Consejero de Abimelec en la BES; acompaña al rey y a Ficol en la visita a Isaac |
+| **Ahuzat** | **26:26** | **Nueva ficha aprobada para P4: `onomastico/ahuzat`** | Consejero de Abimelec en la BES; acompaña al rey y a Ficol en la visita a Isaac |
 | Esaú | 26:34 | `onomastico/esau` | Hijo de Isaac y Rebeca, esposo de Judit y Basemat en el relato |
 | Judit | 26:34 | `onomastico/judit-hija-de-beeri` | Hija de Beeri, distinta de Aholibama salvo prueba textual posterior |
-| **Beeri** | **26:34** | **Nueva ficha propuesta `onomastico/beeri-heteo`** | Heteo, padre de Judit; preferir ID desambiguado para no identificarlo con otros homónimos de libros posteriores |
+| **Beeri** | **26:34** | **Nueva ficha aprobada para P4: `onomastico/beeri-heteo`** | Heteo, padre de Judit; preferir ID desambiguado para no identificarlo con otros homónimos de libros posteriores |
 | Basemat | 26:34 | `onomastico/basemat-hija-de-elon` | Hija de Elón, no la `onomastico/basemat-hija-de-ismael`; no fusionar con Ada |
 | Elón | 26:34 | `onomastico/elon-padre-de-basemat` | Heteo, padre de Basemat; distinto del `onomastico/elon` hijo de Zabulón (Gn 46:14) |
 
@@ -30,11 +30,11 @@
 2. **Ficol:** se mantiene el mismo criterio: una ficha, identidad entre generaciones indeterminada.
 3. **Judit y Basemat:** conservar cada una en su ficha. No equiparar a Judit con Aholibama ni a Basemat hija de Elón con Ada hija de Elón; tampoco confundir con Basemat hija de Ismael.
 4. **Elón:** desambiguar al padre de Basemat frente a Elón hijo de Zabulón.
-5. **Ahuzat y Beeri:** son **propuestas de nuevas fichas** (en P4), no altas aprobadas ni implementadas.
+5. **Ahuzat y Beeri:** son **altas aprobadas editorialmente para P4** (25/11/2026), todavía no creadas ni publicadas.
 
 ## Incidencia de extracción detectada
 
-**Gn 26:33 «Seba»:** el extractor P3 registra el vocablo como si pudiera referirse a una de varias personas llamadas Seba. El texto BES lo determina explícitamente como **nombre del pozo**: «Isaac llamó al pozo Seba». Debe **excluirse del Onomástico en ese versículo** y remitirse a la revisión de **Lugares** como topónimo asociado a Beerseba. No crear persona ni ligar al hijo de Jocsán, ni a los Seba de Gn 10. La corrección del extractor/catálogo se hará tras la aprobación del lote, con prueba de regresión.
+**Gn 26:33 «Seba»:** el extractor P3 registra el vocablo como si pudiera referirse a una de varias personas llamadas Seba. El texto BES lo determina explícitamente como **nombre del pozo**: «Isaac llamó al pozo Seba». Debe **excluirse del Onomástico en ese versículo** y remitirse a la revisión de **Lugares** como topónimo asociado a Beerseba. No crear persona ni ligar al hijo de Jocsán, ni a los Seba de Gn 10. La corrección del extractor/catálogo queda autorizada para la fase técnica correspondiente, con prueba de regresión.
 
 ## Remisiones a otras categorías (sin decisión de ficha en P3 Onomástico)
 
@@ -46,7 +46,7 @@
 
 ## Estado y siguiente tramo
 
-**Sin cambios en las fichas fuente, los árboles o el texto bíblico.** Pendientes de aprobación: dos altas onomásticas, asignaciones contextuales del lote y corrección de la falsa clasificación «Seba» (Gn 26:33).
+**Sin cambios en las fichas fuente, los árboles o el texto bíblico.** Las dos altas y asignaciones contextuales están aprobadas. Queda pendiente **ejecutar técnicamente** la corrección de la falsa clasificación «Seba» (Gn 26:33).
 
 **Siguiente lote:** Génesis 27, con especial atención a la identidad personal de Esaú/Jacob, los nombres familiares en la bendición, y la separación entre menciones personales y gentilicios.
 
