@@ -21,7 +21,6 @@ on:
       - 'scripts/build.py'
       - 'assets/style.css'
       - 'editorial/approved-pages/**'
-      - '.github/workflows/publicar-seres-vivos.yml'
   workflow_dispatch:
 concurrency:
   group: publicar-apendices-main
