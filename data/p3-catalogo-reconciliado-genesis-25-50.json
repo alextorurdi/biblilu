@@ -7,17 +7,17 @@
   "inventario_original": "data/p3-extracciones-genesis-25-50.json",
   "reglas": "data/p3-reconciliacion-genesis-25-50.json",
   "resumen": {
-    "total": 1736,
+    "total": 1743,
     "brutos": 1438,
-    "reconciliados": 442,
+    "reconciliados": 452,
     "por_estado": {
-      "candidato_unico_no_validado": 1294,
+      "candidato_unico_no_validado": 1291,
       "clasificado_por_contexto": 350,
       "excluido_aprobado": 39,
       "nota_contextual_aprobada": 1,
-      "clasificado_sin_id": 48,
+      "clasificado_sin_id": 55,
       "exclusion_personal_aprobada": 1,
-      "asociacion_contextual_aprobada": 2,
+      "asociacion_contextual_aprobada": 5,
       "homonimo_no_identificado": 1
     },
     "ids_futuros": [
@@ -19924,6 +19924,44 @@
       "motivo": "Jefatura homónima; no afirmar identidad con ninguna Timna personal ni crear ficha separada"
     },
     {
+      "ref": "Gn 36:40",
+      "chapter": 36,
+      "verse": 40,
+      "start": 95,
+      "end": 99,
+      "literal": "Alva",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-18"
+      ],
+      "motivo": "Nombre de jefatura de Edom (Gn 36:40-43) no recogido por el extractor: sin ficha independiente por acuerdo editorial; no inventar identidad ni enlace."
+    },
+    {
+      "ref": "Gn 36:40",
+      "chapter": 36,
+      "verse": 40,
+      "start": 101,
+      "end": 106,
+      "literal": "Jetet",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-18"
+      ],
+      "motivo": "Nombre de jefatura de Edom (Gn 36:40-43) no recogido por el extractor: sin ficha independiente por acuerdo editorial; no inventar identidad ni enlace."
+    },
+    {
       "ref": "Gn 36:41",
       "chapter": 36,
       "verse": 41,
@@ -19937,11 +19975,52 @@
         "onomastico/aholibama-mujer-de-esau"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/aholibama-mujer-de-esau",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-18"
+      ],
+      "motivo": "Mención a jefatura homónima en ficha personal existente, por acuerdo editorial; NO implica identidad biográfica demostrada y NO genera ficha de jefatura separada."
+    },
+    {
+      "ref": "Gn 36:41",
+      "chapter": 36,
+      "verse": 41,
+      "start": 11,
+      "end": 14,
+      "literal": "Ela",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-18"
+      ],
+      "motivo": "Nombre de jefatura de Edom (Gn 36:40-43) no recogido por el extractor: sin ficha independiente por acuerdo editorial; no inventar identidad ni enlace."
+    },
+    {
+      "ref": "Gn 36:41",
+      "chapter": 36,
+      "verse": 41,
+      "start": 16,
+      "end": 21,
+      "literal": "Pinón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-18"
+      ],
+      "motivo": "Nombre de jefatura de Edom (Gn 36:40-43) no recogido por el extractor: sin ficha independiente por acuerdo editorial; no inventar identidad ni enlace."
     },
     {
       "ref": "Gn 36:42",
@@ -19957,11 +20036,14 @@
         "onomastico/cenaz-hijo-de-elifaz"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/cenaz-hijo-de-elifaz",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-18"
+      ],
+      "motivo": "Mención a jefatura homónima en ficha personal existente, por acuerdo editorial; NO implica identidad biográfica demostrada y NO genera ficha de jefatura separada."
     },
     {
       "ref": "Gn 36:42",
@@ -19977,11 +20059,71 @@
         "onomastico/teman-hijo-de-elifaz"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/teman-hijo-de-elifaz",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-18"
+      ],
+      "motivo": "Mención a jefatura homónima en ficha personal existente, por acuerdo editorial; NO implica identidad biográfica demostrada y NO genera ficha de jefatura separada."
+    },
+    {
+      "ref": "Gn 36:42",
+      "chapter": 36,
+      "verse": 42,
+      "start": 14,
+      "end": 20,
+      "literal": "Mibzar",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-18"
+      ],
+      "motivo": "Nombre de jefatura de Edom (Gn 36:40-43) no recogido por el extractor: sin ficha independiente por acuerdo editorial; no inventar identidad ni enlace."
+    },
+    {
+      "ref": "Gn 36:43",
+      "chapter": 36,
+      "verse": 43,
+      "start": 0,
+      "end": 7,
+      "literal": "Magdiel",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-18"
+      ],
+      "motivo": "Nombre de jefatura de Edom (Gn 36:40-43) no recogido por el extractor: sin ficha independiente por acuerdo editorial; no inventar identidad ni enlace."
+    },
+    {
+      "ref": "Gn 36:43",
+      "chapter": 36,
+      "verse": 43,
+      "start": 10,
+      "end": 14,
+      "literal": "Iram",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-18"
+      ],
+      "motivo": "Nombre de jefatura de Edom (Gn 36:40-43) no recogido por el extractor: sin ficha independiente por acuerdo editorial; no inventar identidad ni enlace."
     },
     {
       "ref": "Gn 36:43",
