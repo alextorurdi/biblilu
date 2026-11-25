@@ -81,6 +81,16 @@ def main():
     assert resolved("Gn 36:20","Aná","onomastico/ana-hijo-de-seir")
     assert resolved("Gn 38:30","Zera","onomastico/zara")
     assert resolved("Gn 36:33","Zera",None)
+    assert len([x for x in corrections if x["codigo"]=="CT-17"]) == 39
+    # Auditoría de cobertura: presencia y offsets independientes de los candidatos brutos.
+    ct17 = [x for x in records if "CT-17" in x["fuentes"]]
+    assert len(ct17) == 39
+    def covered(ref, literal, required=1):
+        return len([x for x in ct17 if x["ref"]==ref and x["literal"].casefold()==literal.casefold()]) == required
+    assert covered("Gn 38:18","cordón") and covered("Gn 38:18","bastón")
+    assert covered("Gn 40:17","canasta",2)
+    assert covered("Gn 47:31","cama") and covered("Gn 32:32","israelitas")
+    assert covered("Gn 27:28","rocío") and covered("Gn 37:31","sangre")
     assert rules["r01"]["ficha_principal"] == "tribus/israelitas"
     assert rules["r01"]["remision_futura"] == "tribus/israel"
     assert rules["r01"]["persona_distinta"] == "onomastico/jacob"
