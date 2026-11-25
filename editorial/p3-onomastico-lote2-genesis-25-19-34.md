@@ -1,6 +1,6 @@
 # Fase 3 · Onomástico, lote 2: Génesis 25:19–34 (BES 2026)
 
-**Estado:** PROPUESTA PARA REVISIÓN EDITORIAL. No equivale a aprobación ni habilita publicación.
+**Estado:** APROBADO EDITORIALMENTE (25/11/2026). No habilita por sí mismo la publicación.
 **Fuentes:** `data/genesis_25_50_bes.json`; `data/registro_maestro.json`; `editorial/criterios-identidades-genesis.md`.
 
 ## Menciones personales comprobadas
@@ -29,7 +29,7 @@
 1. Siete personas identificadas, todas con ficha histórica propuesta; **Edom** es una segunda designación de Esaú, no una octava persona.
 2. No crear nuevas fichas ni modificar las ya aprobadas durante P3.
 3. Mantener la referencia Gn 25:30 al alias `Edom` del personaje, sin extrapolarla al resto de las menciones de Edom.
-4. Pendiente de aprobación editorial del lote. No modificar aún escenas, genealogías ni enlaces.
+4. **Lote aprobado editorialmente el 25/11/2026.** No modificar escenas, genealogías ni enlaces hasta sus fases correspondientes. No modificar aún escenas, genealogías ni enlaces.
 
 **Siguiente bloque onomástico:** Génesis 26, con revisión específica de Abimelec y Ficol y la cuestión de su identidad respecto de las menciones anteriores.
 
