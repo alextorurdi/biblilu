@@ -9,10 +9,9 @@
   "resumen": {
     "total": 1835,
     "brutos": 1438,
-    "reconciliados": 1791,
+    "reconciliados": 1835,
     "por_estado": {
-      "clasificado_por_contexto": 1682,
-      "candidato_unico_no_validado": 44,
+      "clasificado_por_contexto": 1726,
       "excluido_aprobado": 39,
       "nota_contextual_aprobada": 1,
       "clasificado_sin_id": 61,
@@ -2323,11 +2322,14 @@
         "onomastico/abimelec"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abimelec",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "Abimelec de Gn 26 en ficha conjunta histórica; identidad respecto del Abimelec de Gn 20–21 permanece expresamente no determinada."
     },
     {
       "ref": "Gn 26:1",
@@ -2527,11 +2529,14 @@
         "onomastico/abimelec"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abimelec",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "Abimelec de Gn 26 en ficha conjunta histórica; identidad respecto del Abimelec de Gn 20–21 permanece expresamente no determinada."
     },
     {
       "ref": "Gn 26:8",
@@ -2616,11 +2621,14 @@
         "onomastico/abimelec"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abimelec",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "Abimelec de Gn 26 en ficha conjunta histórica; identidad respecto del Abimelec de Gn 20–21 permanece expresamente no determinada."
     },
     {
       "ref": "Gn 26:9",
@@ -2682,11 +2690,14 @@
         "onomastico/abimelec"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abimelec",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "Abimelec de Gn 26 en ficha conjunta histórica; identidad respecto del Abimelec de Gn 20–21 permanece expresamente no determinada."
     },
     {
       "ref": "Gn 26:11",
@@ -2702,11 +2713,14 @@
         "onomastico/abimelec"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abimelec",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "Abimelec de Gn 26 en ficha conjunta histórica; identidad respecto del Abimelec de Gn 20–21 permanece expresamente no determinada."
     },
     {
       "ref": "Gn 26:12",
@@ -2925,11 +2939,14 @@
         "onomastico/abimelec"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abimelec",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "Abimelec de Gn 26 en ficha conjunta histórica; identidad respecto del Abimelec de Gn 20–21 permanece expresamente no determinada."
     },
     {
       "ref": "Gn 26:16",
@@ -3611,11 +3628,14 @@
         "onomastico/abimelec"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/abimelec",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "Abimelec de Gn 26 en ficha conjunta histórica; identidad respecto del Abimelec de Gn 20–21 permanece expresamente no determinada."
     },
     {
       "ref": "Gn 26:26",
@@ -6676,11 +6696,14 @@
         "objetos/puerta"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "objetos",
       "id": "objetos/puerta",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 28:18",
@@ -27854,11 +27877,14 @@
         "animales/vaca"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/vaca",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 41:26",
@@ -27894,11 +27920,14 @@
         "animales/vaca"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/vaca",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 41:27",
@@ -37745,11 +37774,14 @@
         "onomastico/manases"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/manases",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 48:1",
@@ -37765,11 +37797,14 @@
         "onomastico/efrain"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/efrain",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 48:2",
@@ -37941,11 +37976,14 @@
         "onomastico/efrain"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/efrain",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 48:5",
@@ -37961,11 +37999,14 @@
         "onomastico/manases"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/manases",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 48:5",
@@ -38004,11 +38045,14 @@
         "onomastico/ruben"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/ruben",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 48:5",
@@ -38024,11 +38068,14 @@
         "onomastico/simeon"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/simeon",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 48:7",
@@ -38312,11 +38359,14 @@
         "onomastico/efrain"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/efrain",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 48:13",
@@ -38332,11 +38382,14 @@
         "onomastico/manases"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/manases",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 48:14",
@@ -38352,11 +38405,14 @@
         "onomastico/efrain"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/efrain",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 48:14",
@@ -38372,11 +38428,14 @@
         "onomastico/manases"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/manases",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 48:15",
@@ -38530,11 +38589,14 @@
         "onomastico/efrain"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/efrain",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 48:17",
@@ -38550,11 +38612,14 @@
         "onomastico/efrain"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/efrain",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 48:17",
@@ -38570,11 +38635,14 @@
         "onomastico/manases"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/manases",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 48:18",
@@ -38632,11 +38700,14 @@
         "onomastico/efrain"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/efrain",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 48:20",
@@ -38652,11 +38723,14 @@
         "onomastico/manases"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/manases",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 48:20",
@@ -38672,11 +38746,14 @@
         "onomastico/efrain"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/efrain",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 48:20",
@@ -38692,11 +38769,14 @@
         "onomastico/manases"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/manases",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 48:21",
@@ -38735,11 +38815,14 @@
         "tribus/amorreos"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "tribus",
       "id": "tribus/amorreos",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 48:22",
@@ -38822,11 +38905,14 @@
         "onomastico/ruben"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/ruben",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 49:4",
@@ -38882,11 +38968,14 @@
         "onomastico/simeon"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/simeon",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 49:5",
@@ -38902,11 +38991,14 @@
         "onomastico/levi"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/levi",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 49:7",
@@ -38922,11 +39014,14 @@
         "onomastico/jacob"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/jacob",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 49:7",
@@ -38961,11 +39056,14 @@
         "onomastico/juda"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/juda",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 49:9",
@@ -38981,11 +39079,14 @@
         "onomastico/juda"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/juda",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 49:10",
@@ -39066,11 +39167,14 @@
         "animales/asno"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/asno",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 49:11",
@@ -39086,11 +39190,14 @@
         "animales/vid"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/vid",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 49:11",
@@ -39219,11 +39326,14 @@
         "animales/asno"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "animales",
       "id": "animales/asno",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 49:16",
@@ -39403,11 +39513,14 @@
         "onomastico/jose"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/jose",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 49:24",
@@ -39444,11 +39557,14 @@
         "onomastico/jacob"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/jacob",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 49:24",
@@ -39483,11 +39599,14 @@
         "onomastico/jose"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/jose",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 49:27",
@@ -39546,11 +39665,14 @@
         "onomastico/efron"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/efron",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 49:29",
@@ -39586,11 +39708,14 @@
         "lugares/macpela"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "lugares",
       "id": "lugares/macpela",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 49:30",
@@ -39677,11 +39802,14 @@
         "onomastico/efron"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/efron",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 49:30",
@@ -39740,11 +39868,14 @@
         "onomastico/sara"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
+      "estado": "clasificado_por_contexto",
       "categoria": "onomastico",
       "id": "onomastico/sara",
-      "accion": null,
-      "fuentes": []
+      "accion": "asociacion_contextual",
+      "fuentes": [
+        "CT-26"
+      ],
+      "motivo": "TR-29 y decisiones previas: referencia nominal o figura poética, conservar el ID propuesto con nota contextual y sin fusionar personas, tribus u objetos figurados."
     },
     {
       "ref": "Gn 49:31",
