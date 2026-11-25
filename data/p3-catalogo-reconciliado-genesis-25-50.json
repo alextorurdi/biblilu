@@ -7,15 +7,15 @@
   "inventario_original": "data/p3-extracciones-genesis-25-50.json",
   "reglas": "data/p3-reconciliacion-genesis-25-50.json",
   "resumen": {
-    "total": 1697,
+    "total": 1736,
     "brutos": 1438,
-    "reconciliados": 403,
+    "reconciliados": 442,
     "por_estado": {
       "candidato_unico_no_validado": 1294,
-      "clasificado_por_contexto": 314,
+      "clasificado_por_contexto": 350,
       "excluido_aprobado": 39,
       "nota_contextual_aprobada": 1,
-      "clasificado_sin_id": 45,
+      "clasificado_sin_id": 48,
       "exclusion_personal_aprobada": 1,
       "asociacion_contextual_aprobada": 2,
       "homonimo_no_identificado": 1
@@ -53,16 +53,24 @@
       "lugares/sitna",
       "lugares/sucot-jacob",
       "lugares/timnat",
+      "materiales/agua",
+      "materiales/rocio",
+      "materiales/sangre",
       "medidas/kibra",
       "medidas/qesita",
       "medidas/quinto",
       "objetos/anillo",
       "objetos/arco-y-flechas",
+      "objetos/aretes",
+      "objetos/baston",
+      "objetos/cama",
+      "objetos/canasta",
       "objetos/carro",
       "objetos/cetro",
       "objetos/cisterna",
       "objetos/copa",
       "objetos/manto",
+      "objetos/mesa",
       "objetos/pozo",
       "objetos/saco",
       "objetos/sello-y-cordon",
@@ -2815,6 +2823,26 @@
       "id_futuro": true
     },
     {
+      "ref": "Gn 26:19",
+      "chapter": 26,
+      "verse": 19,
+      "start": 71,
+      "end": 75,
+      "literal": "agua",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/agua",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 26:20",
       "chapter": 26,
       "verse": 20,
@@ -2853,6 +2881,26 @@
       "id": "onomastico/isaac",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 26:20",
+      "chapter": 26,
+      "verse": 20,
+      "start": 80,
+      "end": 84,
+      "literal": "agua",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/agua",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 26:20",
@@ -3384,6 +3432,26 @@
       "id_futuro": true
     },
     {
+      "ref": "Gn 26:32",
+      "chapter": 26,
+      "verse": 32,
+      "start": 119,
+      "end": 123,
+      "literal": "agua",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/agua",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 26:33",
       "chapter": 26,
       "verse": 33,
@@ -3756,6 +3824,26 @@
       "fuentes": [
         "CT-11"
       ],
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 27:3",
+      "chapter": 27,
+      "verse": 3,
+      "start": 30,
+      "end": 37,
+      "literal": "flechas",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/arco-y-flechas",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
       "id_futuro": true
     },
     {
@@ -4519,6 +4607,26 @@
       "fuentes": []
     },
     {
+      "ref": "Gn 27:28",
+      "chapter": 27,
+      "verse": 28,
+      "start": 18,
+      "end": 23,
+      "literal": "rocío",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/rocio",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 27:30",
       "chapter": 27,
       "verse": 30,
@@ -4837,6 +4945,26 @@
       "id": "onomastico/isaac",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 27:39",
+      "chapter": 27,
+      "verse": 39,
+      "start": 84,
+      "end": 89,
+      "literal": "rocío",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/rocio",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 27:41",
@@ -6138,6 +6266,26 @@
       "ref": "Gn 29:3",
       "chapter": 29,
       "verse": 3,
+      "start": 76,
+      "end": 80,
+      "literal": "agua",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/agua",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 29:3",
+      "chapter": 29,
+      "verse": 3,
       "start": 87,
       "end": 93,
       "literal": "ovejas",
@@ -6387,6 +6535,26 @@
       "ref": "Gn 29:7",
       "chapter": 29,
       "verse": 7,
+      "start": 71,
+      "end": 75,
+      "literal": "agua",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/agua",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 29:7",
+      "chapter": 29,
+      "verse": 7,
       "start": 82,
       "end": 88,
       "literal": "ovejas",
@@ -6442,6 +6610,26 @@
       "fuentes": [
         "CT-11"
       ],
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 29:8",
+      "chapter": 29,
+      "verse": 8,
+      "start": 140,
+      "end": 144,
+      "literal": "agua",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/agua",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
       "id_futuro": true
     },
     {
@@ -6663,6 +6851,26 @@
       "fuentes": [
         "CT-11"
       ],
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 29:10",
+      "chapter": 29,
+      "verse": 10,
+      "start": 143,
+      "end": 147,
+      "literal": "agua",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/agua",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
       "id_futuro": true
     },
     {
@@ -9233,6 +9441,26 @@
       "fuentes": []
     },
     {
+      "ref": "Gn 30:38",
+      "chapter": 30,
+      "verse": 38,
+      "start": 70,
+      "end": 74,
+      "literal": "agua",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/agua",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 30:40",
       "chapter": 30,
       "verse": 40,
@@ -9311,6 +9539,26 @@
       "id": "onomastico/jacob",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 30:41",
+      "chapter": 30,
+      "verse": 41,
+      "start": 109,
+      "end": 113,
+      "literal": "agua",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/agua",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 30:42",
@@ -11744,6 +11992,26 @@
       "fuentes": []
     },
     {
+      "ref": "Gn 32:10",
+      "chapter": 32,
+      "verse": 10,
+      "start": 103,
+      "end": 109,
+      "literal": "bastón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/baston",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 32:11",
       "chapter": 32,
       "verse": 11,
@@ -12303,6 +12571,26 @@
       "fuentes": [
         "CT-11"
       ],
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 32:32",
+      "chapter": 32,
+      "verse": 32,
+      "start": 24,
+      "end": 34,
+      "literal": "israelitas",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/israelitas",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
       "id_futuro": true
     },
     {
@@ -14597,6 +14885,26 @@
       "id": "onomastico/jacob",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 35:4",
+      "chapter": 35,
+      "verse": 4,
+      "start": 71,
+      "end": 77,
+      "literal": "aretes",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/aretes",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 35:4",
@@ -19002,6 +19310,26 @@
       "id_futuro": true
     },
     {
+      "ref": "Gn 36:31",
+      "chapter": 36,
+      "verse": 31,
+      "start": 91,
+      "end": 101,
+      "literal": "israelitas",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/israelitas",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 36:32",
       "chapter": 36,
       "verse": 32,
@@ -20288,6 +20616,26 @@
       "ref": "Gn 37:22",
       "chapter": 37,
       "verse": 22,
+      "start": 27,
+      "end": 33,
+      "literal": "sangre",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/sangre",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 37:22",
+      "chapter": 37,
+      "verse": 22,
       "start": 59,
       "end": 64,
       "literal": "pozos",
@@ -20409,6 +20757,26 @@
       "id_futuro": true
     },
     {
+      "ref": "Gn 37:24",
+      "chapter": 37,
+      "verse": 24,
+      "start": 68,
+      "end": 72,
+      "literal": "agua",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/agua",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 37:25",
       "chapter": 37,
       "verse": 25,
@@ -20510,6 +20878,26 @@
       "id": "onomastico/juda",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 37:26",
+      "chapter": 37,
+      "verse": 26,
+      "start": 81,
+      "end": 87,
+      "literal": "sangre",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/sangre",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:27",
@@ -20776,6 +21164,26 @@
       "id": "onomastico/jose",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 37:31",
+      "chapter": 37,
+      "verse": 31,
+      "start": 73,
+      "end": 79,
+      "literal": "sangre",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/sangre",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:32",
@@ -21721,6 +22129,26 @@
       "ref": "Gn 38:18",
       "chapter": 38,
       "verse": 18,
+      "start": 68,
+      "end": 74,
+      "literal": "cordón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/sello-y-cordon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 38:18",
+      "chapter": 38,
+      "verse": 18,
       "start": 79,
       "end": 84,
       "literal": "sello",
@@ -21736,6 +22164,26 @@
       "fuentes": [
         "CT-11"
       ],
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 38:18",
+      "chapter": 38,
+      "verse": 18,
+      "start": 90,
+      "end": 96,
+      "literal": "bastón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/baston",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
       "id_futuro": true
     },
     {
@@ -22041,6 +22489,46 @@
       "fuentes": [
         "CT-11"
       ],
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 38:25",
+      "chapter": 38,
+      "verse": 25,
+      "start": 162,
+      "end": 168,
+      "literal": "cordón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/sello-y-cordon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 38:25",
+      "chapter": 38,
+      "verse": 25,
+      "start": 176,
+      "end": 182,
+      "literal": "bastón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/baston",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
       "id_futuro": true
     },
     {
@@ -22997,6 +23485,25 @@
       "id_futuro": true
     },
     {
+      "ref": "Gn 40:15",
+      "chapter": 40,
+      "verse": 15,
+      "start": 53,
+      "end": 60,
+      "literal": "hebreos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "tribus",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Sin ID fijado por decisión editorial."
+    },
+    {
       "ref": "Gn 40:16",
       "chapter": 40,
       "verse": 16,
@@ -23020,6 +23527,26 @@
       "ref": "Gn 40:17",
       "chapter": 40,
       "verse": 17,
+      "start": 6,
+      "end": 13,
+      "literal": "canasta",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/canasta",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 40:17",
+      "chapter": 40,
+      "verse": 17,
       "start": 85,
       "end": 89,
       "literal": "aves",
@@ -23035,6 +23562,26 @@
       "fuentes": [
         "CT-11"
       ]
+    },
+    {
+      "ref": "Gn 40:17",
+      "chapter": 40,
+      "verse": 17,
+      "start": 109,
+      "end": 116,
+      "literal": "canasta",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/canasta",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 40:18",
@@ -23920,6 +24467,25 @@
       "id": "onomastico/jose",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 41:42",
+      "chapter": 41,
+      "verse": 42,
+      "start": 131,
+      "end": 137,
+      "literal": "cadena",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "objetos",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Sin ID fijado por decisión editorial."
     },
     {
       "ref": "Gn 41:42",
@@ -25098,6 +25664,26 @@
       "fuentes": []
     },
     {
+      "ref": "Gn 42:22",
+      "chapter": 42,
+      "verse": 22,
+      "start": 122,
+      "end": 128,
+      "literal": "sangre",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/sangre",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 42:23",
       "chapter": 42,
       "verse": 23,
@@ -25854,6 +26440,26 @@
       "ref": "Gn 43:24",
       "chapter": 43,
       "verse": 24,
+      "start": 65,
+      "end": 69,
+      "literal": "agua",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/agua",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 43:24",
+      "chapter": 43,
+      "verse": 24,
       "start": 112,
       "end": 117,
       "literal": "asnos",
@@ -26071,6 +26677,25 @@
       "fuentes": []
     },
     {
+      "ref": "Gn 43:32",
+      "chapter": 43,
+      "verse": 32,
+      "start": 126,
+      "end": 133,
+      "literal": "hebreos",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "tribus",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Sin ID fijado por decisión editorial."
+    },
+    {
       "ref": "Gn 43:33",
       "chapter": 43,
       "verse": 33,
@@ -26109,6 +26734,26 @@
       "id": "onomastico/jose",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 43:34",
+      "chapter": 43,
+      "verse": 34,
+      "start": 40,
+      "end": 44,
+      "literal": "mesa",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/mesa",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 43:34",
@@ -31641,6 +32286,26 @@
       "fuentes": []
     },
     {
+      "ref": "Gn 47:31",
+      "chapter": 47,
+      "verse": 31,
+      "start": 86,
+      "end": 90,
+      "literal": "cama",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/cama",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 48:1",
       "chapter": 48,
       "verse": 1,
@@ -31759,6 +32424,26 @@
       "id": "onomastico/jose",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 48:2",
+      "chapter": 48,
+      "verse": 2,
+      "start": 100,
+      "end": 104,
+      "literal": "cama",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/cama",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 48:3",
@@ -32692,6 +33377,46 @@
       "fuentes": []
     },
     {
+      "ref": "Gn 49:4",
+      "chapter": 49,
+      "verse": 4,
+      "start": 28,
+      "end": 32,
+      "literal": "agua",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/agua",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 49:4",
+      "chapter": 49,
+      "verse": 4,
+      "start": 79,
+      "end": 83,
+      "literal": "cama",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/cama",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 49:5",
       "chapter": 49,
       "verse": 5,
@@ -32856,6 +33581,26 @@
       "id_futuro": true
     },
     {
+      "ref": "Gn 49:10",
+      "chapter": 49,
+      "verse": 10,
+      "start": 38,
+      "end": 44,
+      "literal": "bastón",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/baston",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
+    },
+    {
       "ref": "Gn 49:11",
       "chapter": 49,
       "verse": 11,
@@ -32914,6 +33659,26 @@
       "fuentes": [
         "CT-11"
       ],
+      "id_futuro": true
+    },
+    {
+      "ref": "Gn 49:11",
+      "chapter": 49,
+      "verse": 11,
+      "start": 90,
+      "end": 96,
+      "literal": "sangre",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "materiales",
+      "id": "materiales/sangre",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
       "id_futuro": true
     },
     {
@@ -33622,6 +34387,26 @@
       "id": "onomastico/jacob",
       "accion": null,
       "fuentes": []
+    },
+    {
+      "ref": "Gn 49:33",
+      "chapter": 49,
+      "verse": 33,
+      "start": 77,
+      "end": 81,
+      "literal": "cama",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/cama",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-17"
+      ],
+      "motivo": "Auditoría dirigida de cobertura 25/11/2026; clasificación P3, ficha/enlace P4. Entidad ya aprobada editorialmente.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 50:1",
