@@ -191,3 +191,8 @@ El [generador reproducible](../scripts/build_p3_catalogo_reconciliado.py) permit
 ### Segunda pasada de reconciliación · 25/11/2026
 
 [**Informe de la segunda pasada**](p3-reconciliacion-segunda-pasada.md): el catálogo derivado contiene ahora **316 registros con reglas aprobadas**, frente a 112 antes de la ampliación, y una cola reducida de **35 registros sin reconciliar**; otros **1.331** siguen como candidatos únicos **no validados**. Se añaden **196 correcciones CT-11** y **8 CT-12**, incluida la separación Galaad región/majano y la exclusión de «sacó» verbal. Las posiciones se contrastaron sin errores en el procesamiento. GitHub Actions **todavía sin resultado confirmado**. La Fase 3 **no está técnicamente cerrada**; siguen pendientes verificación de candidatos únicos, cobertura y comprobación del workflow. No se publican fichas ni cambios en escenas.
+
+
+### Tercera pasada · homónimos y variantes (25/11/2026)
+
+[**Auditoría Siquem / Aná / Zera y cola residual**](p3-auditoria-homonimos-y-variantes-genesis-25-50.md): reconciliados **35 registros antes residuales** mediante CT-13, sin inventar URLs para 30 casos sin ficha inequívoca; aplicadas **29 correcciones CT-14** a candidatos engañosamente unívocos: Siquem persona (15), Aná (9), Zera (5). El catálogo derivado mantiene **1.682 registros**, de los cuales **380** tienen regla contextual y **1.302** siguen como candidatos únicos no validados; **0** continúan en estado `candidato_no_reconciliado`, pero ello **no constituye cierre semántico**. Siquem personal y Zera padre de Jobab no reciben ID ficticio. Se reforzaron regresiones del script de validación. La ejecución real de CI sigue sin confirmarse; sin fichas o enlaces publicados.
