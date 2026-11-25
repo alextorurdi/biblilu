@@ -9,22 +9,52 @@
   "resumen": {
     "total": 1682,
     "brutos": 1438,
-    "reconciliados": 112,
+    "reconciliados": 308,
     "por_estado": {
       "candidato_unico_no_validado": 1331,
-      "candidato_no_reconciliado": 239,
-      "clasificado_por_contexto": 81,
-      "excluido_aprobado": 27,
+      "clasificado_por_contexto": 267,
+      "excluido_aprobado": 37,
+      "candidato_no_reconciliado": 43,
       "nota_contextual_aprobada": 1,
       "exclusion_personal_aprobada": 1,
       "asociacion_contextual_aprobada": 2
     },
     "ids_futuros": [
+      "animales/trigo",
+      "lugares/adulam",
+      "lugares/belen",
+      "lugares/dotan",
       "lugares/edom",
+      "lugares/enaim",
+      "lugares/esec",
+      "lugares/gosen",
+      "lugares/nilo",
+      "lugares/on",
+      "lugares/padan-aram",
+      "lugares/peniel",
+      "lugares/rehobot-del-rio",
+      "lugares/rehobot-pozo",
       "lugares/seba-pozo",
+      "lugares/sitna",
+      "lugares/sucot-jacob",
+      "lugares/timnat",
       "medidas/kibra",
       "medidas/qesita",
+      "medidas/quinto",
+      "objetos/anillo",
+      "objetos/arco-y-flechas",
+      "objetos/carro",
+      "objetos/cetro",
       "objetos/cisterna",
+      "objetos/copa",
+      "objetos/manto",
+      "objetos/pozo",
+      "objetos/saco",
+      "objetos/sello-y-cordon",
+      "objetos/tumba",
+      "objetos/tunica",
+      "onomastico/ahuzat",
+      "onomastico/beeri-heteo",
       "tribus/dan",
       "tribus/edomitas",
       "tribus/israelitas"
@@ -186,11 +216,13 @@
         "onomastico/sua-suegro-de-juda"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/sua",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 25:3",
@@ -229,11 +261,13 @@
         "onomastico/seba-iii"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/seba-hijo-de-jocsan",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 25:3",
@@ -250,11 +284,13 @@
         "onomastico/dedan-hijo-de-jocsan"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/dedan-hijo-de-jocsan",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 25:3",
@@ -271,11 +307,13 @@
         "onomastico/dedan-hijo-de-jocsan"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/dedan-hijo-de-jocsan",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 25:4",
@@ -352,11 +390,13 @@
         "onomastico/hanoc-hijo-de-ruben"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/hanoc-hijo-de-madian",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 25:4",
@@ -590,11 +630,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 25:9",
@@ -652,11 +694,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 25:10",
@@ -770,11 +814,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/pozo-del-viviente-que-me-ve",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 25:12",
@@ -1193,11 +1239,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/shur",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 25:18",
@@ -1331,11 +1379,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 25:20",
@@ -1429,11 +1480,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/manto",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 25:25",
@@ -2466,11 +2520,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 26:15",
@@ -2624,11 +2681,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 26:18",
@@ -2722,11 +2782,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 26:20",
@@ -2800,11 +2863,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 26:20",
@@ -2818,11 +2884,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/esec",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 26:21",
@@ -2836,11 +2905,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 26:21",
@@ -2874,11 +2946,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/sitna",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 26:22",
@@ -2892,11 +2967,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 26:22",
@@ -2910,11 +2988,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/rehobot-pozo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 26:23",
@@ -3068,11 +3149,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 26:26",
@@ -3146,11 +3230,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/ahuzat",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 26:26",
@@ -3264,11 +3351,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 26:33",
@@ -3302,11 +3392,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 26:33",
@@ -3406,11 +3499,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/beeri-heteo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 26:34",
@@ -3424,11 +3520,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 26:34",
@@ -3445,11 +3543,13 @@
         "onomastico/basemat-hija-de-ismael"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/basemat-hija-de-elon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 26:34",
@@ -3466,11 +3566,13 @@
         "onomastico/elon-padre-de-basemat"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/elon-padre-de-basemat",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 26:34",
@@ -3484,11 +3586,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 26:35",
@@ -3622,11 +3726,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/arco-y-flechas",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 27:5",
@@ -4944,11 +5051,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 27:46",
@@ -4982,11 +5091,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 28:1",
@@ -5040,11 +5151,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 28:2",
@@ -5178,11 +5292,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 28:5",
@@ -5356,11 +5473,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 28:7",
@@ -5394,11 +5514,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 28:8",
@@ -5756,11 +5879,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 28:19",
@@ -5774,11 +5899,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 28:20",
@@ -5852,11 +5979,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 29:2",
@@ -5870,11 +6000,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 29:2",
@@ -5908,11 +6041,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 29:2",
@@ -5946,11 +6082,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 29:3",
@@ -6024,11 +6163,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 29:4",
@@ -6109,11 +6251,13 @@
         "onomastico/nacor-ii"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/nacor-ii",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 29:6",
@@ -6268,11 +6412,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 29:8",
@@ -6486,11 +6633,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/pozo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 29:11",
@@ -8229,11 +8379,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/trigo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 30:14",
@@ -9489,11 +9642,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 31:13",
@@ -9628,11 +9783,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 31:18",
@@ -10967,11 +11125,13 @@
         "onomastico/nacor-ii"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/nacor-ii",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 31:53",
@@ -12028,11 +12188,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/peniel",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 32:31",
@@ -12066,11 +12229,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/peniel",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 32:32",
@@ -12733,11 +12899,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/sucot-jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 33:17",
@@ -12772,11 +12941,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/sucot-jacob",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 33:18",
@@ -12790,11 +12962,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 33:18",
@@ -14094,11 +14269,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/cananeo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 35:1",
@@ -14132,11 +14309,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 35:1",
@@ -14210,11 +14389,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 35:3",
@@ -14348,11 +14529,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 35:6",
@@ -14366,11 +14549,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 35:6",
@@ -14428,11 +14613,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 35:8",
@@ -14466,11 +14653,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 35:9",
@@ -14504,11 +14693,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 35:10",
@@ -14682,11 +14874,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 35:16",
@@ -14700,11 +14894,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 35:16",
@@ -14738,11 +14934,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/belen",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 35:16",
@@ -14854,11 +15053,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/belen",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 35:19",
@@ -14872,11 +15074,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/belen",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 35:20",
@@ -14910,11 +15115,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/tumba",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 35:20",
@@ -14928,11 +15136,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/tumba",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 35:20",
@@ -15450,11 +15661,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 35:27",
@@ -15757,11 +15971,13 @@
         "onomastico/ada-mujer-de-esau"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/ada-mujer-de-esau",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 36:2",
@@ -15778,11 +15994,13 @@
         "onomastico/elon-padre-de-basemat"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/elon-padre-de-basemat",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 36:2",
@@ -15796,11 +16014,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 36:2",
@@ -15897,11 +16117,13 @@
         "onomastico/basemat-hija-de-ismael"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/basemat-hija-de-ismael",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 36:3",
@@ -15958,11 +16180,13 @@
         "onomastico/ada-mujer-de-esau"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/ada-mujer-de-esau",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 36:4",
@@ -16019,11 +16243,13 @@
         "onomastico/basemat-hija-de-ismael"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/basemat-hija-de-ismael",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 36:4",
@@ -16389,11 +16615,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/edomitas",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 36:9",
@@ -16474,11 +16703,13 @@
         "onomastico/ada-mujer-de-esau"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/ada-mujer-de-esau",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 36:10",
@@ -16535,11 +16766,13 @@
         "onomastico/basemat-hija-de-ismael"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/basemat-hija-de-ismael",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 36:10",
@@ -16696,11 +16929,13 @@
         "onomastico/timna-hija-de-seir"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/timna-concubina-de-elifaz",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 36:12",
@@ -16777,11 +17012,13 @@
         "onomastico/ada-mujer-de-esau"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/ada-mujer-de-esau",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 36:12",
@@ -16918,11 +17155,13 @@
         "onomastico/basemat-hija-de-ismael"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/basemat-hija-de-ismael",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 36:13",
@@ -17338,11 +17577,13 @@
         "onomastico/ada-mujer-de-esau"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/ada-mujer-de-esau",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 36:17",
@@ -17518,11 +17759,13 @@
         "onomastico/basemat-hija-de-ismael"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/basemat-hija-de-ismael",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 36:17",
@@ -18004,11 +18247,13 @@
         "onomastico/timna-hija-de-seir"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/timna-hija-de-seir",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 36:23",
@@ -18577,11 +18822,13 @@
         "onomastico/jobab-rey-de-edom"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jobab-rey-de-edom",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 36:33",
@@ -18618,11 +18865,13 @@
         "onomastico/jobab-rey-de-edom"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/jobab-rey-de-edom",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 36:34",
@@ -18821,11 +19070,13 @@
         "onomastico/saul-rey-de-edom"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/saul-rey-de-edom",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 36:37",
@@ -18839,11 +19090,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/rehobot-del-rio",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 36:38",
@@ -18860,11 +19114,13 @@
         "onomastico/saul-rey-de-edom"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/saul-rey-de-edom",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 36:38",
@@ -19078,11 +19334,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/edomitas",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:1",
@@ -19280,11 +19539,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/tunica",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:5",
@@ -19559,11 +19821,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/dotan",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:17",
@@ -19597,11 +19862,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/dotan",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:20",
@@ -19615,11 +19883,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/cisterna",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:21",
@@ -19653,11 +19924,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/cisterna",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:22",
@@ -19711,11 +19985,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/tunica",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:24",
@@ -19923,11 +20200,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/cisterna",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:28",
@@ -20039,11 +20319,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/cisterna",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:29",
@@ -20077,11 +20360,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/tunica",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:31",
@@ -20115,11 +20401,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/tunica",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:32",
@@ -20133,11 +20422,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/tunica",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:33",
@@ -20171,11 +20463,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/tunica",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 37:33",
@@ -20345,11 +20640,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/adulam",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 38:1",
@@ -20404,11 +20702,13 @@
         "onomastico/sua-suegro-de-juda"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/sua-suegro-de-juda",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 38:4",
@@ -20705,11 +21005,13 @@
         "onomastico/sua-suegro-de-juda"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/sua-suegro-de-juda",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 38:12",
@@ -20743,11 +21045,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/timnat",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 38:12",
@@ -20799,11 +21104,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/adulam",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 38:13",
@@ -20837,11 +21145,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/timnat",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 38:13",
@@ -20875,11 +21186,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/enaim",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 38:14",
@@ -20893,11 +21207,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/timnat",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 38:14",
@@ -20971,11 +21288,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/sello-y-cordon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 38:18",
@@ -20989,11 +21309,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/sello-y-cordon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 38:18",
@@ -21123,11 +21446,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/enaim",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 38:22",
@@ -21279,11 +21605,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/sello-y-cordon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 38:26",
@@ -22125,11 +22454,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 40:11",
@@ -22143,11 +22475,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 40:11",
@@ -22161,11 +22496,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 40:12",
@@ -22199,11 +22537,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 40:16",
@@ -22237,11 +22578,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/aves-de-rapina",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 40:18",
@@ -22275,11 +22618,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/aves-de-rapina",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 40:21",
@@ -22293,11 +22638,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 40:22",
@@ -22351,11 +22699,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/nilo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 41:2",
@@ -22449,11 +22800,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "excluido_aprobado",
+      "categoria": "animales",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "excluir",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 41:6",
@@ -22467,11 +22820,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "excluido_aprobado",
+      "categoria": "animales",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "excluir",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 41:7",
@@ -22485,11 +22840,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "excluido_aprobado",
+      "categoria": "animales",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "excluir",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 41:7",
@@ -22503,11 +22860,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "excluido_aprobado",
+      "categoria": "animales",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "excluir",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 41:8",
@@ -22641,11 +23000,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/nilo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 41:18",
@@ -22779,11 +23141,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "excluido_aprobado",
+      "categoria": "animales",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "excluir",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 41:23",
@@ -22797,11 +23161,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "excluido_aprobado",
+      "categoria": "animales",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "excluir",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 41:24",
@@ -22815,11 +23181,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "excluido_aprobado",
+      "categoria": "animales",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "excluir",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 41:24",
@@ -22833,11 +23201,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "excluido_aprobado",
+      "categoria": "animales",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "excluir",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 41:25",
@@ -22891,11 +23261,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "excluido_aprobado",
+      "categoria": "animales",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "excluir",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 41:27",
@@ -22929,11 +23301,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
+      "estado": "excluido_aprobado",
+      "categoria": "animales",
       "id": null,
-      "accion": null,
-      "fuentes": []
+      "accion": "excluir",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 41:29",
@@ -22987,11 +23361,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "medidas",
+      "id": "medidas/quinto",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 41:36",
@@ -23065,11 +23442,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/anillo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 41:42",
@@ -23123,11 +23503,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/carro",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 41:43",
@@ -23277,11 +23660,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/on",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 41:45",
@@ -23493,11 +23879,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/on",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 41:50",
@@ -24341,11 +24730,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 42:26",
@@ -24379,11 +24771,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 42:27",
@@ -24417,11 +24812,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 42:28",
@@ -24435,11 +24833,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 42:29",
@@ -24941,11 +25342,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 43:23",
@@ -25319,11 +25723,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 44:2",
@@ -25337,11 +25744,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 44:2",
@@ -25375,11 +25785,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 44:2",
@@ -25453,11 +25866,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 44:8",
@@ -25535,11 +25951,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 44:10",
@@ -25553,11 +25972,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 44:11",
@@ -25571,11 +25993,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 44:12",
@@ -25589,11 +26014,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 44:12",
@@ -25607,11 +26035,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/saco",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 44:12",
@@ -25745,11 +26176,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 44:17",
@@ -25783,11 +26217,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/copa",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 44:18",
@@ -26061,11 +26498,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 45:10",
@@ -26344,11 +26784,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/carro",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 45:19",
@@ -26440,11 +26883,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/carro",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 45:22",
@@ -26682,11 +27128,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/carro",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 45:27",
@@ -26920,11 +27369,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/carro",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 46:6",
@@ -27144,11 +27596,13 @@
         "onomastico/hanoc-hijo-de-ruben"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/hanoc-hijo-de-ruben",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 46:9",
@@ -27185,11 +27639,13 @@
         "onomastico/hezron-hijo-de-ruben"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/hezron-hijo-de-ruben",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 46:9",
@@ -27346,11 +27802,13 @@
         "onomastico/saul-rey-de-edom"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/saul",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 46:11",
@@ -27607,11 +28065,13 @@
         "onomastico/hezron-hijo-de-ruben"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/hezron-hijo-de-fares",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 46:12",
@@ -27788,11 +28248,13 @@
         "onomastico/elon-padre-de-basemat"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/elon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 46:14",
@@ -27866,11 +28328,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 46:15",
@@ -28207,11 +28672,13 @@
         "onomastico/heber-hijo-de-beria"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "onomastico",
+      "id": "onomastico/heber-hijo-de-beria",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 46:17",
@@ -28463,11 +28930,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/on",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 46:20",
@@ -29210,11 +29680,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 46:28",
@@ -29228,11 +29701,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 46:29",
@@ -29266,11 +29742,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/carro",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 46:29",
@@ -29284,11 +29763,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 46:30",
@@ -29448,11 +29930,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 46:34",
@@ -29571,11 +30056,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 47:2",
@@ -29633,11 +30121,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 47:5",
@@ -29691,11 +30182,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 47:6",
@@ -30385,11 +30879,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "medidas",
+      "id": "medidas/quinto",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 47:26",
@@ -30443,11 +30940,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "medidas",
+      "id": "medidas/quinto",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 47:27",
@@ -30500,11 +31000,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 47:28",
@@ -30818,11 +31321,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/bet-el",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 48:3",
@@ -31024,11 +31529,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/belen",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 48:7",
@@ -31042,11 +31550,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/belen",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 48:7",
@@ -31060,11 +31571,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/belen",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 48:8",
@@ -31617,11 +32131,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/arco-y-flechas",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 49:1",
@@ -31814,11 +32331,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/cetro",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 49:10",
@@ -31892,11 +32412,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/manto",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 49:13",
@@ -32066,11 +32589,13 @@
         "animales/serpiente-natural"
       ],
       "estado_bruto": "ambiguo_desambiguar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "animales",
+      "id": "animales/serpiente-natural",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 49:19",
@@ -32164,11 +32689,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/arco-y-flechas",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 49:24",
@@ -32300,11 +32828,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 49:30",
@@ -32426,11 +32956,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 49:31",
@@ -32544,11 +33076,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 49:33",
@@ -32682,11 +33216,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/tumba",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 50:5",
@@ -32784,11 +33321,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "lugares",
+      "id": "lugares/gosen",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 50:8",
@@ -32843,11 +33383,14 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "objetos",
+      "id": "objetos/carro",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ],
+      "id_futuro": true
     },
     {
       "ref": "Gn 50:10",
@@ -33113,11 +33656,13 @@
       ],
       "candidatos_brutos": [],
       "estado_bruto": "termino_sin_ficha_por_evaluar",
-      "estado": "candidato_no_reconciliado",
-      "categoria": null,
-      "id": null,
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/heteo",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-11"
+      ]
     },
     {
       "ref": "Gn 50:14",
