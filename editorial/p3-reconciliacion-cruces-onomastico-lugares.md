@@ -71,9 +71,9 @@ Los 55 registros son **coincidencias de categoría por el mismo fragmento textua
 - **Gn 49:16–17:** «Dan» se refiere a la proyección tribal en la bendición; su ficha personal puede mencionarse mediante nota contextual conforme al acuerdo mixto.
 - **Gn 36:32–33** Bela rey de Edom, **Gn 46:21** Bela hijo de Benjamín. No confundir con el lugar Bela.
 
-## Cuestión de nomenclatura pendiente de decisión explícita
+## Nomenclatura resuelta por el editor · 25/11/2026
 
-El acuerdo Onomástico de Gn 27–50 prevé una ficha futura colectiva `tribus/israel`, mientras que el acuerdo de Tribus menciona `tribus/israelitas` como denominación posible del pueblo paraguas. No consta en el registro maestro una ficha tribal actual con ninguno de estos IDs. **Se propone una sola ficha canónica «Israelitas» (`tribus/israelitas`), conservando `tribus/israel` como variante o remisión de búsqueda, y no crear dos fichas del mismo pueblo. Requiere aprobación del editor**, a menos que un acuerdo previo no consultado resuelva la nomenclatura.
+El acuerdo Onomástico de Gn 27–50 prevé una ficha futura colectiva `tribus/israel`, mientras que el acuerdo de Tribus menciona `tribus/israelitas` como denominación posible del pueblo paraguas. No consta en el registro maestro una ficha tribal actual con ninguno de estos IDs. **APROBADO (R-01, 25/11/2026):** ficha canónica **Israelitas** (`tribus/israelitas`), con **Israel** como variante y `tribus/israel` como remisión futura al mismo colectivo. No crear dos fichas principales. Se conserva `onomastico/jacob` para el nombre personal Israel. La ficha y la remisión se implementarán en P4.
 
 ## Validación pendiente
 
