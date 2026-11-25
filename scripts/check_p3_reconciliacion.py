@@ -54,6 +54,33 @@ def main():
         assert expected_item in ids, expected_item
     assert any(x["ref"]=="Gn 29:15" and x["literal"]=="seas" and x["accion"]=="excluir" for x in corrections)
     assert all(x["accion"]=="excluir" for x in corrections if x["codigo"]=="CT-09")
+    # El resultado derivado debe integrar cada regla una sola vez.
+    catalog = read("data/p3-catalogo-reconciliado-genesis-25-50.json")
+    records = catalog["menciones"]
+    assert len(records) == 1682
+    assert len({(x["ref"],x["start"],x["end"]) for x in records}) == len(records)
+    for x in records:
+        assert text[x["ref"]][x["start"]:x["end"]] == x["literal"], x
+    indexed = {(x["ref"],x["start"],x["end"]): x for x in records}
+    rule_keys = [(x["ref"],x["start"],x["end"]) for x in corrections]
+    assert len(rule_keys) == len(set(rule_keys)), "Reglas duplicadas sobre la misma mención"
+    for x in corrections:
+        record = indexed[(x["ref"],x["start"],x["end"])]
+        assert record["categoria"] == x["categoria"], x
+        assert record["id"] == x["id"], x
+        assert x["codigo"] in record["fuentes"], x
+        if x["accion"] in ("clasificar_sin_id","homonimo_no_identificado"):
+            assert record["id"] is None, x
+    assert not any(x["estado"] == "candidato_no_reconciliado" for x in records)
+    assert len([x for x in corrections if x["codigo"]=="CT-14"]) == 29
+    def resolved(ref, literal, id):
+        return any(x["ref"]==ref and x["literal"]==literal and x["id"]==id
+                   and "CT-14" in x["fuentes"] for x in records)
+    assert resolved("Gn 34:2","Siquem",None)
+    assert resolved("Gn 36:2","Aná","onomastico/ana-hijo-de-zibeon")
+    assert resolved("Gn 36:20","Aná","onomastico/ana-hijo-de-seir")
+    assert resolved("Gn 38:30","Zera","onomastico/zara")
+    assert resolved("Gn 36:33","Zera",None)
     assert rules["r01"]["ficha_principal"] == "tribus/israelitas"
     assert rules["r01"]["remision_futura"] == "tribus/israel"
     assert rules["r01"]["persona_distinta"] == "onomastico/jacob"
