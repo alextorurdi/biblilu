@@ -7,14 +7,14 @@
   "inventario_original": "data/p3-extracciones-genesis-25-50.json",
   "reglas": "data/p3-reconciliacion-genesis-25-50.json",
   "resumen": {
-    "total": 1972,
+    "total": 1973,
     "brutos": 1438,
-    "reconciliados": 1972,
+    "reconciliados": 1973,
     "por_estado": {
       "clasificado_por_contexto": 1847,
       "excluido_aprobado": 44,
       "nota_contextual_aprobada": 1,
-      "clasificado_sin_id": 72,
+      "clasificado_sin_id": 73,
       "exclusion_personal_aprobada": 1,
       "asociacion_contextual_aprobada": 6,
       "homonimo_no_identificado": 1
@@ -17933,6 +17933,25 @@
       "fuentes": [
         "CT-11"
       ]
+    },
+    {
+      "ref": "Gn 35:8",
+      "chapter": 35,
+      "verse": 8,
+      "start": 0,
+      "end": 6,
+      "literal": "Débora",
+      "categorias_brutas": [],
+      "candidatos_brutos": [],
+      "estado_bruto": null,
+      "estado": "clasificado_sin_id",
+      "categoria": "onomastico",
+      "id": null,
+      "accion": "clasificar_sin_id",
+      "fuentes": [
+        "CT-30"
+      ],
+      "motivo": "Débora, nodriza de Rebeca, identificada explícitamente en BES; ficha individual en Onomástico pendiente de resolución D-04. No confundir con la profetisa/jueza Débora."
     },
     {
       "ref": "Gn 35:8",
