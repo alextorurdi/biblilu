@@ -180,6 +180,13 @@ def main():
     assert any(x["ref"] == "Gn 30:14" and x["id"] == "animales/mandragora" for x in ct28)
     assert any(x["ref"] == "Gn 31:19" and x["id"] == "objetos/terafin" for x in ct28)
     assert any(x["ref"] == "Gn 49:27" and x["id"] == "animales/lobo" for x in ct28)
+    # CT-29: forma Padán y cinco falsos positivos previstos.
+    ct29 = [x for x in corrections if x["codigo"] == "CT-29"]
+    assert len(ct29) == 6
+    assert sum(x["accion"] == "excluir" for x in ct29) == 5
+    assert any(x["ref"] == "Gn 48:7" and x["literal"] == "Padán"
+               and x["id"] == "lugares/padan-aram" for x in ct29)
+    assert all(indexed[(x["ref"],x["start"],x["end"])]["id"] == x["id"] for x in ct29)
     assert rules["r01"]["ficha_principal"] == "tribus/israelitas"
     assert rules["r01"]["remision_futura"] == "tribus/israel"
     assert rules["r01"]["persona_distinta"] == "onomastico/jacob"
