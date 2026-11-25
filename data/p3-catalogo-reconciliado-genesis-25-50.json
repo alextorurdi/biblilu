@@ -11,12 +11,12 @@
     "brutos": 1438,
     "reconciliados": 1973,
     "por_estado": {
-      "clasificado_por_contexto": 1847,
+      "clasificado_por_contexto": 1803,
+      "asociacion_contextual_aprobada": 50,
       "excluido_aprobado": 44,
       "nota_contextual_aprobada": 1,
       "clasificado_sin_id": 73,
       "exclusion_personal_aprobada": 1,
-      "asociacion_contextual_aprobada": 6,
       "homonimo_no_identificado": 1
     },
     "ids_futuros": [
@@ -1804,7 +1804,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 25:26",
@@ -1873,7 +1873,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 25:27",
@@ -1988,7 +1988,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 25:29",
@@ -2011,7 +2011,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 25:29",
@@ -2080,7 +2080,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 25:30",
@@ -2121,7 +2121,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 25:32",
@@ -2167,7 +2167,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 25:33",
@@ -2213,7 +2213,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 25:34",
@@ -2236,7 +2236,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 25:34",
@@ -2367,7 +2367,7 @@
         "onomastico/abimelec"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/abimelec",
       "accion": "asociacion_contextual",
@@ -2574,7 +2574,7 @@
         "onomastico/abimelec"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/abimelec",
       "accion": "asociacion_contextual",
@@ -2666,7 +2666,7 @@
         "onomastico/abimelec"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/abimelec",
       "accion": "asociacion_contextual",
@@ -2735,7 +2735,7 @@
         "onomastico/abimelec"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/abimelec",
       "accion": "asociacion_contextual",
@@ -2758,7 +2758,7 @@
         "onomastico/abimelec"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/abimelec",
       "accion": "asociacion_contextual",
@@ -2984,7 +2984,7 @@
         "onomastico/abimelec"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/abimelec",
       "accion": "asociacion_contextual",
@@ -3673,7 +3673,7 @@
         "onomastico/abimelec"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/abimelec",
       "accion": "asociacion_contextual",
@@ -4466,7 +4466,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:6",
@@ -4531,7 +4531,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:11",
@@ -4639,7 +4639,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:14",
@@ -4727,7 +4727,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:16",
@@ -4750,7 +4750,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:16",
@@ -4812,7 +4812,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:18",
@@ -4835,7 +4835,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:18",
@@ -4881,7 +4881,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:19",
@@ -4950,7 +4950,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:21",
@@ -5019,7 +5019,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:22",
@@ -5088,7 +5088,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:22",
@@ -5203,7 +5203,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:25",
@@ -5249,7 +5249,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:25",
@@ -5315,7 +5315,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:27",
@@ -5424,7 +5424,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:30",
@@ -5447,7 +5447,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:30",
@@ -5673,7 +5673,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:37",
@@ -5891,7 +5891,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:41",
@@ -5914,7 +5914,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:42",
@@ -5983,7 +5983,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:42",
@@ -6142,7 +6142,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 27:46",
@@ -6208,7 +6208,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 28:2",
@@ -6367,7 +6367,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 28:5",
@@ -6480,7 +6480,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 28:5",
@@ -6572,7 +6572,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 28:6",
@@ -6616,7 +6616,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 28:7",
@@ -6798,7 +6798,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 28:10",
@@ -7019,7 +7019,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 28:17",
@@ -7035,7 +7035,7 @@
         "objetos/puerta"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "objetos",
       "id": "objetos/puerta",
       "accion": "asociacion_contextual",
@@ -7065,7 +7065,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 28:18",
@@ -7191,7 +7191,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 28:22",
@@ -7257,7 +7257,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:2",
@@ -7520,7 +7520,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:4",
@@ -7613,7 +7613,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:6",
@@ -7682,7 +7682,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:7",
@@ -7856,7 +7856,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:9",
@@ -7925,7 +7925,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:10",
@@ -8104,7 +8104,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:11",
@@ -8150,7 +8150,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:12",
@@ -8242,7 +8242,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:13",
@@ -8265,7 +8265,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:14",
@@ -8311,7 +8311,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:15",
@@ -8357,7 +8357,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:15",
@@ -8516,7 +8516,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:18",
@@ -8608,7 +8608,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:20",
@@ -8654,7 +8654,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:21",
@@ -8746,7 +8746,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:24",
@@ -8838,7 +8838,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:25",
@@ -8953,7 +8953,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:28",
@@ -9114,7 +9114,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 29:30",
@@ -9390,7 +9390,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:1",
@@ -9413,7 +9413,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:2",
@@ -9436,7 +9436,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:2",
@@ -9551,7 +9551,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:5",
@@ -9597,7 +9597,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:6",
@@ -9713,7 +9713,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:8",
@@ -9828,7 +9828,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:10",
@@ -9897,7 +9897,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:11",
@@ -10012,7 +10012,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:13",
@@ -10300,7 +10300,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:15",
@@ -10343,7 +10343,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:16",
@@ -10409,7 +10409,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:17",
@@ -10455,7 +10455,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:17",
@@ -10566,7 +10566,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:20",
@@ -10681,7 +10681,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:25",
@@ -10704,7 +10704,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:25",
@@ -10727,7 +10727,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:25",
@@ -10796,7 +10796,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:29",
@@ -10863,7 +10863,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:32",
@@ -11089,7 +11089,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:36",
@@ -11112,7 +11112,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:36",
@@ -11158,7 +11158,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:37",
@@ -11261,7 +11261,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:40",
@@ -11330,7 +11330,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:41",
@@ -11396,7 +11396,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:43",
@@ -11419,7 +11419,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 30:43",
@@ -11488,7 +11488,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:1",
@@ -11534,7 +11534,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:2",
@@ -11557,7 +11557,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:2",
@@ -11603,7 +11603,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:4",
@@ -11626,7 +11626,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:4",
@@ -11716,7 +11716,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:12",
@@ -11890,7 +11890,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:17",
@@ -12114,7 +12114,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:20",
@@ -12205,7 +12205,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:23",
@@ -12292,7 +12292,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:25",
@@ -12338,7 +12338,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:25",
@@ -12361,7 +12361,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:25",
@@ -12498,7 +12498,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:27",
@@ -12544,7 +12544,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:31",
@@ -12567,7 +12567,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:31",
@@ -12613,7 +12613,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:32",
@@ -12705,7 +12705,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:33",
@@ -12998,7 +12998,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:36",
@@ -13203,7 +13203,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:45",
@@ -13226,7 +13226,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:45",
@@ -13381,7 +13381,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:47",
@@ -13580,7 +13580,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:51",
@@ -13732,7 +13732,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:53",
@@ -13778,7 +13778,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 31:55",
@@ -13824,7 +13824,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:1",
@@ -13870,7 +13870,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:2",
@@ -13915,7 +13915,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:3",
@@ -14027,7 +14027,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:4",
@@ -14163,7 +14163,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:7",
@@ -14276,7 +14276,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:9",
@@ -14434,7 +14434,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:13",
@@ -14694,7 +14694,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:18",
@@ -14763,7 +14763,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:20",
@@ -14786,7 +14786,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:21",
@@ -14809,7 +14809,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:22",
@@ -14852,7 +14852,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:25",
@@ -14875,7 +14875,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:26",
@@ -14898,7 +14898,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:27",
@@ -14921,7 +14921,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:27",
@@ -14944,7 +14944,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:28",
@@ -14967,7 +14967,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:28",
@@ -15009,7 +15009,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:30",
@@ -15032,7 +15032,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:30",
@@ -15076,7 +15076,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 32:31",
@@ -15140,7 +15140,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 33:1",
@@ -15163,7 +15163,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 33:1",
@@ -15301,7 +15301,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 33:3",
@@ -15324,7 +15324,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 33:4",
@@ -15393,7 +15393,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 33:7",
@@ -15439,7 +15439,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 33:7",
@@ -15508,7 +15508,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 33:9",
@@ -15554,7 +15554,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 33:11",
@@ -15577,7 +15577,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 33:11",
@@ -15646,7 +15646,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 33:13",
@@ -15783,7 +15783,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 33:16",
@@ -15853,7 +15853,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 33:17",
@@ -15960,7 +15960,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 33:18",
@@ -16225,7 +16225,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 34:2",
@@ -16338,7 +16338,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 34:4",
@@ -16405,7 +16405,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 34:5",
@@ -16495,7 +16495,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 34:6",
@@ -16562,7 +16562,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 34:7",
@@ -16585,7 +16585,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 34:7",
@@ -16650,7 +16650,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 34:8",
@@ -16763,7 +16763,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 34:13",
@@ -16920,7 +16920,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 34:20",
@@ -17144,7 +17144,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 34:25",
@@ -17300,7 +17300,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 34:28",
@@ -17390,7 +17390,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 34:30",
@@ -17479,7 +17479,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 35:1",
@@ -17568,7 +17568,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 35:2",
@@ -17654,7 +17654,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 35:4",
@@ -17717,7 +17717,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 35:4",
@@ -17783,7 +17783,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 35:6",
@@ -17806,7 +17806,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 35:6",
@@ -17951,7 +17951,7 @@
       "fuentes": [
         "CT-30"
       ],
-      "motivo": "Débora, nodriza de Rebeca, identificada explícitamente en BES; ficha individual en Onomástico pendiente de resolución D-04. No confundir con la profetisa/jueza Débora."
+      "motivo": "D-04 opción A aprobada el 25/11/2026: Débora, nodriza de Rebeca, tendrá ficha independiente en P4 con identificador reservado onomastico/debora-nodriza-rebeca. Hasta materializar la ficha, la mención permanece clasificada sin ID enlazable; no confundir con la profetisa/jueza."
     },
     {
       "ref": "Gn 35:8",
@@ -18057,7 +18057,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 35:9",
@@ -18101,7 +18101,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 35:10",
@@ -18124,7 +18124,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 35:10",
@@ -18231,7 +18231,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 35:14",
@@ -18254,7 +18254,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 35:14",
@@ -18340,7 +18340,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 35:15",
@@ -18599,7 +18599,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 35:20",
@@ -18873,7 +18873,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 35:23",
@@ -18942,7 +18942,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 35:23",
@@ -19103,7 +19103,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 35:24",
@@ -19334,7 +19334,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 35:26",
@@ -19378,7 +19378,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 35:27",
@@ -19586,7 +19586,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 36:1",
@@ -20247,7 +20247,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 36:7",
@@ -23451,8 +23451,7 @@
       "id": "tribus/madianitas",
       "accion": "asignar",
       "fuentes": [
-        "CT-13",
-        "D-03"
+        "CT-13"
       ],
       "motivo": "D-03 opción A aprobada: ficha tribal independiente madianitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4.",
       "id_futuro": true
@@ -24155,7 +24154,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:1",
@@ -24202,7 +24201,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:2",
@@ -24225,7 +24224,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:2",
@@ -24317,7 +24316,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:3",
@@ -24359,7 +24358,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:3",
@@ -24403,7 +24402,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:6",
@@ -24426,7 +24425,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:12",
@@ -24514,7 +24513,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:13",
@@ -24583,7 +24582,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:14",
@@ -24669,7 +24668,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:14",
@@ -24715,7 +24714,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:17",
@@ -24759,7 +24758,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:17",
@@ -24911,7 +24910,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:23",
@@ -25013,8 +25012,7 @@
       "id": "tribus/ismaelitas",
       "accion": "asignar",
       "fuentes": [
-        "CT-13",
-        "D-03"
+        "CT-13"
       ],
       "motivo": "D-03 opción A aprobada: ficha tribal independiente ismaelitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4.",
       "id_futuro": true
@@ -25147,8 +25145,7 @@
       "id": "tribus/ismaelitas",
       "accion": "asignar",
       "fuentes": [
-        "CT-13",
-        "D-03"
+        "CT-13"
       ],
       "motivo": "D-03 opción A aprobada: ficha tribal independiente ismaelitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4.",
       "id_futuro": true
@@ -25170,8 +25167,7 @@
       "id": "tribus/madianitas",
       "accion": "asignar",
       "fuentes": [
-        "CT-13",
-        "D-03"
+        "CT-13"
       ],
       "motivo": "D-03 opción A aprobada: ficha tribal independiente madianitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4.",
       "id_futuro": true
@@ -25197,7 +25193,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:28",
@@ -25237,8 +25233,7 @@
       "id": "tribus/ismaelitas",
       "accion": "asignar",
       "fuentes": [
-        "CT-13",
-        "D-03"
+        "CT-13"
       ],
       "motivo": "D-03 opción A aprobada: ficha tribal independiente ismaelitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4.",
       "id_futuro": true
@@ -25287,7 +25282,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:28",
@@ -25377,7 +25372,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:31",
@@ -25440,7 +25435,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:31",
@@ -25525,7 +25520,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:33",
@@ -25569,7 +25564,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:34",
@@ -25592,7 +25587,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:35",
@@ -25615,7 +25610,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:36",
@@ -25657,8 +25652,7 @@
       "id": "tribus/madianitas",
       "accion": "asignar",
       "fuentes": [
-        "CT-13",
-        "D-03"
+        "CT-13"
       ],
       "motivo": "D-03 opción A aprobada: ficha tribal independiente madianitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4.",
       "id_futuro": true
@@ -25684,7 +25678,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 37:36",
@@ -27232,7 +27226,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:1",
@@ -27314,8 +27308,7 @@
       "id": "tribus/ismaelitas",
       "accion": "asignar",
       "fuentes": [
-        "CT-13",
-        "D-03"
+        "CT-13"
       ],
       "motivo": "D-03 opción A aprobada: ficha tribal independiente ismaelitas, sin equivalencia con Ismael/Madián personas, alta diferida a P4.",
       "id_futuro": true
@@ -27341,7 +27334,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:2",
@@ -27364,7 +27357,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:3",
@@ -27387,7 +27380,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:4",
@@ -27410,7 +27403,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:4",
@@ -27454,7 +27447,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:6",
@@ -27498,7 +27491,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:6",
@@ -27521,7 +27514,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:7",
@@ -27544,7 +27537,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:8",
@@ -27567,7 +27560,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:10",
@@ -27590,7 +27583,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:11",
@@ -27613,7 +27606,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:12",
@@ -27636,7 +27629,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:13",
@@ -27659,7 +27652,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:14",
@@ -27676,8 +27669,7 @@
       "id": "tribus/israelitas",
       "accion": "asignar",
       "fuentes": [
-        "CT-20",
-        "D-01"
+        "CT-20"
       ],
       "motivo": "D-01 opción A aprobada por el editor: Hebreo(s) como variante histórica de Israelitas, sin ficha tribal independiente; implementación en P4.",
       "id_futuro": true
@@ -27703,7 +27695,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:17",
@@ -27720,8 +27712,7 @@
       "id": "tribus/israelitas",
       "accion": "asignar",
       "fuentes": [
-        "CT-20",
-        "D-01"
+        "CT-20"
       ],
       "motivo": "D-01 opción A aprobada por el editor: Hebreo(s) como variante histórica de Israelitas, sin ficha tribal independiente; implementación en P4.",
       "id_futuro": true
@@ -27747,7 +27738,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:20",
@@ -27770,7 +27761,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:20",
@@ -27793,7 +27784,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:21",
@@ -27816,7 +27807,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:22",
@@ -27839,7 +27830,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:22",
@@ -27862,7 +27853,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 39:23",
@@ -27885,7 +27876,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 40:1",
@@ -27969,7 +27960,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 40:4",
@@ -27992,7 +27983,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 40:4",
@@ -28015,7 +28006,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 40:5",
@@ -28061,7 +28052,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 40:7",
@@ -28103,7 +28094,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 40:9",
@@ -28126,7 +28117,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 40:9",
@@ -28296,7 +28287,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 40:13",
@@ -28372,8 +28363,7 @@
       "id": "tribus/israelitas",
       "accion": "asignar",
       "fuentes": [
-        "CT-17",
-        "D-01"
+        "CT-17"
       ],
       "motivo": "D-01 opción A aprobada por el editor: Hebreo(s) como variante histórica de Israelitas, sin ficha tribal independiente; implementación en P4.",
       "id_futuro": true
@@ -28399,7 +28389,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 40:16",
@@ -28521,7 +28511,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 40:18",
@@ -28681,7 +28671,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 40:23",
@@ -28704,7 +28694,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:1",
@@ -29051,8 +29041,7 @@
       "id": "tribus/israelitas",
       "accion": "asignar",
       "fuentes": [
-        "CT-20",
-        "D-01"
+        "CT-20"
       ],
       "motivo": "D-01 opción A aprobada por el editor: Hebreo(s) como variante histórica de Israelitas, sin ficha tribal independiente; implementación en P4.",
       "id_futuro": true
@@ -29097,7 +29086,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:14",
@@ -29120,7 +29109,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:14",
@@ -29181,7 +29170,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:16",
@@ -29204,7 +29193,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:16",
@@ -29265,7 +29254,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:17",
@@ -29546,7 +29535,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:25",
@@ -29600,7 +29589,7 @@
         "animales/vaca"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "animales",
       "id": "animales/vaca",
       "accion": "asociacion_contextual",
@@ -29643,7 +29632,7 @@
         "animales/vaca"
       ],
       "estado_bruto": "flexion_por_comprobar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "animales",
       "id": "animales/vaca",
       "accion": "asociacion_contextual",
@@ -29897,7 +29886,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:41",
@@ -29983,7 +29972,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:42",
@@ -30131,7 +30120,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:44",
@@ -30215,7 +30204,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:45",
@@ -30324,7 +30313,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:45",
@@ -30370,7 +30359,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:46",
@@ -30477,7 +30466,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:49",
@@ -30500,7 +30489,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:49",
@@ -30611,7 +30600,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:51",
@@ -30634,7 +30623,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:51",
@@ -30726,7 +30715,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:54",
@@ -30837,7 +30826,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:56",
@@ -30860,7 +30849,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 41:56",
@@ -30952,7 +30941,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 42:1",
@@ -30975,7 +30964,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 42:1",
@@ -31044,7 +31033,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 42:3",
@@ -31090,7 +31079,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 42:4",
@@ -31136,7 +31125,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 42:5",
@@ -31224,7 +31213,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 42:6",
@@ -31270,7 +31259,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 42:7",
@@ -31317,7 +31306,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 42:9",
@@ -31340,7 +31329,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 42:12",
@@ -31363,7 +31352,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 42:13",
@@ -31410,7 +31399,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 42:15",
@@ -31471,7 +31460,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 42:22",
@@ -31537,7 +31526,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 42:24",
@@ -31560,7 +31549,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 42:24",
@@ -31606,7 +31595,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 42:25",
@@ -31803,7 +31792,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 42:32",
@@ -31870,7 +31859,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 42:36",
@@ -31893,7 +31882,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 42:36",
@@ -32008,7 +31997,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 43:2",
@@ -32326,7 +32315,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 43:16",
@@ -32349,7 +32338,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 43:16",
@@ -32395,7 +32384,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 43:17",
@@ -32418,7 +32407,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 43:18",
@@ -32441,7 +32430,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 43:18",
@@ -32507,7 +32496,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 43:21",
@@ -32634,7 +32623,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 43:24",
@@ -32700,7 +32689,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 43:26",
@@ -32723,7 +32712,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 43:27",
@@ -32746,7 +32735,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 43:28",
@@ -32769,7 +32758,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 43:29",
@@ -32792,7 +32781,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 43:29",
@@ -32838,7 +32827,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 43:32",
@@ -32861,7 +32850,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 43:32",
@@ -32924,8 +32913,7 @@
       "id": "tribus/israelitas",
       "accion": "asignar",
       "fuentes": [
-        "CT-17",
-        "D-01"
+        "CT-17"
       ],
       "motivo": "D-01 opción A aprobada por el editor: Hebreo(s) como variante histórica de Israelitas, sin ficha tribal independiente; implementación en P4.",
       "id_futuro": true
@@ -32951,7 +32939,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 43:34",
@@ -32974,7 +32962,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 43:34",
@@ -33040,7 +33028,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 44:1",
@@ -33063,7 +33051,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 44:1",
@@ -33192,7 +33180,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 44:3",
@@ -33238,7 +33226,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 44:5",
@@ -33546,7 +33534,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 44:15",
@@ -33569,7 +33557,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 44:16",
@@ -33636,7 +33624,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 44:17",
@@ -33703,7 +33691,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 44:18",
@@ -33745,7 +33733,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 45:1",
@@ -33768,7 +33756,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 45:2",
@@ -33833,7 +33821,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 45:3",
@@ -33856,7 +33844,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 45:4",
@@ -33879,7 +33867,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 45:4",
@@ -33902,7 +33890,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 45:4",
@@ -33990,7 +33978,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 45:9",
@@ -34147,7 +34135,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 45:14",
@@ -34216,7 +34204,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 45:15",
@@ -34239,7 +34227,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 45:16",
@@ -34262,7 +34250,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 45:16",
@@ -34342,7 +34330,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 45:17",
@@ -34497,7 +34485,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 45:21",
@@ -34718,7 +34706,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 45:26",
@@ -34741,7 +34729,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 45:26",
@@ -34787,7 +34775,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 45:27",
@@ -34810,7 +34798,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 45:27",
@@ -34854,7 +34842,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 45:28",
@@ -34896,7 +34884,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:1",
@@ -35003,7 +34991,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:2",
@@ -35026,7 +35014,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:3",
@@ -35095,7 +35083,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:5",
@@ -35118,7 +35106,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:5",
@@ -35249,7 +35237,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:6",
@@ -35336,7 +35324,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:8",
@@ -35382,7 +35370,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:9",
@@ -36268,7 +36256,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:15",
@@ -36795,7 +36783,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:19",
@@ -36841,7 +36829,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:19",
@@ -36864,7 +36852,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:19",
@@ -36998,7 +36986,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:20",
@@ -37345,7 +37333,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:23",
@@ -37599,7 +37587,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:26",
@@ -37622,7 +37610,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:26",
@@ -37668,7 +37656,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:27",
@@ -37714,7 +37702,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:27",
@@ -37760,7 +37748,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:28",
@@ -37806,7 +37794,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:28",
@@ -37871,7 +37859,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:29",
@@ -37974,7 +37962,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:31",
@@ -37997,7 +37985,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 46:31",
@@ -38214,7 +38202,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:1",
@@ -38345,7 +38333,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:2",
@@ -38470,7 +38458,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:6",
@@ -38558,7 +38546,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:7",
@@ -38581,7 +38569,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:7",
@@ -38623,7 +38611,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:7",
@@ -38684,7 +38672,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:9",
@@ -38707,7 +38695,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:10",
@@ -38730,7 +38718,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:10",
@@ -38772,7 +38760,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:11",
@@ -38857,7 +38845,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:13",
@@ -38927,7 +38915,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:14",
@@ -39086,7 +39074,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:16",
@@ -39109,7 +39097,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:16",
@@ -39174,7 +39162,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:17",
@@ -39326,7 +39314,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:20",
@@ -39433,7 +39421,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:21",
@@ -39517,7 +39505,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:23",
@@ -39618,7 +39606,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:26",
@@ -39786,7 +39774,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:28",
@@ -39851,7 +39839,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:29",
@@ -39920,7 +39908,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:31",
@@ -39962,7 +39950,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 47:31",
@@ -40024,7 +40012,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 48:1",
@@ -40047,7 +40035,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 48:1",
@@ -40063,7 +40051,7 @@
         "onomastico/manases"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/manases",
       "accion": "asociacion_contextual",
@@ -40086,7 +40074,7 @@
         "onomastico/efrain"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/efrain",
       "accion": "asociacion_contextual",
@@ -40116,7 +40104,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 48:2",
@@ -40139,7 +40127,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 48:2",
@@ -40201,7 +40189,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 48:3",
@@ -40224,7 +40212,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 48:3",
@@ -40284,7 +40272,7 @@
         "onomastico/efrain"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/efrain",
       "accion": "asociacion_contextual",
@@ -40307,7 +40295,7 @@
         "onomastico/manases"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/manases",
       "accion": "asociacion_contextual",
@@ -40353,7 +40341,7 @@
         "onomastico/ruben"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/ruben",
       "accion": "asociacion_contextual",
@@ -40376,7 +40364,7 @@
         "onomastico/simeon"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/simeon",
       "accion": "asociacion_contextual",
@@ -40575,7 +40563,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 48:9",
@@ -40598,7 +40586,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 48:9",
@@ -40659,7 +40647,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 48:10",
@@ -40720,7 +40708,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 48:12",
@@ -40743,7 +40731,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 48:12",
@@ -40766,7 +40754,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 48:13",
@@ -40782,7 +40770,7 @@
         "onomastico/efrain"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/efrain",
       "accion": "asociacion_contextual",
@@ -40824,7 +40812,7 @@
         "onomastico/manases"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/manases",
       "accion": "asociacion_contextual",
@@ -40885,7 +40873,7 @@
         "onomastico/efrain"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/efrain",
       "accion": "asociacion_contextual",
@@ -40908,7 +40896,7 @@
         "onomastico/manases"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/manases",
       "accion": "asociacion_contextual",
@@ -40938,7 +40926,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 48:15",
@@ -41053,7 +41041,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 48:17",
@@ -41069,7 +41057,7 @@
         "onomastico/efrain"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/efrain",
       "accion": "asociacion_contextual",
@@ -41092,7 +41080,7 @@
         "onomastico/efrain"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/efrain",
       "accion": "asociacion_contextual",
@@ -41115,7 +41103,7 @@
         "onomastico/manases"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/manases",
       "accion": "asociacion_contextual",
@@ -41145,7 +41133,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 48:20",
@@ -41180,7 +41168,7 @@
         "onomastico/efrain"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/efrain",
       "accion": "asociacion_contextual",
@@ -41203,7 +41191,7 @@
         "onomastico/manases"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/manases",
       "accion": "asociacion_contextual",
@@ -41226,7 +41214,7 @@
         "onomastico/efrain"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/efrain",
       "accion": "asociacion_contextual",
@@ -41249,7 +41237,7 @@
         "onomastico/manases"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/manases",
       "accion": "asociacion_contextual",
@@ -41298,7 +41286,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 48:22",
@@ -41314,7 +41302,7 @@
         "tribus/amorreos"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "tribus",
       "id": "tribus/amorreos",
       "accion": "asociacion_contextual",
@@ -41385,7 +41373,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 49:2",
@@ -41408,7 +41396,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 49:2",
@@ -41443,7 +41431,7 @@
         "onomastico/ruben"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/ruben",
       "accion": "asociacion_contextual",
@@ -41506,7 +41494,7 @@
         "onomastico/simeon"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/simeon",
       "accion": "asociacion_contextual",
@@ -41529,7 +41517,7 @@
         "onomastico/levi"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/levi",
       "accion": "asociacion_contextual",
@@ -41572,7 +41560,7 @@
         "onomastico/jacob"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/jacob",
       "accion": "asociacion_contextual",
@@ -41614,7 +41602,7 @@
         "onomastico/juda"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/juda",
       "accion": "asociacion_contextual",
@@ -41637,7 +41625,7 @@
         "onomastico/juda"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/juda",
       "accion": "asociacion_contextual",
@@ -41765,7 +41753,7 @@
         "animales/asno"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "animales",
       "id": "animales/asno",
       "accion": "asociacion_contextual",
@@ -41788,7 +41776,7 @@
         "animales/vid"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "animales",
       "id": "animales/vid",
       "accion": "asociacion_contextual",
@@ -41984,7 +41972,7 @@
         "animales/asno"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "animales",
       "id": "animales/asno",
       "accion": "asociacion_contextual",
@@ -42211,7 +42199,7 @@
         "onomastico/jose"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/jose",
       "accion": "asociacion_contextual",
@@ -42255,7 +42243,7 @@
         "onomastico/jacob"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/jacob",
       "accion": "asociacion_contextual",
@@ -42297,7 +42285,7 @@
         "onomastico/jose"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/jose",
       "accion": "asociacion_contextual",
@@ -42383,7 +42371,7 @@
         "onomastico/efron"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/efron",
       "accion": "asociacion_contextual",
@@ -42426,7 +42414,7 @@
         "lugares/macpela"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "lugares",
       "id": "lugares/macpela",
       "accion": "asociacion_contextual",
@@ -42520,7 +42508,7 @@
         "onomastico/efron"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/efron",
       "accion": "asociacion_contextual",
@@ -42586,7 +42574,7 @@
         "onomastico/sara"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "clasificado_por_contexto",
+      "estado": "asociacion_contextual_aprobada",
       "categoria": "onomastico",
       "id": "onomastico/sara",
       "accion": "asociacion_contextual",
@@ -42705,7 +42693,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 49:33",
@@ -42748,7 +42736,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:2",
@@ -42771,7 +42759,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:3",
@@ -42817,7 +42805,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:4",
@@ -42840,7 +42828,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:4",
@@ -42965,7 +42953,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:7",
@@ -43030,7 +43018,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:8",
@@ -43182,7 +43170,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:11",
@@ -43338,7 +43326,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:13",
@@ -43498,7 +43486,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:14",
@@ -43544,7 +43532,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:15",
@@ -43567,7 +43555,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:16",
@@ -43590,7 +43578,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:17",
@@ -43613,7 +43601,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:17",
@@ -43636,7 +43624,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:19",
@@ -43659,7 +43647,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:22",
@@ -43682,7 +43670,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:22",
@@ -43797,7 +43785,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:24",
@@ -43866,7 +43854,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:25",
@@ -43889,7 +43877,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:25",
@@ -43930,7 +43918,7 @@
       "fuentes": [
         "CT-21"
       ],
-      "motivo": "Referente personal comprobado; no equivale a una ficha nueva."
+      "motivo": "Identidad contextual inequívoca del patriarca Jacob o de José hijo de Jacob; verificación textual de mención nominal, no aprobación de recursos P4."
     },
     {
       "ref": "Gn 50:26",
