@@ -21312,6 +21312,72 @@
       "start": 20,
       "end": 24,
       "motivo": "Ficha aprobada en revisión editorial P3; enlace material y redacción pendientes de P4."
+    },
+    {
+      "codigo": "CT-29",
+      "ref": "Gn 48:7",
+      "literal": "Padán",
+      "categoria": "lugares",
+      "id": "lugares/padan-aram",
+      "accion": "asignar",
+      "start": 23,
+      "end": 28,
+      "motivo": "Forma abreviada de Padán-aram en contexto del viaje de regreso de Jacob, según alta geográfica aprobada."
+    },
+    {
+      "codigo": "CT-29",
+      "ref": "Gn 28:14",
+      "literal": "sur",
+      "categoria": "lugares",
+      "id": null,
+      "accion": "excluir",
+      "start": 102,
+      "end": 105,
+      "motivo": "Punto cardinal, no topónimo Sur (Shur), de acuerdo con revisión Lugares."
+    },
+    {
+      "codigo": "CT-29",
+      "ref": "Gn 27:35",
+      "literal": "vino",
+      "categoria": "materiales",
+      "id": null,
+      "accion": "excluir",
+      "start": 29,
+      "end": 33,
+      "motivo": "Forma del verbo venir, no material vino."
+    },
+    {
+      "codigo": "CT-29",
+      "ref": "Gn 31:24",
+      "literal": "vino",
+      "categoria": "materiales",
+      "id": null,
+      "accion": "excluir",
+      "start": 10,
+      "end": 14,
+      "motivo": "Forma del verbo venir, no material vino."
+    },
+    {
+      "codigo": "CT-29",
+      "ref": "Gn 31:13",
+      "literal": "sal",
+      "categoria": "materiales",
+      "id": null,
+      "accion": "excluir",
+      "start": 100,
+      "end": 103,
+      "motivo": "Imperativo del verbo salir, no sal como materia."
+    },
+    {
+      "codigo": "CT-29",
+      "ref": "Gn 30:17",
+      "literal": "quinto",
+      "categoria": "medidas",
+      "id": null,
+      "accion": "excluir",
+      "start": 59,
+      "end": 65,
+      "motivo": "Ordinal del quinto hijo, no unidad tributaria Quinto."
     }
   ],
   "nota": "Esta capa conserva intacto el barrido bruto; los IDs futuros no son rutas publicadas. Excluir y nota_contextual no equivalen a enlaces literales.\nCT-17 (25/11/2026): 39 apariciones recuperadas por auditoría dirigida; sin cambios en fichas ni texto BES. Los gentilicios hebreos y cadena se clasifican sin ID; P4 establecerá enlaces autorizados.",
