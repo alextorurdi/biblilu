@@ -134,6 +134,13 @@ def main():
     assert "onomastico/faraon" in historical_ids
     assert all(x["id"] == "onomastico/faraon" and x["categoria"] == "onomastico" for x in ct22)
     assert sum("CT-22" in x["fuentes"] for x in records) == 74
+    # CT-23: siete identidades personales ya existentes en Onomástico.
+    ct23 = [x for x in corrections if x["codigo"] == "CT-23"]
+    assert len(ct23) == 330
+    assert {x["id"] for x in ct23} == {"onomastico/esau", "onomastico/isaac",
+        "onomastico/laban", "onomastico/raquel", "onomastico/lea",
+        "onomastico/abraham", "onomastico/rebeca"}
+    assert all(x["accion"] == "validar_identidad" and x["id"] in historical_ids for x in ct23)
     assert rules["r01"]["ficha_principal"] == "tribus/israelitas"
     assert rules["r01"]["remision_futura"] == "tribus/israel"
     assert rules["r01"]["persona_distinta"] == "onomastico/jacob"
