@@ -3866,6 +3866,83 @@
       "id": "onomastico/zara",
       "accion": "asignar",
       "motivo": "Zera hijo de Judá y Tamar = Zara en RVR/registro histórico."
+    },
+    {
+      "codigo": "CT-15",
+      "ref": "Gn 49:10",
+      "literal": "Judá",
+      "categoria": "tribus",
+      "id": "tribus/juda",
+      "accion": "asignar",
+      "start": 27,
+      "end": 31,
+      "motivo": "Proyección colectiva/territorial de la bendición de Génesis 49; TR-29, sin fusionar con la ficha personal."
+    },
+    {
+      "codigo": "CT-15",
+      "ref": "Gn 49:13",
+      "literal": "Zabulón",
+      "categoria": "tribus",
+      "id": "tribus/zabulon",
+      "accion": "asignar",
+      "start": 0,
+      "end": 7,
+      "motivo": "Proyección colectiva/territorial de la bendición de Génesis 49; TR-29, sin fusionar con la ficha personal."
+    },
+    {
+      "codigo": "CT-15",
+      "ref": "Gn 49:14",
+      "literal": "Isacar",
+      "categoria": "tribus",
+      "id": "tribus/isacar",
+      "accion": "asignar",
+      "start": 0,
+      "end": 6,
+      "motivo": "Proyección colectiva/territorial de la bendición de Génesis 49; TR-29, sin fusionar con la ficha personal."
+    },
+    {
+      "codigo": "CT-15",
+      "ref": "Gn 49:19",
+      "literal": "Gad",
+      "categoria": "tribus",
+      "id": "tribus/gad",
+      "accion": "asignar",
+      "start": 0,
+      "end": 3,
+      "motivo": "Proyección colectiva/territorial de la bendición de Génesis 49; TR-29, sin fusionar con la ficha personal."
+    },
+    {
+      "codigo": "CT-15",
+      "ref": "Gn 49:20",
+      "literal": "Aser",
+      "categoria": "tribus",
+      "id": "tribus/aser",
+      "accion": "asignar",
+      "start": 0,
+      "end": 4,
+      "motivo": "Proyección colectiva/territorial de la bendición de Génesis 49; TR-29, sin fusionar con la ficha personal."
+    },
+    {
+      "codigo": "CT-15",
+      "ref": "Gn 49:21",
+      "literal": "Neftalí",
+      "categoria": "tribus",
+      "id": "tribus/neftali",
+      "accion": "asignar",
+      "start": 0,
+      "end": 7,
+      "motivo": "Proyección colectiva/territorial de la bendición de Génesis 49; TR-29, sin fusionar con la ficha personal."
+    },
+    {
+      "codigo": "CT-15",
+      "ref": "Gn 49:27",
+      "literal": "Benjamín",
+      "categoria": "tribus",
+      "id": "tribus/benjamin",
+      "accion": "asignar",
+      "start": 0,
+      "end": 8,
+      "motivo": "Proyección colectiva/territorial de la bendición de Génesis 49; TR-29, sin fusionar con la ficha personal."
     }
   ],
   "nota": "Esta capa conserva intacto el barrido bruto; los IDs futuros no son rutas publicadas. Excluir y nota_contextual no equivalen a enlaces literales."

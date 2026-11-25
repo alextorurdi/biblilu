@@ -9,10 +9,10 @@
   "resumen": {
     "total": 1682,
     "brutos": 1438,
-    "reconciliados": 380,
+    "reconciliados": 387,
     "por_estado": {
-      "candidato_unico_no_validado": 1302,
-      "clasificado_por_contexto": 292,
+      "candidato_unico_no_validado": 1295,
+      "clasificado_por_contexto": 299,
       "excluido_aprobado": 38,
       "nota_contextual_aprobada": 1,
       "clasificado_sin_id": 45,
@@ -60,9 +60,16 @@
       "onomastico/ahuzat",
       "onomastico/ana-hijo-de-zibeon",
       "onomastico/beeri-heteo",
+      "tribus/aser",
+      "tribus/benjamin",
       "tribus/dan",
       "tribus/edomitas",
-      "tribus/israelitas"
+      "tribus/gad",
+      "tribus/isacar",
+      "tribus/israelitas",
+      "tribus/juda",
+      "tribus/neftali",
+      "tribus/zabulon"
     ]
   },
   "menciones": [
@@ -32589,11 +32596,15 @@
         "onomastico/juda"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "onomastico",
-      "id": "onomastico/juda",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/juda",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-15"
+      ],
+      "motivo": "Proyección colectiva/territorial de la bendición de Génesis 49; TR-29, sin fusionar con la ficha personal.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 49:11",
@@ -32670,11 +32681,15 @@
         "onomastico/zabulon"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "onomastico",
-      "id": "onomastico/zabulon",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/zabulon",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-15"
+      ],
+      "motivo": "Proyección colectiva/territorial de la bendición de Génesis 49; TR-29, sin fusionar con la ficha personal.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 49:13",
@@ -32714,11 +32729,15 @@
         "onomastico/isacar"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "onomastico",
-      "id": "onomastico/isacar",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/isacar",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-15"
+      ],
+      "motivo": "Proyección colectiva/territorial de la bendición de Génesis 49; TR-29, sin fusionar con la ficha personal.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 49:14",
@@ -32846,11 +32865,15 @@
         "onomastico/gad"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "onomastico",
-      "id": "onomastico/gad",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/gad",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-15"
+      ],
+      "motivo": "Proyección colectiva/territorial de la bendición de Génesis 49; TR-29, sin fusionar con la ficha personal.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 49:20",
@@ -32866,11 +32889,15 @@
         "onomastico/aser"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "onomastico",
-      "id": "onomastico/aser",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/aser",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-15"
+      ],
+      "motivo": "Proyección colectiva/territorial de la bendición de Génesis 49; TR-29, sin fusionar con la ficha personal.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 49:21",
@@ -32886,11 +32913,15 @@
         "onomastico/neftali"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "onomastico",
-      "id": "onomastico/neftali",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/neftali",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-15"
+      ],
+      "motivo": "Proyección colectiva/territorial de la bendición de Génesis 49; TR-29, sin fusionar con la ficha personal.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 49:22",
@@ -33006,11 +33037,15 @@
         "onomastico/benjamin"
       ],
       "estado_bruto": "ficha_existente_por_verificar",
-      "estado": "candidato_unico_no_validado",
-      "categoria": "onomastico",
-      "id": "onomastico/benjamin",
-      "accion": null,
-      "fuentes": []
+      "estado": "clasificado_por_contexto",
+      "categoria": "tribus",
+      "id": "tribus/benjamin",
+      "accion": "asignar",
+      "fuentes": [
+        "CT-15"
+      ],
+      "motivo": "Proyección colectiva/territorial de la bendición de Génesis 49; TR-29, sin fusionar con la ficha personal.",
+      "id_futuro": true
     },
     {
       "ref": "Gn 49:28",
