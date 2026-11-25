@@ -191,9 +191,12 @@ def main():
     ct30 = [x for x in corrections if x["codigo"] == "CT-30"]
     assert len(ct30) == 1
     assert ct30[0]["ref"] == "Gn 35:8" and ct30[0]["literal"] == "Débora"
-    assert ct30[0]["id"] is None and ct30[0]["categoria"] == "onomastico"
-    assert rules["d04"]["estado"] == "pendiente_editor"
-    assert indexed[("Gn 35:8", 0, 6)]["id"] is None
+    assert ct30[0]["id"] == "onomastico/debora-nodriza-rebeca" and ct30[0]["categoria"] == "onomastico"
+    assert ct30[0]["accion"] == "asignar"
+    assert rules["d04"]["estado"] == "aprobada" and rules["d04"]["opcion"] == "A"
+    assert rules["d04"]["id"] == "onomastico/debora-nodriza-rebeca"
+    assert indexed[("Gn 35:8", 0, 6)]["id"] == "onomastico/debora-nodriza-rebeca"
+    assert "onomastico/debora-nodriza-rebeca" not in historical_ids
     assert rules["r01"]["ficha_principal"] == "tribus/israelitas"
     assert rules["r01"]["remision_futura"] == "tribus/israel"
     assert rules["r01"]["persona_distinta"] == "onomastico/jacob"
